@@ -5,20 +5,27 @@
     <link>https://parisien-90.vercel.app/</link>
     <description>Actualite PSG, mercato et transfert Paris Saint-Germain.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Wed, 15 Jul 2026 16:56:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 18:32:41 +0200</lastBuildDate>
     <item>
-      <title>Transfert PSG : les dossiers a suivre</title>
-      <link>https://parisien-90.vercel.app/transfert-psg/</link>
-      <guid>https://parisien-90.vercel.app/transfert-psg/</guid>
-      <pubDate>Wed, 15 Jul 2026 16:56:00 +0200</pubDate>
-      <description>Arrivees, departs, rumeurs et officialisations du PSG.</description>
+      <title>Digne au PSG : bonne affaire ou mercato trop sage ?</title>
+      <link>https://parisien-90.vercel.app/mercato-psg/</link>
+      <guid>https://parisien-90.vercel.app/news/digne-retour-psg</guid>
+      <pubDate>Wed, 15 Jul 2026 18:32:41 +0200</pubDate>
+      <description>Lucas Digne est annonce proche d'un retour au PSG, avec un accord pour trois saisons apres la Coupe du monde.</description>
     </item>
     <item>
-      <title>Mercato PSG en direct</title>
+      <title>Mbaye suivi par Dortmund : Paris joue-t-il avec le feu ?</title>
       <link>https://parisien-90.vercel.app/mercato-psg/</link>
-      <guid>https://parisien-90.vercel.app/mercato-psg/</guid>
-      <pubDate>Wed, 15 Jul 2026 16:40:00 +0200</pubDate>
-      <description>Rumeurs et tendances du mercato du Paris Saint-Germain.</description>
+      <guid>https://parisien-90.vercel.app/news/mbaye-dortmund</guid>
+      <pubDate>Wed, 15 Jul 2026 15:13:00 +0200</pubDate>
+      <description>Dortmund s'est renseigne sur Ibrahim Mbaye, jeune ailier du PSG tres courtise.</description>
+    </item>
+    <item>
+      <title>Histoire du PSG : palmares et legendes</title>
+      <link>https://parisien-90.vercel.app/histoire-psg/</link>
+      <guid>https://parisien-90.vercel.app/histoire-psg/</guid>
+      <pubDate>Wed, 15 Jul 2026 18:32:41 +0200</pubDate>
+      <description>La page pilier sur l'histoire du Paris Saint-Germain, ses titres et ses plus grands joueurs.</description>
     </item>
   </channel>
 </rss>

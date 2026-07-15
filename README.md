@@ -16,6 +16,7 @@ Refonte complète d'un site d'actualité PSG inspirée de l'audit de footparisie
 - Un tableau mercato synthétique avec probabilité, tendance et statut.
 - Des modules latéraux pour matchs, fiabilité des sources et briefing.
 - Une page Sources PSG qui distingue le lien autorise, la veille manuelle et les usages qui demandent accord/licence.
+- Une page Histoire PSG pour le contenu evergreen : origines, palmares, epoques et legendes.
 - Une base Vite statique multi-pages prête à déployer sur Vercel.
 
 ## Commandes

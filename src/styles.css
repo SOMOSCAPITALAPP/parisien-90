@@ -990,6 +990,141 @@ main {
   font-weight: 900;
 }
 
+.hot-grid,
+.timeline,
+.legend-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.hot-grid {
+  grid-template-columns: 1.2fr repeat(3, minmax(0, 1fr));
+}
+
+.news-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-height: 270px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.news-card.is-lead {
+  color: #fff;
+  background:
+    linear-gradient(135deg, rgba(9, 17, 31, 0.98), rgba(17, 85, 204, 0.84)),
+    var(--night);
+}
+
+.news-card h3 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.12;
+}
+
+.news-card p {
+  margin: 0;
+  color: #4c5868;
+  line-height: 1.55;
+}
+
+.news-card.is-lead p {
+  color: #dce6f1;
+}
+
+.news-card a {
+  align-self: end;
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.news-card.is-lead a {
+  color: #fff;
+}
+
+.news-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.news-card.is-lead .news-topline {
+  color: #fff;
+}
+
+.news-topline strong {
+  color: var(--teal);
+}
+
+.news-card.is-lead .news-topline strong {
+  color: #fff;
+}
+
+.source-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.source-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 12px;
+  border-radius: 8px;
+  background: var(--night);
+  color: #fff;
+  font-weight: 900;
+}
+
+.timeline {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.timeline article,
+.legend-grid article {
+  min-height: 180px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.timeline time,
+.legend-grid span {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.timeline h3,
+.legend-grid h3 {
+  margin: 8px 0;
+  font-size: 22px;
+  line-height: 1.15;
+}
+
+.timeline p,
+.legend-grid p {
+  margin: 0;
+  color: #4c5868;
+  line-height: 1.55;
+}
+
+.legend-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -1028,7 +1163,10 @@ main {
   }
 
   .method-list,
-  .source-directory {
+  .source-directory,
+  .hot-grid,
+  .timeline,
+  .legend-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1125,7 +1263,10 @@ main {
   .topic-grid,
   .fixture-grid,
   .method-list,
-  .source-directory {
+  .source-directory,
+  .hot-grid,
+  .timeline,
+  .legend-grid {
     grid-template-columns: 1fr;
   }
 

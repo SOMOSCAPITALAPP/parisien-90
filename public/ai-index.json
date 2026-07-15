@@ -42,6 +42,12 @@
       "title": "Sources PSG : liens fiables pour l'actualite et le mercato",
       "intent": "Identifier les sources fiables pour suivre le PSG sans reprendre abusivement les contenus tiers",
       "queries": ["sources PSG", "liens PSG", "sources mercato PSG", "medias PSG fiables"]
+    },
+    {
+      "url": "https://parisien-90.vercel.app/histoire-psg/",
+      "title": "Histoire du PSG : palmares, legendes et grands joueurs",
+      "intent": "Comprendre l'histoire, le palmares et les joueurs majeurs du Paris Saint-Germain",
+      "queries": ["histoire PSG", "palmares PSG", "plus grands joueurs PSG", "legendes PSG"]
     }
   ]
 }

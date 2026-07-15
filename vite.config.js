@@ -11,7 +11,8 @@ export default defineConfig({
         actualitePsg: resolve(__dirname, "actualite-psg/index.html"),
         calendrierPsg: resolve(__dirname, "calendrier-psg/index.html"),
         joueursPsg: resolve(__dirname, "joueurs-psg/index.html"),
-        sourcesPsg: resolve(__dirname, "sources-psg/index.html")
+        sourcesPsg: resolve(__dirname, "sources-psg/index.html"),
+        histoirePsg: resolve(__dirname, "histoire-psg/index.html")
       }
     }
   }
