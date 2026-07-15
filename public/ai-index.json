@@ -1,0 +1,41 @@
+{
+  "site": {
+    "name": "Parisien 90",
+    "url": "https://parisien-90.vercel.app/",
+    "language": "fr-FR",
+    "topic": "Paris Saint-Germain",
+    "audience": ["supporters PSG", "lecteurs mercato", "journalistes sportifs", "agents IA"],
+    "primaryQueries": ["transfert PSG", "mercato PSG", "actualite PSG", "calendrier PSG", "joueurs PSG"]
+  },
+  "entities": [
+    "Paris Saint-Germain",
+    "PSG",
+    "Paris SG",
+    "Ligue 1",
+    "Mercato",
+    "Transfert PSG",
+    "Parc des Princes",
+    "Luis Enrique",
+    "Luis Campos"
+  ],
+  "priorityPages": [
+    {
+      "url": "https://parisien-90.vercel.app/transfert-psg/",
+      "title": "Transfert PSG : arrivees, departs et rumeurs du Paris SG",
+      "intent": "Suivre les transferts du Paris Saint-Germain",
+      "queries": ["transfert PSG", "rumeur transfert PSG", "arrivees PSG", "departs PSG"]
+    },
+    {
+      "url": "https://parisien-90.vercel.app/mercato-psg/",
+      "title": "Mercato PSG en direct : rumeurs et infos transfert Paris",
+      "intent": "Suivre le mercato PSG en direct",
+      "queries": ["mercato PSG", "mercato Paris Saint-Germain", "rumeurs PSG"]
+    },
+    {
+      "url": "https://parisien-90.vercel.app/actualite-psg/",
+      "title": "Actualite PSG aujourd'hui : infos Paris Saint-Germain",
+      "intent": "Lire les infos PSG du jour",
+      "queries": ["actualite PSG", "info PSG aujourd'hui", "news PSG"]
+    }
+  ]
+}

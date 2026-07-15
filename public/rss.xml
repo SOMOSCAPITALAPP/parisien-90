@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Parisien 90 - Actu PSG</title>
+    <link>https://parisien-90.vercel.app/</link>
+    <description>Actualite PSG, mercato et transfert Paris Saint-Germain.</description>
+    <language>fr-FR</language>
+    <lastBuildDate>Wed, 15 Jul 2026 16:56:00 +0200</lastBuildDate>
+    <item>
+      <title>Transfert PSG : les dossiers a suivre</title>
+      <link>https://parisien-90.vercel.app/transfert-psg/</link>
+      <guid>https://parisien-90.vercel.app/transfert-psg/</guid>
+      <pubDate>Wed, 15 Jul 2026 16:56:00 +0200</pubDate>
+      <description>Arrivees, departs, rumeurs et officialisations du PSG.</description>
+    </item>
+    <item>
+      <title>Mercato PSG en direct</title>
+      <link>https://parisien-90.vercel.app/mercato-psg/</link>
+      <guid>https://parisien-90.vercel.app/mercato-psg/</guid>
+      <pubDate>Wed, 15 Jul 2026 16:40:00 +0200</pubDate>
+      <description>Rumeurs et tendances du mercato du Paris Saint-Germain.</description>
+    </item>
+  </channel>
+</rss>
