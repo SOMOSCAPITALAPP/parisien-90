@@ -1068,6 +1068,154 @@ main {
   color: #fff;
 }
 
+.share-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(16, 35, 63, 0.1);
+}
+
+.share-label,
+.share-status {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.share-status {
+  min-width: 70px;
+  color: var(--green);
+}
+
+.share-button,
+.share-link,
+.share-more summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  min-width: 30px;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: #10233f;
+  font-size: 12px;
+  font-weight: 950;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+  transition:
+    border-color 0.16s ease,
+    background 0.16s ease,
+    color 0.16s ease,
+    transform 0.16s ease;
+}
+
+.share-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.share-more {
+  position: relative;
+}
+
+.share-more-panel {
+  display: none;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 6px;
+}
+
+.share-more[open] {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.share-more[open] .share-more-panel {
+  display: flex;
+}
+
+.share-copy {
+  min-width: 58px;
+}
+
+.share-button:hover,
+.share-link:hover,
+.share-button:focus-visible,
+.share-link:focus-visible,
+.share-more summary:hover,
+.share-more summary:focus-visible {
+  border-color: var(--blue);
+  background: #eef5ff;
+  color: var(--blue);
+  transform: translateY(-1px);
+}
+
+.share-button:focus-visible,
+.share-link:focus-visible,
+.share-more summary:focus-visible {
+  outline: 3px solid rgba(17, 85, 204, 0.18);
+  outline-offset: 2px;
+}
+
+.news-card .share-actions,
+.story-card .share-actions,
+.source-card .share-actions,
+.topic-card .share-actions,
+.fixture-item .share-actions {
+  align-self: end;
+}
+
+.news-card.is-lead .share-actions {
+  border-top-color: rgba(255, 255, 255, 0.22);
+}
+
+.news-card.is-lead .share-label,
+.news-card.is-lead .share-status {
+  color: #dce6f1;
+}
+
+.news-card.is-lead .share-button,
+.news-card.is-lead .share-link,
+.news-card.is-lead .share-more summary {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.news-card.is-lead .share-button:hover,
+.news-card.is-lead .share-link:hover,
+.news-card.is-lead .share-button:focus-visible,
+.news-card.is-lead .share-link:focus-visible,
+.news-card.is-lead .share-more summary:hover,
+.news-card.is-lead .share-more summary:focus-visible {
+  border-color: #fff;
+  background: #fff;
+  color: var(--blue);
+}
+
+.live-item .share-actions {
+  grid-column: 2 / -1;
+  margin-top: -2px;
+}
+
+.transfer-card .share-actions {
+  grid-column: 1 / -1;
+}
+
+.is-share-target {
+  box-shadow: 0 0 0 3px rgba(17, 85, 204, 0.16);
+}
+
 .source-actions {
   display: flex;
   flex-wrap: wrap;
@@ -1285,6 +1433,11 @@ main {
   .live-item {
     grid-template-columns: 1fr;
     align-items: start;
+  }
+
+  .live-item .share-actions {
+    grid-column: 1 / -1;
+    margin-top: 0;
   }
 
   .reliability {
