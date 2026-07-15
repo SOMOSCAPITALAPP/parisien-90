@@ -15,7 +15,8 @@ Refonte complète d'un site d'actualité PSG inspirée de l'audit de footparisie
 - Un flux filtrable par catégorie avec recherche.
 - Un tableau mercato synthétique avec probabilité, tendance et statut.
 - Des modules latéraux pour matchs, fiabilité des sources et briefing.
-- Une base Vite + React prête à déployer sur Vercel.
+- Une page Sources PSG qui distingue le lien autorise, la veille manuelle et les usages qui demandent accord/licence.
+- Une base Vite statique multi-pages prête à déployer sur Vercel.
 
 ## Commandes
 

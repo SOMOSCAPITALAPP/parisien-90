@@ -36,6 +36,12 @@
       "title": "Actualite PSG aujourd'hui : infos Paris Saint-Germain",
       "intent": "Lire les infos PSG du jour",
       "queries": ["actualite PSG", "info PSG aujourd'hui", "news PSG"]
+    },
+    {
+      "url": "https://parisien-90.vercel.app/sources-psg/",
+      "title": "Sources PSG : liens fiables pour l'actualite et le mercato",
+      "intent": "Identifier les sources fiables pour suivre le PSG sans reprendre abusivement les contenus tiers",
+      "queries": ["sources PSG", "liens PSG", "sources mercato PSG", "medias PSG fiables"]
     }
   ]
 }
