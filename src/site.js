@@ -119,7 +119,7 @@ const buildShareActions = (article, title, url) => {
     <a class="share-link" data-share-channel="fb" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Facebook">FB</a>
     <a class="share-link" data-share-channel="wa" target="_blank" rel="noopener noreferrer" aria-label="Partager sur WhatsApp">WA</a>
     <details class="share-more">
-      <summary aria-label="Afficher plus de reseaux">Plus</summary>
+      <summary aria-label="Afficher plus de réseaux">Plus</summary>
       <div class="share-more-panel">
         <a class="share-link" data-share-channel="tg" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Telegram">TG</a>
         <a class="share-link" data-share-channel="in" target="_blank" rel="noopener noreferrer" aria-label="Partager sur LinkedIn">in</a>
@@ -139,7 +139,7 @@ const buildShareActions = (article, title, url) => {
 
   wrapper.querySelector(".share-copy")?.addEventListener("click", async () => {
     await copyToClipboard(url);
-    setShareStatus(wrapper, "Lien copie");
+    setShareStatus(wrapper, "Lien copié");
   });
 
   wrapper.querySelector(".share-native")?.addEventListener("click", async () => {
@@ -153,7 +153,7 @@ const buildShareActions = (article, title, url) => {
     }
 
     await copyToClipboard(url);
-    setShareStatus(wrapper, "Lien copie");
+    setShareStatus(wrapper, "Lien copié");
   });
 
   article.append(wrapper);

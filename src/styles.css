@@ -976,6 +976,278 @@ main {
   font-weight: 900;
 }
 
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.roster-group {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+  overflow: hidden;
+}
+
+.roster-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 56px;
+  padding: 0 16px;
+  background: var(--night);
+  color: #fff;
+}
+
+.roster-group-head span,
+.staff-card span,
+.spotlight-card span {
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.roster-group-head strong {
+  display: inline-grid;
+  place-items: center;
+  min-width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.player-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.player-list li {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-height: 66px;
+  padding: 10px 14px;
+  border-top: 1px solid var(--line);
+}
+
+.player-list li:first-child {
+  border-top: 0;
+}
+
+.player-number {
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  background: #eaf1ff;
+  color: var(--blue);
+  font-weight: 950;
+}
+
+.player-list strong,
+.staff-card strong {
+  display: block;
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.player-list small,
+.staff-card small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.spotlight-grid,
+.staff-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.spotlight-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.staff-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.spotlight-card,
+.staff-card {
+  min-height: 150px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.spotlight-card span,
+.staff-card span {
+  color: var(--red);
+}
+
+.spotlight-card h3 {
+  margin: 10px 0 8px;
+  font-size: 22px;
+  line-height: 1.14;
+}
+
+.spotlight-card p {
+  margin: 0;
+  color: #4c5868;
+  line-height: 1.55;
+}
+
+.staff-card {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+}
+
+.staff-card.is-head {
+  color: #fff;
+  background:
+    linear-gradient(135deg, rgba(9, 17, 31, 0.98), rgba(17, 85, 204, 0.84)),
+    var(--night);
+}
+
+.staff-card.is-head span,
+.staff-card.is-head strong,
+.staff-card.is-head small {
+  color: #fff;
+}
+
+.disclaimer-box {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0;
+  padding: 20px;
+  border: 1px solid rgba(215, 25, 63, 0.22);
+  border-left: 5px solid var(--red);
+  border-radius: 8px;
+  background: #fff7f8;
+}
+
+.disclaimer-box strong {
+  color: var(--red);
+  font-size: 18px;
+}
+
+.disclaimer-box p {
+  margin: 0;
+  color: #344054;
+  line-height: 1.65;
+}
+
+.rights-matrix,
+.brand-rules {
+  display: grid;
+  gap: 12px;
+}
+
+.rights-matrix {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.legal-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-height: 360px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.legal-card span {
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.legal-card h3 {
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.14;
+}
+
+.legal-card ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 20px;
+  color: #344054;
+  line-height: 1.45;
+}
+
+.legal-card li::marker {
+  font-weight: 950;
+}
+
+.legal-ok {
+  border-top: 5px solid var(--green);
+}
+
+.legal-ok span,
+.legal-ok li::marker {
+  color: var(--green);
+}
+
+.legal-check {
+  border-top: 5px solid var(--gold);
+}
+
+.legal-check span,
+.legal-check li::marker {
+  color: var(--gold);
+}
+
+.legal-no {
+  border-top: 5px solid var(--red);
+}
+
+.legal-no span,
+.legal-no li::marker {
+  color: var(--red);
+}
+
+.brand-rules {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.brand-rules div {
+  min-height: 112px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.brand-rules strong,
+.brand-rules span {
+  display: block;
+}
+
+.brand-rules strong {
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+.brand-rules span {
+  color: #4c5868;
+  line-height: 1.45;
+}
+
 .process-list {
   display: grid;
   gap: 10px;
@@ -1413,6 +1685,11 @@ main {
   .method-list,
   .source-directory,
   .hot-grid,
+  .roster-grid,
+  .spotlight-grid,
+  .staff-grid,
+  .rights-matrix,
+  .brand-rules,
   .timeline,
   .legend-grid {
     grid-template-columns: 1fr;
