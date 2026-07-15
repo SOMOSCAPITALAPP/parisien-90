@@ -5,7 +5,7 @@
     "language": "fr-FR",
     "topic": "Paris Saint-Germain",
     "audience": ["supporters PSG", "lecteurs mercato", "journalistes sportifs", "agents IA"],
-    "primaryQueries": ["transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "joueurs PSG"]
+    "primaryQueries": ["transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "histoire PSG"]
   },
   "entities": [
     "Paris Saint-Germain",
@@ -34,8 +34,20 @@
     {
       "url": "https://parisien-90.vercel.app/actualite-psg/",
       "title": "Actualité PSG aujourd'hui : infos Paris Saint-Germain",
-      "intent": "Lire les infos PSG du jour",
-      "queries": ["actualité PSG", "info PSG aujourd'hui", "news PSG"]
+      "intent": "Lire les infos PSG du jour avec un fil long, sourcé et réécrit",
+      "queries": ["actualité PSG", "info PSG aujourd'hui", "news PSG", "fil info PSG", "PSG aujourd'hui"]
+    },
+    {
+      "url": "https://parisien-90.vercel.app/calendrier-psg/",
+      "title": "Calendrier PSG 2026-2027 complet : Ligue 1, matchs et affiches",
+      "intent": "Consulter les 34 matchs de Ligue 1 du PSG, avec filtres par mois, lieu et horaire",
+      "queries": ["calendrier PSG", "calendrier PSG 2026-2027", "prochain match PSG", "OM PSG 2027", "PSG Rennes 2026"]
+    },
+    {
+      "url": "https://parisien-90.vercel.app/joueurs-psg/",
+      "title": "Joueurs PSG 2026-2027 : effectif, numéros, fiches et staff",
+      "intent": "Consulter l'effectif PSG 2026-2027, les fiches individuelles et le staff",
+      "queries": ["joueurs PSG", "effectif PSG", "fiche joueur PSG", "staff PSG", "numéros PSG"]
     },
     {
       "url": "https://parisien-90.vercel.app/sources-psg/",
@@ -46,8 +58,8 @@
     {
       "url": "https://parisien-90.vercel.app/histoire-psg/",
       "title": "Histoire du PSG : palmarès, légendes et grands joueurs",
-      "intent": "Comprendre l'histoire, le palmarès et les joueurs majeurs du Paris Saint-Germain",
-      "queries": ["histoire PSG", "palmarès PSG", "plus grands joueurs PSG", "légendes PSG"]
+      "intent": "Comprendre l'histoire, le palmarès, les anciens joueurs et les équipes saison par saison",
+      "queries": ["histoire PSG", "palmarès PSG", "plus grands joueurs PSG", "légendes PSG", "anciens joueurs PSG", "effectif PSG par saison"]
     },
     {
       "url": "https://parisien-90.vercel.app/droits-disclaimer/",

@@ -1575,6 +1575,468 @@ main {
   font-weight: 800;
 }
 
+.section-note {
+  max-width: 760px;
+  margin: 8px 0 0;
+  color: #4c5868;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.55;
+}
+
+.interactive-toolbar {
+  display: grid;
+  grid-template-columns: minmax(230px, 1.4fr) repeat(3, minmax(160px, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.interactive-toolbar.is-compact {
+  grid-template-columns: minmax(220px, 340px);
+}
+
+.control-field {
+  display: grid;
+  gap: 6px;
+  color: #344054;
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.control-field input,
+.control-field select {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 11px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 750;
+  text-transform: none;
+}
+
+.calendar-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.calendar-summary div {
+  display: grid;
+  gap: 5px;
+  min-height: 82px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.calendar-summary span,
+.calendar-meta,
+.feed-meta {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.calendar-summary strong {
+  font-size: 30px;
+}
+
+.calendar-meta,
+.feed-meta {
+  margin: 8px 0 12px;
+}
+
+.match-list,
+.feed-list {
+  display: grid;
+  gap: 10px;
+}
+
+.match-card {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr) 128px;
+  gap: 16px;
+  align-items: center;
+  min-height: 132px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--blue);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.match-card:has(.item-tags .is-away) {
+  border-left-color: var(--red);
+}
+
+.match-date {
+  display: grid;
+  gap: 5px;
+}
+
+.match-date strong {
+  width: fit-content;
+  min-height: 30px;
+  padding: 5px 9px;
+  border-radius: 8px;
+  background: var(--night);
+  color: #fff;
+  font-size: 13px;
+}
+
+.match-date span,
+.match-meta strong {
+  font-size: 18px;
+  font-weight: 950;
+}
+
+.match-date small,
+.match-meta span {
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.match-main h3 {
+  margin: 8px 0 6px;
+  font-size: 22px;
+  line-height: 1.15;
+}
+
+.match-main h3 span {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.match-main p {
+  margin: 0;
+  color: #4c5868;
+  line-height: 1.45;
+}
+
+.match-meta {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+  text-align: right;
+}
+
+.match-card .share-actions {
+  grid-column: 2 / -1;
+}
+
+.empty-state {
+  margin: 0;
+  padding: 16px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.micro-action,
+.profile-chip,
+.squad-player,
+.secondary-load {
+  min-height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: #10233f;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.micro-action {
+  width: fit-content;
+  margin-top: 8px;
+  padding: 0 10px;
+}
+
+.player-list li.is-interactive:hover {
+  background: #f5f8fc;
+}
+
+.profile-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.profile-chip {
+  padding: 0 10px;
+}
+
+.micro-action:hover,
+.profile-chip:hover,
+.squad-player:hover,
+.secondary-load:hover,
+.micro-action:focus-visible,
+.profile-chip:focus-visible,
+.squad-player:focus-visible,
+.secondary-load:focus-visible {
+  border-color: var(--blue);
+  background: #eef5ff;
+  color: var(--blue);
+  outline: none;
+}
+
+.profile-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  background: rgba(9, 17, 31, 0.58);
+}
+
+.profile-modal[hidden] {
+  display: none;
+}
+
+.profile-dialog {
+  position: relative;
+  width: min(720px, 100%);
+  max-height: min(760px, calc(100vh - 36px));
+  overflow: auto;
+  padding: 26px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.profile-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.profile-kicker {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.profile-dialog h2 {
+  margin: 8px 42px 10px 0;
+  font-size: 34px;
+  line-height: 1.05;
+}
+
+.profile-dialog p {
+  margin: 0;
+  color: #344054;
+  line-height: 1.65;
+}
+
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.profile-tags span {
+  min-height: 30px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #edf2f7;
+  color: #344054;
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.profile-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+}
+
+.profile-facts div {
+  min-height: 76px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.profile-facts dt {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.profile-facts dd {
+  margin: 6px 0 0;
+  color: var(--ink);
+  font-weight: 850;
+  line-height: 1.35;
+}
+
+.profile-note {
+  margin-top: 14px;
+  padding: 14px;
+  border-left: 5px solid var(--blue);
+  border-radius: 8px;
+  background: #eef5ff;
+  color: #24364f;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.season-squad {
+  display: grid;
+  gap: 14px;
+}
+
+.season-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.8fr);
+  gap: 18px;
+  align-items: start;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.season-head span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.season-head h3 {
+  margin: 5px 0 0;
+  font-size: 27px;
+}
+
+.season-head p {
+  margin: 0;
+  color: #4c5868;
+  line-height: 1.55;
+}
+
+.season-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.season-group {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.season-group h4 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.squad-player-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.squad-player {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+span.squad-player {
+  cursor: default;
+  background: #edf2f7;
+}
+
+.news-toolbar {
+  grid-template-columns: minmax(240px, 360px) minmax(0, 1fr);
+}
+
+.feed-item {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 14px;
+  min-height: 132px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.feed-item time {
+  color: var(--red);
+  font-size: 18px;
+  font-weight: 950;
+}
+
+.feed-body h3 {
+  margin: 8px 0 6px;
+  font-size: 20px;
+  line-height: 1.18;
+}
+
+.feed-body p {
+  margin: 0;
+  color: #4c5868;
+  line-height: 1.55;
+}
+
+.feed-body a {
+  display: inline-flex;
+  margin-top: 9px;
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.feed-item .share-actions {
+  grid-column: 2 / -1;
+}
+
+.load-more-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.secondary-load {
+  min-height: 42px;
+  padding: 0 16px;
+}
+
 @media (max-width: 1100px) {
   .hero-section,
   .workspace-grid,
@@ -1586,7 +2048,14 @@ main {
   .source-directory,
   .hot-grid,
   .timeline,
-  .legend-grid {
+  .legend-grid,
+  .calendar-summary,
+  .season-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .interactive-toolbar,
+  .news-toolbar {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1691,7 +2160,13 @@ main {
   .rights-matrix,
   .brand-rules,
   .timeline,
-  .legend-grid {
+  .legend-grid,
+  .calendar-summary,
+  .interactive-toolbar,
+  .news-toolbar,
+  .season-head,
+  .season-groups,
+  .profile-facts {
     grid-template-columns: 1fr;
   }
 
@@ -1715,6 +2190,30 @@ main {
   .live-item .share-actions {
     grid-column: 1 / -1;
     margin-top: 0;
+  }
+
+  .match-card,
+  .feed-item {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .match-meta {
+    justify-items: start;
+    text-align: left;
+  }
+
+  .match-card .share-actions,
+  .feed-item .share-actions {
+    grid-column: 1 / -1;
+  }
+
+  .profile-dialog {
+    padding: 22px;
+  }
+
+  .profile-dialog h2 {
+    font-size: 28px;
   }
 
   .reliability {

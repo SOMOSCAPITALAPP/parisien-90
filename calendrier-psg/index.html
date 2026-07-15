@@ -3,10 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calendrier PSG 2026-2027 : matchs, Ligue 1 et Europe</title>
-    <meta name="description" content="Calendrier PSG 2026-2027 : prochains matchs du Paris Saint-Germain, Ligue 1, Classique, Europe et rendez-vous importants." />
+    <title>Calendrier PSG 2026-2027 complet : Ligue 1, matchs et affiches</title>
+    <meta
+      name="description"
+      content="Calendrier PSG 2026-2027 complet : les 34 matchs de Ligue 1 du Paris Saint-Germain, dates, affiches, Classiques, domicile, extérieur et filtres rapides."
+    />
     <link rel="canonical" href="https://parisien-90.vercel.app/calendrier-psg/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Calendrier PSG 2026-2027",
+        "about": {"@type": "SportsTeam", "name": "Paris Saint-Germain"},
+        "mainEntity": {"@type": "SportsEvent", "name": "Saison Ligue 1 2026-2027 du PSG"}
+      }
+    </script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
@@ -25,20 +37,44 @@
     <main>
       <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/">Accueil</a><span>/</span><span>Calendrier PSG</span></nav>
       <section class="page-hero">
-        <span class="section-kicker">Matchs</span>
-        <h1>Calendrier PSG 2026-2027 : prochains matchs et grandes affiches</h1>
-        <p>Retrouvez les dates importantes du Paris Saint-Germain : Ligue 1, Classique, Europe et matchs à forte intensité.</p>
+        <span class="section-kicker">Saison 2026-2027</span>
+        <h1>Calendrier PSG complet : les 34 matchs de Ligue 1 à suivre sans se perdre</h1>
+        <p>
+          Le calendrier officiel de Ligue 1 du Paris Saint-Germain, enrichi pour les supporters : filtres par mois,
+          domicile/extérieur, horaires confirmés, grandes affiches et lecture éditoriale.
+        </p>
       </section>
+
       <section class="content-section">
-        <h2>Prochains matchs PSG</h2>
-        <div class="fixture-list fixture-grid">
-          <article class="fixture-item"><div><time>23 août</time><span>Ligue 1</span></div><strong>PSG <span>vs</span> Rennes</strong><p>Ouverture au Parc des Princes.</p></article>
-          <article class="fixture-item"><div><time>20 sept.</time><span>Ligue 1</span></div><strong>OM <span>vs</span> PSG</strong><p>Premier Classique de la saison.</p></article>
-          <article class="fixture-item"><div><time>À confirmer</time><span>Europe</span></div><strong>PSG <span>vs</span> Tirage</strong><p>Calendrier UEFA à suivre.</p></article>
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Ligue 1</span>
+            <h2>Calendrier complet PSG 2026-2027</h2>
+          </div>
+          <span class="freshness">Source PSG.fr - 15 juillet 2026</span>
+        </div>
+        <div data-calendar-app></div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">À compléter</span>
+            <h2>Europe, Coupe de France et autres compétitions</h2>
+          </div>
+        </div>
+        <div class="method-list">
+          <article><strong>Ligue des champions</strong><p>La page est prête à recevoir le calendrier UEFA dès publication officielle des dates et adversaires.</p></article>
+          <article><strong>Coupe de France</strong><p>Les tours seront ajoutés uniquement après confirmation officielle, sans inventer de tirage.</p></article>
+          <article><strong>Trophée et amicaux</strong><p>Les matchs de préparation et rendez-vous exceptionnels seront distingués du calendrier Ligue 1.</p></article>
+        </div>
+        <div class="source-actions">
+          <a href="https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1" rel="noopener noreferrer">Calendrier officiel PSG</a>
+          <a href="https://www.psg.fr/content/le-calendrier-general-des-competitions-2026-2027-devoile-psg-ligue-1-lfp-2025-2026" rel="noopener noreferrer">Calendrier général</a>
         </div>
       </section>
     </main>
-    <footer class="site-footer"><p>Parisien 90 - calendrier PSG.</p><a href="/droits-disclaimer/">Droits & disclaimer</a></footer>
+    <footer class="site-footer"><p>Parisien 90 - calendrier PSG complet.</p><a href="/actualite-psg/">Actualité PSG</a><a href="/droits-disclaimer/">Droits & disclaimer</a></footer>
     <script type="module" src="/src/site.js"></script>
   </body>
 </html>
