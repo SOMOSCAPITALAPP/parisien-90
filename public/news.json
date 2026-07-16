@@ -1,8 +1,20 @@
 {
-  "updatedAt": "2026-07-15T18:32:41+02:00",
-  "edition": "Édition PSG du 15 juillet 2026",
+  "updatedAt": "2026-07-16T12:33:41+02:00",
+  "edition": "Édition PSG du 16 juillet 2026",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n’est reproduit.",
   "items": [
+    {
+      "id": "lens-psg-trophee-2026",
+      "category": "Calendrier",
+      "time": "12:33",
+      "headline": "Lens-PSG au Trophée des champions : le premier rendez-vous officiel est posé",
+      "summary": "Le PSG affiche Lens-Paris le 16 août au stade Bollaert-Delelis, en finale du Trophée des champions. L'horaire reste volontairement à confirmer : deux pages officielles du club consultées indiquent 18h45 et 20h45.",
+      "tone": "calendrier",
+      "reliability": "Officiel — horaire à confirmer",
+      "viralScore": 77,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/lens-vs-paris-2026-08-16"
+    },
     {
       "id": "digne-retour-psg",
       "category": "Mercato",

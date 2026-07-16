@@ -4,6 +4,10 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
+## Signal de fraîcheur — 16 juillet 2026, 12h33 (Europe/Paris)
+
+PSG.fr liste Racing Club de Lens–Paris Saint-Germain au Trophée des champions le 16 août 2026, au stade Bollaert-Delelis. Parisien 90 classe la date, l'adversaire, la compétition et le stade comme officiels. L'horaire est à confirmer : deux affichages officiels consultés divergent entre 18h45 et 20h45.
+
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 
 ## Entités principales
