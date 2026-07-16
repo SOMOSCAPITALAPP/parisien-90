@@ -1,8 +1,20 @@
 {
-  "updatedAt": "2026-07-16T12:33:41+02:00",
+  "updatedAt": "2026-07-16T14:30:06+02:00",
   "edition": "Édition PSG du 16 juillet 2026",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n’est reproduit.",
   "items": [
+    {
+      "id": "pre-saison-majorque-united-2026",
+      "category": "Calendrier",
+      "time": "14:30",
+      "headline": "Majorque puis Manchester United : la préparation du PSG prend forme",
+      "summary": "PSG.fr liste deux amicaux avant Lens : déplacement à Majorque le 5 août, puis Manchester United à Göteborg le 8 août. Deux tests officiels, à lire séparément du calendrier de Ligue 1.",
+      "tone": "calendrier",
+      "reliability": "Officiel",
+      "viralScore": 82,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Club_Friendlies"
+    },
     {
       "id": "lens-psg-trophee-2026",
       "category": "Calendrier",
