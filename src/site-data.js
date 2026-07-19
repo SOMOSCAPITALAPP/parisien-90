@@ -151,10 +151,10 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-19T10:55:00+02:00",
+  updatedAt: "2026-07-19T19:12:00+02:00",
   edition: "Édition PSG du 19 juillet 2026",
   displayDate: "19 juillet 2026",
-  displayTime: "10h55",
+  displayTime: "19h12",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -162,6 +162,7 @@ const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, da
 
 export const newsFeed = [
   ...withNewsDate("2026-07-19", "19 juillet 2026", [
+  { id: "akliouche-monaco-accord-proche-soiree", time: "19:12", category: "Mercato", title: "Akliouche au PSG : l'accord avec Monaco se rapproche enfin, Paris tient son accélération du soir", summary: "Canal Supporters annonce un accord très proche entre le PSG et Monaco pour Maghnes Akliouche, tandis que ParisFans décrit lui aussi un net rapprochement. Ce n'est toujours pas une signature officielle, mais le dossier a clairement changé de vitesse depuis la matinée.", source: "Canal Supporters / ParisFans", url: "https://canal-supporters.com/un-accord-tres-proche-detre-trouve-entre-le-psg-et-monaco-pour-akliouche/", reliability: "Rumeur solide", viral: 96 },
   { id: "akliouche-monaco-refus-troisieme-offre", time: "10:55", category: "Mercato", title: "Akliouche au PSG : Monaco dit encore non, mais le dossier sent la semaine décisive", summary: "Canal Supporters rapporte un troisième refus monégasque, tout en indiquant que le joueur veut Paris et que les positions se rapprochent. C'est le type de feuilleton qui peut basculer très vite, mais il reste une négociation, pas une officialisation.", source: "Canal Supporters", url: "https://canal-supporters.com/las-monaco-aurait-refuse-une-troisieme-offre-du-psg-pour-akliouche/", reliability: "Rumeur solide", viral: 93 },
   { id: "barcola-arsenal-liverpool-attente", time: "10:35", category: "Mercato", title: "Barcola, le faux calme : Arsenal ne bouge pas, Liverpool attend le prix", summary: "Foot01 relaie la mise au point de Fabrizio Romano : pas de nouveau contact Arsenal avec le clan Barcola ou le PSG après le dossier Morgan Rogers, mais Liverpool reste à l'affût si le prix devient jouable. Paris tient la clé.", source: "Foot01 / Fabrizio Romano", url: "https://www.foot01.com/paris/psg-le-dossier-barcola-relance-par-un-transfert-a-138me", reliability: "À suivre", viral: 88 },
   { id: "kolo-muani-juventus-ecart-prix", time: "10:12", category: "Mercato", title: "Kolo Muani-Juve : le dossier avance, mais l'écart de prix raconte tout le bras de fer", summary: "La Juventus veut toujours Randal Kolo Muani, mais plusieurs sources italiennes évoquent un écart important avec Paris. Le PSG veut vendre, la Juve veut patienter : parfait pour un poker menteur estival.", source: "Black & White & Read All Over", url: "https://www.blackwhitereadallover.com/juventus-transfer-rumors-news/40039/juventus-striker-hunt-randal-kolo-muani-mateo-pellegrino-2026-serie-a-summer-transfer-rumors", reliability: "Rumeur recoupée", viral: 84 },

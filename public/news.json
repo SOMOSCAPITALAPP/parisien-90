@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-19T10:55:00+02:00",
+  "updatedAt": "2026-07-19T19:12:00+02:00",
   "edition": "Édition PSG du 19 juillet 2026",
   "displayDate": "19 juillet 2026",
-  "displayTime": "10h55",
+  "displayTime": "19h12",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 34,
+  "count": 35,
   "items": [
+    {
+      "id": "akliouche-monaco-accord-proche-soiree",
+      "category": "Mercato",
+      "date": "2026-07-19",
+      "dateLabel": "19 juillet 2026",
+      "time": "19:12",
+      "dateTime": "2026-07-19T19:12:00+02:00",
+      "headline": "Akliouche au PSG : l'accord avec Monaco se rapproche enfin, Paris tient son accélération du soir",
+      "summary": "Canal Supporters annonce un accord très proche entre le PSG et Monaco pour Maghnes Akliouche, tandis que ParisFans décrit lui aussi un net rapprochement. Ce n'est toujours pas une signature officielle, mais le dossier a clairement changé de vitesse depuis la matinée.",
+      "tone": "mercato",
+      "reliability": "Rumeur solide",
+      "viralScore": 96,
+      "source": "Canal Supporters / ParisFans",
+      "sourceUrl": "https://canal-supporters.com/un-accord-tres-proche-detre-trouve-entre-le-psg-et-monaco-pour-akliouche/"
+    },
     {
       "id": "akliouche-monaco-refus-troisieme-offre",
       "category": "Mercato",
