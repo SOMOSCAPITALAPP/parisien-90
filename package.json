@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
+    "sync:news": "node scripts/sync-news-data.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {

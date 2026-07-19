@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
-## Signal de fraîcheur — 16 juillet 2026, 14h30 (Europe/Paris)
+## Signal de fraîcheur — 19 juillet 2026, 10h55 (Europe/Paris)
 
-PSG.fr liste Real Mallorca–Paris Saint-Germain le 5 août 2026 à 18h00, puis Paris Saint-Germain–Manchester United le 8 août à 15h00. Ces deux amicaux officiels précèdent Racing Club de Lens–Paris Saint-Germain au Trophée des champions le 16 août 2026, au stade Bollaert-Delelis. Parisien 90 classe la date, l'adversaire, la compétition et le stade comme officiels. L'horaire de Lens-PSG est à confirmer : deux affichages officiels consultés divergent entre 18h45 et 20h45.
+Édition PSG du 19 juillet 2026. Fil actif : 34 entrées. À suivre : Akliouche au PSG : Monaco dit encore non, mais le dossier sent la semaine décisive ; Barcola, le faux calme : Arsenal ne bouge pas, Liverpool attend le prix ; Kolo Muani-Juve : le dossier avance, mais l'écart de prix raconte tout le bras de fer ; Nsoki choisit Zagreb : le Titi veut jouer, Paris doit encore négocier ; France-Angleterre 4-6 : les Parisiens marquent, les Bleus explosent quand même. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 

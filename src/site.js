@@ -1,4 +1,4 @@
-import { currentPlayerProfiles, legendProfiles, newsFeed, psgSchedule2627, seasonSquads } from "./site-data.js";
+import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, seasonSquads } from "./site-data.js";
 
 const params = new URLSearchParams(window.location.search);
 const query = params.get("q");
@@ -58,6 +58,36 @@ const escapeHTML = (value) =>
     const map = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" };
     return map[char];
   });
+
+const setTextForSelector = (selector, value) => {
+  document.querySelectorAll(selector).forEach((element) => {
+    element.textContent = value;
+  });
+};
+
+const initNewsFreshness = () => {
+  const countLabel = `${newsFeed.length} entrées actives`;
+
+  setTextForSelector("[data-news-date]", newsMeta.displayDate);
+  setTextForSelector("[data-news-time]", newsMeta.displayTime);
+  setTextForSelector("[data-news-edition]", newsMeta.edition);
+  setTextForSelector("[data-news-count]", String(newsFeed.length));
+  setTextForSelector("[data-news-count-label]", countLabel);
+  setTextForSelector("[data-news-freshness]", `Mise à jour ${newsMeta.displayTime}`);
+  setTextForSelector("[data-news-live-label]", `Direct PSG - ${newsMeta.displayDate}, ${newsMeta.displayTime}`);
+
+  document.querySelectorAll("[data-news-updated-at]").forEach((element) => {
+    element.setAttribute("datetime", newsMeta.updatedAt);
+  });
+};
+
+const getNewsDateTimeISO = (item) => {
+  const date = item.date || newsMeta.updatedAt.slice(0, 10);
+  const [hour = "00", minute = "00"] = String(item.time || "00:00").split(":");
+  return `${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00+02:00`;
+};
+
+const getNewsDateTimeLabel = (item) => `${item.dateLabel || newsMeta.displayDate} · ${item.time}`;
 
 const normalizeName = (value) => slugify(value).replace(/-/g, "");
 
@@ -530,7 +560,7 @@ const initLongNewsFeed = () => {
     article.id = `news-${item.id}`;
     article.dataset.shareTitle = item.title;
     article.innerHTML = `
-      <time>${escapeHTML(item.time)}</time>
+      <time datetime="${escapeHTML(getNewsDateTimeISO(item))}">${escapeHTML(getNewsDateTimeLabel(item))}</time>
       <div class="feed-body">
         <div class="item-tags"><span>${escapeHTML(item.category)}</span><span>${escapeHTML(item.reliability)}</span><span>Viral ${item.viral}</span></div>
         <h3>${escapeHTML(item.title)}</h3>
@@ -550,7 +580,7 @@ const initLongNewsFeed = () => {
 
     const visible = filtered.slice(0, visibleCount);
     list.replaceChildren(...visible.map(makeArticle));
-    meta.textContent = `${filtered.length} info${filtered.length > 1 ? "s" : ""} dans le fil, ${visible.length} affichée${visible.length > 1 ? "s" : ""}`;
+    meta.textContent = `${filtered.length} info${filtered.length > 1 ? "s" : ""} dans le fil, ${visible.length} affichée${visible.length > 1 ? "s" : ""}. Dernière veille : ${newsMeta.displayDate}, ${newsMeta.displayTime}.`;
     more.hidden = visible.length >= filtered.length;
     initShareActions(list);
   };
@@ -595,6 +625,7 @@ const focusHashTarget = () => {
   }
 };
 
+initNewsFreshness();
 initCalendarApp();
 initLongNewsFeed();
 initPlayerProfileEnhancements();

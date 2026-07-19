@@ -453,7 +453,7 @@ main {
 
 .live-item {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr) auto;
+  grid-template-columns: 104px minmax(0, 1fr) auto;
   gap: 16px;
   align-items: center;
   min-height: 112px;
@@ -466,7 +466,8 @@ main {
 .live-item time {
   color: var(--red);
   font-weight: 950;
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 1.25;
 }
 
 .live-body h3 {
@@ -1988,7 +1989,7 @@ span.squad-player {
 
 .feed-item {
   display: grid;
-  grid-template-columns: 70px minmax(0, 1fr);
+  grid-template-columns: 116px minmax(0, 1fr);
   gap: 14px;
   min-height: 132px;
   padding: 16px;
@@ -1999,8 +2000,9 @@ span.squad-player {
 
 .feed-item time {
   color: var(--red);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 950;
+  line-height: 1.25;
 }
 
 .feed-body h3 {
