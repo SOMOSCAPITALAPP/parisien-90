@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
-## Signal de fraîcheur — 19 juillet 2026, 19h12 (Europe/Paris)
+## Signal de fraîcheur — 20 juillet 2026, 15h32 (Europe/Paris)
 
-Édition PSG du 19 juillet 2026. Fil actif : 35 entrées. À suivre : Akliouche au PSG : l'accord avec Monaco se rapproche enfin, Paris tient son accélération du soir ; Akliouche au PSG : Monaco dit encore non, mais le dossier sent la semaine décisive ; Barcola, le faux calme : Arsenal ne bouge pas, Liverpool attend le prix ; Kolo Muani-Juve : le dossier avance, mais l'écart de prix raconte tout le bras de fer ; Nsoki choisit Zagreb : le Titi veut jouer, Paris doit encore négocier. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Édition PSG du 20 juillet 2026. Fil actif : 36 entrées. À suivre : Veille PSG du 20 juillet : pas de nouvelle confirmation, le fil reste sous contrôle ; Akliouche au PSG : l'accord avec Monaco se rapproche enfin, Paris tient son accélération du soir ; Akliouche au PSG : Monaco dit encore non, mais le dossier sent la semaine décisive ; Barcola, le faux calme : Arsenal ne bouge pas, Liverpool attend le prix ; Kolo Muani-Juve : le dossier avance, mais l'écart de prix raconte tout le bras de fer. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 
