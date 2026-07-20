@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-20T17:32:00+02:00",
+  "updatedAt": "2026-07-20T23:32:00+02:00",
   "edition": "Édition PSG du 20 juillet 2026",
   "displayDate": "20 juillet 2026",
-  "displayTime": "17h32",
+  "displayTime": "23h32",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 37,
+  "count": 38,
   "items": [
+    {
+      "id": "lucas-digne-visite-medicale-validee",
+      "category": "Mercato",
+      "date": "2026-07-20",
+      "dateLabel": "20 juillet 2026",
+      "time": "20:17",
+      "dateTime": "2026-07-20T20:17:00+02:00",
+      "headline": "Lucas Digne : visite médicale validée selon Le Parisien, la signature reste le dernier verrou",
+      "summary": "ParisFans relaie une information du Parisien selon laquelle Lucas Digne a passé sa visite médicale avec succès ce lundi. Le latéral doit encore signer son contrat de trois ans : le transfert est très avancé, mais le PSG ne l'a pas officialisé.",
+      "tone": "mercato",
+      "reliability": "Fort — en attente d'officialisation",
+      "viralScore": 98,
+      "source": "Le Parisien, relayé par ParisFans",
+      "sourceUrl": "https://www.parisfans.fr/une/mercato-lucas-digne-a-passe-sa-visite-medicale-pour-signer-au-psg-927154.html"
+    },
     {
       "id": "lucas-digne-accord-total-visite-medicale",
       "category": "Mercato",

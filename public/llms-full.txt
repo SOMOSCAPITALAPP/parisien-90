@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
-## Signal de fraîcheur — 20 juillet 2026, 17h32 (Europe/Paris)
+## Signal de fraîcheur — 20 juillet 2026, 23h32 (Europe/Paris)
 
-Édition PSG du 20 juillet 2026. Fil actif : 37 entrées. À suivre : Lucas Digne au PSG : accord total annoncé, la visite médicale doit ouvrir la dernière ligne droite ; Veille PSG du 20 juillet : Parisien 90 poursuit le recoupement des sources ; Akliouche au PSG : l'accord avec Monaco se rapproche enfin, Paris tient son accélération du soir ; Akliouche au PSG : Monaco dit encore non, mais le dossier sent la semaine décisive ; Barcola, le faux calme : Arsenal ne bouge pas, Liverpool attend le prix. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Édition PSG du 20 juillet 2026. Fil actif : 38 entrées. À suivre : Lucas Digne : visite médicale validée selon Le Parisien, la signature reste le dernier verrou ; Lucas Digne au PSG : accord total annoncé, la visite médicale doit ouvrir la dernière ligne droite ; Veille PSG du 20 juillet : Parisien 90 poursuit le recoupement des sources ; Akliouche au PSG : l'accord avec Monaco se rapproche enfin, Paris tient son accélération du soir ; Akliouche au PSG : Monaco dit encore non, mais le dossier sent la semaine décisive. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 
