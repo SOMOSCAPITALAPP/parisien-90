@@ -151,10 +151,10 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-20T15:32:00+02:00",
+  updatedAt: "2026-07-20T17:32:00+02:00",
   edition: "Édition PSG du 20 juillet 2026",
   displayDate: "20 juillet 2026",
-  displayTime: "15h32",
+  displayTime: "17h32",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -162,7 +162,8 @@ const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, da
 
 export const newsFeed = [
   ...withNewsDate("2026-07-20", "20 juillet 2026", [
-  { id: "veille-20-juillet-source-tracker", time: "15:32", category: "Sources", title: "Veille PSG du 20 juillet : pas de nouvelle confirmation, le fil reste sous contrôle", summary: "Contrôle effectué sur PSG.fr, L'Équipe, CulturePSG et Canal Supporters après la mise à jour du 19 juillet au soir. Le calendrier officiel confirme les rendez-vous déjà suivis ; aucun transfert ni communiqué nouveau n'a été retenu sans recoupement suffisant.", source: "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters", url: "/sources-psg/", reliability: "Méthode", viral: 52 },
+  { id: "lucas-digne-accord-total-visite-medicale", time: "14:42", category: "Mercato", title: "Lucas Digne au PSG : accord total annoncé, la visite médicale doit ouvrir la dernière ligne droite", summary: "L'Équipe annonce que le PSG a levé la clause de Lucas Digne à Aston Villa et qu'une visite médicale doit intervenir dans les prochaines heures, avant un contrat de trois ans. Une avancée très forte, mais pas encore une officialisation du club parisien.", source: "L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-accord-total-pour-lucas-digne-au-psg-qui-va-passer-sa-visite-medicale/1705911", reliability: "Fort — en attente d'officialisation", viral: 97 },
+  { id: "veille-20-juillet-source-tracker", time: "15:32", category: "Sources", title: "Veille PSG du 20 juillet : Parisien 90 poursuit le recoupement des sources", summary: "Contrôle effectué sur PSG.fr, L'Équipe, CulturePSG et Canal Supporters après la mise à jour du 19 juillet au soir. Le calendrier officiel confirme les rendez-vous déjà suivis ; le fil ne retient les mouvements mercato qu'avec une source directe et un niveau de preuve clairement affiché.", source: "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters", url: "/sources-psg/", reliability: "Méthode", viral: 52 },
   ]),
   ...withNewsDate("2026-07-19", "19 juillet 2026", [
   { id: "akliouche-monaco-accord-proche-soiree", time: "19:12", category: "Mercato", title: "Akliouche au PSG : l'accord avec Monaco se rapproche enfin, Paris tient son accélération du soir", summary: "Canal Supporters annonce un accord très proche entre le PSG et Monaco pour Maghnes Akliouche, tandis que ParisFans décrit lui aussi un net rapprochement. Ce n'est toujours pas une signature officielle, mais le dossier a clairement changé de vitesse depuis la matinée.", source: "Canal Supporters / ParisFans", url: "https://canal-supporters.com/un-accord-tres-proche-detre-trouve-entre-le-psg-et-monaco-pour-akliouche/", reliability: "Rumeur solide", viral: 96 },
