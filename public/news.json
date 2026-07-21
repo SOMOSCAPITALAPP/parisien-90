@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-20T23:32:00+02:00",
-  "edition": "Édition PSG du 20 juillet 2026",
-  "displayDate": "20 juillet 2026",
-  "displayTime": "23h32",
+  "updatedAt": "2026-07-21T07:32:00+02:00",
+  "edition": "Édition PSG du 21 juillet 2026",
+  "displayDate": "21 juillet 2026",
+  "displayTime": "07h32",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 38,
+  "count": 39,
   "items": [
+    {
+      "id": "veille-21-juillet-source-tracker",
+      "category": "Sources",
+      "date": "2026-07-21",
+      "dateLabel": "21 juillet 2026",
+      "time": "07:32",
+      "dateTime": "2026-07-21T07:32:00+02:00",
+      "headline": "Veille PSG du 21 juillet : pas de nouvelle officialisation, le fil garde ses réserves",
+      "summary": "Contrôle matinal effectué sur PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport et Foot Mercato. Les éléments consultés confirment surtout les dossiers Lucas Digne et Maghnes Akliouche déjà suivis : aucune officialisation PSG nouvelle n'est ajoutée sans source directe.",
+      "tone": "sources",
+      "reliability": "Méthode",
+      "viralScore": 53,
+      "source": "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport, Foot Mercato",
+      "sourceUrl": "/sources-psg/"
+    },
     {
       "id": "lucas-digne-visite-medicale-validee",
       "category": "Mercato",

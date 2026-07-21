@@ -5,7 +5,14 @@
     <link>https://parisien-90.vercel.app/</link>
     <description>Actualité PSG, mercato et transfert Paris Saint-Germain.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 20 Jul 2026 21:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 05:32:00 +0000</lastBuildDate>
+    <item>
+      <title>Veille PSG du 21 juillet : pas de nouvelle officialisation, le fil garde ses réserves</title>
+      <link>https://parisien-90.vercel.app/actualite-psg/#news-veille-21-juillet-source-tracker</link>
+      <guid>https://parisien-90.vercel.app/actualite-psg/#news-veille-21-juillet-source-tracker</guid>
+      <pubDate>Tue, 21 Jul 2026 05:32:00 +0000</pubDate>
+      <description>Contrôle matinal effectué sur PSG.fr, L&apos;Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport et Foot Mercato. Les éléments consultés confirment surtout les dossiers Lucas Digne et Maghnes Akliouche déjà suivis : aucune officialisation PSG nouvelle n&apos;est ajoutée sans source directe. Source : Parisien 90 — PSG.fr, L&apos;Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport, Foot Mercato.</description>
+    </item>
     <item>
       <title>Lucas Digne : visite médicale validée selon Le Parisien, la signature reste le dernier verrou</title>
       <link>https://parisien-90.vercel.app/actualite-psg/#news-lucas-digne-visite-medicale-validee</link>
@@ -82,13 +89,6 @@
       <guid>https://parisien-90.vercel.app/actualite-psg/#news-u19-reprise-campus-psg</guid>
       <pubDate>Sun, 19 Jul 2026 06:31:00 +0000</pubDate>
       <description>PSG.fr a publié la reprise des U19 au Campus le 18 juillet. Ce n&apos;est pas une rumeur brillante de mercato, mais c&apos;est un signal de fond : Paris doit produire, pas seulement acheter. Source : PSG.fr.</description>
-    </item>
-    <item>
-      <title>Veille du 19 juillet : le mercato s&apos;agite, mais Parisien 90 garde les niveaux de preuve visibles</title>
-      <link>https://parisien-90.vercel.app/actualite-psg/#news-veille-19-juillet-source-tracker</link>
-      <guid>https://parisien-90.vercel.app/actualite-psg/#news-veille-19-juillet-source-tracker</guid>
-      <pubDate>Sun, 19 Jul 2026 06:05:00 +0000</pubDate>
-      <description>La revue matinale croise PSG.fr, CulturePSG, Canal Supporters, Foot01, Les Titis du PSG, L&apos;Équipe et agrégateurs spécialisés. Les dossiers chauds sont Akliouche, Barcola, Kolo Muani et les jeunes au départ. Source : Parisien 90, sources liées dans le fil.</description>
     </item>
   </channel>
 </rss>

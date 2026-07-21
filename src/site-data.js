@@ -151,16 +151,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-20T23:32:00+02:00",
-  edition: "Édition PSG du 20 juillet 2026",
-  displayDate: "20 juillet 2026",
-  displayTime: "23h32",
+  updatedAt: "2026-07-21T07:32:00+02:00",
+  edition: "Édition PSG du 21 juillet 2026",
+  displayDate: "21 juillet 2026",
+  displayTime: "07h32",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-07-21", "21 juillet 2026", [
+  { id: "veille-21-juillet-source-tracker", time: "07:32", category: "Sources", title: "Veille PSG du 21 juillet : pas de nouvelle officialisation, le fil garde ses réserves", summary: "Contrôle matinal effectué sur PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport et Foot Mercato. Les éléments consultés confirment surtout les dossiers Lucas Digne et Maghnes Akliouche déjà suivis : aucune officialisation PSG nouvelle n'est ajoutée sans source directe.", source: "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport, Foot Mercato", url: "/sources-psg/", reliability: "Méthode", viral: 53 },
+  ]),
   ...withNewsDate("2026-07-20", "20 juillet 2026", [
   { id: "lucas-digne-visite-medicale-validee", time: "20:17", category: "Mercato", title: "Lucas Digne : visite médicale validée selon Le Parisien, la signature reste le dernier verrou", summary: "ParisFans relaie une information du Parisien selon laquelle Lucas Digne a passé sa visite médicale avec succès ce lundi. Le latéral doit encore signer son contrat de trois ans : le transfert est très avancé, mais le PSG ne l'a pas officialisé.", source: "Le Parisien, relayé par ParisFans", url: "https://www.parisfans.fr/une/mercato-lucas-digne-a-passe-sa-visite-medicale-pour-signer-au-psg-927154.html", reliability: "Fort — en attente d'officialisation", viral: 98 },
   { id: "lucas-digne-accord-total-visite-medicale", time: "14:42", category: "Mercato", title: "Lucas Digne au PSG : accord total annoncé, la visite médicale doit ouvrir la dernière ligne droite", summary: "L'Équipe annonce que le PSG a levé la clause de Lucas Digne à Aston Villa et qu'une visite médicale doit intervenir dans les prochaines heures, avant un contrat de trois ans. Une avancée très forte, mais pas encore une officialisation du club parisien.", source: "L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-accord-total-pour-lucas-digne-au-psg-qui-va-passer-sa-visite-medicale/1705911", reliability: "Fort — en attente d'officialisation", viral: 97 },
