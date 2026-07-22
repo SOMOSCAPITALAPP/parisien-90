@@ -151,17 +151,21 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-21T07:32:00+02:00",
-  edition: "Édition PSG du 21 juillet 2026",
-  displayDate: "21 juillet 2026",
-  displayTime: "07h32",
+  updatedAt: "2026-07-22T10:04:00+02:00",
+  edition: "Édition PSG du 22 juillet 2026",
+  displayDate: "22 juillet 2026",
+  displayTime: "10h04",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-07-22", "22 juillet 2026", [
+  { id: "veille-22-juillet-source-tracker", time: "10:04", category: "Sources", title: "Veille PSG du 22 juillet : Mbaye surveillé, le fil garde ses niveaux de preuve", summary: "Contrôle effectué sur PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, Les Titis du PSG, RMC Sport et Foot Mercato. La piste AS Roma pour Ibrahim Mbaye est signalée avec réserve après recoupement de la source italienne ; aucune signature ni officialisation n'est affirmée sans annonce directe.", source: "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, Les Titis du PSG, RMC Sport, Foot Mercato", url: "/sources-psg/", reliability: "Méthode", viral: 54 },
+  ]),
   ...withNewsDate("2026-07-21", "21 juillet 2026", [
+  { id: "ibrahim-mbaye-as-roma-pret-etudie", time: "08:15", category: "Mercato", title: "Ibrahim Mbaye : l'AS Roma étudie un prêt, Paris garderait la main sur son avenir", summary: "Le Corriere dello Sport avance que l'AS Roma s'intéresse à Ibrahim Mbaye et envisage un prêt avec option d'achat. ParisFans et Les Titis du PSG relaient la même source : le PSG n'a rien officialisé, et la formule comme l'issue du dossier restent à confirmer.", source: "Corriere dello Sport, relayé par ParisFans et Les Titis du PSG", url: "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/07/21-150026381/tentazione_mbaye_per_la_roma_la_formula_del_prestito_con_riscatto_e_controriscatto", reliability: "Rumeur recoupée — à confirmer", viral: 82 },
   { id: "veille-21-juillet-source-tracker", time: "07:32", category: "Sources", title: "Veille PSG du 21 juillet : pas de nouvelle officialisation, le fil garde ses réserves", summary: "Contrôle matinal effectué sur PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport et Foot Mercato. Les éléments consultés confirment surtout les dossiers Lucas Digne et Maghnes Akliouche déjà suivis : aucune officialisation PSG nouvelle n'est ajoutée sans source directe.", source: "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport, Foot Mercato", url: "/sources-psg/", reliability: "Méthode", viral: 53 },
   ]),
   ...withNewsDate("2026-07-20", "20 juillet 2026", [
