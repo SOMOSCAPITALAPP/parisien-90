@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
-## Signal de fraîcheur — 22 juillet 2026, 12h32 (Europe/Paris)
+## Signal de fraîcheur — 23 juillet 2026, 06h30 (Europe/Paris)
 
-Édition PSG du 22 juillet 2026. Fil actif : 42 entrées. À suivre : Veille PSG du 22 juillet : une officialisation chez les Féminines, le reste sous réserve ; Alyssa Fernandes prolonge jusqu'en 2028 et part grandir à Toulouse ; Ibrahim Mbaye : l'AS Roma étudie un prêt, Paris garderait la main sur son avenir ; Veille PSG du 21 juillet : pas de nouvelle officialisation, le fil garde ses réserves ; Lucas Digne : visite médicale validée selon Le Parisien, la signature reste le dernier verrou. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Édition PSG du 23 juillet 2026. Fil actif : 39 entrées. À suivre : Reprise du PSG reportée au 27 juillet : Luis Enrique accorde deux jours de plus ; Anaïs Ebayilin prolonge au PSG jusqu'en 2031 : le club verrouille une Titi ; Alyssa Fernandes prolonge jusqu'en 2028 et part grandir à Toulouse ; Ibrahim Mbaye : l'AS Roma étudie un prêt, Paris garderait la main sur son avenir ; Lucas Digne : visite médicale validée selon Le Parisien, la signature reste le dernier verrou. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 

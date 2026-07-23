@@ -1,25 +1,40 @@
 {
-  "updatedAt": "2026-07-22T12:32:00+02:00",
-  "edition": "Édition PSG du 22 juillet 2026",
-  "displayDate": "22 juillet 2026",
-  "displayTime": "12h32",
+  "updatedAt": "2026-07-23T06:30:00+02:00",
+  "edition": "Édition PSG du 23 juillet 2026",
+  "displayDate": "23 juillet 2026",
+  "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 42,
+  "count": 39,
   "items": [
     {
-      "id": "veille-22-juillet-source-tracker",
-      "category": "Sources",
+      "id": "reprise-psg-reportee-27-juillet",
+      "category": "Club",
       "date": "2026-07-22",
       "dateLabel": "22 juillet 2026",
-      "time": "12:32",
-      "dateTime": "2026-07-22T12:32:00+02:00",
-      "headline": "Veille PSG du 22 juillet : une officialisation chez les Féminines, le reste sous réserve",
-      "summary": "Contrôle effectué sur PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, Les Titis du PSG, RMC Sport et Foot Mercato. L'officialisation du prêt d'Alyssa Fernandes à Toulouse est ajoutée au fil ; la piste AS Roma pour Ibrahim Mbaye reste signalée avec réserve, sans signature ni accord présenté comme acquis.",
-      "tone": "sources",
-      "reliability": "Méthode",
-      "viralScore": 54,
-      "source": "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, Les Titis du PSG, RMC Sport, Foot Mercato",
-      "sourceUrl": "/sources-psg/"
+      "time": "16:40",
+      "dateTime": "2026-07-22T16:40:00+02:00",
+      "headline": "Reprise du PSG reportée au 27 juillet : Luis Enrique accorde deux jours de plus",
+      "summary": "Le Parisien et Ici Paris, relayés par ParisFans, annoncent que le groupe parisien reprendra finalement le lundi 27 juillet plutôt que le 25. Ce délai reste à confirmer par une communication du club, mais il réorganise déjà la courte préparation avant les premiers rendez-vous.",
+      "tone": "club",
+      "reliability": "Fort — confirmation du club attendue",
+      "viralScore": 78,
+      "source": "Le Parisien / Ici Paris, relayés par ParisFans",
+      "sourceUrl": "https://www.parisfans.fr/autour-du-psg/le-psg-a-change-la-date-de-reprise-de-lentrainement-928650.html"
+    },
+    {
+      "id": "anais-ebayilin-prolonge-2031",
+      "category": "Féminines",
+      "date": "2026-07-22",
+      "dateLabel": "22 juillet 2026",
+      "time": "15:10",
+      "dateTime": "2026-07-22T15:10:00+02:00",
+      "headline": "Anaïs Ebayilin prolonge au PSG jusqu'en 2031 : le club verrouille une Titi",
+      "summary": "Le PSG Féminines a officialisé la prolongation d'Anaïs Ebayilin jusqu'au 30 juin 2031. À 18 ans, la milieu formée au club prolonge une trajectoire déjà remarquée en équipe première et en sélection française.",
+      "tone": "féminines",
+      "reliability": "Officiel",
+      "viralScore": 75,
+      "source": "PSG Féminines, relayé par ParisFans et Les Titis du PSG",
+      "sourceUrl": "https://www.parisfans.fr/club/officiel-le-psg-annonce-la-prolongation-debayilin-928498.html"
     },
     {
       "id": "alyssa-fernandes-prolonge-pretee-toulouse",
@@ -52,21 +67,6 @@
       "sourceUrl": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/07/21-150026381/tentazione_mbaye_per_la_roma_la_formula_del_prestito_con_riscatto_e_controriscatto"
     },
     {
-      "id": "veille-21-juillet-source-tracker",
-      "category": "Sources",
-      "date": "2026-07-21",
-      "dateLabel": "21 juillet 2026",
-      "time": "07:32",
-      "dateTime": "2026-07-21T07:32:00+02:00",
-      "headline": "Veille PSG du 21 juillet : pas de nouvelle officialisation, le fil garde ses réserves",
-      "summary": "Contrôle matinal effectué sur PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport et Foot Mercato. Les éléments consultés confirment surtout les dossiers Lucas Digne et Maghnes Akliouche déjà suivis : aucune officialisation PSG nouvelle n'est ajoutée sans source directe.",
-      "tone": "sources",
-      "reliability": "Méthode",
-      "viralScore": 53,
-      "source": "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters, ParisFans, RMC Sport, Foot Mercato",
-      "sourceUrl": "/sources-psg/"
-    },
-    {
       "id": "lucas-digne-visite-medicale-validee",
       "category": "Mercato",
       "date": "2026-07-20",
@@ -95,21 +95,6 @@
       "viralScore": 97,
       "source": "L'Équipe",
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-accord-total-pour-lucas-digne-au-psg-qui-va-passer-sa-visite-medicale/1705911"
-    },
-    {
-      "id": "veille-20-juillet-source-tracker",
-      "category": "Sources",
-      "date": "2026-07-20",
-      "dateLabel": "20 juillet 2026",
-      "time": "15:32",
-      "dateTime": "2026-07-20T15:32:00+02:00",
-      "headline": "Veille PSG du 20 juillet : Parisien 90 poursuit le recoupement des sources",
-      "summary": "Contrôle effectué sur PSG.fr, L'Équipe, CulturePSG et Canal Supporters après la mise à jour du 19 juillet au soir. Le calendrier officiel confirme les rendez-vous déjà suivis ; le fil ne retient les mouvements mercato qu'avec une source directe et un niveau de preuve clairement affiché.",
-      "tone": "sources",
-      "reliability": "Méthode",
-      "viralScore": 52,
-      "source": "Parisien 90 — PSG.fr, L'Équipe, CulturePSG, Canal Supporters",
-      "sourceUrl": "/sources-psg/"
     },
     {
       "id": "akliouche-monaco-accord-proche-soiree",
@@ -230,21 +215,6 @@
       "viralScore": 61,
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/la-reprise-des-u19-en-images-campus-psg-centre-de-formation-entrainement-2026-2027"
-    },
-    {
-      "id": "veille-19-juillet-source-tracker",
-      "category": "Sources",
-      "date": "2026-07-19",
-      "dateLabel": "19 juillet 2026",
-      "time": "08:05",
-      "dateTime": "2026-07-19T08:05:00+02:00",
-      "headline": "Veille du 19 juillet : le mercato s'agite, mais Parisien 90 garde les niveaux de preuve visibles",
-      "summary": "La revue matinale croise PSG.fr, CulturePSG, Canal Supporters, Foot01, Les Titis du PSG, L'Équipe et agrégateurs spécialisés. Les dossiers chauds sont Akliouche, Barcola, Kolo Muani et les jeunes au départ.",
-      "tone": "sources",
-      "reliability": "Méthode",
-      "viralScore": 57,
-      "source": "Parisien 90, sources liées dans le fil",
-      "sourceUrl": "/sources-psg/"
     },
     {
       "id": "pre-saison-majorque-united-2026",
@@ -620,21 +590,6 @@
       "viralScore": 86,
       "source": "Analyse Parisien 90",
       "sourceUrl": "/histoire-psg/"
-    },
-    {
-      "id": "droits-sources",
-      "category": "Sources",
-      "date": "2026-07-15",
-      "dateLabel": "15 juillet 2026",
-      "time": "09:00",
-      "dateTime": "2026-07-15T09:00:00+02:00",
-      "headline": "Notre règle éditoriale : citer, réécrire, lier, ne pas aspirer",
-      "summary": "Parisien 90 doit grossir vite sans se mettre en risque. Les articles tiers sont utilisés comme sources citées, jamais comme contenus repris en bloc.",
-      "tone": "sources",
-      "reliability": "Méthode",
-      "viralScore": 58,
-      "source": "Parisien 90",
-      "sourceUrl": "/droits-disclaimer/"
     }
   ]
 }
