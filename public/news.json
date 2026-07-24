@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-23T06:30:00+02:00",
-  "edition": "Édition PSG du 23 juillet 2026",
-  "displayDate": "23 juillet 2026",
+  "updatedAt": "2026-07-24T06:30:00+02:00",
+  "edition": "Édition PSG du 24 juillet 2026",
+  "displayDate": "24 juillet 2026",
   "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 39,
+  "count": 40,
   "items": [
+    {
+      "id": "akliouche-quatrieme-offre-liverpool-renseignements",
+      "category": "Mercato",
+      "date": "2026-07-23",
+      "dateLabel": "23 juillet 2026",
+      "time": "18:19",
+      "dateTime": "2026-07-23T18:19:00+02:00",
+      "headline": "Akliouche : Paris prépare une quatrième offre, Liverpool reste au renseignement",
+      "summary": "CulturePSG indique qu'après le refus de sa troisième proposition, le PSG devrait revenir vers Monaco avec une quatrième offre pour Maghnes Akliouche. Liverpool s'est renseigné sur sa disponibilité, mais aucune offre anglaise n'est annoncée : le dossier reste une négociation ouverte, pas un transfert bouclé.",
+      "tone": "mercato",
+      "reliability": "Rumeur solide — négociation en cours",
+      "viralScore": 91,
+      "source": "CulturePSG, avec Sky Sports pour l'intérêt de Liverpool",
+      "sourceUrl": "https://www.culturepsg.com/news/mercato/quatrieme-offre-et-concurrent-anglais-pour-akliouche/60161"
+    },
     {
       "id": "reprise-psg-reportee-27-juillet",
       "category": "Club",

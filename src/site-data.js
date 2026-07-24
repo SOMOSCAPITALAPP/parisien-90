@@ -151,9 +151,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-23T06:30:00+02:00",
-  edition: "Édition PSG du 23 juillet 2026",
-  displayDate: "23 juillet 2026",
+  updatedAt: "2026-07-24T06:30:00+02:00",
+  edition: "Édition PSG du 24 juillet 2026",
+  displayDate: "24 juillet 2026",
   displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -161,6 +161,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-07-23", "23 juillet 2026", [
+  { id: "akliouche-quatrieme-offre-liverpool-renseignements", time: "18:19", category: "Mercato", title: "Akliouche : Paris prépare une quatrième offre, Liverpool reste au renseignement", summary: "CulturePSG indique qu'après le refus de sa troisième proposition, le PSG devrait revenir vers Monaco avec une quatrième offre pour Maghnes Akliouche. Liverpool s'est renseigné sur sa disponibilité, mais aucune offre anglaise n'est annoncée : le dossier reste une négociation ouverte, pas un transfert bouclé.", source: "CulturePSG, avec Sky Sports pour l'intérêt de Liverpool", url: "https://www.culturepsg.com/news/mercato/quatrieme-offre-et-concurrent-anglais-pour-akliouche/60161", reliability: "Rumeur solide — négociation en cours", viral: 91 },
+  ]),
   ...withNewsDate("2026-07-22", "22 juillet 2026", [
   { id: "reprise-psg-reportee-27-juillet", time: "16:40", category: "Club", title: "Reprise du PSG reportée au 27 juillet : Luis Enrique accorde deux jours de plus", summary: "Le Parisien et Ici Paris, relayés par ParisFans, annoncent que le groupe parisien reprendra finalement le lundi 27 juillet plutôt que le 25. Ce délai reste à confirmer par une communication du club, mais il réorganise déjà la courte préparation avant les premiers rendez-vous.", source: "Le Parisien / Ici Paris, relayés par ParisFans", url: "https://www.parisfans.fr/autour-du-psg/le-psg-a-change-la-date-de-reprise-de-lentrainement-928650.html", reliability: "Fort — confirmation du club attendue", viral: 78 },
   { id: "anais-ebayilin-prolonge-2031", time: "15:10", category: "Féminines", title: "Anaïs Ebayilin prolonge au PSG jusqu'en 2031 : le club verrouille une Titi", summary: "Le PSG Féminines a officialisé la prolongation d'Anaïs Ebayilin jusqu'au 30 juin 2031. À 18 ans, la milieu formée au club prolonge une trajectoire déjà remarquée en équipe première et en sélection française.", source: "PSG Féminines, relayé par ParisFans et Les Titis du PSG", url: "https://www.parisfans.fr/club/officiel-le-psg-annonce-la-prolongation-debayilin-928498.html", reliability: "Officiel", viral: 75 },
