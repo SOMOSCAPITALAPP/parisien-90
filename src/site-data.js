@@ -151,9 +151,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-24T06:30:00+02:00",
-  edition: "Édition PSG du 24 juillet 2026",
-  displayDate: "24 juillet 2026",
+  updatedAt: "2026-07-25T06:30:00+02:00",
+  edition: "Édition PSG du 25 juillet 2026",
+  displayDate: "25 juillet 2026",
   displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -161,6 +161,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-07-24", "24 juillet 2026", [
+  { id: "kolo-muani-juventus-offre-revue-hausse", time: "09:59", category: "Mercato", title: "Kolo Muani : la Juventus remonte son offre, mais Paris n'a encore rien cédé", summary: "CulturePSG et Foot Mercato, s'appuyant sur la presse italienne, rapportent que la Juventus a transmis une offre revue à la hausse pour Randal Kolo Muani. Le PSG attendrait toujours un montant supérieur et n'a donné aucun accord : le départ reste une négociation ouverte, pas un transfert conclu.", source: "CulturePSG / Foot Mercato, d'après Sky Italia et Gianluca Di Marzio", url: "https://www.culturepsg.com/news/mercato/la-juve-a-revu-son-offre-au-psg-pour-kolo-muani/60163", reliability: "Rumeur solide — offre à confirmer par les clubs", viral: 87 },
+  ]),
   ...withNewsDate("2026-07-23", "23 juillet 2026", [
   { id: "akliouche-quatrieme-offre-liverpool-renseignements", time: "18:19", category: "Mercato", title: "Akliouche : Paris prépare une quatrième offre, Liverpool reste au renseignement", summary: "CulturePSG indique qu'après le refus de sa troisième proposition, le PSG devrait revenir vers Monaco avec une quatrième offre pour Maghnes Akliouche. Liverpool s'est renseigné sur sa disponibilité, mais aucune offre anglaise n'est annoncée : le dossier reste une négociation ouverte, pas un transfert bouclé.", source: "CulturePSG, avec Sky Sports pour l'intérêt de Liverpool", url: "https://www.culturepsg.com/news/mercato/quatrieme-offre-et-concurrent-anglais-pour-akliouche/60161", reliability: "Rumeur solide — négociation en cours", viral: 91 },
   ]),
