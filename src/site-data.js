@@ -48,7 +48,6 @@ export const currentPlayerProfiles = [
   { id: "willian-pacho", name: "Willian Pacho", number: "51", position: "Défenseur", line: "Défenseurs", status: "Défenseur de référence", role: "Défenseur central gaucher", profile: "Volume défensif, couverture et sérénité dans une équipe qui attaque beaucoup.", watch: "Leadership dans les matchs fermés.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "fabian-ruiz", name: "Fabián Ruiz", number: "8", position: "Milieu de terrain", line: "Milieux", status: "Cadre technique", role: "Milieu relayeur", profile: "Contrôle, orientation et frappe : il donne de la respiration au jeu parisien.", watch: "Forme post-Coupe du monde et rôle dans les grandes affiches.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "vitinha", name: "Vitinha", number: "17", position: "Milieu de terrain", line: "Milieux", status: "Cerveau du jeu", role: "Milieu organisateur", profile: "Le joueur qui règle le tempo, résiste au pressing et accélère quand Paris veut étouffer.", watch: "Influence dans les matchs verrouillés.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
-  { id: "kang-in-lee", name: "Kang-In Lee", number: "19", position: "Milieu de terrain", line: "Milieux", status: "Profil créatif", role: "Milieu offensif ou relayeur", profile: "Pied gauche, conservation et passes dans les petits espaces.", watch: "Temps de jeu dans un milieu ultra-concurrentiel.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "senny-mayulu", name: "Senny Mayulu", number: "24", position: "Milieu de terrain", line: "Milieux", status: "Jeune à suivre", role: "Milieu polyvalent", profile: "Un Titi capable de relier les lignes sans se cacher du ballon.", watch: "Minutes en Ligue 1, progression physique et confiance du staff.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "dro-fernandez", name: "Dro Fernández", number: "27", position: "Milieu de terrain", line: "Milieux", status: "Effectif provisoire PSG 2026-2027", role: "Milieu de développement", profile: "Profil technique à observer dans la rotation et les matchs de préparation.", watch: "Place réelle dans le groupe professionnel.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "warren-zaire-emery", name: "Warren Zaïre-Emery", number: "33", position: "Milieu de terrain", line: "Milieux", status: "Symbole du projet", role: "Milieu box-to-box", profile: "Puissance, maturité et identité parisienne : il incarne la passerelle entre formation et très haut niveau.", watch: "Leadership et régularité offensive.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
@@ -94,7 +93,7 @@ export const seasonSquads = [
     groups: [
       { label: "Gardiens", players: ["Alessandro Longoni", "Lucas Chevalier", "Matvey Safonov"] },
       { label: "Défenseurs", players: ["Achraf Hakimi", "Lucas Beraldo", "Marquinhos", "Illia Zabarnyi", "Lucas Hernández", "Nuno Mendes", "Willian Pacho"] },
-      { label: "Milieux", players: ["Fabián Ruiz", "Vitinha", "Kang-In Lee", "Senny Mayulu", "Dro Fernández", "Warren Zaïre-Emery", "João Neves"] },
+      { label: "Milieux", players: ["Fabián Ruiz", "Vitinha", "Senny Mayulu", "Dro Fernández", "Warren Zaïre-Emery", "João Neves"] },
       { label: "Attaquants", players: ["Khvicha Kvaratskhelia", "Ousmane Dembélé", "Désiré Doué", "Bradley Barcola", "Quentin Ndjantou", "Ibrahim Mbaye"] }
     ]
   },
@@ -151,9 +150,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-25T06:30:00+02:00",
-  edition: "Édition PSG du 25 juillet 2026",
-  displayDate: "25 juillet 2026",
+  updatedAt: "2026-07-26T06:30:00+02:00",
+  edition: "Édition PSG du 26 juillet 2026",
+  displayDate: "26 juillet 2026",
   displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -161,6 +160,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-07-25", "25 juillet 2026", [
+  { id: "kang-in-lee-atletico-madrid-transfert-officiel", time: "10:02", category: "Mercato", title: "Kang-In Lee quitte officiellement le PSG pour l'Atlético de Madrid", summary: "Le PSG et l'Atlético de Madrid ont officialisé le transfert définitif de Kang-In Lee. Le milieu offensif sud-coréen, arrivé à Paris en 2023, signe jusqu'en juin 2031 chez les Colchoneros : il quitte le club avec douze trophées, dont deux Ligues des champions.", source: "PSG.fr et Atlético de Madrid, confirmés par L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-kang-in-lee-quitte-le-psg-et-rejoint-l-atletico-de-madrid-pour-un-transfert-estime-a-40-millions-d-euros/1706894", reliability: "Officiel", viral: 94 },
+  ]),
   ...withNewsDate("2026-07-24", "24 juillet 2026", [
   { id: "kolo-muani-juventus-offre-revue-hausse", time: "09:59", category: "Mercato", title: "Kolo Muani : la Juventus remonte son offre, mais Paris n'a encore rien cédé", summary: "CulturePSG et Foot Mercato, s'appuyant sur la presse italienne, rapportent que la Juventus a transmis une offre revue à la hausse pour Randal Kolo Muani. Le PSG attendrait toujours un montant supérieur et n'a donné aucun accord : le départ reste une négociation ouverte, pas un transfert conclu.", source: "CulturePSG / Foot Mercato, d'après Sky Italia et Gianluca Di Marzio", url: "https://www.culturepsg.com/news/mercato/la-juve-a-revu-son-offre-au-psg-pour-kolo-muani/60163", reliability: "Rumeur solide — offre à confirmer par les clubs", viral: 87 },
   ]),

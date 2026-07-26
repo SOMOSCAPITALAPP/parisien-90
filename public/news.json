@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-25T06:30:00+02:00",
-  "edition": "Édition PSG du 25 juillet 2026",
-  "displayDate": "25 juillet 2026",
+  "updatedAt": "2026-07-26T06:30:00+02:00",
+  "edition": "Édition PSG du 26 juillet 2026",
+  "displayDate": "26 juillet 2026",
   "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 41,
+  "count": 42,
   "items": [
+    {
+      "id": "kang-in-lee-atletico-madrid-transfert-officiel",
+      "category": "Mercato",
+      "date": "2026-07-25",
+      "dateLabel": "25 juillet 2026",
+      "time": "10:02",
+      "dateTime": "2026-07-25T10:02:00+02:00",
+      "headline": "Kang-In Lee quitte officiellement le PSG pour l'Atlético de Madrid",
+      "summary": "Le PSG et l'Atlético de Madrid ont officialisé le transfert définitif de Kang-In Lee. Le milieu offensif sud-coréen, arrivé à Paris en 2023, signe jusqu'en juin 2031 chez les Colchoneros : il quitte le club avec douze trophées, dont deux Ligues des champions.",
+      "tone": "mercato",
+      "reliability": "Officiel",
+      "viralScore": 94,
+      "source": "PSG.fr et Atlético de Madrid, confirmés par L'Équipe",
+      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-kang-in-lee-quitte-le-psg-et-rejoint-l-atletico-de-madrid-pour-un-transfert-estime-a-40-millions-d-euros/1706894"
+    },
     {
       "id": "kolo-muani-juventus-offre-revue-hausse",
       "category": "Mercato",
