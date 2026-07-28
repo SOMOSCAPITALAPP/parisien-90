@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-28T06:30:00+02:00",
+  "updatedAt": "2026-07-28T12:00:00+02:00",
   "edition": "Édition PSG du 28 juillet 2026",
   "displayDate": "28 juillet 2026",
-  "displayTime": "06h30",
+  "displayTime": "12h00",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 43,
+  "count": 44,
   "items": [
+    {
+      "id": "naoufel-el-hannach-pret-montpellier-2026-2027",
+      "category": "Mercato",
+      "date": "2026-07-27",
+      "dateLabel": "27 juillet 2026",
+      "time": "19:22",
+      "dateTime": "2026-07-27T19:22:00+02:00",
+      "headline": "Naoufel El-Hannach est annoncé de retour à Montpellier en prêt",
+      "summary": "Selon L'Équipe, le défenseur parisien de 19 ans va retrouver Montpellier pour la saison 2026-2027, après une première expérience déjà passée au MHSC. Le prêt doit encore être communiqué par les clubs : Paris privilégierait donc la continuité de son temps de jeu.",
+      "tone": "mercato",
+      "reliability": "Fort — officialisation des clubs attendue",
+      "viralScore": 63,
+      "source": "L'Équipe",
+      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-le-psg-prete-de-nouveau-naoufel-el-hannach-a-montpellier/1707450"
+    },
     {
       "id": "reprise-psg-neuf-joueurs-campus",
       "category": "Club",
