@@ -150,16 +150,22 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-26T06:30:00+02:00",
-  edition: "Édition PSG du 26 juillet 2026",
-  displayDate: "26 juillet 2026",
-  displayTime: "06h30",
+  updatedAt: "2026-07-28T12:00:00+02:00",
+  edition: "Édition PSG du 28 juillet 2026",
+  displayDate: "28 juillet 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-07-27", "27 juillet 2026", [
+  { id: "naoufel-el-hannach-pret-montpellier-2026-2027", time: "19:22", category: "Mercato", title: "Naoufel El-Hannach est annoncé de retour à Montpellier en prêt", summary: "Selon L'Équipe, le défenseur parisien de 19 ans va retrouver Montpellier pour la saison 2026-2027, après une première expérience déjà passée au MHSC. Le prêt doit encore être communiqué par les clubs : Paris privilégierait donc la continuité de son temps de jeu.", source: "L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-le-psg-prete-de-nouveau-naoufel-el-hannach-a-montpellier/1707450", reliability: "Fort — officialisation des clubs attendue", viral: 63 },
+  ]),
+  ...withNewsDate("2026-07-27", "27 juillet 2026", [
+  { id: "reprise-psg-neuf-joueurs-campus", time: "16:06", category: "Club", title: "Reprise du PSG : neuf joueurs présents au Campus pour lancer 2026-2027", summary: "Le PSG a bien relancé le travail au Campus le lundi 27 juillet, comme l'avait annoncé le club. CulturePSG, à partir des images diffusées par Paris, recense neuf joueurs pour cette première séance, dont trois gardiens : un groupe logiquement réduit par les vacances après la Coupe du monde. La préparation entre désormais dans le concret avant Majorque.", source: "PSG.fr / CulturePSG", url: "https://www.culturepsg.com/news/club/le-psg-a-fait-sa-reprise-avec-9-joueurs/60181", reliability: "Fort — reprise confirmée par le club", viral: 80 },
+  ]),
   ...withNewsDate("2026-07-25", "25 juillet 2026", [
   { id: "kang-in-lee-atletico-madrid-transfert-officiel", time: "10:02", category: "Mercato", title: "Kang-In Lee quitte officiellement le PSG pour l'Atlético de Madrid", summary: "Le PSG et l'Atlético de Madrid ont officialisé le transfert définitif de Kang-In Lee. Le milieu offensif sud-coréen, arrivé à Paris en 2023, signe jusqu'en juin 2031 chez les Colchoneros : il quitte le club avec douze trophées, dont deux Ligues des champions.", source: "PSG.fr et Atlético de Madrid, confirmés par L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-kang-in-lee-quitte-le-psg-et-rejoint-l-atletico-de-madrid-pour-un-transfert-estime-a-40-millions-d-euros/1706894", reliability: "Officiel", viral: 94 },
   ]),

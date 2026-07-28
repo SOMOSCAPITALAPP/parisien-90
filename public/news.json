@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-26T06:30:00+02:00",
-  "edition": "Édition PSG du 26 juillet 2026",
-  "displayDate": "26 juillet 2026",
+  "updatedAt": "2026-07-28T06:30:00+02:00",
+  "edition": "Édition PSG du 28 juillet 2026",
+  "displayDate": "28 juillet 2026",
   "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 42,
+  "count": 43,
   "items": [
+    {
+      "id": "reprise-psg-neuf-joueurs-campus",
+      "category": "Club",
+      "date": "2026-07-27",
+      "dateLabel": "27 juillet 2026",
+      "time": "16:06",
+      "dateTime": "2026-07-27T16:06:00+02:00",
+      "headline": "Reprise du PSG : neuf joueurs présents au Campus pour lancer 2026-2027",
+      "summary": "Le PSG a bien relancé le travail au Campus le lundi 27 juillet, comme l'avait annoncé le club. CulturePSG, à partir des images diffusées par Paris, recense neuf joueurs pour cette première séance, dont trois gardiens : un groupe logiquement réduit par les vacances après la Coupe du monde. La préparation entre désormais dans le concret avant Majorque.",
+      "tone": "club",
+      "reliability": "Fort — reprise confirmée par le club",
+      "viralScore": 80,
+      "source": "PSG.fr / CulturePSG",
+      "sourceUrl": "https://www.culturepsg.com/news/club/le-psg-a-fait-sa-reprise-avec-9-joueurs/60181"
+    },
     {
       "id": "kang-in-lee-atletico-madrid-transfert-officiel",
       "category": "Mercato",
