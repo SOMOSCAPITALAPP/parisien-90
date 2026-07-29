@@ -150,10 +150,10 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-28T12:00:00+02:00",
-  edition: "Édition PSG du 28 juillet 2026",
-  displayDate: "28 juillet 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-07-29T06:30:00+02:00",
+  edition: "Édition PSG du 29 juillet 2026",
+  displayDate: "29 juillet 2026",
+  displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -165,6 +165,9 @@ export const newsFeed = [
   ]),
   ...withNewsDate("2026-07-27", "27 juillet 2026", [
   { id: "reprise-psg-neuf-joueurs-campus", time: "16:06", category: "Club", title: "Reprise du PSG : neuf joueurs présents au Campus pour lancer 2026-2027", summary: "Le PSG a bien relancé le travail au Campus le lundi 27 juillet, comme l'avait annoncé le club. CulturePSG, à partir des images diffusées par Paris, recense neuf joueurs pour cette première séance, dont trois gardiens : un groupe logiquement réduit par les vacances après la Coupe du monde. La préparation entre désormais dans le concret avant Majorque.", source: "PSG.fr / CulturePSG", url: "https://www.culturepsg.com/news/club/le-psg-a-fait-sa-reprise-avec-9-joueurs/60181", reliability: "Fort — reprise confirmée par le club", viral: 80 },
+  ]),
+  ...withNewsDate("2026-07-26", "26 juillet 2026", [
+  { id: "yan-diomande-psg-retrait-dossier", time: "22:43", category: "Mercato", title: "Yan Diomandé : le PSG se retire du dossier selon L'Équipe", summary: "L'Équipe indique que Paris ne poursuit plus la piste Yan Diomandé. Le dossier, très commenté au début de l'été, ne doit donc plus être présenté comme une négociation active du PSG : aucun communiqué du club n'a toutefois été publié.", source: "L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-le-psg-se-retire-de-la-course-pour-yan-diomande/1707260", reliability: "Fort — information de presse, confirmation du club absente", viral: 76 },
   ]),
   ...withNewsDate("2026-07-25", "25 juillet 2026", [
   { id: "kang-in-lee-atletico-madrid-transfert-officiel", time: "10:02", category: "Mercato", title: "Kang-In Lee quitte officiellement le PSG pour l'Atlético de Madrid", summary: "Le PSG et l'Atlético de Madrid ont officialisé le transfert définitif de Kang-In Lee. Le milieu offensif sud-coréen, arrivé à Paris en 2023, signe jusqu'en juin 2031 chez les Colchoneros : il quitte le club avec douze trophées, dont deux Ligues des champions.", source: "PSG.fr et Atlético de Madrid, confirmés par L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-kang-in-lee-quitte-le-psg-et-rejoint-l-atletico-de-madrid-pour-un-transfert-estime-a-40-millions-d-euros/1706894", reliability: "Officiel", viral: 94 },

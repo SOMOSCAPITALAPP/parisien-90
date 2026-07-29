@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-28T12:00:00+02:00",
-  "edition": "Édition PSG du 28 juillet 2026",
-  "displayDate": "28 juillet 2026",
-  "displayTime": "12h00",
+  "updatedAt": "2026-07-29T06:30:00+02:00",
+  "edition": "Édition PSG du 29 juillet 2026",
+  "displayDate": "29 juillet 2026",
+  "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 44,
+  "count": 45,
   "items": [
     {
       "id": "naoufel-el-hannach-pret-montpellier-2026-2027",
@@ -35,6 +35,21 @@
       "viralScore": 80,
       "source": "PSG.fr / CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/news/club/le-psg-a-fait-sa-reprise-avec-9-joueurs/60181"
+    },
+    {
+      "id": "yan-diomande-psg-retrait-dossier",
+      "category": "Mercato",
+      "date": "2026-07-26",
+      "dateLabel": "26 juillet 2026",
+      "time": "22:43",
+      "dateTime": "2026-07-26T22:43:00+02:00",
+      "headline": "Yan Diomandé : le PSG se retire du dossier selon L'Équipe",
+      "summary": "L'Équipe indique que Paris ne poursuit plus la piste Yan Diomandé. Le dossier, très commenté au début de l'été, ne doit donc plus être présenté comme une négociation active du PSG : aucun communiqué du club n'a toutefois été publié.",
+      "tone": "mercato",
+      "reliability": "Fort — information de presse, confirmation du club absente",
+      "viralScore": 76,
+      "source": "L'Équipe",
+      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-le-psg-se-retire-de-la-course-pour-yan-diomande/1707260"
     },
     {
       "id": "kang-in-lee-atletico-madrid-transfert-officiel",
