@@ -625,7 +625,66 @@ const focusHashTarget = () => {
   }
 };
 
+const initHomeNews = () => {
+  const lead = newsFeed[0];
+  const leadTarget = document.querySelector("[data-home-lead]");
+  const hotGrid = document.querySelector("[data-home-hot-grid]");
+  const liveList = document.querySelector("[data-home-live-list]");
+
+  if (!lead || (!leadTarget && !hotGrid && !liveList)) return;
+
+  const setHomeLeadText = (selector, value) => {
+    leadTarget?.querySelector(selector) && (leadTarget.querySelector(selector).textContent = value);
+  };
+
+  if (leadTarget) {
+    const date = leadTarget.querySelector("[data-home-lead-date]");
+    if (date) {
+      date.dateTime = getNewsDateTimeISO(lead);
+      date.textContent = getNewsDateTimeLabel(lead);
+    }
+    setHomeLeadText("[data-home-lead-title]", lead.title);
+    setHomeLeadText("[data-home-lead-summary]", lead.summary);
+    setHomeLeadText("[data-home-lead-source]", `Source : ${lead.source}`);
+    setHomeLeadText("[data-home-lead-category]", lead.category);
+  }
+
+  const featured = newsFeed.slice(0, 4);
+
+  if (hotGrid) {
+    hotGrid.innerHTML = featured.map((item, index) => `
+      <article class="news-card${index === 0 ? " is-lead" : ""}" id="home-news-${escapeHTML(item.id)}" data-share-title="${escapeHTML(item.title)}">
+        <time class="news-date" datetime="${escapeHTML(getNewsDateTimeISO(item))}">${escapeHTML(getNewsDateTimeLabel(item))}</time>
+        <div class="news-topline"><span>${escapeHTML(item.category)}</span><strong>Viral ${escapeHTML(item.viral)}</strong></div>
+        <h3>${escapeHTML(item.title)}</h3>
+        <p>${escapeHTML(item.summary)}</p>
+        <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">Source : ${escapeHTML(item.source)}</a>
+      </article>
+    `).join("");
+    initShareActions(hotGrid);
+  }
+
+  if (liveList) {
+    liveList.innerHTML = newsFeed.slice(0, 5).map((item) => `
+      <article class="live-item" id="home-live-${escapeHTML(item.id)}" data-share-title="${escapeHTML(item.title)}">
+        <time datetime="${escapeHTML(getNewsDateTimeISO(item))}">${escapeHTML(getNewsDateTimeLabel(item))}</time>
+        <div class="live-body">
+          <div class="item-tags"><span>${escapeHTML(item.category)}</span><span>${escapeHTML(item.reliability)}</span></div>
+          <h3>${escapeHTML(item.title)}</h3>
+          <p>${escapeHTML(item.summary)}</p>
+          <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">Source : ${escapeHTML(item.source)}</a>
+        </div>
+        <span class="reliability">${escapeHTML(item.reliability)}</span>
+      </article>
+    `).join("");
+    initShareActions(liveList);
+  }
+
+  setTextForSelector("[data-home-news-count]", String(featured.length));
+};
+
 initNewsFreshness();
+initHomeNews();
 initCalendarApp();
 initLongNewsFeed();
 initPlayerProfileEnhancements();

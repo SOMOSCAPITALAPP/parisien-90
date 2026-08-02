@@ -1358,6 +1358,17 @@ main {
   line-height: 1.55;
 }
 
+.news-date {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.news-card.is-lead .news-date,
+.hero-news .news-date {
+  color: #dce6f1;
+}
+
 .news-card.is-lead p {
   color: #dce6f1;
 }
