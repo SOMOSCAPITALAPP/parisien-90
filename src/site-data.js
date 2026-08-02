@@ -150,16 +150,24 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-07-29T06:30:00+02:00",
-  edition: "Édition PSG du 29 juillet 2026",
-  displayDate: "29 juillet 2026",
-  displayTime: "06h30",
+  updatedAt: "2026-08-02T11:55:00+02:00",
+  edition: "Édition PSG du 2 août 2026",
+  displayDate: "2 août 2026",
+  displayTime: "11h55",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-02", "2 août 2026", [
+  { id: "kolo-muani-juventus-vente-definitive-attendue", time: "10:24", category: "Mercato", title: "Kolo Muani : la Juventus vise désormais un transfert définitif, visite médicale encore attendue", summary: "CulturePSG rapporte, en s'appuyant sur L'Équipe ainsi que Fabrizio Romano et Gianluca Di Marzio, que la Juventus négocie finalement une vente définitive de Randal Kolo Muani autour de 38 M€ plus 12 M€ de bonus. Le principe paraît très avancé, mais le joueur doit encore passer sa visite médicale : Parisien 90 ne présente donc pas le départ comme officiel.", source: "CulturePSG, d'après L'Équipe, Fabrizio Romano et Gianluca Di Marzio", url: "https://www.culturepsg.com/fr/news/mercato/changement-de-derniere-minute-pour-kolo-muani/60215", reliability: "Fort — visite médicale et officialisation attendues", viral: 95 },
+  ]),
+  ...withNewsDate("2026-07-31", "31 juillet 2026", [
+  { id: "majorque-manchester-united-diffusion-bein-2026", time: "18:40", category: "Calendrier", title: "Majorque-PSG et PSG-Manchester United : les deux amicaux annoncés sur beIN Sports", summary: "CulturePSG relaie l'annonce de beIN Sports pour les deux premiers amicaux de préparation : Majorque-PSG le 5 août, puis PSG-Manchester United le 8 août. Les affiches et leurs horaires sont déjà confirmés par le calendrier du club ; la diffusion complète le dispositif de reprise.", source: "beIN Sports, relayé par CulturePSG ; calendrier PSG.fr", url: "https://www.culturepsg.com/fr/news/match/un-diffuseur-annonce-pour-les-deux-premiers-matchs-amicauxdupsg/60208", reliability: "Fort — diffusion annoncée", viral: 72 },
+  { id: "akliouche-accord-total-monaco-psg-attente-signature", time: "15:35", category: "Mercato", title: "Akliouche : accord total annoncé avec Monaco, mais la signature reste à venir", summary: "CulturePSG annonce un accord entre le PSG, Monaco et Maghnes Akliouche après plusieurs offres, sur une opération dont le montant pourrait approcher 50 M€ bonus compris. La visite médicale et la signature sont encore attendues : l'arrivée ne sera qualifiée d'officielle qu'après communication des clubs.", source: "CulturePSG", url: "https://www.culturepsg.com/fr/news/mercato/le-transfert-d-akliouche-au-psg-boucle-le-montant-se-precise/60207", reliability: "Fort — accord annoncé, officialisation attendue", viral: 97 },
+  { id: "willian-pacho-retour-campus-psg", time: "14:10", category: "Club", title: "Willian Pacho a repris au Campus : un premier cadre mondialiste de retour", summary: "Le défenseur équatorien Willian Pacho a retrouvé le groupe parisien à l'entraînement le 31 juillet, après ses vacances. CulturePSG relaie les images publiées par le PSG : ce retour élargit progressivement un groupe encore marqué par les retours décalés des internationaux.", source: "PSG, relayé par CulturePSG", url: "https://www.culturepsg.com/fr/news/club/un-retour-majeur-dans-le-groupe-du-psg/60206", reliability: "Fort — images du club", viral: 76 },
+  ]),
   ...withNewsDate("2026-07-27", "27 juillet 2026", [
   { id: "naoufel-el-hannach-pret-montpellier-2026-2027", time: "19:22", category: "Mercato", title: "Naoufel El-Hannach est annoncé de retour à Montpellier en prêt", summary: "Selon L'Équipe, le défenseur parisien de 19 ans va retrouver Montpellier pour la saison 2026-2027, après une première expérience déjà passée au MHSC. Le prêt doit encore être communiqué par les clubs : Paris privilégierait donc la continuité de son temps de jeu.", source: "L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Mercato-le-psg-prete-de-nouveau-naoufel-el-hannach-a-montpellier/1707450", reliability: "Fort — officialisation des clubs attendue", viral: 63 },
   ]),
