@@ -1,0 +1,20 @@
+{
+  "name": "Parisien 90 - Actu PSG",
+  "short_name": "Parisien 90",
+  "description": "Actualite PSG, mercato, transferts, calendrier et joueurs.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#071426",
+  "theme_color": "#071426",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/parisien-90-app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

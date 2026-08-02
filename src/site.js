@@ -633,3 +633,52 @@ initLegendProfileChips();
 initSeasonExplorer();
 initShareActions();
 focusHashTarget();
+
+const initAppInstall = () => {
+  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
+
+  let installEvent;
+  const installer = document.createElement("button");
+  installer.className = "app-install-button";
+  installer.type = "button";
+  installer.hidden = true;
+  installer.innerHTML = '<span aria-hidden="true">+</span> Installer l\'application';
+
+  const showIosInstructions = () => {
+    const notice = document.createElement("aside");
+    notice.className = "app-install-notice";
+    notice.setAttribute("role", "status");
+    notice.innerHTML = '<strong>Installer Parisien 90</strong><p>Dans Safari, ouvrez Partager puis choisissez « Sur l\'ecran d\'accueil ».</p><button type="button" aria-label="Fermer">Fermer</button>';
+    notice.querySelector("button")?.addEventListener("click", () => notice.remove());
+    document.body.append(notice);
+  };
+
+  window.addEventListener("beforeinstallprompt", (event) => {
+    event.preventDefault();
+    installEvent = event;
+    installer.hidden = false;
+  });
+
+  installer.addEventListener("click", async () => {
+    if (installEvent) {
+      await installEvent.prompt();
+      await installEvent.userChoice;
+      installEvent = undefined;
+      installer.hidden = true;
+      return;
+    }
+    showIosInstructions();
+  });
+
+  const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  if (isIos) installer.hidden = false;
+  document.body.append(installer);
+
+  window.addEventListener("appinstalled", () => installer.remove());
+};
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));
+}
+
+initAppInstall();

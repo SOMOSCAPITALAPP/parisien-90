@@ -79,6 +79,60 @@ a {
   font-size: 14px;
 }
 
+.app-install-button {
+  position: fixed;
+  z-index: 30;
+  right: 1rem;
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 999px;
+  padding: .72rem 1rem;
+  color: #fff;
+  background: linear-gradient(135deg, #184fba, #d7193f);
+  box-shadow: 0 12px 30px rgba(4, 12, 29, .32);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.app-install-button span {
+  display: grid;
+  width: 1.25rem;
+  height: 1.25rem;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, .68);
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.app-install-button:hover,
+.app-install-button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(4, 12, 29, .42);
+}
+
+.app-install-notice {
+  position: fixed;
+  z-index: 31;
+  right: 1rem;
+  bottom: calc(4.8rem + env(safe-area-inset-bottom));
+  width: min(22rem, calc(100vw - 2rem));
+  padding: 1rem;
+  border: 1px solid rgba(155, 191, 255, .45);
+  border-radius: 1rem;
+  color: #f7fbff;
+  background: #0b1d3a;
+  box-shadow: 0 16px 40px rgba(4, 12, 29, .4);
+}
+
+.app-install-notice strong { display: block; }
+.app-install-notice p { margin: .45rem 0 .8rem; color: #d6e6ff; line-height: 1.45; }
+.app-install-notice button { border: 0; border-radius: .45rem; padding: .45rem .7rem; color: #071426; background: #fff; font: inherit; font-weight: 800; cursor: pointer; }
+
 .brand strong,
 .brand small {
   display: block;

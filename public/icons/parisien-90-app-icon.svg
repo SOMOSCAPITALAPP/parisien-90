@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Parisien 90">
+  <defs>
+    <linearGradient id="night" x1="48" y1="34" x2="468" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071426"/>
+      <stop offset=".5" stop-color="#102a58"/>
+      <stop offset="1" stop-color="#06101f"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="120" y1="98" x2="388" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42a5ff"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#night)"/>
+  <rect x="18" y="18" width="476" height="476" rx="102" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="4"/>
+  <path d="M256 55 418 148v188L256 457 94 336V148Z" fill="url(#blue)" opacity=".22"/>
+  <path d="M256 80 397 161v163L256 405 115 324V161Z" fill="none" stroke="#72b9ff" stroke-opacity=".46" stroke-width="6"/>
+  <path d="M126 118h65l65 276h-66z" fill="#e31b45"/>
+  <path d="M191 118h52l65 276h-52z" fill="#f6f8ff"/>
+  <path d="M256 118h65l65 276h-66z" fill="#1557d6"/>
+  <circle cx="256" cy="256" r="126" fill="#091a35" stroke="#f6f8ff" stroke-opacity=".32" stroke-width="8"/>
+  <path d="M256 157v59" stroke="#f4c95d" stroke-width="15" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="256" cy="142" r="13" fill="#f4c95d"/>
+  <text x="256" y="306" text-anchor="middle" fill="#fff" font-family="Arial Black, Arial, sans-serif" font-size="104" font-weight="900" letter-spacing="-9">P90</text>
+  <text x="256" y="348" text-anchor="middle" fill="#a9d6ff" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="5">PARISIEN</text>
+</svg>
