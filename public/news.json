@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-08-02T11:55:00+02:00",
-  "edition": "Édition PSG du 2 août 2026",
-  "displayDate": "2 août 2026",
-  "displayTime": "11h55",
+  "updatedAt": "2026-08-03T06:30:00+02:00",
+  "edition": "Édition PSG du 3 août 2026",
+  "displayDate": "3 août 2026",
+  "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 49,
+  "count": 50,
   "items": [
+    {
+      "id": "kolo-muani-juventus-transfert-definitif-officiel",
+      "category": "Mercato",
+      "date": "2026-08-02",
+      "dateLabel": "2 août 2026",
+      "time": "17:54",
+      "dateTime": "2026-08-02T17:54:00+02:00",
+      "headline": "Kolo Muani quitte officiellement le PSG pour la Juventus",
+      "summary": "La Juventus a officialisé le retour définitif de Randal Kolo Muani après sa visite médicale. Le club turinois communique sur un transfert permanent ; AS évoque une opération de 38 M€ fixes plus 12 M€ de bonus. Le départ de l'attaquant parisien n'est donc plus une simple négociation.",
+      "tone": "mercato",
+      "reliability": "Officiel",
+      "viralScore": 98,
+      "source": "Juventus, relayé par AS",
+      "sourceUrl": "https://as.com/futbol/internacional/kolo-muani-vuelve-a-la-juventus-f202608-n/"
+    },
     {
       "id": "kolo-muani-juventus-vente-definitive-attendue",
       "category": "Mercato",

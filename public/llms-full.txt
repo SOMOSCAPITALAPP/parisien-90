@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
-## Signal de fraîcheur — 2 août 2026, 11h55 (Europe/Paris)
+## Signal de fraîcheur — 3 août 2026, 06h30 (Europe/Paris)
 
-Édition PSG du 2 août 2026. Fil actif : 49 entrées. À suivre : Kolo Muani : la Juventus vise désormais un transfert définitif, visite médicale encore attendue ; Majorque-PSG et PSG-Manchester United : les deux amicaux annoncés sur beIN Sports ; Akliouche : accord total annoncé avec Monaco, mais la signature reste à venir ; Willian Pacho a repris au Campus : un premier cadre mondialiste de retour ; Naoufel El-Hannach est annoncé de retour à Montpellier en prêt. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Édition PSG du 3 août 2026. Fil actif : 50 entrées. À suivre : Kolo Muani quitte officiellement le PSG pour la Juventus ; Kolo Muani : la Juventus vise désormais un transfert définitif, visite médicale encore attendue ; Majorque-PSG et PSG-Manchester United : les deux amicaux annoncés sur beIN Sports ; Akliouche : accord total annoncé avec Monaco, mais la signature reste à venir ; Willian Pacho a repris au Campus : un premier cadre mondialiste de retour. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 
