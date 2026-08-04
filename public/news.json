@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-08-03T06:30:00+02:00",
-  "edition": "Édition PSG du 3 août 2026",
-  "displayDate": "3 août 2026",
+  "updatedAt": "2026-08-04T06:30:00+02:00",
+  "edition": "Édition PSG du 4 août 2026",
+  "displayDate": "4 août 2026",
   "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 50,
+  "count": 51,
   "items": [
+    {
+      "id": "calendrier-officiel-monaco-brest-programmation",
+      "category": "Calendrier",
+      "date": "2026-08-04",
+      "dateLabel": "4 août 2026",
+      "time": "06:30",
+      "dateTime": "2026-08-04T06:30:00+02:00",
+      "headline": "PSG-Monaco avancé au 4 septembre, Brest-PSG programmé le 13",
+      "summary": "Le calendrier officiel du PSG programme désormais la réception de Monaco le vendredi 4 septembre, puis le déplacement à Brest le dimanche 13 septembre, avec un coup d'envoi à 18h45 pour les deux rendez-vous. Ces créneaux remplacent les dates auparavant indicatives : le calendrier parisien commence à prendre sa forme concrète.",
+      "tone": "calendrier",
+      "reliability": "Officiel",
+      "viralScore": 74,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
+    },
     {
       "id": "kolo-muani-juventus-transfert-definitif-officiel",
       "category": "Mercato",

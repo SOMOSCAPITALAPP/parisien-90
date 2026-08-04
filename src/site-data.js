@@ -1,8 +1,8 @@
 export const psgSchedule2627 = [
   { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Stade Rennais", opponent: "Stade Rennais", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Ouverture de saison au Parc.", highlight: true },
   { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier déplacement dense de la saison.", highlight: false },
-  { round: 3, isoDate: "2026-09-05", day: "samedi", dateLabel: "5 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Affiche directe entre prétendants au podium.", highlight: true },
-  { round: 4, isoDate: "2026-09-12", day: "samedi", dateLabel: "12 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "À confirmer", status: "Horaire à confirmer", note: "Déplacement piège après la trêve.", highlight: false },
+  { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Affiche directe entre prétendants au podium.", highlight: true },
+  { round: 4, isoDate: "2026-09-13", day: "dimanche", dateLabel: "13 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "18:45", status: "Programmé", note: "Déplacement piège après la trêve.", highlight: false },
   { round: 5, isoDate: "2026-09-20", day: "dimanche", dateLabel: "20 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Olympique de Marseille", away: "Paris Saint-Germain", opponent: "Olympique de Marseille", venue: "Orange Vélodrome", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier Classique de la saison.", highlight: true },
   { round: 6, isoDate: "2026-10-10", day: "samedi", dateLabel: "10 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Le Mans FC", opponent: "Le Mans FC", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Retour au Parc contre un promu ambitieux.", highlight: false },
   { round: 7, isoDate: "2026-10-17", day: "samedi", dateLabel: "17 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "RC Strasbourg", away: "Paris Saint-Germain", opponent: "RC Strasbourg", venue: "Stade de la Meinau", place: "Extérieur", time: "À confirmer", status: "Horaire à confirmer", note: "La Meinau, toujours électrique.", highlight: false },
@@ -150,9 +150,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-03T06:30:00+02:00",
-  edition: "Édition PSG du 3 août 2026",
-  displayDate: "3 août 2026",
+  updatedAt: "2026-08-04T06:30:00+02:00",
+  edition: "Édition PSG du 4 août 2026",
+  displayDate: "4 août 2026",
   displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -160,6 +160,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-04", "4 août 2026", [
+  { id: "calendrier-officiel-monaco-brest-programmation", time: "06:30", category: "Calendrier", title: "PSG-Monaco avancé au 4 septembre, Brest-PSG programmé le 13", summary: "Le calendrier officiel du PSG programme désormais la réception de Monaco le vendredi 4 septembre, puis le déplacement à Brest le dimanche 13 septembre, avec un coup d'envoi à 18h45 pour les deux rendez-vous. Ces créneaux remplacent les dates auparavant indicatives : le calendrier parisien commence à prendre sa forme concrète.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 74 },
+  ]),
   ...withNewsDate("2026-08-02", "2 août 2026", [
   { id: "kolo-muani-juventus-transfert-definitif-officiel", time: "17:54", category: "Mercato", title: "Kolo Muani quitte officiellement le PSG pour la Juventus", summary: "La Juventus a officialisé le retour définitif de Randal Kolo Muani après sa visite médicale. Le club turinois communique sur un transfert permanent ; AS évoque une opération de 38 M€ fixes plus 12 M€ de bonus. Le départ de l'attaquant parisien n'est donc plus une simple négociation.", source: "Juventus, relayé par AS", url: "https://as.com/futbol/internacional/kolo-muani-vuelve-a-la-juventus-f202608-n/", reliability: "Officiel", viral: 98 },
   ]),
