@@ -150,16 +150,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-04T13:15:00+02:00",
-  edition: "Édition PSG du 4 août 2026",
-  displayDate: "4 août 2026",
-  displayTime: "13h15",
+  updatedAt: "2026-08-06T06:30:00+02:00",
+  edition: "Édition PSG du 6 août 2026",
+  displayDate: "6 août 2026",
+  displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-05", "5 août 2026", [
+  { id: "mallorca-psg-defaite-amical-officiel-2026", time: "21:00", category: "Match", title: "Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation", summary: "Le match center du PSG acte une défaite 3-0 à Majorque pour la première rencontre de préparation. Luvumbo, Virgili et Raíllo ont marqué ; Paris, encore très jeune et incomplet, a surtout lancé sa remise en route physique avant Manchester United samedi.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/2026/mallorca-vs-paris-2026-08-05", reliability: "Officiel", viral: 88 },
+  ]),
   ...withNewsDate("2026-08-04", "4 août 2026", [
   { id: "suzuki-chevalier-plan-psg-2026", time: "12:55", category: "Mercato", title: "Suzuki au PSG : Paris avance, mais le vrai plan dépend de Chevalier", summary: "CulturePSG rapporte que le PSG travaille Zion Suzuki avec une offre autour de 28 M€ plus bonus, tout en gardant Lucas Chevalier au centre de la réflexion. Le scénario le plus crédible reste un achat stratégique, possiblement suivi d'un prêt selon la hiérarchie des gardiens : chaud, mais pas encore officiel.", source: "CulturePSG", url: "https://www.culturepsg.com/news/mercato/le-plan-du-psg-pour-suzuki-et-chevalier-se-precise/60233", reliability: "Fort — offre et plan à confirmer", viral: 92 },
   { id: "tableau-mercato-psg-aout-2026", time: "11:45", category: "Transferts", title: "Tableau mercato PSG : Akliouche, Ferran, Godts, Suzuki, Digne... Paris ouvre enfin le grand chantier", summary: "Le tableau mercato de CulturePSG concentre les dossiers chauds du 4 août : Akliouche, Ferran Torres, Mika Godts, Zion Suzuki et Lucas Digne côté arrivées, avec plusieurs départs déjà actés ou très avancés. Parisien 90 le traite comme une carte de marché, pas comme une officialisation globale.", source: "CulturePSG", url: "https://www.culturepsg.com/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647", reliability: "Tableau de suivi — statuts à vérifier dossier par dossier", viral: 86 },

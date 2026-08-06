@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-08-04T13:15:00+02:00",
-  "edition": "Édition PSG du 4 août 2026",
-  "displayDate": "4 août 2026",
-  "displayTime": "13h15",
+  "updatedAt": "2026-08-06T06:30:00+02:00",
+  "edition": "Édition PSG du 6 août 2026",
+  "displayDate": "6 août 2026",
+  "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 57,
+  "count": 58,
   "items": [
+    {
+      "id": "mallorca-psg-defaite-amical-officiel-2026",
+      "category": "Match",
+      "date": "2026-08-05",
+      "dateLabel": "5 août 2026",
+      "time": "21:00",
+      "dateTime": "2026-08-05T21:00:00+02:00",
+      "headline": "Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation",
+      "summary": "Le match center du PSG acte une défaite 3-0 à Majorque pour la première rencontre de préparation. Luvumbo, Virgili et Raíllo ont marqué ; Paris, encore très jeune et incomplet, a surtout lancé sa remise en route physique avant Manchester United samedi.",
+      "tone": "match",
+      "reliability": "Officiel",
+      "viralScore": 88,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/mallorca-vs-paris-2026-08-05"
+    },
     {
       "id": "suzuki-chevalier-plan-psg-2026",
       "category": "Mercato",
