@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
-## Signal de fraîcheur — 6 août 2026, 06h30 (Europe/Paris)
+## Signal de fraîcheur — 8 août 2026, 06h30 (Europe/Paris)
 
-Édition PSG du 6 août 2026. Fil actif : 58 entrées. À suivre : Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation ; Suzuki au PSG : Paris avance, mais le vrai plan dépend de Chevalier ; Tableau mercato PSG : Akliouche, Ferran, Godts, Suzuki, Digne... Paris ouvre enfin le grand chantier ; Godts : l'Ajax refuse la première offre, Paris teste déjà la résistance ; Ferran Torres temporise, Paris veut accélérer : supersub de luxe ou futur bras de fer ?. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Édition PSG du 8 août 2026. Fil actif : 59 entrées. À suivre : PSG-Monaco et Brest-PSG : les rendez-vous de septembre reviennent à confirmer ; Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation ; Suzuki au PSG : Paris avance, mais le vrai plan dépend de Chevalier ; Tableau mercato PSG : Akliouche, Ferran, Godts, Suzuki, Digne... Paris ouvre enfin le grand chantier ; Godts : l'Ajax refuse la première offre, Paris teste déjà la résistance. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 

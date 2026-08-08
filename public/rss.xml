@@ -5,7 +5,14 @@
     <link>https://parisien-90.vercel.app/</link>
     <description>Actualité PSG, mercato et transfert Paris Saint-Germain.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 06 Aug 2026 04:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 04:30:00 +0000</lastBuildDate>
+    <item>
+      <title>PSG-Monaco et Brest-PSG : les rendez-vous de septembre reviennent à confirmer</title>
+      <link>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-dates-a-confirmer</link>
+      <guid>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-dates-a-confirmer</guid>
+      <pubDate>Sat, 08 Aug 2026 04:30:00 +0000</pubDate>
+      <description>Le calendrier actuellement affiché par PSG.fr place PSG-Monaco le samedi 5 septembre et Brest-PSG le samedi 12 septembre, sans horaire définitif. Parisien 90 corrige donc les créneaux précédemment indiqués : seules ces dates et le statut « à confirmer » doivent guider le calendrier jusqu&apos;à une nouvelle programmation officielle. Source : PSG.fr.</description>
+    </item>
     <item>
       <title>Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation</title>
       <link>https://parisien-90.vercel.app/actualite-psg/#news-mallorca-psg-defaite-amical-officiel-2026</link>
@@ -56,11 +63,11 @@
       <description>CulturePSG annonce le prêt de Khalil Ayari à Dunkerque pour une saison, sans option d&apos;achat. Pour le PSG, c&apos;est une sortie propre de développement : du temps de jeu, pas de perte de contrôle, et un vrai test dans un championnat exigeant. Source : CulturePSG.</description>
     </item>
     <item>
-      <title>PSG-Monaco avancé au 4 septembre, Brest-PSG programmé le 13</title>
+      <title>Programmation initiale : Monaco et Brest avaient été annoncés les 4 et 13 septembre</title>
       <link>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-officiel-monaco-brest-programmation</link>
       <guid>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-officiel-monaco-brest-programmation</guid>
       <pubDate>Tue, 04 Aug 2026 04:30:00 +0000</pubDate>
-      <description>Le calendrier officiel du PSG programme désormais la réception de Monaco le vendredi 4 septembre, puis le déplacement à Brest le dimanche 13 septembre, avec un coup d&apos;envoi à 18h45 pour les deux rendez-vous. Ces créneaux remplacent les dates auparavant indicatives : le calendrier parisien commence à prendre sa forme concrète. Source : PSG.fr.</description>
+      <description>Cette programmation du 4 août est désormais dépassée : le calendrier actuel de PSG.fr affiche PSG-Monaco le 5 septembre et Brest-PSG le 12, avec des horaires à confirmer. Cette entrée est conservée comme repère éditorial, sans prévaloir sur le calendrier officiel en cours. Source : PSG.fr.</description>
     </item>
     <item>
       <title>Kolo Muani quitte officiellement le PSG pour la Juventus</title>
@@ -82,13 +89,6 @@
       <guid>https://parisien-90.vercel.app/actualite-psg/#news-majorque-manchester-united-diffusion-bein-2026</guid>
       <pubDate>Fri, 31 Jul 2026 16:40:00 +0000</pubDate>
       <description>CulturePSG relaie l&apos;annonce de beIN Sports pour les deux premiers amicaux de préparation : Majorque-PSG le 5 août, puis PSG-Manchester United le 8 août. Les affiches et leurs horaires sont déjà confirmés par le calendrier du club ; la diffusion complète le dispositif de reprise. Source : beIN Sports, relayé par CulturePSG ; calendrier PSG.fr.</description>
-    </item>
-    <item>
-      <title>Akliouche : accord total annoncé avec Monaco, mais la signature reste à venir</title>
-      <link>https://parisien-90.vercel.app/actualite-psg/#news-akliouche-accord-total-monaco-psg-attente-signature</link>
-      <guid>https://parisien-90.vercel.app/actualite-psg/#news-akliouche-accord-total-monaco-psg-attente-signature</guid>
-      <pubDate>Fri, 31 Jul 2026 13:35:00 +0000</pubDate>
-      <description>CulturePSG annonce un accord entre le PSG, Monaco et Maghnes Akliouche après plusieurs offres, sur une opération dont le montant pourrait approcher 50 M€ bonus compris. La visite médicale et la signature sont encore attendues : l&apos;arrivée ne sera qualifiée d&apos;officielle qu&apos;après communication des clubs. Source : CulturePSG.</description>
     </item>
   </channel>
 </rss>
