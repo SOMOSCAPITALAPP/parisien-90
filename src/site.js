@@ -483,7 +483,7 @@ const initSeasonExplorer = () => {
       </div>
       <span class="freshness">Base évolutive</span>
     </div>
-    <p>La saison 2026-2027 est complète selon l'effectif provisoire officiel. Les saisons historiques sont déjà navigables en groupes repères et conçues pour recevoir une archive exhaustive source par source.</p>
+    <p>La saison 2026-2027 combine la base officielle PSG.fr et les mouvements mercato vérifiés, dont Akliouche intégré au 9 août. Les saisons historiques sont déjà navigables en groupes repères et conçues pour recevoir une archive exhaustive source par source.</p>
     <div class="interactive-toolbar is-compact">
       <label class="control-field">Saison
         <select data-season-select>
@@ -663,7 +663,7 @@ const initHomeNews = () => {
     setHomeLeadText("[data-home-lead-category]", lead.category);
   }
 
-  const featured = newsFeed.slice(0, 4);
+  const featured = newsFeed.slice(0, 5);
 
   if (hotGrid) {
     hotGrid.innerHTML = featured.map((item, index) => `
