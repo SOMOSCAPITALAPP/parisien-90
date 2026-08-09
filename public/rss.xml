@@ -5,13 +5,27 @@
     <link>https://parisien-90.vercel.app/</link>
     <description>Actualité PSG, mercato et transfert Paris Saint-Germain.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 08 Aug 2026 04:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 04:30:00 +0000</lastBuildDate>
     <item>
-      <title>PSG-Monaco et Brest-PSG : les rendez-vous de septembre reviennent à confirmer</title>
+      <title>PSG-Monaco et Brest-PSG : les dates du 4 et du 13 septembre, à 18h45, sont de retour</title>
+      <link>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-programmation-4-13-septembre</link>
+      <guid>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-programmation-4-13-septembre</guid>
+      <pubDate>Sun, 09 Aug 2026 04:30:00 +0000</pubDate>
+      <description>Le calendrier officiel actuellement affiché par PSG.fr programme PSG-Monaco le vendredi 4 septembre à 18h45, puis Brest-PSG le dimanche 13 septembre à 18h45. Parisien 90 aligne donc son calendrier sur cette programmation, qui remplace l&apos;affichage provisoire des 5 et 12 septembre sans horaire. Source : PSG.fr.</description>
+    </item>
+    <item>
+      <title>PSG-Manchester United : Ibrahim Mbaye lance Paris, mais l&apos;amical se termine sur un nul</title>
+      <link>https://parisien-90.vercel.app/actualite-psg/#news-psg-manchester-united-nul-amical-mbaye-2026</link>
+      <guid>https://parisien-90.vercel.app/actualite-psg/#news-psg-manchester-united-nul-amical-mbaye-2026</guid>
+      <pubDate>Sat, 08 Aug 2026 17:00:00 +0000</pubDate>
+      <description>Le match center du PSG confirme le 1-1 contre Manchester United à Göteborg. Ibrahim Mbaye a ouvert le score dès la 2e minute, avant l&apos;égalisation de Bryan Mbeumo à la 32e. Ce deuxième test de préparation offre du rythme au groupe avant la Supercoupe de l&apos;UEFA contre Aston Villa. Source : PSG.fr.</description>
+    </item>
+    <item>
+      <title>Programmation du 8 août : Monaco et Brest étaient alors annoncés sans horaire</title>
       <link>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-dates-a-confirmer</link>
       <guid>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-dates-a-confirmer</guid>
       <pubDate>Sat, 08 Aug 2026 04:30:00 +0000</pubDate>
-      <description>Le calendrier actuellement affiché par PSG.fr place PSG-Monaco le samedi 5 septembre et Brest-PSG le samedi 12 septembre, sans horaire définitif. Parisien 90 corrige donc les créneaux précédemment indiqués : seules ces dates et le statut « à confirmer » doivent guider le calendrier jusqu&apos;à une nouvelle programmation officielle. Source : PSG.fr.</description>
+      <description>Cette information du 8 août est remplacée par la programmation ensuite affichée par PSG.fr : PSG-Monaco le 4 septembre à 18h45 et Brest-PSG le 13 septembre à 18h45. Elle est conservée comme repère éditorial et ne prévaut pas sur le calendrier officiel en cours. Source : PSG.fr.</description>
     </item>
     <item>
       <title>Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation</title>
@@ -75,20 +89,6 @@
       <guid>https://parisien-90.vercel.app/actualite-psg/#news-kolo-muani-juventus-transfert-definitif-officiel</guid>
       <pubDate>Sun, 02 Aug 2026 15:54:00 +0000</pubDate>
       <description>La Juventus a officialisé le retour définitif de Randal Kolo Muani après sa visite médicale. Le club turinois communique sur un transfert permanent ; AS évoque une opération de 38 M€ fixes plus 12 M€ de bonus. Le départ de l&apos;attaquant parisien n&apos;est donc plus une simple négociation. Source : Juventus, relayé par AS.</description>
-    </item>
-    <item>
-      <title>Kolo Muani : la Juventus vise désormais un transfert définitif, visite médicale encore attendue</title>
-      <link>https://parisien-90.vercel.app/actualite-psg/#news-kolo-muani-juventus-vente-definitive-attendue</link>
-      <guid>https://parisien-90.vercel.app/actualite-psg/#news-kolo-muani-juventus-vente-definitive-attendue</guid>
-      <pubDate>Sun, 02 Aug 2026 08:24:00 +0000</pubDate>
-      <description>CulturePSG rapporte, en s&apos;appuyant sur L&apos;Équipe ainsi que Fabrizio Romano et Gianluca Di Marzio, que la Juventus négocie finalement une vente définitive de Randal Kolo Muani autour de 38 M€ plus 12 M€ de bonus. Le principe paraît très avancé, mais le joueur doit encore passer sa visite médicale : Parisien 90 ne présente donc pas le départ comme officiel. Source : CulturePSG, d&apos;après L&apos;Équipe, Fabrizio Romano et Gianluca Di Marzio.</description>
-    </item>
-    <item>
-      <title>Majorque-PSG et PSG-Manchester United : les deux amicaux annoncés sur beIN Sports</title>
-      <link>https://parisien-90.vercel.app/actualite-psg/#news-majorque-manchester-united-diffusion-bein-2026</link>
-      <guid>https://parisien-90.vercel.app/actualite-psg/#news-majorque-manchester-united-diffusion-bein-2026</guid>
-      <pubDate>Fri, 31 Jul 2026 16:40:00 +0000</pubDate>
-      <description>CulturePSG relaie l&apos;annonce de beIN Sports pour les deux premiers amicaux de préparation : Majorque-PSG le 5 août, puis PSG-Manchester United le 8 août. Les affiches et leurs horaires sont déjà confirmés par le calendrier du club ; la diffusion complète le dispositif de reprise. Source : beIN Sports, relayé par CulturePSG ; calendrier PSG.fr.</description>
     </item>
   </channel>
 </rss>

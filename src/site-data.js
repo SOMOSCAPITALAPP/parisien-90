@@ -1,8 +1,8 @@
 export const psgSchedule2627 = [
   { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Stade Rennais", opponent: "Stade Rennais", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Ouverture de saison au Parc.", highlight: true },
   { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier déplacement dense de la saison.", highlight: false },
-  { round: 3, isoDate: "2026-09-05", day: "samedi", dateLabel: "5 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Affiche directe entre prétendants au podium.", highlight: true },
-  { round: 4, isoDate: "2026-09-12", day: "samedi", dateLabel: "12 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "À confirmer", status: "Horaire à confirmer", note: "Déplacement piège après la trêve.", highlight: false },
+  { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Affiche directe entre prétendants au podium.", highlight: true },
+  { round: 4, isoDate: "2026-09-13", day: "dimanche", dateLabel: "13 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "18:45", status: "Programmé", note: "Déplacement piège après la trêve.", highlight: false },
   { round: 5, isoDate: "2026-09-20", day: "dimanche", dateLabel: "20 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Olympique de Marseille", away: "Paris Saint-Germain", opponent: "Olympique de Marseille", venue: "Orange Vélodrome", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier Classique de la saison.", highlight: true },
   { round: 6, isoDate: "2026-10-10", day: "samedi", dateLabel: "10 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Le Mans FC", opponent: "Le Mans FC", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Retour au Parc contre un promu ambitieux.", highlight: false },
   { round: 7, isoDate: "2026-10-17", day: "samedi", dateLabel: "17 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "RC Strasbourg", away: "Paris Saint-Germain", opponent: "RC Strasbourg", venue: "Stade de la Meinau", place: "Extérieur", time: "À confirmer", status: "Horaire à confirmer", note: "La Meinau, toujours électrique.", highlight: false },
@@ -150,9 +150,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-08T06:30:00+02:00",
-  edition: "Édition PSG du 8 août 2026",
-  displayDate: "8 août 2026",
+  updatedAt: "2026-08-09T06:30:00+02:00",
+  edition: "Édition PSG du 9 août 2026",
+  displayDate: "9 août 2026",
   displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -160,8 +160,14 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-09", "9 août 2026", [
+  { id: "calendrier-psg-monaco-brest-programmation-4-13-septembre", time: "06:30", category: "Calendrier", title: "PSG-Monaco et Brest-PSG : les dates du 4 et du 13 septembre, à 18h45, sont de retour", summary: "Le calendrier officiel actuellement affiché par PSG.fr programme PSG-Monaco le vendredi 4 septembre à 18h45, puis Brest-PSG le dimanche 13 septembre à 18h45. Parisien 90 aligne donc son calendrier sur cette programmation, qui remplace l'affichage provisoire des 5 et 12 septembre sans horaire.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", reliability: "Officiel", viral: 71 },
+  ]),
   ...withNewsDate("2026-08-08", "8 août 2026", [
-  { id: "calendrier-psg-monaco-brest-dates-a-confirmer", time: "06:30", category: "Calendrier", title: "PSG-Monaco et Brest-PSG : les rendez-vous de septembre reviennent à confirmer", summary: "Le calendrier actuellement affiché par PSG.fr place PSG-Monaco le samedi 5 septembre et Brest-PSG le samedi 12 septembre, sans horaire définitif. Parisien 90 corrige donc les créneaux précédemment indiqués : seules ces dates et le statut « à confirmer » doivent guider le calendrier jusqu'à une nouvelle programmation officielle.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 68 },
+  { id: "psg-manchester-united-nul-amical-mbaye-2026", time: "19:00", category: "Match", title: "PSG-Manchester United : Ibrahim Mbaye lance Paris, mais l'amical se termine sur un nul", summary: "Le match center du PSG confirme le 1-1 contre Manchester United à Göteborg. Ibrahim Mbaye a ouvert le score dès la 2e minute, avant l'égalisation de Bryan Mbeumo à la 32e. Ce deuxième test de préparation offre du rythme au groupe avant la Supercoupe de l'UEFA contre Aston Villa.", source: "PSG.fr", url: "https://www.psg.fr/pt/partidos/futebol-masculino/2026/paris-vs-man-utd-2026-08-08", reliability: "Officiel", viral: 91 },
+  ]),
+  ...withNewsDate("2026-08-08", "8 août 2026", [
+  { id: "calendrier-psg-monaco-brest-dates-a-confirmer", time: "06:30", category: "Calendrier", title: "Programmation du 8 août : Monaco et Brest étaient alors annoncés sans horaire", summary: "Cette information du 8 août est remplacée par la programmation ensuite affichée par PSG.fr : PSG-Monaco le 4 septembre à 18h45 et Brest-PSG le 13 septembre à 18h45. Elle est conservée comme repère éditorial et ne prévaut pas sur le calendrier officiel en cours.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", reliability: "Archive — remplacée par le calendrier officiel actuel", viral: 68 },
   ]),
   ...withNewsDate("2026-08-05", "5 août 2026", [
   { id: "mallorca-psg-defaite-amical-officiel-2026", time: "21:00", category: "Match", title: "Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation", summary: "Le match center du PSG acte une défaite 3-0 à Majorque pour la première rencontre de préparation. Luvumbo, Virgili et Raíllo ont marqué ; Paris, encore très jeune et incomplet, a surtout lancé sa remise en route physique avant Manchester United samedi.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/2026/mallorca-vs-paris-2026-08-05", reliability: "Officiel", viral: 88 },

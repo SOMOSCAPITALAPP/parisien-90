@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-08-08T06:30:00+02:00",
-  "edition": "Édition PSG du 8 août 2026",
-  "displayDate": "8 août 2026",
+  "updatedAt": "2026-08-09T06:30:00+02:00",
+  "edition": "Édition PSG du 9 août 2026",
+  "displayDate": "9 août 2026",
   "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 59,
+  "count": 61,
   "items": [
+    {
+      "id": "calendrier-psg-monaco-brest-programmation-4-13-septembre",
+      "category": "Calendrier",
+      "date": "2026-08-09",
+      "dateLabel": "9 août 2026",
+      "time": "06:30",
+      "dateTime": "2026-08-09T06:30:00+02:00",
+      "headline": "PSG-Monaco et Brest-PSG : les dates du 4 et du 13 septembre, à 18h45, sont de retour",
+      "summary": "Le calendrier officiel actuellement affiché par PSG.fr programme PSG-Monaco le vendredi 4 septembre à 18h45, puis Brest-PSG le dimanche 13 septembre à 18h45. Parisien 90 aligne donc son calendrier sur cette programmation, qui remplace l'affichage provisoire des 5 et 12 septembre sans horaire.",
+      "tone": "calendrier",
+      "reliability": "Officiel",
+      "viralScore": 71,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
+    },
+    {
+      "id": "psg-manchester-united-nul-amical-mbaye-2026",
+      "category": "Match",
+      "date": "2026-08-08",
+      "dateLabel": "8 août 2026",
+      "time": "19:00",
+      "dateTime": "2026-08-08T19:00:00+02:00",
+      "headline": "PSG-Manchester United : Ibrahim Mbaye lance Paris, mais l'amical se termine sur un nul",
+      "summary": "Le match center du PSG confirme le 1-1 contre Manchester United à Göteborg. Ibrahim Mbaye a ouvert le score dès la 2e minute, avant l'égalisation de Bryan Mbeumo à la 32e. Ce deuxième test de préparation offre du rythme au groupe avant la Supercoupe de l'UEFA contre Aston Villa.",
+      "tone": "match",
+      "reliability": "Officiel",
+      "viralScore": 91,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/pt/partidos/futebol-masculino/2026/paris-vs-man-utd-2026-08-08"
+    },
     {
       "id": "calendrier-psg-monaco-brest-dates-a-confirmer",
       "category": "Calendrier",
@@ -13,13 +43,13 @@
       "dateLabel": "8 août 2026",
       "time": "06:30",
       "dateTime": "2026-08-08T06:30:00+02:00",
-      "headline": "PSG-Monaco et Brest-PSG : les rendez-vous de septembre reviennent à confirmer",
-      "summary": "Le calendrier actuellement affiché par PSG.fr place PSG-Monaco le samedi 5 septembre et Brest-PSG le samedi 12 septembre, sans horaire définitif. Parisien 90 corrige donc les créneaux précédemment indiqués : seules ces dates et le statut « à confirmer » doivent guider le calendrier jusqu'à une nouvelle programmation officielle.",
+      "headline": "Programmation du 8 août : Monaco et Brest étaient alors annoncés sans horaire",
+      "summary": "Cette information du 8 août est remplacée par la programmation ensuite affichée par PSG.fr : PSG-Monaco le 4 septembre à 18h45 et Brest-PSG le 13 septembre à 18h45. Elle est conservée comme repère éditorial et ne prévaut pas sur le calendrier officiel en cours.",
       "tone": "calendrier",
-      "reliability": "Officiel",
+      "reliability": "Archive — remplacée par le calendrier officiel actuel",
       "viralScore": 68,
       "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
     },
     {
       "id": "mallorca-psg-defaite-amical-officiel-2026",
