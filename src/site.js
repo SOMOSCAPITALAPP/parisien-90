@@ -352,13 +352,14 @@ const monthLabels = {
 const createFixtureCard = (fixture) => {
   const article = document.createElement("article");
   article.className = "match-card";
-  article.id = `journee-${fixture.round}-${slugify(fixture.opponent)}`;
-  article.dataset.shareTitle = `${fixture.home} - ${fixture.away}, journée ${fixture.round} de Ligue 1`;
+  const fixtureLabel = fixture.roundLabel || `J${fixture.round}`;
+  article.id = `${slugify(fixture.competition)}-${fixture.isoDate}-${slugify(fixture.opponent)}`;
+  article.dataset.shareTitle = `${fixture.home} - ${fixture.away}, ${fixture.competition}`;
 
-  const placeClass = fixture.place === "Domicile" ? "is-home" : "is-away";
+  const placeClass = fixture.place === "Domicile" ? "is-home" : fixture.place === "Neutre" ? "is-neutral" : "is-away";
   article.innerHTML = `
     <div class="match-date">
-      <strong>J${fixture.round}</strong>
+      <strong>${escapeHTML(fixtureLabel)}</strong>
       <span>${escapeHTML(fixture.dateLabel)}</span>
       <small>${escapeHTML(fixture.day)}</small>
     </div>
@@ -384,14 +385,18 @@ const initCalendarApp = () => {
   if (!target) return;
 
   const months = Array.from(new Set(psgSchedule2627.map((fixture) => fixture.month)));
+  const competitions = Array.from(new Set(psgSchedule2627.map((fixture) => fixture.competition)));
   const homeCount = psgSchedule2627.filter((fixture) => fixture.place === "Domicile").length;
+  const neutralCount = psgSchedule2627.filter((fixture) => fixture.place === "Neutre").length;
+  const leagueCount = psgSchedule2627.filter((fixture) => fixture.competition === "Ligue 1").length;
   const highlights = psgSchedule2627.filter((fixture) => fixture.highlight).length;
 
   target.innerHTML = `
     <div class="calendar-summary" aria-label="Synthèse calendrier PSG">
-      <div><span>Matchs Ligue 1</span><strong>${psgSchedule2627.length}</strong></div>
+      <div><span>Total matchs</span><strong>${psgSchedule2627.length}</strong></div>
+      <div><span>Ligue 1</span><strong>${leagueCount}</strong></div>
       <div><span>Domicile</span><strong>${homeCount}</strong></div>
-      <div><span>Extérieur</span><strong>${psgSchedule2627.length - homeCount}</strong></div>
+      <div><span>Neutre</span><strong>${neutralCount}</strong></div>
       <div><span>Affiches</span><strong>${highlights}</strong></div>
     </div>
     <div class="interactive-toolbar">
@@ -406,9 +411,16 @@ const initCalendarApp = () => {
       </label>
       <label class="control-field">Lieu
         <select data-calendar-place>
-          <option value="all">Domicile + extérieur</option>
+          <option value="all">Tous les lieux</option>
           <option value="Domicile">Domicile</option>
           <option value="Extérieur">Extérieur</option>
+          <option value="Neutre">Neutre</option>
+        </select>
+      </label>
+      <label class="control-field">Compétition
+        <select data-calendar-competition>
+          <option value="all">Toutes compétitions</option>
+          ${competitions.map((competition) => `<option value="${escapeHTML(competition)}">${escapeHTML(competition)}</option>`).join("")}
         </select>
       </label>
       <label class="control-field">Statut
@@ -426,6 +438,7 @@ const initCalendarApp = () => {
   const search = target.querySelector("[data-calendar-search]");
   const month = target.querySelector("[data-calendar-month]");
   const place = target.querySelector("[data-calendar-place]");
+  const competition = target.querySelector("[data-calendar-competition]");
   const status = target.querySelector("[data-calendar-status]");
   const list = target.querySelector("[data-calendar-list]");
   const meta = target.querySelector("[data-calendar-meta]");
@@ -437,6 +450,7 @@ const initCalendarApp = () => {
       return (
         (month.value === "all" || fixture.month === month.value) &&
         (place.value === "all" || fixture.place === place.value) &&
+        (competition.value === "all" || fixture.competition === competition.value) &&
         (status.value === "all" || fixture.status === status.value) &&
         (!term || haystack.includes(term))
       );
@@ -453,7 +467,7 @@ const initCalendarApp = () => {
     initShareActions(list);
   };
 
-  [search, month, place, status].forEach((control) => control.addEventListener("input", render));
+  [search, month, place, competition, status].forEach((control) => control.addEventListener("input", render));
   render();
 };
 

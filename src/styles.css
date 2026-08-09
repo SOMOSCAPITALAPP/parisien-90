@@ -1744,6 +1744,10 @@ main {
   border-left-color: var(--red);
 }
 
+.match-card:has(.item-tags .is-neutral) {
+  border-left-color: var(--gold);
+}
+
 .match-date {
   display: grid;
   gap: 5px;
