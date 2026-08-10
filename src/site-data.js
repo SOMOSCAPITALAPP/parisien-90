@@ -49,6 +49,7 @@ export const currentPlayerProfiles = [
   { id: "illia-zabarnyi", name: "Illia Zabarnyi", number: "6", position: "Défenseur", line: "Défenseurs", status: "Effectif provisoire PSG 2026-2027", role: "Défenseur central", profile: "Profil de duel, concentration et défense de surface.", watch: "Adaptation à la ligne haute parisienne.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "lucas-hernandez", name: "Lucas Hernández", number: "21", position: "Défenseur", line: "Défenseurs", status: "Cadre polyvalent", role: "Défenseur central ou latéral gauche", profile: "Intensité, agressivité positive et culture des matchs sous tension.", watch: "Disponibilité physique, rôle derrière Nuno Mendes et en axe gauche.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "nuno-mendes", name: "Nuno Mendes", number: "25", position: "Défenseur", line: "Défenseurs", status: "Titulaire majeur", role: "Latéral gauche explosif", profile: "Vitesse, percussion et capacité à casser les blocs sur un appui.", watch: "Gestion physique et connexion avec Barcola ou Kvaratskhelia.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
+  { id: "lucas-digne", name: "Lucas Digne", number: "12", position: "Défenseur", line: "Défenseurs", status: "Recrue officielle 2026", role: "Latéral gauche de rotation", profile: "Expérience européenne, qualité de centre et lecture du poste : son retour installe une vraie doublure derrière Nuno Mendes.", watch: "Intégration rapide et gestion du face-à-face avec Aston Villa en Supercoupe.", updatedAt: "9 août 2026", source: "PSG / AS" },
   { id: "willian-pacho", name: "Willian Pacho", number: "51", position: "Défenseur", line: "Défenseurs", status: "Défenseur de référence", role: "Défenseur central gaucher", profile: "Volume défensif, couverture et sérénité dans une équipe qui attaque beaucoup.", watch: "Leadership dans les matchs fermés.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "fabian-ruiz", name: "Fabián Ruiz", number: "8", position: "Milieu de terrain", line: "Milieux", status: "Cadre technique", role: "Milieu relayeur", profile: "Contrôle, orientation et frappe : il donne de la respiration au jeu parisien.", watch: "Forme post-Coupe du monde et rôle dans les grandes affiches.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "vitinha", name: "Vitinha", number: "17", position: "Milieu de terrain", line: "Milieux", status: "Cerveau du jeu", role: "Milieu organisateur", profile: "Le joueur qui règle le tempo, résiste au pressing et accélère quand Paris veut étouffer.", watch: "Influence dans les matchs verrouillés.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
@@ -94,10 +95,10 @@ export const seasonSquads = [
     id: "2026-27",
     label: "2026-2027",
     quality: "Complet officiel provisoire + mercato intégré",
-    note: "Base PSG.fr enrichie le 9 août 2026 avec Akliouche après officialisation relayée par CulturePSG et Le Parisien.",
+    note: "Base PSG.fr enrichie le 9 août 2026 avec Akliouche et Lucas Digne après leurs officialisations.",
     groups: [
       { label: "Gardiens", players: ["Alessandro Longoni", "Lucas Chevalier", "Matvey Safonov"] },
-      { label: "Défenseurs", players: ["Achraf Hakimi", "Lucas Beraldo", "Marquinhos", "Illia Zabarnyi", "Lucas Hernández", "Nuno Mendes", "Willian Pacho"] },
+      { label: "Défenseurs", players: ["Achraf Hakimi", "Lucas Beraldo", "Marquinhos", "Illia Zabarnyi", "Lucas Hernández", "Nuno Mendes", "Lucas Digne", "Willian Pacho"] },
       { label: "Milieux", players: ["Fabián Ruiz", "Vitinha", "Senny Mayulu", "Dro Fernández", "Warren Zaïre-Emery", "João Neves"] },
       { label: "Attaquants", players: ["Khvicha Kvaratskhelia", "Ousmane Dembélé", "Maghnes Akliouche", "Désiré Doué", "Bradley Barcola", "Quentin Ndjantou", "Ibrahim Mbaye"] }
     ]
@@ -155,16 +156,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-09T09:30:00+02:00",
-  edition: "Édition PSG du 9 août 2026",
-  displayDate: "9 août 2026",
-  displayTime: "09h30",
+  updatedAt: "2026-08-10T12:00:00+02:00",
+  edition: "Édition PSG du 10 août 2026",
+  displayDate: "10 août 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-09", "9 août 2026", [
+  { id: "lucas-digne-officiel-retour-psg-contrat-2029", time: "19:08", category: "Mercato", title: "Lucas Digne revient au PSG : contrat jusqu'en 2029 et numéro 12", summary: "Le PSG a officialisé le retour de Lucas Digne, engagé pour trois saisons jusqu'en 2029. Le latéral gauche de 33 ans retrouve Paris dix ans après son premier passage et portera le numéro 12. À trois jours de la Supercoupe contre son ancien club d'Aston Villa, Paris s'offre surtout une rotation expérimentée derrière Nuno Mendes.", source: "PSG, confirmé par AS", url: "https://as.com/futbol/internacional/oficial-digne-a-paris-f202608-n/", reliability: "Officiel", viral: 96 },
+  ]),
   ...withNewsDate("2026-08-09", "9 août 2026", [
   { id: "calendrier-psg-complet-amical-europe-ligue1-2026", time: "09:30", category: "Calendrier", title: "Calendrier PSG complet : amicaux, Aston Villa, Lens et Ligue 1 sont enfin réunis", summary: "Parisien 90 aligne désormais son calendrier 2026-2027 sur la lecture complète du programme PSG : Majorque et Manchester United en préparation, Aston Villa en Supercoupe de l'UEFA, Lens au Trophée des Champions, puis les 34 journées de Ligue 1. Le module devient filtrable par mois, lieu et compétition.", source: "PSG.fr et billetterie officielle PSG", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", reliability: "Officiel — calendrier consolidé", viral: 82 },
   { id: "aston-villa-psg-supercoupe-uefa-salzbourg-2026", time: "09:12", category: "Europe", title: "PSG-Aston Villa : la Supercoupe UEFA devient le premier vrai test de la saison", summary: "La billetterie officielle du PSG confirme Paris-Aston Villa le 12 août à 21h au Stadion Salzburg. Après Majorque et Manchester United, ce n'est plus de la remise en jambes : Paris joue déjà un titre européen et un signal de domination.", source: "Billetterie PSG", url: "https://billetterie.psg.fr/fr/offres/supercoupe-europe-2026-13062026-salzburg", reliability: "Officiel", viral: 90 },
