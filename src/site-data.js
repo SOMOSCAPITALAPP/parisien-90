@@ -156,9 +156,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-10T12:00:00+02:00",
-  edition: "Édition PSG du 10 août 2026",
-  displayDate: "10 août 2026",
+  updatedAt: "2026-08-11T12:00:00+02:00",
+  edition: "Édition PSG du 11 août 2026",
+  displayDate: "11 août 2026",
   displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -166,6 +166,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-11", "11 août 2026", [
+  { id: "zion-suzuki-accord-parme-psg-pret-juventus-attendu", time: "11:44", category: "Mercato", title: "Suzuki : accord PSG-Parme trouvé, mais Paris prépare déjà un prêt", summary: "Selon L'Équipe, le PSG et Parme ont finalisé un accord autour de 35 M€ bonus compris pour Zion Suzuki, avec un contrat de cinq ans attendu. Le gardien japonais devrait ensuite être prêté, la Juventus tenant la corde sans qu'un accord de prêt soit encore acté. Dossier très avancé, pas encore officialisé par les clubs.", source: "L'Équipe (Loïc Tanzi)", url: "https://www.lequipe.fr/Football/Actualites/Mercato-accord-parme-psg/1710229", reliability: "Fort — accord de clubs rapporté, signatures attendues", viral: 94 },
+  ]),
   ...withNewsDate("2026-08-09", "9 août 2026", [
   { id: "lucas-digne-officiel-retour-psg-contrat-2029", time: "19:08", category: "Mercato", title: "Lucas Digne revient au PSG : contrat jusqu'en 2029 et numéro 12", summary: "Le PSG a officialisé le retour de Lucas Digne, engagé pour trois saisons jusqu'en 2029. Le latéral gauche de 33 ans retrouve Paris dix ans après son premier passage et portera le numéro 12. À trois jours de la Supercoupe contre son ancien club d'Aston Villa, Paris s'offre surtout une rotation expérimentée derrière Nuno Mendes.", source: "PSG, confirmé par AS", url: "https://as.com/futbol/internacional/oficial-digne-a-paris-f202608-n/", reliability: "Officiel", viral: 96 },
   ]),
