@@ -156,16 +156,21 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-11T12:00:00+02:00",
-  edition: "Édition PSG du 11 août 2026",
-  displayDate: "11 août 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-08-12T06:30:00+02:00",
+  edition: "Édition PSG du 12 août 2026",
+  displayDate: "12 août 2026",
+  displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-11", "11 août 2026", [
+  { id: "psg-feminin-francfort-tour-3-ligue-champions-2026", time: "14:15", category: "Féminines", title: "PSG féminin–Francfort : Paris connaît son obstacle européen d'août", summary: "Le tirage officiel envoie le PSG féminin face à l'Eintracht Francfort au troisième tour de qualification de la Ligue des champions. La double confrontation des 26 août et 2 septembre offrira une place en phase de ligue : un rendez-vous déjà décisif, pas un simple tour de chauffe.", source: "PSG.fr", url: "https://www.psg.fr/en/content/paris-to-face-frankfurt-in-womens-champions-league-3rd-qualifying-round-draw-paris-saint-germain-feminines-2026-2027", reliability: "Officiel", viral: 85 },
+  { id: "psg-arrive-salzbourg-supercoupe-aston-villa-2026", time: "14:00", category: "Europe", title: "PSG-Aston Villa : Paris est arrivé à Salzbourg pour son premier trophée", summary: "Le PSG a rejoint Salzbourg mardi avant la Supercoupe de l'UEFA contre Aston Villa, mercredi à 21h. Le club confirme la présence de la grande majorité du groupe, dont les recrues Lucas Digne et Maghnes Akliouche, pour ce premier match officiel de la saison.", source: "PSG.fr", url: "https://www.psg.fr/en/content/direction-salzburg-paris-saint-germain-aston-villa-super-coupe-de-luefa-2026", reliability: "Officiel", viral: 89 },
+  { id: "groupe-psg-aston-villa-supercoupe-uefa-2026", time: "12:55", category: "Europe", title: "PSG-Aston Villa : le groupe de 24 est officiel, Digne et Akliouche y sont", summary: "Le PSG a dévoilé les 24 joueurs retenus pour la Supercoupe de l'UEFA face à Aston Villa. Lucas Digne et Maghnes Akliouche figurent bien dans le groupe, tout comme les cadres revenus de la Coupe du monde ; Luis Enrique dispose donc d'un effectif presque complet pour lancer la saison.", source: "PSG.fr", url: "https://www.psg.fr/en/content/squad-paris-saint-germain-v-aston-villa-fc-uefa-super-cup-20262027", reliability: "Officiel", viral: 93 },
+  ]),
   ...withNewsDate("2026-08-11", "11 août 2026", [
   { id: "zion-suzuki-accord-parme-psg-pret-juventus-attendu", time: "11:44", category: "Mercato", title: "Suzuki : accord PSG-Parme trouvé, mais Paris prépare déjà un prêt", summary: "Selon L'Équipe, le PSG et Parme ont finalisé un accord autour de 35 M€ bonus compris pour Zion Suzuki, avec un contrat de cinq ans attendu. Le gardien japonais devrait ensuite être prêté, la Juventus tenant la corde sans qu'un accord de prêt soit encore acté. Dossier très avancé, pas encore officialisé par les clubs.", source: "L'Équipe (Loïc Tanzi)", url: "https://www.lequipe.fr/Football/Actualites/Mercato-accord-parme-psg/1710229", reliability: "Fort — accord de clubs rapporté, signatures attendues", viral: 94 },
   ]),

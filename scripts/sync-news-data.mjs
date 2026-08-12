@@ -38,6 +38,7 @@ const newsPayload = {
   rightsNote: newsMeta.rightsNote,
   count: newsFeed.length,
   items: newsFeed.map((item) => ({
+    count: newsFeed.length,
     id: item.id,
     category: item.category,
     date: item.date || currentDate,

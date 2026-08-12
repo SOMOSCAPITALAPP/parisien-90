@@ -1,12 +1,61 @@
 {
-  "updatedAt": "2026-08-11T12:00:00+02:00",
-  "edition": "Édition PSG du 11 août 2026",
-  "displayDate": "11 août 2026",
-  "displayTime": "12h00",
+  "updatedAt": "2026-08-12T06:30:00+02:00",
+  "edition": "Édition PSG du 12 août 2026",
+  "displayDate": "12 août 2026",
+  "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
-  "count": 68,
+  "count": 71,
   "items": [
     {
+      "count": 71,
+      "id": "psg-feminin-francfort-tour-3-ligue-champions-2026",
+      "category": "Féminines",
+      "date": "2026-08-11",
+      "dateLabel": "11 août 2026",
+      "time": "14:15",
+      "dateTime": "2026-08-11T14:15:00+02:00",
+      "headline": "PSG féminin–Francfort : Paris connaît son obstacle européen d'août",
+      "summary": "Le tirage officiel envoie le PSG féminin face à l'Eintracht Francfort au troisième tour de qualification de la Ligue des champions. La double confrontation des 26 août et 2 septembre offrira une place en phase de ligue : un rendez-vous déjà décisif, pas un simple tour de chauffe.",
+      "tone": "féminines",
+      "reliability": "Officiel",
+      "viralScore": 85,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/paris-to-face-frankfurt-in-womens-champions-league-3rd-qualifying-round-draw-paris-saint-germain-feminines-2026-2027"
+    },
+    {
+      "count": 71,
+      "id": "psg-arrive-salzbourg-supercoupe-aston-villa-2026",
+      "category": "Europe",
+      "date": "2026-08-11",
+      "dateLabel": "11 août 2026",
+      "time": "14:00",
+      "dateTime": "2026-08-11T14:00:00+02:00",
+      "headline": "PSG-Aston Villa : Paris est arrivé à Salzbourg pour son premier trophée",
+      "summary": "Le PSG a rejoint Salzbourg mardi avant la Supercoupe de l'UEFA contre Aston Villa, mercredi à 21h. Le club confirme la présence de la grande majorité du groupe, dont les recrues Lucas Digne et Maghnes Akliouche, pour ce premier match officiel de la saison.",
+      "tone": "europe",
+      "reliability": "Officiel",
+      "viralScore": 89,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/direction-salzburg-paris-saint-germain-aston-villa-super-coupe-de-luefa-2026"
+    },
+    {
+      "count": 71,
+      "id": "groupe-psg-aston-villa-supercoupe-uefa-2026",
+      "category": "Europe",
+      "date": "2026-08-11",
+      "dateLabel": "11 août 2026",
+      "time": "12:55",
+      "dateTime": "2026-08-11T12:55:00+02:00",
+      "headline": "PSG-Aston Villa : le groupe de 24 est officiel, Digne et Akliouche y sont",
+      "summary": "Le PSG a dévoilé les 24 joueurs retenus pour la Supercoupe de l'UEFA face à Aston Villa. Lucas Digne et Maghnes Akliouche figurent bien dans le groupe, tout comme les cadres revenus de la Coupe du monde ; Luis Enrique dispose donc d'un effectif presque complet pour lancer la saison.",
+      "tone": "europe",
+      "reliability": "Officiel",
+      "viralScore": 93,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/squad-paris-saint-germain-v-aston-villa-fc-uefa-super-cup-20262027"
+    },
+    {
+      "count": 71,
       "id": "zion-suzuki-accord-parme-psg-pret-juventus-attendu",
       "category": "Mercato",
       "date": "2026-08-11",
@@ -22,6 +71,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-accord-parme-psg/1710229"
     },
     {
+      "count": 71,
       "id": "lucas-digne-officiel-retour-psg-contrat-2029",
       "category": "Mercato",
       "date": "2026-08-09",
@@ -37,6 +87,7 @@
       "sourceUrl": "https://as.com/futbol/internacional/oficial-digne-a-paris-f202608-n/"
     },
     {
+      "count": 71,
       "id": "calendrier-psg-complet-amical-europe-ligue1-2026",
       "category": "Calendrier",
       "date": "2026-08-09",
@@ -52,6 +103,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
     },
     {
+      "count": 71,
       "id": "aston-villa-psg-supercoupe-uefa-salzbourg-2026",
       "category": "Europe",
       "date": "2026-08-09",
@@ -67,6 +119,7 @@
       "sourceUrl": "https://billetterie.psg.fr/fr/offres/supercoupe-europe-2026-13062026-salzburg"
     },
     {
+      "count": 71,
       "id": "akliouche-officiel-psg-contrat-2031",
       "category": "Mercato",
       "date": "2026-08-09",
@@ -82,6 +135,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-officialise-akliouche-sa-deuxieme-recrue-de-lete/60257"
     },
     {
+      "count": 71,
       "id": "ferran-torres-psg-deal-avant-supercoupe",
       "category": "Mercato",
       "date": "2026-08-09",
@@ -97,6 +151,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-transfert-de-ferran-torres-au-psg-regle-avant-le-12-aout/60241"
     },
     {
+      "count": 71,
       "id": "suzuki-psg-nouvelle-offre-parme",
       "category": "Mercato",
       "date": "2026-08-09",
@@ -112,6 +167,7 @@
       "sourceUrl": "https://www.culturepsg.com/fr/news/mercato/le-psg-prepare-une-nouvelle-offre-pour-suzuki/60242"
     },
     {
+      "count": 71,
       "id": "calendrier-psg-monaco-brest-programmation-4-13-septembre",
       "category": "Calendrier",
       "date": "2026-08-09",
@@ -127,6 +183,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
     },
     {
+      "count": 71,
       "id": "psg-manchester-united-nul-amical-mbaye-2026",
       "category": "Match",
       "date": "2026-08-08",
@@ -142,6 +199,7 @@
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/paris-vs-man-utd-2026-08-08"
     },
     {
+      "count": 71,
       "id": "calendrier-psg-monaco-brest-dates-a-confirmer",
       "category": "Calendrier",
       "date": "2026-08-08",
@@ -157,6 +215,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
     },
     {
+      "count": 71,
       "id": "mallorca-psg-defaite-amical-officiel-2026",
       "category": "Match",
       "date": "2026-08-05",
@@ -172,6 +231,7 @@
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/mallorca-vs-paris-2026-08-05"
     },
     {
+      "count": 71,
       "id": "suzuki-chevalier-plan-psg-2026",
       "category": "Mercato",
       "date": "2026-08-04",
@@ -187,6 +247,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-plan-du-psg-pour-suzuki-et-chevalier-se-precise/60233"
     },
     {
+      "count": 71,
       "id": "tableau-mercato-psg-aout-2026",
       "category": "Transferts",
       "date": "2026-08-04",
@@ -202,6 +263,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647"
     },
     {
+      "count": 71,
       "id": "godts-ajax-refuse-premiere-offre-psg",
       "category": "Mercato",
       "date": "2026-08-04",
@@ -217,6 +279,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/l-ajax-refuse-la-premiere-offre-du-psg-pour-godts/60232"
     },
     {
+      "count": 71,
       "id": "ferran-torres-psg-accelere-barca-temporise",
       "category": "Mercato",
       "date": "2026-08-04",
@@ -232,6 +295,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-veut-accelerer-ferran-torres-temporise/60231"
     },
     {
+      "count": 71,
       "id": "barcola-liverpool-ecart-160-170",
       "category": "Mercato",
       "date": "2026-08-04",
@@ -247,6 +311,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/liverpool-encore-tres-loin-du-compte-pour-barcola/60230"
     },
     {
+      "count": 71,
       "id": "ayari-dunkerque-pret-sans-option",
       "category": "Mercato",
       "date": "2026-08-04",
@@ -262,6 +327,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/ayari-file-en-ligue-2/60224"
     },
     {
+      "count": 71,
       "id": "calendrier-officiel-monaco-brest-programmation",
       "category": "Calendrier",
       "date": "2026-08-04",
@@ -277,6 +343,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
+      "count": 71,
       "id": "kolo-muani-juventus-transfert-definitif-officiel",
       "category": "Mercato",
       "date": "2026-08-02",
@@ -292,6 +359,7 @@
       "sourceUrl": "https://as.com/futbol/internacional/kolo-muani-vuelve-a-la-juventus-f202608-n/"
     },
     {
+      "count": 71,
       "id": "kolo-muani-juventus-vente-definitive-attendue",
       "category": "Mercato",
       "date": "2026-08-02",
@@ -307,6 +375,7 @@
       "sourceUrl": "https://www.culturepsg.com/fr/news/mercato/changement-de-derniere-minute-pour-kolo-muani/60215"
     },
     {
+      "count": 71,
       "id": "majorque-manchester-united-diffusion-bein-2026",
       "category": "Calendrier",
       "date": "2026-07-31",
@@ -322,6 +391,7 @@
       "sourceUrl": "https://www.culturepsg.com/fr/news/match/un-diffuseur-annonce-pour-les-deux-premiers-matchs-amicauxdupsg/60208"
     },
     {
+      "count": 71,
       "id": "akliouche-accord-total-monaco-psg-attente-signature",
       "category": "Mercato",
       "date": "2026-07-31",
@@ -337,6 +407,7 @@
       "sourceUrl": "https://www.culturepsg.com/fr/news/mercato/le-transfert-d-akliouche-au-psg-boucle-le-montant-se-precise/60207"
     },
     {
+      "count": 71,
       "id": "willian-pacho-retour-campus-psg",
       "category": "Club",
       "date": "2026-07-31",
@@ -352,6 +423,7 @@
       "sourceUrl": "https://www.culturepsg.com/fr/news/club/un-retour-majeur-dans-le-groupe-du-psg/60206"
     },
     {
+      "count": 71,
       "id": "naoufel-el-hannach-pret-montpellier-2026-2027",
       "category": "Mercato",
       "date": "2026-07-27",
@@ -367,6 +439,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-le-psg-prete-de-nouveau-naoufel-el-hannach-a-montpellier/1707450"
     },
     {
+      "count": 71,
       "id": "reprise-psg-neuf-joueurs-campus",
       "category": "Club",
       "date": "2026-07-27",
@@ -382,6 +455,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/club/le-psg-a-fait-sa-reprise-avec-9-joueurs/60181"
     },
     {
+      "count": 71,
       "id": "yan-diomande-psg-retrait-dossier",
       "category": "Mercato",
       "date": "2026-07-26",
@@ -397,6 +471,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-le-psg-se-retire-de-la-course-pour-yan-diomande/1707260"
     },
     {
+      "count": 71,
       "id": "kang-in-lee-atletico-madrid-transfert-officiel",
       "category": "Mercato",
       "date": "2026-07-25",
@@ -412,6 +487,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-kang-in-lee-quitte-le-psg-et-rejoint-l-atletico-de-madrid-pour-un-transfert-estime-a-40-millions-d-euros/1706894"
     },
     {
+      "count": 71,
       "id": "kolo-muani-juventus-offre-revue-hausse",
       "category": "Mercato",
       "date": "2026-07-24",
@@ -427,6 +503,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/la-juve-a-revu-son-offre-au-psg-pour-kolo-muani/60163"
     },
     {
+      "count": 71,
       "id": "akliouche-quatrieme-offre-liverpool-renseignements",
       "category": "Mercato",
       "date": "2026-07-23",
@@ -442,6 +519,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/quatrieme-offre-et-concurrent-anglais-pour-akliouche/60161"
     },
     {
+      "count": 71,
       "id": "reprise-psg-reportee-27-juillet",
       "category": "Club",
       "date": "2026-07-22",
@@ -457,6 +535,7 @@
       "sourceUrl": "https://www.parisfans.fr/autour-du-psg/le-psg-a-change-la-date-de-reprise-de-lentrainement-928650.html"
     },
     {
+      "count": 71,
       "id": "anais-ebayilin-prolonge-2031",
       "category": "Féminines",
       "date": "2026-07-22",
@@ -472,6 +551,7 @@
       "sourceUrl": "https://www.parisfans.fr/club/officiel-le-psg-annonce-la-prolongation-debayilin-928498.html"
     },
     {
+      "count": 71,
       "id": "alyssa-fernandes-prolonge-pretee-toulouse",
       "category": "Féminines",
       "date": "2026-07-21",
@@ -487,6 +567,7 @@
       "sourceUrl": "https://www.parisfans.fr/club/officiel-le-psg-annonce-une-prolongation-de-contrat-et-un-pret-a-toulouse-928343.html"
     },
     {
+      "count": 71,
       "id": "ibrahim-mbaye-as-roma-pret-etudie",
       "category": "Mercato",
       "date": "2026-07-21",
@@ -502,6 +583,7 @@
       "sourceUrl": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/07/21-150026381/tentazione_mbaye_per_la_roma_la_formula_del_prestito_con_riscatto_e_controriscatto"
     },
     {
+      "count": 71,
       "id": "lucas-digne-visite-medicale-validee",
       "category": "Mercato",
       "date": "2026-07-20",
@@ -517,6 +599,7 @@
       "sourceUrl": "https://www.parisfans.fr/une/mercato-lucas-digne-a-passe-sa-visite-medicale-pour-signer-au-psg-927154.html"
     },
     {
+      "count": 71,
       "id": "lucas-digne-accord-total-visite-medicale",
       "category": "Mercato",
       "date": "2026-07-20",
@@ -532,6 +615,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-accord-total-pour-lucas-digne-au-psg-qui-va-passer-sa-visite-medicale/1705911"
     },
     {
+      "count": 71,
       "id": "akliouche-monaco-accord-proche-soiree",
       "category": "Mercato",
       "date": "2026-07-19",
@@ -547,6 +631,7 @@
       "sourceUrl": "https://canal-supporters.com/un-accord-tres-proche-detre-trouve-entre-le-psg-et-monaco-pour-akliouche/"
     },
     {
+      "count": 71,
       "id": "akliouche-monaco-refus-troisieme-offre",
       "category": "Mercato",
       "date": "2026-07-19",
@@ -562,6 +647,7 @@
       "sourceUrl": "https://canal-supporters.com/las-monaco-aurait-refuse-une-troisieme-offre-du-psg-pour-akliouche/"
     },
     {
+      "count": 71,
       "id": "barcola-arsenal-liverpool-attente",
       "category": "Mercato",
       "date": "2026-07-19",
@@ -577,6 +663,7 @@
       "sourceUrl": "https://www.foot01.com/paris/psg-le-dossier-barcola-relance-par-un-transfert-a-138me"
     },
     {
+      "count": 71,
       "id": "kolo-muani-juventus-ecart-prix",
       "category": "Mercato",
       "date": "2026-07-19",
@@ -592,6 +679,7 @@
       "sourceUrl": "https://www.blackwhitereadallover.com/juventus-transfer-rumors-news/40039/juventus-striker-hunt-randal-kolo-muani-mateo-pellegrino-2026-serie-a-summer-transfer-rumors"
     },
     {
+      "count": 71,
       "id": "nsoki-dinamo-zagreb-choix",
       "category": "Titis",
       "date": "2026-07-19",
@@ -607,6 +695,7 @@
       "sourceUrl": "https://www.lestitisdupsg.fr/a-la-une/%F0%9F%97%9E%EF%B8%8Fnews-formation-noah-nsoki-a-choisi-le-dinamo-zagreb-lequipe/"
     },
     {
+      "count": 71,
       "id": "france-angleterre-parisiens-buts",
       "category": "Sélections",
       "date": "2026-07-19",
@@ -622,6 +711,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/coupe-du-monde-2026/france-angleterre-le-resume-et-les-buts-en-video/60145"
     },
     {
+      "count": 71,
       "id": "kouassi-lille-officiel-ancien",
       "category": "Anciens",
       "date": "2026-07-19",
@@ -637,6 +727,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Le-losc-officialise-l-arrivee-du-defenseur-central-tanguy-kouassi-pour-deux-ans/1705449"
     },
     {
+      "count": 71,
       "id": "u19-reprise-campus-psg",
       "category": "Formation",
       "date": "2026-07-19",
@@ -652,6 +743,7 @@
       "sourceUrl": "https://www.psg.fr/content/la-reprise-des-u19-en-images-campus-psg-centre-de-formation-entrainement-2026-2027"
     },
     {
+      "count": 71,
       "id": "pre-saison-majorque-united-2026",
       "category": "Calendrier",
       "date": "2026-07-16",
@@ -667,6 +759,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Club_Friendlies"
     },
     {
+      "count": 71,
       "id": "lens-psg-trophee-2026",
       "category": "Calendrier",
       "date": "2026-07-16",
@@ -682,6 +775,7 @@
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/lens-vs-paris-2026-08-16"
     },
     {
+      "count": 71,
       "id": "digne-retour-psg",
       "category": "Mercato",
       "date": "2026-07-15",
@@ -697,6 +791,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-lucas-digne-va-signer-au-paris-saint-germain-apres-la-coupe-du-monde-et-faire-son-retour-dans-la-capitale/1704076"
     },
     {
+      "count": 71,
       "id": "mbaye-dortmund",
       "category": "Titis",
       "date": "2026-07-15",
@@ -712,6 +807,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/un-club-allemand-a-l-affut-pour-mbaye/60123"
     },
     {
+      "count": 71,
       "id": "mbemba-paris-fc",
       "category": "Formation",
       "date": "2026-07-15",
@@ -727,6 +823,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-le-jeune-defenseur-du-psg-emmanuel-mbemba-va-signer-au-paris-fc/1704270"
     },
     {
+      "count": 71,
       "id": "diomande-leipzig",
       "category": "Mercato",
       "date": "2026-07-15",
@@ -742,6 +839,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/diomande-n-aurait-pas-dit-oui-qu-au-psg/60124"
     },
     {
+      "count": 71,
       "id": "fabian-finale",
       "category": "Sélections",
       "date": "2026-07-15",
@@ -757,6 +855,7 @@
       "sourceUrl": "https://www.psg.fr/content/fin-de-parcours-pour-les-bleus-lespagne-de-fabian-ruiz-en-finale-coupe-du-monde-fifa-2026-paris-saint-germain"
     },
     {
+      "count": 71,
       "id": "nsoki-croatie",
       "category": "Titis",
       "date": "2026-07-15",
@@ -772,6 +871,7 @@
       "sourceUrl": "https://www.parisfans.fr/une/mercato-un-titi-du-psg-vers-la-croatie-927390.html"
     },
     {
+      "count": 71,
       "id": "abo-el-nay-rio-ave",
       "category": "Formation",
       "date": "2026-07-15",
@@ -787,6 +887,7 @@
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Le-club-portugais-rio-ave-s-interesse-au-titi-du-psg-rayan-abo-el-nay/1704188"
     },
     {
+      "count": 71,
       "id": "calendrier-rennes",
       "category": "Calendrier",
       "date": "2026-07-15",
@@ -802,6 +903,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
+      "count": 71,
       "id": "classique-septembre",
       "category": "Calendrier",
       "date": "2026-07-15",
@@ -817,6 +919,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
+      "count": 71,
       "id": "classique-retour",
       "category": "Calendrier",
       "date": "2026-07-15",
@@ -832,6 +935,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
+      "count": 71,
       "id": "paris-fc-derby",
       "category": "Calendrier",
       "date": "2026-07-15",
@@ -847,6 +951,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
+      "count": 71,
       "id": "effectif-officiel",
       "category": "Effectif",
       "date": "2026-07-15",
@@ -862,6 +967,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif"
     },
     {
+      "count": 71,
       "id": "staff-luis-enrique",
       "category": "Staff",
       "date": "2026-07-15",
@@ -877,6 +983,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/staff"
     },
     {
+      "count": 71,
       "id": "zabarnyi-signal",
       "category": "Effectif",
       "date": "2026-07-15",
@@ -892,6 +999,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif"
     },
     {
+      "count": 71,
       "id": "chevalier-safonov",
       "category": "Effectif",
       "date": "2026-07-15",
@@ -907,6 +1015,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif"
     },
     {
+      "count": 71,
       "id": "doué-mayulu-wze",
       "category": "Jeunes",
       "date": "2026-07-15",
@@ -922,6 +1031,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif"
     },
     {
+      "count": 71,
       "id": "barcola-concurrence",
       "category": "Effectif",
       "date": "2026-07-15",
@@ -937,6 +1047,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif"
     },
     {
+      "count": 71,
       "id": "vitinha-joao-neves",
       "category": "Tactique",
       "date": "2026-07-15",
@@ -952,6 +1063,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif"
     },
     {
+      "count": 71,
       "id": "nuno-digne-debat",
       "category": "Mercato",
       "date": "2026-07-15",
@@ -967,6 +1079,7 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-a-boucle-l-inattendu-retour-de-digne/60110"
     },
     {
+      "count": 71,
       "id": "ligue1-sans-semaine",
       "category": "Calendrier",
       "date": "2026-07-15",
@@ -982,6 +1095,7 @@
       "sourceUrl": "https://www.psg.fr/content/le-calendrier-general-des-competitions-2026-2027-devoile-psg-ligue-1-lfp-2025-2026"
     },
     {
+      "count": 71,
       "id": "lens-reprise",
       "category": "Calendrier",
       "date": "2026-07-15",
@@ -997,6 +1111,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
+      "count": 71,
       "id": "lyon-mai",
       "category": "Calendrier",
       "date": "2026-07-15",
@@ -1012,6 +1127,7 @@
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
+      "count": 71,
       "id": "histoire-cycle",
       "category": "Histoire",
       "date": "2026-07-15",
