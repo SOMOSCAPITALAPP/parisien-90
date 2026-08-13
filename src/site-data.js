@@ -1,7 +1,7 @@
 export const psgSchedule2627 = [
   { round: 0, roundLabel: "A1", isoDate: "2026-08-05", day: "mercredi", dateLabel: "5 août 2026", month: "2026-08", competition: "Amical", home: "Real Club Deportivo Mallorca", away: "Paris Saint-Germain", opponent: "RCD Majorque", venue: "Estadi Mallorca Son Moix", place: "Extérieur", time: "21:00", status: "Terminé 3-0", note: "Premier match de préparation, utile pour remettre le groupe en route malgré un score sec.", highlight: false },
   { round: 0, roundLabel: "A2", isoDate: "2026-08-08", day: "samedi", dateLabel: "8 août 2026", month: "2026-08", competition: "Amical", home: "Paris Saint-Germain", away: "Manchester United FC", opponent: "Manchester United", venue: "Nya Ullevi, Göteborg", place: "Neutre", time: "17:00", status: "Terminé 1-1", note: "Deuxième test de préparation, Mbaye buteur et Safonov très sollicité avant Aston Villa.", highlight: true },
-  { round: 0, roundLabel: "UEFA", isoDate: "2026-08-12", day: "mercredi", dateLabel: "12 août 2026", month: "2026-08", competition: "Supercoupe de l'UEFA", home: "Paris Saint-Germain", away: "Aston Villa FC", opponent: "Aston Villa", venue: "Red Bull Arena, Salzbourg", place: "Neutre", time: "21:00", status: "Programmé", note: "Finale européenne et premier vrai titre à aller chercher dans la saison.", highlight: true },
+  { round: 0, roundLabel: "UEFA", isoDate: "2026-08-12", day: "mercredi", dateLabel: "12 août 2026", month: "2026-08", competition: "Supercoupe de l'UEFA", home: "Paris Saint-Germain", away: "Aston Villa FC", opponent: "Aston Villa", venue: "Red Bull Arena, Salzbourg", place: "Neutre", time: "21:00", status: "Terminé 2-1", note: "Kvaratskhelia et Doué ont offert au PSG une deuxième Supercoupe de l'UEFA consécutive.", highlight: true },
   { round: 0, roundLabel: "TDC", isoDate: "2026-08-16", day: "dimanche", dateLabel: "16 août 2026", month: "2026-08", competition: "Trophée des Champions", home: "Racing Club de Lens", away: "Paris Saint-Germain", opponent: "RC Lens", venue: "Stade Bollaert-Delelis", place: "Extérieur", time: "20:45", status: "Programmé", note: "Finale nationale face à Lens, quatre jours après la Supercoupe européenne.", highlight: true },
   { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Stade Rennais", opponent: "Stade Rennais", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Ouverture de saison au Parc.", highlight: true },
   { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier déplacement dense de la saison.", highlight: false },
@@ -156,16 +156,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-12T06:30:00+02:00",
-  edition: "Édition PSG du 12 août 2026",
-  displayDate: "12 août 2026",
-  displayTime: "06h30",
+  updatedAt: "2026-08-14T12:00:00+02:00",
+  edition: "Édition PSG du 14 août 2026",
+  displayDate: "14 août 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-12", "12 août 2026", [
+  { id: "psg-aston-villa-supercoupe-uefa-victoire-2026", time: "22:55", category: "Europe", title: "PSG-Aston Villa : Paris gagne 2-1 et conserve sa Supercoupe de l'UEFA", summary: "Le PSG a battu Aston Villa 2-1 à Salzbourg pour conserver la Supercoupe de l'UEFA. Khvicha Kvaratskhelia a ouvert le score, Brian Madjo a égalisé juste avant la pause, puis Désiré Doué a tranché au retour des vestiaires. Le match center officiel du club confirme le score, les buteurs et les minutes.", source: "PSG.fr, confirmé par Cadena SER", url: "https://www.psg.fr/en/matches/mens-football/20262027/paris-vs-aston-villa-2026-08-12", reliability: "Officiel", viral: 99 },
+  ]),
   ...withNewsDate("2026-08-11", "11 août 2026", [
   { id: "psg-feminin-francfort-tour-3-ligue-champions-2026", time: "14:15", category: "Féminines", title: "PSG féminin–Francfort : Paris connaît son obstacle européen d'août", summary: "Le tirage officiel envoie le PSG féminin face à l'Eintracht Francfort au troisième tour de qualification de la Ligue des champions. La double confrontation des 26 août et 2 septembre offrira une place en phase de ligue : un rendez-vous déjà décisif, pas un simple tour de chauffe.", source: "PSG.fr", url: "https://www.psg.fr/en/content/paris-to-face-frankfurt-in-womens-champions-league-3rd-qualifying-round-draw-paris-saint-germain-feminines-2026-2027", reliability: "Officiel", viral: 85 },
   { id: "psg-arrive-salzbourg-supercoupe-aston-villa-2026", time: "14:00", category: "Europe", title: "PSG-Aston Villa : Paris est arrivé à Salzbourg pour son premier trophée", summary: "Le PSG a rejoint Salzbourg mardi avant la Supercoupe de l'UEFA contre Aston Villa, mercredi à 21h. Le club confirme la présence de la grande majorité du groupe, dont les recrues Lucas Digne et Maghnes Akliouche, pour ce premier match officiel de la saison.", source: "PSG.fr", url: "https://www.psg.fr/en/content/direction-salzburg-paris-saint-germain-aston-villa-super-coupe-de-luefa-2026", reliability: "Officiel", viral: 89 },
