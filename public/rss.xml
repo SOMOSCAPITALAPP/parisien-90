@@ -5,7 +5,14 @@
     <link>https://parisien-90.vercel.app/</link>
     <description>Actualité PSG, mercato et transfert Paris Saint-Germain.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 14 Aug 2026 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 04:30:00 +0000</lastBuildDate>
+    <item>
+      <title>PSG-Rennes à 20h45 et PSG-Monaco à 19h05 : les horaires officiels sont mis à jour</title>
+      <link>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-rennes-monaco-horaires-officiels-aout-2026</link>
+      <guid>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-rennes-monaco-horaires-officiels-aout-2026</guid>
+      <pubDate>Sat, 15 Aug 2026 04:30:00 +0000</pubDate>
+      <description>Le calendrier officiel du PSG programme désormais la réception de Rennes le dimanche 23 août à 20h45, puis celle de Monaco le vendredi 4 septembre à 19h05. Parisien 90 corrige ces deux horaires et conserve les dates déjà confirmées par le club. Source : PSG.fr.</description>
+    </item>
     <item>
       <title>PSG-Aston Villa : Paris gagne 2-1 et conserve sa Supercoupe de l&apos;UEFA</title>
       <link>https://parisien-90.vercel.app/actualite-psg/#news-psg-aston-villa-supercoupe-uefa-victoire-2026</link>
@@ -82,13 +89,6 @@
       <guid>https://parisien-90.vercel.app/actualite-psg/#news-suzuki-psg-nouvelle-offre-parme</guid>
       <pubDate>Sun, 09 Aug 2026 06:10:00 +0000</pubDate>
       <description>CulturePSG rapporte que le PSG prépare une nouvelle offre pour Zion Suzuki et travaille déjà le scénario d&apos;un prêt éventuel. Le dossier illustre une stratégie froide : acheter le gardien avant de décider s&apos;il vient tout de suite ou s&apos;il grandit ailleurs. Source : CulturePSG.</description>
-    </item>
-    <item>
-      <title>PSG-Monaco et Brest-PSG : les dates du 4 et du 13 septembre, à 18h45, sont confirmées</title>
-      <link>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-programmation-4-13-septembre</link>
-      <guid>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-monaco-brest-programmation-4-13-septembre</guid>
-      <pubDate>Sun, 09 Aug 2026 04:30:00 +0000</pubDate>
-      <description>Le calendrier officiel actuellement affiché par PSG.fr programme PSG-Monaco le vendredi 4 septembre à 18h45, puis Brest-PSG le dimanche 13 septembre à 18h45. Parisien 90 aligne donc son calendrier sur cette programmation, en plus des matches de préparation et des finales d&apos;août. Source : PSG.fr.</description>
     </item>
   </channel>
 </rss>
