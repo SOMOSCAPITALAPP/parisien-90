@@ -59,7 +59,9 @@ export const currentPlayerProfiles = [
   { id: "joao-neves", name: "João Neves", number: "87", position: "Milieu de terrain", line: "Milieux", status: "Titulaire de très haut niveau", role: "Milieu intense et organisateur", profile: "Pressing, qualité sous pression et volume : le type de joueur qui fait respirer tout un bloc.", watch: "Gestion de la fatigue sur une saison longue.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "khvicha-kvaratskhelia", name: "Khvicha Kvaratskhelia", number: "7", position: "Attaquant", line: "Attaquants", status: "Menace offensive majeure", role: "Ailier gauche", profile: "Dribble, imprévisibilité et prise de risque permanente.", watch: "Relation avec Nuno Mendes et efficacité dans les zones décisives.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "ousmane-dembele", name: "Ousmane Dembélé", number: "10", position: "Attaquant", line: "Attaquants", status: "Star du cycle Luis Enrique", role: "Ailier créateur", profile: "Ambidextrie, vitesse et chaos contrôlé : il peut retourner un match en deux accélérations.", watch: "Leadership offensif et constance devant le but.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
+  { id: "ferran-torres", name: "Ferran Torres", number: "9", position: "Attaquant", line: "Attaquants", status: "Recrue officielle 2026", role: "Attaquant polyvalent", profile: "Capable d'occuper l'axe comme les deux côtés, l'international espagnol ajoute une solution de finition et de mobilité au premier rideau parisien.", watch: "Son intégration dans les rotations offensives et son entente avec les créateurs du PSG.", updatedAt: "15 août 2026", source: "PSG.fr" },
   { id: "maghnes-akliouche", name: "Maghnes Akliouche", number: "11", position: "Milieu offensif", line: "Attaquants", status: "Recrue officielle 2026", role: "Créateur intérieur ou ailier droit", profile: "Pied gauche, conduite courte et capacité à fixer entre les lignes : Paris ajoute un profil français de percussion et de dernière passe.", watch: "Intégration dans la rotation de Luis Enrique, complémentarité avec Dembélé et Doué, pression liée au prix du transfert.", updatedAt: "9 août 2026", source: "CulturePSG / Le Parisien" },
+  { id: "mika-godts", name: "Mika Godts", number: "22", position: "Attaquant", line: "Attaquants", status: "Recrue officielle 2026", role: "Ailier", profile: "L'attaquant belge apporte un profil de percussion et de déséquilibre supplémentaire dans un secteur offensif très concurrentiel.", watch: "Ses premiers repères dans le jeu de position de Luis Enrique et la répartition des minutes sur les ailes.", updatedAt: "16 août 2026", source: "PSG.fr" },
   { id: "desire-doue", name: "Désiré Doué", number: "14", position: "Attaquant", line: "Attaquants", status: "Talent premium", role: "Ailier ou milieu offensif", profile: "Créativité, conduite de balle et polyvalence dans les demi-espaces.", watch: "Choix dans le dernier geste et gestion de l'exposition médiatique.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "bradley-barcola", name: "Bradley Barcola", number: "29", position: "Attaquant", line: "Attaquants", status: "Ailier français majeur", role: "Ailier de profondeur", profile: "Vitesse, appels longs et capacité à étirer les blocs.", watch: "Efficacité, concurrence à gauche et réponse après les grands matchs.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "quentin-ndjantou", name: "Quentin Ndjantou", number: "47", position: "Attaquant", line: "Attaquants", status: "Jeune offensif", role: "Attaquant de développement", profile: "Profil offensif du vivier parisien, encore à stabiliser au niveau professionnel.", watch: "Utilisation en préparation, prêt éventuel ou intégration progressive.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
@@ -95,12 +97,12 @@ export const seasonSquads = [
     id: "2026-27",
     label: "2026-2027",
     quality: "Complet officiel provisoire + mercato intégré",
-    note: "Base PSG.fr enrichie le 9 août 2026 avec Akliouche et Lucas Digne après leurs officialisations.",
+    note: "Base PSG.fr enrichie le 16 août 2026 avec les signatures officielles de Ferran Torres et Mika Godts.",
     groups: [
       { label: "Gardiens", players: ["Alessandro Longoni", "Lucas Chevalier", "Matvey Safonov"] },
       { label: "Défenseurs", players: ["Achraf Hakimi", "Lucas Beraldo", "Marquinhos", "Illia Zabarnyi", "Lucas Hernández", "Nuno Mendes", "Lucas Digne", "Willian Pacho"] },
       { label: "Milieux", players: ["Fabián Ruiz", "Vitinha", "Senny Mayulu", "Dro Fernández", "Warren Zaïre-Emery", "João Neves"] },
-      { label: "Attaquants", players: ["Khvicha Kvaratskhelia", "Ousmane Dembélé", "Maghnes Akliouche", "Désiré Doué", "Bradley Barcola", "Quentin Ndjantou", "Ibrahim Mbaye"] }
+      { label: "Attaquants", players: ["Khvicha Kvaratskhelia", "Ferran Torres", "Ousmane Dembélé", "Maghnes Akliouche", "Mika Godts", "Désiré Doué", "Bradley Barcola", "Quentin Ndjantou", "Ibrahim Mbaye"] }
     ]
   },
   {
@@ -156,16 +158,24 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-15T06:30:00+02:00",
-  edition: "Édition PSG du 15 août 2026",
-  displayDate: "15 août 2026",
-  displayTime: "06h30",
+  updatedAt: "2026-08-16T12:00:00+02:00",
+  edition: "Édition PSG du 16 août 2026",
+  displayDate: "16 août 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-16", "16 août 2026", [
+  { id: "lens-psg-chiffres-officiels-trophee-champions-2026", time: "12:00", category: "Match", title: "Lens-PSG : Paris vise un 15e Trophée des Champions, record français", summary: "À quelques heures de Lens-PSG, le club rappelle que Paris a déjà remporté 14 Trophées des Champions, un record en France. Les Parisiens restent aussi sur sept victoires de suite contre Lens en Ligue 1 : des repères officiels, pas un pronostic, avant le coup d'envoi à 20h45 à Bollaert.", source: "PSG.fr", url: "https://www.psg.fr/en/content/the-key-stats-trophee-des-champions", reliability: "Officiel", viral: 82 },
+  { id: "lens-psg-groupe-23-neves-absent-trophee-champions-2026", time: "11:30", category: "Match", title: "Lens-PSG : 23 joueurs convoqués, João Neves absent du groupe", summary: "Selon CulturePSG, Luis Enrique a retenu 23 joueurs pour le Trophée des Champions à Lens. Lucas Digne et Maghnes Akliouche figurent parmi les deux recrues convoquées ; João Neves manque à l'appel, dans le cadre d'une gestion annoncée par le média. Ferran Torres et Mika Godts ne sont pas qualifiés pour cette affiche.", source: "CulturePSG", url: "https://www.culturepsg.com/news/match/le-groupe-pour-lens-psg-avec-deux-recrues-seulement/60357", reliability: "Fort — groupe et information de gestion rapportés", viral: 88 },
+  { id: "mika-godts-officiel-psg-contrat-2031", time: "00:05", category: "Mercato", title: "Mika Godts signe au PSG : Paris ajoute un ailier belge jusqu'en 2031", summary: "Le PSG a officialisé l'arrivée de Mika Godts. L'attaquant belge s'engage jusqu'en 2031 et portera le numéro 22. Une signature confirmée par le club, qui densifie encore ses options offensives.", source: "PSG.fr", url: "https://www.psg.fr/content/cp-mika-godts-s-engage-avec-le-paris-saint-germain/", reliability: "Officiel", viral: 93 },
+  ]),
+  ...withNewsDate("2026-08-15", "15 août 2026", [
+  { id: "ferran-torres-officiel-psg-contrat-2031", time: "12:55", category: "Mercato", title: "Ferran Torres est Parisien : le champion du monde signe jusqu'en 2031", summary: "Le PSG a officialisé la signature de Ferran Torres jusqu'en 2031. L'attaquant espagnol portera le numéro 9 : le dossier quitte définitivement la zone rumeur et offre à Luis Enrique une option offensive supplémentaire.", source: "PSG.fr", url: "https://www.psg.fr/content/cp-ferran-torres-rejoint-le-paris-saint-germain/", reliability: "Officiel", viral: 98 },
+  ]),
   ...withNewsDate("2026-08-15", "15 août 2026", [
   { id: "calendrier-psg-rennes-monaco-horaires-officiels-aout-2026", time: "06:30", category: "Calendrier", title: "PSG-Rennes à 20h45 et PSG-Monaco à 19h05 : les horaires officiels sont mis à jour", summary: "Le calendrier officiel du PSG programme désormais la réception de Rennes le dimanche 23 août à 20h45, puis celle de Monaco le vendredi 4 septembre à 19h05. Parisien 90 corrige ces deux horaires et conserve les dates déjà confirmées par le club.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 76 },
   ]),
