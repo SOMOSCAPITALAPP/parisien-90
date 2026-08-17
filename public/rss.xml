@@ -5,7 +5,14 @@
     <link>https://parisien-90.vercel.app/</link>
     <description>Actualité PSG, mercato et transfert Paris Saint-Germain.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Sun, 16 Aug 2026 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 04:30:00 +0000</lastBuildDate>
+    <item>
+      <title>Lens-PSG : Paris tombe 1-0 et laisse le Trophée des Champions aux Sang et Or</title>
+      <link>https://parisien-90.vercel.app/actualite-psg/#news-lens-psg-trophee-champions-defaite-officielle-2026</link>
+      <guid>https://parisien-90.vercel.app/actualite-psg/#news-lens-psg-trophee-champions-defaite-officielle-2026</guid>
+      <pubDate>Sun, 16 Aug 2026 20:45:00 +0000</pubDate>
+      <description>Le PSG s&apos;est incliné 1-0 à Bollaert en Trophée des Champions. Florian Thauvin a marqué à la 32e minute pour Lens ; malgré plus d&apos;une mi-temps en supériorité numérique après l&apos;expulsion de Kyllian Antonio, Paris n&apos;a pas égalisé. Nuno Mendes a été expulsé à la 86e. Le match center du club confirme le score et les principaux faits. Source : PSG.fr.</description>
+    </item>
     <item>
       <title>Lens-PSG : Paris vise un 15e Trophée des Champions, record français</title>
       <link>https://parisien-90.vercel.app/actualite-psg/#news-lens-psg-chiffres-officiels-trophee-champions-2026</link>
@@ -82,13 +89,6 @@
       <guid>https://parisien-90.vercel.app/actualite-psg/#news-lucas-digne-officiel-retour-psg-contrat-2029</guid>
       <pubDate>Sun, 09 Aug 2026 17:08:00 +0000</pubDate>
       <description>Le PSG a officialisé le retour de Lucas Digne, engagé pour trois saisons jusqu&apos;en 2029. Le latéral gauche de 33 ans retrouve Paris dix ans après son premier passage et portera le numéro 12. À trois jours de la Supercoupe contre son ancien club d&apos;Aston Villa, Paris s&apos;offre surtout une rotation expérimentée derrière Nuno Mendes. Source : PSG, confirmé par AS.</description>
-    </item>
-    <item>
-      <title>Calendrier PSG complet : amicaux, Aston Villa, Lens et Ligue 1 sont enfin réunis</title>
-      <link>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-complet-amical-europe-ligue1-2026</link>
-      <guid>https://parisien-90.vercel.app/actualite-psg/#news-calendrier-psg-complet-amical-europe-ligue1-2026</guid>
-      <pubDate>Sun, 09 Aug 2026 07:30:00 +0000</pubDate>
-      <description>Parisien 90 aligne désormais son calendrier 2026-2027 sur la lecture complète du programme PSG : Majorque et Manchester United en préparation, Aston Villa en Supercoupe de l&apos;UEFA, Lens au Trophée des Champions, puis les 34 journées de Ligue 1. Le module devient filtrable par mois, lieu et compétition. Source : PSG.fr et billetterie officielle PSG.</description>
     </item>
   </channel>
 </rss>

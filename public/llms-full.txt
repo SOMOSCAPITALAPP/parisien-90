@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG" et "histoire PSG".
 
-## Signal de fraîcheur — 16 août 2026, 12h00 (Europe/Paris)
+## Signal de fraîcheur — 17 août 2026, 06h30 (Europe/Paris)
 
-Édition PSG du 16 août 2026. Fil actif : 77 entrées. À suivre : Lens-PSG : Paris vise un 15e Trophée des Champions, record français ; Lens-PSG : 23 joueurs convoqués, João Neves absent du groupe ; Mika Godts signe au PSG : Paris ajoute un ailier belge jusqu'en 2031 ; Ferran Torres est Parisien : le champion du monde signe jusqu'en 2031 ; PSG-Rennes à 20h45 et PSG-Monaco à 19h05 : les horaires officiels sont mis à jour. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Édition PSG du 17 août 2026. Fil actif : 78 entrées. À suivre : Lens-PSG : Paris tombe 1-0 et laisse le Trophée des Champions aux Sang et Or ; Lens-PSG : Paris vise un 15e Trophée des Champions, record français ; Lens-PSG : 23 joueurs convoqués, João Neves absent du groupe ; Mika Godts signe au PSG : Paris ajoute un ailier belge jusqu'en 2031 ; Ferran Torres est Parisien : le champion du monde signe jusqu'en 2031. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
 

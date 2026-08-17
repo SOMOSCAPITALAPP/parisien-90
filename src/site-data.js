@@ -158,16 +158,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-16T12:00:00+02:00",
-  edition: "Édition PSG du 16 août 2026",
-  displayDate: "16 août 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-08-17T06:30:00+02:00",
+  edition: "Édition PSG du 17 août 2026",
+  displayDate: "17 août 2026",
+  displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-16", "16 août 2026", [
+  { id: "lens-psg-trophee-champions-defaite-officielle-2026", time: "22:45", category: "Match", title: "Lens-PSG : Paris tombe 1-0 et laisse le Trophée des Champions aux Sang et Or", summary: "Le PSG s'est incliné 1-0 à Bollaert en Trophée des Champions. Florian Thauvin a marqué à la 32e minute pour Lens ; malgré plus d'une mi-temps en supériorité numérique après l'expulsion de Kyllian Antonio, Paris n'a pas égalisé. Nuno Mendes a été expulsé à la 86e. Le match center du club confirme le score et les principaux faits.", source: "PSG.fr", url: "https://www.psg.fr/en/matches/mens-football/20262027/lens-vs-paris-2026-08-16", reliability: "Officiel", viral: 98 },
+  ]),
   ...withNewsDate("2026-08-16", "16 août 2026", [
   { id: "lens-psg-chiffres-officiels-trophee-champions-2026", time: "12:00", category: "Match", title: "Lens-PSG : Paris vise un 15e Trophée des Champions, record français", summary: "À quelques heures de Lens-PSG, le club rappelle que Paris a déjà remporté 14 Trophées des Champions, un record en France. Les Parisiens restent aussi sur sept victoires de suite contre Lens en Ligue 1 : des repères officiels, pas un pronostic, avant le coup d'envoi à 20h45 à Bollaert.", source: "PSG.fr", url: "https://www.psg.fr/en/content/the-key-stats-trophee-des-champions", reliability: "Officiel", viral: 82 },
   { id: "lens-psg-groupe-23-neves-absent-trophee-champions-2026", time: "11:30", category: "Match", title: "Lens-PSG : 23 joueurs convoqués, João Neves absent du groupe", summary: "Selon CulturePSG, Luis Enrique a retenu 23 joueurs pour le Trophée des Champions à Lens. Lucas Digne et Maghnes Akliouche figurent parmi les deux recrues convoquées ; João Neves manque à l'appel, dans le cadre d'une gestion annoncée par le média. Ferran Torres et Mika Godts ne sont pas qualifiés pour cette affiche.", source: "CulturePSG", url: "https://www.culturepsg.com/news/match/le-groupe-pour-lens-psg-avec-deux-recrues-seulement/60357", reliability: "Fort — groupe et information de gestion rapportés", viral: 88 },
