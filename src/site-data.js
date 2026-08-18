@@ -2,8 +2,8 @@ export const psgSchedule2627 = [
   { round: 0, roundLabel: "A1", isoDate: "2026-08-05", day: "mercredi", dateLabel: "5 août 2026", month: "2026-08", competition: "Amical", home: "Real Club Deportivo Mallorca", away: "Paris Saint-Germain", opponent: "RCD Majorque", venue: "Estadi Mallorca Son Moix", place: "Extérieur", time: "21:00", status: "Terminé 3-0", note: "Premier match de préparation, utile pour remettre le groupe en route malgré un score sec.", highlight: false },
   { round: 0, roundLabel: "A2", isoDate: "2026-08-08", day: "samedi", dateLabel: "8 août 2026", month: "2026-08", competition: "Amical", home: "Paris Saint-Germain", away: "Manchester United FC", opponent: "Manchester United", venue: "Nya Ullevi, Göteborg", place: "Neutre", time: "17:00", status: "Terminé 1-1", note: "Deuxième test de préparation, Mbaye buteur et Safonov très sollicité avant Aston Villa.", highlight: true },
   { round: 0, roundLabel: "UEFA", isoDate: "2026-08-12", day: "mercredi", dateLabel: "12 août 2026", month: "2026-08", competition: "Supercoupe de l'UEFA", home: "Paris Saint-Germain", away: "Aston Villa FC", opponent: "Aston Villa", venue: "Red Bull Arena, Salzbourg", place: "Neutre", time: "21:00", status: "Terminé 2-1", note: "Kvaratskhelia et Doué ont offert au PSG une deuxième Supercoupe de l'UEFA consécutive.", highlight: true },
-  { round: 0, roundLabel: "TDC", isoDate: "2026-08-16", day: "dimanche", dateLabel: "16 août 2026", month: "2026-08", competition: "Trophée des Champions", home: "Racing Club de Lens", away: "Paris Saint-Germain", opponent: "RC Lens", venue: "Stade Bollaert-Delelis", place: "Extérieur", time: "20:45", status: "Programmé", note: "Finale nationale face à Lens, quatre jours après la Supercoupe européenne.", highlight: true },
-  { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Stade Rennais", opponent: "Stade Rennais", venue: "Parc des Princes", place: "Domicile", time: "20:45", status: "Programmé", note: "Ouverture de saison au Parc, programmée à 20h45.", highlight: true },
+  { round: 0, roundLabel: "TDC", isoDate: "2026-08-16", day: "dimanche", dateLabel: "16 août 2026", month: "2026-08", competition: "Trophée des Champions", home: "Racing Club de Lens", away: "Paris Saint-Germain", opponent: "RC Lens", venue: "Stade Bollaert-Delelis", place: "Extérieur", time: "20:45", status: "Terminé 1-0", note: "Lens a remporté le Trophée des Champions 1-0, malgré une longue supériorité numérique parisienne.", highlight: true },
+  { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Stade Rennais", opponent: "Stade Rennais", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Ouverture de saison au Parc, reprogrammée à 18h45.", highlight: true },
   { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier déplacement dense de la saison.", highlight: false },
   { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "19:05", status: "Programmé", note: "Affiche directe entre prétendants au podium, programmée à 19h05.", highlight: true },
   { round: 4, isoDate: "2026-09-13", day: "dimanche", dateLabel: "13 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "18:45", status: "Programmé", note: "Déplacement piège après la trêve.", highlight: false },
@@ -158,9 +158,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-17T06:30:00+02:00",
-  edition: "Édition PSG du 17 août 2026",
-  displayDate: "17 août 2026",
+  updatedAt: "2026-08-18T06:30:00+02:00",
+  edition: "Édition PSG du 18 août 2026",
+  displayDate: "18 août 2026",
   displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -168,6 +168,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-18", "18 août 2026", [
+  { id: "psg-rennes-horaire-officiel-18h45-aout-2026", time: "06:30", category: "Calendrier", title: "PSG-Rennes : le coup d'envoi est avancé à 18h45 au Parc", summary: "Le calendrier officiel du PSG affiche désormais la réception de Rennes, dimanche 23 août, à 18h45. Parisien 90 met à jour ce rendez-vous de la 1re journée : l'horaire précédemment affiché à 20h45 n'est plus le bon.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 78 },
+  ]),
   ...withNewsDate("2026-08-16", "16 août 2026", [
   { id: "lens-psg-trophee-champions-defaite-officielle-2026", time: "22:45", category: "Match", title: "Lens-PSG : Paris tombe 1-0 et laisse le Trophée des Champions aux Sang et Or", summary: "Le PSG s'est incliné 1-0 à Bollaert en Trophée des Champions. Florian Thauvin a marqué à la 32e minute pour Lens ; malgré plus d'une mi-temps en supériorité numérique après l'expulsion de Kyllian Antonio, Paris n'a pas égalisé. Nuno Mendes a été expulsé à la 86e. Le match center du club confirme le score et les principaux faits.", source: "PSG.fr", url: "https://www.psg.fr/en/matches/mens-football/20262027/lens-vs-paris-2026-08-16", reliability: "Officiel", viral: 98 },
   ]),
