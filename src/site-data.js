@@ -5,7 +5,7 @@ export const psgSchedule2627 = [
   { round: 0, roundLabel: "TDC", isoDate: "2026-08-16", day: "dimanche", dateLabel: "16 août 2026", month: "2026-08", competition: "Trophée des Champions", home: "Racing Club de Lens", away: "Paris Saint-Germain", opponent: "RC Lens", venue: "Stade Bollaert-Delelis", place: "Extérieur", time: "20:45", status: "Terminé 1-0", note: "Lens a remporté le Trophée des Champions 1-0, malgré une longue supériorité numérique parisienne.", highlight: true },
   { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Stade Rennais", opponent: "Stade Rennais", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Ouverture de saison au Parc, reprogrammée à 18h45.", highlight: true },
   { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier déplacement dense de la saison.", highlight: false },
-  { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "19:05", status: "Programmé", note: "Affiche directe entre prétendants au podium, programmée à 19h05.", highlight: true },
+  { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Affiche directe entre prétendants au podium, programmée à 18h45.", highlight: true },
   { round: 4, isoDate: "2026-09-13", day: "dimanche", dateLabel: "13 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "18:45", status: "Programmé", note: "Déplacement piège après la trêve.", highlight: false },
   { round: 5, isoDate: "2026-09-20", day: "dimanche", dateLabel: "20 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Olympique de Marseille", away: "Paris Saint-Germain", opponent: "Olympique de Marseille", venue: "Orange Vélodrome", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier Classique de la saison.", highlight: true },
   { round: 6, isoDate: "2026-10-10", day: "samedi", dateLabel: "10 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Le Mans FC", opponent: "Le Mans FC", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Retour au Parc contre un promu ambitieux.", highlight: false },
@@ -158,9 +158,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-18T06:30:00+02:00",
-  edition: "Édition PSG du 18 août 2026",
-  displayDate: "18 août 2026",
+  updatedAt: "2026-08-19T06:30:00+02:00",
+  edition: "Édition PSG du 19 août 2026",
+  displayDate: "19 août 2026",
   displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -168,6 +168,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-19", "19 août 2026", [
+  { id: "psg-monaco-horaire-officiel-18h45-septembre-2026", time: "06:30", category: "Calendrier", title: "PSG-Monaco : le rendez-vous du Parc est désormais programmé à 18h45", summary: "Le calendrier officiel du PSG affiche maintenant la réception de Monaco, vendredi 4 septembre, à 18h45. Parisien 90 corrige ce créneau dans son agenda : l'horaire à 19h05 précédemment indiqué n'est plus celui présenté par le club.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 80 },
+  ]),
   ...withNewsDate("2026-08-18", "18 août 2026", [
   { id: "psg-rennes-horaire-officiel-18h45-aout-2026", time: "06:30", category: "Calendrier", title: "PSG-Rennes : le coup d'envoi est avancé à 18h45 au Parc", summary: "Le calendrier officiel du PSG affiche désormais la réception de Rennes, dimanche 23 août, à 18h45. Parisien 90 met à jour ce rendez-vous de la 1re journée : l'horaire précédemment affiché à 20h45 n'est plus le bon.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 78 },
   ]),
@@ -181,9 +184,6 @@ export const newsFeed = [
   ]),
   ...withNewsDate("2026-08-15", "15 août 2026", [
   { id: "ferran-torres-officiel-psg-contrat-2031", time: "12:55", category: "Mercato", title: "Ferran Torres est Parisien : le champion du monde signe jusqu'en 2031", summary: "Le PSG a officialisé la signature de Ferran Torres jusqu'en 2031. L'attaquant espagnol portera le numéro 9 : le dossier quitte définitivement la zone rumeur et offre à Luis Enrique une option offensive supplémentaire.", source: "PSG.fr", url: "https://www.psg.fr/content/cp-ferran-torres-rejoint-le-paris-saint-germain/", reliability: "Officiel", viral: 98 },
-  ]),
-  ...withNewsDate("2026-08-15", "15 août 2026", [
-  { id: "calendrier-psg-rennes-monaco-horaires-officiels-aout-2026", time: "06:30", category: "Calendrier", title: "PSG-Rennes à 20h45 et PSG-Monaco à 19h05 : les horaires officiels sont mis à jour", summary: "Le calendrier officiel du PSG programme désormais la réception de Rennes le dimanche 23 août à 20h45, puis celle de Monaco le vendredi 4 septembre à 19h05. Parisien 90 corrige ces deux horaires et conserve les dates déjà confirmées par le club.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 76 },
   ]),
   ...withNewsDate("2026-08-12", "12 août 2026", [
   { id: "psg-aston-villa-supercoupe-uefa-victoire-2026", time: "22:55", category: "Europe", title: "PSG-Aston Villa : Paris gagne 2-1 et conserve sa Supercoupe de l'UEFA", summary: "Le PSG a battu Aston Villa 2-1 à Salzbourg pour conserver la Supercoupe de l'UEFA. Khvicha Kvaratskhelia a ouvert le score, Brian Madjo a égalisé juste avant la pause, puis Désiré Doué a tranché au retour des vestiaires. Le match center officiel du club confirme le score, les buteurs et les minutes.", source: "PSG.fr, confirmé par Cadena SER", url: "https://www.psg.fr/en/matches/mens-football/20262027/paris-vs-aston-villa-2026-08-12", reliability: "Officiel", viral: 99 },

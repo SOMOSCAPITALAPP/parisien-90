@@ -1,11 +1,27 @@
 {
-  "updatedAt": "2026-08-18T06:30:00+02:00",
-  "edition": "Édition PSG du 18 août 2026",
-  "displayDate": "18 août 2026",
+  "updatedAt": "2026-08-19T06:30:00+02:00",
+  "edition": "Édition PSG du 19 août 2026",
+  "displayDate": "19 août 2026",
   "displayTime": "06h30",
   "rightsNote": "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit.",
   "count": 79,
   "items": [
+    {
+      "count": 79,
+      "id": "psg-monaco-horaire-officiel-18h45-septembre-2026",
+      "category": "Calendrier",
+      "date": "2026-08-19",
+      "dateLabel": "19 août 2026",
+      "time": "06:30",
+      "dateTime": "2026-08-19T06:30:00+02:00",
+      "headline": "PSG-Monaco : le rendez-vous du Parc est désormais programmé à 18h45",
+      "summary": "Le calendrier officiel du PSG affiche maintenant la réception de Monaco, vendredi 4 septembre, à 18h45. Parisien 90 corrige ce créneau dans son agenda : l'horaire à 19h05 précédemment indiqué n'est plus celui présenté par le club.",
+      "tone": "calendrier",
+      "reliability": "Officiel",
+      "viralScore": 80,
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
+    },
     {
       "count": 79,
       "id": "psg-rennes-horaire-officiel-18h45-aout-2026",
@@ -101,22 +117,6 @@
       "viralScore": 98,
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/cp-ferran-torres-rejoint-le-paris-saint-germain/"
-    },
-    {
-      "count": 79,
-      "id": "calendrier-psg-rennes-monaco-horaires-officiels-aout-2026",
-      "category": "Calendrier",
-      "date": "2026-08-15",
-      "dateLabel": "15 août 2026",
-      "time": "06:30",
-      "dateTime": "2026-08-15T06:30:00+02:00",
-      "headline": "PSG-Rennes à 20h45 et PSG-Monaco à 19h05 : les horaires officiels sont mis à jour",
-      "summary": "Le calendrier officiel du PSG programme désormais la réception de Rennes le dimanche 23 août à 20h45, puis celle de Monaco le vendredi 4 septembre à 19h05. Parisien 90 corrige ces deux horaires et conserve les dates déjà confirmées par le club.",
-      "tone": "calendrier",
-      "reliability": "Officiel",
-      "viralScore": 76,
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1"
     },
     {
       "count": 79,
