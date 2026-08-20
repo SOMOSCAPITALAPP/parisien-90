@@ -5,7 +5,7 @@ export const psgSchedule2627 = [
   { round: 0, roundLabel: "TDC", isoDate: "2026-08-16", day: "dimanche", dateLabel: "16 août 2026", month: "2026-08", competition: "Trophée des Champions", home: "Racing Club de Lens", away: "Paris Saint-Germain", opponent: "RC Lens", venue: "Stade Bollaert-Delelis", place: "Extérieur", time: "20:45", status: "Terminé 1-0", note: "Lens a remporté le Trophée des Champions 1-0, malgré une longue supériorité numérique parisienne.", highlight: true },
   { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Stade Rennais", opponent: "Stade Rennais", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Ouverture de saison au Parc, reprogrammée à 18h45.", highlight: true },
   { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier déplacement dense de la saison.", highlight: false },
-  { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "18:45", status: "Programmé", note: "Affiche directe entre prétendants au podium, programmée à 18h45.", highlight: true },
+  { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "19:05", status: "Programmé", note: "Affiche directe entre prétendants au podium, programmée à 19h05.", highlight: true },
   { round: 4, isoDate: "2026-09-13", day: "dimanche", dateLabel: "13 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "18:45", status: "Programmé", note: "Déplacement piège après la trêve.", highlight: false },
   { round: 5, isoDate: "2026-09-20", day: "dimanche", dateLabel: "20 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Olympique de Marseille", away: "Paris Saint-Germain", opponent: "Olympique de Marseille", venue: "Orange Vélodrome", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier Classique de la saison.", highlight: true },
   { round: 6, isoDate: "2026-10-10", day: "samedi", dateLabel: "10 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Le Mans FC", opponent: "Le Mans FC", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Retour au Parc contre un promu ambitieux.", highlight: false },
@@ -158,18 +158,21 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-19T06:30:00+02:00",
-  edition: "Édition PSG du 19 août 2026",
-  displayDate: "19 août 2026",
-  displayTime: "06h30",
+  updatedAt: "2026-08-20T12:00:00+02:00",
+  edition: "Édition PSG du 20 août 2026",
+  displayDate: "20 août 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-20", "20 août 2026", [
+  { id: "psg-monaco-horaire-officiel-19h05-septembre-2026", time: "12:00", category: "Calendrier", title: "PSG-Monaco : le Parc attend Monaco à 19h05 le 4 septembre", summary: "Le calendrier de PSG.fr affiche PSG-Monaco le vendredi 4 septembre à 19h05. Parisien 90 met son agenda à jour : le créneau de 18h45, publié lors d'une précédente vérification, ne correspond plus à l'horaire actuellement présenté par le club.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 80 },
+  ]),
   ...withNewsDate("2026-08-19", "19 août 2026", [
-  { id: "psg-monaco-horaire-officiel-18h45-septembre-2026", time: "06:30", category: "Calendrier", title: "PSG-Monaco : le rendez-vous du Parc est désormais programmé à 18h45", summary: "Le calendrier officiel du PSG affiche maintenant la réception de Monaco, vendredi 4 septembre, à 18h45. Parisien 90 corrige ce créneau dans son agenda : l'horaire à 19h05 précédemment indiqué n'est plus celui présenté par le club.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 80 },
+  { id: "psg-monaco-horaire-officiel-18h45-septembre-2026", time: "06:30", category: "Calendrier", title: "Édition du 19 août : PSG-Monaco alors affiché à 18h45", summary: "Lors de la vérification du 19 août, PSG.fr affichait PSG-Monaco le vendredi 4 septembre à 18h45. Cette entrée est archivée : le calendrier officiel consulté le 20 août présente désormais un coup d'envoi à 19h05.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Archive — remplacée par le calendrier officiel actuel", viral: 80 },
   ]),
   ...withNewsDate("2026-08-18", "18 août 2026", [
   { id: "psg-rennes-horaire-officiel-18h45-aout-2026", time: "06:30", category: "Calendrier", title: "PSG-Rennes : le coup d'envoi est avancé à 18h45 au Parc", summary: "Le calendrier officiel du PSG affiche désormais la réception de Rennes, dimanche 23 août, à 18h45. Parisien 90 met à jour ce rendez-vous de la 1re journée : l'horaire précédemment affiché à 20h45 n'est plus le bon.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 78 },
