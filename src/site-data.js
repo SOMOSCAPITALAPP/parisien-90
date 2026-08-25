@@ -158,16 +158,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-24T06:30:00+02:00",
-  edition: "Édition PSG du 24 août 2026",
-  displayDate: "24 août 2026",
-  displayTime: "06h30",
+  updatedAt: "2026-08-25T12:00:00+02:00",
+  edition: "Édition PSG du 25 août 2026",
+  displayDate: "25 août 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-24", "24 août 2026", [
+  { id: "ferran-torres-double-debuts-doue-dribbles-ligue-1-aout-2026", time: "14:02", category: "Analyse", title: "Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble", summary: "La LFP souligne l'impact de la rentrée parisienne : Ferran Torres est le troisième joueur de l'histoire du PSG à réussir un doublé dès ses débuts, après Zlatan Ibrahimović et Patrick Mboma. Désiré Doué a, lui, réussi ses cinq dribbles tentés à Rennes, à égalité avec Achraf Hakimi pour le meilleur total de la J1. Des signaux individuels forts, malgré le nul concédé par Paris.", source: "Ligue 1", url: "https://ligue1.com/fr/articles/l1_article_5725-les-stats-marquantes-de-la-j1", reliability: "Officiel — statistiques LFP", viral: 89 },
+  ]),
   ...withNewsDate("2026-08-23", "23 août 2026", [
   { id: "rennes-psg-nul-2-2-ligue-1-aout-2026", time: "22:38", category: "Match", title: "Rennes-PSG : Paris arrache un nul 2-2 pour sa rentrée en Ligue 1", summary: "Au Roazhon Park, le PSG a évité la défaite après avoir été mené 2-0. Ferran Torres, entré à la pause, a inscrit un doublé, tandis que Fabián Ruiz a délivré les deux passes décisives. Le résultat, les buteurs et le scénario sont rapportés par L'Équipe ; la première journée laisse tout de même une alerte claire dans le jeu parisien.", source: "L'Équipe", url: "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-ferran-torres-le-psg-ramene-le-nul-de-rennes/1713126", reliability: "Fort — score, buteurs et scénario recoupés", viral: 98 },
   ]),
