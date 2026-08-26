@@ -158,9 +158,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-25T12:00:00+02:00",
-  edition: "Édition PSG du 25 août 2026",
-  displayDate: "25 août 2026",
+  updatedAt: "2026-08-26T12:00:00+02:00",
+  edition: "Édition PSG du 26 août 2026",
+  displayDate: "26 août 2026",
   displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -168,6 +168,10 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-25", "25 août 2026", [
+  { id: "ousmane-dembele-reprise-entrainement-31-aout-2026", time: "20:56", category: "Groupe", title: "Dembélé reprendra l'entraînement avec le groupe le 31 août", summary: "Le PSG annonce qu'Ousmane Dembélé bénéficiera de quelques jours de repos en accord avec Luis Enrique et la direction sportive. L'attaquant doit reprendre l'entraînement lundi 31 août avec l'ensemble du groupe : une information officielle, sans diagnostic médical communiqué.", source: "PSG.fr", url: "https://www.psg.fr/content/ousmane-dembele-reprendra-le-lundi-31-aout", reliability: "Officiel", viral: 91 },
+  { id: "yoram-zague-pret-officiel-pafos-2026-2027", time: "14:00", category: "Mercato", title: "Yoram Zague prêté à Paphos avec option d'achat", summary: "Le PSG a officialisé le prêt de Yoram Zague au Paphos FC jusqu'à la fin de la saison 2026-2027. L'accord comprend une option d'achat : le défenseur de 20 ans, formé au club, poursuit son développement à Chypre après ses passages à Copenhague et Eupen.", source: "PSG.fr", url: "https://www.psg.fr/content/cp-yoram-zague-prete-au-paphos-fc", reliability: "Officiel", viral: 84 },
+  ]),
   ...withNewsDate("2026-08-24", "24 août 2026", [
   { id: "ferran-torres-double-debuts-doue-dribbles-ligue-1-aout-2026", time: "14:02", category: "Analyse", title: "Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble", summary: "La LFP souligne l'impact de la rentrée parisienne : Ferran Torres est le troisième joueur de l'histoire du PSG à réussir un doublé dès ses débuts, après Zlatan Ibrahimović et Patrick Mboma. Désiré Doué a, lui, réussi ses cinq dribbles tentés à Rennes, à égalité avec Achraf Hakimi pour le meilleur total de la J1. Des signaux individuels forts, malgré le nul concédé par Paris.", source: "Ligue 1", url: "https://ligue1.com/fr/articles/l1_article_5725-les-stats-marquantes-de-la-j1", reliability: "Officiel — statistiques LFP", viral: 89 },
   ]),
