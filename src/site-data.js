@@ -158,9 +158,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-26T12:00:00+02:00",
-  edition: "Édition PSG du 26 août 2026",
-  displayDate: "26 août 2026",
+  updatedAt: "2026-08-27T12:00:00+02:00",
+  edition: "Édition PSG du 27 août 2026",
+  displayDate: "27 août 2026",
   displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -168,6 +168,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-26", "26 août 2026", [
+  { id: "eintracht-francfort-psg-feminin-nul-barrage-uwcl-aout-2026", time: "21:00", category: "Féminines", title: "Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux", summary: "Menées dès la 4e minute à Francfort, les Parisiennes ont égalisé trois minutes plus tard par Naomie Feller, sur un débordement de Merveille Kanjinga. Le PSG a ensuite résisté et jouera sa qualification pour la phase de ligue de la Ligue des champions à domicile, mardi 2 septembre à 18h30.", source: "PSG.fr", url: "https://www.psg.fr/content/paris-accroche-francfort-et-jouera-sa-qualification-a-domicile-cr-eintracht-francfort-paris-saint-germain-uefa-womens-champions-league-2026-2027", reliability: "Officiel", viral: 88 },
+  ]),
   ...withNewsDate("2026-08-25", "25 août 2026", [
   { id: "ousmane-dembele-reprise-entrainement-31-aout-2026", time: "20:56", category: "Groupe", title: "Dembélé reprendra l'entraînement avec le groupe le 31 août", summary: "Le PSG annonce qu'Ousmane Dembélé bénéficiera de quelques jours de repos en accord avec Luis Enrique et la direction sportive. L'attaquant doit reprendre l'entraînement lundi 31 août avec l'ensemble du groupe : une information officielle, sans diagnostic médical communiqué.", source: "PSG.fr", url: "https://www.psg.fr/content/ousmane-dembele-reprendra-le-lundi-31-aout", reliability: "Officiel", viral: 91 },
   { id: "yoram-zague-pret-officiel-pafos-2026-2027", time: "14:00", category: "Mercato", title: "Yoram Zague prêté à Paphos avec option d'achat", summary: "Le PSG a officialisé le prêt de Yoram Zague au Paphos FC jusqu'à la fin de la saison 2026-2027. L'accord comprend une option d'achat : le défenseur de 20 ans, formé au club, poursuit son développement à Chypre après ses passages à Copenhague et Eupen.", source: "PSG.fr", url: "https://www.psg.fr/content/cp-yoram-zague-prete-au-paphos-fc", reliability: "Officiel", viral: 84 },
