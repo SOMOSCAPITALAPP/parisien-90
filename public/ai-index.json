@@ -21,7 +21,7 @@
       "histoire PSG"
     ],
     "lastVerifiedAt": "2026-08-28T18:11:00+02:00",
-    "freshnessNote": "Édition PSG du 28 août 2026. Fil actif : 87 entrées, avec pages individuelles crawlables sous /news/. À suivre : PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat ; Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble. Synthèses originales avec sources citées et liées."
+    "freshnessNote": "Fil PSG du 28 août 2026. Fil public : 83 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat ; Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -203,24 +203,6 @@
       "reliability": "Officiel"
     },
     {
-      "title": "Édition du 19 août : PSG-Monaco alors affiché à 18h45",
-      "category": "Calendrier",
-      "dateTime": "2026-08-19T06:30:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-monaco-horaire-officiel-18h45-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1",
-      "reliability": "Archive — remplacée par le calendrier officiel actuel"
-    },
-    {
-      "title": "Édition du 18 août : PSG.fr affichait PSG-Rennes au Parc à 18h45",
-      "category": "Calendrier",
-      "dateTime": "2026-08-18T06:30:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-rennes-horaire-officiel-18h45-aout-2026/",
-      "source": "Ligue 1",
-      "sourceUrl": "https://ligue1.com/fr/articles/l1_article_5699-j1-psg-rennes-inverse-l1-2627",
-      "reliability": "Archive — remplacée par décision officielle LFP"
-    },
-    {
       "title": "Lens-PSG : Paris tombe 1-0 et laisse le Trophée des Champions aux Sang et Or",
       "category": "Match",
       "dateTime": "2026-08-16T22:45:00+02:00",
@@ -383,15 +365,6 @@
       "reliability": "Officiel"
     },
     {
-      "title": "Programmation du 8 août : Monaco et Brest étaient alors annoncés sans horaire",
-      "category": "Calendrier",
-      "dateTime": "2026-08-08T06:30:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/calendrier-psg-monaco-brest-dates-a-confirmer/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-      "reliability": "Archive — remplacée par le calendrier officiel actuel"
-    },
-    {
       "title": "Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation",
       "category": "Match",
       "dateTime": "2026-08-05T21:00:00+02:00",
@@ -399,6 +372,33 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/mallorca-vs-paris-2026-08-05",
       "reliability": "Officiel"
+    },
+    {
+      "title": "Suzuki au PSG : Paris avance, mais le vrai plan dépend de Chevalier",
+      "category": "Mercato",
+      "dateTime": "2026-08-04T12:55:00+02:00",
+      "url": "https://parisien-90.vercel.app/news/suzuki-chevalier-plan-psg-2026/",
+      "source": "CulturePSG",
+      "sourceUrl": "https://www.culturepsg.com/news/mercato/le-plan-du-psg-pour-suzuki-et-chevalier-se-precise/60233",
+      "reliability": "Fort — offre et plan à confirmer"
+    },
+    {
+      "title": "Tableau mercato PSG : Akliouche, Ferran, Godts, Suzuki, Digne... Paris ouvre enfin le grand chantier",
+      "category": "Transferts",
+      "dateTime": "2026-08-04T11:45:00+02:00",
+      "url": "https://parisien-90.vercel.app/news/tableau-mercato-psg-aout-2026/",
+      "source": "CulturePSG",
+      "sourceUrl": "https://www.culturepsg.com/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
+      "reliability": "Tableau de suivi — statuts à vérifier dossier par dossier"
+    },
+    {
+      "title": "Godts : l'Ajax refuse la première offre, Paris teste déjà la résistance",
+      "category": "Mercato",
+      "dateTime": "2026-08-04T11:19:00+02:00",
+      "url": "https://parisien-90.vercel.app/news/godts-ajax-refuse-premiere-offre-psg/",
+      "source": "CulturePSG",
+      "sourceUrl": "https://www.culturepsg.com/news/mercato/l-ajax-refuse-la-premiere-offre-du-psg-pour-godts/60232",
+      "reliability": "Rumeur solide — offre refusée selon média spécialisé"
     }
   ]
 }

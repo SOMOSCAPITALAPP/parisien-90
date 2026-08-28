@@ -5,6 +5,12 @@ import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2
 inject({ framework: "vite" });
 injectSpeedInsights({ framework: "vite" });
 
+const isDisplayableNews = (item) =>
+  !String(item.reliability || "").toLowerCase().includes("archive") &&
+  !String(item.title || "").toLowerCase().startsWith("édition du");
+
+const activeNewsFeed = newsFeed.filter(isDisplayableNews);
+
 const params = new URLSearchParams(window.location.search);
 const query = params.get("q");
 
@@ -72,15 +78,15 @@ const setTextForSelector = (selector, value) => {
 };
 
 const initNewsFreshness = () => {
-  const countLabel = `${newsFeed.length} entrées actives`;
+  const countLabel = `${activeNewsFeed.length} infos PSG`;
 
   setTextForSelector("[data-news-date]", newsMeta.displayDate);
   setTextForSelector("[data-news-time]", newsMeta.displayTime);
   setTextForSelector("[data-news-edition]", newsMeta.edition);
-  setTextForSelector("[data-news-count]", String(newsFeed.length));
+  setTextForSelector("[data-news-count]", String(activeNewsFeed.length));
   setTextForSelector("[data-news-count-label]", countLabel);
-  setTextForSelector("[data-news-freshness]", `Mise à jour ${newsMeta.displayTime}`);
-  setTextForSelector("[data-news-live-label]", `Direct PSG - ${newsMeta.displayDate}, ${newsMeta.displayTime}`);
+  setTextForSelector("[data-news-freshness]", "Fil PSG vérifié");
+  setTextForSelector("[data-news-live-label]", "PSG live desk");
 
   document.querySelectorAll("[data-news-updated-at]").forEach((element) => {
     element.setAttribute("datetime", newsMeta.updatedAt);
@@ -279,7 +285,7 @@ const openProfile = (profile) => {
     ["Période PSG", profile.psgPeriod],
     ["Vie actuelle", profile.currentLife],
     ["À surveiller", profile.watch],
-    ["Mise à jour", profile.updatedAt],
+    ["Fiche vérifiée", profile.updatedAt],
     ["Source", profile.source || (isCurrentPlayer ? "PSG.fr" : "Synthèse éditoriale Parisien 90")]
   ].filter(([, value]) => value);
 
@@ -486,7 +492,7 @@ const initSeasonExplorer = () => {
   target.innerHTML = `
     <div class="section-heading">
       <div>
-        <span class="section-kicker">Archives vivantes</span>
+        <span class="section-kicker">Mémoire PSG</span>
         <h2>Équipes du PSG saison par saison</h2>
       </div>
       <span class="freshness">Base évolutive</span>
@@ -555,7 +561,7 @@ const initLongNewsFeed = () => {
 
   let activeCategory = "Tous";
   let visibleCount = 10;
-  const categories = ["Tous", ...Array.from(new Set(newsFeed.map((item) => item.category)))];
+  const categories = ["Tous", ...Array.from(new Set(activeNewsFeed.map((item) => item.category)))];
 
   target.innerHTML = `
     <div class="interactive-toolbar news-toolbar">
@@ -597,14 +603,14 @@ const initLongNewsFeed = () => {
 
   const render = () => {
     const term = search.value.trim().toLowerCase();
-    const filtered = newsFeed.filter((item) => {
+    const filtered = activeNewsFeed.filter((item) => {
       const haystack = `${item.title} ${item.summary} ${item.category} ${item.source}`.toLowerCase();
       return (activeCategory === "Tous" || item.category === activeCategory) && (!term || haystack.includes(term));
     });
 
     const visible = filtered.slice(0, visibleCount);
     list.replaceChildren(...visible.map(makeArticle));
-    meta.textContent = `${filtered.length} info${filtered.length > 1 ? "s" : ""} dans le fil, ${visible.length} affichée${visible.length > 1 ? "s" : ""}. Dernière veille : ${newsMeta.displayDate}, ${newsMeta.displayTime}.`;
+    meta.textContent = `${filtered.length} info${filtered.length > 1 ? "s" : ""} dans le fil, ${visible.length} affichée${visible.length > 1 ? "s" : ""}.`;
     more.hidden = visible.length >= filtered.length;
     initShareActions(list);
   };
@@ -650,7 +656,7 @@ const focusHashTarget = () => {
 };
 
 const initHomeNews = () => {
-  const lead = newsFeed[0];
+  const lead = activeNewsFeed[0];
   const leadTarget = document.querySelector("[data-home-lead]");
   const hotGrid = document.querySelector("[data-home-hot-grid]");
   const liveList = document.querySelector("[data-home-live-list]");
@@ -673,7 +679,7 @@ const initHomeNews = () => {
     setHomeLeadText("[data-home-lead-category]", lead.category);
   }
 
-  const featured = newsFeed.slice(0, 5);
+  const featured = activeNewsFeed.slice(0, 5);
 
   if (hotGrid) {
     hotGrid.innerHTML = featured.map((item, index) => `
@@ -690,7 +696,7 @@ const initHomeNews = () => {
   }
 
   if (liveList) {
-    liveList.innerHTML = newsFeed.slice(0, 5).map((item) => `
+    liveList.innerHTML = activeNewsFeed.slice(0, 5).map((item) => `
       <article class="live-item" id="home-live-${escapeHTML(item.id)}" data-share-title="${escapeHTML(item.title)}" data-share-url="${escapeHTML(getNewsPagePath(item))}">
         <time datetime="${escapeHTML(getNewsDateTimeISO(item))}">${escapeHTML(getNewsDateTimeLabel(item))}</time>
         <div class="live-body">

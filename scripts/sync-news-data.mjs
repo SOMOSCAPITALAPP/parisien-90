@@ -7,6 +7,12 @@ const newsDir = new URL("../news/", import.meta.url);
 const currentDate = newsMeta.updatedAt.slice(0, 10);
 const heroImage = `${siteUrl}/hero-stadium.png`;
 
+const isPublishedNews = (item) =>
+  !String(item.reliability || "").toLowerCase().includes("archive") &&
+  !String(item.title || "").toLowerCase().startsWith("édition du");
+
+const publishedNewsFeed = newsFeed.filter(isPublishedNews);
+
 const staticPages = [
   { path: "/", changefreq: "hourly", priority: "1.0" },
   { path: "/transfert-psg/", changefreq: "hourly", priority: "1.0" },
@@ -76,7 +82,7 @@ const getTopicPath = (item) => {
   return "/actualite-psg/";
 };
 
-const freshnessSummary = newsFeed
+const freshnessSummary = publishedNewsFeed
   .slice(0, 5)
   .map((item) => item.title)
   .join(" ; ");
@@ -84,7 +90,7 @@ const freshnessSummary = newsFeed
 const makeArticlePage = (item) => {
   const url = itemUrl(item);
   const dateTime = itemDateTimeISO(item);
-  const related = newsFeed
+  const related = publishedNewsFeed
     .filter((candidate) => candidate.id !== item.id && candidate.category === item.category)
     .slice(0, 4);
   const title = `${item.title} | Parisien 90`;
@@ -231,9 +237,9 @@ const newsPayload = {
   displayDate: newsMeta.displayDate,
   displayTime: newsMeta.displayTime,
   rightsNote: newsMeta.rightsNote,
-  count: newsFeed.length,
-  items: newsFeed.map((item) => ({
-    count: newsFeed.length,
+  count: publishedNewsFeed.length,
+  items: publishedNewsFeed.map((item) => ({
+    count: publishedNewsFeed.length,
     id: item.id,
     category: item.category,
     date: item.date || currentDate,
@@ -257,14 +263,14 @@ await rm(newsDir, { recursive: true, force: true });
 await mkdir(newsDir, { recursive: true });
 
 await Promise.all(
-  newsFeed.map(async (item) => {
+  publishedNewsFeed.map(async (item) => {
     const articleDir = new URL(`${slugify(item.id)}/`, newsDir);
     await mkdir(articleDir, { recursive: true });
     await writeFile(new URL("index.html", articleDir), makeArticlePage(item), "utf8");
   })
 );
 
-const rssItems = newsFeed.slice(0, 24).map((item) => {
+const rssItems = publishedNewsFeed.slice(0, 24).map((item) => {
   const internalUrl = itemUrl(item);
 
   return `    <item>
@@ -294,8 +300,8 @@ await writeFile(new URL("rss.xml", publicDir), rss, "utf8");
 const aiIndexPath = new URL("ai-index.json", publicDir);
 const aiIndex = JSON.parse(await readFile(aiIndexPath, "utf8"));
 aiIndex.site.lastVerifiedAt = newsMeta.updatedAt;
-aiIndex.site.freshnessNote = `${newsMeta.edition}. Fil actif : ${newsFeed.length} entrées, avec pages individuelles crawlables sous /news/. À suivre : ${freshnessSummary}. Synthèses originales avec sources citées et liées.`;
-aiIndex.news = newsFeed.slice(0, 30).map((item) => ({
+aiIndex.site.freshnessNote = `${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : ${freshnessSummary}. Synthèses originales, sourcées et liées.`;
+aiIndex.news = publishedNewsFeed.slice(0, 30).map((item) => ({
   title: item.title,
   category: item.category,
   dateTime: itemDateTimeISO(item),
@@ -306,13 +312,13 @@ aiIndex.news = newsFeed.slice(0, 30).map((item) => ({
 }));
 await writeFile(aiIndexPath, `${JSON.stringify(aiIndex, null, 2)}\n`, "utf8");
 
-const freshnessLine = `Dernière vérification éditoriale : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil actif : ${newsFeed.length} entrées. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;
+const freshnessLine = `Repère éditorial : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;
 
 const llmsPath = new URL("llms.txt", publicDir);
 const llms = await readFile(llmsPath, "utf8");
 await writeFile(
   llmsPath,
-  llms.replace(/^Dernière vérification éditoriale : .+$/m, freshnessLine),
+  llms.replace(/^(Dernière vérification éditoriale|Repère éditorial) : .+$/m, freshnessLine),
   "utf8"
 );
 
@@ -321,8 +327,8 @@ const llmsFull = await readFile(llmsFullPath, "utf8");
 await writeFile(
   llmsFullPath,
   llmsFull.replace(
-    /## Signal de fraîcheur[\s\S]*?\n\nLe contenu est organisé/,
-    `## Signal de fraîcheur — ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris)\n\n${newsMeta.edition}. Fil actif : ${newsFeed.length} entrées, enrichies en pages individuelles crawlables sous /news/. À suivre : ${freshnessSummary}. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.\n\nLe contenu est organisé`
+    /## (Signal de fraîcheur|Repère éditorial)[\s\S]*?\n\nLe contenu est organisé/,
+    `## Repère éditorial — ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris)\n\n${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, enrichies en pages individuelles crawlables sous /news/. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.\n\nLe contenu est organisé`
   ),
   "utf8"
 );
@@ -334,7 +340,7 @@ const sitemapUrls = [
     changefreq: page.changefreq,
     priority: page.priority
   })),
-  ...newsFeed.map((item) => ({
+  ...publishedNewsFeed.map((item) => ({
     loc: itemUrl(item),
     lastmod: item.date || currentDate,
     changefreq: "weekly",
@@ -359,4 +365,4 @@ ${sitemapUrls
 
 await writeFile(new URL("sitemap.xml", publicDir), sitemap, "utf8");
 
-console.log(`News sync complete: ${newsFeed.length} items, ${newsMeta.edition}, ${sitemapUrls.length} sitemap URLs.`);
+console.log(`News sync complete: ${publishedNewsFeed.length} published items, ${newsFeed.length} source items, ${newsMeta.edition}, ${sitemapUrls.length} sitemap URLs.`);

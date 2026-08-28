@@ -115,18 +115,6 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://parisien-90.vercel.app/news/psg-monaco-horaire-officiel-18h45-septembre-2026/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://parisien-90.vercel.app/news/psg-rennes-horaire-officiel-18h45-aout-2026/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
     <loc>https://parisien-90.vercel.app/news/lens-psg-trophee-champions-defaite-officielle-2026/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -235,12 +223,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://parisien-90.vercel.app/news/calendrier-psg-monaco-brest-dates-a-confirmer/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
     <loc>https://parisien-90.vercel.app/news/mallorca-psg-defaite-amical-officiel-2026/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -278,12 +260,6 @@
   </url>
   <url>
     <loc>https://parisien-90.vercel.app/news/ayari-dunkerque-pret-sans-option/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://parisien-90.vercel.app/news/calendrier-officiel-monaco-brest-programmation/</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>

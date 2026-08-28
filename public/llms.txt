@@ -2,7 +2,7 @@
 
 Parisien 90 est un site francophone spécialisé sur le Paris Saint-Germain. Il couvre l'actualité PSG, le mercato PSG, les transferts du PSG, les joueurs, les fiches individuelles, les anciens joueurs, les équipes saison par saison, le calendrier complet et les grandes affiches du club.
 
-Dernière vérification éditoriale : 28 août 2026, 18h11 (Europe/Paris). Édition PSG du 28 août 2026. Fil actif : 87 entrées. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. À suivre : PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat ; Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble. Les sources sont citées et liées ; aucun article tiers n'est reproduit.
+Repère éditorial : 28 août 2026, 18h11 (Europe/Paris). Fil PSG du 28 août 2026. Fil public : 83 vraies infos PSG. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat ; Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble. Les sources sont citées et liées ; aucun article tiers n'est reproduit.
 
 ## Positionnement
 
