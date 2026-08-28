@@ -1,4 +1,9 @@
+import { inject } from "@vercel/analytics";
+import { injectSpeedInsights } from "@vercel/speed-insights";
 import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, seasonSquads } from "./site-data.js";
+
+inject({ framework: "vite" });
+injectSpeedInsights({ framework: "vite" });
 
 const params = new URLSearchParams(window.location.search);
 const query = params.get("q");
@@ -31,6 +36,7 @@ const shareableSelector = [
   ".fixture-item",
   ".match-card",
   ".feed-item",
+  ".article-page",
   "article.topic-card",
   ".timeline > article",
   ".legend-grid > article"
@@ -88,6 +94,8 @@ const getNewsDateTimeISO = (item) => {
 };
 
 const getNewsDateTimeLabel = (item) => `${item.dateLabel || newsMeta.displayDate} · ${item.time}`;
+
+const getNewsPagePath = (item) => `/news/${slugify(item.id)}/`;
 
 const normalizeName = (value) => slugify(value).replace(/-/g, "");
 
@@ -573,12 +581,14 @@ const initLongNewsFeed = () => {
     article.className = "feed-item";
     article.id = `news-${item.id}`;
     article.dataset.shareTitle = item.title;
+    article.dataset.shareUrl = getNewsPagePath(item);
     article.innerHTML = `
       <time datetime="${escapeHTML(getNewsDateTimeISO(item))}">${escapeHTML(getNewsDateTimeLabel(item))}</time>
       <div class="feed-body">
         <div class="item-tags"><span>${escapeHTML(item.category)}</span><span>${escapeHTML(item.reliability)}</span><span>Viral ${item.viral}</span></div>
-        <h3>${escapeHTML(item.title)}</h3>
+        <h3><a href="${escapeHTML(getNewsPagePath(item))}">${escapeHTML(item.title)}</a></h3>
         <p>${escapeHTML(item.summary)}</p>
+        <a href="${escapeHTML(getNewsPagePath(item))}">Lire l'article</a>
         <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">Source : ${escapeHTML(item.source)}</a>
       </div>
     `;
@@ -667,11 +677,12 @@ const initHomeNews = () => {
 
   if (hotGrid) {
     hotGrid.innerHTML = featured.map((item, index) => `
-      <article class="news-card${index === 0 ? " is-lead" : ""}" id="home-news-${escapeHTML(item.id)}" data-share-title="${escapeHTML(item.title)}">
+      <article class="news-card${index === 0 ? " is-lead" : ""}" id="home-news-${escapeHTML(item.id)}" data-share-title="${escapeHTML(item.title)}" data-share-url="${escapeHTML(getNewsPagePath(item))}">
         <time class="news-date" datetime="${escapeHTML(getNewsDateTimeISO(item))}">${escapeHTML(getNewsDateTimeLabel(item))}</time>
         <div class="news-topline"><span>${escapeHTML(item.category)}</span><strong>Viral ${escapeHTML(item.viral)}</strong></div>
-        <h3>${escapeHTML(item.title)}</h3>
+        <h3><a href="${escapeHTML(getNewsPagePath(item))}">${escapeHTML(item.title)}</a></h3>
         <p>${escapeHTML(item.summary)}</p>
+        <a href="${escapeHTML(getNewsPagePath(item))}">Lire l'article</a>
         <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">Source : ${escapeHTML(item.source)}</a>
       </article>
     `).join("");
@@ -680,12 +691,13 @@ const initHomeNews = () => {
 
   if (liveList) {
     liveList.innerHTML = newsFeed.slice(0, 5).map((item) => `
-      <article class="live-item" id="home-live-${escapeHTML(item.id)}" data-share-title="${escapeHTML(item.title)}">
+      <article class="live-item" id="home-live-${escapeHTML(item.id)}" data-share-title="${escapeHTML(item.title)}" data-share-url="${escapeHTML(getNewsPagePath(item))}">
         <time datetime="${escapeHTML(getNewsDateTimeISO(item))}">${escapeHTML(getNewsDateTimeLabel(item))}</time>
         <div class="live-body">
           <div class="item-tags"><span>${escapeHTML(item.category)}</span><span>${escapeHTML(item.reliability)}</span></div>
-          <h3>${escapeHTML(item.title)}</h3>
+          <h3><a href="${escapeHTML(getNewsPagePath(item))}">${escapeHTML(item.title)}</a></h3>
           <p>${escapeHTML(item.summary)}</p>
+          <a href="${escapeHTML(getNewsPagePath(item))}">Lire l'article</a>
           <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">Source : ${escapeHTML(item.source)}</a>
         </div>
         <span class="reliability">${escapeHTML(item.reliability)}</span>

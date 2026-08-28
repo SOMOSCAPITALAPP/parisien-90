@@ -1,5 +1,14 @@
 import { resolve } from "node:path";
+import { existsSync, readdirSync } from "node:fs";
 import { defineConfig } from "vite";
+
+const newsEntries = existsSync(resolve(__dirname, "news"))
+  ? Object.fromEntries(
+      readdirSync(resolve(__dirname, "news"), { withFileTypes: true })
+        .filter((entry) => entry.isDirectory())
+        .map((entry) => [`news-${entry.name}`, resolve(__dirname, "news", entry.name, "index.html")])
+    )
+  : {};
 
 export default defineConfig({
   build: {
@@ -13,7 +22,8 @@ export default defineConfig({
         joueursPsg: resolve(__dirname, "joueurs-psg/index.html"),
         sourcesPsg: resolve(__dirname, "sources-psg/index.html"),
         histoirePsg: resolve(__dirname, "histoire-psg/index.html"),
-        droitsDisclaimer: resolve(__dirname, "droits-disclaimer/index.html")
+        droitsDisclaimer: resolve(__dirname, "droits-disclaimer/index.html"),
+        ...newsEntries
       }
     }
   }
