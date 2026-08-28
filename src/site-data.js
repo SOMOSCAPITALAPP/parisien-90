@@ -158,16 +158,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-27T12:00:00+02:00",
-  edition: "Édition PSG du 27 août 2026",
-  displayDate: "27 août 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-08-28T18:11:00+02:00",
+  edition: "Édition PSG du 28 août 2026",
+  displayDate: "28 août 2026",
+  displayTime: "18h11",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-08-28", "28 août 2026", [
+  { id: "lfp-amende-psg-inversion-retour-rennes-aout-2026", time: "18:11", category: "Calendrier", title: "PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc", summary: "La Commission des compétitions de la LFP a infligé au PSG une amende de 150 000 € après l'inversion de la première journée, liée aux obligations de praticabilité du terrain et de stade de repli. Elle confirme aussi l'inversion du retour : la 23e journée se jouera bien au Parc des Princes, où le PSG recevra Rennes.", source: "LFP", url: "https://www.lfp.fr/article/decisions-de-la-commission-des-competitions-du-28-aout-2026", reliability: "Officiel", viral: 86 },
+  ]),
   ...withNewsDate("2026-08-26", "26 août 2026", [
   { id: "eintracht-francfort-psg-feminin-nul-barrage-uwcl-aout-2026", time: "21:00", category: "Féminines", title: "Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux", summary: "Menées dès la 4e minute à Francfort, les Parisiennes ont égalisé trois minutes plus tard par Naomie Feller, sur un débordement de Merveille Kanjinga. Le PSG a ensuite résisté et jouera sa qualification pour la phase de ligue de la Ligue des champions à domicile, mardi 2 septembre à 18h30.", source: "PSG.fr", url: "https://www.psg.fr/content/paris-accroche-francfort-et-jouera-sa-qualification-a-domicile-cr-eintracht-francfort-paris-saint-germain-uefa-womens-champions-league-2026-2027", reliability: "Officiel", viral: 88 },
   ]),
