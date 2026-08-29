@@ -1,4 +1,5 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { allTimePsgPlayers, allTimePsgPlayersMeta } from "../src/all-time-psg-players.js";
 import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, staffProfiles } from "../src/site-data.js";
 
 const siteUrl = "https://parisien90.com";
@@ -30,6 +31,7 @@ const staticPages = [
   { path: "/contact-retrait/", changefreq: "monthly", priority: "0.5" },
   { path: "/sources-psg/", changefreq: "weekly", priority: "0.7" },
   { path: "/histoire-psg/", changefreq: "weekly", priority: "0.85" },
+  { path: "/anciens-joueurs-psg/", changefreq: "weekly", priority: "0.84" },
   { path: "/droits-disclaimer/", changefreq: "monthly", priority: "0.7" },
   { path: "/llms.txt", changefreq: "weekly", priority: "0.5" },
   { path: "/llms-full.txt", changefreq: "weekly", priority: "0.5" }
@@ -86,6 +88,13 @@ const legendUrl = (profile) => `${siteUrl}${legendPath(profile)}`;
 const staffPath = (profile) => `/staff-psg/${slugify(profile.id)}/`;
 const staffUrl = (profile) => `${siteUrl}${staffPath(profile)}`;
 const assetUrl = (path) => new URL(path, siteUrl).href;
+const normalizeKey = (value) =>
+  String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
 
 const getTopicPath = (item) => {
   const category = String(item.category || "").toLowerCase();
@@ -495,6 +504,325 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
     </footer>
     <script type="module" src="/src/site.js"></script>
   </body>
+  </html>
+`;
+};
+
+const getProfilePositionGroup = (profile) => {
+  const value = `${profile.position || ""} ${profile.role || ""} ${profile.line || ""}`.toLowerCase();
+  if (value.includes("gardien")) return "Gardien";
+  if (value.includes("défenseur") || value.includes("defenseur") || value.includes("latéral") || value.includes("central")) return "Défenseur";
+  if (value.includes("milieu")) return "Milieu";
+  if (value.includes("attaquant") || value.includes("ailier") || value.includes("avant-centre")) return "Attaquant";
+  return "Joueur de champ";
+};
+
+const editorialCountryByName = new Map(
+  [
+    ["Achraf Hakimi", "Maroc"],
+    ["Alain Roche", "France"],
+    ["Alex", "Brésil"],
+    ["Alphonse Areola", "France"],
+    ["Ángel Di María", "Argentine"],
+    ["Bernard Lama", "France"],
+    ["Blaise Matuidi", "France"],
+    ["Carlos Bianchi", "Argentine"],
+    ["Christopher Nkunku", "France"],
+    ["Claude Makélélé", "France"],
+    ["Dani Alves", "Brésil"],
+    ["Daniel Bravo", "France"],
+    ["David Beckham", "Angleterre"],
+    ["David Ginola", "France"],
+    ["David Luiz", "Brésil"],
+    ["Dominique Baratelli", "France"],
+    ["Dominique Bathenay", "France"],
+    ["Dominique Rocheteau", "France"],
+    ["Edinson Cavani", "Uruguay"],
+    ["Ezequiel Lavezzi", "Argentine"],
+    ["George Weah", "Liberia"],
+    ["Gianluigi Buffon", "Italie"],
+    ["Gianluigi Donnarumma", "Italie"],
+    ["Guillaume Hoarau", "France"],
+    ["Hatem Ben Arfa", "France"],
+    ["Javier Pastore", "Argentine"],
+    ["Jean-Marc Pilorget", "France"],
+    ["Jérémy Ménez", "France"],
+    ["Jérôme Rothen", "France"],
+    ["Joël Bats", "France"],
+    ["Jay-Jay Okocha", "Nigeria"],
+    ["Kevin Gameiro", "France"],
+    ["Keylor Navas", "Costa Rica"],
+    ["Kingsley Coman", "France"],
+    ["Kylian Mbappé", "France"],
+    ["Laurent Fournier", "France"],
+    ["Leandro Paredes", "Argentine"],
+    ["Leonardo", "Brésil"],
+    ["Lionel Messi", "Argentine"],
+    ["Luis Fernandez", "France"],
+    ["Lucas Moura", "Brésil"],
+    ["Marco Verratti", "Italie"],
+    ["Marquinhos", "Brésil"],
+    ["Mamadou Sakho", "France"],
+    ["Mauro Icardi", "Argentine"],
+    ["Maxwell", "Brésil"],
+    ["Mikel Arteta", "Espagne"],
+    ["Mustapha Dahleb", "Algérie"],
+    ["Nenê", "Brésil"],
+    ["Neymar", "Brésil"],
+    ["Nicolas Anelka", "France"],
+    ["Osvaldo Ardiles", "Argentine"],
+    ["Ousmane Dembélé", "France"],
+    ["Pauleta", "Portugal"],
+    ["Paul Le Guen", "France"],
+    ["Presnel Kimpembe", "France"],
+    ["Raí", "Brésil"],
+    ["Ronaldinho Gaúcho", "Brésil"],
+    ["Safet Susic", "Bosnie-Herzégovine"],
+    ["Salvatore Sirigu", "Italie"],
+    ["Sergio Ramos", "Espagne"],
+    ["Sylvain Armand", "France"],
+    ["Thiago Motta", "Italie"],
+    ["Thiago Silva", "Brésil"],
+    ["Valdo", "Brésil"],
+    ["Vincent Guérin", "France"],
+    ["Vitinha", "Portugal"],
+    ["Warren Zaïre-Emery", "France"],
+    ["Youri Djorkaeff", "France"],
+    ["Zlatan Ibrahimovic", "Suède"],
+    ["Zoumana Camara", "France"]
+  ].map(([name, country]) => [normalizeKey(name), country])
+);
+
+const buildAllTimePlayerIndex = (profilePages) => {
+  const rows = [];
+  const byKey = new Map();
+
+  const addRow = (row) => {
+    const key = normalizeKey(row.name);
+    if (!key || byKey.has(key)) return;
+    byKey.set(key, rows.length);
+    rows.push(row);
+  };
+
+  allTimePsgPlayers.forEach((player) => {
+    addRow({
+      ...player,
+      profilePath: null,
+      profileUrl: null,
+      profileType: null,
+      sourceName: allTimePsgPlayersMeta.sourceName
+    });
+  });
+
+  profilePages
+    .filter((page) => page.type === "legend" || page.type === "player")
+    .forEach((page) => {
+      const profile = page.profile;
+      const keys = [profile.name, ...(profile.aliases || [])].map(normalizeKey).filter(Boolean);
+      const existingIndex = keys.map((key) => byKey.get(key)).find((index) => Number.isInteger(index));
+      const existing = Number.isInteger(existingIndex) ? rows[existingIndex] : null;
+      const editorialCountry = keys.map((key) => editorialCountryByName.get(key)).find(Boolean);
+      const merged = {
+        id: slugify(profile.id),
+        name: profile.name,
+        period: profile.psgPeriod || profile.status || "Période à vérifier",
+        positionGroup: getProfilePositionGroup(profile),
+        countries: profile.countries || editorialCountry || existing?.countries || "Pays à vérifier",
+        source: profile.source || "Synthèse éditoriale Parisien 90",
+        sourceName: profile.source || "Parisien 90",
+        profilePath: page.path,
+        profileUrl: page.url,
+        profileType: page.type
+      };
+
+      if (Number.isInteger(existingIndex)) {
+        rows[existingIndex] = { ...rows[existingIndex], ...merged, source: rows[existingIndex].source };
+        keys.forEach((key) => byKey.set(key, existingIndex));
+        return;
+      }
+
+      addRow(merged);
+      const newIndex = rows.length - 1;
+      keys.forEach((key) => byKey.set(key, newIndex));
+    });
+
+  return rows.sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
+};
+
+const makeAllTimePlayersPage = (players) => {
+  const profiledCount = players.filter((player) => player.profilePath).length;
+  const positions = ["Tous", "Gardien", "Défenseur", "Milieu", "Attaquant", "Joueur de champ", "Poste à vérifier"];
+  const rows = players
+    .map((player) => {
+      const sourceLink = String(player.source || "").startsWith("http")
+        ? `<a href="${escapeHTML(player.source)}" rel="noopener noreferrer">Wikidata</a>`
+        : escapeHTML(player.sourceName || player.source || "Parisien 90");
+      const profileLink = player.profilePath
+        ? `<a class="table-action" href="${escapeHTML(player.profilePath)}">Fiche longue</a>`
+        : sourceLink;
+      const searchText = `${player.name} ${player.period} ${player.positionGroup} ${player.countries}`.toLowerCase();
+
+      return `<tr data-all-time-row data-position="${escapeHTML(player.positionGroup)}" data-profile="${player.profilePath ? "yes" : "no"}" data-search="${escapeHTML(searchText)}">
+                  <td><strong>${escapeHTML(player.name)}</strong></td>
+                  <td>${escapeHTML(player.period)}</td>
+                  <td>${escapeHTML(player.positionGroup)}</td>
+                  <td>${escapeHTML(player.countries)}</td>
+                  <td>${profileLink}</td>
+                </tr>`;
+    })
+    .join("\n");
+  const itemList = players.slice(0, 300).map((player, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    item: {
+      "@type": "Person",
+      name: player.name,
+      url: player.profileUrl || player.source || `${siteUrl}/anciens-joueurs-psg/`
+    }
+  }));
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${siteUrl}/anciens-joueurs-psg/#collection`,
+        url: `${siteUrl}/anciens-joueurs-psg/`,
+        name: "Anciens joueurs PSG : liste complète A-Z",
+        description: "Index ouvert et enrichi des joueurs passés par le Paris Saint-Germain, avec fiches longues pour les grands noms.",
+        inLanguage: "fr-FR",
+        dateModified: newsMeta.updatedAt,
+        about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+        publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${siteUrl}/anciens-joueurs-psg/#liste-joueurs`,
+        name: "Liste des joueurs passés par le PSG",
+        numberOfItems: players.length,
+        itemListElement: itemList
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${siteUrl}/anciens-joueurs-psg/#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: `${siteUrl}/` },
+          { "@type": "ListItem", position: 2, name: "Histoire PSG", item: `${siteUrl}/histoire-psg/` },
+          { "@type": "ListItem", position: 3, name: "Anciens joueurs PSG", item: `${siteUrl}/anciens-joueurs-psg/` }
+        ]
+      }
+    ]
+  };
+
+  return `<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anciens joueurs PSG : liste complète, Messi, Neymar, Mbappé | Parisien 90</title>
+    <meta name="description" content="Liste complète des anciens joueurs PSG et grands noms passés par Paris : Messi, Neymar, Mbappé, Ronaldinho, Zlatan, Beckham, Raí, Pauleta et toutes les fiches disponibles." />
+    <link rel="canonical" href="${siteUrl}/anciens-joueurs-psg/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
+    <meta name="theme-color" content="#071426" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Anciens joueurs PSG : liste complète A-Z | Parisien 90" />
+    <meta property="og:description" content="Index ouvert des joueurs passés par le PSG, enrichi avec des fiches longues et des repères historiques." />
+    <meta property="og:url" content="${siteUrl}/anciens-joueurs-psg/" />
+    <meta property="og:image" content="${heroImage}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="${heroImage}" />
+    <script type="application/ld+json">${safeJson(jsonLd)}</script>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Parisien 90">
+        <span class="brand-mark">P90</span>
+        <span><strong>Parisien 90</strong><small>PSG live desk</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="/transfert-psg/">Transfert PSG</a>
+        <a href="/mercato-psg/">Mercato PSG</a>
+        <a href="/actualite-psg/">Actualité PSG</a>
+        <a href="/calendrier-psg/">Calendrier</a>
+        <a href="/joueurs-psg/">Joueurs</a>
+        <a href="/histoire-psg/" aria-current="page">Histoire</a>
+        <a href="/sources-psg/">Sources</a>
+      </nav>
+    </header>
+    <main>
+      <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/">Accueil</a><span>/</span><a href="/histoire-psg/">Histoire PSG</a><span>/</span><span>Anciens joueurs PSG</span></nav>
+      <section class="content-section all-time-index-page">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Mémoire PSG</span>
+            <h1>Anciens joueurs PSG : la liste complète A-Z</h1>
+          </div>
+          <span class="freshness">${escapeHTML(players.length)} entrées</span>
+        </div>
+        <p>
+          La base Parisien 90 combine les fiches longues éditoriales et une extraction ouverte Wikidata sous licence CC0.
+          Elle couvre les recherches Messi PSG, Neymar PSG, Mbappé PSG, Ronaldinho PSG, Zlatan PSG, Beckham PSG et les noms moins visibles qui font l'épaisseur historique du club.
+        </p>
+        <div class="metric-strip all-time-metrics">
+          <article><strong>${escapeHTML(players.length)}</strong><span>joueurs indexés</span></article>
+          <article><strong>${escapeHTML(profiledCount)}</strong><span>fiches longues liées</span></article>
+          <article><strong>CC0</strong><span>base ouverte Wikidata</span></article>
+        </div>
+        <div class="interactive-toolbar all-time-toolbar">
+          <label class="control-field">Recherche
+            <input type="search" placeholder="Messi, Neymar, Mbappé, Rai..." data-all-time-search />
+          </label>
+          <label class="control-field">Poste
+            <select data-all-time-position>
+              ${positions.map((position) => `<option value="${escapeHTML(position)}">${escapeHTML(position)}</option>`).join("")}
+            </select>
+          </label>
+          <label class="control-field">Fiches
+            <select data-all-time-profile>
+              <option value="all">Tous</option>
+              <option value="yes">Avec fiche longue</option>
+              <option value="no">À enrichir</option>
+            </select>
+          </label>
+          <span class="freshness" data-all-time-count>${escapeHTML(players.length)} joueurs affichés</span>
+        </div>
+        <div class="table-scroll all-time-table-wrap">
+          <table class="all-time-table" data-all-time-table>
+            <caption>Index Parisien 90 des joueurs passés par le PSG</caption>
+            <thead>
+              <tr>
+                <th>Joueur</th>
+                <th>Période PSG</th>
+                <th>Poste</th>
+                <th>Pays</th>
+                <th>Source / fiche</th>
+              </tr>
+            </thead>
+            <tbody>
+${rows}
+            </tbody>
+          </table>
+        </div>
+        <p class="source-note">
+          Source ouverte : <a href="${escapeHTML(allTimePsgPlayersMeta.sourceUrl)}" rel="noopener noreferrer">${escapeHTML(allTimePsgPlayersMeta.sourceName)}</a>, licence ${escapeHTML(allTimePsgPlayersMeta.sourceLicense)}.
+          Les périodes et statuts sont consolidés progressivement avec PSG.fr, HistoireduPSG et les archives publiques ; les fiches longues sont des synthèses originales Parisien 90.
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>Parisien 90 est un média indépendant consacré au PSG. Aucun lien officiel avec le Paris Saint-Germain.</p>
+      <nav>
+        <a href="/mentions-legales/">Mentions légales</a>
+        <a href="/confidentialite/">Confidentialité</a>
+        <a href="/cookies/">Cookies</a>
+        <a href="/contact-retrait/">Contact / retrait</a>
+        <a href="/droits-disclaimer/">Droits & disclaimer</a>
+      </nav>
+    </footer>
+    <script type="module" src="/src/site.js"></script>
+  </body>
 </html>
 `;
 };
@@ -564,6 +892,7 @@ const profilePages = [
     parentName: "Histoire PSG"
   }))
 ];
+const allTimePlayerIndex = buildAllTimePlayerIndex(profilePages);
 
 await Promise.all(
   profilePages.map(async (page) => {
@@ -573,6 +902,7 @@ await Promise.all(
     await writeFile(new URL("index.html", profileDir), makeProfilePage(page), "utf8");
   })
 );
+await writeFile(new URL("index.html", legendsDir), makeAllTimePlayersPage(allTimePlayerIndex), "utf8");
 
 const rssItems = publishedNewsFeed.slice(0, 24).map((item) => {
   const internalUrl = itemUrl(item);
@@ -634,6 +964,25 @@ aiIndex.people = profilePages.slice(0, 80).map((page) => ({
       }
     : null
 }));
+aiIndex.allTimePsgPlayers = {
+  count: allTimePlayerIndex.length,
+  sourceName: allTimePsgPlayersMeta.sourceName,
+  sourceLicense: allTimePsgPlayersMeta.sourceLicense,
+  sourceUrl: allTimePsgPlayersMeta.sourceUrl,
+  url: `${siteUrl}/anciens-joueurs-psg/`,
+  keyQueries: [
+    "anciens joueurs PSG",
+    "liste joueurs PSG",
+    "Messi PSG",
+    "Neymar PSG",
+    "Mbappé PSG",
+    "Ronaldinho PSG"
+  ],
+  featuredNames: allTimePlayerIndex.filter((player) => player.profilePath).slice(0, 80).map((player) => ({
+    name: player.name,
+    url: player.profileUrl
+  }))
+};
 await writeFile(aiIndexPath, `${JSON.stringify(aiIndex, null, 2)}\n`, "utf8");
 
 const freshnessLine = `Repère éditorial : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;

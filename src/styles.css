@@ -2105,6 +2105,118 @@ main {
   line-height: 1.45;
 }
 
+.all-time-index-page h1 {
+  max-width: 920px;
+  margin: 0;
+  font-size: clamp(34px, 5vw, 64px);
+  line-height: 0.98;
+}
+
+.all-time-metrics {
+  margin: 18px 0;
+}
+
+.metric-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.metric-strip article {
+  min-height: 86px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.metric-strip strong {
+  display: block;
+  color: var(--ink);
+  font-size: 32px;
+  line-height: 1;
+}
+
+.metric-strip span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.all-time-toolbar {
+  grid-template-columns: minmax(260px, 1.5fr) minmax(150px, 0.8fr) minmax(150px, 0.8fr) auto;
+  align-items: end;
+}
+
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.all-time-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.all-time-table caption {
+  padding: 14px 16px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.all-time-table th,
+.all-time-table td {
+  padding: 12px 14px;
+  border-top: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.all-time-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.all-time-table tr[hidden] {
+  display: none;
+}
+
+.table-action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  color: var(--blue);
+  font-weight: 950;
+}
+
+.source-note {
+  max-width: 920px;
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.55;
+}
+
+.source-note a {
+  color: var(--blue);
+}
+
 .modal-open {
   overflow: hidden;
 }
@@ -2548,6 +2660,7 @@ span.squad-player {
   }
 
   .signal-strip,
+  .metric-strip,
   .transfer-grid,
   .story-grid,
   .side-column,

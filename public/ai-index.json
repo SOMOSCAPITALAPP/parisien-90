@@ -1124,118 +1124,649 @@
       "image": null
     },
     {
-      "name": "Javier Pastore",
+      "name": "Jean-Marc Pilorget",
       "aliases": [
-        "Pastore PSG",
-        "El Flaco PSG"
+        "Pilorget PSG",
+        "Jean-Marc Pilorget Paris"
       ],
       "type": "legend",
-      "role": "Meneur offensif",
+      "role": "Défenseur",
       "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/javier-pastore/",
+      "url": "https://parisien90.com/anciens-joueurs-psg/jean-marc-pilorget/",
       "updatedAt": "29 août 2026",
-      "source": "PSG.fr / archives publiques",
+      "source": "PSG.fr / HistoireduPSG",
       "image": null
     },
     {
-      "name": "David Ginola",
+      "name": "Sylvain Armand",
       "aliases": [
-        "Ginola PSG",
-        "David Ginola Paris"
+        "Armand PSG",
+        "Sylvain Armand Paris"
       ],
       "type": "legend",
-      "role": "Ailier gauche",
+      "role": "Défenseur",
       "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/david-ginola/",
+      "url": "https://parisien90.com/anciens-joueurs-psg/sylvain-armand/",
       "updatedAt": "29 août 2026",
-      "source": "PSG.fr / archives publiques",
+      "source": "HistoireduPSG / archives publiques",
       "image": null
     },
     {
-      "name": "Dominique Rocheteau",
+      "name": "Paul Le Guen",
       "aliases": [
-        "Rocheteau PSG",
-        "Ange Vert PSG"
-      ],
-      "type": "legend",
-      "role": "Attaquant",
-      "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/dominique-rocheteau/",
-      "updatedAt": "29 août 2026",
-      "source": "PSG.fr / archives publiques",
-      "image": null
-    },
-    {
-      "name": "Carlos Bianchi",
-      "aliases": [
-        "Bianchi PSG",
-        "Carlos Bianchi Paris"
-      ],
-      "type": "legend",
-      "role": "Avant-centre",
-      "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/carlos-bianchi/",
-      "updatedAt": "29 août 2026",
-      "source": "PSG.fr / archives publiques",
-      "image": null
-    },
-    {
-      "name": "Osvaldo Ardiles",
-      "aliases": [
-        "Ardiles PSG",
-        "Ossie Ardiles Paris"
+        "Le Guen PSG",
+        "Paul Le Guen Paris"
       ],
       "type": "legend",
       "role": "Milieu",
       "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/osvaldo-ardiles/",
+      "url": "https://parisien90.com/anciens-joueurs-psg/paul-le-guen/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / HistoireduPSG",
+      "image": null
+    },
+    {
+      "name": "Blaise Matuidi",
+      "aliases": [
+        "Matuidi PSG",
+        "Blaise Matuidi Paris"
+      ],
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/blaise-matuidi/",
       "updatedAt": "29 août 2026",
       "source": "PSG.fr / archives publiques",
       "image": null
     },
     {
-      "name": "Ousmane Dembélé",
-      "aliases": [],
+      "name": "Joël Bats",
+      "aliases": [
+        "Bats PSG",
+        "Joël Bats Paris"
+      ],
+      "type": "legend",
+      "role": "Gardien",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/joel-bats/",
+      "updatedAt": "29 août 2026",
+      "source": "HistoireduPSG / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Dominique Baratelli",
+      "aliases": [
+        "Baratelli PSG",
+        "Dominique Baratelli Paris"
+      ],
+      "type": "legend",
+      "role": "Gardien",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/dominique-baratelli/",
+      "updatedAt": "29 août 2026",
+      "source": "HistoireduPSG / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Dominique Bathenay",
+      "aliases": [
+        "Bathenay PSG",
+        "Dominique Bathenay Paris"
+      ],
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/dominique-bathenay/",
+      "updatedAt": "29 août 2026",
+      "source": "HistoireduPSG / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Daniel Bravo",
+      "aliases": [
+        "Bravo PSG",
+        "Daniel Bravo Paris"
+      ],
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/daniel-bravo/",
+      "updatedAt": "29 août 2026",
+      "source": "HistoireduPSG / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Vincent Guérin",
+      "aliases": [
+        "Guérin PSG",
+        "Vincent Guérin Paris"
+      ],
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/vincent-guerin/",
+      "updatedAt": "29 août 2026",
+      "source": "HistoireduPSG / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Laurent Fournier",
+      "aliases": [
+        "Fournier PSG",
+        "Laurent Fournier Paris"
+      ],
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/laurent-fournier/",
+      "updatedAt": "29 août 2026",
+      "source": "HistoireduPSG / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Alain Roche",
+      "aliases": [
+        "Roche PSG",
+        "Alain Roche Paris"
+      ],
+      "type": "legend",
+      "role": "Défenseur central",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/alain-roche/",
+      "updatedAt": "29 août 2026",
+      "source": "HistoireduPSG / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Presnel Kimpembe",
+      "aliases": [
+        "Kimpembe PSG",
+        "Presko PSG"
+      ],
+      "type": "legend",
+      "role": "Défenseur central",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/presnel-kimpembe/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Thiago Motta",
+      "aliases": [
+        "Motta PSG",
+        "Thiago Motta Paris"
+      ],
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/thiago-motta/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Lucas Moura",
+      "aliases": [
+        "Lucas Moura PSG",
+        "Lucas PSG"
+      ],
       "type": "legend",
       "role": "Ailier",
       "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/ousmane-dembele/",
-      "updatedAt": "15 juillet 2026",
-      "source": "Synthèse éditoriale Parisien 90",
+      "url": "https://parisien90.com/anciens-joueurs-psg/lucas-moura/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
       "image": null
     },
     {
-      "name": "Vitinha",
-      "aliases": [],
-      "type": "legend",
-      "role": "Milieu organisateur",
-      "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/vitinha/",
-      "updatedAt": "15 juillet 2026",
-      "source": "Synthèse éditoriale Parisien 90",
-      "image": null
-    },
-    {
-      "name": "Achraf Hakimi",
-      "aliases": [],
-      "type": "legend",
-      "role": "Latéral droit",
-      "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/achraf-hakimi/",
-      "updatedAt": "15 juillet 2026",
-      "source": "Synthèse éditoriale Parisien 90",
-      "image": null
-    },
-    {
-      "name": "Warren Zaïre-Emery",
-      "aliases": [],
+      "name": "Adrien Rabiot",
+      "aliases": [
+        "Rabiot PSG",
+        "Adrien Rabiot Paris"
+      ],
       "type": "legend",
       "role": "Milieu",
       "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/warren-zaire-emery/",
-      "updatedAt": "15 juillet 2026",
-      "source": "Synthèse éditoriale Parisien 90",
+      "url": "https://parisien90.com/anciens-joueurs-psg/adrien-rabiot/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Zoumana Camara",
+      "aliases": [
+        "Camara PSG",
+        "Papus Camara PSG"
+      ],
+      "type": "legend",
+      "role": "Défenseur central",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/zoumana-camara/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Maxwell",
+      "aliases": [
+        "Maxwell PSG",
+        "Maxwell Scherrer Paris"
+      ],
+      "type": "legend",
+      "role": "Latéral gauche",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/maxwell/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Mamadou Sakho",
+      "aliases": [
+        "Sakho PSG",
+        "Mamadou Sakho Paris"
+      ],
+      "type": "legend",
+      "role": "Défenseur central",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/mamadou-sakho/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Julian Draxler",
+      "aliases": [
+        "Draxler PSG",
+        "Julian Draxler Paris"
+      ],
+      "type": "legend",
+      "role": "Milieu offensif",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/julian-draxler/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Salvatore Sirigu",
+      "aliases": [
+        "Sirigu PSG",
+        "Salvatore Sirigu Paris"
+      ],
+      "type": "legend",
+      "role": "Gardien",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/salvatore-sirigu/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Keylor Navas",
+      "aliases": [
+        "Navas PSG",
+        "Keylor Navas Paris"
+      ],
+      "type": "legend",
+      "role": "Gardien",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/keylor-navas/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
+    },
+    {
+      "name": "Gianluigi Donnarumma",
+      "aliases": [
+        "Donnarumma PSG",
+        "Gigio PSG"
+      ],
+      "type": "legend",
+      "role": "Gardien",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/gianluigi-donnarumma/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
       "image": null
     }
-  ]
+  ],
+  "allTimePsgPlayers": {
+    "count": 576,
+    "sourceName": "Wikidata Query Service",
+    "sourceLicense": "CC0",
+    "sourceUrl": "https://query.wikidata.org/",
+    "url": "https://parisien90.com/anciens-joueurs-psg/",
+    "keyQueries": [
+      "anciens joueurs PSG",
+      "liste joueurs PSG",
+      "Messi PSG",
+      "Neymar PSG",
+      "Mbappé PSG",
+      "Ronaldinho PSG"
+    ],
+    "featuredNames": [
+      {
+        "name": "Achraf Hakimi",
+        "url": "https://parisien90.com/anciens-joueurs-psg/achraf-hakimi/"
+      },
+      {
+        "name": "Adrien Rabiot",
+        "url": "https://parisien90.com/anciens-joueurs-psg/adrien-rabiot/"
+      },
+      {
+        "name": "Alain Roche",
+        "url": "https://parisien90.com/anciens-joueurs-psg/alain-roche/"
+      },
+      {
+        "name": "Alessandro Longoni",
+        "url": "https://parisien90.com/joueurs-psg/alessandro-longoni/"
+      },
+      {
+        "name": "Alex",
+        "url": "https://parisien90.com/anciens-joueurs-psg/alex/"
+      },
+      {
+        "name": "Alphonse Areola",
+        "url": "https://parisien90.com/anciens-joueurs-psg/alphonse-areola/"
+      },
+      {
+        "name": "Ángel Di María",
+        "url": "https://parisien90.com/anciens-joueurs-psg/angel-di-maria/"
+      },
+      {
+        "name": "Bernard Lama",
+        "url": "https://parisien90.com/anciens-joueurs-psg/bernard-lama/"
+      },
+      {
+        "name": "Blaise Matuidi",
+        "url": "https://parisien90.com/anciens-joueurs-psg/blaise-matuidi/"
+      },
+      {
+        "name": "Bradley Barcola",
+        "url": "https://parisien90.com/joueurs-psg/bradley-barcola/"
+      },
+      {
+        "name": "Carlos Bianchi",
+        "url": "https://parisien90.com/anciens-joueurs-psg/carlos-bianchi/"
+      },
+      {
+        "name": "Christopher Nkunku",
+        "url": "https://parisien90.com/anciens-joueurs-psg/christopher-nkunku/"
+      },
+      {
+        "name": "Claude Makélélé",
+        "url": "https://parisien90.com/anciens-joueurs-psg/claude-makelele/"
+      },
+      {
+        "name": "Dani Alves",
+        "url": "https://parisien90.com/anciens-joueurs-psg/dani-alves/"
+      },
+      {
+        "name": "Daniel Bravo",
+        "url": "https://parisien90.com/anciens-joueurs-psg/daniel-bravo/"
+      },
+      {
+        "name": "David Beckham",
+        "url": "https://parisien90.com/anciens-joueurs-psg/david-beckham/"
+      },
+      {
+        "name": "David Ginola",
+        "url": "https://parisien90.com/anciens-joueurs-psg/david-ginola/"
+      },
+      {
+        "name": "David Luiz",
+        "url": "https://parisien90.com/anciens-joueurs-psg/david-luiz/"
+      },
+      {
+        "name": "Désiré Doué",
+        "url": "https://parisien90.com/joueurs-psg/desire-doue/"
+      },
+      {
+        "name": "Dominique Baratelli",
+        "url": "https://parisien90.com/anciens-joueurs-psg/dominique-baratelli/"
+      },
+      {
+        "name": "Dominique Bathenay",
+        "url": "https://parisien90.com/anciens-joueurs-psg/dominique-bathenay/"
+      },
+      {
+        "name": "Dominique Rocheteau",
+        "url": "https://parisien90.com/anciens-joueurs-psg/dominique-rocheteau/"
+      },
+      {
+        "name": "Dro Fernández",
+        "url": "https://parisien90.com/joueurs-psg/dro-fernandez/"
+      },
+      {
+        "name": "Edinson Cavani",
+        "url": "https://parisien90.com/anciens-joueurs-psg/edinson-cavani/"
+      },
+      {
+        "name": "Ezequiel Lavezzi",
+        "url": "https://parisien90.com/anciens-joueurs-psg/ezequiel-lavezzi/"
+      },
+      {
+        "name": "Fabián Ruiz",
+        "url": "https://parisien90.com/joueurs-psg/fabian-ruiz/"
+      },
+      {
+        "name": "Ferran Torres",
+        "url": "https://parisien90.com/joueurs-psg/ferran-torres/"
+      },
+      {
+        "name": "George Weah",
+        "url": "https://parisien90.com/anciens-joueurs-psg/george-weah/"
+      },
+      {
+        "name": "Gianluigi Buffon",
+        "url": "https://parisien90.com/anciens-joueurs-psg/gianluigi-buffon/"
+      },
+      {
+        "name": "Gianluigi Donnarumma",
+        "url": "https://parisien90.com/anciens-joueurs-psg/gianluigi-donnarumma/"
+      },
+      {
+        "name": "Guillaume Hoarau",
+        "url": "https://parisien90.com/anciens-joueurs-psg/guillaume-hoarau/"
+      },
+      {
+        "name": "Hatem Ben Arfa",
+        "url": "https://parisien90.com/anciens-joueurs-psg/hatem-ben-arfa/"
+      },
+      {
+        "name": "Ibrahim Mbaye",
+        "url": "https://parisien90.com/joueurs-psg/ibrahim-mbaye/"
+      },
+      {
+        "name": "Illia Zabarnyi",
+        "url": "https://parisien90.com/joueurs-psg/illia-zabarnyi/"
+      },
+      {
+        "name": "Javier Pastore",
+        "url": "https://parisien90.com/anciens-joueurs-psg/javier-pastore/"
+      },
+      {
+        "name": "Jay-Jay Okocha",
+        "url": "https://parisien90.com/anciens-joueurs-psg/jay-jay-okocha/"
+      },
+      {
+        "name": "Jean-Marc Pilorget",
+        "url": "https://parisien90.com/anciens-joueurs-psg/jean-marc-pilorget/"
+      },
+      {
+        "name": "Jérémy Ménez",
+        "url": "https://parisien90.com/anciens-joueurs-psg/jeremy-menez/"
+      },
+      {
+        "name": "Jérôme Rothen",
+        "url": "https://parisien90.com/anciens-joueurs-psg/jerome-rothen/"
+      },
+      {
+        "name": "João Neves",
+        "url": "https://parisien90.com/joueurs-psg/joao-neves/"
+      },
+      {
+        "name": "Joël Bats",
+        "url": "https://parisien90.com/anciens-joueurs-psg/joel-bats/"
+      },
+      {
+        "name": "Julian Draxler",
+        "url": "https://parisien90.com/anciens-joueurs-psg/julian-draxler/"
+      },
+      {
+        "name": "Kevin Gameiro",
+        "url": "https://parisien90.com/anciens-joueurs-psg/kevin-gameiro/"
+      },
+      {
+        "name": "Keylor Navas",
+        "url": "https://parisien90.com/anciens-joueurs-psg/keylor-navas/"
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "url": "https://parisien90.com/joueurs-psg/khvicha-kvaratskhelia/"
+      },
+      {
+        "name": "Kingsley Coman",
+        "url": "https://parisien90.com/anciens-joueurs-psg/kingsley-coman/"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "url": "https://parisien90.com/anciens-joueurs-psg/kylian-mbappe/"
+      },
+      {
+        "name": "Laurent Fournier",
+        "url": "https://parisien90.com/anciens-joueurs-psg/laurent-fournier/"
+      },
+      {
+        "name": "Leandro Paredes",
+        "url": "https://parisien90.com/anciens-joueurs-psg/leandro-paredes/"
+      },
+      {
+        "name": "Leonardo",
+        "url": "https://parisien90.com/anciens-joueurs-psg/leonardo/"
+      },
+      {
+        "name": "Lionel Messi",
+        "url": "https://parisien90.com/anciens-joueurs-psg/lionel-messi/"
+      },
+      {
+        "name": "Lucas Beraldo",
+        "url": "https://parisien90.com/joueurs-psg/lucas-beraldo/"
+      },
+      {
+        "name": "Lucas Chevalier",
+        "url": "https://parisien90.com/joueurs-psg/lucas-chevalier/"
+      },
+      {
+        "name": "Lucas Digne",
+        "url": "https://parisien90.com/joueurs-psg/lucas-digne/"
+      },
+      {
+        "name": "Lucas Hernández",
+        "url": "https://parisien90.com/joueurs-psg/lucas-hernandez/"
+      },
+      {
+        "name": "Lucas Moura",
+        "url": "https://parisien90.com/anciens-joueurs-psg/lucas-moura/"
+      },
+      {
+        "name": "Luis Fernandez",
+        "url": "https://parisien90.com/anciens-joueurs-psg/luis-fernandez/"
+      },
+      {
+        "name": "Maghnes Akliouche",
+        "url": "https://parisien90.com/joueurs-psg/maghnes-akliouche/"
+      },
+      {
+        "name": "Mamadou Sakho",
+        "url": "https://parisien90.com/anciens-joueurs-psg/mamadou-sakho/"
+      },
+      {
+        "name": "Marco Verratti",
+        "url": "https://parisien90.com/anciens-joueurs-psg/marco-verratti/"
+      },
+      {
+        "name": "Marquinhos",
+        "url": "https://parisien90.com/anciens-joueurs-psg/marquinhos/"
+      },
+      {
+        "name": "Matvey Safonov",
+        "url": "https://parisien90.com/joueurs-psg/matvey-safonov/"
+      },
+      {
+        "name": "Mauro Icardi",
+        "url": "https://parisien90.com/anciens-joueurs-psg/mauro-icardi/"
+      },
+      {
+        "name": "Maxwell",
+        "url": "https://parisien90.com/anciens-joueurs-psg/maxwell/"
+      },
+      {
+        "name": "Mika Godts",
+        "url": "https://parisien90.com/joueurs-psg/mika-godts/"
+      },
+      {
+        "name": "Mikel Arteta",
+        "url": "https://parisien90.com/anciens-joueurs-psg/mikel-arteta/"
+      },
+      {
+        "name": "Mustapha Dahleb",
+        "url": "https://parisien90.com/anciens-joueurs-psg/mustapha-dahleb/"
+      },
+      {
+        "name": "Nenê",
+        "url": "https://parisien90.com/anciens-joueurs-psg/nene/"
+      },
+      {
+        "name": "Neymar",
+        "url": "https://parisien90.com/anciens-joueurs-psg/neymar/"
+      },
+      {
+        "name": "Nicolas Anelka",
+        "url": "https://parisien90.com/anciens-joueurs-psg/nicolas-anelka/"
+      },
+      {
+        "name": "Nuno Mendes",
+        "url": "https://parisien90.com/joueurs-psg/nuno-mendes/"
+      },
+      {
+        "name": "Osvaldo Ardiles",
+        "url": "https://parisien90.com/anciens-joueurs-psg/osvaldo-ardiles/"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "url": "https://parisien90.com/anciens-joueurs-psg/ousmane-dembele/"
+      },
+      {
+        "name": "Paul Le Guen",
+        "url": "https://parisien90.com/anciens-joueurs-psg/paul-le-guen/"
+      },
+      {
+        "name": "Pauleta",
+        "url": "https://parisien90.com/anciens-joueurs-psg/pauleta/"
+      },
+      {
+        "name": "Presnel Kimpembe",
+        "url": "https://parisien90.com/anciens-joueurs-psg/presnel-kimpembe/"
+      },
+      {
+        "name": "Quentin Ndjantou",
+        "url": "https://parisien90.com/joueurs-psg/quentin-ndjantou/"
+      },
+      {
+        "name": "Raí",
+        "url": "https://parisien90.com/anciens-joueurs-psg/rai/"
+      },
+      {
+        "name": "Ronaldinho Gaúcho",
+        "url": "https://parisien90.com/anciens-joueurs-psg/ronaldinho/"
+      },
+      {
+        "name": "Safet Susic",
+        "url": "https://parisien90.com/anciens-joueurs-psg/safet-susic/"
+      }
+    ]
+  }
 }

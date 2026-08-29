@@ -77,6 +77,38 @@ const setTextForSelector = (selector, value) => {
   });
 };
 
+const initAllTimePlayerIndex = () => {
+  const table = document.querySelector("[data-all-time-table]");
+  if (!table) return;
+
+  const rows = Array.from(table.querySelectorAll("[data-all-time-row]"));
+  const search = document.querySelector("[data-all-time-search]");
+  const position = document.querySelector("[data-all-time-position]");
+  const profile = document.querySelector("[data-all-time-profile]");
+  const count = document.querySelector("[data-all-time-count]");
+
+  const render = () => {
+    const term = search?.value.trim().toLowerCase() || "";
+    const positionValue = position?.value || "Tous";
+    const profileValue = profile?.value || "all";
+    let visible = 0;
+
+    rows.forEach((row) => {
+      const matchesSearch = !term || row.dataset.search?.includes(term);
+      const matchesPosition = positionValue === "Tous" || row.dataset.position === positionValue;
+      const matchesProfile = profileValue === "all" || row.dataset.profile === profileValue;
+      const shouldShow = matchesSearch && matchesPosition && matchesProfile;
+      row.hidden = !shouldShow;
+      if (shouldShow) visible += 1;
+    });
+
+    if (count) count.textContent = `${visible} joueur${visible > 1 ? "s" : ""} affiché${visible > 1 ? "s" : ""}`;
+  };
+
+  [search, position, profile].forEach((control) => control?.addEventListener("input", render));
+  render();
+};
+
 const initNewsFreshness = () => {
   const countLabel = `${activeNewsFeed.length} infos PSG`;
 
@@ -764,6 +796,7 @@ initLongNewsFeed();
 initPlayerProfileEnhancements();
 initLegendProfileChips();
 initSeasonExplorer();
+initAllTimePlayerIndex();
 initShareActions();
 focusHashTarget();
 
