@@ -23,6 +23,7 @@ const staticPages = [
   { path: "/mercato-psg/", changefreq: "hourly", priority: "0.95" },
   { path: "/actualite-psg/", changefreq: "hourly", priority: "0.9" },
   { path: "/viral-psg/", changefreq: "hourly", priority: "0.88" },
+  { path: "/videos-psg/", changefreq: "weekly", priority: "0.78" },
   { path: "/calendrier-psg/", changefreq: "daily", priority: "0.75" },
   { path: "/joueurs-psg/", changefreq: "daily", priority: "0.75" },
   { path: "/records-psg/", changefreq: "weekly", priority: "0.86" },
@@ -280,6 +281,7 @@ const makeArticlePage = (item) => {
         <a href="/mercato-psg/">Mercato PSG</a>
         <a href="/actualite-psg/">Actualité PSG</a>
         <a href="/viral-psg/">Viral</a>
+        <a href="/videos-psg/">Vidéos</a>
         <a href="/calendrier-psg/">Calendrier</a>
         <a href="/joueurs-psg/">Joueurs</a>
         <a href="/records-psg/">Records</a>
@@ -470,6 +472,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
         <a href="/mercato-psg/">Mercato PSG</a>
         <a href="/actualite-psg/">Actualité PSG</a>
         <a href="/viral-psg/">Viral</a>
+        <a href="/videos-psg/">Vidéos</a>
         <a href="/calendrier-psg/">Calendrier</a>
         <a href="/joueurs-psg/"${isPlayer || type === "staff" ? ' aria-current="page"' : ""}>Joueurs</a>
         <a href="/records-psg/">Records</a>
@@ -779,6 +782,7 @@ const makeAllTimePlayersPage = (players) => {
         <a href="/mercato-psg/">Mercato PSG</a>
         <a href="/actualite-psg/">Actualité PSG</a>
         <a href="/viral-psg/">Viral</a>
+        <a href="/videos-psg/">Vidéos</a>
         <a href="/calendrier-psg/">Calendrier</a>
         <a href="/joueurs-psg/">Joueurs</a>
         <a href="/records-psg/">Records</a>

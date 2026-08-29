@@ -1039,6 +1039,170 @@ main {
   font-weight: 800;
 }
 
+.video-hero {
+  background:
+    linear-gradient(90deg, rgba(9, 17, 31, 0.96), rgba(15, 35, 67, 0.72)),
+    url("/hero-stadium.png") center / cover no-repeat;
+}
+
+.video-policy {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(245, 249, 255, 0.96)),
+    linear-gradient(90deg, rgba(227, 27, 69, 0.07), rgba(17, 85, 204, 0.08));
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 18px;
+}
+
+.filter-pills button {
+  min-height: 38px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: #344054;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.filter-pills button:hover,
+.filter-pills button:focus-visible,
+.filter-pills button.is-active {
+  border-color: var(--blue);
+  background: #edf5ff;
+  color: var(--blue);
+  outline: none;
+}
+
+.video-channel-grid,
+.video-highlight-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.video-channel-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.video-highlight-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.video-channel-card,
+.video-highlight {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.video-channel-card[hidden] {
+  display: none;
+}
+
+.video-badge {
+  width: fit-content;
+  min-height: 28px;
+  padding: 5px 9px;
+  border-radius: 8px;
+  background: #eef5ff;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.video-channel-card h3,
+.video-highlight h3 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.14;
+}
+
+.video-channel-card p,
+.video-highlight p {
+  margin: 0;
+  color: #4c5868;
+  line-height: 1.55;
+}
+
+.video-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.video-card-links a,
+.video-highlight > a {
+  width: fit-content;
+  min-height: 36px;
+  padding: 8px 11px;
+  border-radius: 8px;
+  background: #eef2f7;
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.youtube-consent {
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  min-height: 280px;
+  padding: 24px;
+  border: 1px dashed rgba(17, 85, 204, 0.36);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(7, 20, 38, 0.96), rgba(17, 85, 204, 0.76)),
+    url("/hero-stadium.png") center / cover no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.youtube-consent strong {
+  font-size: 24px;
+  line-height: 1.12;
+}
+
+.youtube-consent p {
+  max-width: 520px;
+  color: #dbeafe;
+}
+
+.youtube-consent button {
+  min-height: 42px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--red);
+  color: #fff;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.youtube-consent iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+}
+
+.youtube-consent.is-loaded {
+  display: block;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
 .link-list {
   display: grid;
   gap: 10px;
@@ -2824,6 +2988,8 @@ span.squad-player {
 
   .method-list,
   .source-directory,
+  .video-channel-grid,
+  .video-highlight-grid,
   .hot-grid,
   .viral-grid,
   .viral-quick-grid,
@@ -2935,6 +3101,8 @@ span.squad-player {
   .topic-grid,
   .viral-grid,
   .viral-quick-grid,
+  .video-channel-grid,
+  .video-highlight-grid,
   .fixture-grid,
   .method-list,
   .source-directory,

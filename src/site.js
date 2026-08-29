@@ -47,6 +47,8 @@ const shareableSelector = [
   ".article-page",
   ".viral-card",
   ".viral-prompt",
+  ".video-channel-card",
+  ".video-highlight",
   "article.topic-card",
   ".timeline > article",
   ".legend-grid > article"
@@ -410,6 +412,52 @@ const initFanPulse = () => {
   });
 
   render();
+};
+
+const initVideoFilters = () => {
+  const controls = Array.from(document.querySelectorAll("[data-video-filter]"));
+  const cards = Array.from(document.querySelectorAll("[data-video-card]"));
+  if (!controls.length || !cards.length) return;
+
+  const render = (value) => {
+    controls.forEach((control) => control.classList.toggle("is-active", control.dataset.videoFilter === value));
+    cards.forEach((card) => {
+      const categories = String(card.dataset.videoCategory || "").split(/\s+/);
+      card.hidden = value !== "all" && !categories.includes(value);
+    });
+  };
+
+  controls.forEach((control) => {
+    control.addEventListener("click", () => {
+      const value = control.dataset.videoFilter || "all";
+      render(value);
+      trackInteraction("video_filter", { filter: value });
+    });
+  });
+};
+
+const initYoutubeEmbeds = () => {
+  document.querySelectorAll("[data-youtube-id]").forEach((placeholder) => {
+    const button = placeholder.querySelector("button");
+    if (!button) return;
+
+    button.addEventListener("click", () => {
+      const id = placeholder.dataset.youtubeId;
+      const title = placeholder.dataset.youtubeTitle || "Vidéo YouTube";
+      if (!id) return;
+
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?rel=0`;
+      iframe.title = title;
+      iframe.loading = "lazy";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      iframe.allowFullscreen = true;
+      placeholder.replaceChildren(iframe);
+      placeholder.classList.add("is-loaded");
+      trackInteraction("youtube_embed_load", { video_id: id, title });
+    });
+  });
 };
 
 const initShareActions = (root = document) => {
@@ -961,6 +1009,8 @@ initSeasonExplorer();
 initAllTimePlayerIndex();
 initViralToolkit();
 initFanPulse();
+initVideoFilters();
+initYoutubeEmbeds();
 initCopySnippets();
 initShareActions();
 focusHashTarget();

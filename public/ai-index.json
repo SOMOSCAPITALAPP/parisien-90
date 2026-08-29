@@ -17,6 +17,9 @@
       "viral PSG",
       "buzz PSG",
       "débat PSG",
+      "vidéos PSG",
+      "YouTube PSG",
+      "chaînes PSG",
       "calendrier PSG",
       "calendrier PSG 2026-2027",
       "joueurs PSG",
@@ -86,6 +89,19 @@
         "punchline PSG",
         "actualité PSG à partager",
         "mercato PSG débat"
+      ]
+    },
+    {
+      "url": "https://parisien90.com/videos-psg/",
+      "title": "Vidéos PSG : chaînes YouTube, débriefs et créateurs à suivre",
+      "intent": "Trouver les chaînes YouTube et formats vidéo utiles sur le PSG, avec contexte Parisien 90 et intégration respectueuse des droits",
+      "queries": [
+        "vidéos PSG",
+        "YouTube PSG",
+        "chaînes PSG",
+        "chaîne YouTube PSG",
+        "débrief PSG vidéo",
+        "créateurs PSG"
       ]
     },
     {

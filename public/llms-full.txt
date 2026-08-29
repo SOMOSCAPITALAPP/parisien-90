@@ -2,13 +2,13 @@
 
 ## Résumé
 
-Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "viral PSG", "buzz PSG", "débat PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG", "histoire PSG", "records PSG", "meilleur buteur PSG", "joueur le plus capé PSG", "Brésiliens PSG" et "Argentins PSG".
+Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "viral PSG", "buzz PSG", "débat PSG", "vidéos PSG", "YouTube PSG", "chaînes PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG", "histoire PSG", "records PSG", "meilleur buteur PSG", "joueur le plus capé PSG", "Brésiliens PSG" et "Argentins PSG".
 
 ## Repère éditorial — 28 août 2026, 23h00 (Europe/Paris)
 
 Fil PSG du 28 août 2026. Fil public : 84 vraies infos PSG, enrichies en pages individuelles crawlables sous /news/. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Lille-PSG : Paris revient de l'enfer en quatre minutes ; PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.
 
-Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et pages texte concises pour les systèmes de recherche et de réponse générative.
+Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics, page vidéos PSG/YouTube et pages texte concises pour les systèmes de recherche et de réponse générative.
 
 ## Entités principales
 
@@ -91,6 +91,20 @@ Intentions couvertes :
 - mercato PSG débat
 
 Contenu : kit social avec débat du jour, punchlines prêtes à poster, top contenus selon score viral interne, mini-sondage local et liens de partage traçables par UTM.
+
+### Vidéos PSG
+
+URL : https://parisien90.com/videos-psg/
+
+Intentions couvertes :
+- vidéos PSG
+- YouTube PSG
+- chaînes PSG
+- chaîne YouTube PSG
+- débrief PSG vidéo
+- créateurs PSG
+
+Contenu : sélection éditoriale de chaînes YouTube, créateurs, débriefs et formats vidéo PSG à suivre sans télécharger, recopier ou remplacer leurs contenus. Les vidéos éventuelles utilisent le lecteur YouTube officiel en mode confidentialité renforcée et ne sont chargées qu'après action utilisateur.
 
 ### Calendrier PSG
 
