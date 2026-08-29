@@ -24,6 +24,7 @@ export default defineConfig({
         transfertPsg: resolve(__dirname, "transfert-psg/index.html"),
         mercatoPsg: resolve(__dirname, "mercato-psg/index.html"),
         actualitePsg: resolve(__dirname, "actualite-psg/index.html"),
+        viralPsg: resolve(__dirname, "viral-psg/index.html"),
         calendrierPsg: resolve(__dirname, "calendrier-psg/index.html"),
         joueursPsg: resolve(__dirname, "joueurs-psg/index.html"),
         recordsPsg: resolve(__dirname, "records-psg/index.html"),

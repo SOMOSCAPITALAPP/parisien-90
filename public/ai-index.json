@@ -14,6 +14,9 @@
       "transfert PSG",
       "mercato PSG",
       "actualité PSG",
+      "viral PSG",
+      "buzz PSG",
+      "débat PSG",
       "calendrier PSG",
       "calendrier PSG 2026-2027",
       "joueurs PSG",
@@ -70,6 +73,19 @@
         "news PSG",
         "fil info PSG",
         "PSG aujourd'hui"
+      ]
+    },
+    {
+      "url": "https://parisien90.com/viral-psg/",
+      "title": "Viral PSG : débats, punchlines et contenus à partager",
+      "intent": "Trouver des angles PSG partageables sur les réseaux sociaux avec liens traçables et accroches prêtes à poster",
+      "queries": [
+        "viral PSG",
+        "buzz PSG",
+        "débat PSG",
+        "punchline PSG",
+        "actualité PSG à partager",
+        "mercato PSG débat"
       ]
     },
     {

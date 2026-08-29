@@ -2,7 +2,7 @@
 
 ## Résumé
 
-Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG", "histoire PSG", "records PSG", "meilleur buteur PSG", "joueur le plus capé PSG", "Brésiliens PSG" et "Argentins PSG".
+Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "viral PSG", "buzz PSG", "débat PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG", "histoire PSG", "records PSG", "meilleur buteur PSG", "joueur le plus capé PSG", "Brésiliens PSG" et "Argentins PSG".
 
 ## Repère éditorial — 28 août 2026, 23h00 (Europe/Paris)
 
@@ -77,6 +77,20 @@ Intentions couvertes :
 Contenu : informations club, décisions sportives, entraînements, déclarations, sélection et Europe.
 
 La page contient aussi un fil long chargé par lots : les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+
+### Viral PSG
+
+URL : https://parisien90.com/viral-psg/
+
+Intentions couvertes :
+- viral PSG
+- buzz PSG
+- débat PSG
+- punchline PSG
+- actualité PSG à partager
+- mercato PSG débat
+
+Contenu : kit social avec débat du jour, punchlines prêtes à poster, top contenus selon score viral interne, mini-sondage local et liens de partage traçables par UTM.
 
 ### Calendrier PSG
 

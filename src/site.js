@@ -1,4 +1,4 @@
-import { inject } from "@vercel/analytics";
+import { inject, track } from "@vercel/analytics";
 import { injectSpeedInsights } from "@vercel/speed-insights";
 import { calendarWatchSources, currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, seasonSquads } from "./site-data.js";
 
@@ -14,6 +14,7 @@ const activeNewsFeed = newsFeed.filter(isDisplayableNews);
 const params = new URLSearchParams(window.location.search);
 const query = params.get("q");
 const countryQuery = params.get("pays") || params.get("country");
+const shareCampaign = "parisien90_viral";
 
 if (query) {
   const marker = document.createElement("p");
@@ -44,6 +45,8 @@ const shareableSelector = [
   ".match-card",
   ".feed-item",
   ".article-page",
+  ".viral-card",
+  ".viral-prompt",
   "article.topic-card",
   ".timeline > article",
   ".legend-grid > article"
@@ -166,6 +169,11 @@ const getArticleTitle = (article) => {
   );
 };
 
+const getShareCaption = (article, title) =>
+  article.dataset.shareCaption ||
+  article.querySelector("[data-share-caption]")?.textContent?.trim() ||
+  title;
+
 const getShareUrl = (article, title, index) => {
   if (!article.id) {
     const baseId = slugify(title);
@@ -182,6 +190,23 @@ const getShareUrl = (article, title, index) => {
   }
 
   return new URL(article.dataset.shareUrl || `${window.location.pathname}#${article.id}`, window.location.origin).href;
+};
+
+const withShareTracking = (url, channel, title) => {
+  const tracked = new URL(url, window.location.origin);
+  tracked.searchParams.set("utm_source", channel);
+  tracked.searchParams.set("utm_medium", channel === "copy" ? "copy" : "social");
+  tracked.searchParams.set("utm_campaign", shareCampaign);
+  tracked.searchParams.set("utm_content", slugify(title).slice(0, 72));
+  return tracked.href;
+};
+
+const trackInteraction = (name, properties = {}) => {
+  try {
+    track(name, properties);
+  } catch {
+    // Vercel custom events can depend on the active plan; tracking must never block UX.
+  }
 };
 
 const copyToClipboard = async (text) => {
@@ -217,14 +242,15 @@ const buildShareActions = (article, title, url) => {
   const wrapper = document.createElement("div");
   wrapper.className = "share-actions";
   wrapper.setAttribute("aria-label", `Partager : ${title}`);
+  const caption = getShareCaption(article, title);
 
   wrapper.innerHTML = `
     <span class="share-label">Partager</span>
     <button class="share-button share-native" type="button" aria-label="Partager cet article avec les apps disponibles">App</button>
-    <button class="share-button share-copy" type="button" aria-label="Copier le lien">Copier</button>
+    <button class="share-button share-copy" type="button" aria-label="Copier le lien et l'accroche">Copier</button>
     <a class="share-link" data-share-channel="x" target="_blank" rel="noopener noreferrer" aria-label="Partager sur X">X</a>
     <a class="share-link" data-share-channel="fb" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Facebook">FB</a>
-    <a class="share-link" data-share-channel="wa" target="_blank" rel="noopener noreferrer" aria-label="Partager sur WhatsApp">WA</a>
+    <a class="share-link share-whatsapp" data-share-channel="wa" target="_blank" rel="noopener noreferrer" aria-label="Partager sur WhatsApp">WA</a>
     <details class="share-more">
       <summary aria-label="Afficher plus de réseaux">Plus</summary>
       <div class="share-more-panel">
@@ -241,29 +267,149 @@ const buildShareActions = (article, title, url) => {
 
   wrapper.querySelectorAll("[data-share-channel]").forEach((link) => {
     const channel = link.dataset.shareChannel;
-    link.href = shareChannels[channel]({ title, url });
+    const trackedUrl = withShareTracking(url, channel, title);
+    link.href = shareChannels[channel]({ title: caption, url: trackedUrl });
+    link.addEventListener("click", () => {
+      trackInteraction("share_click", {
+        channel,
+        path: new URL(url).pathname,
+        title: title.slice(0, 120)
+      });
+    });
   });
 
   wrapper.querySelector(".share-copy")?.addEventListener("click", async () => {
-    await copyToClipboard(url);
-    setShareStatus(wrapper, "Lien copié");
+    const trackedUrl = withShareTracking(url, "copy", title);
+    await copyToClipboard(`${caption}\n${trackedUrl}`);
+    trackInteraction("share_copy", {
+      path: new URL(url).pathname,
+      title: title.slice(0, 120)
+    });
+    setShareStatus(wrapper, "Post copié");
   });
 
   wrapper.querySelector(".share-native")?.addEventListener("click", async () => {
+    const trackedUrl = withShareTracking(url, "app", title);
     if (navigator.share) {
       try {
-        await navigator.share({ title, text: title, url });
+        await navigator.share({ title, text: caption, url: trackedUrl });
+        trackInteraction("share_native", {
+          path: new URL(url).pathname,
+          title: title.slice(0, 120)
+        });
         return;
       } catch (error) {
         if (error?.name === "AbortError") return;
       }
     }
 
-    await copyToClipboard(url);
-    setShareStatus(wrapper, "Lien copié");
+    await copyToClipboard(`${caption}\n${trackedUrl}`);
+    setShareStatus(wrapper, "Post copié");
   });
 
   article.append(wrapper);
+};
+
+const initCopySnippets = () => {
+  document.querySelectorAll("[data-copy-text]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const text = button.dataset.copyText || "";
+      if (!text) return;
+      await copyToClipboard(text);
+      trackInteraction("viral_snippet_copy", {
+        label: button.dataset.copyLabel || button.textContent?.trim() || "snippet"
+      });
+      const original = button.textContent;
+      button.textContent = "Copié";
+      window.setTimeout(() => {
+        button.textContent = original;
+      }, 1600);
+    });
+  });
+};
+
+const viralAngleFor = (item) => {
+  const category = String(item.category || "").toLowerCase();
+  if (category.includes("mercato")) return "Le dossier à envoyer au groupe avant que le feuilleton reparte.";
+  if (category.includes("calendrier")) return "La date qui peut changer l'ambiance de la saison.";
+  if (category.includes("match")) return "Le résumé qui relance le débat sur le vrai niveau de Paris.";
+  if (category.includes("groupe")) return "Le signal vestiaire qui peut compter plus qu'il n'en a l'air.";
+  return "L'info PSG à garder sous la main avant le prochain débat.";
+};
+
+const initViralToolkit = () => {
+  const target = document.querySelector("[data-viral-toolkit]");
+  if (!target) return;
+
+  const items = [...activeNewsFeed]
+    .sort((a, b) => Number(b.viral || 0) - Number(a.viral || 0))
+    .slice(0, 6);
+
+  target.innerHTML = items.map((item, index) => {
+    const path = getNewsPagePath(item);
+    const caption = `${item.title} ${index === 0 ? "Le débat est lancé." : "À lire avant de trancher."}`;
+    return `
+      <article class="viral-card" data-share-title="${escapeHTML(item.title)}" data-share-caption="${escapeHTML(caption)}" data-share-url="${escapeHTML(path)}">
+        <div class="news-topline"><span>${escapeHTML(item.category)}</span><strong>Viral ${escapeHTML(item.viral)}</strong></div>
+        <h3><a href="${escapeHTML(path)}">${escapeHTML(item.title)}</a></h3>
+        <p>${escapeHTML(viralAngleFor(item))}</p>
+        <div class="viral-caption">
+          <span>Accroche prête</span>
+          <p data-share-caption>${escapeHTML(caption)}</p>
+          <button type="button" data-copy-label="${escapeHTML(item.id)}" data-copy-text="${escapeHTML(`${caption}\n${new URL(withShareTracking(path, "copy", item.title)).href}`)}">Copier le post</button>
+        </div>
+      </article>
+    `;
+  }).join("");
+
+  initCopySnippets();
+  initShareActions(target);
+};
+
+const initFanPulse = () => {
+  const target = document.querySelector("[data-fan-pulse]");
+  if (!target) return;
+
+  const pollId = target.dataset.fanPulse || "psg-pulse";
+  const buttons = Array.from(target.querySelectorAll("[data-pulse-choice]"));
+  const total = target.querySelector("[data-pulse-total]");
+  const storageKey = `parisien90:${pollId}`;
+  const voteKey = `${storageKey}:vote`;
+  const read = () => {
+    try {
+      return JSON.parse(localStorage.getItem(storageKey) || "{}");
+    } catch {
+      return {};
+    }
+  };
+  const write = (value) => localStorage.setItem(storageKey, JSON.stringify(value));
+  const render = () => {
+    const data = read();
+    const votes = buttons.reduce((sum, button) => sum + Number(data[button.dataset.pulseChoice] || 0), 0);
+    total && (total.textContent = `${votes} vote${votes > 1 ? "s" : ""} local${votes > 1 ? "aux" : ""}`);
+    buttons.forEach((button) => {
+      const count = Number(data[button.dataset.pulseChoice] || 0);
+      const percent = votes ? Math.round((count / votes) * 100) : 0;
+      button.style.setProperty("--pulse", `${percent}%`);
+      button.querySelector("span")?.replaceChildren(document.createTextNode(`${percent}%`));
+      button.classList.toggle("is-selected", localStorage.getItem(voteKey) === button.dataset.pulseChoice);
+    });
+  };
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      if (localStorage.getItem(voteKey)) return;
+      const data = read();
+      const choice = button.dataset.pulseChoice;
+      data[choice] = Number(data[choice] || 0) + 1;
+      write(data);
+      localStorage.setItem(voteKey, choice);
+      trackInteraction("fan_pulse_vote", { pollId, choice });
+      render();
+    });
+  });
+
+  render();
 };
 
 const initShareActions = (root = document) => {
@@ -813,6 +959,9 @@ initPlayerProfileEnhancements();
 initLegendProfileChips();
 initSeasonExplorer();
 initAllTimePlayerIndex();
+initViralToolkit();
+initFanPulse();
+initCopySnippets();
 initShareActions();
 focusHashTarget();
 
