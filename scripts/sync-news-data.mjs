@@ -85,6 +85,7 @@ const legendPath = (profile) => `/anciens-joueurs-psg/${slugify(profile.id)}/`;
 const legendUrl = (profile) => `${siteUrl}${legendPath(profile)}`;
 const staffPath = (profile) => `/staff-psg/${slugify(profile.id)}/`;
 const staffUrl = (profile) => `${siteUrl}${staffPath(profile)}`;
+const assetUrl = (path) => new URL(path, siteUrl).href;
 
 const getTopicPath = (item) => {
   const category = String(item.category || "").toLowerCase();
@@ -336,6 +337,7 @@ const makeArticlePage = (item) => {
 const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) => {
   const isPlayer = type === "player";
   const isLegend = type === "legend";
+  const profileImage = profile.image ? assetUrl(profile.image.url) : heroImage;
   const title = isPlayer
     ? `${profile.name} PSG : fiche joueur, poste, statut et source | Parisien 90`
     : isLegend
@@ -365,9 +367,21 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
     ["Période PSG", profile.psgPeriod],
     ["Vie actuelle", profile.currentLife],
     ["Point à surveiller", profile.watch],
+    ["Requêtes associées", Array.isArray(profile.aliases) ? profile.aliases.join(", ") : profile.aliases],
+    ["Photo", profile.image ? `${profile.image.credit} - ${profile.image.license}` : null],
     ["Dernière mise à jour", profile.updatedAt],
     ["Source", profile.source || "Synthèse éditoriale Parisien 90"]
   ].filter(([, value]) => value);
+  const photoMarkup = profile.image
+    ? `<figure class="profile-photo-card">
+              <img src="${escapeHTML(profile.image.url)}" alt="${escapeHTML(profile.image.alt || profile.name)}" loading="eager" decoding="async" />
+              <figcaption>
+                Photo : <a href="${escapeHTML(profile.image.sourceUrl)}" rel="noopener noreferrer">${escapeHTML(profile.image.credit)}</a>,
+                <a href="${escapeHTML(profile.image.licenseUrl)}" rel="noopener noreferrer">${escapeHTML(profile.image.license)}</a>.
+                Usage éditorial, aucune affiliation suggérée.
+              </figcaption>
+            </figure>`
+    : "";
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -379,10 +393,13 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
         description,
         dateModified: newsMeta.updatedAt,
         inLanguage: "fr-FR",
+        primaryImageOfPage: profile.image ? { "@type": "ImageObject", url: profileImage, creditText: profile.image.credit, license: profile.image.licenseUrl } : undefined,
         about: {
           "@type": "Person",
           name: profile.name,
           jobTitle: profile.role || profile.position,
+          alternateName: profile.aliases,
+          image: profile.image ? profileImage : undefined,
           memberOf: { "@type": "SportsTeam", name: "Paris Saint-Germain" }
         },
         publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
@@ -415,8 +432,9 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
     <meta property="og:title" content="${escapeHTML(title)}" />
     <meta property="og:description" content="${escapeHTML(description)}" />
     <meta property="og:url" content="${escapeHTML(url)}" />
-    <meta property="og:image" content="${escapeHTML(heroImage)}" />
+    <meta property="og:image" content="${escapeHTML(profileImage)}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="${escapeHTML(profileImage)}" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
@@ -458,6 +476,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             <p>Les informations personnelles sensibles ne sont pas utilisées. Les données affichées restent limitées à l'intérêt sportif, historique ou éditorial : poste, rôle, période PSG, statut public et source de vérification.</p>
           </div>
           <aside class="article-sidebar">
+            ${photoMarkup}
             <span class="section-kicker">Continuer</span>
             <a href="/joueurs-psg/">Effectif PSG</a>
             <a href="/histoire-psg/">Histoire du PSG</a>
@@ -597,12 +616,23 @@ aiIndex.news = publishedNewsFeed.slice(0, 30).map((item) => ({
 }));
 aiIndex.people = profilePages.slice(0, 80).map((page) => ({
   name: page.profile.name,
+  aliases: page.profile.aliases || [],
   type: page.type,
   role: page.profile.role || page.profile.position,
   status: page.profile.status || page.profile.lifeStatus,
   url: page.url,
   updatedAt: page.profile.updatedAt || newsMeta.displayDate,
-  source: page.profile.source || "Synthèse éditoriale Parisien 90"
+  source: page.profile.source || "Synthèse éditoriale Parisien 90",
+  image: page.profile.image
+    ? {
+        url: page.profile.image.url,
+        absoluteUrl: assetUrl(page.profile.image.url),
+        credit: page.profile.image.credit,
+        license: page.profile.image.license,
+        licenseUrl: page.profile.image.licenseUrl,
+        sourceUrl: page.profile.image.sourceUrl
+      }
+    : null
 }));
 await writeFile(aiIndexPath, `${JSON.stringify(aiIndex, null, 2)}\n`, "utf8");
 

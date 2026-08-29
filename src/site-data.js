@@ -116,6 +116,73 @@ export const staffProfiles = [
   { id: "nicolas-cousin", name: "Nicolas Cousin", role: "Entraîneur adjoint des gardiens", line: "Gardiens", status: "Staff équipe première", profile: "Relais du secteur gardiens, au contact d'une ligne où chaque détail de relance et de concentration compte.", watch: "Travail de détail, continuité des séances spécifiques et accompagnement de la rotation.", updatedAt: "28 août 2026", source: "PSG.fr" }
 ];
 
+const commonsProfileImages = {
+  ronaldinho: {
+    url: "/profile-photos/ronaldinho-gaucho.jpg",
+    alt: "Ronaldinho Gaúcho avec la sélection brésilienne en 2006",
+    credit: "Reto Stauffer, www.hopp-schwiiz.ch",
+    license: "CC BY-SA 2.0 DE",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ronaldinho061115.jpg"
+  },
+  okocha: {
+    url: "/profile-photos/jay-jay-okocha.jpg",
+    alt: "Jay-Jay Okocha lors d'un événement football en 2022",
+    credit: "U.S. Embassy Jerusalem",
+    license: "CC BY 2.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ambassador%E2%80%99s_UAE_Trip_in_Support_of_the_Abraham_Accords._March_28-30,_2022_58.jpg"
+  },
+  anelka: {
+    url: "/profile-photos/nicolas-anelka.jpg",
+    alt: "Nicolas Anelka en 2008",
+    credit: "Mark Freeman",
+    license: "CC BY 2.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Anelka.jpg"
+  },
+  beckham: {
+    url: "/profile-photos/david-beckham.jpg",
+    alt: "David Beckham en 2008",
+    credit: "Sukhjeet Batth",
+    license: "CC BY 2.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:David_Beckham,_2008_(cropped).jpg"
+  },
+  thiagoSilva: {
+    url: "/profile-photos/thiago-silva.jpg",
+    alt: "Thiago Silva avec la sélection brésilienne en 2010",
+    credit: "Fabio Rodrigues Pozzebom / Agência Brasil",
+    license: "CC BY 3.0 BR",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Thiago_Emiliano_da_Silva_de_Souza.jpg"
+  },
+  buffon: {
+    url: "/profile-photos/gianluigi-buffon.jpg",
+    alt: "Gianluigi Buffon sous les couleurs du PSG en 2019",
+    credit: "Liondartois",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Gianluigi_Buffon_(PSG).jpg"
+  },
+  daniAlves: {
+    url: "/profile-photos/dani-alves.jpg",
+    alt: "Dani Alves avec la sélection brésilienne en 2011",
+    credit: "Ronnie Macdonald",
+    license: "CC BY 2.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Dani_Alves_-_2011_-_Scotland_v_Brazil.jpg"
+  },
+  sergioRamos: {
+    url: "/profile-photos/sergio-ramos.jpg",
+    alt: "Sergio Ramos en 2007",
+    credit: "Darz Mol",
+    license: "CC BY-SA 2.5 ES",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Sergio_Ramos_10mar2007.jpg"
+  }
+};
+
 export const legendProfiles = [
   { id: "safet-susic", name: "Safet Susic", psgPeriod: "1982-1991", lifeStatus: "Vivant", currentLife: "Ancien entraîneur, figure respectée du football bosnien et mémoire technique du PSG.", role: "Meneur de jeu", profile: "L'un des joueurs les plus élégants de l'histoire parisienne, symbole du PSG artiste.", whyMatters: "Il a fixé une idée du beau jeu au Parc.", updatedAt: "15 juillet 2026" },
   { id: "mustapha-dahleb", name: "Mustapha Dahleb", psgPeriod: "1974-1984", lifeStatus: "Vivant", currentLife: "Ancienne idole du Parc, régulièrement cité parmi les pères du mythe parisien.", role: "Attaquant créateur", profile: "Technique, inspiration et attachement populaire.", whyMatters: "Il a donné au jeune PSG ses premières grandes émotions.", updatedAt: "15 juillet 2026" },
@@ -124,16 +191,28 @@ export const legendProfiles = [
   { id: "rai", name: "Raí", psgPeriod: "1993-1998", lifeStatus: "Vivant", currentLife: "Figure publique au Brésil, engagé dans des causes sociales et éducatives.", role: "Meneur de jeu", profile: "Capitaine de la Coupe des Coupes 1996, élégance et leadership.", whyMatters: "Il reste l'un des plus grands symboles affectifs du Parc.", updatedAt: "15 juillet 2026" },
   { id: "george-weah", name: "George Weah", psgPeriod: "1992-1995", lifeStatus: "Vivant", currentLife: "Ancien président du Liberia, mandat achevé en janvier 2024.", role: "Attaquant", profile: "Puissance, vitesse et Ballon d'Or après son passage parisien.", whyMatters: "Il a donné au PSG une crédibilité mondiale avant l'ère QSI.", updatedAt: "15 juillet 2026" },
   { id: "youri-djorkaeff", name: "Youri Djorkaeff", psgPeriod: "1995-1996", lifeStatus: "Vivant", currentLife: "Ancien international français, actif dans l'écosystème du football et de sa fondation.", role: "Attaquant", profile: "Talent offensif majeur de l'équipe victorieuse en Europe.", whyMatters: "Une saison courte, mais une trace immense.", updatedAt: "15 juillet 2026" },
-  { id: "ronaldinho", name: "Ronaldinho", psgPeriod: "2001-2003", lifeStatus: "Vivant", currentLife: "Ambassadeur médiatique du football spectacle, présent sur des événements internationaux.", role: "Meneur offensif", profile: "Deux ans de magie brute, parfois indisciplinée, toujours inoubliable.", whyMatters: "Il a placé Paris dans l'imaginaire mondial du football créatif.", updatedAt: "15 juillet 2026" },
+  { id: "ronaldinho", name: "Ronaldinho Gaúcho", aliases: ["Ronaldinho", "Ronaldinho Gaucho", "Ronaldo de Assis Moreira"], psgPeriod: "2001-2003", lifeStatus: "Vivant", currentLife: "Ambassadeur médiatique du football spectacle, présent sur des événements internationaux.", role: "Meneur offensif", profile: "Deux ans de magie brute, de dribbles humiliants et de génie imprévisible : le PSG a eu Ronaldinho avant que le monde entier ne le sacre.", whyMatters: "Il a placé Paris dans l'imaginaire mondial du football créatif et attire encore des recherches internationales autour du PSG.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.ronaldinho },
+  { id: "jay-jay-okocha", name: "Jay-Jay Okocha", aliases: ["Austin Okocha", "Okocha PSG"], psgPeriod: "1998-2002", lifeStatus: "Vivant", currentLife: "Ancienne icône du Nigeria et figure régulière des événements football internationaux.", role: "Meneur de jeu", profile: "Dribbleur extravagant, joueur de gestes impossibles et passerelle directe vers l'ère Ronaldinho : Okocha a donné au Parc un football d'artiste.", whyMatters: "Pour le SEO comme pour la mémoire du club, Okocha relie le PSG aux fans africains, anglais et mondiaux du football spectacle.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.okocha },
+  { id: "nicolas-anelka", name: "Nicolas Anelka", aliases: ["Anelka PSG", "Nicolas Anelka Paris"], psgPeriod: "1995-1997, 2000-2002", lifeStatus: "Vivant", currentLife: "Ancien attaquant international français, personnalité marquante du football européen.", role: "Avant-centre", profile: "Formé à Paris puis revenu comme star mondiale, Anelka incarne le talent précoce, les débats et la puissance médiatique du PSG avant QSI.", whyMatters: "Son nom capte les recherches formation PSG, grands attaquants français et trajectoires internationales parties de Paris.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.anelka },
+  { id: "david-beckham", name: "David Beckham", aliases: ["Beckham PSG", "David Beckham Paris Saint-Germain"], psgPeriod: "2013", lifeStatus: "Vivant", currentLife: "Personnalité mondiale du sport, entrepreneur et figure majeure du football-business.", role: "Milieu", profile: "Quelques mois seulement, mais un impact planétaire : Beckham au PSG, c'était déjà Paris comme scène mondiale avant la superpuissance actuelle.", whyMatters: "Son passage renforce les requêtes internationales PSG, star mondiale, marketing sportif et histoire QSI.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.beckham },
   { id: "pauleta", name: "Pauleta", psgPeriod: "2003-2008", lifeStatus: "Vivant", currentLife: "Figure suivie au Portugal et régulièrement associée à la mémoire offensive du PSG.", role: "Avant-centre", profile: "Finition, fidélité et buts dans une période plus rugueuse du club.", whyMatters: "Il a porté Paris quand le club ne dominait pas encore.", updatedAt: "15 juillet 2026" },
   { id: "zlatan-ibrahimovic", name: "Zlatan Ibrahimovic", psgPeriod: "2012-2016", lifeStatus: "Vivant", currentLife: "Dirigeant/conseiller dans l'environnement de l'AC Milan et personnalité mondiale.", role: "Avant-centre", profile: "Il a imposé une mentalité de domination immédiate.", whyMatters: "Le PSG QSI a changé de ton avec lui.", updatedAt: "15 juillet 2026" },
   { id: "edinson-cavani", name: "Edinson Cavani", psgPeriod: "2013-2020", lifeStatus: "Vivant", currentLife: "Toujours actif dans le football professionnel selon les dernières données publiques connues.", role: "Avant-centre", profile: "Travail, appels, buts et relation viscérale avec les supporters.", whyMatters: "Il reste l'un des buteurs les plus aimés de l'histoire parisienne.", updatedAt: "15 juillet 2026" },
   { id: "kylian-mbappe", name: "Kylian Mbappé", psgPeriod: "2017-2024", lifeStatus: "Vivant", currentLife: "Star internationale encore en activité, après son départ du PSG.", role: "Attaquant", profile: "Meilleur buteur historique du club et machine à records.", whyMatters: "Ses chiffres ont redéfini le plafond individuel parisien.", updatedAt: "15 juillet 2026" },
   { id: "marquinhos", name: "Marquinhos", psgPeriod: "2013-", lifeStatus: "Vivant", currentLife: "Capitaine du PSG et recordman d'apparitions du club.", role: "Défenseur", profile: "Longévité, brassard, trophées et attachement à Paris.", whyMatters: "Il relie toutes les ères récentes du club.", updatedAt: "15 juillet 2026" },
+  { id: "thiago-silva", name: "Thiago Silva", aliases: ["Thiago Silva PSG", "O Monstro PSG"], psgPeriod: "2012-2020", lifeStatus: "Vivant", currentLife: "Grand défenseur brésilien, figure de leadership reconnue en Europe et au Brésil.", role: "Défenseur central", profile: "Capitaine élégant, patron défensif et visage de la crédibilité européenne du PSG pendant la montée QSI.", whyMatters: "Son nom structure les recherches sur les meilleurs défenseurs PSG et sur la première grande colonne vertébrale du projet moderne.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.thiagoSilva },
   { id: "neymar", name: "Neymar", psgPeriod: "2017-2023", lifeStatus: "Vivant", currentLife: "Joueur encore actif et immense personnalité médiatique du football mondial.", role: "Attaquant créateur", profile: "Génie, blessures, débats : impossible à réduire à une seule lecture.", whyMatters: "Son arrivée a changé l'échelle mondiale du PSG.", updatedAt: "15 juillet 2026" },
   { id: "lionel-messi", name: "Lionel Messi", psgPeriod: "2021-2023", lifeStatus: "Vivant", currentLife: "Joueur encore actif, icône absolue du football mondial.", role: "Attaquant créateur", profile: "Deux saisons parisiennes très commentées, mais un impact planétaire incontestable.", whyMatters: "Sa présence a offert au PSG une visibilité sans équivalent.", updatedAt: "15 juillet 2026" },
+  { id: "gianluigi-buffon", name: "Gianluigi Buffon", aliases: ["Buffon PSG", "Gigi Buffon Paris"], psgPeriod: "2018-2019", lifeStatus: "Vivant", currentLife: "Légende italienne et référence mondiale du poste de gardien.", role: "Gardien de but", profile: "Une saison seulement, mais un nom immense : Buffon a apporté au PSG une aura historique et un récit européen immédiat.", whyMatters: "Il capte les requêtes gardiens PSG, légendes mondiales et passage des icônes européennes à Paris.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.buffon },
+  { id: "sergio-ramos", name: "Sergio Ramos", aliases: ["Ramos PSG", "Sergio Ramos Paris"], psgPeriod: "2021-2023", lifeStatus: "Vivant", currentLife: "Défenseur espagnol iconique, champion du monde et multiple vainqueur européen.", role: "Défenseur central", profile: "Arrivé avec une légende déjà écrite, Ramos a symbolisé le PSG star-system : prestige immense, attentes énormes, débat permanent.", whyMatters: "Sa fiche sert les recherches internationales sur les stars mondiales passées par Paris.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.sergioRamos },
+  { id: "dani-alves", name: "Dani Alves", aliases: ["Dani Alves PSG", "Daniel Alves Paris"], psgPeriod: "2017-2019", lifeStatus: "Vivant", currentLife: "Ancien latéral brésilien au palmarès mondialement reconnu.", role: "Latéral droit", profile: "Compétiteur, provocateur, passeur de culture de la gagne : Dani Alves a amené à Paris l'expérience des très grands vestiaires.", whyMatters: "Il renforce les requêtes Brésil PSG, latéraux historiques et stars mondiales de l'ère Neymar.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques", image: commonsProfileImages.daniAlves },
   { id: "angel-di-maria", name: "Ángel Di María", psgPeriod: "2015-2022", lifeStatus: "Vivant", currentLife: "Joueur encore actif selon les dernières données publiques connues, idole aussi en Argentine.", role: "Ailier et passeur", profile: "Technique, passes décisives et grands matchs européens.", whyMatters: "Il a souvent été le joueur des soirs qui comptent.", updatedAt: "15 juillet 2026" },
   { id: "marco-verratti", name: "Marco Verratti", psgPeriod: "2012-2023", lifeStatus: "Vivant", currentLife: "Joueur encore actif après son départ du PSG.", role: "Milieu", profile: "Pressing, conservation et personnalité unique au milieu.", whyMatters: "Il a incarné pendant onze ans le cœur technique parisien.", updatedAt: "15 juillet 2026" },
+  { id: "javier-pastore", name: "Javier Pastore", aliases: ["Pastore PSG", "El Flaco PSG"], psgPeriod: "2011-2018", lifeStatus: "Vivant", currentLife: "Ancien international argentin, figure affective du début de l'ère QSI.", role: "Meneur offensif", profile: "Premier grand frisson du PSG version QSI, Pastore a été l'élégance fragile, le toucher rare et le symbole d'une nouvelle ambition.", whyMatters: "Il travaille les requêtes nostalgie QSI, premiers grands transferts PSG et joueurs les plus aimés du Parc.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques" },
+  { id: "david-ginola", name: "David Ginola", aliases: ["Ginola PSG", "David Ginola Paris"], psgPeriod: "1992-1995", lifeStatus: "Vivant", currentLife: "Ancien international français, personnalité médiatique et figure de l'élégance footballistique.", role: "Ailier gauche", profile: "Cheveux au vent, conduite noble et grandes soirées européennes : Ginola a donné au PSG une allure glamour et offensive.", whyMatters: "Son nom relie PSG années 90, football français et mémoire européenne du Parc.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques" },
+  { id: "dominique-rocheteau", name: "Dominique Rocheteau", aliases: ["Rocheteau PSG", "Ange Vert PSG"], psgPeriod: "1980-1987", lifeStatus: "Vivant", currentLife: "Ancien attaquant international français et figure respectée du football national.", role: "Attaquant", profile: "Star française arrivée avec un parfum populaire immense, Rocheteau a accompagné la montée sportive du PSG des années 80.", whyMatters: "Il solidifie les recherches sur le PSG pré-Canal+, les premiers titres et les grandes figures françaises.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques" },
+  { id: "carlos-bianchi", name: "Carlos Bianchi", aliases: ["Bianchi PSG", "Carlos Bianchi Paris"], psgPeriod: "1977-1979", lifeStatus: "Vivant", currentLife: "Légende argentine du football, immense buteur puis entraîneur majeur.", role: "Avant-centre", profile: "Buteur féroce, efficacité froide et dimension sud-américaine : Bianchi a donné très tôt au PSG une signature internationale.", whyMatters: "Sa fiche vise les recherches historiques profondes : grands buteurs PSG, Argentins du PSG et premières stars du club.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques" },
+  { id: "osvaldo-ardiles", name: "Osvaldo Ardiles", aliases: ["Ardiles PSG", "Ossie Ardiles Paris"], psgPeriod: "1982-1983", lifeStatus: "Vivant", currentLife: "Champion du monde argentin 1978 et personnalité historique du football anglais et argentin.", role: "Milieu", profile: "Passage court mais prestige énorme : Ardiles rappelle que Paris a attiré des champions du monde bien avant l'ère moderne.", whyMatters: "Il enrichit le champ SEO international autour des stars mondiales passées par le PSG.", updatedAt: "29 août 2026", source: "PSG.fr / archives publiques" },
   { id: "ousmane-dembele", name: "Ousmane Dembélé", psgPeriod: "2023-", lifeStatus: "Vivant", currentLife: "Joueur majeur du PSG actuel.", role: "Ailier", profile: "Chaos offensif, ambidextrie et influence dans le cycle Luis Enrique.", whyMatters: "Il est devenu l'une des figures du PSG champion.", updatedAt: "15 juillet 2026" },
   { id: "vitinha", name: "Vitinha", psgPeriod: "2022-", lifeStatus: "Vivant", currentLife: "Milieu central du PSG actuel.", role: "Milieu organisateur", profile: "Le tempo, la sécurité technique et la maturité dans les grands matchs.", whyMatters: "Il a transformé le PSG en équipe plus collective.", updatedAt: "15 juillet 2026" },
   { id: "achraf-hakimi", name: "Achraf Hakimi", psgPeriod: "2021-", lifeStatus: "Vivant", currentLife: "Cadre international et latéral du PSG actuel.", role: "Latéral droit", profile: "Projection, vitesse et personnalité de grand rendez-vous.", whyMatters: "Il a redonné une dimension verticale au couloir droit.", updatedAt: "15 juillet 2026" },

@@ -2064,6 +2064,36 @@ main {
   line-height: 1.35;
 }
 
+.profile-photo-card {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 16px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.profile-photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 6px;
+  background: #edf2f7;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.profile-photo-card figcaption {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.profile-photo-card a {
+  color: var(--blue);
+}
+
 .profile-note {
   margin-top: 14px;
   padding: 14px;
