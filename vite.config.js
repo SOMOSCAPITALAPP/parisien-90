@@ -37,6 +37,7 @@ export default defineConfig({
         contactRetrait: resolve(__dirname, "contact-retrait/index.html"),
         charteEditoriale: resolve(__dirname, "charte-editoriale/index.html"),
         controleSources: resolve(__dirname, "controle-sources/index.html"),
+        suiviAudience: resolve(__dirname, "suivi-audience/index.html"),
         ...newsEntries,
         ...playerEntries,
         ...legendEntries,

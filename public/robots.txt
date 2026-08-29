@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /controle-sources/
+Disallow: /suivi-audience/
 
 User-agent: GPTBot
 Allow: /

@@ -26,3 +26,10 @@ npm install
 npm run dev
 npm run build
 ```
+
+## Suivi audience
+
+- Web Analytics : https://vercel.com/somos-capital-apps-projects/parisien-90/analytics
+- Speed Insights : https://vercel.com/somos-capital-apps-projects/parisien-90/speed-insights
+- Logs production : https://vercel.com/somos-capital-apps-projects/parisien-90/logs
+- Page interne noindex : https://parisien90.com/suivi-audience/
