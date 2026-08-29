@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contrôle interne des sources PSG | Parisien 90</title>
+    <meta name="description" content="Contrôle interne des liens sources utilisés par Parisien 90 : OK, redirection ou source à vérifier." />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="canonical" href="https://parisien90.com/controle-sources/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
+    <meta name="theme-color" content="#071426" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/"><span class="brand-mark">P90</span><span><strong>Parisien 90</strong><small>PSG live desk</small></span></a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="/transfert-psg/">Transfert PSG</a>
+        <a href="/mercato-psg/">Mercato PSG</a>
+        <a href="/actualite-psg/">Actualité PSG</a>
+        <a href="/calendrier-psg/">Calendrier</a>
+        <a href="/joueurs-psg/">Joueurs</a>
+        <a href="/histoire-psg/">Histoire</a>
+        <a href="/sources-psg/">Sources</a>
+      </nav>
+    </header>
+    <main>
+      <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/">Accueil</a><span>/</span><a href="/sources-psg/">Sources PSG</a><span>/</span><span>Contrôle interne</span></nav>
+      <section class="page-hero">
+        <span class="section-kicker">Interne · non indexé</span>
+        <h1>Contrôle automatique des liens sources</h1>
+        <p>
+          Cette page teste les liens cités dans les news afin de repérer les sources accessibles, les redirections et les
+          liens à vérifier avant qu'ils n'abîment la confiance éditoriale.
+        </p>
+      </section>
+
+      <section class="content-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Audit live</span>
+            <h2>État des sources</h2>
+            <p class="section-note">Les contrôles automatiques Vercel tournent deux fois par jour. Le tableau ci-dessous interroge l'API en direct.</p>
+          </div>
+          <span class="freshness" data-source-audit-time>Chargement</span>
+        </div>
+        <div class="source-audit-summary" data-source-audit-summary></div>
+        <div class="source-audit-table" data-source-audit-table></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>Parisien 90 - contrôle interne des sources.</p>
+      <a href="/sources-psg/">Sources PSG</a>
+      <a href="/charte-editoriale/">Charte éditoriale</a>
+      <a href="/contact-retrait/">Contact</a>
+    </footer>
+    <script>
+      const summary = document.querySelector("[data-source-audit-summary]");
+      const table = document.querySelector("[data-source-audit-table]");
+      const time = document.querySelector("[data-source-audit-time]");
+      const labels = {
+        OK: "OK",
+        REDIRECTION: "Redirection",
+        SOURCE_A_VERIFIER: "Source à vérifier"
+      };
+
+      const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      })[char]);
+
+      fetch("/api/source-audit?public=1&limit=60")
+        .then((response) => response.json())
+        .then((payload) => {
+          const checkedAt = new Date(payload.checkedAt);
+          time.textContent = `Testé à ${checkedAt.toLocaleString("fr-FR", { timeZone: "Europe/Paris" })}`;
+          summary.innerHTML = Object.entries(payload.summary).map(([key, value]) => `
+            <article class="signal-card"><span>${labels[key] || key}</span><strong>${value}</strong></article>
+          `).join("");
+          table.innerHTML = `
+            <div class="audit-row audit-head"><span>État</span><span>Source</span><span>Article</span><span>HTTP</span></div>
+            ${payload.results.map((item) => `
+              <article class="audit-row">
+                <span class="status-badge status-${item.state.toLowerCase()}">${labels[item.state] || item.state}</span>
+                <a href="${esc(item.sourceUrl)}" rel="noopener noreferrer">${esc(item.source)}</a>
+                <span>${esc(item.title)}</span>
+                <span>${esc(item.status || item.error || "Erreur")}</span>
+              </article>
+            `).join("")}
+          `;
+        })
+        .catch(() => {
+          time.textContent = "Erreur";
+          table.innerHTML = '<p class="empty-state">Impossible de charger le contrôle des sources.</p>';
+        });
+    </script>
+  </body>
+</html>

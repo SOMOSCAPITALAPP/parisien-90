@@ -1845,6 +1845,13 @@ main {
   padding: 0 10px;
 }
 
+.micro-link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6px;
+  text-decoration: none;
+}
+
 .player-list li.is-interactive:hover {
   background: #f5f8fc;
 }
@@ -1957,6 +1964,10 @@ main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   margin: 0;
+}
+
+.profile-facts.is-page {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
 .profile-facts div {
@@ -2222,6 +2233,109 @@ span.squad-player {
   padding: 0 16px;
 }
 
+.legal-page {
+  display: grid;
+  gap: 18px;
+}
+
+.legal-page h2 {
+  margin-bottom: 0;
+}
+
+.legal-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+}
+
+.legal-facts div {
+  min-height: 82px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.legal-facts dt {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.legal-facts dd {
+  margin: 6px 0 0;
+  color: var(--ink);
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.legal-page a {
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.source-audit-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.source-audit-table {
+  display: grid;
+  gap: 8px;
+}
+
+.audit-row {
+  display: grid;
+  grid-template-columns: 150px 170px minmax(0, 1fr) 82px;
+  gap: 10px;
+  align-items: center;
+  min-height: 56px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.audit-row span,
+.audit-row a {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+
+.audit-head {
+  min-height: 42px;
+  background: var(--night);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.status-badge {
+  width: fit-content;
+  padding: 6px 9px;
+  border-radius: 8px;
+  background: #eff8f3;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.status-redirection {
+  background: #eef5ff;
+  color: var(--blue);
+}
+
+.status-source_a_verifier {
+  background: #fff7e6;
+  color: var(--gold);
+}
+
 @media (max-width: 1100px) {
   .hero-section,
   .workspace-grid,
@@ -2351,7 +2465,10 @@ span.squad-player {
   .news-toolbar,
   .season-head,
   .season-groups,
-  .profile-facts {
+  .profile-facts,
+  .legal-facts,
+  .source-audit-summary,
+  .audit-row {
     grid-template-columns: 1fr;
   }
 

@@ -25,5 +25,15 @@
       "destination": "https://parisien90.com/$1",
       "permanent": true
     }
+  ],
+  "crons": [
+    {
+      "path": "/api/source-audit",
+      "schedule": "30 4 * * *"
+    },
+    {
+      "path": "/api/source-audit",
+      "schedule": "0 10 * * *"
+    }
   ]
 }

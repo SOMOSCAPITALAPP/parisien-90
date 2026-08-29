@@ -400,5 +400,502 @@
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
       "reliability": "Tableau de suivi — statuts à vérifier dossier par dossier"
     }
+  ],
+  "people": [
+    {
+      "name": "Alessandro Longoni",
+      "type": "player",
+      "role": "Gardien de rotation",
+      "status": "Effectif provisoire PSG 2026-2027",
+      "url": "https://parisien90.com/joueurs-psg/alessandro-longoni/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Lucas Chevalier",
+      "type": "player",
+      "role": "Gardien français à fort potentiel",
+      "status": "Effectif provisoire PSG 2026-2027",
+      "url": "https://parisien90.com/joueurs-psg/lucas-chevalier/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Matvey Safonov",
+      "type": "player",
+      "role": "Gardien confirmé",
+      "status": "Effectif provisoire PSG 2026-2027",
+      "url": "https://parisien90.com/joueurs-psg/matvey-safonov/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Achraf Hakimi",
+      "type": "player",
+      "role": "Latéral droit offensif",
+      "status": "Cadre majeur",
+      "url": "https://parisien90.com/joueurs-psg/achraf-hakimi/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Lucas Beraldo",
+      "type": "player",
+      "role": "Défenseur central gaucher",
+      "status": "Rotation premium",
+      "url": "https://parisien90.com/joueurs-psg/lucas-beraldo/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Marquinhos",
+      "type": "player",
+      "role": "Défenseur central, leader de vestiaire",
+      "status": "Capitaine et recordman",
+      "url": "https://parisien90.com/joueurs-psg/marquinhos/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Illia Zabarnyi",
+      "type": "player",
+      "role": "Défenseur central",
+      "status": "Effectif provisoire PSG 2026-2027",
+      "url": "https://parisien90.com/joueurs-psg/illia-zabarnyi/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Lucas Hernández",
+      "type": "player",
+      "role": "Défenseur central ou latéral gauche",
+      "status": "Cadre polyvalent",
+      "url": "https://parisien90.com/joueurs-psg/lucas-hernandez/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Nuno Mendes",
+      "type": "player",
+      "role": "Latéral gauche explosif",
+      "status": "Titulaire majeur",
+      "url": "https://parisien90.com/joueurs-psg/nuno-mendes/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Lucas Digne",
+      "type": "player",
+      "role": "Latéral gauche de rotation",
+      "status": "Recrue officielle 2026",
+      "url": "https://parisien90.com/joueurs-psg/lucas-digne/",
+      "updatedAt": "9 août 2026",
+      "source": "PSG / AS"
+    },
+    {
+      "name": "Willian Pacho",
+      "type": "player",
+      "role": "Défenseur central gaucher",
+      "status": "Défenseur de référence",
+      "url": "https://parisien90.com/joueurs-psg/willian-pacho/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Fabián Ruiz",
+      "type": "player",
+      "role": "Milieu relayeur",
+      "status": "Cadre technique",
+      "url": "https://parisien90.com/joueurs-psg/fabian-ruiz/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Vitinha",
+      "type": "player",
+      "role": "Milieu organisateur",
+      "status": "Cerveau du jeu",
+      "url": "https://parisien90.com/joueurs-psg/vitinha/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Senny Mayulu",
+      "type": "player",
+      "role": "Milieu polyvalent",
+      "status": "Jeune à suivre",
+      "url": "https://parisien90.com/joueurs-psg/senny-mayulu/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Dro Fernández",
+      "type": "player",
+      "role": "Milieu de développement",
+      "status": "Effectif provisoire PSG 2026-2027",
+      "url": "https://parisien90.com/joueurs-psg/dro-fernandez/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "type": "player",
+      "role": "Milieu box-to-box",
+      "status": "Symbole du projet",
+      "url": "https://parisien90.com/joueurs-psg/warren-zaire-emery/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "João Neves",
+      "type": "player",
+      "role": "Milieu intense et organisateur",
+      "status": "Titulaire de très haut niveau",
+      "url": "https://parisien90.com/joueurs-psg/joao-neves/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Khvicha Kvaratskhelia",
+      "type": "player",
+      "role": "Ailier gauche",
+      "status": "Menace offensive majeure",
+      "url": "https://parisien90.com/joueurs-psg/khvicha-kvaratskhelia/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "type": "player",
+      "role": "Ailier créateur",
+      "status": "Star du cycle Luis Enrique",
+      "url": "https://parisien90.com/joueurs-psg/ousmane-dembele/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Ferran Torres",
+      "type": "player",
+      "role": "Attaquant polyvalent",
+      "status": "Recrue officielle 2026",
+      "url": "https://parisien90.com/joueurs-psg/ferran-torres/",
+      "updatedAt": "15 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Maghnes Akliouche",
+      "type": "player",
+      "role": "Créateur intérieur ou ailier droit",
+      "status": "Recrue officielle 2026",
+      "url": "https://parisien90.com/joueurs-psg/maghnes-akliouche/",
+      "updatedAt": "9 août 2026",
+      "source": "CulturePSG / Le Parisien"
+    },
+    {
+      "name": "Mika Godts",
+      "type": "player",
+      "role": "Ailier",
+      "status": "Recrue officielle 2026",
+      "url": "https://parisien90.com/joueurs-psg/mika-godts/",
+      "updatedAt": "16 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Désiré Doué",
+      "type": "player",
+      "role": "Ailier ou milieu offensif",
+      "status": "Talent premium",
+      "url": "https://parisien90.com/joueurs-psg/desire-doue/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Bradley Barcola",
+      "type": "player",
+      "role": "Ailier de profondeur",
+      "status": "Ailier français majeur",
+      "url": "https://parisien90.com/joueurs-psg/bradley-barcola/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Quentin Ndjantou",
+      "type": "player",
+      "role": "Attaquant de développement",
+      "status": "Jeune offensif",
+      "url": "https://parisien90.com/joueurs-psg/quentin-ndjantou/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Ibrahim Mbaye",
+      "type": "player",
+      "role": "Ailier",
+      "status": "Jeune très surveillé",
+      "url": "https://parisien90.com/joueurs-psg/ibrahim-mbaye/",
+      "updatedAt": "15 juillet 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Luis Enrique",
+      "type": "staff",
+      "role": "Entraîneur principal",
+      "status": "Responsable de l'équipe première",
+      "url": "https://parisien90.com/staff-psg/luis-enrique/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Rafel Pol Cabanellas",
+      "type": "staff",
+      "role": "Entraîneur adjoint",
+      "status": "Adjoint équipe première",
+      "url": "https://parisien90.com/staff-psg/rafel-pol-cabanellas/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Guillem Hernandez Folguera",
+      "type": "staff",
+      "role": "Entraîneur adjoint",
+      "status": "Adjoint équipe première",
+      "url": "https://parisien90.com/staff-psg/guillem-hernandez-folguera/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Joaquin Valdes Fonseca",
+      "type": "staff",
+      "role": "Psychologue",
+      "status": "Staff équipe première",
+      "url": "https://parisien90.com/staff-psg/joaquin-valdes-fonseca/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Pedro Gomez Piqueras",
+      "type": "staff",
+      "role": "Préparateur physique",
+      "status": "Staff équipe première",
+      "url": "https://parisien90.com/staff-psg/pedro-gomez-piqueras/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Alberto Piernas Carcelen",
+      "type": "staff",
+      "role": "Préparateur physique adjoint",
+      "status": "Staff équipe première",
+      "url": "https://parisien90.com/staff-psg/alberto-piernas-carcelen/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Borja Alvarez Buedo",
+      "type": "staff",
+      "role": "Entraîneur des gardiens",
+      "status": "Staff équipe première",
+      "url": "https://parisien90.com/staff-psg/borja-alvarez-buedo/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Nicolas Cousin",
+      "type": "staff",
+      "role": "Entraîneur adjoint des gardiens",
+      "status": "Staff équipe première",
+      "url": "https://parisien90.com/staff-psg/nicolas-cousin/",
+      "updatedAt": "28 août 2026",
+      "source": "PSG.fr"
+    },
+    {
+      "name": "Safet Susic",
+      "type": "legend",
+      "role": "Meneur de jeu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/safet-susic/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Mustapha Dahleb",
+      "type": "legend",
+      "role": "Attaquant créateur",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/mustapha-dahleb/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Luis Fernandez",
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/luis-fernandez/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Bernard Lama",
+      "type": "legend",
+      "role": "Gardien",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/bernard-lama/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Raí",
+      "type": "legend",
+      "role": "Meneur de jeu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/rai/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "George Weah",
+      "type": "legend",
+      "role": "Attaquant",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/george-weah/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Youri Djorkaeff",
+      "type": "legend",
+      "role": "Attaquant",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/youri-djorkaeff/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Ronaldinho",
+      "type": "legend",
+      "role": "Meneur offensif",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/ronaldinho/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Pauleta",
+      "type": "legend",
+      "role": "Avant-centre",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/pauleta/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Zlatan Ibrahimovic",
+      "type": "legend",
+      "role": "Avant-centre",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/zlatan-ibrahimovic/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Edinson Cavani",
+      "type": "legend",
+      "role": "Avant-centre",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/edinson-cavani/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Kylian Mbappé",
+      "type": "legend",
+      "role": "Attaquant",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/kylian-mbappe/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Marquinhos",
+      "type": "legend",
+      "role": "Défenseur",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/marquinhos/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Neymar",
+      "type": "legend",
+      "role": "Attaquant créateur",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/neymar/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Lionel Messi",
+      "type": "legend",
+      "role": "Attaquant créateur",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/lionel-messi/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Ángel Di María",
+      "type": "legend",
+      "role": "Ailier et passeur",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/angel-di-maria/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Marco Verratti",
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/marco-verratti/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "type": "legend",
+      "role": "Ailier",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/ousmane-dembele/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Vitinha",
+      "type": "legend",
+      "role": "Milieu organisateur",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/vitinha/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Achraf Hakimi",
+      "type": "legend",
+      "role": "Latéral droit",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/achraf-hakimi/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "type": "legend",
+      "role": "Milieu",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/warren-zaire-emery/",
+      "updatedAt": "15 juillet 2026",
+      "source": "Synthèse éditoriale Parisien 90"
+    }
   ]
 }

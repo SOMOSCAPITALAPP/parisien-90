@@ -2,13 +2,19 @@ import { resolve } from "node:path";
 import { existsSync, readdirSync } from "node:fs";
 import { defineConfig } from "vite";
 
-const newsEntries = existsSync(resolve(__dirname, "news"))
+const nestedEntries = (root, prefix) =>
+  existsSync(resolve(__dirname, root))
   ? Object.fromEntries(
-      readdirSync(resolve(__dirname, "news"), { withFileTypes: true })
+      readdirSync(resolve(__dirname, root), { withFileTypes: true })
         .filter((entry) => entry.isDirectory())
-        .map((entry) => [`news-${entry.name}`, resolve(__dirname, "news", entry.name, "index.html")])
+        .map((entry) => [`${prefix}-${entry.name}`, resolve(__dirname, root, entry.name, "index.html")])
     )
   : {};
+
+const newsEntries = nestedEntries("news", "news");
+const playerEntries = nestedEntries("joueurs-psg", "joueur");
+const legendEntries = nestedEntries("anciens-joueurs-psg", "ancien");
+const staffEntries = nestedEntries("staff-psg", "staff");
 
 export default defineConfig({
   build: {
@@ -23,7 +29,16 @@ export default defineConfig({
         sourcesPsg: resolve(__dirname, "sources-psg/index.html"),
         histoirePsg: resolve(__dirname, "histoire-psg/index.html"),
         droitsDisclaimer: resolve(__dirname, "droits-disclaimer/index.html"),
-        ...newsEntries
+        mentionsLegales: resolve(__dirname, "mentions-legales/index.html"),
+        confidentialite: resolve(__dirname, "confidentialite/index.html"),
+        cookies: resolve(__dirname, "cookies/index.html"),
+        contactRetrait: resolve(__dirname, "contact-retrait/index.html"),
+        charteEditoriale: resolve(__dirname, "charte-editoriale/index.html"),
+        controleSources: resolve(__dirname, "controle-sources/index.html"),
+        ...newsEntries,
+        ...playerEntries,
+        ...legendEntries,
+        ...staffEntries
       }
     }
   }

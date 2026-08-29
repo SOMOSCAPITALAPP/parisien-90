@@ -318,8 +318,14 @@ const initPlayerProfileEnhancements = () => {
     button.setAttribute("aria-label", `Ouvrir la fiche de ${profile.name}`);
     button.addEventListener("click", () => openProfile(profile));
 
+    const link = document.createElement("a");
+    link.className = "micro-action micro-link";
+    link.href = `/joueurs-psg/${profile.id}/`;
+    link.textContent = "Page";
+    link.setAttribute("aria-label", `Lire la page complète de ${profile.name}`);
+
     item.classList.add("is-interactive");
-    item.querySelector("div")?.append(button);
+    item.querySelector("div")?.append(button, link);
   });
 };
 
@@ -739,7 +745,7 @@ const initAppInstall = () => {
     const notice = document.createElement("aside");
     notice.className = "app-install-notice";
     notice.setAttribute("role", "status");
-    notice.innerHTML = '<strong>Installer Parisien 90</strong><p>Dans Safari, ouvrez Partager puis choisissez « Sur l\'ecran d\'accueil ».</p><button type="button" aria-label="Fermer">Fermer</button>';
+    notice.innerHTML = '<strong>Installer Parisien 90</strong><p>Dans Safari, ouvrez Partager puis choisissez « Sur l\'écran d\'accueil ».</p><button type="button" aria-label="Fermer">Fermer</button>';
     notice.querySelector("button")?.addEventListener("click", () => notice.remove());
     document.body.append(notice);
   };
