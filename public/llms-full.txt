@@ -91,7 +91,7 @@ Intentions couvertes :
 
 Contenu : prochains matchs, compétitions, dates importantes et grandes affiches.
 
-La page présente les 34 matchs de Ligue 1 du PSG pour la saison 2026-2027, avec filtres par mois, domicile/extérieur, statut d'horaire et adversaire. Les compétitions non encore publiées restent explicitement signalées comme à compléter.
+La page présente le calendrier PSG 2026-2027 complet à date : Ligue 1, phase de ligue de Ligue des champions, amicaux, Trophée des Champions, Supercoupe UEFA et jalons Coupe de France. Les matchs de Coupe de France sont affichés comme repères officiels FFF tant que l'adversaire du PSG n'est pas tiré.
 
 ### Joueurs PSG
 

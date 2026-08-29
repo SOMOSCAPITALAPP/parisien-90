@@ -1,6 +1,6 @@
 import { inject } from "@vercel/analytics";
 import { injectSpeedInsights } from "@vercel/speed-insights";
-import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, seasonSquads } from "./site-data.js";
+import { calendarWatchSources, currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, seasonSquads } from "./site-data.js";
 
 inject({ framework: "vite" });
 injectSpeedInsights({ framework: "vite" });
@@ -376,7 +376,14 @@ const createFixtureCard = (fixture) => {
   article.id = `${slugify(fixture.competition)}-${fixture.isoDate}-${slugify(fixture.opponent)}`;
   article.dataset.shareTitle = `${fixture.home} - ${fixture.away}, ${fixture.competition}`;
 
-  const placeClass = fixture.place === "Domicile" ? "is-home" : fixture.place === "Neutre" ? "is-neutral" : "is-away";
+  const placeClass =
+    fixture.place === "Domicile"
+      ? "is-home"
+      : fixture.place === "Neutre"
+        ? "is-neutral"
+        : fixture.place === "À confirmer"
+          ? "is-pending"
+          : "is-away";
   article.innerHTML = `
     <div class="match-date">
       <strong>${escapeHTML(fixtureLabel)}</strong>
@@ -391,6 +398,11 @@ const createFixtureCard = (fixture) => {
       </div>
       <h3>${escapeHTML(fixture.home)} <span>vs</span> ${escapeHTML(fixture.away)}</h3>
       <p>${escapeHTML(fixture.note)} ${escapeHTML(fixture.venue)}.</p>
+      ${
+        fixture.sourceUrl
+          ? `<a class="match-source" href="${escapeHTML(fixture.sourceUrl)}" rel="noopener noreferrer">Source : ${escapeHTML(fixture.source || "officielle")}</a>`
+          : ""
+      }
     </div>
     <div class="match-meta">
       <strong>${escapeHTML(fixture.time)}</strong>
@@ -400,23 +412,47 @@ const createFixtureCard = (fixture) => {
   return article;
 };
 
+const getFixtureStatusGroup = (fixture) => {
+  if (String(fixture.status || "").startsWith("Terminé")) return "Terminé";
+  return fixture.status;
+};
+
 const initCalendarApp = () => {
   const target = document.querySelector("[data-calendar-app]");
   if (!target) return;
 
   const months = Array.from(new Set(psgSchedule2627.map((fixture) => fixture.month)));
   const competitions = Array.from(new Set(psgSchedule2627.map((fixture) => fixture.competition)));
+  const places = ["Domicile", "Extérieur", "Neutre", "À confirmer"].filter((place) => psgSchedule2627.some((fixture) => fixture.place === place));
+  const statusOrder = ["Terminé", "Programmé", "Horaire à confirmer", "Tirage à venir", "Si qualification"];
+  const statuses = statusOrder.filter((status) => psgSchedule2627.some((fixture) => getFixtureStatusGroup(fixture) === status));
   const homeCount = psgSchedule2627.filter((fixture) => fixture.place === "Domicile").length;
-  const neutralCount = psgSchedule2627.filter((fixture) => fixture.place === "Neutre").length;
   const leagueCount = psgSchedule2627.filter((fixture) => fixture.competition === "Ligue 1").length;
+  const championsLeagueCount = psgSchedule2627.filter((fixture) => fixture.competition === "Ligue des champions").length;
+  const cupCount = psgSchedule2627.filter((fixture) => fixture.competition === "Coupe de France").length;
   const highlights = psgSchedule2627.filter((fixture) => fixture.highlight).length;
+  const watchMarkup = calendarWatchSources.map((item) => `
+    <article class="watch-card">
+      <div>
+        <strong>${escapeHTML(item.competition)}</strong>
+        <span>${escapeHTML(item.status)}</span>
+      </div>
+      <p>${escapeHTML(item.nextAction)}</p>
+      <div class="watch-links">
+        <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">${escapeHTML(item.source)}</a>
+        ${item.backupUrl ? `<a href="${escapeHTML(item.backupUrl)}" rel="noopener noreferrer">Source secondaire</a>` : ""}
+      </div>
+      <small>Vérifié le ${escapeHTML(item.updatedAt)}</small>
+    </article>
+  `).join("");
 
   target.innerHTML = `
     <div class="calendar-summary" aria-label="Synthèse calendrier PSG">
       <div><span>Total matchs</span><strong>${psgSchedule2627.length}</strong></div>
       <div><span>Ligue 1</span><strong>${leagueCount}</strong></div>
+      <div><span>Ligue des champions</span><strong>${championsLeagueCount}</strong></div>
+      <div><span>Coupe de France</span><strong>${cupCount}</strong></div>
       <div><span>Domicile</span><strong>${homeCount}</strong></div>
-      <div><span>Neutre</span><strong>${neutralCount}</strong></div>
       <div><span>Affiches</span><strong>${highlights}</strong></div>
     </div>
     <div class="interactive-toolbar">
@@ -432,9 +468,7 @@ const initCalendarApp = () => {
       <label class="control-field">Lieu
         <select data-calendar-place>
           <option value="all">Tous les lieux</option>
-          <option value="Domicile">Domicile</option>
-          <option value="Extérieur">Extérieur</option>
-          <option value="Neutre">Neutre</option>
+          ${places.map((place) => `<option value="${escapeHTML(place)}">${escapeHTML(place)}</option>`).join("")}
         </select>
       </label>
       <label class="control-field">Compétition
@@ -446,10 +480,12 @@ const initCalendarApp = () => {
       <label class="control-field">Statut
         <select data-calendar-status>
           <option value="all">Tous les horaires</option>
-          <option value="Programmé">Programmés</option>
-          <option value="Horaire à confirmer">À confirmer</option>
+          ${statuses.map((status) => `<option value="${escapeHTML(status)}">${escapeHTML(status)}</option>`).join("")}
         </select>
       </label>
+    </div>
+    <div class="calendar-watch" aria-label="Suivi officiel des compétitions à compléter">
+      ${watchMarkup}
     </div>
     <div class="calendar-meta" data-calendar-meta></div>
     <div class="match-list" data-calendar-list></div>
@@ -471,7 +507,7 @@ const initCalendarApp = () => {
         (month.value === "all" || fixture.month === month.value) &&
         (place.value === "all" || fixture.place === place.value) &&
         (competition.value === "all" || fixture.competition === competition.value) &&
-        (status.value === "all" || fixture.status === status.value) &&
+        (status.value === "all" || getFixtureStatusGroup(fixture) === status.value) &&
         (!term || haystack.includes(term))
       );
     });

@@ -70,12 +70,14 @@
     },
     {
       "url": "https://parisien90.com/calendrier-psg/",
-      "title": "Calendrier PSG 2026-2027 complet : Ligue 1, matchs et affiches",
-      "intent": "Consulter les 34 matchs de Ligue 1 du PSG, avec filtres par mois, lieu et horaire",
+      "title": "Calendrier PSG 2026-2027 complet : Ligue 1, Ligue des champions, Coupe de France",
+      "intent": "Consulter le calendrier PSG 2026-2027 complet à date, avec Ligue 1, phase de ligue de Ligue des champions et jalons Coupe de France",
       "queries": [
         "calendrier PSG",
         "calendrier PSG 2026-2027",
         "prochain match PSG",
+        "calendrier PSG Ligue des champions",
+        "Coupe de France PSG 2026 2027",
         "OM PSG 2027",
         "PSG Rennes 2026"
       ]
