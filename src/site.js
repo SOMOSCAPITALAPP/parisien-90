@@ -87,6 +87,10 @@ const initAllTimePlayerIndex = () => {
   const profile = document.querySelector("[data-all-time-profile]");
   const count = document.querySelector("[data-all-time-count]");
 
+  if (search && query) {
+    search.value = query;
+  }
+
   const render = () => {
     const term = search?.value.trim().toLowerCase() || "";
     const positionValue = position?.value || "Tous";

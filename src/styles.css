@@ -2105,6 +2105,33 @@ main {
   line-height: 1.45;
 }
 
+.history-player-search {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 18px;
+  align-items: center;
+  border-color: #bfdbfe;
+  background: linear-gradient(135deg, #ffffff 0%, #eef5ff 100%);
+}
+
+.history-player-search h2 {
+  max-width: 700px;
+}
+
+.history-search-form {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.history-search-form .primary-action {
+  width: 100%;
+  justify-content: center;
+}
+
 .all-time-index-page h1 {
   max-width: 920px;
   margin: 0;
@@ -2661,6 +2688,7 @@ span.squad-player {
 
   .signal-strip,
   .metric-strip,
+  .history-player-search,
   .transfer-grid,
   .story-grid,
   .side-column,

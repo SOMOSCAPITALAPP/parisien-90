@@ -50,12 +50,33 @@
           Né en 1970 pour rendre une grande équipe à la capitale, le Paris Saint-Germain est devenu en 2026 un double
           champion d'Europe, une marque mondiale et le club autour duquel tout le football français gravite.
         </p>
+        <div class="hero-actions">
+          <a class="primary-action" href="/anciens-joueurs-psg/">Rechercher un ancien joueur</a>
+          <a class="secondary-action" href="#fiches-anciens-joueurs">Voir les fiches stars</a>
+        </div>
       </section>
 
       <section class="signal-strip" aria-label="Palmarès PSG">
         <article class="signal-card"><span>Titres officiels masculins</span><strong>60</strong></article>
         <article class="signal-card tone-red"><span>Ligue des champions</span><strong>2</strong></article>
         <article class="signal-card tone-green"><span>Années d'histoire</span><strong>56</strong></article>
+      </section>
+
+      <section class="content-section history-player-search">
+        <div>
+          <span class="section-kicker">Recherche joueurs</span>
+          <h2>Trouvez directement un ancien joueur du PSG</h2>
+          <p>
+            Accédez à l'index A-Z des anciens joueurs : Messi, Neymar, Mbappé, Ronaldinho, Zlatan, Raí, Pauleta,
+            Beckham et plus de 500 noms passés par Paris.
+          </p>
+        </div>
+        <form class="history-search-form" action="/anciens-joueurs-psg/" method="get">
+          <label class="control-field">Nom du joueur
+            <input type="search" name="q" placeholder="Messi, Neymar, Mbappé..." />
+          </label>
+          <button class="primary-action" type="submit">Rechercher</button>
+        </form>
       </section>
 
       <section class="content-section">
@@ -99,7 +120,7 @@
         </aside>
       </section>
 
-      <section class="content-section">
+      <section class="content-section" id="fiches-anciens-joueurs">
         <span class="section-kicker">Légendes</span>
         <h2>Les plus grands joueurs de l'histoire du PSG</h2>
         <p class="section-note">Cliquez sur un nom pour ouvrir une fiche : période au PSG, rôle, statut vivant/mort et situation publique actuelle lorsque l'information est fiable.</p>
