@@ -26,7 +26,7 @@ Le contenu est organisé en pages piliers indexables, avec titres explicites, de
 
 ### Accueil
 
-URL : https://parisien-90.vercel.app/
+URL : https://parisien90.com/
 
 Intentions couvertes :
 - actualité PSG
@@ -39,7 +39,7 @@ Contenu : hub éditorial reliant les pages importantes du site, avec signaux du 
 
 ### Transfert PSG
 
-URL : https://parisien-90.vercel.app/transfert-psg/
+URL : https://parisien90.com/transfert-psg/
 
 Intentions couvertes :
 - transfert PSG
@@ -53,7 +53,7 @@ Contenu : page pilier sur les mouvements du PSG, avec dossiers joueurs, probabil
 
 ### Mercato PSG
 
-URL : https://parisien-90.vercel.app/mercato-psg/
+URL : https://parisien90.com/mercato-psg/
 
 Intentions couvertes :
 - mercato PSG
@@ -66,7 +66,7 @@ Contenu : live marché, rumeurs classées, fiabilité des sources, lecture des p
 
 ### Actualité PSG
 
-URL : https://parisien-90.vercel.app/actualite-psg/
+URL : https://parisien90.com/actualite-psg/
 
 Intentions couvertes :
 - actualité PSG
@@ -80,7 +80,7 @@ La page contient aussi un fil long chargé par lots : les informations sont ré�
 
 ### Calendrier PSG
 
-URL : https://parisien-90.vercel.app/calendrier-psg/
+URL : https://parisien90.com/calendrier-psg/
 
 Intentions couvertes :
 - calendrier PSG
@@ -95,7 +95,7 @@ La page présente les 34 matchs de Ligue 1 du PSG pour la saison 2026-2027, avec
 
 ### Joueurs PSG
 
-URL : https://parisien-90.vercel.app/joueurs-psg/
+URL : https://parisien90.com/joueurs-psg/
 
 Intentions couvertes :
 - joueurs PSG
@@ -110,7 +110,7 @@ Chaque joueur listé dispose d'une fiche interactive avec numéro, poste, rôle,
 
 ### Sources PSG
 
-URL : https://parisien-90.vercel.app/sources-psg/
+URL : https://parisien90.com/sources-psg/
 
 Intentions couvertes :
 - sources PSG
@@ -123,7 +123,7 @@ Contenu : répertoire de liens utiles et méthode de veille conforme. La page pr
 
 ### Droits & disclaimer
 
-URL : https://parisien-90.vercel.app/droits-disclaimer/
+URL : https://parisien90.com/droits-disclaimer/
 
 Intentions couvertes :
 - droits PSG
@@ -136,7 +136,7 @@ Contenu : politique d'indépendance, usage descriptif des marques, matrice des c
 
 ### Histoire PSG
 
-URL : https://parisien-90.vercel.app/histoire-psg/
+URL : https://parisien90.com/histoire-psg/
 
 Intentions couvertes :
 - histoire PSG

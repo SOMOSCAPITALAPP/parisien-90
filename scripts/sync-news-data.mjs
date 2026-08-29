@@ -1,7 +1,7 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { newsFeed, newsMeta } from "../src/site-data.js";
 
-const siteUrl = "https://parisien-90.vercel.app";
+const siteUrl = "https://parisien90.com";
 const publicDir = new URL("../public/", import.meta.url);
 const newsDir = new URL("../news/", import.meta.url);
 const currentDate = newsMeta.updatedAt.slice(0, 10);

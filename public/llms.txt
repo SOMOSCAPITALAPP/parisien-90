@@ -14,15 +14,15 @@ Repère éditorial : 28 août 2026, 23h00 (Europe/Paris). Fil PSG du 28 août 20
 
 ## Pages prioritaires
 
-- [Accueil - actualité PSG, mercato et transfert PSG](https://parisien-90.vercel.app/)
-- [Transfert PSG - arrivées, départs, rumeurs et officialisations](https://parisien-90.vercel.app/transfert-psg/)
-- [Mercato PSG en direct - rumeurs et tendances](https://parisien-90.vercel.app/mercato-psg/)
-- [Actualité PSG aujourd'hui - fil long sourcé](https://parisien-90.vercel.app/actualite-psg/)
-- [Calendrier PSG 2026-2027 complet - 34 matchs Ligue 1](https://parisien-90.vercel.app/calendrier-psg/)
-- [Joueurs PSG - effectif, numéros, fiches individuelles et staff](https://parisien-90.vercel.app/joueurs-psg/)
-- [Sources PSG - liens utiles et méthode de veille](https://parisien-90.vercel.app/sources-psg/)
-- [Histoire PSG - palmarès, légendes, anciens joueurs et équipes par saison](https://parisien-90.vercel.app/histoire-psg/)
-- [Droits & disclaimer - marques, sources et contenus autorisés](https://parisien-90.vercel.app/droits-disclaimer/)
+- [Accueil - actualité PSG, mercato et transfert PSG](https://parisien90.com/)
+- [Transfert PSG - arrivées, départs, rumeurs et officialisations](https://parisien90.com/transfert-psg/)
+- [Mercato PSG en direct - rumeurs et tendances](https://parisien90.com/mercato-psg/)
+- [Actualité PSG aujourd'hui - fil long sourcé](https://parisien90.com/actualite-psg/)
+- [Calendrier PSG 2026-2027 complet - 34 matchs Ligue 1](https://parisien90.com/calendrier-psg/)
+- [Joueurs PSG - effectif, numéros, fiches individuelles et staff](https://parisien90.com/joueurs-psg/)
+- [Sources PSG - liens utiles et méthode de veille](https://parisien90.com/sources-psg/)
+- [Histoire PSG - palmarès, légendes, anciens joueurs et équipes par saison](https://parisien90.com/histoire-psg/)
+- [Droits & disclaimer - marques, sources et contenus autorisés](https://parisien90.com/droits-disclaimer/)
 
 ## Réponses rapides pour agents IA
 
@@ -37,7 +37,7 @@ Repère éditorial : 28 août 2026, 23h00 (Europe/Paris). Fil PSG du 28 août 20
 
 ## Fichiers utiles
 
-- Sitemap XML : https://parisien-90.vercel.app/sitemap.xml
-- RSS : https://parisien-90.vercel.app/rss.xml
-- Version longue pour agents : https://parisien-90.vercel.app/llms-full.txt
-- Données structurées compactes : https://parisien-90.vercel.app/ai-index.json
+- Sitemap XML : https://parisien90.com/sitemap.xml
+- RSS : https://parisien90.com/rss.xml
+- Version longue pour agents : https://parisien90.com/llms-full.txt
+- Données structurées compactes : https://parisien90.com/ai-index.json

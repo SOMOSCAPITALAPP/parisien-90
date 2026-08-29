@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "Parisien 90",
-    "url": "https://parisien-90.vercel.app/",
+    "url": "https://parisien90.com/",
     "language": "fr-FR",
     "topic": "Paris Saint-Germain",
     "audience": [
@@ -36,7 +36,7 @@
   ],
   "priorityPages": [
     {
-      "url": "https://parisien-90.vercel.app/transfert-psg/",
+      "url": "https://parisien90.com/transfert-psg/",
       "title": "Transfert PSG : arrivées, départs et rumeurs du Paris SG",
       "intent": "Suivre les transferts du Paris Saint-Germain",
       "queries": [
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "url": "https://parisien-90.vercel.app/mercato-psg/",
+      "url": "https://parisien90.com/mercato-psg/",
       "title": "Mercato PSG en direct : rumeurs et infos transfert Paris",
       "intent": "Suivre le mercato PSG en direct",
       "queries": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "url": "https://parisien-90.vercel.app/actualite-psg/",
+      "url": "https://parisien90.com/actualite-psg/",
       "title": "Actualité PSG aujourd'hui : infos Paris Saint-Germain",
       "intent": "Lire les infos PSG du jour avec un fil long, sourcé et réécrit",
       "queries": [
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "url": "https://parisien-90.vercel.app/calendrier-psg/",
+      "url": "https://parisien90.com/calendrier-psg/",
       "title": "Calendrier PSG 2026-2027 complet : Ligue 1, matchs et affiches",
       "intent": "Consulter les 34 matchs de Ligue 1 du PSG, avec filtres par mois, lieu et horaire",
       "queries": [
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "url": "https://parisien-90.vercel.app/joueurs-psg/",
+      "url": "https://parisien90.com/joueurs-psg/",
       "title": "Joueurs PSG 2026-2027 : effectif, numéros, fiches et staff",
       "intent": "Consulter l'effectif PSG 2026-2027, les fiches individuelles et le staff",
       "queries": [
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "url": "https://parisien-90.vercel.app/sources-psg/",
+      "url": "https://parisien90.com/sources-psg/",
       "title": "Sources PSG : liens fiables pour l'actualité et le mercato",
       "intent": "Identifier les sources fiables pour suivre le PSG sans reprendre abusivement les contenus tiers",
       "queries": [
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "url": "https://parisien-90.vercel.app/histoire-psg/",
+      "url": "https://parisien90.com/histoire-psg/",
       "title": "Histoire du PSG : palmarès, légendes et grands joueurs",
       "intent": "Comprendre l'histoire, le palmarès, les anciens joueurs et les équipes saison par saison",
       "queries": [
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "url": "https://parisien-90.vercel.app/droits-disclaimer/",
+      "url": "https://parisien90.com/droits-disclaimer/",
       "title": "Droits, marques et disclaimer | Parisien 90",
       "intent": "Comprendre la politique d'utilisation des marques, sources et contenus tiers",
       "queries": [
@@ -134,7 +134,7 @@
       "title": "Lille-PSG : Paris revient de l'enfer en quatre minutes",
       "category": "Match",
       "dateTime": "2026-08-28T23:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/lille-psg-nul-remontee-vitinha-marquinhos-aout-2026/",
+      "url": "https://parisien90.com/news/lille-psg-nul-remontee-vitinha-marquinhos-aout-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/losc-vs-paris-2026-08-28",
       "reliability": "Officiel"
@@ -143,7 +143,7 @@
       "title": "PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc",
       "category": "Calendrier",
       "dateTime": "2026-08-28T18:11:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/lfp-amende-psg-inversion-retour-rennes-aout-2026/",
+      "url": "https://parisien90.com/news/lfp-amende-psg-inversion-retour-rennes-aout-2026/",
       "source": "LFP",
       "sourceUrl": "https://www.lfp.fr/article/decisions-de-la-commission-des-competitions-du-28-aout-2026",
       "reliability": "Officiel"
@@ -152,7 +152,7 @@
       "title": "Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux",
       "category": "Féminines",
       "dateTime": "2026-08-26T21:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/eintracht-francfort-psg-feminin-nul-barrage-uwcl-aout-2026/",
+      "url": "https://parisien90.com/news/eintracht-francfort-psg-feminin-nul-barrage-uwcl-aout-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/paris-accroche-francfort-et-jouera-sa-qualification-a-domicile-cr-eintracht-francfort-paris-saint-germain-uefa-womens-champions-league-2026-2027",
       "reliability": "Officiel"
@@ -161,7 +161,7 @@
       "title": "Dembélé reprendra l'entraînement avec le groupe le 31 août",
       "category": "Groupe",
       "dateTime": "2026-08-25T20:56:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/ousmane-dembele-reprise-entrainement-31-aout-2026/",
+      "url": "https://parisien90.com/news/ousmane-dembele-reprise-entrainement-31-aout-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/ousmane-dembele-reprendra-le-lundi-31-aout",
       "reliability": "Officiel"
@@ -170,7 +170,7 @@
       "title": "Yoram Zague prêté à Paphos avec option d'achat",
       "category": "Mercato",
       "dateTime": "2026-08-25T14:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/yoram-zague-pret-officiel-pafos-2026-2027/",
+      "url": "https://parisien90.com/news/yoram-zague-pret-officiel-pafos-2026-2027/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/cp-yoram-zague-prete-au-paphos-fc",
       "reliability": "Officiel"
@@ -179,7 +179,7 @@
       "title": "Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble",
       "category": "Analyse",
       "dateTime": "2026-08-24T14:02:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/ferran-torres-double-debuts-doue-dribbles-ligue-1-aout-2026/",
+      "url": "https://parisien90.com/news/ferran-torres-double-debuts-doue-dribbles-ligue-1-aout-2026/",
       "source": "Ligue 1",
       "sourceUrl": "https://ligue1.com/fr/articles/l1_article_5725-les-stats-marquantes-de-la-j1",
       "reliability": "Officiel — statistiques LFP"
@@ -188,7 +188,7 @@
       "title": "Rennes-PSG : Paris arrache un nul 2-2 pour sa rentrée en Ligue 1",
       "category": "Match",
       "dateTime": "2026-08-23T22:38:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/rennes-psg-nul-2-2-ligue-1-aout-2026/",
+      "url": "https://parisien90.com/news/rennes-psg-nul-2-2-ligue-1-aout-2026/",
       "source": "L'Équipe",
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-ferran-torres-le-psg-ramene-le-nul-de-rennes/1713126",
       "reliability": "Fort — score, buteurs et scénario recoupés"
@@ -197,7 +197,7 @@
       "title": "PSG-Monaco : le Parc attend Monaco à 19h05 le 4 septembre",
       "category": "Calendrier",
       "dateTime": "2026-08-20T12:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-monaco-horaire-officiel-19h05-septembre-2026/",
+      "url": "https://parisien90.com/news/psg-monaco-horaire-officiel-19h05-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1",
       "reliability": "Officiel"
@@ -206,7 +206,7 @@
       "title": "PSG-Rennes inversé : la LFP a déplacé la rentrée parisienne au Roazhon Park",
       "category": "Calendrier",
       "dateTime": "2026-08-19T18:23:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-rennes-inversion-officielle-lfp-aout-2026/",
+      "url": "https://parisien90.com/news/psg-rennes-inversion-officielle-lfp-aout-2026/",
       "source": "Ligue 1",
       "sourceUrl": "https://ligue1.com/fr/articles/l1_article_5699-j1-psg-rennes-inverse-l1-2627",
       "reliability": "Officiel"
@@ -215,7 +215,7 @@
       "title": "Lens-PSG : Paris tombe 1-0 et laisse le Trophée des Champions aux Sang et Or",
       "category": "Match",
       "dateTime": "2026-08-16T22:45:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/lens-psg-trophee-champions-defaite-officielle-2026/",
+      "url": "https://parisien90.com/news/lens-psg-trophee-champions-defaite-officielle-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/matches/mens-football/20262027/lens-vs-paris-2026-08-16",
       "reliability": "Officiel"
@@ -224,7 +224,7 @@
       "title": "Lens-PSG : Paris vise un 15e Trophée des Champions, record français",
       "category": "Match",
       "dateTime": "2026-08-16T12:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/lens-psg-chiffres-officiels-trophee-champions-2026/",
+      "url": "https://parisien90.com/news/lens-psg-chiffres-officiels-trophee-champions-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/the-key-stats-trophee-des-champions",
       "reliability": "Officiel"
@@ -233,7 +233,7 @@
       "title": "Lens-PSG : 23 joueurs convoqués, João Neves absent du groupe",
       "category": "Match",
       "dateTime": "2026-08-16T11:30:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/lens-psg-groupe-23-neves-absent-trophee-champions-2026/",
+      "url": "https://parisien90.com/news/lens-psg-groupe-23-neves-absent-trophee-champions-2026/",
       "source": "CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/news/match/le-groupe-pour-lens-psg-avec-deux-recrues-seulement/60357",
       "reliability": "Fort — groupe et information de gestion rapportés"
@@ -242,7 +242,7 @@
       "title": "Mika Godts signe au PSG : Paris ajoute un ailier belge jusqu'en 2031",
       "category": "Mercato",
       "dateTime": "2026-08-16T00:05:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/mika-godts-officiel-psg-contrat-2031/",
+      "url": "https://parisien90.com/news/mika-godts-officiel-psg-contrat-2031/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/cp-mika-godts-s-engage-avec-le-paris-saint-germain/",
       "reliability": "Officiel"
@@ -251,7 +251,7 @@
       "title": "Ferran Torres est Parisien : le champion du monde signe jusqu'en 2031",
       "category": "Mercato",
       "dateTime": "2026-08-15T12:55:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/ferran-torres-officiel-psg-contrat-2031/",
+      "url": "https://parisien90.com/news/ferran-torres-officiel-psg-contrat-2031/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/cp-ferran-torres-rejoint-le-paris-saint-germain/",
       "reliability": "Officiel"
@@ -260,7 +260,7 @@
       "title": "PSG-Aston Villa : Paris gagne 2-1 et conserve sa Supercoupe de l'UEFA",
       "category": "Europe",
       "dateTime": "2026-08-12T22:55:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-aston-villa-supercoupe-uefa-victoire-2026/",
+      "url": "https://parisien90.com/news/psg-aston-villa-supercoupe-uefa-victoire-2026/",
       "source": "PSG.fr, confirmé par Cadena SER",
       "sourceUrl": "https://www.psg.fr/en/matches/mens-football/20262027/paris-vs-aston-villa-2026-08-12",
       "reliability": "Officiel"
@@ -269,7 +269,7 @@
       "title": "PSG féminin–Francfort : Paris connaît son obstacle européen d'août",
       "category": "Féminines",
       "dateTime": "2026-08-11T14:15:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-feminin-francfort-tour-3-ligue-champions-2026/",
+      "url": "https://parisien90.com/news/psg-feminin-francfort-tour-3-ligue-champions-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/paris-to-face-frankfurt-in-womens-champions-league-3rd-qualifying-round-draw-paris-saint-germain-feminines-2026-2027",
       "reliability": "Officiel"
@@ -278,7 +278,7 @@
       "title": "PSG-Aston Villa : Paris est arrivé à Salzbourg pour son premier trophée",
       "category": "Europe",
       "dateTime": "2026-08-11T14:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-arrive-salzbourg-supercoupe-aston-villa-2026/",
+      "url": "https://parisien90.com/news/psg-arrive-salzbourg-supercoupe-aston-villa-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/direction-salzburg-paris-saint-germain-aston-villa-super-coupe-de-luefa-2026",
       "reliability": "Officiel"
@@ -287,7 +287,7 @@
       "title": "PSG-Aston Villa : le groupe de 24 est officiel, Digne et Akliouche y sont",
       "category": "Europe",
       "dateTime": "2026-08-11T12:55:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/groupe-psg-aston-villa-supercoupe-uefa-2026/",
+      "url": "https://parisien90.com/news/groupe-psg-aston-villa-supercoupe-uefa-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/squad-paris-saint-germain-v-aston-villa-fc-uefa-super-cup-20262027",
       "reliability": "Officiel"
@@ -296,7 +296,7 @@
       "title": "Suzuki : accord PSG-Parme trouvé, mais Paris prépare déjà un prêt",
       "category": "Mercato",
       "dateTime": "2026-08-11T11:44:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/zion-suzuki-accord-parme-psg-pret-juventus-attendu/",
+      "url": "https://parisien90.com/news/zion-suzuki-accord-parme-psg-pret-juventus-attendu/",
       "source": "L'Équipe (Loïc Tanzi)",
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-accord-parme-psg/1710229",
       "reliability": "Fort — accord de clubs rapporté, signatures attendues"
@@ -305,7 +305,7 @@
       "title": "Lucas Digne revient au PSG : contrat jusqu'en 2029 et numéro 12",
       "category": "Mercato",
       "dateTime": "2026-08-09T19:08:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/lucas-digne-officiel-retour-psg-contrat-2029/",
+      "url": "https://parisien90.com/news/lucas-digne-officiel-retour-psg-contrat-2029/",
       "source": "PSG, confirmé par AS",
       "sourceUrl": "https://as.com/futbol/internacional/oficial-digne-a-paris-f202608-n/",
       "reliability": "Officiel"
@@ -314,7 +314,7 @@
       "title": "Calendrier PSG complet : amicaux, Aston Villa, Lens et Ligue 1 sont enfin réunis",
       "category": "Calendrier",
       "dateTime": "2026-08-09T09:30:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/calendrier-psg-complet-amical-europe-ligue1-2026/",
+      "url": "https://parisien90.com/news/calendrier-psg-complet-amical-europe-ligue1-2026/",
       "source": "PSG.fr et billetterie officielle PSG",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
       "reliability": "Officiel — calendrier consolidé"
@@ -323,7 +323,7 @@
       "title": "PSG-Aston Villa : la Supercoupe UEFA devient le premier vrai test de la saison",
       "category": "Europe",
       "dateTime": "2026-08-09T09:12:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/aston-villa-psg-supercoupe-uefa-salzbourg-2026/",
+      "url": "https://parisien90.com/news/aston-villa-psg-supercoupe-uefa-salzbourg-2026/",
       "source": "Billetterie PSG",
       "sourceUrl": "https://billetterie.psg.fr/fr/offres/supercoupe-europe-2026-13062026-salzburg",
       "reliability": "Officiel"
@@ -332,7 +332,7 @@
       "title": "Akliouche est Parisien : le PSG verrouille enfin sa deuxième recrue de l'été",
       "category": "Mercato",
       "dateTime": "2026-08-09T08:54:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/akliouche-officiel-psg-contrat-2031/",
+      "url": "https://parisien90.com/news/akliouche-officiel-psg-contrat-2031/",
       "source": "CulturePSG / Le Parisien",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-officialise-akliouche-sa-deuxieme-recrue-de-lete/60257",
       "reliability": "Officiel"
@@ -341,7 +341,7 @@
       "title": "Ferran Torres avant Aston Villa ? Paris veut frapper vite, le Barça discute encore",
       "category": "Mercato",
       "dateTime": "2026-08-09T08:32:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/ferran-torres-psg-deal-avant-supercoupe/",
+      "url": "https://parisien90.com/news/ferran-torres-psg-deal-avant-supercoupe/",
       "source": "CulturePSG / presse espagnole",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-transfert-de-ferran-torres-au-psg-regle-avant-le-12-aout/60241",
       "reliability": "Rumeur solide — accord club non officialisé"
@@ -350,7 +350,7 @@
       "title": "Suzuki : Paris prépare l'offre qui peut faire craquer Parme",
       "category": "Mercato",
       "dateTime": "2026-08-09T08:10:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/suzuki-psg-nouvelle-offre-parme/",
+      "url": "https://parisien90.com/news/suzuki-psg-nouvelle-offre-parme/",
       "source": "CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/fr/news/mercato/le-psg-prepare-une-nouvelle-offre-pour-suzuki/60242",
       "reliability": "Rumeur solide — nouvelle offre attendue"
@@ -359,7 +359,7 @@
       "title": "PSG-Monaco et Brest-PSG : les dates du 4 et du 13 septembre, à 18h45, sont confirmées",
       "category": "Calendrier",
       "dateTime": "2026-08-09T06:30:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/calendrier-psg-monaco-brest-programmation-4-13-septembre/",
+      "url": "https://parisien90.com/news/calendrier-psg-monaco-brest-programmation-4-13-septembre/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
       "reliability": "Officiel"
@@ -368,7 +368,7 @@
       "title": "PSG-Manchester United : Ibrahim Mbaye lance Paris, mais l'amical se termine sur un nul",
       "category": "Match",
       "dateTime": "2026-08-08T19:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/psg-manchester-united-nul-amical-mbaye-2026/",
+      "url": "https://parisien90.com/news/psg-manchester-united-nul-amical-mbaye-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/paris-vs-man-utd-2026-08-08",
       "reliability": "Officiel"
@@ -377,7 +377,7 @@
       "title": "Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation",
       "category": "Match",
       "dateTime": "2026-08-05T21:00:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/mallorca-psg-defaite-amical-officiel-2026/",
+      "url": "https://parisien90.com/news/mallorca-psg-defaite-amical-officiel-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/mallorca-vs-paris-2026-08-05",
       "reliability": "Officiel"
@@ -386,7 +386,7 @@
       "title": "Suzuki au PSG : Paris avance, mais le vrai plan dépend de Chevalier",
       "category": "Mercato",
       "dateTime": "2026-08-04T12:55:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/suzuki-chevalier-plan-psg-2026/",
+      "url": "https://parisien90.com/news/suzuki-chevalier-plan-psg-2026/",
       "source": "CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-plan-du-psg-pour-suzuki-et-chevalier-se-precise/60233",
       "reliability": "Fort — offre et plan à confirmer"
@@ -395,7 +395,7 @@
       "title": "Tableau mercato PSG : Akliouche, Ferran, Godts, Suzuki, Digne... Paris ouvre enfin le grand chantier",
       "category": "Transferts",
       "dateTime": "2026-08-04T11:45:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/tableau-mercato-psg-aout-2026/",
+      "url": "https://parisien90.com/news/tableau-mercato-psg-aout-2026/",
       "source": "CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
       "reliability": "Tableau de suivi — statuts à vérifier dossier par dossier"

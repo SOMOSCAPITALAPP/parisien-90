@@ -40,4 +40,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://parisien-90.vercel.app/sitemap.xml
+Sitemap: https://parisien90.com/sitemap.xml

@@ -1,5 +1,29 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "vite"
+  "framework": "vite",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "parisien-90.vercel.app"
+        }
+      ],
+      "destination": "https://parisien90.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.parisien90.com"
+        }
+      ],
+      "destination": "https://parisien90.com/$1",
+      "permanent": true
+    }
+  ]
 }
