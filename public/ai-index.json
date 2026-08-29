@@ -20,8 +20,8 @@
       "effectif PSG",
       "histoire PSG"
     ],
-    "lastVerifiedAt": "2026-08-28T18:11:00+02:00",
-    "freshnessNote": "Fil PSG du 28 août 2026. Fil public : 83 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat ; Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-08-28T23:00:00+02:00",
+    "freshnessNote": "Fil PSG du 28 août 2026. Fil public : 84 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Lille-PSG : Paris revient de l'enfer en quatre minutes ; PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -130,6 +130,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Lille-PSG : Paris revient de l'enfer en quatre minutes",
+      "category": "Match",
+      "dateTime": "2026-08-28T23:00:00+02:00",
+      "url": "https://parisien-90.vercel.app/news/lille-psg-nul-remontee-vitinha-marquinhos-aout-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/losc-vs-paris-2026-08-28",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc",
       "category": "Calendrier",
@@ -390,15 +399,6 @@
       "source": "CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
       "reliability": "Tableau de suivi — statuts à vérifier dossier par dossier"
-    },
-    {
-      "title": "Godts : l'Ajax refuse la première offre, Paris teste déjà la résistance",
-      "category": "Mercato",
-      "dateTime": "2026-08-04T11:19:00+02:00",
-      "url": "https://parisien-90.vercel.app/news/godts-ajax-refuse-premiere-offre-psg/",
-      "source": "CulturePSG",
-      "sourceUrl": "https://www.culturepsg.com/news/mercato/l-ajax-refuse-la-premiere-offre-du-psg-pour-godts/60232",
-      "reliability": "Rumeur solide — offre refusée selon média spécialisé"
     }
   ]
 }

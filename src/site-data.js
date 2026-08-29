@@ -4,7 +4,7 @@ export const psgSchedule2627 = [
   { round: 0, roundLabel: "UEFA", isoDate: "2026-08-12", day: "mercredi", dateLabel: "12 août 2026", month: "2026-08", competition: "Supercoupe de l'UEFA", home: "Paris Saint-Germain", away: "Aston Villa FC", opponent: "Aston Villa", venue: "Red Bull Arena, Salzbourg", place: "Neutre", time: "21:00", status: "Terminé 2-1", note: "Kvaratskhelia et Doué ont offert au PSG une deuxième Supercoupe de l'UEFA consécutive.", highlight: true },
   { round: 0, roundLabel: "TDC", isoDate: "2026-08-16", day: "dimanche", dateLabel: "16 août 2026", month: "2026-08", competition: "Trophée des Champions", home: "Racing Club de Lens", away: "Paris Saint-Germain", opponent: "RC Lens", venue: "Stade Bollaert-Delelis", place: "Extérieur", time: "20:45", status: "Terminé 1-0", note: "Lens a remporté le Trophée des Champions 1-0, malgré une longue supériorité numérique parisienne.", highlight: true },
   { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Stade Rennais", away: "Paris Saint-Germain", opponent: "Stade Rennais", venue: "Roazhon Park", place: "Extérieur", time: "20:45", status: "Terminé 2-2", note: "La LFP a inversé l'affiche en raison de la pelouse du Parc ; Paris a arraché le nul à Rennes.", highlight: true },
-  { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier déplacement dense de la saison.", highlight: false },
+  { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "20:45", status: "Terminé 2-2", note: "Mené 2-0, Paris a arraché le nul dans le temps additionnel grâce à Vitinha puis Marquinhos.", highlight: true },
   { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "19:05", status: "Programmé", note: "Affiche directe entre prétendants au podium, programmée à 19h05.", highlight: true },
   { round: 4, isoDate: "2026-09-13", day: "dimanche", dateLabel: "13 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "18:45", status: "Programmé", note: "Déplacement piège après la trêve.", highlight: false },
   { round: 5, isoDate: "2026-09-20", day: "dimanche", dateLabel: "20 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Olympique de Marseille", away: "Paris Saint-Germain", opponent: "Olympique de Marseille", venue: "Orange Vélodrome", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier Classique de la saison.", highlight: true },
@@ -158,10 +158,10 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-28T18:11:00+02:00",
+  updatedAt: "2026-08-28T23:00:00+02:00",
   edition: "Fil PSG du 28 août 2026",
   displayDate: "28 août 2026",
-  displayTime: "18h11",
+  displayTime: "23h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -169,6 +169,7 @@ const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, da
 
 export const newsFeed = [
   ...withNewsDate("2026-08-28", "28 août 2026", [
+  { id: "lille-psg-nul-remontee-vitinha-marquinhos-aout-2026", time: "23:00", category: "Match", title: "Lille-PSG : Paris revient de l'enfer en quatre minutes", summary: "Mené 2-0 après les buts de Hákon Haraldsson puis Dilane Bakwa, le PSG a refusé de tomber. Vitinha a relancé Paris à la 91e minute, avant de servir Marquinhos pour l'égalisation à la 95e : un 2-2 spectaculaire, mais déjà le deuxième nul en deux journées.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/20262027/losc-vs-paris-2026-08-28", reliability: "Officiel", viral: 96 },
   { id: "lfp-amende-psg-inversion-retour-rennes-aout-2026", time: "18:11", category: "Calendrier", title: "PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc", summary: "La Commission des compétitions de la LFP a infligé au PSG une amende de 150 000 € après l'inversion de la première journée, liée aux obligations de praticabilité du terrain et de stade de repli. Elle confirme aussi l'inversion du retour : la 23e journée se jouera bien au Parc des Princes, où le PSG recevra Rennes.", source: "LFP", url: "https://www.lfp.fr/article/decisions-de-la-commission-des-competitions-du-28-aout-2026", reliability: "Officiel", viral: 86 },
   ]),
   ...withNewsDate("2026-08-26", "26 août 2026", [

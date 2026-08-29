@@ -5,7 +5,14 @@
     <link>https://parisien-90.vercel.app/</link>
     <description>Actualité PSG, mercato et transfert Paris Saint-Germain.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 28 Aug 2026 16:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 21:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Lille-PSG : Paris revient de l&apos;enfer en quatre minutes</title>
+      <link>https://parisien-90.vercel.app/news/lille-psg-nul-remontee-vitinha-marquinhos-aout-2026/</link>
+      <guid>https://parisien-90.vercel.app/news/lille-psg-nul-remontee-vitinha-marquinhos-aout-2026/</guid>
+      <pubDate>Fri, 28 Aug 2026 21:00:00 +0000</pubDate>
+      <description>Mené 2-0 après les buts de Hákon Haraldsson puis Dilane Bakwa, le PSG a refusé de tomber. Vitinha a relancé Paris à la 91e minute, avant de servir Marquinhos pour l&apos;égalisation à la 95e : un 2-2 spectaculaire, mais déjà le deuxième nul en deux journées. Source : PSG.fr.</description>
+    </item>
     <item>
       <title>PSG-Rennes : 150 000 € d&apos;amende, le match retour confirmé au Parc</title>
       <link>https://parisien-90.vercel.app/news/lfp-amende-psg-inversion-retour-rennes-aout-2026/</link>
@@ -166,13 +173,6 @@
       <guid>https://parisien-90.vercel.app/news/ferran-torres-psg-deal-avant-supercoupe/</guid>
       <pubDate>Sun, 09 Aug 2026 06:32:00 +0000</pubDate>
       <description>CulturePSG indique que le dossier Ferran Torres pourrait recevoir une offre officielle avant le 12 août, tandis que d&apos;autres médias évoquent un accord possible autour de 50 M€. Parisien 90 le classe chaud, mais pas officiel : le joueur, le Barça et le timing restent les trois verrous. Source : CulturePSG / presse espagnole.</description>
-    </item>
-    <item>
-      <title>Suzuki : Paris prépare l&apos;offre qui peut faire craquer Parme</title>
-      <link>https://parisien-90.vercel.app/news/suzuki-psg-nouvelle-offre-parme/</link>
-      <guid>https://parisien-90.vercel.app/news/suzuki-psg-nouvelle-offre-parme/</guid>
-      <pubDate>Sun, 09 Aug 2026 06:10:00 +0000</pubDate>
-      <description>CulturePSG rapporte que le PSG prépare une nouvelle offre pour Zion Suzuki et travaille déjà le scénario d&apos;un prêt éventuel. Le dossier illustre une stratégie froide : acheter le gardien avant de décider s&apos;il vient tout de suite ou s&apos;il grandit ailleurs. Source : CulturePSG.</description>
     </item>
   </channel>
 </rss>
