@@ -2173,7 +2173,7 @@ main {
 }
 
 .all-time-toolbar {
-  grid-template-columns: minmax(260px, 1.5fr) minmax(150px, 0.8fr) minmax(150px, 0.8fr) auto;
+  grid-template-columns: minmax(260px, 1.5fr) minmax(150px, 0.7fr) minmax(170px, 0.85fr) minmax(150px, 0.7fr) auto;
   align-items: end;
 }
 
@@ -2242,6 +2242,108 @@ main {
 
 .source-note a {
   color: var(--blue);
+}
+
+.records-page .article-body {
+  gap: 24px;
+}
+
+.records-section {
+  display: grid;
+  gap: 14px;
+}
+
+.records-section h2 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.12;
+}
+
+.record-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.record-table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.record-table th,
+.record-table td {
+  padding: 13px 14px;
+  border-top: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.record-table th {
+  border-top: 0;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.record-table td:nth-child(1),
+.record-table td:nth-child(3) {
+  color: var(--red);
+  font-weight: 950;
+}
+
+.record-table a,
+.record-link-card {
+  color: var(--blue);
+  font-weight: 950;
+}
+
+.record-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.record-grid article,
+.record-link-card {
+  min-height: 122px;
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.record-grid strong,
+.record-link-card strong {
+  display: block;
+  color: var(--ink);
+  font-size: 26px;
+  line-height: 1;
+}
+
+.record-grid span,
+.record-link-card span {
+  display: block;
+  margin-top: 8px;
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.record-grid p {
+  margin: 8px 0 0;
+  color: #4c5868;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.record-link-card {
+  text-decoration: none;
 }
 
 .modal-open {
@@ -2704,6 +2806,7 @@ span.squad-player {
   .brand-rules,
   .timeline,
   .legend-grid,
+  .record-grid,
   .calendar-summary,
   .calendar-watch,
   .interactive-toolbar,

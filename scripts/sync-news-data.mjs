@@ -24,6 +24,7 @@ const staticPages = [
   { path: "/actualite-psg/", changefreq: "hourly", priority: "0.9" },
   { path: "/calendrier-psg/", changefreq: "daily", priority: "0.75" },
   { path: "/joueurs-psg/", changefreq: "daily", priority: "0.75" },
+  { path: "/records-psg/", changefreq: "weekly", priority: "0.86" },
   { path: "/charte-editoriale/", changefreq: "monthly", priority: "0.65" },
   { path: "/mentions-legales/", changefreq: "monthly", priority: "0.5" },
   { path: "/confidentialite/", changefreq: "monthly", priority: "0.5" },
@@ -95,6 +96,14 @@ const normalizeKey = (value) =>
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
+
+const splitCountries = (countries) =>
+  String(countries || "")
+    .split(",")
+    .map((country) => country.trim())
+    .filter(Boolean);
+
+const countryKey = (country) => normalizeKey(country);
 
 const getTopicPath = (item) => {
   const category = String(item.category || "").toLowerCase();
@@ -271,6 +280,7 @@ const makeArticlePage = (item) => {
         <a href="/actualite-psg/">Actualité PSG</a>
         <a href="/calendrier-psg/">Calendrier</a>
         <a href="/joueurs-psg/">Joueurs</a>
+        <a href="/records-psg/">Records</a>
         <a href="/histoire-psg/">Histoire</a>
         <a href="/sources-psg/">Sources</a>
       </nav>
@@ -459,6 +469,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
         <a href="/actualite-psg/">Actualité PSG</a>
         <a href="/calendrier-psg/">Calendrier</a>
         <a href="/joueurs-psg/"${isPlayer || type === "staff" ? ' aria-current="page"' : ""}>Joueurs</a>
+        <a href="/records-psg/">Records</a>
         <a href="/histoire-psg/"${isLegend ? ' aria-current="page"' : ""}>Histoire</a>
         <a href="/sources-psg/">Sources</a>
       </nav>
@@ -488,6 +499,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             ${photoMarkup}
             <span class="section-kicker">Continuer</span>
             <a href="/joueurs-psg/">Effectif PSG</a>
+            <a href="/records-psg/">Records PSG</a>
             <a href="/histoire-psg/">Histoire du PSG</a>
             <a href="/actualite-psg/">Actualité PSG</a>
             <a href="/sources-psg/">Sources utilisées</a>
@@ -652,6 +664,22 @@ const buildAllTimePlayerIndex = (profilePages) => {
 const makeAllTimePlayersPage = (players) => {
   const profiledCount = players.filter((player) => player.profilePath).length;
   const positions = ["Tous", "Gardien", "Défenseur", "Milieu", "Attaquant", "Joueur de champ", "Poste à vérifier"];
+  const countryCounts = new Map();
+  players.forEach((player) => {
+    splitCountries(player.countries).forEach((country) => {
+      const key = countryKey(country);
+      if (!key) return;
+      const existing = countryCounts.get(key) || { label: country, count: 0 };
+      existing.count += 1;
+      countryCounts.set(key, existing);
+    });
+  });
+  const countries = Array.from(countryCounts.values()).sort((a, b) => {
+    if (b.count !== a.count) return b.count - a.count;
+    return a.label.localeCompare(b.label, "fr", { sensitivity: "base" });
+  });
+  const countryOptions = [{ label: "Tous", value: "all", count: players.length }, ...countries];
+  const getCountryCount = (label) => countryCounts.get(countryKey(label))?.count || 0;
   const rows = players
     .map((player) => {
       const sourceLink = String(player.source || "").startsWith("http")
@@ -660,9 +688,11 @@ const makeAllTimePlayersPage = (players) => {
       const profileLink = player.profilePath
         ? `<a class="table-action" href="${escapeHTML(player.profilePath)}">Fiche longue</a>`
         : sourceLink;
-      const searchText = `${player.name} ${player.period} ${player.positionGroup} ${player.countries}`.toLowerCase();
+      const rawSearchText = `${player.name} ${player.period} ${player.positionGroup} ${player.countries}`;
+      const searchText = `${rawSearchText} ${normalizeKey(rawSearchText)}`.toLowerCase();
+      const countryKeys = splitCountries(player.countries).map(countryKey).filter(Boolean);
 
-      return `<tr data-all-time-row data-position="${escapeHTML(player.positionGroup)}" data-profile="${player.profilePath ? "yes" : "no"}" data-search="${escapeHTML(searchText)}">
+      return `<tr data-all-time-row data-position="${escapeHTML(player.positionGroup)}" data-profile="${player.profilePath ? "yes" : "no"}" data-country="${escapeHTML(countryKeys.join("|"))}" data-search="${escapeHTML(searchText)}">
                   <td><strong>${escapeHTML(player.name)}</strong></td>
                   <td>${escapeHTML(player.period)}</td>
                   <td>${escapeHTML(player.positionGroup)}</td>
@@ -747,6 +777,7 @@ const makeAllTimePlayersPage = (players) => {
         <a href="/actualite-psg/">Actualité PSG</a>
         <a href="/calendrier-psg/">Calendrier</a>
         <a href="/joueurs-psg/">Joueurs</a>
+        <a href="/records-psg/">Records</a>
         <a href="/histoire-psg/" aria-current="page">Histoire</a>
         <a href="/sources-psg/">Sources</a>
       </nav>
@@ -764,10 +795,14 @@ const makeAllTimePlayersPage = (players) => {
         <p>
           La base Parisien 90 combine les fiches longues éditoriales et une extraction ouverte Wikidata sous licence CC0.
           Elle couvre les recherches Messi PSG, Neymar PSG, Mbappé PSG, Ronaldinho PSG, Zlatan PSG, Beckham PSG et les noms moins visibles qui font l'épaisseur historique du club.
+          Pour les chiffres d'histoire, consultez aussi la page <a href="/records-psg/">records PSG</a>.
         </p>
         <div class="metric-strip all-time-metrics">
           <article><strong>${escapeHTML(players.length)}</strong><span>joueurs indexés</span></article>
           <article><strong>${escapeHTML(profiledCount)}</strong><span>fiches longues liées</span></article>
+          <article><strong>${escapeHTML(getCountryCount("Brésil"))}</strong><span>Brésiliens repérés</span></article>
+          <article><strong>${escapeHTML(getCountryCount("Argentine"))}</strong><span>Argentins repérés</span></article>
+          <article><strong>${escapeHTML(getCountryCount("France"))}</strong><span>Français repérés</span></article>
           <article><strong>CC0</strong><span>base ouverte Wikidata</span></article>
         </div>
         <div class="interactive-toolbar all-time-toolbar">
@@ -777,6 +812,11 @@ const makeAllTimePlayersPage = (players) => {
           <label class="control-field">Poste
             <select data-all-time-position>
               ${positions.map((position) => `<option value="${escapeHTML(position)}">${escapeHTML(position)}</option>`).join("")}
+            </select>
+          </label>
+          <label class="control-field">Pays
+            <select data-all-time-country>
+              ${countryOptions.map((country) => `<option value="${escapeHTML(country.value || countryKey(country.label))}">${escapeHTML(country.label)}${country.count ? ` (${escapeHTML(country.count)})` : ""}</option>`).join("")}
             </select>
           </label>
           <label class="control-field">Fiches
@@ -807,6 +847,7 @@ ${rows}
         </div>
         <p class="source-note">
           Source ouverte : <a href="${escapeHTML(allTimePsgPlayersMeta.sourceUrl)}" rel="noopener noreferrer">${escapeHTML(allTimePsgPlayersMeta.sourceName)}</a>, licence ${escapeHTML(allTimePsgPlayersMeta.sourceLicense)}.
+          Les compteurs par pays sont calculés depuis les nationalités publiques de la base ; un joueur à double nationalité peut donc apparaître dans plusieurs filtres.
           Les périodes et statuts sont consolidés progressivement avec PSG.fr, HistoireduPSG et les archives publiques ; les fiches longues sont des synthèses originales Parisien 90.
         </p>
       </section>
@@ -970,9 +1011,27 @@ aiIndex.allTimePsgPlayers = {
   sourceLicense: allTimePsgPlayersMeta.sourceLicense,
   sourceUrl: allTimePsgPlayersMeta.sourceUrl,
   url: `${siteUrl}/anciens-joueurs-psg/`,
+  nationalityBreakdown: (() => {
+    const counts = new Map();
+    allTimePlayerIndex.forEach((player) => {
+      splitCountries(player.countries).forEach((country) => {
+        const key = countryKey(country);
+        if (!key) return;
+        const existing = counts.get(key) || { country, count: 0 };
+        existing.count += 1;
+        counts.set(key, existing);
+      });
+    });
+    return Array.from(counts.values())
+      .sort((a, b) => b.count - a.count || a.country.localeCompare(b.country, "fr", { sensitivity: "base" }))
+      .slice(0, 20);
+  })(),
   keyQueries: [
     "anciens joueurs PSG",
     "liste joueurs PSG",
+    "Brésiliens PSG",
+    "Argentins PSG",
+    "nationalité joueurs PSG",
     "Messi PSG",
     "Neymar PSG",
     "Mbappé PSG",

@@ -18,7 +18,11 @@
       "calendrier PSG 2026-2027",
       "joueurs PSG",
       "effectif PSG",
-      "histoire PSG"
+      "histoire PSG",
+      "records PSG",
+      "meilleur buteur PSG",
+      "joueur le plus capé PSG",
+      "Brésiliens PSG"
     ],
     "lastVerifiedAt": "2026-08-28T23:00:00+02:00",
     "freshnessNote": "Fil PSG du 28 août 2026. Fil public : 84 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Lille-PSG : Paris revient de l'enfer en quatre minutes ; PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat. Synthèses originales, sourcées et liées."
@@ -92,6 +96,22 @@
         "fiche joueur PSG",
         "staff PSG",
         "numéros PSG"
+      ]
+    },
+    {
+      "url": "https://parisien90.com/records-psg/",
+      "title": "Records PSG : buteurs, capés, passeurs et chiffres historiques",
+      "intent": "Répondre aux recherches sur les meilleurs buteurs PSG, joueurs les plus capés, records de scores, passeurs, affluences et nationalités",
+      "queries": [
+        "records PSG",
+        "meilleur buteur PSG",
+        "meilleurs buteurs PSG Ligue 1",
+        "meilleurs buteurs PSG Ligue des champions",
+        "joueur le plus capé PSG",
+        "plus large victoire PSG",
+        "plus large défaite PSG",
+        "Brésiliens PSG",
+        "Argentins PSG"
       ]
     },
     {
@@ -1438,9 +1458,94 @@
     "sourceLicense": "CC0",
     "sourceUrl": "https://query.wikidata.org/",
     "url": "https://parisien90.com/anciens-joueurs-psg/",
+    "nationalityBreakdown": [
+      {
+        "country": "France",
+        "count": 383
+      },
+      {
+        "country": "Brésil",
+        "count": 45
+      },
+      {
+        "country": "Argentine",
+        "count": 17
+      },
+      {
+        "country": "Italie",
+        "count": 16
+      },
+      {
+        "country": "Espagne",
+        "count": 15
+      },
+      {
+        "country": "Portugal",
+        "count": 15
+      },
+      {
+        "country": "Sénégal",
+        "count": 15
+      },
+      {
+        "country": "Cameroun",
+        "count": 14
+      },
+      {
+        "country": "Côte d'Ivoire",
+        "count": 13
+      },
+      {
+        "country": "Algérie",
+        "count": 11
+      },
+      {
+        "country": "république démocratique du Congo",
+        "count": 11
+      },
+      {
+        "country": "Mali",
+        "count": 9
+      },
+      {
+        "country": "Maroc",
+        "count": 9
+      },
+      {
+        "country": "Allemagne",
+        "count": 8
+      },
+      {
+        "country": "Uruguay",
+        "count": 6
+      },
+      {
+        "country": "Nigeria",
+        "count": 5
+      },
+      {
+        "country": "Pays à vérifier",
+        "count": 5
+      },
+      {
+        "country": "Royaume des Pays-Bas",
+        "count": 5
+      },
+      {
+        "country": "Tunisie",
+        "count": 5
+      },
+      {
+        "country": "Nationalité à vérifier",
+        "count": 4
+      }
+    ],
     "keyQueries": [
       "anciens joueurs PSG",
       "liste joueurs PSG",
+      "Brésiliens PSG",
+      "Argentins PSG",
+      "nationalité joueurs PSG",
       "Messi PSG",
       "Neymar PSG",
       "Mbappé PSG",
