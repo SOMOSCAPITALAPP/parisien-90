@@ -30,8 +30,8 @@
       "joueur le plus capé PSG",
       "Brésiliens PSG"
     ],
-    "lastVerifiedAt": "2026-08-28T23:00:00+02:00",
-    "freshnessNote": "Fil PSG du 28 août 2026. Fil public : 84 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Lille-PSG : Paris revient de l'enfer en quatre minutes ; PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc ; Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux ; Dembélé reprendra l'entraînement avec le groupe le 31 août ; Yoram Zague prêté à Paphos avec option d'achat. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-08-29T17:56:17+02:00",
+    "freshnessNote": "Fil PSG du 29 août 2026. Fil public : 87 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre ; Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation ; Ibrahim Mbaye vers Aston Villa : accord annoncé, signature encore attendue ; Lille-PSG : Paris revient de l'enfer en quatre minutes ; PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -184,6 +184,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre",
+      "category": "Europe",
+      "dateTime": "2026-08-29T17:56:00+02:00",
+      "url": "https://parisien90.com/news/calendrier-psg-ligue-champions-phase-ligue-2026-2027/",
+      "source": "PSG.fr / UEFA",
+      "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation",
+      "category": "Mercato",
+      "dateTime": "2026-08-29T11:05:00+02:00",
+      "url": "https://parisien90.com/news/bradley-barcola-liverpool-accord-annonce-aout-2026/",
+      "source": "Le Parisien",
+      "sourceUrl": "https://www.leparisien.fr/sports/football/psg/mercato-psg-paris-et-liverpool-daccord-pour-le-transfert-de-bradley-barcola-estime-a-pres-de-145-millions-deuros-29-08-2026-SOKUTKJOZFF7LF67DITDKTZR5A.php",
+      "reliability": "Très fort — accord rapporté, officialisation attendue"
+    },
+    {
+      "title": "Ibrahim Mbaye vers Aston Villa : accord annoncé, signature encore attendue",
+      "category": "Mercato",
+      "dateTime": "2026-08-28T23:46:00+02:00",
+      "url": "https://parisien90.com/news/ibrahim-mbaye-aston-villa-accord-annonce-aout-2026/",
+      "source": "Le Parisien",
+      "sourceUrl": "https://www.leparisien.fr/sports/football/psg/mercato-psg-ibrahim-mbaye-a-aston-villa-cest-comme-si-cetait-fait-28-08-2026-VAUKMRWWCJFEBFAA66QVOAPDNI.php",
+      "reliability": "Très fort — accord rapporté, officialisation attendue"
+    },
     {
       "title": "Lille-PSG : Paris revient de l'enfer en quatre minutes",
       "category": "Match",
@@ -426,33 +453,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/paris-vs-man-utd-2026-08-08",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Majorque-PSG : Paris chute 3-0 pour sa première sortie de préparation",
-      "category": "Match",
-      "dateTime": "2026-08-05T21:00:00+02:00",
-      "url": "https://parisien90.com/news/mallorca-psg-defaite-amical-officiel-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/mallorca-vs-paris-2026-08-05",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Suzuki au PSG : Paris avance, mais le vrai plan dépend de Chevalier",
-      "category": "Mercato",
-      "dateTime": "2026-08-04T12:55:00+02:00",
-      "url": "https://parisien90.com/news/suzuki-chevalier-plan-psg-2026/",
-      "source": "CulturePSG",
-      "sourceUrl": "https://www.culturepsg.com/news/mercato/le-plan-du-psg-pour-suzuki-et-chevalier-se-precise/60233",
-      "reliability": "Fort — offre et plan à confirmer"
-    },
-    {
-      "title": "Tableau mercato PSG : Akliouche, Ferran, Godts, Suzuki, Digne... Paris ouvre enfin le grand chantier",
-      "category": "Transferts",
-      "dateTime": "2026-08-04T11:45:00+02:00",
-      "url": "https://parisien90.com/news/tableau-mercato-psg-aout-2026/",
-      "source": "CulturePSG",
-      "sourceUrl": "https://www.culturepsg.com/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
-      "reliability": "Tableau de suivi — statuts à vérifier dossier par dossier"
     }
   ],
   "people": [
@@ -714,10 +714,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier de profondeur",
-      "status": "Ailier français majeur",
+      "status": "Départ vers Liverpool annoncé — à officialiser",
       "url": "https://parisien90.com/joueurs-psg/bradley-barcola/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "29 août 2026",
+      "source": "Le Parisien — officialisation des clubs attendue",
       "image": null
     },
     {
@@ -736,10 +736,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier",
-      "status": "Jeune très surveillé",
+      "status": "Départ vers Aston Villa annoncé — à officialiser",
       "url": "https://parisien90.com/joueurs-psg/ibrahim-mbaye/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "29 août 2026",
+      "source": "Le Parisien — officialisation des clubs attendue",
       "image": null
     },
     {
