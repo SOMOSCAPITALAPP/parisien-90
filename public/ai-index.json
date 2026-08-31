@@ -30,8 +30,8 @@
       "joueur le plus capé PSG",
       "Brésiliens PSG"
     ],
-    "lastVerifiedAt": "2026-08-29T17:56:17+02:00",
-    "freshnessNote": "Fil PSG du 29 août 2026. Fil public : 87 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre ; Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation ; Ibrahim Mbaye vers Aston Villa : accord annoncé, signature encore attendue ; Lille-PSG : Paris revient de l'enfer en quatre minutes ; PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-08-31T15:05:00+02:00",
+    "freshnessNote": "Fil PSG du 31 août 2026. Fil public : 89 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc ; Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre ; Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation ; Ibrahim Mbaye vers Aston Villa : accord annoncé, signature encore attendue. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -185,6 +185,24 @@
   ],
   "news": [
     {
+      "title": "Barcola à Liverpool : le record de vente du PSG est officiel",
+      "category": "Mercato",
+      "dateTime": "2026-08-31T15:05:00+02:00",
+      "url": "https://parisien90.com/news/bradley-barcola-liverpool-transfert-officiel-aout-2026/",
+      "source": "PSG / Liverpool FC",
+      "sourceUrl": "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc",
+      "category": "Calendrier",
+      "dateTime": "2026-08-31T11:05:00+02:00",
+      "url": "https://parisien90.com/news/psg-monaco-coup-envoi-21h05-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-31-aout-au-6-septembre-2026",
+      "reliability": "Officiel"
+    },
+    {
       "title": "Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre",
       "category": "Europe",
       "dateTime": "2026-08-29T17:56:00+02:00",
@@ -275,13 +293,13 @@
       "reliability": "Fort — score, buteurs et scénario recoupés"
     },
     {
-      "title": "PSG-Monaco : le Parc attend Monaco à 19h05 le 4 septembre",
+      "title": "PSG-Monaco : un premier créneau à 19h05, depuis remplacé par 21h05",
       "category": "Calendrier",
       "dateTime": "2026-08-20T12:00:00+02:00",
       "url": "https://parisien90.com/news/psg-monaco-horaire-officiel-19h05-septembre-2026/",
       "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1",
-      "reliability": "Officiel"
+      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-31-aout-au-6-septembre-2026",
+      "reliability": "Officiel — programmation actualisée"
     },
     {
       "title": "PSG-Rennes inversé : la LFP a déplacé la rentrée parisienne au Roazhon Park",
@@ -435,24 +453,6 @@
       "source": "CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/fr/news/mercato/le-psg-prepare-une-nouvelle-offre-pour-suzuki/60242",
       "reliability": "Rumeur solide — nouvelle offre attendue"
-    },
-    {
-      "title": "PSG-Monaco et Brest-PSG : les dates du 4 et du 13 septembre, à 18h45, sont confirmées",
-      "category": "Calendrier",
-      "dateTime": "2026-08-09T06:30:00+02:00",
-      "url": "https://parisien90.com/news/calendrier-psg-monaco-brest-programmation-4-13-septembre/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Manchester United : Ibrahim Mbaye lance Paris, mais l'amical se termine sur un nul",
-      "category": "Match",
-      "dateTime": "2026-08-08T19:00:00+02:00",
-      "url": "https://parisien90.com/news/psg-manchester-united-nul-amical-mbaye-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/2026/paris-vs-man-utd-2026-08-08",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -707,17 +707,6 @@
       "url": "https://parisien90.com/joueurs-psg/desire-doue/",
       "updatedAt": "15 juillet 2026",
       "source": "PSG.fr",
-      "image": null
-    },
-    {
-      "name": "Bradley Barcola",
-      "aliases": [],
-      "type": "player",
-      "role": "Ailier de profondeur",
-      "status": "Départ vers Liverpool annoncé — à officialiser",
-      "url": "https://parisien90.com/joueurs-psg/bradley-barcola/",
-      "updatedAt": "29 août 2026",
-      "source": "Le Parisien — officialisation des clubs attendue",
       "image": null
     },
     {
@@ -1482,6 +1471,20 @@
       "updatedAt": "29 août 2026",
       "source": "PSG.fr / archives publiques",
       "image": null
+    },
+    {
+      "name": "Ezequiel Lavezzi",
+      "aliases": [
+        "Lavezzi PSG",
+        "Pocho PSG"
+      ],
+      "type": "legend",
+      "role": "Ailier",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/ezequiel-lavezzi/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
     }
   ],
   "allTimePsgPlayers": {
@@ -1619,10 +1622,6 @@
       {
         "name": "Blaise Matuidi",
         "url": "https://parisien90.com/anciens-joueurs-psg/blaise-matuidi/"
-      },
-      {
-        "name": "Bradley Barcola",
-        "url": "https://parisien90.com/joueurs-psg/bradley-barcola/"
       },
       {
         "name": "Carlos Bianchi",
@@ -1903,6 +1902,10 @@
       {
         "name": "Safet Susic",
         "url": "https://parisien90.com/anciens-joueurs-psg/safet-susic/"
+      },
+      {
+        "name": "Salvatore Sirigu",
+        "url": "https://parisien90.com/anciens-joueurs-psg/salvatore-sirigu/"
       }
     ]
   }
