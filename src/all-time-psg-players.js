@@ -1797,7 +1797,7 @@ export const allTimePsgPlayers = [
   {
     "id": "ibrahim-mbaye",
     "name": "Ibrahim Mbaye",
-    "period": "2024-",
+    "period": "2024-2026",
     "positionGroup": "Attaquant",
     "countries": "Sénégal, France",
     "source": "http://www.wikidata.org/entity/Q129088593"
@@ -4419,4 +4419,3 @@ export const allTimePsgPlayers = [
     "source": "http://www.wikidata.org/entity/Q180952"
   }
 ];
-

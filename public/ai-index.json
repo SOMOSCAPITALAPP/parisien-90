@@ -30,8 +30,8 @@
       "joueur le plus capé PSG",
       "Brésiliens PSG"
     ],
-    "lastVerifiedAt": "2026-08-31T15:05:00+02:00",
-    "freshnessNote": "Fil PSG du 31 août 2026. Fil public : 89 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc ; Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre ; Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation ; Ibrahim Mbaye vers Aston Villa : accord annoncé, signature encore attendue. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-09-01T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 1er septembre 2026. Fil public : 90 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc ; Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre ; Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -184,6 +184,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel",
+      "category": "Mercato",
+      "dateTime": "2026-09-01T12:00:00+02:00",
+      "url": "https://parisien90.com/news/ibrahim-mbaye-aston-villa-transfert-officiel-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/ibrahim-mbaye-signs-for-aston-villa-psg-club-news-2026-2027",
+      "reliability": "Officiel"
+    },
     {
       "title": "Barcola à Liverpool : le record de vente du PSG est officiel",
       "category": "Mercato",
@@ -444,15 +453,6 @@
       "source": "CulturePSG / presse espagnole",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-transfert-de-ferran-torres-au-psg-regle-avant-le-12-aout/60241",
       "reliability": "Rumeur solide — accord club non officialisé"
-    },
-    {
-      "title": "Suzuki : Paris prépare l'offre qui peut faire craquer Parme",
-      "category": "Mercato",
-      "dateTime": "2026-08-09T08:10:00+02:00",
-      "url": "https://parisien90.com/news/suzuki-psg-nouvelle-offre-parme/",
-      "source": "CulturePSG",
-      "sourceUrl": "https://www.culturepsg.com/fr/news/mercato/le-psg-prepare-une-nouvelle-offre-pour-suzuki/60242",
-      "reliability": "Rumeur solide — nouvelle offre attendue"
     }
   ],
   "people": [
@@ -718,17 +718,6 @@
       "url": "https://parisien90.com/joueurs-psg/quentin-ndjantou/",
       "updatedAt": "15 juillet 2026",
       "source": "PSG.fr",
-      "image": null
-    },
-    {
-      "name": "Ibrahim Mbaye",
-      "aliases": [],
-      "type": "player",
-      "role": "Ailier",
-      "status": "Départ vers Aston Villa annoncé — à officialiser",
-      "url": "https://parisien90.com/joueurs-psg/ibrahim-mbaye/",
-      "updatedAt": "29 août 2026",
-      "source": "Le Parisien — officialisation des clubs attendue",
       "image": null
     },
     {
@@ -1485,6 +1474,20 @@
       "updatedAt": "29 août 2026",
       "source": "PSG.fr / archives publiques",
       "image": null
+    },
+    {
+      "name": "Guillaume Hoarau",
+      "aliases": [
+        "Hoarau PSG",
+        "Guillaume Hoarau Paris"
+      ],
+      "type": "legend",
+      "role": "Avant-centre",
+      "status": "Vivant",
+      "url": "https://parisien90.com/anciens-joueurs-psg/guillaume-hoarau/",
+      "updatedAt": "29 août 2026",
+      "source": "PSG.fr / archives publiques",
+      "image": null
     }
   ],
   "allTimePsgPlayers": {
@@ -1712,10 +1715,6 @@
         "url": "https://parisien90.com/anciens-joueurs-psg/hatem-ben-arfa/"
       },
       {
-        "name": "Ibrahim Mbaye",
-        "url": "https://parisien90.com/joueurs-psg/ibrahim-mbaye/"
-      },
-      {
         "name": "Illia Zabarnyi",
         "url": "https://parisien90.com/joueurs-psg/illia-zabarnyi/"
       },
@@ -1906,6 +1905,10 @@
       {
         "name": "Salvatore Sirigu",
         "url": "https://parisien90.com/anciens-joueurs-psg/salvatore-sirigu/"
+      },
+      {
+        "name": "Senny Mayulu",
+        "url": "https://parisien90.com/joueurs-psg/senny-mayulu/"
       }
     ]
   }

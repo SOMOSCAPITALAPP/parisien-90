@@ -101,7 +101,6 @@ export const currentPlayerProfiles = [
   { id: "mika-godts", name: "Mika Godts", number: "22", position: "Attaquant", line: "Attaquants", status: "Recrue officielle 2026", role: "Ailier", profile: "L'attaquant belge apporte un profil de percussion et de déséquilibre supplémentaire dans un secteur offensif très concurrentiel.", watch: "Ses premiers repères dans le jeu de position de Luis Enrique et la répartition des minutes sur les ailes.", updatedAt: "16 août 2026", source: "PSG.fr" },
   { id: "desire-doue", name: "Désiré Doué", number: "14", position: "Attaquant", line: "Attaquants", status: "Talent premium", role: "Ailier ou milieu offensif", profile: "Créativité, conduite de balle et polyvalence dans les demi-espaces.", watch: "Choix dans le dernier geste et gestion de l'exposition médiatique.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "quentin-ndjantou", name: "Quentin Ndjantou", number: "47", position: "Attaquant", line: "Attaquants", status: "Jeune offensif", role: "Attaquant de développement", profile: "Profil offensif du vivier parisien, encore à stabiliser au niveau professionnel.", watch: "Utilisation en préparation, prêt éventuel ou intégration progressive.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
-  { id: "ibrahim-mbaye", name: "Ibrahim Mbaye", number: "49", position: "Attaquant", line: "Attaquants", status: "Départ vers Aston Villa annoncé — à officialiser", role: "Ailier", profile: "Vitesse, percussion et dossier sensible : son avenir raconte aussi la place des Titis.", watch: "Le Parisien annonce un accord et une visite médicale à venir ; seule l'officialisation des clubs actera son départ.", updatedAt: "29 août 2026", source: "Le Parisien — officialisation des clubs attendue" }
 ];
 
 export const staffProfiles = [
@@ -268,7 +267,7 @@ export const seasonSquads = [
       { label: "Gardiens", players: ["Alessandro Longoni", "Lucas Chevalier", "Matvey Safonov"] },
       { label: "Défenseurs", players: ["Achraf Hakimi", "Lucas Beraldo", "Marquinhos", "Illia Zabarnyi", "Lucas Hernández", "Nuno Mendes", "Lucas Digne", "Willian Pacho"] },
       { label: "Milieux", players: ["Fabián Ruiz", "Vitinha", "Senny Mayulu", "Dro Fernández", "Warren Zaïre-Emery", "João Neves"] },
-      { label: "Attaquants", players: ["Khvicha Kvaratskhelia", "Ferran Torres", "Ousmane Dembélé", "Maghnes Akliouche", "Mika Godts", "Désiré Doué", "Quentin Ndjantou", "Ibrahim Mbaye"] }
+      { label: "Attaquants", players: ["Khvicha Kvaratskhelia", "Ferran Torres", "Ousmane Dembélé", "Maghnes Akliouche", "Mika Godts", "Désiré Doué", "Quentin Ndjantou"] }
     ]
   },
   {
@@ -324,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-08-31T15:05:00+02:00",
-  edition: "Fil PSG du 31 août 2026",
-  displayDate: "31 août 2026",
-  displayTime: "15h05",
+  updatedAt: "2026-09-01T12:00:00+02:00",
+  edition: "Fil PSG du 1er septembre 2026",
+  displayDate: "1er septembre 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-01", "1er septembre 2026", [
+  { id: "ibrahim-mbaye-aston-villa-transfert-officiel-septembre-2026", time: "12:00", category: "Mercato", title: "Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel", summary: "Le PSG a officialisé le transfert définitif d'Ibrahim Mbaye à Aston Villa. Arrivé à Paris à dix ans, l'ailier de 18 ans quitte le club après 42 apparitions avec l'équipe première et huit trophées. Le montant de l'opération n'est pas communiqué par le PSG : la seule certitude, cette fois, est que le Titi va poursuivre son parcours en Premier League.", source: "PSG.fr", url: "https://www.psg.fr/en/content/ibrahim-mbaye-signs-for-aston-villa-psg-club-news-2026-2027", reliability: "Officiel", viral: 98 },
+  ]),
   ...withNewsDate("2026-08-31", "31 août 2026", [
   { id: "bradley-barcola-liverpool-transfert-officiel-aout-2026", time: "15:05", category: "Mercato", title: "Barcola à Liverpool : le record de vente du PSG est officiel", summary: "Le PSG et Liverpool ont officialisé le transfert de Bradley Barcola. L'ailier français, arrivé en 2023, signe un contrat longue durée chez les Reds et portera le numéro 29. Le montant final n'est pas détaillé par les clubs ; la presse l'évalue autour de 140 à 145 M€, une somme à distinguer de l'annonce officielle.", source: "PSG / Liverpool FC", url: "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain", reliability: "Officiel", viral: 100 },
   { id: "psg-monaco-coup-envoi-21h05-septembre-2026", time: "11:05", category: "Calendrier", title: "PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc", summary: "Le programme média officiel du PSG confirme que Paris recevra Monaco vendredi 4 septembre à 21h05. La séance du jeudi sera ouverte aux médias à 11h, avant la conférence de presse de Luis Enrique à 13h : le calendrier du site est corrigé sur ce créneau.", source: "PSG.fr", url: "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-31-aout-au-6-septembre-2026", reliability: "Officiel", viral: 82 },
