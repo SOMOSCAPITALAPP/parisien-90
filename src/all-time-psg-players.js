@@ -3597,7 +3597,7 @@ export const allTimePsgPlayers = [
   {
     "id": "renato-sanches",
     "name": "Renato Sanches",
-    "period": "2022-",
+    "period": "2022-2026",
     "positionGroup": "Milieu",
     "countries": "Portugal",
     "source": "http://www.wikidata.org/entity/Q18394009"

@@ -30,8 +30,8 @@
       "joueur le plus capé PSG",
       "Brésiliens PSG"
     ],
-    "lastVerifiedAt": "2026-09-01T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 1er septembre 2026. Fil public : 90 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc ; Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre ; Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-09-02T08:40:00+02:00",
+    "freshnessNote": "Fil PSG du 2 septembre 2026. Fil public : 91 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : Renato Sanches quitte le PSG libre après une résiliation annoncée ; Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc ; Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -184,6 +184,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Renato Sanches quitte le PSG libre après une résiliation annoncée",
+      "category": "Mercato",
+      "dateTime": "2026-09-02T08:40:00+02:00",
+      "url": "https://parisien90.com/news/renato-sanches-resiliation-contrat-psg-septembre-2026/",
+      "source": "CulturePSG / Record / A Bola / Fabrizio Romano",
+      "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-a-boucle-un-dernier-depart/60559",
+      "reliability": "Très fort — résiliation rapportée, communiqué PSG attendu"
+    },
     {
       "title": "Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel",
       "category": "Mercato",
@@ -444,15 +453,6 @@
       "source": "CulturePSG / Le Parisien",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-officialise-akliouche-sa-deuxieme-recrue-de-lete/60257",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Ferran Torres avant Aston Villa ? Paris veut frapper vite, le Barça discute encore",
-      "category": "Mercato",
-      "dateTime": "2026-08-09T08:32:00+02:00",
-      "url": "https://parisien90.com/news/ferran-torres-psg-deal-avant-supercoupe/",
-      "source": "CulturePSG / presse espagnole",
-      "sourceUrl": "https://www.culturepsg.com/news/mercato/le-transfert-de-ferran-torres-au-psg-regle-avant-le-12-aout/60241",
-      "reliability": "Rumeur solide — accord club non officialisé"
     }
   ],
   "people": [

@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-01T12:00:00+02:00",
-  edition: "Fil PSG du 1er septembre 2026",
-  displayDate: "1er septembre 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-09-02T08:40:00+02:00",
+  edition: "Fil PSG du 2 septembre 2026",
+  displayDate: "2 septembre 2026",
+  displayTime: "08h40",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-02", "2 septembre 2026", [
+  { id: "renato-sanches-resiliation-contrat-psg-septembre-2026", time: "08:40", category: "Mercato", title: "Renato Sanches quitte le PSG libre après une résiliation annoncée", summary: "Renato Sanches a résilié sa dernière année de contrat avec le PSG, selon CulturePSG, qui relaie des confirmations concordantes de Record, A Bola et Fabrizio Romano. Le milieu portugais de 29 ans quitte Paris après quatre saisons, marquées par 27 apparitions lors de son premier exercice puis trois prêts. Le PSG n'a pas encore publié de communiqué : le départ est présenté comme très avancé, dans l'attente de sa confirmation officielle.", source: "CulturePSG / Record / A Bola / Fabrizio Romano", url: "https://www.culturepsg.com/news/mercato/le-psg-a-boucle-un-dernier-depart/60559", reliability: "Très fort — résiliation rapportée, communiqué PSG attendu", viral: 84 },
+  ]),
   ...withNewsDate("2026-09-01", "1er septembre 2026", [
   { id: "ibrahim-mbaye-aston-villa-transfert-officiel-septembre-2026", time: "12:00", category: "Mercato", title: "Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel", summary: "Le PSG a officialisé le transfert définitif d'Ibrahim Mbaye à Aston Villa. Arrivé à Paris à dix ans, l'ailier de 18 ans quitte le club après 42 apparitions avec l'équipe première et huit trophées. Le montant de l'opération n'est pas communiqué par le PSG : la seule certitude, cette fois, est que le Titi va poursuivre son parcours en Premier League.", source: "PSG.fr", url: "https://www.psg.fr/en/content/ibrahim-mbaye-signs-for-aston-villa-psg-club-news-2026-2027", reliability: "Officiel", viral: 98 },
   ]),

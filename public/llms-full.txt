@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site est conçu pour répondre clairement aux recherches sur le PSG, notamment les requêtes "transfert PSG", "mercato PSG", "actualité PSG", "viral PSG", "buzz PSG", "débat PSG", "vidéos PSG", "YouTube PSG", "chaînes PSG", "calendrier PSG", "calendrier PSG 2026-2027", "joueurs PSG", "effectif PSG", "fiche joueur PSG", "anciens joueurs PSG", "histoire PSG", "records PSG", "meilleur buteur PSG", "joueur le plus capé PSG", "Brésiliens PSG" et "Argentins PSG".
 
-## Repère éditorial — 1er septembre 2026, 12h00 (Europe/Paris)
+## Repère éditorial — 2 septembre 2026, 08h40 (Europe/Paris)
 
-Fil PSG du 1er septembre 2026. Fil public : 90 vraies infos PSG, enrichies en pages individuelles crawlables sous /news/. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc ; Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre ; Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.
+Fil PSG du 2 septembre 2026. Fil public : 91 vraies infos PSG, enrichies en pages individuelles crawlables sous /news/. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Renato Sanches quitte le PSG libre après une résiliation annoncée ; Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc ; Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.
 
 Le contenu est organisé en pages piliers indexables, avec titres explicites, descriptions, maillage interne, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics, page vidéos PSG/YouTube et pages texte concises pour les systèmes de recherche et de réponse générative.
 
