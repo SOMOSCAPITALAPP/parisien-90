@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-02T08:40:00+02:00",
-  edition: "Fil PSG du 2 septembre 2026",
-  displayDate: "2 septembre 2026",
-  displayTime: "08h40",
+  updatedAt: "2026-09-03T13:00:00+02:00",
+  edition: "Fil PSG du 3 septembre 2026",
+  displayDate: "3 septembre 2026",
+  displayTime: "13h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-03", "3 septembre 2026", [
+  { id: "luis-enrique-retour-parc-joao-neves-100e-psg-monaco-septembre-2026", time: "13:00", category: "Match", title: "PSG-Monaco : Luis Enrique promet le Parc, João Neves vise sa 100e", summary: "À la veille de PSG-Monaco, Luis Enrique a salué le retour au Parc des Princes et fixé l'objectif : gagner le premier match parisien à domicile de la saison. L'entraîneur a aussi annoncé que João Neves devrait disputer sa 100e rencontre avec le PSG. Face au leader monégasque, Paris compte sur le soutien du Parc pour transformer ses deux premiers nuls en première victoire de Ligue 1.", source: "PSG.fr", url: "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027", reliability: "Officiel", viral: 91 },
+  ]),
   ...withNewsDate("2026-09-02", "2 septembre 2026", [
   { id: "renato-sanches-resiliation-contrat-psg-septembre-2026", time: "08:40", category: "Mercato", title: "Renato Sanches quitte le PSG libre après une résiliation annoncée", summary: "Renato Sanches a résilié sa dernière année de contrat avec le PSG, selon CulturePSG, qui relaie des confirmations concordantes de Record, A Bola et Fabrizio Romano. Le milieu portugais de 29 ans quitte Paris après quatre saisons, marquées par 27 apparitions lors de son premier exercice puis trois prêts. Le PSG n'a pas encore publié de communiqué : le départ est présenté comme très avancé, dans l'attente de sa confirmation officielle.", source: "CulturePSG / Record / A Bola / Fabrizio Romano", url: "https://www.culturepsg.com/news/mercato/le-psg-a-boucle-un-dernier-depart/60559", reliability: "Très fort — résiliation rapportée, communiqué PSG attendu", viral: 84 },
   ]),
