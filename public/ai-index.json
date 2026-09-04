@@ -30,8 +30,8 @@
       "joueur le plus capé PSG",
       "Brésiliens PSG"
     ],
-    "lastVerifiedAt": "2026-09-03T13:00:00+02:00",
-    "freshnessNote": "Fil PSG du 3 septembre 2026. Fil public : 92 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Monaco : Luis Enrique promet le Parc, João Neves vise sa 100e ; Renato Sanches quitte le PSG libre après une résiliation annoncée ; Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel ; PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-09-04T10:47:00+02:00",
+    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 93 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : Luis Enrique promet le Parc, João Neves vise sa 100e ; Renato Sanches quitte le PSG libre après une résiliation annoncée ; Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -184,6 +184,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté",
+      "category": "Groupe",
+      "dateTime": "2026-09-04T10:47:00+02:00",
+      "url": "https://parisien90.com/news/psg-monaco-groupe-dembele-neves-digne-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-monaco-psg-ligue-1-journee-3-parc-des-princes-2026-2027/",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-Monaco : Luis Enrique promet le Parc, João Neves vise sa 100e",
       "category": "Match",
@@ -444,15 +453,6 @@
       "source": "PSG.fr et billetterie officielle PSG",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
       "reliability": "Officiel — calendrier consolidé"
-    },
-    {
-      "title": "PSG-Aston Villa : la Supercoupe UEFA devient le premier vrai test de la saison",
-      "category": "Europe",
-      "dateTime": "2026-08-09T09:12:00+02:00",
-      "url": "https://parisien90.com/news/aston-villa-psg-supercoupe-uefa-salzbourg-2026/",
-      "source": "Billetterie PSG",
-      "sourceUrl": "https://billetterie.psg.fr/fr/offres/supercoupe-europe-2026-13062026-salzburg",
-      "reliability": "Officiel"
     }
   ],
   "people": [

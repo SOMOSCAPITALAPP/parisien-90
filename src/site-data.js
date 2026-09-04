@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-03T13:00:00+02:00",
-  edition: "Fil PSG du 3 septembre 2026",
-  displayDate: "3 septembre 2026",
-  displayTime: "13h00",
+  updatedAt: "2026-09-04T10:47:00+02:00",
+  edition: "Fil PSG du 4 septembre 2026",
+  displayDate: "4 septembre 2026",
+  displayTime: "10h47",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-04", "4 septembre 2026", [
+  { id: "psg-monaco-groupe-dembele-neves-digne-septembre-2026", time: "10:47", category: "Groupe", title: "PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté", summary: "Le PSG a dévoilé un groupe de 21 joueurs pour recevoir Monaco au Parc. Ousmane Dembélé et João Neves, absents lors du nul à Lille, effectuent leur retour. La surprise concerne Lucas Digne : le latéral gauche ne figure pas dans la sélection, tandis que Nuno Mendes purge son dernier match de suspension. Un choix de groupe qui resserre encore la concurrence avant le premier rendez-vous de la saison au Parc.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-monaco-psg-ligue-1-journee-3-parc-des-princes-2026-2027/", reliability: "Officiel", viral: 92 },
+  ]),
   ...withNewsDate("2026-09-03", "3 septembre 2026", [
   { id: "luis-enrique-retour-parc-joao-neves-100e-psg-monaco-septembre-2026", time: "13:00", category: "Match", title: "PSG-Monaco : Luis Enrique promet le Parc, João Neves vise sa 100e", summary: "À la veille de PSG-Monaco, Luis Enrique a salué le retour au Parc des Princes et fixé l'objectif : gagner le premier match parisien à domicile de la saison. L'entraîneur a aussi annoncé que João Neves devrait disputer sa 100e rencontre avec le PSG. Face au leader monégasque, Paris compte sur le soutien du Parc pour transformer ses deux premiers nuls en première victoire de Ligue 1.", source: "PSG.fr", url: "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027", reliability: "Officiel", viral: 91 },
   ]),
