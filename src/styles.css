@@ -1112,6 +1112,10 @@ main {
   border-color: rgba(17, 85, 204, 0.22);
 }
 
+.video-highlight.is-featured {
+  grid-column: 1 / -1;
+}
+
 .video-channel-card[hidden] {
   display: none;
 }
@@ -1187,9 +1191,22 @@ main {
   line-height: 1.12;
 }
 
+.youtube-live-title {
+  display: block;
+  max-width: 720px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
 .youtube-consent p {
   max-width: 520px;
   color: #dbeafe;
+}
+
+.youtube-consent small {
+  color: #c7d2fe;
 }
 
 .youtube-consent button {
@@ -1208,6 +1225,10 @@ main {
   aspect-ratio: 16 / 9;
   border: 0;
   border-radius: 8px;
+}
+
+.youtube-consent-live {
+  min-height: clamp(300px, 48vw, 620px);
 }
 
 .youtube-consent.is-loaded {

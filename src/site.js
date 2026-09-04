@@ -436,18 +436,58 @@ const initVideoFilters = () => {
   });
 };
 
+const getAllowedYoutubeSrc = (rawSrc) => {
+  try {
+    const url = new URL(rawSrc, window.location.origin);
+    const isAllowedHost = ["www.youtube-nocookie.com", "youtube-nocookie.com"].includes(url.hostname);
+    return isAllowedHost && url.pathname.startsWith("/embed/") ? url.href : "";
+  } catch {
+    return "";
+  }
+};
+
+const updateLatestYoutubeLives = () => {
+  document.querySelectorAll("[data-youtube-latest-channel]").forEach(async (placeholder) => {
+    const channel = placeholder.dataset.youtubeLatestChannel;
+    if (!channel) return;
+
+    try {
+      const response = await fetch(`/api/youtube-latest?channel=${encodeURIComponent(channel)}&type=live`);
+      const payload = await response.json();
+      if (!payload?.ok || !payload.videoId) return;
+
+      placeholder.dataset.youtubeId = payload.videoId;
+      placeholder.dataset.youtubeTitle = payload.title || placeholder.dataset.youtubeTitle || "Dernier live YouTube";
+      placeholder.querySelector("[data-youtube-dynamic-title]")?.replaceChildren(payload.title || "Dernier live disponible");
+      placeholder.querySelector("[data-youtube-dynamic-date]")?.replaceChildren(`Dernier replay détecté : ${payload.publishedLabel}`);
+      const shareCard = placeholder.closest("[data-share-url]");
+      if (shareCard) {
+        shareCard.setAttribute("data-share-url", `https://www.youtube.com/watch?v=${payload.videoId}`);
+        shareCard.querySelector(".share-actions")?.remove();
+        initShareActions(shareCard.parentElement || document);
+      }
+      trackInteraction("youtube_latest_live_detected", { channel, video_id: payload.videoId });
+    } catch {
+      placeholder.querySelector("[data-youtube-dynamic-date]")?.replaceChildren("Live officiel disponible dès publication YouTube.");
+    }
+  });
+};
+
 const initYoutubeEmbeds = () => {
-  document.querySelectorAll("[data-youtube-id]").forEach((placeholder) => {
+  updateLatestYoutubeLives();
+
+  document.querySelectorAll("[data-youtube-id], [data-youtube-src], [data-youtube-latest-channel]").forEach((placeholder) => {
     const button = placeholder.querySelector("button");
     if (!button) return;
 
     button.addEventListener("click", () => {
       const id = placeholder.dataset.youtubeId;
       const title = placeholder.dataset.youtubeTitle || "Vidéo YouTube";
-      if (!id) return;
+      const src = id ? `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?rel=0` : getAllowedYoutubeSrc(placeholder.dataset.youtubeSrc);
+      if (!src) return;
 
       const iframe = document.createElement("iframe");
-      iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?rel=0`;
+      iframe.src = src;
       iframe.title = title;
       iframe.loading = "lazy";
       iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
@@ -455,7 +495,7 @@ const initYoutubeEmbeds = () => {
       iframe.allowFullscreen = true;
       placeholder.replaceChildren(iframe);
       placeholder.classList.add("is-loaded");
-      trackInteraction("youtube_embed_load", { video_id: id, title });
+      trackInteraction("youtube_embed_load", { video_id: id || "channel-live", title });
     });
   });
 };
