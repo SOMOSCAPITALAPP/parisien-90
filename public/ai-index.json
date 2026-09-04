@@ -30,8 +30,8 @@
       "joueur le plus capé PSG",
       "Brésiliens PSG"
     ],
-    "lastVerifiedAt": "2026-09-04T10:47:00+02:00",
-    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 93 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : Luis Enrique promet le Parc, João Neves vise sa 100e ; Renato Sanches quitte le PSG libre après une résiliation annoncée ; Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel ; Barcola à Liverpool : le record de vente du PSG est officiel. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-09-04T16:35:00+02:00",
+    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 97 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance ; Ligue des champions : le chemin du PSG est daté, et il pique déjà les yeux ; Le vrai sujet de PSG-Monaco : Paris doit prouver que sa nouvelle énergie n'est pas un slogan. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -187,11 +187,47 @@
     {
       "title": "PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté",
       "category": "Groupe",
-      "dateTime": "2026-09-04T10:47:00+02:00",
+      "dateTime": "2026-09-04T16:15:00+02:00",
       "url": "https://parisien90.com/news/psg-monaco-groupe-dembele-neves-digne-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-monaco-psg-ligue-1-journee-3-parc-des-princes-2026-2027/",
       "reliability": "Officiel"
+    },
+    {
+      "title": "PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ",
+      "category": "Match",
+      "dateTime": "2026-09-04T15:30:00+02:00",
+      "url": "https://parisien90.com/news/psg-monaco-preview-premiere-victoire-parc-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/paris-monaco-la-preview-psg-ligue-1-journee-3-parc-des-princes-2026-2027",
+      "reliability": "Officiel — avant-match"
+    },
+    {
+      "title": "Luis Enrique ferme le mercato : Paris assume un été de puissance",
+      "category": "Mercato",
+      "dateTime": "2026-09-04T13:20:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-mercato-exceptionnel-psg-monaco-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027",
+      "reliability": "Officiel — conférence"
+    },
+    {
+      "title": "Ligue des champions : le chemin du PSG est daté, et il pique déjà les yeux",
+      "category": "Europe",
+      "dateTime": "2026-09-04T12:05:00+02:00",
+      "url": "https://parisien90.com/news/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/",
+      "source": "UEFA",
+      "sourceUrl": "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Le vrai sujet de PSG-Monaco : Paris doit prouver que sa nouvelle énergie n'est pas un slogan",
+      "category": "Analyse",
+      "dateTime": "2026-09-04T11:35:00+02:00",
+      "url": "https://parisien90.com/news/psg-monaco-nouvelle-energie-luis-enrique-septembre-2026/",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/football/2026/sep/04/paris-saint-germain-luis-enrique-monaco",
+      "reliability": "Analyse externe — source citée"
     },
     {
       "title": "PSG-Monaco : Luis Enrique promet le Parc, João Neves vise sa 100e",
@@ -417,42 +453,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/direction-salzburg-paris-saint-germain-aston-villa-super-coupe-de-luefa-2026",
       "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Aston Villa : le groupe de 24 est officiel, Digne et Akliouche y sont",
-      "category": "Europe",
-      "dateTime": "2026-08-11T12:55:00+02:00",
-      "url": "https://parisien90.com/news/groupe-psg-aston-villa-supercoupe-uefa-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/en/content/squad-paris-saint-germain-v-aston-villa-fc-uefa-super-cup-20262027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Suzuki : accord PSG-Parme trouvé, mais Paris prépare déjà un prêt",
-      "category": "Mercato",
-      "dateTime": "2026-08-11T11:44:00+02:00",
-      "url": "https://parisien90.com/news/zion-suzuki-accord-parme-psg-pret-juventus-attendu/",
-      "source": "L'Équipe (Loïc Tanzi)",
-      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Mercato-accord-parme-psg/1710229",
-      "reliability": "Fort — accord de clubs rapporté, signatures attendues"
-    },
-    {
-      "title": "Lucas Digne revient au PSG : contrat jusqu'en 2029 et numéro 12",
-      "category": "Mercato",
-      "dateTime": "2026-08-09T19:08:00+02:00",
-      "url": "https://parisien90.com/news/lucas-digne-officiel-retour-psg-contrat-2029/",
-      "source": "PSG, confirmé par AS",
-      "sourceUrl": "https://as.com/futbol/internacional/oficial-digne-a-paris-f202608-n/",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Calendrier PSG complet : amicaux, Aston Villa, Lens et Ligue 1 sont enfin réunis",
-      "category": "Calendrier",
-      "dateTime": "2026-08-09T09:30:00+02:00",
-      "url": "https://parisien90.com/news/calendrier-psg-complet-amical-europe-ligue1-2026/",
-      "source": "PSG.fr et billetterie officielle PSG",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-      "reliability": "Officiel — calendrier consolidé"
     }
   ],
   "people": [
