@@ -20,14 +20,54 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Joueurs PSG 2026-2027",
-        "about": {"@type": "SportsTeam", "name": "Paris Saint-Germain"},
-        "mainEntity": {
-          "@type": "ItemList",
-          "name": "Effectif provisoire PSG 2026-2027",
-          "numberOfItems": 25
-        }
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "name": "Joueurs PSG 2026-2027",
+            "about": {"@type": "SportsTeam", "name": "Paris Saint-Germain"},
+            "mainEntity": {
+              "@type": "ItemList",
+              "name": "Effectif provisoire PSG 2026-2027",
+              "numberOfItems": 25
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://parisien90.com/"},
+              {"@type": "ListItem", "position": 2, "name": "Joueurs PSG", "item": "https://parisien90.com/joueurs-psg/"}
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Où trouver les fiches des joueurs PSG ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "La page Joueurs PSG donne accès aux fiches individuelles des joueurs actuels, avec poste, numéro, statut, rôle, point de vigilance et source de mise à jour."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Parisien 90 couvre-t-il aussi les anciens joueurs du PSG ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui. Les anciens joueurs du PSG disposent de fiches dédiées quand les données sont disponibles : période parisienne, rôle, situation actuelle et importance historique."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Pourquoi les fiches joueurs sont importantes pour le SEO PSG ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Les supporters recherchent les noms, numéros, postes, âges, nationalités et parcours. Les fiches joueurs structurées répondent à ces intentions et relient l'effectif à l'actualité, au mercato et aux records."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
     <link rel="stylesheet" href="/src/styles.css" />
@@ -59,6 +99,28 @@
           Une page claire pour lire le groupe parisien : les joueurs listés par poste, Ferran Torres et Mika Godts intégrés
           après officialisation, les cadres du projet, les jeunes à surveiller et le staff technique autour de Luis Enrique.
         </p>
+      </section>
+
+      <section class="content-section">
+        <span class="section-kicker">Hub effectif</span>
+        <h2>Joueurs PSG : la page qui relie effectif, mercato, histoire et records</h2>
+        <p>
+          La recherche <strong>joueurs PSG</strong> couvre plusieurs intentions : connaître l'effectif actuel, vérifier un
+          numéro, comprendre le rôle d'une recrue, retrouver un ancien joueur ou comparer les cadres d'aujourd'hui aux
+          grandes figures du club. Cette page sert donc de porte d'entrée vers les fiches individuelles.
+        </p>
+        <p>
+          Les données sont pensées pour être utiles aux supporters et lisibles par les moteurs : joueur actuel,
+          <a href="/anciens-joueurs-psg/">ancien joueur PSG</a>, membre du <a href="/staff-psg/luis-enrique/">staff</a>,
+          lien vers le <a href="/mercato-psg/">mercato PSG</a>, impact dans le
+          <a href="/calendrier-psg/">calendrier PSG</a> et comparaison avec les <a href="/records-psg/">records PSG</a>.
+        </p>
+        <div class="topic-grid">
+          <a class="topic-card" href="/anciens-joueurs-psg/valdo/"><span>SEO fort</span><h3>Valdo PSG</h3><p>Une fiche déjà bien positionnée, à utiliser comme modèle éditorial.</p></a>
+          <a class="topic-card" href="/anciens-joueurs-psg/maxwell/"><span>Brésil</span><h3>Maxwell PSG</h3><p>Un nom recherché, parfait pour relier histoire, nationalité et palmarès.</p></a>
+          <a class="topic-card" href="/anciens-joueurs-psg/alex/"><span>Défense</span><h3>Alex PSG</h3><p>Une requête en première page à renforcer par maillage interne.</p></a>
+          <a class="topic-card" href="/anciens-joueurs-psg/ronaldinho/"><span>Star mondiale</span><h3>Ronaldinho PSG</h3><p>Un potentiel SEO énorme qui mérite contenu long et liens réguliers.</p></a>
+        </div>
       </section>
 
       <section class="signal-strip" aria-label="Synthèse de l'effectif PSG">
@@ -144,6 +206,25 @@
               <a class="topic-card" href="/joueurs-psg/marquinhos/"><span>Défense</span><h3>Marquinhos</h3><p>Capitaine, recordman et repère historique.</p></a>
               <a class="topic-card" href="/records-psg/"><span>Records</span><h3>Chiffres historiques PSG</h3><p>Buteurs, capés, passeurs, nationalités et scores records.</p></a>
               <a class="topic-card" href="/staff-psg/luis-enrique/"><span>Staff</span><h3>Luis Enrique</h3><p>Méthode, rotation et lecture du projet sportif.</p></a>
+            </div>
+          </section>
+
+          <section class="content-section">
+            <span class="section-kicker">FAQ joueurs PSG</span>
+            <h2>Effectif, anciens et fiches individuelles</h2>
+            <div class="faq-list">
+              <details open>
+                <summary>Comment trouver rapidement un joueur PSG ?</summary>
+                <p>Utilisez la page joueurs pour les profils actuels et la page anciens joueurs pour les légendes, anciens cadres, stars mondiales et joueurs passés par Paris.</p>
+              </details>
+              <details>
+                <summary>Les fiches joueurs sont-elles partageables ?</summary>
+                <p>Oui. Les fiches individuelles et articles disposent d'actions de partage non intrusives vers les principaux réseaux sociaux et applications.</p>
+              </details>
+              <details>
+                <summary>Pourquoi relier les joueurs aux records PSG ?</summary>
+                <p>Les records donnent du contexte : nombre de matchs, buts, passes, capitaines, nationalités et grands moments. Ils transforment une fiche joueur en contenu durable.</p>
+              </details>
             </div>
           </section>
 

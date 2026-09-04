@@ -1289,6 +1289,10 @@ main {
   font-size: 13px;
 }
 
+.method-list strong a {
+  color: inherit;
+}
+
 .method-list p {
   margin: 12px 0 0;
   color: #4c5868;

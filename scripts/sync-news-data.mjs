@@ -313,13 +313,14 @@ const makeArticlePage = (item) => {
             </div>
           </div>
           <aside class="article-sidebar">
-            <span class="section-kicker">À relier</span>
-            <a href="${escapeHTML(topicPath)}">Page pilier liée</a>
-            <a href="/transfert-psg/">Transfert PSG</a>
-            <a href="/mercato-psg/">Mercato PSG</a>
-            <a href="/joueurs-psg/">Joueurs PSG</a>
-            <a href="/calendrier-psg/">Calendrier PSG</a>
-            <a href="/sources-psg/">Méthode et sources</a>
+            <span class="section-kicker">Guides PSG à lire ensuite</span>
+            <a href="${escapeHTML(topicPath)}">Guide prioritaire de ce dossier</a>
+            <a href="/transfert-psg/">Transfert PSG : arrivées, départs et rumeurs</a>
+            <a href="/mercato-psg/">Mercato PSG en direct : méthode et fiabilité</a>
+            <a href="/calendrier-psg/">Calendrier PSG complet 2026-2027</a>
+            <a href="/joueurs-psg/">Joueurs PSG : effectif, fiches et staff</a>
+            <a href="/records-psg/">Records PSG : buteurs, capés et chiffres forts</a>
+            <a href="/sources-psg/">Sources PSG : vérification et droits</a>
           </aside>
         </div>
       </article>

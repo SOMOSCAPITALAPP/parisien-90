@@ -20,10 +20,50 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Calendrier PSG 2026-2027",
-        "about": {"@type": "SportsTeam", "name": "Paris Saint-Germain"},
-        "mainEntity": {"@type": "SportsEvent", "name": "Saison 2026-2027 du PSG, toutes compétitions"}
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "name": "Calendrier PSG 2026-2027",
+            "about": {"@type": "SportsTeam", "name": "Paris Saint-Germain"},
+            "mainEntity": {"@type": "SportsEvent", "name": "Saison 2026-2027 du PSG, toutes compétitions"}
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://parisien90.com/"},
+              {"@type": "ListItem", "position": 2, "name": "Calendrier PSG", "item": "https://parisien90.com/calendrier-psg/"}
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Le calendrier PSG 2026-2027 inclut-il la Ligue des champions ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui. Les matchs de Ligue des champions du PSG sont intégrés après publication des dates par l'UEFA et reliés aux analyses de Parisien 90."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Quand les matchs de Coupe de France du PSG seront-ils ajoutés ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Les jalons Coupe de France sont présents, puis les adversaires, lieux et horaires sont ajoutés uniquement après tirage ou confirmation officielle."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Pourquoi un calendrier PSG complet doit-il inclure les amicaux ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Les matchs amicaux donnent les premiers signaux sur la préparation, les jeunes, les recrues et la rotation avant les compétitions officielles."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
     <link rel="stylesheet" href="/src/styles.css" />
@@ -53,6 +93,27 @@
           Le calendrier du Paris Saint-Germain enrichi pour les supporters : préparation contre Majorque et Manchester United,
           Supercoupe UEFA face à Aston Villa, Trophée des Champions contre Lens, Ligue 1, phase de ligue de C1 et jalons Coupe de France.
         </p>
+      </section>
+
+      <section class="content-section">
+        <span class="section-kicker">Guide calendrier PSG</span>
+        <h2>Le calendrier PSG, ce n'est pas qu'une liste de matchs</h2>
+        <p>
+          Pour un club comme Paris, le <strong>calendrier PSG</strong> est une carte de pression. La Ligue 1 impose le
+          rythme domestique, la Ligue des champions dicte les semaines à très haute intensité, la Coupe de France ajoute
+          des pièges à élimination directe et les amicaux donnent les premiers indices sur l'état du groupe.
+        </p>
+        <p>
+          Parisien 90 relie chaque rencontre aux pages utiles : <a href="/actualite-psg/">actualité PSG</a> pour les infos
+          du jour, <a href="/joueurs-psg/">joueurs PSG</a> pour la rotation, <a href="/mercato-psg/">mercato PSG</a> pour
+          les besoins d'effectif et <a href="/records-psg/">records PSG</a> pour replacer les affiches dans l'histoire.
+        </p>
+        <div class="topic-grid">
+          <a class="topic-card" href="/news/calendrier-psg-ligue-champions-phase-ligue-2026-2027/"><span>Europe</span><h3>Ligue des champions PSG</h3><p>Les huit dates européennes et les affiches à fort potentiel.</p></a>
+          <a class="topic-card" href="/news/psg-monaco-coup-envoi-21h05-septembre-2026/"><span>Ligue 1</span><h3>PSG-Monaco</h3><p>Une page qui ranke déjà et sert de passerelle vers le calendrier.</p></a>
+          <a class="topic-card" href="/transfert-psg/"><span>Effectif</span><h3>Transfert PSG</h3><p>Les besoins de marché lus à partir de l'enchaînement des matchs.</p></a>
+          <a class="topic-card" href="/videos-psg/"><span>Débriefs</span><h3>Vidéos PSG</h3><p>Les créateurs et chaînes utiles après chaque rencontre.</p></a>
+        </div>
       </section>
 
       <section class="content-section">
@@ -105,6 +166,20 @@
           France, Parisien 90 affiche les dates officielles FFF des tours, puis remplacera les jalons par les vraies
           affiches du PSG dès que le tirage sera confirmé.
         </p>
+        <div class="faq-list">
+          <details open>
+            <summary>Le calendrier PSG est-il complet pour toutes les compétitions ?</summary>
+            <p>Il rassemble les matchs connus et les jalons officiels disponibles. Les compétitions à tirage, comme la Coupe de France, sont complétées dès que l'affiche du PSG est fixée.</p>
+          </details>
+          <details>
+            <summary>Pourquoi certains horaires restent-ils à confirmer ?</summary>
+            <p>Les diffuseurs, instances et clubs peuvent modifier ou préciser des horaires après la première publication du calendrier. Parisien 90 garde le statut visible pour éviter toute confusion.</p>
+          </details>
+          <details>
+            <summary>Comment le calendrier aide-t-il le SEO PSG ?</summary>
+            <p>Chaque match crée des intentions de recherche : date, horaire, adversaire, compétition, groupe, analyse et résultat. Les liens internes relient ces intentions aux articles et fiches joueurs.</p>
+          </details>
+        </div>
       </section>
     </main>
     <footer class="site-footer"><p>Parisien 90 - calendrier PSG complet.</p><a href="/actualite-psg/">Actualité PSG</a><a href="/charte-editoriale/">Charte éditoriale</a><a href="/mentions-legales/">Mentions légales</a><a href="/contact-retrait/">Contact</a><a href="/droits-disclaimer/">Droits & disclaimer</a></footer>
