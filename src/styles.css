@@ -1092,6 +1092,10 @@ main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.video-highlight-grid-single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .video-channel-card,
 .video-highlight {
   display: grid;
@@ -1114,6 +1118,10 @@ main {
 
 .video-highlight.is-featured {
   grid-column: 1 / -1;
+}
+
+.video-live-section {
+  padding-top: 22px;
 }
 
 .video-channel-card[hidden] {
