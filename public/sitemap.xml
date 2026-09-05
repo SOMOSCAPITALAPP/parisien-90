@@ -115,6 +115,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://parisien90.com/br/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.86</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/transferencias-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/mercado-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/historia-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/brasileiros-no-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://parisien90.com/llms.txt</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>

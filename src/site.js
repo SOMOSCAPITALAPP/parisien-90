@@ -16,6 +16,21 @@ const query = params.get("q");
 const countryQuery = params.get("pays") || params.get("country");
 const shareCampaign = "parisien90_viral";
 
+const initLanguageSwitch = () => {
+  const nav = document.querySelector(".main-nav");
+  if (!nav || nav.querySelector("[data-language-switch]")) return;
+
+  const isBrazilPage = window.location.pathname === "/br/" || window.location.pathname.startsWith("/br/");
+  const link = document.createElement("a");
+  link.dataset.languageSwitch = "true";
+  link.className = "language-switch";
+  link.href = isBrazilPage ? "/" : "/br/";
+  link.hreflang = isBrazilPage ? "fr-FR" : "pt-BR";
+  link.textContent = isBrazilPage ? "FR" : "BR";
+  link.setAttribute("aria-label", isBrazilPage ? "Abrir a versão francesa" : "Ouvrir la version brésilienne");
+  nav.append(link);
+};
+
 if (query) {
   const marker = document.createElement("p");
   marker.className = "search-result-note";
@@ -1040,6 +1055,7 @@ const initHomeNews = () => {
 };
 
 initNewsFreshness();
+initLanguageSwitch();
 initHomeNews();
 initCalendarApp();
 initLongNewsFeed();

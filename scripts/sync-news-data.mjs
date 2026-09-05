@@ -1,7 +1,7 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { allTimePsgPlayers, allTimePsgPlayersMeta } from "../src/all-time-psg-players.js";
 import { editorialArticles, editorialArticlesMeta } from "../src/editorial-articles.js";
-import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, staffProfiles } from "../src/site-data.js";
+import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, staffProfiles } from "../src/site-data.js";
 
 const siteUrl = "https://parisien90.com";
 const publicDir = new URL("../public/", import.meta.url);
@@ -10,6 +10,7 @@ const dossiersDir = new URL("../dossiers-psg/", import.meta.url);
 const playersDir = new URL("../joueurs-psg/", import.meta.url);
 const legendsDir = new URL("../anciens-joueurs-psg/", import.meta.url);
 const staffDir = new URL("../staff-psg/", import.meta.url);
+const brDir = new URL("../br/", import.meta.url);
 const currentDate = newsMeta.updatedAt.slice(0, 10);
 const heroImage = `${siteUrl}/hero-stadium.png`;
 
@@ -39,6 +40,12 @@ const staticPages = [
   { path: "/histoire-psg/", changefreq: "weekly", priority: "0.85" },
   { path: "/anciens-joueurs-psg/", changefreq: "weekly", priority: "0.84" },
   { path: "/droits-disclaimer/", changefreq: "monthly", priority: "0.7" },
+  { path: "/br/", changefreq: "daily", priority: "0.86" },
+  { path: "/br/transferencias-psg/", changefreq: "daily", priority: "0.78" },
+  { path: "/br/mercado-psg/", changefreq: "daily", priority: "0.78" },
+  { path: "/br/jogadores-psg/", changefreq: "weekly", priority: "0.72" },
+  { path: "/br/historia-psg/", changefreq: "weekly", priority: "0.72" },
+  { path: "/br/brasileiros-no-psg/", changefreq: "weekly", priority: "0.8" },
   { path: "/llms.txt", changefreq: "weekly", priority: "0.5" },
   { path: "/llms-full.txt", changefreq: "weekly", priority: "0.5" }
 ];
@@ -1210,6 +1217,364 @@ ${rows}
 `;
 };
 
+const brDateLabel = (label) =>
+  String(label || "")
+    .replace("janvier", "janeiro")
+    .replace("février", "fevereiro")
+    .replace("mars", "março")
+    .replace("avril", "abril")
+    .replace("mai", "maio")
+    .replace("juin", "junho")
+    .replace("juillet", "julho")
+    .replace("août", "agosto")
+    .replace("septembre", "setembro")
+    .replace("octobre", "outubro")
+    .replace("novembre", "novembro")
+    .replace("décembre", "dezembro");
+
+const brStatusLabel = (value) =>
+  String(value || "")
+    .replace("Terminé", "Encerrado")
+    .replace("Programmé", "Marcado")
+    .replace("Horaire à confirmer", "Horário a confirmar")
+    .replace("Tirage à venir", "Sorteio a definir")
+    .replace("Si qualification", "Se o PSG se classificar")
+    .replace("À confirmer", "A confirmar");
+
+const brCompetitionLabel = (value) =>
+  String(value || "")
+    .replace("Amical", "Amistoso")
+    .replace("Ligue des champions", "Liga dos Campeões")
+    .replace("Supercoupe de l'UEFA", "Supercopa da UEFA")
+    .replace("Trophée des Champions", "Troféu dos Campeões")
+    .replace("Coupe de France", "Copa da França");
+
+const brPlaceLabel = (value) =>
+  String(value || "")
+    .replace("Domicile", "Casa")
+    .replace("Extérieur", "Fora")
+    .replace("Neutre", "Neutro")
+    .replace("À confirmer", "A confirmar");
+
+const brStoryTranslations = [
+  {
+    id: "psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026",
+    title: "PSG-Monaco: Paris cai no Parc e acende o primeiro alerta",
+    summary: "O PSG abriu o placar com Marquinhos, mas levou a virada do Monaco. Para o torcedor brasileiro, é o tipo de derrota que coloca lupa na defesa, na rotação e no apetite do time."
+  },
+  {
+    id: "psg-monaco-groupe-dembele-neves-digne-septembre-2026",
+    title: "Dembélé e João Neves voltam, Lucas Digne fica fora do grupo",
+    summary: "Luis Enrique ganha dois retornos fortes, mas a ausência de Digne muda a leitura do corredor esquerdo. É notícia de grupo, mas com cheiro de recado esportivo."
+  },
+  {
+    id: "psg-ligue-champions-calendrier-phase-ligue-uefa-2026",
+    title: "Liga dos Campeões: o caminho do PSG está definido, e promete faísca",
+    summary: "O calendário europeu coloca Paris diante de noites grandes logo cedo. Barcelona, City e Roma dão ao PSG uma temporada com cara de prova mundial."
+  },
+  {
+    id: "luis-enrique-mercato-exceptionnel-psg-monaco-2026",
+    title: "Luis Enrique fecha o mercado: Paris assume um verão de força",
+    summary: "O treinador coloca ponto final no mercado e assume a ambição do elenco. A pergunta que fica: o PSG comprou equilíbrio ou criou uma briga por minutos?"
+  }
+];
+
+const brProfileCopy = {
+  marquinhos: "Capitão, recordista e elo vivo entre várias eras do Paris Saint-Germain.",
+  "lucas-beraldo": "Zagueiro brasileiro canhoto, sereno na saída e ainda com margem real de crescimento.",
+  "ousmane-dembele": "A peça de caos controlado do ataque: aceleração, ambidestria e talento para virar jogos.",
+  vitinha: "O meio-campista que dá ritmo, limpa a pressão e organiza o PSG por dentro.",
+  "joao-neves": "Pressão, volume e coragem com a bola: perfil perfeito para a intensidade de Luis Enrique.",
+  "desire-doue": "Criatividade jovem, condução curta e potencial para ganhar noites grandes.",
+  "khvicha-kvaratskhelia": "Drible, improviso e agressividade pelo lado esquerdo.",
+  "warren-zaire-emery": "O rosto formado em casa dentro de um projeto global."
+};
+
+const brLegendCopy = {
+  rai: "O capitão eterno da Recopa europeia de 1996 e um dos maiores pontes afetivas entre Paris e Brasil.",
+  ronaldinho: "Dois anos de magia antes do estouro mundial: o PSG teve Ronaldinho quando o planeta ainda descobria o gênio.",
+  neymar: "O jogador que mudou a escala midiática do clube, entre brilho absoluto, lesões e debate permanente.",
+  marquinhos: "Brasileiro de longa duração, capitão, símbolo de fidelidade e recordista do clube.",
+  "thiago-silva": "O Monstro deu autoridade europeia ao PSG moderno e marcou uma geração de torcedores.",
+  "lucas-moura": "Arrancadas, promessa gigante e memória viva da primeira fase QSI.",
+  leonardo: "Elegância como jogador e papel enorme nos bastidores do PSG moderno.",
+  nene: "Canhota, gols e personalidade: um dos símbolos técnicos da virada pré-QSI/QSI.",
+  maxwell: "Sobriedade, inteligência e títulos: o luxo tranquilo da lateral esquerda.",
+  alex: "Força, bola parada e segurança no primeiro PSG da era QSI.",
+  "dani-alves": "Vencedor nato, experiência de vestiário grande e conexão direta com a era Neymar.",
+  "david-luiz": "Carisma, risco e personalidade gigante em uma defesa que nunca passou despercebida.",
+  valdo: "Antes e ao lado de Raí, deu ao PSG uma assinatura brasileira refinada."
+};
+
+const makeBrHeader = (active) => {
+  const links = [
+    ["/br/", "Início", "home"],
+    ["/br/transferencias-psg/", "Transferências", "transferencias"],
+    ["/br/mercado-psg/", "Mercado", "mercado"],
+    ["/br/jogadores-psg/", "Jogadores", "jogadores"],
+    ["/br/historia-psg/", "História", "historia"],
+    ["/br/brasileiros-no-psg/", "Brasileiros", "brasileiros"],
+    ["/", "FR", "fr"]
+  ];
+
+  return `<header class="site-header">
+      <a class="brand" href="/br/" aria-label="Parisien 90 Brasil">
+        <span class="brand-mark">P90</span>
+        <span><strong>Parisien 90</strong><small>Brasil PSG desk</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        ${links.map(([href, label, key]) => `<a href="${href}"${key === "fr" ? ' class="language-switch" data-language-switch="true" hreflang="fr-FR"' : ""}${active === key ? ' aria-current="page"' : ""}>${label}</a>`).join("\n        ")}
+      </nav>
+    </header>`;
+};
+
+const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd }) => {
+  const url = `${siteUrl}${path}`;
+  const frUrl = `${siteUrl}${frPath || "/"}`;
+
+  return `<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeHTML(title)}</title>
+    <meta name="description" content="${escapeHTML(description)}" />
+    <link rel="canonical" href="${escapeHTML(url)}" />
+    <link rel="alternate" hreflang="pt-BR" href="${escapeHTML(url)}" />
+    <link rel="alternate" hreflang="fr-FR" href="${escapeHTML(frUrl)}" />
+    <link rel="alternate" hreflang="x-default" href="${escapeHTML(frUrl)}" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
+    <meta name="theme-color" content="#071426" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="${escapeHTML(title)}" />
+    <meta property="og:description" content="${escapeHTML(description)}" />
+    <meta property="og:url" content="${escapeHTML(url)}" />
+    <meta property="og:image" content="${escapeHTML(heroImage)}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">${safeJson(jsonLd)}</script>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    ${makeBrHeader(active)}
+    <main>
+      ${body}
+    </main>
+    <footer class="site-footer">
+      <p>Parisien 90 Brasil - mídia independente sobre o Paris Saint-Germain. Nenhuma afiliação oficial ao clube.</p>
+      <a href="/br/">Brasil</a>
+      <a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a>
+      <a href="/droits-disclaimer/">Direitos & disclaimer</a>
+      <a href="/contact-retrait/">Contato / remoção</a>
+      <a href="/">Versão francesa</a>
+    </footer>
+    <script type="module" src="/src/site.js"></script>
+  </body>
+</html>`;
+};
+
+const makeBrazilPages = (allTimePlayerIndex) => {
+  const brLatest = brStoryTranslations
+    .map((story) => ({ ...story, item: publishedNewsFeed.find((item) => item.id === story.id) }))
+    .filter((story) => story.item);
+  const upcomingFixtures = psgSchedule2627
+    .filter((fixture) => fixture.isoDate >= currentDate)
+    .slice(0, 5);
+  const playerIds = ["marquinhos", "lucas-beraldo", "ousmane-dembele", "vitinha", "joao-neves", "desire-doue", "khvicha-kvaratskhelia", "warren-zaire-emery"];
+  const currentPlayers = playerIds
+    .map((id) => currentPlayerProfiles.find((profile) => profile.id === id))
+    .filter(Boolean);
+  const brazilianLegendIds = ["rai", "ronaldinho", "neymar", "marquinhos", "thiago-silva", "lucas-moura", "leonardo", "nene", "maxwell", "alex", "dani-alves", "david-luiz", "valdo"];
+  const brazilianLegends = brazilianLegendIds
+    .map((id) => legendProfiles.find((profile) => profile.id === id))
+    .filter(Boolean);
+  const countryCounts = new Map();
+  allTimePlayerIndex.forEach((player) => {
+    splitCountries(player.countries).forEach((country) => {
+      const key = countryKey(country);
+      if (!key) return;
+      countryCounts.set(key, (countryCounts.get(key) || 0) + 1);
+    });
+  });
+  const brazilianCount = countryCounts.get(countryKey("Brésil")) || brazilianLegends.length;
+  const argentinianCount = countryCounts.get(countryKey("Argentine")) || 0;
+
+  const newsCards = brLatest
+    .map(
+      (story) => `<article class="news-card" data-share-title="${escapeHTML(story.title)}" data-share-url="${escapeHTML(story.item ? itemPath(story.item) : "/br/")}">
+          <time class="news-date" datetime="${escapeHTML(itemDateTimeISO(story.item))}">${escapeHTML(brDateLabel(story.item.dateLabel || newsMeta.displayDate))} · ${escapeHTML(story.item.time)}</time>
+          <div class="news-topline"><span>${escapeHTML(brCompetitionLabel(story.item.category))}</span><strong>${escapeHTML(story.item.reliability)}</strong></div>
+          <h3><a href="${escapeHTML(itemPath(story.item))}">${escapeHTML(story.title)}</a></h3>
+          <p>${escapeHTML(story.summary)}</p>
+          <a href="${escapeHTML(sourceUrl(story.item))}" rel="noopener noreferrer">Fonte: ${escapeHTML(story.item.source)}</a>
+        </article>`
+    )
+    .join("\n");
+
+  const fixtureCards = upcomingFixtures
+    .map(
+      (fixture) => `<article class="match-card">
+          <div class="item-tags"><span>${escapeHTML(brCompetitionLabel(fixture.competition))}</span><span>${escapeHTML(brPlaceLabel(fixture.place))}</span></div>
+          <time datetime="${escapeHTML(`${fixture.isoDate}T${fixture.time === "À confirmer" ? "00:00" : fixture.time}:00`)}">${escapeHTML(brDateLabel(fixture.dateLabel))} · ${escapeHTML(brStatusLabel(fixture.time))}</time>
+          <h3>${escapeHTML(fixture.home)} x ${escapeHTML(fixture.away)}</h3>
+          <p>${escapeHTML(fixture.venue)} - ${escapeHTML(brStatusLabel(fixture.status))}</p>
+        </article>`
+    )
+    .join("\n");
+
+  const playerCards = currentPlayers
+    .map(
+      (profile) => `<a class="topic-card" href="${escapeHTML(currentPlayerPath(profile))}">
+          <span>${escapeHTML(profile.number || profile.line || "PSG")}</span>
+          <h3>${escapeHTML(profile.name)}</h3>
+          <p>${escapeHTML(brProfileCopy[profile.id] || profile.profile)}</p>
+        </a>`
+    )
+    .join("\n");
+
+  const legendCards = brazilianLegends
+    .map(
+      (profile) => `<a class="topic-card" href="${escapeHTML(legendPath(profile))}">
+          <span>${escapeHTML(profile.psgPeriod || "PSG")}</span>
+          <h3>${escapeHTML(profile.name)}</h3>
+          <p>${escapeHTML(brLegendCopy[profile.id] || profile.profile)}</p>
+        </a>`
+    )
+    .join("\n");
+  const legendPreviewCards = brazilianLegends
+    .slice(0, 6)
+    .map(
+      (profile) => `<a class="topic-card" href="${escapeHTML(legendPath(profile))}">
+          <span>${escapeHTML(profile.psgPeriod || "PSG")}</span>
+          <h3>${escapeHTML(profile.name)}</h3>
+          <p>${escapeHTML(brLegendCopy[profile.id] || profile.profile)}</p>
+        </a>`
+    )
+    .join("\n");
+
+  const homeJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Parisien 90 Brasil",
+    url: `${siteUrl}/br/`,
+    inLanguage: "pt-BR",
+    about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+    publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
+  };
+
+  const pages = [
+    {
+      path: "/br/",
+      title: "PSG em português do Brasil: notícias, mercado e história | Parisien 90",
+      description: "Parisien 90 Brasil acompanha o PSG em português: notícias, transferências, jogadores, brasileiros no clube, história e calendário.",
+      active: "home",
+      frPath: "/",
+      jsonLd: homeJsonLd,
+      body: `<section class="hero-section br-hero">
+        <div class="hero-visual" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="live-chip">Brasil PSG desk</div>
+          <h1>PSG em português do Brasil</h1>
+          <p>Parisien 90 abre sua ponte brasileira: notícias do Paris Saint-Germain, mercado, Liga dos Campeões, jogadores e a linhagem verde-amarela que ajudou a construir o mito parisiense.</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="/br/brasileiros-no-psg/">Ver brasileiros no PSG</a>
+            <a class="secondary-action" href="/br/transferencias-psg/">Transferências PSG</a>
+            <a class="secondary-action" href="/br/jogadores-psg/">Jogadores</a>
+          </div>
+        </div>
+        <aside class="hero-news" aria-label="Destaque Brasil">
+          <span class="section-kicker">Destaque</span>
+          <time class="news-date" datetime="${escapeHTML(brLatest[0] ? itemDateTimeISO(brLatest[0].item) : newsMeta.updatedAt)}">${escapeHTML(brLatest[0] ? `${brDateLabel(brLatest[0].item.dateLabel)} · ${brLatest[0].item.time}` : brDateLabel(newsMeta.displayDate))}</time>
+          <h2>${escapeHTML(brLatest[0]?.title || "Parisien 90 Brasil está no ar")}</h2>
+          <p>${escapeHTML(brLatest[0]?.summary || "A versão brasileira começa pelos temas mais fortes: mercado, elenco, calendário europeu, história e brasileiros do PSG.")}</p>
+        </aside>
+      </section>
+      <section class="signal-strip" aria-label="Indicadores Brasil PSG">
+        <article class="signal-card"><span>Notícias no fio</span><strong>${escapeHTML(publishedNewsFeed.length)}</strong></article>
+        <article class="signal-card tone-green"><span>Brasileiros mapeados</span><strong>${escapeHTML(brazilianCount)}</strong></article>
+        <article class="signal-card tone-red"><span>Calendário 26/27</span><strong>${escapeHTML(psgSchedule2627.length)}</strong></article>
+      </section>
+      <section class="content-section">
+        <span class="section-kicker">Comece aqui</span>
+        <h2>O PSG visto do Brasil</h2>
+        <p>O Paris Saint-Germain não é apenas um clube francês para o público brasileiro. É Raí levantando taça europeia, Ronaldinho antes do auge, Neymar mudando a escala do projeto, Marquinhos virando capitão e uma lista de craques que liga Paris ao nosso futebol.</p>
+        <div class="topic-grid">
+          <a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Mercado PSG</h3><p>Rumores, chegadas, saídas e leitura de confiança dos movimentos.</p></a>
+          <a class="topic-card" href="/br/historia-psg/"><span>Memória</span><h3>História do PSG</h3><p>Grandes eras, ídolos, noites europeias e viradas do clube.</p></a>
+          <a class="topic-card" href="/br/brasileiros-no-psg/"><span>Brasil</span><h3>Brasileiros no PSG</h3><p>Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e muito mais.</p></a>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">Atualidade</span><h2>Notícias PSG em destaque</h2></div><span class="freshness">${escapeHTML(brDateLabel(newsMeta.displayDate))} · ${escapeHTML(newsMeta.displayTime)}</span></div>
+        <div class="hot-grid">${newsCards}</div>
+      </section>`
+    },
+    {
+      path: "/br/transferencias-psg/",
+      title: "Transferências PSG: chegadas, saídas e rumores | Parisien 90 Brasil",
+      description: "Transferências do PSG em português do Brasil: rumores, chegadas, saídas, fontes citadas e impacto esportivo no elenco de Luis Enrique.",
+      active: "transferencias",
+      frPath: "/transfert-psg/",
+      jsonLd: { ...homeJsonLd, name: "Transferências PSG", url: `${siteUrl}/br/transferencias-psg/` },
+      body: `<section class="page-hero"><span class="section-kicker">Mercado Paris</span><h1>Transferências PSG: o que muda de verdade no time</h1><p>Chegada, saída ou rumor só interessa quando muda o campo: hierarquia, salário, minutos, vestiário e ambição europeia.</p></section>
+      <section class="reader-layout">
+        <article class="content-section"><h2>Como ler uma transferência do PSG</h2><p>O PSG compra status, mas também compra função. Antes de tratar qualquer nome como solução mágica, Parisien 90 Brasil separa confirmação oficial, negociação avançada, rumor forte e simples barulho de mercado.</p><p>Para o torcedor brasileiro, vale observar três pontos: quem perde espaço, quem ganha proteção na rotação e se a contratação aumenta a chance do PSG competir em noites grandes de Liga dos Campeões.</p></article>
+        <aside class="side-panel"><span class="section-kicker">Rotas rápidas</span><h2>Guias ligados</h2><ul class="link-list"><li><a href="/br/mercado-psg/">Mercado PSG ao vivo</a></li><li><a href="/br/jogadores-psg/">Elenco atual</a></li><li><a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a></li><li><a href="/transfert-psg/">Versão francesa completa</a></li></ul></aside>
+      </section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Sinais recentes</span><h2>Transferências e decisões quentes</h2></div></div><div class="hot-grid">${newsCards}</div></section>`
+    },
+    {
+      path: "/br/mercado-psg/",
+      title: "Mercado PSG em português: rumores e bastidores | Parisien 90 Brasil",
+      description: "Mercado do PSG para leitores brasileiros: rumores, bastidores, confiabilidade das fontes e análise do elenco parisiense.",
+      active: "mercado",
+      frPath: "/mercato-psg/",
+      jsonLd: { ...homeJsonLd, name: "Mercado PSG Brasil", url: `${siteUrl}/br/mercado-psg/` },
+      body: `<section class="page-hero"><span class="section-kicker">Mercado PSG</span><h1>Mercado PSG: rumor só vale quando tem contexto</h1><p>Paris é gigante, então todo agente quer colocar um nome perto do PSG. A versão Brasil vai direto ao ponto: quem disse, o que existe, o que falta e por que isso importa.</p></section>
+      <section class="content-section"><h2>O radar do torcedor brasileiro</h2><div class="method-list"><article><strong>Oficial</strong><p>Comunicado de clube, liga, federação ou competição.</p></article><article><strong>Forte</strong><p>Informação atribuída, recortada e ainda dependente de assinatura ou exame médico.</p></article><article><strong>Debate</strong><p>Leitura editorial sobre impacto técnico, sem vender hipótese como fato.</p></article></div></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Agora</span><h2>Notícias de mercado</h2></div></div><div class="hot-grid">${newsCards}</div></section>`
+    },
+    {
+      path: "/br/jogadores-psg/",
+      title: "Jogadores do PSG: elenco, craques e brasileiros | Parisien 90 Brasil",
+      description: "Elenco do PSG em português do Brasil: jogadores atuais, funções, brasileiros, jovens e nomes decisivos do time de Luis Enrique.",
+      active: "jogadores",
+      frPath: "/joueurs-psg/",
+      jsonLd: { ...homeJsonLd, name: "Jogadores do PSG", url: `${siteUrl}/br/jogadores-psg/` },
+      body: `<section class="page-hero"><span class="section-kicker">Elenco</span><h1>Jogadores do PSG: talento, rotação e disputa por minutos</h1><p>O PSG moderno vive de abundância. O desafio de Luis Enrique é transformar estrelas, jovens e especialistas em uma equipe legível.</p></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Perfis atuais</span><h2>Jogadores para acompanhar</h2></div><a class="primary-action compact-action" href="/joueurs-psg/">Todas as fichas em francês</a></div><div class="topic-grid">${playerCards}</div></section>
+      <section class="content-section"><h2>Por que o elenco interessa no Brasil</h2><p>O torcedor brasileiro costuma olhar o PSG por nomes, estilo e noites grandes. Marquinhos e Lucas Beraldo mantêm a conexão direta com o Brasil, enquanto Dembélé, Vitinha, João Neves, Doué e Kvaratskhelia explicam a nova identidade coletiva de Paris.</p></section>`
+    },
+    {
+      path: "/br/historia-psg/",
+      title: "História do PSG: títulos, ídolos e eras do clube | Parisien 90 Brasil",
+      description: "História do Paris Saint-Germain em português: nascimento do clube, grandes eras, ídolos, títulos, brasileiros e noites europeias.",
+      active: "historia",
+      frPath: "/histoire-psg/",
+      jsonLd: { ...homeJsonLd, name: "História do PSG", url: `${siteUrl}/br/historia-psg/` },
+      body: `<section class="page-hero"><span class="section-kicker">História PSG</span><h1>História do PSG: de clube jovem a potência mundial</h1><p>Paris não nasceu gigante, mas virou uma marca global porque juntou cidade, ambição, estrelas, rivalidades e noites europeias que moldaram sua identidade.</p></section>
+      <section class="reader-layout"><article class="content-section"><h2>As eras que explicam Paris</h2><p>O PSG dos anos 70 e 80 constrói base e primeiros títulos. A era Canal+ dá peso europeu e noites de Copa. O ciclo QSI muda escala, dinheiro, pressão e expectativa mundial. Hoje, o clube tenta transformar poder em cultura vencedora permanente.</p><p>Para o Brasil, a história fica ainda mais próxima: Raí, Valdo, Leonardo, Ronaldinho, Thiago Silva, Neymar e Marquinhos não são detalhes. Eles são capítulos centrais.</p></article><aside class="side-panel"><span class="section-kicker">Memória</span><h2>Ídolos para abrir</h2><ul class="link-list"><li><a href="/anciens-joueurs-psg/rai/">Raí PSG</a></li><li><a href="/anciens-joueurs-psg/ronaldinho/">Ronaldinho PSG</a></li><li><a href="/anciens-joueurs-psg/neymar/">Neymar PSG</a></li><li><a href="/records-psg/">Recordes e números</a></li></ul></aside></section>
+      <section class="content-section"><div class="topic-grid">${legendPreviewCards}</div></section>`
+    },
+    {
+      path: "/br/brasileiros-no-psg/",
+      title: "Brasileiros no PSG: Raí, Ronaldinho, Neymar e Marquinhos | Parisien 90",
+      description: "Lista e histórias dos brasileiros no PSG: Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos, Lucas Moura, Leonardo, Nenê, Maxwell e outros.",
+      active: "brasileiros",
+      frPath: "/anciens-joueurs-psg/?pays=Brésil",
+      jsonLd: { ...homeJsonLd, name: "Brasileiros no PSG", url: `${siteUrl}/br/brasileiros-no-psg/` },
+      body: `<section class="page-hero"><span class="section-kicker">Brasil em Paris</span><h1>Brasileiros no PSG: a linhagem que deu alma mundial a Paris</h1><p>Raí deu nobreza, Ronaldinho deu fantasia, Neymar deu escala global, Thiago Silva deu autoridade, Marquinhos deu duração. O PSG fala português muito antes de querer falar com o mundo inteiro.</p></section>
+      <section class="signal-strip" aria-label="Brasileiros e sul-americanos no PSG"><article class="signal-card tone-green"><span>Brasileiros mapeados</span><strong>${escapeHTML(brazilianCount)}</strong></article><article class="signal-card"><span>Argentinos mapeados</span><strong>${escapeHTML(argentinianCount)}</strong></article><article class="signal-card tone-red"><span>Fichas em destaque</span><strong>${escapeHTML(brazilianLegends.length)}</strong></article></section>
+      <section class="content-section"><h2>Por que essa lista importa</h2><p>O PSG tem uma relação rara com o futebol brasileiro. Não é só contratação de craque: é estética, liderança, marketing, memória e identidade. De Raí a Marquinhos, o Brasil aparece nos momentos em que Paris tenta se definir para além da França.</p><p>As fichas abaixo usam dados públicos e fontes citadas. As fotos só aparecem quando existe licença aberta ou autorização clara.</p></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Galeria editorial</span><h2>Grandes brasileiros do PSG</h2></div><a class="primary-action compact-action" href="/anciens-joueurs-psg/?pays=Brésil">Lista completa</a></div><div class="topic-grid">${legendCards}</div></section>
+      <section class="content-section"><h2>Próximos jogos que o Brasil deve olhar</h2><div class="hot-grid">${fixtureCards}</div></section>`
+    }
+  ];
+
+  return pages.map((page) => ({ path: page.path, html: makeBrPage(page) }));
+};
+
 const newsPayload = {
   updatedAt: newsMeta.updatedAt,
   edition: newsMeta.edition,
@@ -1323,6 +1688,17 @@ await Promise.all(
   })
 );
 await writeFile(new URL("index.html", legendsDir), makeAllTimePlayersPage(allTimePlayerIndex), "utf8");
+
+const brazilPages = makeBrazilPages(allTimePlayerIndex);
+await rm(brDir, { recursive: true, force: true });
+await mkdir(brDir, { recursive: true });
+await Promise.all(
+  brazilPages.map(async (page) => {
+    const pageDir = new URL(page.path.replace(/^\/br\/?/, ""), brDir);
+    await mkdir(pageDir, { recursive: true });
+    await writeFile(new URL("index.html", pageDir), page.html, "utf8");
+  })
+);
 
 const rssItems = publishedNewsFeed.slice(0, 24).map((item) => {
   const internalUrl = itemUrl(item);

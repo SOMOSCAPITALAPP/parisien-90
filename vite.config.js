@@ -16,6 +16,7 @@ const editorialEntries = nestedEntries("dossiers-psg", "dossier");
 const playerEntries = nestedEntries("joueurs-psg", "joueur");
 const legendEntries = nestedEntries("anciens-joueurs-psg", "ancien");
 const staffEntries = nestedEntries("staff-psg", "staff");
+const brazilEntries = nestedEntries("br", "br");
 
 export default defineConfig({
   build: {
@@ -42,6 +43,8 @@ export default defineConfig({
         charteEditoriale: resolve(__dirname, "charte-editoriale/index.html"),
         controleSources: resolve(__dirname, "controle-sources/index.html"),
         suiviAudience: resolve(__dirname, "suivi-audience/index.html"),
+        br: resolve(__dirname, "br/index.html"),
+        ...brazilEntries,
         ...newsEntries,
         ...editorialEntries,
         ...playerEntries,
