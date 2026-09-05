@@ -30,8 +30,8 @@
       "joueur le plus capé PSG",
       "Brésiliens PSG"
     ],
-    "lastVerifiedAt": "2026-09-04T16:35:00+02:00",
-    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 97 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance ; Ligue des champions : le chemin du PSG est daté, et il pique déjà les yeux ; Le vrai sujet de PSG-Monaco : Paris doit prouver que sa nouvelle énergie n'est pas un slogan. Synthèses originales, sourcées et liées."
+    "lastVerifiedAt": "2026-09-04T23:07:00+02:00",
+    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 98 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance ; Ligue des champions : le chemin du PSG est daté, et il pique déjà les yeux. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -184,6 +184,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Monaco : Paris renversé au Parc, première défaite et première alerte",
+      "category": "Match",
+      "dateTime": "2026-09-04T23:07:00+02:00",
+      "url": "https://parisien90.com/news/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-monaco-2026-09-04",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté",
       "category": "Groupe",
@@ -443,15 +452,6 @@
       "url": "https://parisien90.com/news/psg-feminin-francfort-tour-3-ligue-champions-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/paris-to-face-frankfurt-in-womens-champions-league-3rd-qualifying-round-draw-paris-saint-germain-feminines-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Aston Villa : Paris est arrivé à Salzbourg pour son premier trophée",
-      "category": "Europe",
-      "dateTime": "2026-08-11T14:00:00+02:00",
-      "url": "https://parisien90.com/news/psg-arrive-salzbourg-supercoupe-aston-villa-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/en/content/direction-salzburg-paris-saint-germain-aston-villa-super-coupe-de-luefa-2026",
       "reliability": "Officiel"
     }
   ],

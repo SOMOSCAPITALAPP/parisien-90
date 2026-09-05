@@ -177,8 +177,7 @@ const makeArticleSections = (item) => {
   const summary = escapeHTML(item.summary);
   const reliability = escapeHTML(item.reliability);
 
-  return `
-            <h2>Ce qui est établi</h2>
+  return `<h2>Ce qui est établi</h2>
             <p>${summary}</p>
             <p>Le point important, ici, est la nature du signal : il est daté du ${escapeHTML(item.dateLabel || newsMeta.displayDate)} à ${escapeHTML(item.time)} et classé <strong>${reliability}</strong>. Cette qualification permet de ne pas mettre sur le même plan une annonce officielle, une rumeur de marché, une analyse maison ou une reprise à confirmer.</p>
             <h2>Pourquoi cette info compte pour le PSG</h2>
