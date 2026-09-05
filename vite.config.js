@@ -11,12 +11,33 @@ const nestedEntries = (root, prefix) =>
     )
   : {};
 
+const recursiveEntries = (root, prefix) => {
+  const rootPath = resolve(__dirname, root);
+  if (!existsSync(rootPath)) return {};
+
+  const entries = {};
+  const walk = (dir, parts = []) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const nextParts = [...parts, entry.name];
+      const indexPath = resolve(dir, entry.name, "index.html");
+      if (existsSync(indexPath)) {
+        entries[[prefix, ...nextParts].join("-")] = indexPath;
+      }
+      walk(resolve(dir, entry.name), nextParts);
+    }
+  };
+
+  walk(rootPath);
+  return entries;
+};
+
 const newsEntries = nestedEntries("news", "news");
 const editorialEntries = nestedEntries("dossiers-psg", "dossier");
 const playerEntries = nestedEntries("joueurs-psg", "joueur");
 const legendEntries = nestedEntries("anciens-joueurs-psg", "ancien");
 const staffEntries = nestedEntries("staff-psg", "staff");
-const brazilEntries = nestedEntries("br", "br");
+const brazilEntries = recursiveEntries("br", "br");
 
 export default defineConfig({
   build: {

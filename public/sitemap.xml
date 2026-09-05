@@ -145,6 +145,12 @@
     <priority>0.72</priority>
   </url>
   <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
     <loc>https://parisien90.com/br/brasileiros-no-psg/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1391,5 +1397,47 @@
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/marquinhos/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/neymar/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/ronaldinho/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/rai/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/thiago-silva/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/lionel-messi/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/kylian-mbappe/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
   </url>
 </urlset>

@@ -45,6 +45,7 @@ const staticPages = [
   { path: "/br/mercado-psg/", changefreq: "daily", priority: "0.78" },
   { path: "/br/jogadores-psg/", changefreq: "weekly", priority: "0.72" },
   { path: "/br/historia-psg/", changefreq: "weekly", priority: "0.72" },
+  { path: "/br/antigos-jogadores-psg/", changefreq: "weekly", priority: "0.74" },
   { path: "/br/brasileiros-no-psg/", changefreq: "weekly", priority: "0.8" },
   { path: "/llms.txt", changefreq: "weekly", priority: "0.5" },
   { path: "/llms-full.txt", changefreq: "weekly", priority: "0.5" }
@@ -102,6 +103,10 @@ const legendPath = (profile) => `/anciens-joueurs-psg/${slugify(profile.id)}/`;
 const legendUrl = (profile) => `${siteUrl}${legendPath(profile)}`;
 const staffPath = (profile) => `/staff-psg/${slugify(profile.id)}/`;
 const staffUrl = (profile) => `${siteUrl}${staffPath(profile)}`;
+const brCurrentPlayerPath = (profile) => `/br/jogadores-psg/${slugify(profile.id)}/`;
+const brCurrentPlayerUrl = (profile) => `${siteUrl}${brCurrentPlayerPath(profile)}`;
+const brLegendProfilePath = (profile) => `/br/antigos-jogadores-psg/${slugify(profile.id)}/`;
+const brLegendProfileUrl = (profile) => `${siteUrl}${brLegendProfilePath(profile)}`;
 const assetUrl = (path) => new URL(path, siteUrl).href;
 const normalizeKey = (value) =>
   String(value ?? "")
@@ -1306,6 +1311,171 @@ const brLegendCopy = {
   valdo: "Antes e ao lado de Raí, deu ao PSG uma assinatura brasileira refinada."
 };
 
+const brCurrentProfileIds = new Set(["marquinhos"]);
+const brLegendProfileIds = new Set(["neymar", "ronaldinho", "rai", "thiago-silva", "lionel-messi", "kylian-mbappe"]);
+
+const brProfileDetails = {
+  marquinhos: {
+    kicker: "Capitão",
+    intro: "Marquinhos é mais do que um zagueiro do PSG: é a linha contínua entre o clube das grandes estrelas, o projeto vencedor e a obrigação de estabilidade.",
+    paragraphs: [
+      "Chegou jovem, atravessou ciclos, viu treinadores, astros e pressões mudarem, mas permaneceu como referência. Para o público brasileiro, sua história é especial porque mistura regularidade europeia, liderança silenciosa e uma identificação rara com Paris.",
+      "No campo, Marquinhos vale pela leitura defensiva, pela capacidade de cobrir espaços grandes e pela autoridade em jogos de tensão. Fora dele, pesa como símbolo: quando o PSG busca maturidade, o capitão vira termômetro.",
+      "A questão para a temporada é física e emocional. Paris precisa de Marquinhos forte nos grandes jogos, mas também bem gerido em uma defesa que se renova."
+    ],
+    focusTitle: "Por que Marquinhos é uma página central do PSG no Brasil?",
+    focus: "Porque ele junta tudo que interessa ao torcedor brasileiro: longevidade, braçadeira, títulos, ligação afetiva e uma presença ainda ativa no elenco.",
+    faq: [
+      ["Marquinhos ainda joga no PSG?", "Sim. Na base de dados Parisien 90, Marquinhos aparece como capitão e jogador do elenco 2026-2027."],
+      ["Qual é o papel de Marquinhos no PSG?", "Ele é tratado como zagueiro central, líder de vestiário e referência histórica do grupo."],
+      ["Por que Marquinhos importa para os brasileiros do PSG?", "Porque é um dos brasileiros mais duradouros e identificados com Paris, ao lado de nomes como Raí, Ronaldinho, Neymar e Thiago Silva."]
+    ]
+  },
+  neymar: {
+    kicker: "Ícone global",
+    intro: "Neymar no PSG é uma história impossível de reduzir: houve gênio, lesão, fascínio mundial, irritação, recorde simbólico e debate permanente.",
+    paragraphs: [
+      "A chegada de Neymar mudou a escala do Paris Saint-Germain. O clube deixou de ser apenas candidato europeu rico para virar tema planetário diário, especialmente no Brasil.",
+      "Seu passage em Paris foi feito de noites de brilho absoluto e de frustrações profundas. Para alguns, faltou a sequência física nos momentos decisivos. Para outros, o talento foi tão alto que a cobrança virou quase impossível de satisfazer.",
+      "Neymar continua sendo uma das portas de entrada mais fortes para o público brasileiro entender o PSG moderno: ambição, espetáculo, marketing, pressão e a fronteira delicada entre estrela e projeto coletivo."
+    ],
+    focusTitle: "Neymar PSG: brilho ou ferida aberta?",
+    focus: "A pergunta ainda divide torcedores porque Neymar deu visibilidade mundial ao PSG, mas também deixou a sensação de que Paris nunca viu a versão inteira do seu melhor futebol por tempo suficiente.",
+    faq: [
+      ["Quando Neymar jogou no PSG?", "Neymar jogou pelo Paris Saint-Germain entre 2017 e 2023."],
+      ["Por que Neymar é tão importante na história do PSG?", "Porque sua contratação mudou o patamar midiático do clube e aproximou ainda mais o PSG do público brasileiro."],
+      ["A página usa informações privadas?", "Não. A ficha limita-se ao interesse esportivo, histórico e público."]
+    ]
+  },
+  ronaldinho: {
+    kicker: "Fantasia pura",
+    intro: "Ronaldinho Gaúcho no PSG é o capítulo perfeito para quem ama futebol antes da planilha: Paris teve o gênio quando o planeta ainda descobria o tamanho dele.",
+    paragraphs: [
+      "Entre 2001 e 2003, Ronaldinho ofereceu ao Parc des Princes uma amostra do jogador que depois encantaria o mundo. Dribles, improviso, sorriso, pausa e explosão: tudo já estava ali.",
+      "O PSG não teve Ronaldinho por muito tempo, mas teve Ronaldinho em estado de descoberta. Isso dá ao clube uma história rara: Paris foi palco de formação pública de uma lenda global.",
+      "Para o leitor brasileiro, é uma ficha emocional. Ronaldinho não é apenas um antigo jogador do PSG; é a prova de que o clube já falava a língua do futebol arte antes de se tornar potência mundial."
+    ],
+    focusTitle: "Ronaldinho PSG: por que esse período fascina tanto?",
+    focus: "Porque une nostalgia, Brasil, futebol espetáculo e a sensação de ter visto uma obra-prima antes do reconhecimento universal.",
+    faq: [
+      ["Quando Ronaldinho jogou no PSG?", "Ronaldinho Gaúcho jogou no Paris Saint-Germain entre 2001 e 2003."],
+      ["Existe foto utilizável de Ronaldinho?", "Esta ficha usa somente imagem com licença aberta já creditada, quando disponível no banco do site."],
+      ["Ronaldinho virou estrela mundial depois do PSG?", "Sim. Seu período parisiense antecede a consagração global que viria depois, especialmente no futebol espanhol e na seleção brasileira."]
+    ]
+  },
+  rai: {
+    kicker: "Capitão eterno",
+    intro: "Raí é a ponte afetiva mais nobre entre o Paris Saint-Germain e o Brasil: liderança, elegância e título europeu no mesmo personagem.",
+    paragraphs: [
+      "Nos anos 90, Raí ajudou o PSG a ganhar densidade internacional. Não era apenas um craque brasileiro em Paris; era um capitão com presença, técnica e autoridade.",
+      "A Recopa europeia de 1996 colocou seu nome no centro da memória parisiense. Para muitos torcedores, Raí representa uma era em que o PSG se descobria grande sem perder certo romantismo.",
+      "No Brasil, sua imagem pública também carrega causas sociais e educativas, o que reforça uma dimensão que ultrapassa o campo sem transformar a ficha em vida privada."
+    ],
+    focusTitle: "Raí PSG: o brasileiro que virou memória institucional",
+    focus: "Raí é decisivo porque oferece ao PSG uma ligação brasileira baseada em liderança e conquista, não apenas em brilho individual.",
+    faq: [
+      ["Quando Raí jogou no PSG?", "Raí atuou pelo Paris Saint-Germain entre 1993 e 1998."],
+      ["Qual título europeu marca Raí no PSG?", "Ele é associado à campanha da Recopa europeia conquistada pelo PSG em 1996."],
+      ["Por que Raí é amado em Paris?", "Pela combinação de técnica, liderança e papel simbólico em uma era fundadora da ambição europeia do clube."]
+    ]
+  },
+  "thiago-silva": {
+    kicker: "O Monstro",
+    intro: "Thiago Silva deu ao PSG moderno uma coisa que dinheiro sozinho não compra: autoridade defensiva reconhecida por todos.",
+    paragraphs: [
+      "Na primeira grande coluna vertebral do projeto QSI, Thiago Silva foi a peça que estabilizou a defesa e elevou a percepção europeia do clube.",
+      "Capitão, zagueiro elegante e líder técnico, ele representou uma forma brasileira menos carnavalesca e mais cirúrgica: leitura, timing, antecipação e comando.",
+      "Sua saída marcou também uma discussão recorrente em Paris: até que ponto o clube sabe encerrar ciclos sem perder experiência nos grandes jogos?"
+    ],
+    focusTitle: "Thiago Silva PSG: liderança que ainda pesa",
+    focus: "Seu nome continua forte porque ajuda a comparar as defesas atuais do PSG com a primeira grande era de ambição europeia do clube.",
+    faq: [
+      ["Quando Thiago Silva jogou no PSG?", "Thiago Silva jogou no Paris Saint-Germain entre 2012 e 2020."],
+      ["Qual era o papel de Thiago Silva no PSG?", "Era zagueiro central, capitão e referência defensiva do projeto moderno."],
+      ["Por que era chamado de O Monstro?", "O apelido se ligou à sua autoridade defensiva, regularidade e leitura de jogo."]
+    ]
+  },
+  "lionel-messi": {
+    kicker: "Ícone absoluto",
+    intro: "Lionel Messi no PSG foi curto, discutido e planetário: duas temporadas suficientes para mudar a visibilidade do clube em todos os continentes.",
+    paragraphs: [
+      "A passagem de Messi por Paris não se resume ao rendimento em campo. Ela colocou o PSG no centro de uma conversa global diária, com torcedores que talvez nunca acompanhassem a Ligue 1.",
+      "A leitura esportiva segue dividida. Houve talento, gols, passes e estatuto lendário, mas também a sensação de encaixe incompleto com aquilo que Paris esperava nas noites europeias.",
+      "Mesmo assim, poucos nomes carregam tanto peso histórico. Ter Messi na lista de antigos jogadores transforma o PSG em capítulo obrigatório da biografia do maior imaginário futebolístico moderno."
+    ],
+    focusTitle: "Messi PSG: passagem curta, impacto enorme",
+    focus: "O interesse segue alto porque une o maior nome de sua geração a uma experiência parisiense intensa, discutida e global.",
+    faq: [
+      ["Quando Messi jogou no PSG?", "Lionel Messi jogou pelo Paris Saint-Germain entre 2021 e 2023."],
+      ["A passagem de Messi pelo PSG foi consensual?", "Não. Ela segue debatida entre impacto estatístico, visibilidade global e expectativas europeias."],
+      ["Por que manter uma ficha Messi PSG?", "Porque sua passagem é uma referência mundial para entender a era das superestrelas do clube."]
+    ]
+  },
+  "kylian-mbappe": {
+    kicker: "Recordista",
+    intro: "Kylian Mbappé é um caso central na história do PSG: maior goleador, superstar francesa, rosto do projeto e capítulo de ruptura.",
+    paragraphs: [
+      "No PSG, Mbappé virou máquina de gols e rosto mundial do projeto. A velocidade, a finalização e a obsessão pelos grandes jogos redefiniram o teto individual parisiense.",
+      "Sua história com Paris continua poderosa porque mistura identificação francesa, ambição europeia, recordes e uma separação muito comentada.",
+      "Para o público brasileiro, Mbappé interessa também como rival narrativo de Neymar, parceiro de Messi e símbolo de um PSG que tentou reunir individualidades gigantes do futebol moderno."
+    ],
+    focusTitle: "Mbappé PSG: recordes, poder e ruptura",
+    focus: "Sua ficha segue indispensável porque nenhum atacante marcou tão fortemente o PSG moderno em números, exposição e debate.",
+    faq: [
+      ["Quando Mbappé jogou no PSG?", "Kylian Mbappé jogou no Paris Saint-Germain entre 2017 e 2024."],
+      ["Qual é a marca mais forte de Mbappé no PSG?", "Ele é apresentado na base Parisien 90 como o maior goleador histórico do clube."],
+      ["Por que Mbappé interessa ao público brasileiro?", "Porque sua história cruza Neymar, Messi, Champions League, França e a construção global do PSG."]
+    ]
+  }
+};
+
+const brValueTranslations = [
+  ["Vivant", "Vivo"],
+  ["Capitaine et recordman", "Capitão e recordista"],
+  ["Défenseur central, leader de vestiaire", "Zagueiro, líder do vestiário"],
+  ["Défenseur central", "Zagueiro"],
+  ["Défenseur", "Defensor"],
+  ["Attaquant créateur", "Atacante criativo"],
+  ["Attaquant", "Atacante"],
+  ["Meneur offensif", "Meia-atacante"],
+  ["Meneur de jeu", "Meia armador"],
+  ["Gardien", "Goleiro"],
+  ["Milieu", "Meio-campista"],
+  ["Joueur majeur du PSG actuel.", "Jogador importante do PSG atual."],
+  ["Joueur encore actif et immense personnalité médiatique du football mondial.", "Personalidade pública enorme do futebol mundial."],
+  ["Joueur encore actif, icône absolue du football mondial.", "Ícone absoluto do futebol mundial."],
+  ["Star internationale encore en activité, après son départ du PSG.", "Estrela internacional depois de sua saída do PSG."],
+  ["Figure publique au Brésil, engagé dans des causes sociales et éducatives.", "Figura pública no Brasil, ligada a causas sociais e educativas."],
+  ["Ambassadeur médiatique du football spectacle, présent sur des événements internationaux.", "Embaixador midiático do futebol espetáculo, presente em eventos internacionais."],
+  ["Grand défenseur brésilien, figure de leadership reconnue en Europe et au Brésil.", "Grande zagueiro brasileiro, referência de liderança na Europa e no Brasil."],
+  ["15 juillet 2026", "15 de julho de 2026"],
+  ["29 août 2026", "29 de agosto de 2026"],
+  ["5 septembre 2026", "5 de setembro de 2026"]
+];
+
+const brValue = (value) => {
+  let next = String(value || "");
+  brValueTranslations.forEach(([from, to]) => {
+    next = next.replaceAll(from, to);
+  });
+  return next;
+};
+
+const brImageAlt = (profile) =>
+  brValue(profile.image?.alt || profile.name)
+    .replaceAll("avec la sélection brésilienne en", "com a seleção brasileira em")
+    .replaceAll("sous les couleurs du PSG", "com a camisa do PSG")
+    .replaceAll("lors d'un événement football", "em um evento de futebol");
+
+const brProfileCardPath = (profile) => {
+  if (brCurrentProfileIds.has(profile.id)) return brCurrentPlayerPath(profile);
+  if (brLegendProfileIds.has(profile.id)) return brLegendProfilePath(profile);
+  return legendPath(profile);
+};
+
+const brCurrentCardPath = (profile) =>
+  brCurrentProfileIds.has(profile.id) ? brCurrentPlayerPath(profile) : currentPlayerPath(profile);
+
 const makeBrHeader = (active) => {
   const links = [
     ["/br/", "Início", "home"],
@@ -1313,6 +1483,7 @@ const makeBrHeader = (active) => {
     ["/br/mercado-psg/", "Mercado", "mercado"],
     ["/br/jogadores-psg/", "Jogadores", "jogadores"],
     ["/br/historia-psg/", "História", "historia"],
+    ["/br/antigos-jogadores-psg/", "Ídolos", "idolos"],
     ["/br/brasileiros-no-psg/", "Brasileiros", "brasileiros"],
     ["/", "FR", "fr"]
   ];
@@ -1374,6 +1545,213 @@ const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd }) 
 </html>`;
 };
 
+const makeBrProfilePage = ({ profile, type }) => {
+  const isCurrent = type === "player";
+  const detail = brProfileDetails[profile.id] || {};
+  const path = isCurrent ? brCurrentPlayerPath(profile) : brLegendProfilePath(profile);
+  const url = `${siteUrl}${path}`;
+  const frPath = isCurrent ? currentPlayerPath(profile) : legendPath(profile);
+  const title = isCurrent
+    ? `${profile.name} PSG: ficha, função e contexto | Parisien 90 Brasil`
+    : `${profile.name} PSG: história, passagem e legado | Parisien 90 Brasil`;
+  const description = isCurrent
+    ? `${profile.name} no PSG em português: ficha do jogador, função, status, pontos de atenção e fontes públicas.`
+    : `${profile.name} no PSG em português: período em Paris, papel, legado, situação pública e leitura editorial.`;
+  const profileImage = profile.image ? assetUrl(profile.image.url) : heroImage;
+  const tags = [
+    detail.kicker,
+    profile.number ? `Nº ${profile.number}` : null,
+    brValue(profile.position || profile.role),
+    brValue(profile.status || profile.lifeStatus),
+    profile.psgPeriod
+  ].filter(Boolean);
+  const facts = [
+    ["Nome", profile.name],
+    ["Status", brValue(profile.status || profile.lifeStatus)],
+    ["Posição", brValue(profile.position)],
+    ["Função", brValue(profile.role)],
+    ["Linha", brValue(profile.line)],
+    ["Número", profile.number],
+    ["Período no PSG", profile.psgPeriod],
+    ["Situação pública", brValue(profile.currentLife)],
+    ["Ponto de atenção", brValue(profile.watch)],
+    ["Nomes associados", Array.isArray(profile.aliases) ? profile.aliases.join(", ") : profile.aliases],
+    ["Foto", profile.image ? `${profile.image.credit} - ${profile.image.license}` : null],
+    ["Última atualização", brValue(profile.updatedAt)],
+    ["Fonte", profile.source || "Síntese editorial Parisien 90"]
+  ].filter(([, value]) => value);
+  const faq = (detail.faq || []).map(([question, answer]) => ({ question, answer }));
+  const photoMarkup = profile.image
+    ? `<figure class="profile-photo-card">
+              <img src="${escapeHTML(profile.image.url)}" alt="${escapeHTML(brImageAlt(profile))}" loading="eager" decoding="async" />
+              <figcaption>
+                Foto: <a href="${escapeHTML(profile.image.sourceUrl)}" rel="noopener noreferrer">${escapeHTML(profile.image.credit)}</a>,
+                <a href="${escapeHTML(profile.image.licenseUrl)}" rel="noopener noreferrer">${escapeHTML(profile.image.license)}</a>.
+                Uso editorial com atribuição; nenhuma afiliação oficial sugerida.
+              </figcaption>
+            </figure>`
+    : "";
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": `${url}#profile`,
+        url,
+        name: title,
+        description,
+        dateModified: newsMeta.updatedAt,
+        inLanguage: "pt-BR",
+        primaryImageOfPage: profile.image ? { "@type": "ImageObject", url: profileImage, creditText: profile.image.credit, license: profile.image.licenseUrl } : undefined,
+        about: {
+          "@type": "Person",
+          name: profile.name,
+          jobTitle: brValue(profile.role || profile.position),
+          alternateName: profile.aliases,
+          image: profile.image ? profileImage : undefined,
+          memberOf: { "@type": "SportsTeam", name: "Paris Saint-Germain" }
+        },
+        publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Início", item: `${siteUrl}/br/` },
+          { "@type": "ListItem", position: 2, name: isCurrent ? "Jogadores PSG" : "Ídolos PSG", item: `${siteUrl}${isCurrent ? "/br/jogadores-psg/" : "/br/antigos-jogadores-psg/"}` },
+          { "@type": "ListItem", position: 3, name: profile.name, item: url }
+        ]
+      }
+    ]
+  };
+  if (faq.length) {
+    jsonLd["@graph"].push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      inLanguage: "pt-BR",
+      mainEntity: faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer }
+      }))
+    });
+  }
+  const relatedLinks = isCurrent
+    ? [
+        ["/br/jogadores-psg/", "Elenco do PSG"],
+        ["/br/brasileiros-no-psg/", "Brasileiros no PSG"],
+        ["/br/mercado-psg/", "Mercado PSG"],
+        ["/br/historia-psg/", "História do PSG"]
+      ]
+    : [
+        ["/br/antigos-jogadores-psg/", "Antigos jogadores"],
+        ["/br/brasileiros-no-psg/", "Brasileiros no PSG"],
+        ["/br/historia-psg/", "História do PSG"],
+        ["/br/transferencias-psg/", "Transferências PSG"]
+      ];
+
+  const body = `<nav class="breadcrumb" aria-label="Trilha de navegação"><a href="/br/">Início</a><span>/</span><a href="${escapeHTML(isCurrent ? "/br/jogadores-psg/" : "/br/antigos-jogadores-psg/")}">${escapeHTML(isCurrent ? "Jogadores" : "Antigos jogadores")}</a><span>/</span><span>${escapeHTML(profile.name)}</span></nav>
+      <article class="profile-page article-page" data-share-title="${escapeHTML(title)}" data-share-url="${escapeHTML(path)}">
+        <div class="article-hero">
+          <div class="item-tags">${tags.map((tag) => `<span>${escapeHTML(tag)}</span>`).join("")}</div>
+          <time datetime="${escapeHTML(newsMeta.updatedAt)}">Atualizado em ${escapeHTML(brValue(profile.updatedAt || newsMeta.displayDate))}</time>
+          <h1>${escapeHTML(profile.name)} no PSG</h1>
+          <p>${escapeHTML(detail.intro || brValue(profile.profile || profile.whyMatters || description))}</p>
+        </div>
+        <div class="article-layout">
+          <div class="article-body">
+            <h2>Ficha rápida</h2>
+            <dl class="profile-facts is-page">
+              ${facts.map(([label, value]) => `<div><dt>${escapeHTML(label)}</dt><dd>${escapeHTML(value)}</dd></div>`).join("")}
+            </dl>
+            <h2>Leitura Parisien 90 Brasil</h2>
+            ${(detail.paragraphs || [brValue(profile.profile), brValue(profile.whyMatters)]).filter(Boolean).map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("\n            ")}
+            <h2>${escapeHTML(detail.focusTitle || `Por que ${profile.name} conta na memória do PSG?`)}</h2>
+            <p>${escapeHTML(detail.focus || brValue(profile.whyMatters || "Este perfil ajuda a entender a relação entre Paris, estrelas internacionais e memória do clube."))}</p>
+            ${faq.length ? `<h2>FAQ ${escapeHTML(profile.name)} PSG</h2>
+            <div class="faq-list">
+              ${faq.map((item, index) => `<details${index === 0 ? " open" : ""}>
+                <summary>${escapeHTML(item.question)}</summary>
+                <p>${escapeHTML(item.answer)}</p>
+              </details>`).join("\n              ")}
+            </div>` : ""}
+            <h2>Fontes, imagem e prudência</h2>
+            <p>Esta página usa dados públicos, arquivos esportivos e fontes citadas. Nenhuma informação pessoal sensível é publicada. As imagens só aparecem quando existe licença aberta ou autorização clara.</p>
+          </div>
+          <aside class="article-sidebar">
+            ${photoMarkup}
+            <span class="section-kicker">Continuar</span>
+            ${relatedLinks.map(([href, label]) => `<a href="${escapeHTML(href)}">${escapeHTML(label)}</a>`).join("\n            ")}
+            <a href="${escapeHTML(frPath)}">Ficha em francês</a>
+            <a href="/contact-retrait/">Sugerir correção</a>
+          </aside>
+        </div>
+      </article>`;
+
+  return {
+    path,
+    url,
+    type: isCurrent ? "br-player" : "br-legend",
+    html: makeBrPage({ path, title, description, active: isCurrent ? "jogadores" : "idolos", frPath, body, jsonLd })
+  };
+};
+
+const makeBrProfileIndexPage = (profilePages) => {
+  const cards = profilePages
+    .map(({ profile, page, type }) => {
+      const detail = brProfileDetails[profile.id] || {};
+      return `<a class="topic-card" href="${escapeHTML(page.path)}">
+          <span>${escapeHTML(type === "player" ? "Atual" : profile.psgPeriod || "História")}</span>
+          <h3>${escapeHTML(profile.name)}</h3>
+          <p>${escapeHTML(detail.intro || brValue(profile.profile || profile.whyMatters))}</p>
+        </a>`;
+    })
+    .join("\n");
+  const path = "/br/antigos-jogadores-psg/";
+  const title = "Ídolos do PSG: Neymar, Ronaldinho, Messi, Mbappé | Parisien 90 Brasil";
+  const description = "Fichas em português do Brasil sobre grandes nomes do PSG: Neymar, Ronaldinho, Raí, Thiago Silva, Messi, Mbappé, Marquinhos e estrelas de Paris.";
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Ídolos e grandes jogadores do PSG",
+    url: `${siteUrl}${path}`,
+    inLanguage: "pt-BR",
+    about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+    publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
+  };
+
+  return {
+    path,
+    url: `${siteUrl}${path}`,
+    type: "br-profile-index",
+    html: makeBrPage({
+      path,
+      title,
+      description,
+      active: "idolos",
+      frPath: "/anciens-joueurs-psg/",
+      jsonLd,
+      body: `<section class="page-hero"><span class="section-kicker">Ídolos PSG</span><h1>Ídolos do PSG: estrelas, memória e debate</h1><p>Neymar, Ronaldinho, Raí, Thiago Silva, Messi, Mbappé e Marquinhos: Parisien 90 Brasil reúne fichas úteis, contextualizadas e prudentes para entender o peso de cada nome em Paris.</p></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Fichas em português</span><h2>Perfis prioritários</h2></div><a class="primary-action compact-action" href="/br/brasileiros-no-psg/">Brasileiros no PSG</a></div><div class="topic-grid">${cards}</div></section>
+      <section class="content-section"><h2>Como ler essas fichas</h2><p>As páginas misturam fatos públicos, período parisiense, situação conhecida, impacto esportivo e leitura editorial. Quando há foto, a licença e o crédito aparecem na própria página.</p></section>`
+    })
+  };
+};
+
+const makeBrazilProfilePages = () => {
+  const currentTargets = [...brCurrentProfileIds]
+    .map((id) => currentPlayerProfiles.find((profile) => profile.id === id))
+    .filter(Boolean)
+    .map((profile) => ({ profile, type: "player", page: makeBrProfilePage({ profile, type: "player" }) }));
+  const legendTargets = [...brLegendProfileIds]
+    .map((id) => legendProfiles.find((profile) => profile.id === id))
+    .filter(Boolean)
+    .map((profile) => ({ profile, type: "legend", page: makeBrProfilePage({ profile, type: "legend" }) }));
+  const profileTargets = [...currentTargets, ...legendTargets];
+
+  return [makeBrProfileIndexPage(profileTargets), ...profileTargets.map((item) => item.page)];
+};
+
 const makeBrazilPages = (allTimePlayerIndex) => {
   const brLatest = brStoryTranslations
     .map((story) => ({ ...story, item: publishedNewsFeed.find((item) => item.id === story.id) }))
@@ -1425,7 +1803,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
 
   const playerCards = currentPlayers
     .map(
-      (profile) => `<a class="topic-card" href="${escapeHTML(currentPlayerPath(profile))}">
+      (profile) => `<a class="topic-card" href="${escapeHTML(brCurrentCardPath(profile))}">
           <span>${escapeHTML(profile.number || profile.line || "PSG")}</span>
           <h3>${escapeHTML(profile.name)}</h3>
           <p>${escapeHTML(brProfileCopy[profile.id] || profile.profile)}</p>
@@ -1435,7 +1813,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
 
   const legendCards = brazilianLegends
     .map(
-      (profile) => `<a class="topic-card" href="${escapeHTML(legendPath(profile))}">
+      (profile) => `<a class="topic-card" href="${escapeHTML(brProfileCardPath(profile))}">
           <span>${escapeHTML(profile.psgPeriod || "PSG")}</span>
           <h3>${escapeHTML(profile.name)}</h3>
           <p>${escapeHTML(brLegendCopy[profile.id] || profile.profile)}</p>
@@ -1445,7 +1823,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
   const legendPreviewCards = brazilianLegends
     .slice(0, 6)
     .map(
-      (profile) => `<a class="topic-card" href="${escapeHTML(legendPath(profile))}">
+      (profile) => `<a class="topic-card" href="${escapeHTML(brProfileCardPath(profile))}">
           <span>${escapeHTML(profile.psgPeriod || "PSG")}</span>
           <h3>${escapeHTML(profile.name)}</h3>
           <p>${escapeHTML(brLegendCopy[profile.id] || profile.profile)}</p>
@@ -1481,6 +1859,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
             <a class="primary-action" href="/br/brasileiros-no-psg/">Ver brasileiros no PSG</a>
             <a class="secondary-action" href="/br/transferencias-psg/">Transferências PSG</a>
             <a class="secondary-action" href="/br/jogadores-psg/">Jogadores</a>
+            <a class="secondary-action" href="/br/antigos-jogadores-psg/">Ídolos</a>
           </div>
         </div>
         <aside class="hero-news" aria-label="Destaque Brasil">
@@ -1503,6 +1882,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
           <a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Mercado PSG</h3><p>Rumores, chegadas, saídas e leitura de confiança dos movimentos.</p></a>
           <a class="topic-card" href="/br/historia-psg/"><span>Memória</span><h3>História do PSG</h3><p>Grandes eras, ídolos, noites europeias e viradas do clube.</p></a>
           <a class="topic-card" href="/br/brasileiros-no-psg/"><span>Brasil</span><h3>Brasileiros no PSG</h3><p>Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e muito mais.</p></a>
+          <a class="topic-card" href="/br/antigos-jogadores-psg/"><span>Ídolos</span><h3>Ídolos do PSG</h3><p>Fichas longas de Neymar, Ronaldinho, Messi, Mbappé, Raí e Thiago Silva.</p></a>
         </div>
       </section>
       <section class="content-section">
@@ -1520,7 +1900,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       body: `<section class="page-hero"><span class="section-kicker">Mercado Paris</span><h1>Transferências PSG: o que muda de verdade no time</h1><p>Chegada, saída ou rumor só interessa quando muda o campo: hierarquia, salário, minutos, vestiário e ambição europeia.</p></section>
       <section class="reader-layout">
         <article class="content-section"><h2>Como ler uma transferência do PSG</h2><p>O PSG compra status, mas também compra função. Antes de tratar qualquer nome como solução mágica, Parisien 90 Brasil separa confirmação oficial, negociação avançada, rumor forte e simples barulho de mercado.</p><p>Para o torcedor brasileiro, vale observar três pontos: quem perde espaço, quem ganha proteção na rotação e se a contratação aumenta a chance do PSG competir em noites grandes de Liga dos Campeões.</p></article>
-        <aside class="side-panel"><span class="section-kicker">Rotas rápidas</span><h2>Guias ligados</h2><ul class="link-list"><li><a href="/br/mercado-psg/">Mercado PSG ao vivo</a></li><li><a href="/br/jogadores-psg/">Elenco atual</a></li><li><a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a></li><li><a href="/transfert-psg/">Versão francesa completa</a></li></ul></aside>
+        <aside class="side-panel"><span class="section-kicker">Rotas rápidas</span><h2>Guias ligados</h2><ul class="link-list"><li><a href="/br/mercado-psg/">Mercado PSG ao vivo</a></li><li><a href="/br/jogadores-psg/">Elenco atual</a></li><li><a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a></li><li><a href="/br/antigos-jogadores-psg/">Ídolos do PSG</a></li><li><a href="/transfert-psg/">Versão francesa completa</a></li></ul></aside>
       </section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Sinais recentes</span><h2>Transferências e decisões quentes</h2></div></div><div class="hot-grid">${newsCards}</div></section>`
     },
@@ -1554,7 +1934,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       frPath: "/histoire-psg/",
       jsonLd: { ...homeJsonLd, name: "História do PSG", url: `${siteUrl}/br/historia-psg/` },
       body: `<section class="page-hero"><span class="section-kicker">História PSG</span><h1>História do PSG: de clube jovem a potência mundial</h1><p>Paris não nasceu gigante, mas virou uma marca global porque juntou cidade, ambição, estrelas, rivalidades e noites europeias que moldaram sua identidade.</p></section>
-      <section class="reader-layout"><article class="content-section"><h2>As eras que explicam Paris</h2><p>O PSG dos anos 70 e 80 constrói base e primeiros títulos. A era Canal+ dá peso europeu e noites de Copa. O ciclo QSI muda escala, dinheiro, pressão e expectativa mundial. Hoje, o clube tenta transformar poder em cultura vencedora permanente.</p><p>Para o Brasil, a história fica ainda mais próxima: Raí, Valdo, Leonardo, Ronaldinho, Thiago Silva, Neymar e Marquinhos não são detalhes. Eles são capítulos centrais.</p></article><aside class="side-panel"><span class="section-kicker">Memória</span><h2>Ídolos para abrir</h2><ul class="link-list"><li><a href="/anciens-joueurs-psg/rai/">Raí PSG</a></li><li><a href="/anciens-joueurs-psg/ronaldinho/">Ronaldinho PSG</a></li><li><a href="/anciens-joueurs-psg/neymar/">Neymar PSG</a></li><li><a href="/records-psg/">Recordes e números</a></li></ul></aside></section>
+      <section class="reader-layout"><article class="content-section"><h2>As eras que explicam Paris</h2><p>O PSG dos anos 70 e 80 constrói base e primeiros títulos. A era Canal+ dá peso europeu e noites de Copa. O ciclo QSI muda escala, dinheiro, pressão e expectativa mundial. Hoje, o clube tenta transformar poder em cultura vencedora permanente.</p><p>Para o Brasil, a história fica ainda mais próxima: Raí, Valdo, Leonardo, Ronaldinho, Thiago Silva, Neymar e Marquinhos não são detalhes. Eles são capítulos centrais.</p></article><aside class="side-panel"><span class="section-kicker">Memória</span><h2>Ídolos para abrir</h2><ul class="link-list"><li><a href="/br/antigos-jogadores-psg/rai/">Raí PSG</a></li><li><a href="/br/antigos-jogadores-psg/ronaldinho/">Ronaldinho PSG</a></li><li><a href="/br/antigos-jogadores-psg/neymar/">Neymar PSG</a></li><li><a href="/br/antigos-jogadores-psg/lionel-messi/">Messi PSG</a></li><li><a href="/br/antigos-jogadores-psg/kylian-mbappe/">Mbappé PSG</a></li><li><a href="/records-psg/">Recordes e números</a></li></ul></aside></section>
       <section class="content-section"><div class="topic-grid">${legendPreviewCards}</div></section>`
     },
     {
@@ -1689,7 +2069,8 @@ await Promise.all(
 );
 await writeFile(new URL("index.html", legendsDir), makeAllTimePlayersPage(allTimePlayerIndex), "utf8");
 
-const brazilPages = makeBrazilPages(allTimePlayerIndex);
+const brazilProfilePages = makeBrazilProfilePages();
+const brazilPages = [...makeBrazilPages(allTimePlayerIndex), ...brazilProfilePages];
 await rm(brDir, { recursive: true, force: true });
 await mkdir(brDir, { recursive: true });
 await Promise.all(
@@ -1879,6 +2260,12 @@ const sitemapUrls = [
     lastmod: currentDate,
     changefreq: "weekly",
     priority: page.type === "player" ? "0.72" : "0.62"
+  })),
+  ...brazilProfilePages.filter((page) => page.type !== "br-profile-index").map((page) => ({
+    loc: page.url,
+    lastmod: currentDate,
+    changefreq: "weekly",
+    priority: page.type === "br-player" ? "0.76" : "0.74"
   }))
 ];
 
