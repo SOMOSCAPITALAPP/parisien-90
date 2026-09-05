@@ -189,6 +189,8 @@ const makeArticleSections = (item) => {
             <h2>Ce que les supporters doivent surveiller</h2>
             <p>La suite dépendra souvent d'un détail concret : une nouvelle convocation, un communiqué, une programmation, une évolution de prix, une image d'entraînement, un changement de groupe ou une confirmation d'instance. C'est précisément ce type de signal que Parisien 90 relie au fil live et aux pages piliers.</p>
             <p>Cette approche permet de garder une page utile après la première vague de partage : le lecteur peut revenir, retrouver l'heure de publication, vérifier la source et comprendre pourquoi l'information a été classée dans ce dossier PSG.</p>
+            <h2>À lire ensuite sur Parisien 90</h2>
+            <p>Pour prolonger cette info sans repartir de zéro, Parisien 90 renvoie vers les pages qui structurent le site : <a href="/mercato-psg/">psg mercato</a>, <a href="/transfert-psg/">psg transfert</a>, <a href="/calendrier-psg/">calendrier PSG</a>, <a href="/records-psg/">records PSG</a> et <a href="/anciens-joueurs-psg/ronaldinho/">Ronaldinho PSG</a>. Ce maillage aide les lecteurs, Google et les modèles IA à comprendre les dossiers prioritaires du média.</p>
             <h2>Source, droits et méthode</h2>
             <p>Cette page ne reproduit pas l'article d'origine. Elle propose une synthèse originale et renvoie vers <strong>${source}</strong>, afin que le lecteur puisse vérifier le signal de départ. Les faits bruts, dates, scores, mouvements et informations publiques sont reformulés ; les contenus tiers protégés ne sont pas recopiés.</p>`;
 };
@@ -216,7 +218,7 @@ const makeArticlePage = (item) => {
         dateModified: newsMeta.updatedAt,
         inLanguage: "fr-FR",
         articleSection: item.category,
-        keywords: ["PSG", "Paris Saint-Germain", "actualité PSG", "transfert PSG", "mercato PSG", item.category],
+        keywords: ["PSG", "Paris Saint-Germain", "actualité PSG", "transfert PSG", "mercato PSG", "calendrier PSG", "records PSG", "Ronaldinho PSG", item.category],
         wordCount: 680,
         isAccessibleForFree: true,
         author: { "@type": "Organization", name: "Parisien 90", url: siteUrl },
@@ -319,6 +321,7 @@ const makeArticlePage = (item) => {
             <a href="/calendrier-psg/">Calendrier PSG complet 2026-2027</a>
             <a href="/joueurs-psg/">Joueurs PSG : effectif, fiches et staff</a>
             <a href="/records-psg/">Records PSG : buteurs, capés et chiffres forts</a>
+            <a href="/anciens-joueurs-psg/ronaldinho/">Ronaldinho PSG : fiche star mondiale</a>
             <a href="/sources-psg/">Sources PSG : vérification et droits</a>
           </aside>
         </div>
@@ -438,6 +441,30 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
       }
     ]
   };
+  if (Array.isArray(profile.faq) && profile.faq.length) {
+    jsonLd["@graph"].push({
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      mainEntity: profile.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer }
+      }))
+    });
+  }
+  const seoFocusMarkup = Array.isArray(profile.seoFocus) && profile.seoFocus.length
+    ? `<h2>${escapeHTML(profile.seoFocusTitle || `${profile.name} PSG : pourquoi cette recherche compte`)}</h2>
+            ${profile.seoFocus.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("\n            ")}`
+    : "";
+  const faqMarkup = Array.isArray(profile.faq) && profile.faq.length
+    ? `<h2>FAQ ${escapeHTML(profile.name)} PSG</h2>
+            <div class="faq-list">
+              ${profile.faq.map((item, index) => `<details${index === 0 ? " open" : ""}>
+                <summary>${escapeHTML(item.question)}</summary>
+                <p>${escapeHTML(item.answer)}</p>
+              </details>`).join("\n              ")}
+            </div>`
+    : "";
 
   return `<!doctype html>
 <html lang="fr">
@@ -498,6 +525,8 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             <h2>Pourquoi cette fiche compte</h2>
             <p>${escapeHTML(profile.whyMatters || profile.watch || "Cette fiche sert de repère stable pour suivre le rôle public de ce profil dans l'écosystème du Paris Saint-Germain.")}</p>
             <p>Parisien 90 maintient cette page comme une fiche évolutive : elle peut être enrichie par les sources officielles, les communiqués de club, les archives publiques et les informations recoupées.</p>
+            ${seoFocusMarkup}
+            ${faqMarkup}
             <h2>Méthode et prudence</h2>
             <p>Les informations personnelles sensibles ne sont pas utilisées. Les données affichées restent limitées à l'intérêt sportif, historique ou éditorial : poste, rôle, période PSG, statut public et source de vérification.</p>
           </div>
