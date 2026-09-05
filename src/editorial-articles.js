@@ -10,7 +10,7 @@ export const editorialArticles = [
   {
     id: "ronaldinho-psg-genie-trop-tot-arrive",
     title: "Ronaldinho au PSG : génie trop tôt arrivé ou occasion manquée ?",
-    description: "Article de fond original sur Ronaldinho au PSG : passage parisien, héritage, imaginaire brésilien et impact SEO pour Parisien 90.",
+    description: "Article de fond original sur Ronaldinho au PSG : passage parisien, héritage, imaginaire brésilien et place dans la mémoire parisienne.",
     deck: "Avant d'être une icône mondiale, Ronaldinho a porté le maillot du PSG. Ce passage court, imparfait et magnétique reste l'une des plus belles portes d'entrée vers l'histoire internationale du club.",
     category: "Histoire PSG",
     angle: "Analyse historique",
@@ -29,7 +29,7 @@ export const editorialArticles = [
         heading: "Le paradoxe Ronaldinho : Paris l'a eu avant le monde entier",
         paragraphs: [
           "Ronaldinho au PSG, c'est une histoire presque trop belle pour être rangée dans une simple fiche ancien joueur. Paris n'a pas seulement recruté un meneur offensif brésilien : le club a eu entre les mains un futur symbole mondial du football spectacle, encore brut, encore imprévisible, déjà impossible à regarder froidement.",
-          "Le passage parisien entre 2001 et 2003 n'est pas celui des statistiques écrasantes ou des titres qui ferment les débats. C'est plutôt celui de l'empreinte. Un crochet, une accélération, un sourire, une manière de transformer une action ordinaire en moment de mémoire. Pour le SEO comme pour l'identité du site, cette histoire est précieuse : elle relie le PSG aux recherches internationales sur les stars mondiales passées par Paris."
+          "Le passage parisien entre 2001 et 2003 n'est pas celui des statistiques écrasantes ou des titres qui ferment les débats. C'est plutôt celui de l'empreinte. Un crochet, une accélération, un sourire, une manière de transformer une action ordinaire en moment de mémoire. Pour l'identité du club, cette histoire reste précieuse : elle relie le PSG aux grandes stars mondiales passées par Paris."
         ]
       },
       {
@@ -40,10 +40,10 @@ export const editorialArticles = [
         ]
       },
       {
-        heading: "Ce que Ronaldinho apporte au maillage Parisien 90",
+        heading: "Ce que Ronaldinho raconte de Paris",
         paragraphs: [
-          "Cette page doit devenir un hub secondaire pour les recherches Ronaldinho PSG, Ronaldinho Gaucho PSG, Brésiliens PSG et stars mondiales PSG. Elle doit envoyer naturellement vers la fiche longue Ronaldinho, la liste des anciens joueurs, les records PSG et l'histoire du club.",
-          "L'intérêt est double : le lecteur trouve un récit vivant, et les moteurs comprennent que Parisien 90 ne traite pas seulement l'actualité chaude. Le site construit aussi une mémoire structurée du PSG, avec des angles réutilisables par les moteurs de recherche classiques et les modèles de réponse IA."
+          "Son passage ouvre naturellement vers les Brésiliens du PSG, les stars mondiales passées par le Parc, les records offensifs et la mémoire des années 2000.",
+          "L'intérêt est double : le lecteur trouve un récit vivant, et Parisien 90 ne traite pas seulement l'actualité chaude. Le site construit aussi une mémoire structurée du PSG, avec des angles historiques, sportifs et humains."
         ]
       },
       {
@@ -60,8 +60,8 @@ export const editorialArticles = [
         answer: "Ronaldinho Gaúcho a joué au Paris Saint-Germain de 2001 à 2003, avant de rejoindre le FC Barcelone."
       },
       {
-        question: "Pourquoi Ronaldinho PSG est-il important pour le SEO ?",
-        answer: "La requête relie le PSG à une star mondiale, au football brésilien, aux anciens joueurs du club et à l'histoire internationale de Paris."
+        question: "Pourquoi Ronaldinho reste-t-il si important dans l'histoire du PSG ?",
+        answer: "Parce que son passage relie le PSG à une star mondiale, au football brésilien, aux anciens joueurs du club et à l'histoire internationale de Paris."
       },
       {
         question: "Cet article reprend-il Wikipedia ?",
@@ -72,7 +72,7 @@ export const editorialArticles = [
       { name: "Wikipedia - Ronaldinho", url: "https://fr.wikipedia.org/wiki/Ronaldinho", note: "Repères biographiques et chronologie publique, sans reprise de texte." },
       { name: "Wikidata - Ronaldinho", url: "https://www.wikidata.org/wiki/Q39444", note: "Données structurées ouvertes et identifiants publics." },
       { name: "Wikimedia Commons - photo Ronaldinho", url: "https://commons.wikimedia.org/wiki/File:Ronaldinho061115.jpg", note: "Image sous licence ouverte avec attribution visible." },
-      { name: "Parisien 90 - fiche Ronaldinho PSG", url: "/anciens-joueurs-psg/ronaldinho/", note: "Fiche interne enrichie et maillage historique." }
+      { name: "Parisien 90 - fiche Ronaldinho PSG", url: "/anciens-joueurs-psg/ronaldinho/", note: "Fiche interne enrichie et contexte historique." }
     ],
     internalLinks: [
       { label: "Ronaldinho PSG", url: "/anciens-joueurs-psg/ronaldinho/" },
@@ -85,7 +85,7 @@ export const editorialArticles = [
   {
     id: "joueurs-psg-rotation-doue-zaire-emery-mayulu",
     title: "Joueurs PSG : la rotation de Luis Enrique est-elle une force ou une bombe à retardement ?",
-    description: "Article de fond original sur les joueurs PSG actuels, la concurrence interne, les jeunes, les cadres et l'impact SEO autour de l'effectif parisien.",
+    description: "Article de fond original sur les joueurs PSG actuels, la concurrence interne, les jeunes, les cadres et l'équilibre de l'effectif parisien.",
     deck: "Le PSG moderne ne manque pas de talents. Son vrai défi est plus dangereux : transformer l'abondance en hiérarchie lisible, sans étouffer les jeunes ni crisper les cadres.",
     category: "Joueurs PSG",
     angle: "Analyse effectif",
@@ -103,7 +103,7 @@ export const editorialArticles = [
         heading: "Le luxe parisien : trop de talent pour trop peu de minutes",
         paragraphs: [
           "Le PSG a un problème que beaucoup de clubs rêveraient d'avoir : trop de profils capables de réclamer du temps de jeu. Sur le papier, c'est une force. Dans une saison longue, c'est même indispensable. Mais dans un vestiaire de très haut niveau, l'abondance devient vite un sujet politique si la hiérarchie n'est pas comprise.",
-          "La page joueurs PSG ne doit donc pas être une simple liste de noms. Elle doit expliquer qui joue, qui attend, qui progresse, qui recule et qui peut devenir un dossier mercato. C'est précisément ce type de lecture qui aide le SEO : l'utilisateur ne cherche pas seulement l'effectif, il cherche le sens de l'effectif."
+          "La page joueurs PSG ne doit donc pas être une simple liste de noms. Elle doit expliquer qui joue, qui attend, qui progresse, qui recule et qui peut devenir un dossier mercato. Le lecteur ne cherche pas seulement l'effectif, il cherche le sens de l'effectif."
         ]
       },
       {
@@ -130,7 +130,7 @@ export const editorialArticles = [
     ],
     faq: [
       {
-        question: "Pourquoi la page joueurs PSG est-elle importante pour le référencement ?",
+        question: "Pourquoi la page joueurs PSG est-elle utile aux supporters ?",
         answer: "Parce qu'elle répond à des recherches fréquentes sur l'effectif, les numéros, les rôles, les jeunes, le staff et les conséquences mercato."
       },
       {
@@ -144,7 +144,7 @@ export const editorialArticles = [
     ],
     sources: [
       { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", note: "Référence publique pour l'effectif et les profils officiels." },
-      { name: "Parisien 90 - joueurs PSG", url: "/joueurs-psg/", note: "Fiches internes, rôles, points de vigilance et maillage." },
+      { name: "Parisien 90 - joueurs PSG", url: "/joueurs-psg/", note: "Fiches internes, rôles et points de vigilance." },
       { name: "Parisien 90 - calendrier PSG", url: "/calendrier-psg/", note: "Contexte sportif pour lire la rotation." },
       { name: "Parisien 90 - charte éditoriale", url: "/charte-editoriale/", note: "Distinction entre fait, analyse, opinion et débat." }
     ],

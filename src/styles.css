@@ -852,7 +852,7 @@ main {
   line-height: 1.55;
 }
 
-.seo-layout {
+.reader-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;
   gap: 18px;
@@ -3050,7 +3050,7 @@ span.squad-player {
 @media (max-width: 1100px) {
   .hero-section,
   .workspace-grid,
-  .seo-layout {
+  .reader-layout {
     grid-template-columns: 1fr;
   }
 

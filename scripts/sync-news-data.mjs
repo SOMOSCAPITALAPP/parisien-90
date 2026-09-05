@@ -195,7 +195,7 @@ const makeArticleSections = (item) => {
             <p>La suite dépendra souvent d'un détail concret : une nouvelle convocation, un communiqué, une programmation, une évolution de prix, une image d'entraînement, un changement de groupe ou une confirmation d'instance. C'est précisément ce type de signal que Parisien 90 relie au fil live et aux pages piliers.</p>
             <p>Cette approche permet de garder une page utile après la première vague de partage : le lecteur peut revenir, retrouver l'heure de publication, vérifier la source et comprendre pourquoi l'information a été classée dans ce dossier PSG.</p>
             <h2>À lire ensuite sur Parisien 90</h2>
-            <p>Pour prolonger cette info sans repartir de zéro, Parisien 90 renvoie vers les pages qui structurent le site : <a href="/mercato-psg/">psg mercato</a>, <a href="/transfert-psg/">psg transfert</a>, <a href="/calendrier-psg/">calendrier PSG</a>, <a href="/records-psg/">records PSG</a> et <a href="/anciens-joueurs-psg/ronaldinho/">Ronaldinho PSG</a>. Ce maillage aide les lecteurs, Google et les modèles IA à comprendre les dossiers prioritaires du média.</p>
+            <p>Pour prolonger cette info sans repartir de zéro, Parisien 90 renvoie vers les pages utiles du site : <a href="/mercato-psg/">psg mercato</a>, <a href="/transfert-psg/">psg transfert</a>, <a href="/calendrier-psg/">calendrier PSG</a>, <a href="/records-psg/">records PSG</a> et <a href="/anciens-joueurs-psg/ronaldinho/">Ronaldinho PSG</a>. Le lecteur peut ainsi passer d'une information chaude à un contexte plus complet sur le club.</p>
             <h2>Source, droits et méthode</h2>
             <p>Cette page ne reproduit pas l'article d'origine. Elle propose une synthèse originale et renvoie vers <strong>${source}</strong>, afin que le lecteur puisse vérifier le signal de départ. Les faits bruts, dates, scores, mouvements et informations publiques sont reformulés ; les contenus tiers protégés ne sont pas recopiés.</p>`;
 };
@@ -519,7 +519,7 @@ const makeEditorialArticlePage = (item) => {
               <img src="${escapeHTML(item.image || "/hero-stadium.png")}" alt="${escapeHTML(item.imageAlt || item.title)}" loading="eager" decoding="async" />
               <figcaption>${escapeHTML(item.imageCredit || "Image éditoriale Parisien 90")}${item.imageLicenseUrl ? ` - <a href="${escapeHTML(item.imageLicenseUrl)}" rel="noopener noreferrer">licence</a>` : ""}. Usage éditorial, aucune affiliation suggérée.</figcaption>
             </figure>
-            <span class="section-kicker">Maillage SEO</span>
+            <span class="section-kicker">À lire aussi</span>
             ${internalLinks}
             <a href="/dossiers-psg/">Tous les dossiers PSG</a>
             <a href="/sources-psg/">Sources PSG</a>
@@ -551,7 +551,7 @@ const makeEditorialIndexPage = () => {
         "@id": `${siteUrl}/dossiers-psg/#page`,
         url: `${siteUrl}/dossiers-psg/`,
         name: "Dossiers PSG",
-        description: "Articles de fond originaux sur le PSG : anciens joueurs, effectif, histoire, mercato, débats et SEO LLM.",
+        description: "Articles de fond originaux sur le PSG : anciens joueurs, effectif, histoire, mercato et débats.",
         inLanguage: "fr-FR",
         dateModified: editorialArticlesMeta.updatedAt,
         about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
@@ -587,7 +587,7 @@ const makeEditorialIndexPage = () => {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dossiers PSG : analyses originales, histoire et joueurs | Parisien 90</title>
-    <meta name="description" content="Dossiers PSG originaux : articles de fond sur les anciens joueurs, l'effectif, le mercato, l'histoire du Paris Saint-Germain et les débats SEO LLM." />
+    <meta name="description" content="Dossiers PSG originaux : articles de fond sur les anciens joueurs, l'effectif, le mercato, l'histoire du Paris Saint-Germain et les débats du club." />
     <link rel="canonical" href="https://parisien90.com/dossiers-psg/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -595,7 +595,7 @@ const makeEditorialIndexPage = () => {
     <meta name="theme-color" content="#071426" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Dossiers PSG : analyses originales, histoire et joueurs | Parisien 90" />
-    <meta property="og:description" content="Deux articles de fond PSG par jour : histoire, joueurs, mercato, débats et maillage SEO LLM." />
+    <meta property="og:description" content="Deux articles de fond PSG par jour : histoire, joueurs, mercato, débats et mémoire du club." />
     <meta property="og:image" content="https://parisien90.com/hero-stadium.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
@@ -625,7 +625,7 @@ const makeEditorialIndexPage = () => {
         <h1>Dossiers PSG : analyses originales pour supporters exigeants</h1>
         <p>
           Deux articles de fond par jour pour renforcer Parisien 90 : anciens joueurs, effectif actuel, histoire,
-          mercato, débats et contenus pensés pour Google comme pour les modèles IA.
+          mercato, débats et récits pensés pour les supporters qui veulent aller plus loin.
         </p>
       </section>
       <section class="content-section">
@@ -634,7 +634,7 @@ const makeEditorialIndexPage = () => {
         <p>
           Ces dossiers ne recopient pas Wikipedia, les médias ou les fiches officielles. Ils utilisent des sources
           factuelles citées, puis ajoutent un angle Parisien 90 : lecture sportive, débat, contexte historique et
-          maillage vers les pages piliers du site.
+          liens vers les grands dossiers du site.
         </p>
         <div class="method-list">
           <article><strong>Historique</strong><p>Anciennes stars, grands joueurs, records, nationalités et mémoire du club.</p></article>
@@ -1354,24 +1354,32 @@ await writeFile(new URL("rss.xml", publicDir), rss, "utf8");
 const aiIndexPath = new URL("ai-index.json", publicDir);
 const aiIndex = JSON.parse(await readFile(aiIndexPath, "utf8"));
 aiIndex.site.lastVerifiedAt = newsMeta.updatedAt;
-aiIndex.site.freshnessNote = `${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, avec pages individuelles crawlables sous /news/. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/. À suivre : ${freshnessSummary}. Synthèses originales, sourcées et liées.`;
+aiIndex.site.freshnessNote = `${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/. À suivre : ${freshnessSummary}. Synthèses originales, sourcées et liées.`;
+if (aiIndex.site.primaryQueries) {
+  aiIndex.site.primaryTopics = aiIndex.site.primaryQueries;
+  delete aiIndex.site.primaryQueries;
+}
 const editorialPriorityPage = {
   url: `${siteUrl}/dossiers-psg/`,
   title: "Dossiers PSG : analyses originales, histoire et joueurs",
   intent: "Lire les articles de fond originaux Parisien 90 sur les anciens joueurs, l'effectif, le mercato, l'histoire et les débats PSG",
-  queries: [
+  topics: [
     "dossiers PSG",
     "analyse PSG",
     "article de fond PSG",
     "histoire PSG",
     "joueurs PSG analyse",
-    "SEO PSG"
+    "débats PSG"
   ]
 };
 aiIndex.priorityPages = [
   editorialPriorityPage,
   ...(aiIndex.priorityPages || []).filter((page) => page.url !== editorialPriorityPage.url)
-];
+].map((page) => {
+  if (!page.queries) return page;
+  const { queries, ...rest } = page;
+  return { ...rest, topics: queries };
+});
 aiIndex.news = publishedNewsFeed.slice(0, 30).map((item) => ({
   title: item.title,
   category: item.category,
@@ -1432,7 +1440,7 @@ aiIndex.allTimePsgPlayers = {
       .sort((a, b) => b.count - a.count || a.country.localeCompare(b.country, "fr", { sensitivity: "base" }))
       .slice(0, 20);
   })(),
-  keyQueries: [
+  keyTopics: [
     "anciens joueurs PSG",
     "liste joueurs PSG",
     "Brésiliens PSG",
@@ -1450,7 +1458,7 @@ aiIndex.allTimePsgPlayers = {
 };
 await writeFile(aiIndexPath, `${JSON.stringify(aiIndex, null, 2)}\n`, "utf8");
 
-const freshnessLine = `Repère éditorial : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/, avec sources factuelles citées, angle Parisien 90, FAQ, balisage Article et maillage interne SEO/LLM. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;
+const freshnessLine = `Repère éditorial : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/, avec sources factuelles citées, angle Parisien 90, FAQ et liens internes utiles. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure et source citée. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;
 
 const llmsPath = new URL("llms.txt", publicDir);
 const llms = await readFile(llmsPath, "utf8");
@@ -1466,7 +1474,7 @@ await writeFile(
   llmsFullPath,
   llmsFull.replace(
     /## (Signal de fraîcheur|Repère éditorial)[\s\S]*?\n\nLe contenu est organisé/,
-    `## Repère éditorial — ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris)\n\n${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, enrichies en pages individuelles crawlables sous /news/. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ, maillage interne et balisage Article. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.\n\nLe contenu est organisé`
+    `## Repère éditorial — ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris)\n\n${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.\n\nLe contenu est organisé`
   ),
   "utf8"
 );

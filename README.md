@@ -5,7 +5,7 @@ Refonte complète d'un site d'actualité PSG inspirée de l'audit de footparisie
 ## Audit rapide
 
 - Le site existant privilégie un flux de liens très dense, avec peu de hiérarchie visuelle.
-- Les contenus live, mercato, SEO et navigation sont mélangés dans une seule page longue.
+- Les contenus live, mercato, éditoriaux et navigation sont mélangés dans une seule page longue.
 - L'expérience mobile et la lisibilité éditoriale peuvent être renforcées.
 - Les signaux de confiance, filtres, dossiers chauds et prochains matchs ne sont pas mis en avant comme des outils de lecture.
 
