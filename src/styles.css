@@ -2893,6 +2893,26 @@ span.squad-player {
   font-weight: 950;
 }
 
+.source-credit-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.source-credit-list li {
+  padding-left: 4px;
+}
+
+.source-credit-list span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
 .article-sidebar {
   display: grid;
   align-content: start;

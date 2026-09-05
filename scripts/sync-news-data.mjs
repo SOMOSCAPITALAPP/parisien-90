@@ -1,10 +1,12 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { allTimePsgPlayers, allTimePsgPlayersMeta } from "../src/all-time-psg-players.js";
+import { editorialArticles, editorialArticlesMeta } from "../src/editorial-articles.js";
 import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, staffProfiles } from "../src/site-data.js";
 
 const siteUrl = "https://parisien90.com";
 const publicDir = new URL("../public/", import.meta.url);
 const newsDir = new URL("../news/", import.meta.url);
+const dossiersDir = new URL("../dossiers-psg/", import.meta.url);
 const playersDir = new URL("../joueurs-psg/", import.meta.url);
 const legendsDir = new URL("../anciens-joueurs-psg/", import.meta.url);
 const staffDir = new URL("../staff-psg/", import.meta.url);
@@ -22,6 +24,7 @@ const staticPages = [
   { path: "/transfert-psg/", changefreq: "hourly", priority: "1.0" },
   { path: "/mercato-psg/", changefreq: "hourly", priority: "0.95" },
   { path: "/actualite-psg/", changefreq: "hourly", priority: "0.9" },
+  { path: "/dossiers-psg/", changefreq: "daily", priority: "0.88" },
   { path: "/viral-psg/", changefreq: "hourly", priority: "0.88" },
   { path: "/videos-psg/", changefreq: "weekly", priority: "0.78" },
   { path: "/calendrier-psg/", changefreq: "daily", priority: "0.75" },
@@ -83,6 +86,8 @@ const itemDateTimeISO = (item) => {
 
 const itemPath = (item) => `/news/${slugify(item.id)}/`;
 const itemUrl = (item) => `${siteUrl}${itemPath(item)}`;
+const editorialPath = (item) => `/dossiers-psg/${slugify(item.id)}/`;
+const editorialUrl = (item) => `${siteUrl}${editorialPath(item)}`;
 const sourceUrl = (item) => new URL(item.url, siteUrl).href;
 const currentPlayerPath = (profile) => `/joueurs-psg/${slugify(profile.id)}/`;
 const currentPlayerUrl = (profile) => `${siteUrl}${currentPlayerPath(profile)}`;
@@ -281,6 +286,7 @@ const makeArticlePage = (item) => {
         <a href="/transfert-psg/">Transfert PSG</a>
         <a href="/mercato-psg/">Mercato PSG</a>
         <a href="/actualite-psg/">Actualité PSG</a>
+        <a href="/dossiers-psg/">Dossiers</a>
         <a href="/viral-psg/">Viral</a>
         <a href="/videos-psg/">Vidéos</a>
         <a href="/calendrier-psg/">Calendrier</a>
@@ -318,6 +324,7 @@ const makeArticlePage = (item) => {
             <a href="${escapeHTML(topicPath)}">Guide prioritaire de ce dossier</a>
             <a href="/transfert-psg/">Transfert PSG : arrivées, départs et rumeurs</a>
             <a href="/mercato-psg/">Mercato PSG en direct : méthode et fiabilité</a>
+            <a href="/dossiers-psg/">Dossiers PSG : analyses originales et histoire</a>
             <a href="/calendrier-psg/">Calendrier PSG complet 2026-2027</a>
             <a href="/joueurs-psg/">Joueurs PSG : effectif, fiches et staff</a>
             <a href="/records-psg/">Records PSG : buteurs, capés et chiffres forts</a>
@@ -354,6 +361,301 @@ const makeArticlePage = (item) => {
       <a href="/rss.xml">RSS</a>
       <a href="/droits-disclaimer/">Droits & disclaimer</a>
     </footer>
+    <script type="module" src="/src/site.js"></script>
+  </body>
+</html>
+`;
+};
+
+const makeEditorialArticlePage = (item) => {
+  const path = editorialPath(item);
+  const url = editorialUrl(item);
+  const dateTime = `${item.date}T${String(item.time || "09:00").padStart(5, "0")}:00+02:00`;
+  const sourceItems = (item.sources || []).map((source) => ({
+    "@type": "CreativeWork",
+    name: source.name,
+    url: new URL(source.url, siteUrl).href
+  }));
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `${url}#article`,
+        mainEntityOfPage: { "@type": "WebPage", "@id": url },
+        headline: item.title,
+        description: item.description,
+        image: [new URL(item.image || "/hero-stadium.png", siteUrl).href],
+        datePublished: dateTime,
+        dateModified: editorialArticlesMeta.updatedAt,
+        inLanguage: "fr-FR",
+        articleSection: item.category,
+        keywords: item.keywords,
+        author: { "@type": "Organization", name: item.author || "Rédaction Parisien 90", url: siteUrl },
+        publisher: {
+          "@type": "NewsMediaOrganization",
+          name: "Parisien 90",
+          url: siteUrl,
+          logo: { "@type": "ImageObject", url: heroImage }
+        },
+        isAccessibleForFree: true,
+        copyrightHolder: { "@type": "Organization", name: "Parisien 90" },
+        about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+        isBasedOn: sourceItems
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: `${siteUrl}/` },
+          { "@type": "ListItem", position: 2, name: "Dossiers PSG", item: `${siteUrl}/dossiers-psg/` },
+          { "@type": "ListItem", position: 3, name: item.title, item: url }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: (item.faq || []).map((entry) => ({
+          "@type": "Question",
+          name: entry.question,
+          acceptedAnswer: { "@type": "Answer", text: entry.answer }
+        }))
+      }
+    ]
+  };
+  const sections = (item.sections || [])
+    .map(
+      (section) => `<section class="records-section">
+              <h2>${escapeHTML(section.heading)}</h2>
+              ${section.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("\n              ")}
+            </section>`
+    )
+    .join("\n");
+  const sourceLinks = (item.sources || [])
+    .map((source) => `<li><a href="${escapeHTML(new URL(source.url, siteUrl).href)}" rel="noopener noreferrer">${escapeHTML(source.name)}</a><span>${escapeHTML(source.note)}</span></li>`)
+    .join("\n");
+  const internalLinks = (item.internalLinks || [])
+    .map((link) => `<a href="${escapeHTML(link.url)}">${escapeHTML(link.label)}</a>`)
+    .join("\n");
+  const faqMarkup = (item.faq || [])
+    .map((entry, index) => `<details${index === 0 ? " open" : ""}>
+                <summary>${escapeHTML(entry.question)}</summary>
+                <p>${escapeHTML(entry.answer)}</p>
+              </details>`)
+    .join("\n");
+
+  return `<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeHTML(item.title)} | Parisien 90</title>
+    <meta name="description" content="${escapeHTML(item.description)}" />
+    <link rel="canonical" href="${escapeHTML(url)}" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
+    <meta name="theme-color" content="#071426" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="${escapeHTML(item.title)}" />
+    <meta property="og:description" content="${escapeHTML(item.description)}" />
+    <meta property="og:url" content="${escapeHTML(url)}" />
+    <meta property="og:image" content="${escapeHTML(new URL(item.image || "/hero-stadium.png", siteUrl).href)}" />
+    <meta property="article:published_time" content="${escapeHTML(dateTime)}" />
+    <meta property="article:modified_time" content="${escapeHTML(editorialArticlesMeta.updatedAt)}" />
+    <meta property="article:section" content="${escapeHTML(item.category)}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">${safeJson(jsonLd)}</script>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Parisien 90">
+        <span class="brand-mark">P90</span>
+        <span><strong>Parisien 90</strong><small>PSG live desk</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="/transfert-psg/">Transfert PSG</a>
+        <a href="/mercato-psg/">Mercato PSG</a>
+        <a href="/actualite-psg/">Actualité PSG</a>
+        <a href="/dossiers-psg/" aria-current="page">Dossiers</a>
+        <a href="/viral-psg/">Viral</a>
+        <a href="/videos-psg/">Vidéos</a>
+        <a href="/calendrier-psg/">Calendrier</a>
+        <a href="/joueurs-psg/">Joueurs</a>
+        <a href="/records-psg/">Records</a>
+        <a href="/histoire-psg/">Histoire</a>
+        <a href="/sources-psg/">Sources</a>
+      </nav>
+    </header>
+    <main>
+      <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/">Accueil</a><span>/</span><a href="/dossiers-psg/">Dossiers PSG</a><span>/</span><span>${escapeHTML(item.category)}</span></nav>
+      <article class="article-page records-page" data-share-title="${escapeHTML(item.title)}" data-share-url="${escapeHTML(path)}">
+        <div class="article-hero">
+          <div class="item-tags"><span>${escapeHTML(item.category)}</span><span>${escapeHTML(item.angle)}</span><span>${escapeHTML(item.readingTime)}</span></div>
+          <time datetime="${escapeHTML(dateTime)}">${escapeHTML(item.dateLabel)} · ${escapeHTML(item.time)}</time>
+          <h1>${escapeHTML(item.title)}</h1>
+          <p>${escapeHTML(item.deck)}</p>
+        </div>
+        <div class="article-layout">
+          <div class="article-body">
+            ${sections}
+            <section class="records-section">
+              <h2>FAQ</h2>
+              <div class="faq-list">
+                ${faqMarkup}
+              </div>
+            </section>
+            <section class="source-box">
+              <span>Sources utilisées et méthode</span>
+              <p>${escapeHTML(editorialArticlesMeta.rightsNote)}</p>
+              <ul class="source-credit-list">
+                ${sourceLinks}
+              </ul>
+            </section>
+          </div>
+          <aside class="article-sidebar">
+            <figure class="profile-photo-card">
+              <img src="${escapeHTML(item.image || "/hero-stadium.png")}" alt="${escapeHTML(item.imageAlt || item.title)}" loading="eager" decoding="async" />
+              <figcaption>${escapeHTML(item.imageCredit || "Image éditoriale Parisien 90")}${item.imageLicenseUrl ? ` - <a href="${escapeHTML(item.imageLicenseUrl)}" rel="noopener noreferrer">licence</a>` : ""}. Usage éditorial, aucune affiliation suggérée.</figcaption>
+            </figure>
+            <span class="section-kicker">Maillage SEO</span>
+            ${internalLinks}
+            <a href="/dossiers-psg/">Tous les dossiers PSG</a>
+            <a href="/sources-psg/">Sources PSG</a>
+            <a href="/droits-disclaimer/">Droits & disclaimer</a>
+          </aside>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <p>Parisien 90 - dossiers originaux PSG, analyses et histoire du Paris Saint-Germain.</p>
+      <a href="/dossiers-psg/">Dossiers PSG</a>
+      <a href="/charte-editoriale/">Charte éditoriale</a>
+      <a href="/mentions-legales/">Mentions légales</a>
+      <a href="/contact-retrait/">Contact</a>
+      <a href="/droits-disclaimer/">Droits & disclaimer</a>
+    </footer>
+    <script type="module" src="/src/site.js"></script>
+  </body>
+</html>
+`;
+};
+
+const makeEditorialIndexPage = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${siteUrl}/dossiers-psg/#page`,
+        url: `${siteUrl}/dossiers-psg/`,
+        name: "Dossiers PSG",
+        description: "Articles de fond originaux sur le PSG : anciens joueurs, effectif, histoire, mercato, débats et SEO LLM.",
+        inLanguage: "fr-FR",
+        dateModified: editorialArticlesMeta.updatedAt,
+        about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+        publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
+      },
+      {
+        "@type": "ItemList",
+        name: "Dossiers PSG originaux",
+        itemListElement: editorialArticles.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.title,
+          url: editorialUrl(item)
+        }))
+      }
+    ]
+  };
+  const cards = editorialArticles
+    .map(
+      (item) => `<article class="news-card" data-share-title="${escapeHTML(item.title)}" data-share-url="${escapeHTML(editorialPath(item))}">
+            <time class="news-date" datetime="${escapeHTML(`${item.date}T${item.time}:00+02:00`)}">${escapeHTML(item.dateLabel)} · ${escapeHTML(item.time)}</time>
+            <div class="news-topline"><span>${escapeHTML(item.category)}</span><strong>${escapeHTML(item.angle)}</strong></div>
+            <h3><a href="${escapeHTML(editorialPath(item))}">${escapeHTML(item.title)}</a></h3>
+            <p>${escapeHTML(item.deck)}</p>
+            <a href="${escapeHTML(editorialPath(item))}">Lire le dossier</a>
+          </article>`
+    )
+    .join("\n");
+
+  return `<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dossiers PSG : analyses originales, histoire et joueurs | Parisien 90</title>
+    <meta name="description" content="Dossiers PSG originaux : articles de fond sur les anciens joueurs, l'effectif, le mercato, l'histoire du Paris Saint-Germain et les débats SEO LLM." />
+    <link rel="canonical" href="https://parisien90.com/dossiers-psg/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
+    <meta name="theme-color" content="#071426" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dossiers PSG : analyses originales, histoire et joueurs | Parisien 90" />
+    <meta property="og:description" content="Deux articles de fond PSG par jour : histoire, joueurs, mercato, débats et maillage SEO LLM." />
+    <meta property="og:image" content="https://parisien90.com/hero-stadium.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">${safeJson(jsonLd)}</script>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Parisien 90"><span class="brand-mark">P90</span><span><strong>Parisien 90</strong><small>PSG live desk</small></span></a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="/transfert-psg/">Transfert PSG</a>
+        <a href="/mercato-psg/">Mercato PSG</a>
+        <a href="/actualite-psg/">Actualité PSG</a>
+        <a href="/dossiers-psg/" aria-current="page">Dossiers</a>
+        <a href="/viral-psg/">Viral</a>
+        <a href="/videos-psg/">Vidéos</a>
+        <a href="/calendrier-psg/">Calendrier</a>
+        <a href="/joueurs-psg/">Joueurs</a>
+        <a href="/records-psg/">Records</a>
+        <a href="/histoire-psg/">Histoire</a>
+        <a href="/sources-psg/">Sources</a>
+      </nav>
+    </header>
+    <main>
+      <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/">Accueil</a><span>/</span><span>Dossiers PSG</span></nav>
+      <section class="page-hero">
+        <span class="section-kicker">Articles de fond · ${escapeHTML(editorialArticlesMeta.displayDate)}</span>
+        <h1>Dossiers PSG : analyses originales pour supporters exigeants</h1>
+        <p>
+          Deux articles de fond par jour pour renforcer Parisien 90 : anciens joueurs, effectif actuel, histoire,
+          mercato, débats et contenus pensés pour Google comme pour les modèles IA.
+        </p>
+      </section>
+      <section class="content-section">
+        <span class="section-kicker">Ligne éditoriale</span>
+        <h2>Original, sourcé, utile et partageable</h2>
+        <p>
+          Ces dossiers ne recopient pas Wikipedia, les médias ou les fiches officielles. Ils utilisent des sources
+          factuelles citées, puis ajoutent un angle Parisien 90 : lecture sportive, débat, contexte historique et
+          maillage vers les pages piliers du site.
+        </p>
+        <div class="method-list">
+          <article><strong>Historique</strong><p>Anciennes stars, grands joueurs, records, nationalités et mémoire du club.</p></article>
+          <article><strong>Actuel</strong><p>Joueurs, staff, rotation, calendrier, blessures, concurrence et conséquences mercato.</p></article>
+          <article><strong>Opinion</strong><p>Sujets qui font discuter sans brouiller la frontière entre fait, analyse et polémique.</p></article>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">À lire aujourd'hui</span>
+            <h2>Les derniers dossiers PSG</h2>
+          </div>
+          <span class="freshness">${escapeHTML(editorialArticles.length)} dossiers publiés</span>
+        </div>
+        <div class="hot-grid">
+          ${cards}
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Parisien 90 - dossiers originaux PSG.</p><a href="/actualite-psg/">Actualité PSG</a><a href="/charte-editoriale/">Charte éditoriale</a><a href="/mentions-legales/">Mentions légales</a><a href="/contact-retrait/">Contact</a><a href="/droits-disclaimer/">Droits & disclaimer</a></footer>
     <script type="module" src="/src/site.js"></script>
   </body>
 </html>
@@ -498,6 +800,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
         <a href="/transfert-psg/">Transfert PSG</a>
         <a href="/mercato-psg/">Mercato PSG</a>
         <a href="/actualite-psg/">Actualité PSG</a>
+        <a href="/dossiers-psg/">Dossiers</a>
         <a href="/viral-psg/">Viral</a>
         <a href="/videos-psg/">Vidéos</a>
         <a href="/calendrier-psg/">Calendrier</a>
@@ -535,6 +838,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             <span class="section-kicker">Continuer</span>
             <a href="/joueurs-psg/">Effectif PSG</a>
             <a href="/records-psg/">Records PSG</a>
+            <a href="/dossiers-psg/">Dossiers PSG</a>
             <a href="/histoire-psg/">Histoire du PSG</a>
             <a href="/actualite-psg/">Actualité PSG</a>
             <a href="/sources-psg/">Sources utilisées</a>
@@ -810,6 +1114,7 @@ const makeAllTimePlayersPage = (players) => {
         <a href="/transfert-psg/">Transfert PSG</a>
         <a href="/mercato-psg/">Mercato PSG</a>
         <a href="/actualite-psg/">Actualité PSG</a>
+        <a href="/dossiers-psg/">Dossiers</a>
         <a href="/viral-psg/">Viral</a>
         <a href="/videos-psg/">Vidéos</a>
         <a href="/calendrier-psg/">Calendrier</a>
@@ -933,6 +1238,31 @@ const newsPayload = {
 
 await writeFile(new URL("news.json", publicDir), `${JSON.stringify(newsPayload, null, 2)}\n`, "utf8");
 
+const editorialPayload = {
+  updatedAt: editorialArticlesMeta.updatedAt,
+  displayDate: editorialArticlesMeta.displayDate,
+  displayTime: editorialArticlesMeta.displayTime,
+  cadence: editorialArticlesMeta.cadence,
+  rightsNote: editorialArticlesMeta.rightsNote,
+  count: editorialArticles.length,
+  items: editorialArticles.map((item) => ({
+    id: item.id,
+    category: item.category,
+    angle: item.angle,
+    date: item.date,
+    dateLabel: item.dateLabel,
+    time: item.time,
+    dateTime: `${item.date}T${item.time}:00+02:00`,
+    headline: item.title,
+    summary: item.deck,
+    internalUrl: editorialUrl(item),
+    sources: item.sources,
+    keywords: item.keywords
+  }))
+};
+
+await writeFile(new URL("editorial-articles.json", publicDir), `${JSON.stringify(editorialPayload, null, 2)}\n`, "utf8");
+
 await rm(newsDir, { recursive: true, force: true });
 await mkdir(newsDir, { recursive: true });
 
@@ -941,6 +1271,18 @@ await Promise.all(
     const articleDir = new URL(`${slugify(item.id)}/`, newsDir);
     await mkdir(articleDir, { recursive: true });
     await writeFile(new URL("index.html", articleDir), makeArticlePage(item), "utf8");
+  })
+);
+
+await rm(dossiersDir, { recursive: true, force: true });
+await mkdir(dossiersDir, { recursive: true });
+await writeFile(new URL("index.html", dossiersDir), makeEditorialIndexPage(), "utf8");
+
+await Promise.all(
+  editorialArticles.map(async (item) => {
+    const articleDir = new URL(`${slugify(item.id)}/`, dossiersDir);
+    await mkdir(articleDir, { recursive: true });
+    await writeFile(new URL("index.html", articleDir), makeEditorialArticlePage(item), "utf8");
   })
 );
 
@@ -1012,7 +1354,24 @@ await writeFile(new URL("rss.xml", publicDir), rss, "utf8");
 const aiIndexPath = new URL("ai-index.json", publicDir);
 const aiIndex = JSON.parse(await readFile(aiIndexPath, "utf8"));
 aiIndex.site.lastVerifiedAt = newsMeta.updatedAt;
-aiIndex.site.freshnessNote = `${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : ${freshnessSummary}. Synthèses originales, sourcées et liées.`;
+aiIndex.site.freshnessNote = `${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, avec pages individuelles crawlables sous /news/. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/. À suivre : ${freshnessSummary}. Synthèses originales, sourcées et liées.`;
+const editorialPriorityPage = {
+  url: `${siteUrl}/dossiers-psg/`,
+  title: "Dossiers PSG : analyses originales, histoire et joueurs",
+  intent: "Lire les articles de fond originaux Parisien 90 sur les anciens joueurs, l'effectif, le mercato, l'histoire et les débats PSG",
+  queries: [
+    "dossiers PSG",
+    "analyse PSG",
+    "article de fond PSG",
+    "histoire PSG",
+    "joueurs PSG analyse",
+    "SEO PSG"
+  ]
+};
+aiIndex.priorityPages = [
+  editorialPriorityPage,
+  ...(aiIndex.priorityPages || []).filter((page) => page.url !== editorialPriorityPage.url)
+];
 aiIndex.news = publishedNewsFeed.slice(0, 30).map((item) => ({
   title: item.title,
   category: item.category,
@@ -1021,6 +1380,16 @@ aiIndex.news = publishedNewsFeed.slice(0, 30).map((item) => ({
   source: item.source,
   sourceUrl: sourceUrl(item),
   reliability: item.reliability
+}));
+aiIndex.editorialArticles = editorialArticles.slice(0, 20).map((item) => ({
+  title: item.title,
+  category: item.category,
+  angle: item.angle,
+  dateTime: `${item.date}T${item.time}:00+02:00`,
+  url: editorialUrl(item),
+  summary: item.deck,
+  keywords: item.keywords,
+  sources: item.sources
 }));
 aiIndex.people = profilePages.slice(0, 80).map((page) => ({
   name: page.profile.name,
@@ -1081,7 +1450,7 @@ aiIndex.allTimePsgPlayers = {
 };
 await writeFile(aiIndexPath, `${JSON.stringify(aiIndex, null, 2)}\n`, "utf8");
 
-const freshnessLine = `Repère éditorial : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;
+const freshnessLine = `Repère éditorial : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/, avec sources factuelles citées, angle Parisien 90, FAQ, balisage Article et maillage interne SEO/LLM. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure, source citée, balisage NewsArticle et liens internes. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;
 
 const llmsPath = new URL("llms.txt", publicDir);
 const llms = await readFile(llmsPath, "utf8");
@@ -1097,7 +1466,7 @@ await writeFile(
   llmsFullPath,
   llmsFull.replace(
     /## (Signal de fraîcheur|Repère éditorial)[\s\S]*?\n\nLe contenu est organisé/,
-    `## Repère éditorial — ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris)\n\n${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, enrichies en pages individuelles crawlables sous /news/. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.\n\nLe contenu est organisé`
+    `## Repère éditorial — ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris)\n\n${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, enrichies en pages individuelles crawlables sous /news/. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ, maillage interne et balisage Article. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les informations sont réécrites, sourcées, catégorisées, partageables et balisées en NewsArticle sans reproduire les articles tiers.\n\nLe contenu est organisé`
   ),
   "utf8"
 );
@@ -1114,6 +1483,12 @@ const sitemapUrls = [
     lastmod: item.date || currentDate,
     changefreq: "weekly",
     priority: Number(item.viral) >= 90 ? "0.85" : "0.75"
+  })),
+  ...editorialArticles.map((item) => ({
+    loc: editorialUrl(item),
+    lastmod: item.date || currentDate,
+    changefreq: "monthly",
+    priority: "0.82"
   })),
   ...profilePages.map((page) => ({
     loc: page.url,

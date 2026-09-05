@@ -12,6 +12,7 @@ const nestedEntries = (root, prefix) =>
   : {};
 
 const newsEntries = nestedEntries("news", "news");
+const editorialEntries = nestedEntries("dossiers-psg", "dossier");
 const playerEntries = nestedEntries("joueurs-psg", "joueur");
 const legendEntries = nestedEntries("anciens-joueurs-psg", "ancien");
 const staffEntries = nestedEntries("staff-psg", "staff");
@@ -24,6 +25,7 @@ export default defineConfig({
         transfertPsg: resolve(__dirname, "transfert-psg/index.html"),
         mercatoPsg: resolve(__dirname, "mercato-psg/index.html"),
         actualitePsg: resolve(__dirname, "actualite-psg/index.html"),
+        dossiersPsg: resolve(__dirname, "dossiers-psg/index.html"),
         viralPsg: resolve(__dirname, "viral-psg/index.html"),
         videosPsg: resolve(__dirname, "videos-psg/index.html"),
         calendrierPsg: resolve(__dirname, "calendrier-psg/index.html"),
@@ -41,6 +43,7 @@ export default defineConfig({
         controleSources: resolve(__dirname, "controle-sources/index.html"),
         suiviAudience: resolve(__dirname, "suivi-audience/index.html"),
         ...newsEntries,
+        ...editorialEntries,
         ...playerEntries,
         ...legendEntries,
         ...staffEntries

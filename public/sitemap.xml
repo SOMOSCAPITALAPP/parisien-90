@@ -25,6 +25,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://parisien90.com/dossiers-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
     <loc>https://parisien90.com/viral-psg/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>hourly</changefreq>
@@ -707,6 +713,18 @@
     <lastmod>2026-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/joueurs-psg-rotation-doue-zaire-emery-mayulu/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://parisien90.com/joueurs-psg/alessandro-longoni/</loc>

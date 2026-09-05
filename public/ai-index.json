@@ -31,7 +31,7 @@
       "Brésiliens PSG"
     ],
     "lastVerifiedAt": "2026-09-04T23:07:00+02:00",
-    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 98 vraies infos PSG, avec pages individuelles crawlables sous /news/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance ; Ligue des champions : le chemin du PSG est daté, et il pique déjà les yeux. Synthèses originales, sourcées et liées."
+    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 98 vraies infos PSG, avec pages individuelles crawlables sous /news/. Dossiers originaux : 2 articles de fond sous /dossiers-psg/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance ; Ligue des champions : le chemin du PSG est daté, et il pique déjà les yeux. Synthèses originales, sourcées et liées."
   },
   "entities": [
     "Paris Saint-Germain",
@@ -45,6 +45,19 @@
     "Luis Campos"
   ],
   "priorityPages": [
+    {
+      "url": "https://parisien90.com/dossiers-psg/",
+      "title": "Dossiers PSG : analyses originales, histoire et joueurs",
+      "intent": "Lire les articles de fond originaux Parisien 90 sur les anciens joueurs, l'effectif, le mercato, l'histoire et les débats PSG",
+      "queries": [
+        "dossiers PSG",
+        "analyse PSG",
+        "article de fond PSG",
+        "histoire PSG",
+        "joueurs PSG analyse",
+        "SEO PSG"
+      ]
+    },
     {
       "url": "https://parisien90.com/transfert-psg/",
       "title": "Transfert PSG : arrivées, départs et rumeurs du Paris SG",
@@ -1913,5 +1926,83 @@
         "url": "https://parisien90.com/joueurs-psg/senny-mayulu/"
       }
     ]
-  }
+  },
+  "editorialArticles": [
+    {
+      "title": "Ronaldinho au PSG : génie trop tôt arrivé ou occasion manquée ?",
+      "category": "Histoire PSG",
+      "angle": "Analyse historique",
+      "dateTime": "2026-09-05T09:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/",
+      "summary": "Avant d'être une icône mondiale, Ronaldinho a porté le maillot du PSG. Ce passage court, imparfait et magnétique reste l'une des plus belles portes d'entrée vers l'histoire internationale du club.",
+      "keywords": [
+        "Ronaldinho PSG",
+        "Ronaldinho au PSG",
+        "Ronaldinho Gaucho PSG",
+        "ancien joueur PSG",
+        "Brésiliens PSG",
+        "histoire PSG"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia - Ronaldinho",
+          "url": "https://fr.wikipedia.org/wiki/Ronaldinho",
+          "note": "Repères biographiques et chronologie publique, sans reprise de texte."
+        },
+        {
+          "name": "Wikidata - Ronaldinho",
+          "url": "https://www.wikidata.org/wiki/Q39444",
+          "note": "Données structurées ouvertes et identifiants publics."
+        },
+        {
+          "name": "Wikimedia Commons - photo Ronaldinho",
+          "url": "https://commons.wikimedia.org/wiki/File:Ronaldinho061115.jpg",
+          "note": "Image sous licence ouverte avec attribution visible."
+        },
+        {
+          "name": "Parisien 90 - fiche Ronaldinho PSG",
+          "url": "/anciens-joueurs-psg/ronaldinho/",
+          "note": "Fiche interne enrichie et maillage historique."
+        }
+      ]
+    },
+    {
+      "title": "Joueurs PSG : la rotation de Luis Enrique est-elle une force ou une bombe à retardement ?",
+      "category": "Joueurs PSG",
+      "angle": "Analyse effectif",
+      "dateTime": "2026-09-05T14:00:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/joueurs-psg-rotation-doue-zaire-emery-mayulu/",
+      "summary": "Le PSG moderne ne manque pas de talents. Son vrai défi est plus dangereux : transformer l'abondance en hiérarchie lisible, sans étouffer les jeunes ni crisper les cadres.",
+      "keywords": [
+        "joueurs PSG",
+        "effectif PSG",
+        "Désiré Doué PSG",
+        "Warren Zaïre-Emery PSG",
+        "Senny Mayulu PSG",
+        "Luis Enrique PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+          "note": "Référence publique pour l'effectif et les profils officiels."
+        },
+        {
+          "name": "Parisien 90 - joueurs PSG",
+          "url": "/joueurs-psg/",
+          "note": "Fiches internes, rôles, points de vigilance et maillage."
+        },
+        {
+          "name": "Parisien 90 - calendrier PSG",
+          "url": "/calendrier-psg/",
+          "note": "Contexte sportif pour lire la rotation."
+        },
+        {
+          "name": "Parisien 90 - charte éditoriale",
+          "url": "/charte-editoriale/",
+          "note": "Distinction entre fait, analyse, opinion et débat."
+        }
+      ]
+    }
+  ]
 }
