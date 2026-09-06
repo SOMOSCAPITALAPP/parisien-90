@@ -121,6 +121,12 @@
     <priority>0.86</priority>
   </url>
   <url>
+    <loc>https://parisien90.com/br/noticias-psg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
     <loc>https://parisien90.com/br/transferencias-psg/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>daily</changefreq>
@@ -1429,7 +1435,49 @@
     <priority>0.76</priority>
   </url>
   <url>
-    <loc>https://parisien90.com/br/antigos-jogadores-psg/neymar/</loc>
+    <loc>https://parisien90.com/br/jogadores-psg/lucas-beraldo/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/ousmane-dembele/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/vitinha/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/joao-neves/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/desire-doue/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/khvicha-kvaratskhelia/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/jogadores-psg/warren-zaire-emery/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/rai/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.74</priority>
@@ -1441,13 +1489,67 @@
     <priority>0.74</priority>
   </url>
   <url>
-    <loc>https://parisien90.com/br/antigos-jogadores-psg/rai/</loc>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/neymar/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/marquinhos/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.74</priority>
   </url>
   <url>
     <loc>https://parisien90.com/br/antigos-jogadores-psg/thiago-silva/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/lucas-moura/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/leonardo/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/nene/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/maxwell/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/alex/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/dani-alves/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/david-luiz/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/antigos-jogadores-psg/valdo/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.74</priority>
@@ -1463,5 +1565,29 @@
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/noticias-psg/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/noticias-psg/psg-monaco-groupe-dembele-neves-digne-septembre-2026/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/noticias-psg/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/noticias-psg/luis-enrique-mercato-exceptionnel-psg-monaco-2026/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
   </url>
 </urlset>

@@ -2048,5 +2048,47 @@
         }
       ]
     }
+  ],
+  "brazilNews": [
+    {
+      "title": "PSG-Monaco: Paris cai no Parc e acende o primeiro alerta",
+      "category": "Jogo",
+      "dateTime": "2026-09-04T23:07:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/",
+      "frenchUrl": "https://parisien90.com/news/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-monaco-2026-09-04",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "Dembélé e João Neves voltam, Lucas Digne fica fora do grupo",
+      "category": "Grupo",
+      "dateTime": "2026-09-04T16:15:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-monaco-groupe-dembele-neves-digne-septembre-2026/",
+      "frenchUrl": "https://parisien90.com/news/psg-monaco-groupe-dembele-neves-digne-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-monaco-psg-ligue-1-journee-3-parc-des-princes-2026-2027/",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "Liga dos Campeões: o caminho do PSG está definido, e promete faísca",
+      "category": "Europa",
+      "dateTime": "2026-09-04T12:05:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/",
+      "frenchUrl": "https://parisien90.com/news/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/",
+      "source": "UEFA",
+      "sourceUrl": "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "Luis Enrique fecha o mercado: Paris assume um verão de força",
+      "category": "Mercado",
+      "dateTime": "2026-09-04T13:20:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/luis-enrique-mercato-exceptionnel-psg-monaco-2026/",
+      "frenchUrl": "https://parisien90.com/news/luis-enrique-mercato-exceptionnel-psg-monaco-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027",
+      "reliability": "Oficial — coletiva"
+    }
   ]
 }
