@@ -47,6 +47,8 @@ const staticPages = [
   { path: "/br/historia-psg/", changefreq: "weekly", priority: "0.72" },
   { path: "/br/antigos-jogadores-psg/", changefreq: "weekly", priority: "0.74" },
   { path: "/br/brasileiros-no-psg/", changefreq: "weekly", priority: "0.8" },
+  { path: "/br/dossies-psg/", changefreq: "weekly", priority: "0.76" },
+  { path: "/br/dossies-psg/brasileiros-psg-alma-mundial-paris/", changefreq: "monthly", priority: "0.78" },
   { path: "/llms.txt", changefreq: "weekly", priority: "0.5" },
   { path: "/llms-full.txt", changefreq: "weekly", priority: "0.5" }
 ];
@@ -607,7 +609,7 @@ const makeEditorialIndexPage = () => {
     <meta name="theme-color" content="#071426" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Dossiers PSG : analyses originales, histoire et joueurs | Parisien 90" />
-    <meta property="og:description" content="Deux articles de fond PSG par jour : histoire, joueurs, mercato, débats et mémoire du club." />
+    <meta property="og:description" content="Articles de fond PSG : histoire, joueurs, mercato, débats et mémoire du club." />
     <meta property="og:image" content="https://parisien90.com/hero-stadium.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
@@ -636,8 +638,8 @@ const makeEditorialIndexPage = () => {
         <span class="section-kicker">Articles de fond · ${escapeHTML(editorialArticlesMeta.displayDate)}</span>
         <h1>Dossiers PSG : analyses originales pour supporters exigeants</h1>
         <p>
-          Deux articles de fond par jour pour renforcer Parisien 90 : anciens joueurs, effectif actuel, histoire,
-          mercato, débats et récits pensés pour les supporters qui veulent aller plus loin.
+          Des articles de fond pour les supporters qui veulent aller plus loin : anciens joueurs, effectif actuel,
+          histoire, mercato, débats et récits qui donnent du relief à l'actualité parisienne.
         </p>
       </section>
       <section class="content-section">
@@ -1481,6 +1483,7 @@ const makeBrHeader = (active) => {
     ["/br/", "Início", "home"],
     ["/br/transferencias-psg/", "Transferências", "transferencias"],
     ["/br/mercado-psg/", "Mercado", "mercado"],
+    ["/br/dossies-psg/", "Dossiês", "dossies"],
     ["/br/jogadores-psg/", "Jogadores", "jogadores"],
     ["/br/historia-psg/", "História", "historia"],
     ["/br/antigos-jogadores-psg/", "Ídolos", "idolos"],
@@ -1830,6 +1833,64 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         </a>`
     )
     .join("\n");
+  const brDossierPath = "/br/dossies-psg/brasileiros-psg-alma-mundial-paris/";
+  const frBrazilDossierPath = "/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/";
+  const brDossierTitle = "Brasileiros no PSG: Raí, Ronaldinho, Neymar e Marquinhos deram alma mundial a Paris";
+  const brDossierDescription = "Dossiê original em português do Brasil sobre a influência brasileira no PSG: Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e a memória parisiense.";
+  const brDossierDeck = "O PSG não contratou apenas jogadores brasileiros. Em momentos decisivos, Paris buscou no Brasil uma parte do seu imaginário: liderança, fantasia, autoridade, excesso, debate e fascínio mundial.";
+  const brDossierCard = `<article class="news-card" data-share-title="${escapeHTML(brDossierTitle)}" data-share-url="${escapeHTML(brDossierPath)}">
+            <time class="news-date" datetime="2026-09-06T09:20:00+02:00">6 de setembro de 2026 · 09:20</time>
+            <div class="news-topline"><span>Dossiê Brasil</span><strong>Análise histórica</strong></div>
+            <h3><a href="${escapeHTML(brDossierPath)}">${escapeHTML(brDossierTitle)}</a></h3>
+            <p>${escapeHTML(brDossierDeck)}</p>
+            <a href="${escapeHTML(brDossierPath)}">Ler o dossiê</a>
+          </article>`;
+  const brDossierJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `${siteUrl}${brDossierPath}#article`,
+        mainEntityOfPage: { "@type": "WebPage", "@id": `${siteUrl}${brDossierPath}` },
+        headline: brDossierTitle,
+        description: brDossierDescription,
+        datePublished: "2026-09-06T09:20:00+02:00",
+        dateModified: editorialArticlesMeta.updatedAt,
+        inLanguage: "pt-BR",
+        author: { "@type": "Organization", name: "Parisien 90", url: siteUrl },
+        publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl },
+        image: [heroImage],
+        about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+        mentions: ["Raí", "Ronaldinho", "Neymar", "Thiago Silva", "Marquinhos", "Paris Saint-Germain"]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${siteUrl}${brDossierPath}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Início", item: `${siteUrl}/br/` },
+          { "@type": "ListItem", position: 2, name: "Dossiês PSG", item: `${siteUrl}/br/dossies-psg/` },
+          { "@type": "ListItem", position: 3, name: "Brasileiros no PSG", item: `${siteUrl}${brDossierPath}` }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${siteUrl}${brDossierPath}#faq`,
+        inLanguage: "pt-BR",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Quais brasileiros marcaram mais a história do PSG?",
+            acceptedAnswer: { "@type": "Answer", text: "Raí, Ronaldinho, Neymar, Thiago Silva e Marquinhos estão entre os nomes mais fortes, por liderança, fantasia, impacto mundial, autoridade defensiva e longevidade." }
+          },
+          {
+            "@type": "Question",
+            name: "Por que o PSG interessa ao público brasileiro?",
+            acceptedAnswer: { "@type": "Answer", text: "Porque o clube mistura estrelas, Liga dos Campeões, mercado, debate e uma longa lista de brasileiros que criaram pontes reais entre Paris e o futebol brasileiro." }
+          }
+        ]
+      }
+    ]
+  };
 
   const homeJsonLd = {
     "@context": "https://schema.org",
@@ -1881,14 +1942,59 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         <div class="topic-grid">
           <a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Mercado PSG</h3><p>Rumores, chegadas, saídas e leitura de confiança dos movimentos.</p></a>
           <a class="topic-card" href="/br/historia-psg/"><span>Memória</span><h3>História do PSG</h3><p>Grandes eras, ídolos, noites europeias e viradas do clube.</p></a>
+          <a class="topic-card" href="${escapeHTML(brDossierPath)}"><span>Dossiê</span><h3>Brasil e PSG</h3><p>Raí, Ronaldinho, Neymar, Thiago Silva e Marquinhos em uma história feita para o leitor brasileiro.</p></a>
           <a class="topic-card" href="/br/brasileiros-no-psg/"><span>Brasil</span><h3>Brasileiros no PSG</h3><p>Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e muito mais.</p></a>
           <a class="topic-card" href="/br/antigos-jogadores-psg/"><span>Ídolos</span><h3>Ídolos do PSG</h3><p>Fichas longas de Neymar, Ronaldinho, Messi, Mbappé, Raí e Thiago Silva.</p></a>
         </div>
       </section>
       <section class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">Novo dossiê</span><h2>Brasil e PSG, uma história que prende</h2></div><a class="primary-action compact-action" href="${escapeHTML(brDossierPath)}">Ler</a></div>
+        <div class="hot-grid">${brDossierCard}</div>
+      </section>
+      <section class="content-section">
         <div class="section-heading"><div><span class="section-kicker">Atualidade</span><h2>Notícias PSG em destaque</h2></div><span class="freshness">${escapeHTML(brDateLabel(newsMeta.displayDate))} · ${escapeHTML(newsMeta.displayTime)}</span></div>
         <div class="hot-grid">${newsCards}</div>
       </section>`
+    },
+    {
+      path: "/br/dossies-psg/",
+      title: "Dossiês PSG em português do Brasil | Parisien 90 Brasil",
+      description: "Dossiês originais em português do Brasil sobre o PSG: brasileiros, ídolos, mercado, jogadores, história e debates do Paris Saint-Germain.",
+      active: "dossies",
+      frPath: "/dossiers-psg/",
+      jsonLd: { ...homeJsonLd, name: "Dossiês PSG Brasil", url: `${siteUrl}/br/dossies-psg/` },
+      body: `<section class="page-hero"><span class="section-kicker">Dossiês PSG</span><h1>Histórias do PSG para ler com calma</h1><p>Textos originais em português do Brasil para entender o Paris Saint-Germain além do placar: memória, jogadores, mercado, rivalidades e grandes debates.</p></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Hoje</span><h2>Dossiês em destaque</h2></div><span class="freshness">Atualizado em 6 de setembro de 2026</span></div><div class="hot-grid">${brDossierCard}</div></section>
+      <section class="content-section"><h2>Continuar a leitura</h2><div class="topic-grid"><a class="topic-card" href="/br/brasileiros-no-psg/"><span>Brasil</span><h3>Brasileiros no PSG</h3><p>A lista e as fichas dos brasileiros que passaram por Paris.</p></a><a class="topic-card" href="/br/antigos-jogadores-psg/"><span>Ídolos</span><h3>Grandes nomes do PSG</h3><p>Neymar, Ronaldinho, Messi, Mbappé, Raí, Thiago Silva e outros.</p></a><a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Mercado PSG</h3><p>Rumores e decisões com fonte e contexto.</p></a></div></section>`
+    },
+    {
+      path: brDossierPath,
+      title: `${brDossierTitle} | Parisien 90 Brasil`,
+      description: brDossierDescription,
+      active: "dossies",
+      frPath: frBrazilDossierPath,
+      jsonLd: brDossierJsonLd,
+      body: `<nav class="breadcrumb" aria-label="Trilha de navegação"><a href="/br/">Início</a><span>/</span><a href="/br/dossies-psg/">Dossiês PSG</a><span>/</span><span>Brasileiros no PSG</span></nav>
+      <article class="article-page records-page" data-share-title="${escapeHTML(brDossierTitle)}" data-share-url="${escapeHTML(brDossierPath)}">
+        <div class="article-hero">
+          <div class="item-tags"><span>Dossiê Brasil</span><span>Análise histórica</span><span>9 min</span></div>
+          <time datetime="2026-09-06T09:20:00+02:00">6 de setembro de 2026 · 09:20</time>
+          <h1>${escapeHTML(brDossierTitle)}</h1>
+          <p>${escapeHTML(brDossierDeck)}</p>
+        </div>
+        <div class="article-layout">
+          <div class="article-body">
+            <section class="records-section"><h2>O Brasil não é detalhe na história do PSG</h2><p>Quando o torcedor lembra do Paris Saint-Germain, pensa em Paris, estrelas, Liga dos Campeões, mercado e noites de tensão. Mas existe uma linha que atravessa décadas: a linha brasileira. Raí, Valdo, Leonardo, Ronaldinho, Neymar, Thiago Silva, Marquinhos, Lucas Moura, Nenê, Maxwell, Alex e Dani Alves não formam apenas uma lista bonita. Eles contam como Paris aprendeu a falar com o mundo.</p><p>Para o público brasileiro, o PSG tem algo raro: não é um clube distante que só aparece em mata-mata europeu. É um clube onde ídolos nacionais deixaram marca, encantaram, dividiram opiniões e criaram memórias. Essa familiaridade explica por que Paris ainda pode crescer muito no Brasil.</p></section>
+            <section class="records-section"><h2>Raí e Ronaldinho: liderança e fantasia</h2><p>Raí simboliza o brasileiro que dá espessura institucional. É capitão, elegância, conquista europeia e memória de uma época em que o PSG ainda construía seu peso continental. Ele não é apenas um antigo jogador; é uma ponte emocional entre Paris e o futebol brasileiro.</p><p>Ronaldinho é o oposto complementar: menos ordem, mais faísca. O PSG teve o gênio antes do auge mundial. Por isso, sua passagem não envelhece. Ela provoca a pergunta que todo torcedor gosta de discutir: Paris viu uma lenda nascer ou perdeu a chance de segurá-la por mais tempo?</p></section>
+            <section class="records-section"><h2>Neymar: o brilho que mudou a escala</h2><p>Neymar transformou o PSG em assunto cotidiano no Brasil. Com ele, Paris virou novela mundial: talento absoluto, lesões, cobrança, Champions League, relação com a torcida e sensação de que cada partida carregava algo maior do que o resultado.</p><p>Seu período não precisa ser suavizado para continuar enorme. Pelo contrário: é justamente a mistura de genialidade e frustração que torna Neymar indispensável para entender o PSG moderno. Ele levou o clube a uma audiência global e deixou um debate que ainda rende.</p></section>
+            <section class="records-section"><h2>Thiago Silva e Marquinhos: o Brasil da autoridade</h2><p>Nem todo brasileiro do PSG viveu de drible. Thiago Silva e Marquinhos representam outra escola: liderança, leitura, defesa, duração. O primeiro deu credibilidade imediata ao projeto moderno. O segundo atravessou ciclos até se tornar capitão e referência histórica.</p><p>Em um clube muitas vezes julgado pelos atacantes, essa dupla lembra uma verdade simples: potência também se mede pela estabilidade. Paris pode comprar nomes grandes, mas precisa de homens que sustentem a temporada quando a pressão aperta.</p></section>
+            <section class="records-section"><h2>A pergunta que fica</h2><p>O PSG seria tão magnético sem o Brasil? Talvez ainda fosse rico, ambicioso e observado. Mas seria menos sensorial, menos discutido, menos ligado a uma ideia de futebol que mistura técnica e emoção.</p><p>A linhagem brasileira deu ao PSG algo que não cabe em uma tabela: memória compartilhável. É o tipo de história que faz o torcedor abrir uma ficha, mandar um link, discordar de um amigo e voltar para ler mais.</p></section>
+            <section class="records-section"><h2>FAQ</h2><div class="faq-list"><details open><summary>Quais brasileiros marcaram mais a história do PSG?</summary><p>Raí, Ronaldinho, Neymar, Thiago Silva e Marquinhos estão entre os nomes mais fortes pela combinação de liderança, fantasia, impacto mundial, defesa e longevidade.</p></details><details><summary>Ronaldinho foi importante mesmo ficando pouco tempo?</summary><p>Sim. Sua passagem foi curta, mas ficou enorme na memória porque Paris viu de perto um futuro gênio mundial antes da consagração plena.</p></details><details><summary>O texto copia Wikipedia ou mídia brasileira?</summary><p>Não. O dossiê usa fatos públicos e fontes citadas, mas a redação, a estrutura e o ângulo são originais Parisien 90.</p></details></div></section>
+            <section class="source-box"><span>Fontes utilizadas</span><p>Síntese original Parisien 90 baseada em dados públicos. Nenhum texto de terceiros é reproduzido.</p><ul class="source-credit-list"><li><a href="https://pt.wikipedia.org/wiki/Ra%C3%AD" rel="noopener noreferrer">Wikipédia - Raí</a><span>Dados biográficos e carreira pública.</span></li><li><a href="https://pt.wikipedia.org/wiki/Ronaldinho_Ga%C3%BAcho" rel="noopener noreferrer">Wikipédia - Ronaldinho Gaúcho</a><span>Cronologia esportiva pública.</span></li><li><a href="https://pt.wikipedia.org/wiki/Neymar" rel="noopener noreferrer">Wikipédia - Neymar</a><span>Dados de carreira e passagem pelo PSG.</span></li><li><a href="https://pt.wikipedia.org/wiki/Thiago_Silva" rel="noopener noreferrer">Wikipédia - Thiago Silva</a><span>Dados de carreira pública.</span></li><li><a href="/br/brasileiros-no-psg/">Parisien 90 - Brasileiros no PSG</a><span>Lista interna e fichas ligadas.</span></li></ul></section>
+          </div>
+          <aside class="article-sidebar"><span class="section-kicker">Continuar</span><a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a><a href="/br/antigos-jogadores-psg/ronaldinho/">Ronaldinho PSG</a><a href="/br/antigos-jogadores-psg/neymar/">Neymar PSG</a><a href="/br/jogadores-psg/marquinhos/">Marquinhos PSG</a><a href="/br/historia-psg/">História do PSG</a><a href="${escapeHTML(frBrazilDossierPath)}">Versão francesa</a></aside>
+        </div>
+      </article>`
     },
     {
       path: "/br/transferencias-psg/",
@@ -1947,6 +2053,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       body: `<section class="page-hero"><span class="section-kicker">Brasil em Paris</span><h1>Brasileiros no PSG: a linhagem que deu alma mundial a Paris</h1><p>Raí deu nobreza, Ronaldinho deu fantasia, Neymar deu escala global, Thiago Silva deu autoridade, Marquinhos deu duração. O PSG fala português muito antes de querer falar com o mundo inteiro.</p></section>
       <section class="signal-strip" aria-label="Brasileiros e sul-americanos no PSG"><article class="signal-card tone-green"><span>Brasileiros mapeados</span><strong>${escapeHTML(brazilianCount)}</strong></article><article class="signal-card"><span>Argentinos mapeados</span><strong>${escapeHTML(argentinianCount)}</strong></article><article class="signal-card tone-red"><span>Fichas em destaque</span><strong>${escapeHTML(brazilianLegends.length)}</strong></article></section>
       <section class="content-section"><h2>Por que essa lista importa</h2><p>O PSG tem uma relação rara com o futebol brasileiro. Não é só contratação de craque: é estética, liderança, marketing, memória e identidade. De Raí a Marquinhos, o Brasil aparece nos momentos em que Paris tenta se definir para além da França.</p><p>As fichas abaixo usam dados públicos e fontes citadas. As fotos só aparecem quando existe licença aberta ou autorização clara.</p></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Dossiê recomendado</span><h2>Por que o Brasil moldou Paris</h2></div><a class="primary-action compact-action" href="${escapeHTML(brDossierPath)}">Ler o dossiê</a></div><div class="hot-grid">${brDossierCard}</div></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Galeria editorial</span><h2>Grandes brasileiros do PSG</h2></div><a class="primary-action compact-action" href="/anciens-joueurs-psg/?pays=Brésil">Lista completa</a></div><div class="topic-grid">${legendCards}</div></section>
       <section class="content-section"><h2>Próximos jogos que o Brasil deve olhar</h2><div class="hot-grid">${fixtureCards}</div></section>`
     }

@@ -1,11 +1,59 @@
 {
-  "updatedAt": "2026-09-05T19:10:00+02:00",
-  "displayDate": "5 septembre 2026",
-  "displayTime": "19h10",
-  "cadence": "Objectif éditorial : au moins deux dossiers originaux PSG par jour.",
+  "updatedAt": "2026-09-06T09:20:00+02:00",
+  "displayDate": "6 septembre 2026",
+  "displayTime": "09h20",
+  "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "id": "bresiliens-psg-rai-ronaldinho-neymar-marquinhos",
+      "category": "Histoire PSG",
+      "angle": "Dossier Brésil",
+      "date": "2026-09-06",
+      "dateLabel": "6 septembre 2026",
+      "time": "09:20",
+      "dateTime": "2026-09-06T09:20:00+02:00",
+      "headline": "Brésiliens du PSG : Raí, Ronaldinho, Neymar, Marquinhos, une histoire plus grande que le mercato",
+      "summary": "Le PSG n'a pas seulement recruté des joueurs brésiliens. Il a emprunté au Brésil une partie de son imaginaire mondial : élégance, spectacle, leadership, excès, blessures et débats sans fin.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/",
+      "sources": [
+        {
+          "name": "Wikipedia - Raí",
+          "url": "https://fr.wikipedia.org/wiki/Ra%C3%AD",
+          "note": "Repères biographiques et carrière publique."
+        },
+        {
+          "name": "Wikipedia - Ronaldinho",
+          "url": "https://fr.wikipedia.org/wiki/Ronaldinho",
+          "note": "Chronologie sportive publique."
+        },
+        {
+          "name": "Wikipedia - Neymar",
+          "url": "https://fr.wikipedia.org/wiki/Neymar",
+          "note": "Repères de carrière et passage au PSG."
+        },
+        {
+          "name": "Wikipedia - Thiago Silva",
+          "url": "https://fr.wikipedia.org/wiki/Thiago_Silva",
+          "note": "Repères de carrière publique."
+        },
+        {
+          "name": "Parisien 90 - Brésiliens au PSG",
+          "url": "/br/brasileiros-no-psg/",
+          "note": "Liste interne et fiches reliées en portugais du Brésil."
+        }
+      ],
+      "keywords": [
+        "Brésiliens PSG",
+        "Raí PSG",
+        "Ronaldinho PSG",
+        "Neymar PSG",
+        "Marquinhos PSG",
+        "Thiago Silva PSG",
+        "PSG Brésil"
+      ]
+    },
     {
       "id": "ronaldinho-psg-genie-trop-tot-arrive",
       "category": "Histoire PSG",

@@ -1,12 +1,95 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-05T19:10:00+02:00",
-  displayDate: "5 septembre 2026",
-  displayTime: "19h10",
-  cadence: "Objectif éditorial : au moins deux dossiers originaux PSG par jour.",
+  updatedAt: "2026-09-06T09:20:00+02:00",
+  displayDate: "6 septembre 2026",
+  displayTime: "09h20",
+  cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "bresiliens-psg-rai-ronaldinho-neymar-marquinhos",
+    title: "Brésiliens du PSG : Raí, Ronaldinho, Neymar, Marquinhos, une histoire plus grande que le mercato",
+    description: "Article de fond original sur les Brésiliens du PSG : Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos et l'influence du Brésil dans l'histoire parisienne.",
+    deck: "Le PSG n'a pas seulement recruté des joueurs brésiliens. Il a emprunté au Brésil une partie de son imaginaire mondial : élégance, spectacle, leadership, excès, blessures et débats sans fin.",
+    category: "Histoire PSG",
+    angle: "Dossier Brésil",
+    date: "2026-09-06",
+    dateLabel: "6 septembre 2026",
+    time: "09:20",
+    author: "Rédaction Parisien 90",
+    readingTime: "9 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Ambiance de stade pour un dossier sur les Brésiliens du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Brésiliens PSG", "Raí PSG", "Ronaldinho PSG", "Neymar PSG", "Marquinhos PSG", "Thiago Silva PSG", "PSG Brésil"],
+    sections: [
+      {
+        heading: "Le Brésil, ce n'est pas une annexe dans l'histoire du PSG",
+        paragraphs: [
+          "Quand on raconte le Paris Saint-Germain, on parle souvent d'argent, de stars, de Ligue des champions, de mercato et de nuits européennes. Mais il existe un fil plus sensible, presque affectif : le fil brésilien. Raí, Valdo, Leonardo, Ronaldinho, Neymar, Thiago Silva, Marquinhos, Lucas Moura, Nenê, Maxwell, Alex ou Dani Alves n'ont pas seulement rempli une ligne d'effectif. Ils ont donné à Paris une couleur immédiatement reconnaissable.",
+          "Ce lien compte parce qu'il parle à deux publics à la fois. En France, les Brésiliens du PSG réveillent la mémoire du Parc, des gestes et des débats. Au Brésil, ils font du club parisien une destination familière, parfois admirée, parfois discutée, mais rarement indifférente. Paris est devenu mondial avec des noms venus de partout, mais le Brésil a souvent servi de raccourci émotionnel."
+        ]
+      },
+      {
+        heading: "Raí et Ronaldinho : deux portes d'entrée opposées",
+        paragraphs: [
+          "Raí représente la noblesse. Il est le capitaine, l'élégance posée, la figure capable d'associer Paris à une conquête européenne et à une certaine idée du jeu. Son PSG a une mémoire de coupe, de maillot lourd, de soirées où le club cherchait encore sa place parmi les grands.",
+          "Ronaldinho, lui, représente la foudre. Il arrive avant la pleine explosion mondiale, laisse des souvenirs presque irréels et repart avant que Paris puisse vraiment construire autour de lui une dynastie. Voilà pourquoi son passage fascine encore : le PSG a eu le génie au moment où il était déjà incandescent, mais pas encore sacré par toute la planète."
+        ]
+      },
+      {
+        heading: "Neymar : le Brésil comme accélérateur et comme débat",
+        paragraphs: [
+          "Neymar a fait entrer le PSG dans une autre conversation. Sa signature a changé la taille médiatique du club, la perception de la Ligue 1 et la manière dont le monde regardait Paris. Avec lui, le PSG n'était plus seulement un candidat riche : il devenait un feuilleton mondial, commenté de São Paulo à Doha, de Paris à Miami.",
+          "Mais Neymar, c'est aussi le débat permanent. Brillance incontestable, corps fragile, attentes gigantesques, relation émotionnelle avec les supporters, obsession européenne : son passage concentre toutes les contradictions du PSG moderne. C'est précisément pour cela qu'il reste indispensable à raconter. Une histoire trop lisse serait fausse."
+        ]
+      },
+      {
+        heading: "Thiago Silva et Marquinhos : le Brésil de l'autorité",
+        paragraphs: [
+          "Réduire le Brésil du PSG au dribble serait une erreur. Thiago Silva et Marquinhos racontent une autre influence : celle de la défense, du brassard, de la durée et de la maturité. Le premier a donné au projet moderne une crédibilité immédiate derrière. Le second a traversé les cycles, les entraîneurs, les stars et les tempêtes jusqu'à devenir l'un des grands repères du club.",
+          "Dans un PSG souvent jugé sur ses attaquants, ces deux noms rappellent une vérité moins spectaculaire mais capitale : un grand club se construit aussi par la stabilité. Les supporters aiment les fulgurances, mais ils reviennent aux capitaines quand la saison devient sérieuse."
+        ]
+      },
+      {
+        heading: "Pourquoi cette histoire peut encore grandir",
+        paragraphs: [
+          "Le PSG est aujourd'hui une marque mondiale, mais une marque de football ne vit pas seulement par ses trophées. Elle vit par les récits que les supporters se racontent. Le Brésil offre à Paris une collection de récits puissants : le capitaine fondateur, le génie trop tôt arrivé, la superstar discutée, le défenseur-monstre, le capitaine de longue durée.",
+          "La question qui doit faire parler est simple : le PSG a-t-il vraiment mesuré tout ce que le Brésil lui a apporté ? Pas seulement en marketing ou en maillots vendus, mais en mémoire, en identité et en désir de regarder le prochain match. À Parisien 90, notre réponse est claire : sans le Brésil, le PSG serait peut-être puissant. Il serait moins magnétique."
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Qui sont les Brésiliens les plus importants de l'histoire du PSG ?",
+        answer: "Raí, Ronaldinho, Neymar, Thiago Silva et Marquinhos font partie des noms les plus marquants, chacun pour une raison différente : leadership, génie, impact mondial, autorité défensive ou durée."
+      },
+      {
+        question: "Pourquoi le PSG intéresse-t-il autant les supporters brésiliens ?",
+        answer: "Parce que de nombreux grands joueurs brésiliens ont porté le maillot parisien, et parce que le PSG moderne réunit star power, ambition européenne et débats qui dépassent largement la France."
+      },
+      {
+        question: "Cet article utilise-t-il des contenus protégés de médias tiers ?",
+        answer: "Non. Il s'agit d'une analyse originale fondée sur des faits publics, des fiches internes Parisien 90 et des sources factuelles citées."
+      }
+    ],
+    sources: [
+      { name: "Wikipedia - Raí", url: "https://fr.wikipedia.org/wiki/Ra%C3%AD", note: "Repères biographiques et carrière publique." },
+      { name: "Wikipedia - Ronaldinho", url: "https://fr.wikipedia.org/wiki/Ronaldinho", note: "Chronologie sportive publique." },
+      { name: "Wikipedia - Neymar", url: "https://fr.wikipedia.org/wiki/Neymar", note: "Repères de carrière et passage au PSG." },
+      { name: "Wikipedia - Thiago Silva", url: "https://fr.wikipedia.org/wiki/Thiago_Silva", note: "Repères de carrière publique." },
+      { name: "Parisien 90 - Brésiliens au PSG", url: "/br/brasileiros-no-psg/", note: "Liste interne et fiches reliées en portugais du Brésil." }
+    ],
+    internalLinks: [
+      { label: "Brésiliens au PSG", url: "/br/brasileiros-no-psg/" },
+      { label: "Ronaldinho PSG", url: "/anciens-joueurs-psg/ronaldinho/" },
+      { label: "Neymar PSG", url: "/anciens-joueurs-psg/neymar/" },
+      { label: "Marquinhos PSG", url: "/joueurs-psg/marquinhos/" },
+      { label: "Histoire PSG", url: "/histoire-psg/" },
+      { label: "Records PSG", url: "/records-psg/" }
+    ]
+  },
   {
     id: "ronaldinho-psg-genie-trop-tot-arrive",
     title: "Ronaldinho au PSG : génie trop tôt arrivé ou occasion manquée ?",

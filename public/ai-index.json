@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-04T23:07:00+02:00",
-    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 99 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 2 articles de fond sous /dossiers-psg/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; Luis Enrique jusqu'en 2030 : le PSG verrouille aussi cinq cadres ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 99 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; Luis Enrique jusqu'en 2030 : le PSG verrouille aussi cinq cadres ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -1928,6 +1928,50 @@
     ]
   },
   "editorialArticles": [
+    {
+      "title": "Brésiliens du PSG : Raí, Ronaldinho, Neymar, Marquinhos, une histoire plus grande que le mercato",
+      "category": "Histoire PSG",
+      "angle": "Dossier Brésil",
+      "dateTime": "2026-09-06T09:20:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/",
+      "summary": "Le PSG n'a pas seulement recruté des joueurs brésiliens. Il a emprunté au Brésil une partie de son imaginaire mondial : élégance, spectacle, leadership, excès, blessures et débats sans fin.",
+      "keywords": [
+        "Brésiliens PSG",
+        "Raí PSG",
+        "Ronaldinho PSG",
+        "Neymar PSG",
+        "Marquinhos PSG",
+        "Thiago Silva PSG",
+        "PSG Brésil"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia - Raí",
+          "url": "https://fr.wikipedia.org/wiki/Ra%C3%AD",
+          "note": "Repères biographiques et carrière publique."
+        },
+        {
+          "name": "Wikipedia - Ronaldinho",
+          "url": "https://fr.wikipedia.org/wiki/Ronaldinho",
+          "note": "Chronologie sportive publique."
+        },
+        {
+          "name": "Wikipedia - Neymar",
+          "url": "https://fr.wikipedia.org/wiki/Neymar",
+          "note": "Repères de carrière et passage au PSG."
+        },
+        {
+          "name": "Wikipedia - Thiago Silva",
+          "url": "https://fr.wikipedia.org/wiki/Thiago_Silva",
+          "note": "Repères de carrière publique."
+        },
+        {
+          "name": "Parisien 90 - Brésiliens au PSG",
+          "url": "/br/brasileiros-no-psg/",
+          "note": "Liste interne et fiches reliées en portugais du Brésil."
+        }
+      ]
+    },
     {
       "title": "Ronaldinho au PSG : génie trop tôt arrivé ou occasion manquée ?",
       "category": "Histoire PSG",
