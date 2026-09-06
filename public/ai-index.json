@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-04T23:07:00+02:00",
-    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 98 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 2 articles de fond sous /dossiers-psg/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance ; Ligue des champions : le chemin du PSG est daté, et il pique déjà les yeux. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 99 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 2 articles de fond sous /dossiers-psg/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; Luis Enrique jusqu'en 2030 : le PSG verrouille aussi cinq cadres ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -204,6 +204,15 @@
       "url": "https://parisien90.com/news/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-monaco-2026-09-04",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Luis Enrique jusqu'en 2030 : le PSG verrouille aussi cinq cadres",
+      "category": "Club",
+      "dateTime": "2026-09-04T20:57:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-neves-pacho-mayulu-beraldo-fabian-prolongations-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027",
       "reliability": "Officiel"
     },
     {
@@ -457,15 +466,6 @@
       "source": "PSG.fr, confirmé par Cadena SER",
       "sourceUrl": "https://www.psg.fr/en/matches/mens-football/20262027/paris-vs-aston-villa-2026-08-12",
       "reliability": "Officiel"
-    },
-    {
-      "title": "PSG féminin–Francfort : Paris connaît son obstacle européen d'août",
-      "category": "Féminines",
-      "dateTime": "2026-08-11T14:15:00+02:00",
-      "url": "https://parisien90.com/news/psg-feminin-francfort-tour-3-ligue-champions-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/en/content/paris-to-face-frankfurt-in-womens-champions-league-3rd-qualifying-round-draw-paris-saint-germain-feminines-2026-2027",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -518,9 +518,9 @@
       "aliases": [],
       "type": "player",
       "role": "Défenseur central gaucher",
-      "status": "Rotation premium",
+      "status": "Prolongé jusqu'en 2031",
       "url": "https://parisien90.com/joueurs-psg/lucas-beraldo/",
-      "updatedAt": "15 juillet 2026",
+      "updatedAt": "4 septembre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -584,9 +584,9 @@
       "aliases": [],
       "type": "player",
       "role": "Défenseur central gaucher",
-      "status": "Défenseur de référence",
+      "status": "Prolongé jusqu'en 2031",
       "url": "https://parisien90.com/joueurs-psg/willian-pacho/",
-      "updatedAt": "15 juillet 2026",
+      "updatedAt": "4 septembre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -595,9 +595,9 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu relayeur",
-      "status": "Cadre technique",
+      "status": "Prolongé jusqu'en 2028 (+1 an en option)",
       "url": "https://parisien90.com/joueurs-psg/fabian-ruiz/",
-      "updatedAt": "15 juillet 2026",
+      "updatedAt": "4 septembre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -617,9 +617,9 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu polyvalent",
-      "status": "Jeune à suivre",
+      "status": "Prolongé jusqu'en 2031",
       "url": "https://parisien90.com/joueurs-psg/senny-mayulu/",
-      "updatedAt": "15 juillet 2026",
+      "updatedAt": "4 septembre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -650,9 +650,9 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu intense et organisateur",
-      "status": "Titulaire de très haut niveau",
+      "status": "Prolongé jusqu'en 2031",
       "url": "https://parisien90.com/joueurs-psg/joao-neves/",
-      "updatedAt": "15 juillet 2026",
+      "updatedAt": "4 septembre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -738,9 +738,9 @@
       "aliases": [],
       "type": "staff",
       "role": "Entraîneur principal",
-      "status": "Responsable de l'équipe première",
+      "status": "Prolongé jusqu'en 2030",
       "url": "https://parisien90.com/staff-psg/luis-enrique/",
-      "updatedAt": "28 août 2026",
+      "updatedAt": "4 septembre 2026",
       "source": "PSG.fr",
       "image": null
     },
