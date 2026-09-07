@@ -211,10 +211,6 @@ const getShareUrl = (article, title, index) => {
 
 const withShareTracking = (url, channel, title) => {
   const tracked = new URL(url, window.location.origin);
-  tracked.searchParams.set("utm_source", channel);
-  tracked.searchParams.set("utm_medium", channel === "copy" ? "copy" : "social");
-  tracked.searchParams.set("utm_campaign", shareCampaign);
-  tracked.searchParams.set("utm_content", slugify(title).slice(0, 72));
   return tracked.href;
 };
 
