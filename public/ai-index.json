@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-04T23:07:00+02:00",
-    "freshnessNote": "Fil PSG du 4 septembre 2026. Fil public : 99 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; Luis Enrique jusqu'en 2030 : le PSG verrouille aussi cinq cadres ; PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté ; PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ ; Luis Enrique ferme le mercato : Paris assume un été de puissance. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-07T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 7 septembre 2026. Fil public : 103 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : Dembélé six semaines, Doué quatre : le PSG perd deux détonateurs ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus ; PSG-Monaco : Paris renversé au Parc, première défaite et première alerte. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -197,6 +197,42 @@
     }
   ],
   "news": [
+    {
+      "title": "Dembélé six semaines, Doué quatre : le PSG perd deux détonateurs",
+      "category": "Groupe",
+      "dateTime": "2026-09-06T12:00:00+02:00",
+      "url": "https://parisien90.com/news/ousmane-dembele-desire-doue-point-medical-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/point-medical-concernant-ousmane-dembele-et-desire-doue-paris-saint-germain-2025-2026",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment",
+      "category": "Mercato",
+      "dateTime": "2026-09-06T11:00:00+02:00",
+      "url": "https://parisien90.com/news/elisa-de-almeida-arsenal-transfert-officiel-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/elisa-de-almeida-rejoint-arsenal-psg-news-mercato-feminines-women-2026-2027",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0",
+      "category": "Féminines",
+      "dateTime": "2026-09-05T21:15:00+02:00",
+      "url": "https://parisien90.com/news/psg-feminin-lens-victoire-premiere-ligue-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/paris-simpose-a-lens-pour-ses-debuts-en-championnat-cr-rc-lens-paris-saint-germain-arkema-premiere-ligue-2026-2027",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus",
+      "category": "Féminines",
+      "dateTime": "2026-09-05T20:00:00+02:00",
+      "url": "https://parisien90.com/news/psg-feminin-calendrier-uwcl-real-madrid-juventus-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-calendrier-de-luefa-womens-champions-league-devoile-psg-feminines-women-2026-2027",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-Monaco : Paris renversé au Parc, première défaite et première alerte",
       "category": "Match",
@@ -430,42 +466,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/the-key-stats-trophee-des-champions",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Lens-PSG : 23 joueurs convoqués, João Neves absent du groupe",
-      "category": "Match",
-      "dateTime": "2026-08-16T11:30:00+02:00",
-      "url": "https://parisien90.com/news/lens-psg-groupe-23-neves-absent-trophee-champions-2026/",
-      "source": "CulturePSG",
-      "sourceUrl": "https://www.culturepsg.com/news/match/le-groupe-pour-lens-psg-avec-deux-recrues-seulement/60357",
-      "reliability": "Fort — groupe et information de gestion rapportés"
-    },
-    {
-      "title": "Mika Godts signe au PSG : Paris ajoute un ailier belge jusqu'en 2031",
-      "category": "Mercato",
-      "dateTime": "2026-08-16T00:05:00+02:00",
-      "url": "https://parisien90.com/news/mika-godts-officiel-psg-contrat-2031/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/cp-mika-godts-s-engage-avec-le-paris-saint-germain/",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Ferran Torres est Parisien : le champion du monde signe jusqu'en 2031",
-      "category": "Mercato",
-      "dateTime": "2026-08-15T12:55:00+02:00",
-      "url": "https://parisien90.com/news/ferran-torres-officiel-psg-contrat-2031/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/cp-ferran-torres-rejoint-le-paris-saint-germain/",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Aston Villa : Paris gagne 2-1 et conserve sa Supercoupe de l'UEFA",
-      "category": "Europe",
-      "dateTime": "2026-08-12T22:55:00+02:00",
-      "url": "https://parisien90.com/news/psg-aston-villa-supercoupe-uefa-victoire-2026/",
-      "source": "PSG.fr, confirmé par Cadena SER",
-      "sourceUrl": "https://www.psg.fr/en/matches/mens-football/20262027/paris-vs-aston-villa-2026-08-12",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -672,10 +672,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier créateur",
-      "status": "Star du cycle Luis Enrique",
+      "status": "Indisponible environ six semaines",
       "url": "https://parisien90.com/joueurs-psg/ousmane-dembele/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "6 septembre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
@@ -716,10 +716,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier ou milieu offensif",
-      "status": "Talent premium",
+      "status": "Indisponible environ quatre semaines",
       "url": "https://parisien90.com/joueurs-psg/desire-doue/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "6 septembre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
