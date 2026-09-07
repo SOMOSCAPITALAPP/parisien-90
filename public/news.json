@@ -8,23 +8,6 @@
   "items": [
     {
       "count": 103,
-      "id": "ousmane-dembele-desire-doue-point-medical-septembre-2026",
-      "category": "Groupe",
-      "date": "2026-09-06",
-      "dateLabel": "6 septembre 2026",
-      "time": "12:00",
-      "dateTime": "2026-09-06T12:00:00+02:00",
-      "headline": "Dembélé six semaines, Doué quatre : le PSG perd deux détonateurs",
-      "summary": "Le PSG a officialisé deux coups durs pendant la trêve internationale. Sorti blessé avec les Bleus contre l'Ukraine, Ousmane Dembélé souffre d'une lésion sévère de l'ischio-jambier droit et devrait manquer environ six semaines. Désiré Doué, touché au mollet droit lors du même match, est annoncé absent environ quatre semaines. Paris devra donc aborder le Slovan, Brest et les premières échéances d'automne sans deux de ses accélérateurs offensifs.",
-      "tone": "groupe",
-      "reliability": "Officiel",
-      "viralScore": 99,
-      "internalUrl": "https://parisien90.com/news/ousmane-dembele-desire-doue-point-medical-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/point-medical-concernant-ousmane-dembele-et-desire-doue-paris-saint-germain-2025-2026"
-    },
-    {
-      "count": 103,
       "id": "elisa-de-almeida-arsenal-transfert-officiel-septembre-2026",
       "category": "Mercato",
       "date": "2026-09-06",
@@ -1756,6 +1739,23 @@
       "internalUrl": "https://parisien90.com/news/histoire-cycle/",
       "source": "Analyse Parisien 90",
       "sourceUrl": "https://parisien90.com/histoire-psg/"
+    },
+    {
+      "count": 103,
+      "id": "ousmane-dembele-desire-doue-point-medical-septembre-2025",
+      "category": "Vérification",
+      "date": "2025-09-06",
+      "dateLabel": "6 septembre 2025",
+      "time": "12:00",
+      "dateTime": "2025-09-06T12:00:00+02:00",
+      "headline": "Dembélé et Doué blessés contre l'Ukraine : le match datait du 5 septembre 2025",
+      "summary": "Vérification : le point médical du PSG du 6 septembre 2025 concernait Ukraine-France, disputé la veille, vendredi 5 septembre 2025, à la Tarczyński Arena de Wrocław. La France s'était imposée 2-0. Désiré Doué était sorti à la pause, remplacé par Ousmane Dembélé, lui-même remplacé à la 81e minute. PSG.fr avait ensuite annoncé une lésion sévère de l'ischio-jambier droit pour Dembélé et une blessure au mollet droit pour Doué.",
+      "tone": "vérification",
+      "reliability": "Correction datée",
+      "viralScore": 58,
+      "internalUrl": "https://parisien90.com/news/ousmane-dembele-desire-doue-point-medical-septembre-2025/",
+      "source": "FFF / PSG.fr",
+      "sourceUrl": "https://www.fff.fr/selection/matchs/3611-ukraine-france.html"
     }
   ]
 }

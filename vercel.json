@@ -4,6 +4,11 @@
   "framework": "vite",
   "redirects": [
     {
+      "source": "/news/ousmane-dembele-desire-doue-point-medical-septembre-2026/",
+      "destination": "/news/ousmane-dembele-desire-doue-point-medical-septembre-2025/",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
