@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-07T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 7 septembre 2026. Fil public : 103 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus ; PSG-Monaco : Paris renversé au Parc, première défaite et première alerte ; Luis Enrique jusqu'en 2030 : le PSG verrouille aussi cinq cadres. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-08T14:20:00+02:00",
+    "freshnessNote": "Fil PSG du 8 septembre 2026. Fil public : 104 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus ; PSG-Monaco : Paris renversé au Parc, première défaite et première alerte. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -197,6 +197,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate",
+      "category": "Europe",
+      "dateTime": "2026-09-08T14:20:00+02:00",
+      "url": "https://parisien90.com/news/psg-slovan-longoni-luis-enrique-rigueur-septembre-2026/",
+      "source": "L'Équipe / CulturePSG",
+      "sourceUrl": "https://www.culturepsg.com/news/match/la-ligue-des-champions-la-defense-febrile-yaya-toure-etc-la-conf-complete-de-luis-enrique-avant-psg-bratislava/60661",
+      "reliability": "Fort — groupe et conférence recoupés"
+    },
     {
       "title": "Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment",
       "category": "Mercato",
@@ -457,15 +466,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/the-key-stats-trophee-des-champions",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Lens-PSG : 23 joueurs convoqués, João Neves absent du groupe",
-      "category": "Match",
-      "dateTime": "2026-08-16T11:30:00+02:00",
-      "url": "https://parisien90.com/news/lens-psg-groupe-23-neves-absent-trophee-champions-2026/",
-      "source": "CulturePSG",
-      "sourceUrl": "https://www.culturepsg.com/news/match/le-groupe-pour-lens-psg-avec-deux-recrues-seulement/60357",
-      "reliability": "Fort — groupe et information de gestion rapportés"
     }
   ],
   "people": [
@@ -474,10 +474,10 @@
       "aliases": [],
       "type": "player",
       "role": "Gardien de rotation",
-      "status": "Effectif provisoire PSG 2026-2027",
+      "status": "Indisponible — gêne au quadriceps gauche",
       "url": "https://parisien90.com/joueurs-psg/alessandro-longoni/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "8 septembre 2026",
+      "source": "L'Équipe — entraînement avant Slovan",
       "image": null
     },
     {
