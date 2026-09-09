@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-08T14:20:00+02:00",
-  edition: "Fil PSG du 8 septembre 2026",
-  displayDate: "8 septembre 2026",
-  displayTime: "14h20",
+  updatedAt: "2026-09-09T12:00:00+02:00",
+  edition: "Fil PSG du 9 septembre 2026",
+  displayDate: "9 septembre 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-09", "9 septembre 2026", [
+  { id: "psg-ballon-or-dix-nommes-record-septembre-2026", time: "11:35", category: "Club", title: "Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record", summary: "Le PSG annonce dix joueurs dans la liste des 30 nommés au Ballon d'Or 2026 : Dembélé, Hakimi, Kvaratskhelia, Marquinhos, Nuno Mendes, João Neves, Pacho, Fabián Ruiz, Ferran Torres et Vitinha. Le club revendique un record de représentation pour une même équipe dans l'histoire du trophée. Safonov (Yachine), Zaïre-Emery (Kopa), Luis Enrique et le PSG dans la catégorie club complètent une vitrine qui mesure surtout le poids collectif de la saison parisienne.", source: "PSG.fr", url: "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/", reliability: "Officiel", viral: 94 },
+  ]),
   ...withNewsDate("2026-09-08", "8 septembre 2026", [
   { id: "psg-slovan-longoni-luis-enrique-rigueur-septembre-2026", time: "14:20", category: "Europe", title: "PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate", summary: "À la veille du Slovan Bratislava, le PSG a travaillé avec un groupe quasiment complet : Alessandro Longoni, gêné au quadriceps gauche, est le seul forfait signalé. En conférence de presse, Luis Enrique a rappelé que le Parc reste un avantage à convertir par une intensité maximale. Après le faux départ en Ligue 1, Paris ne peut pas se contenter d'un match confortable : l'entrée en Ligue des champions doit remettre de l'ordre tout de suite.", source: "L'Équipe / CulturePSG", url: "https://www.culturepsg.com/news/match/la-ligue-des-champions-la-defense-febrile-yaya-toure-etc-la-conf-complete-de-luis-enrique-avant-psg-bratislava/60661", reliability: "Fort — groupe et conférence recoupés", viral: 95 },
   ]),

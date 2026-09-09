@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-08T14:20:00+02:00",
-    "freshnessNote": "Fil PSG du 8 septembre 2026. Fil public : 104 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus ; PSG-Monaco : Paris renversé au Parc, première défaite et première alerte. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-09T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 9 septembre 2026. Fil public : 105 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -197,6 +197,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record",
+      "category": "Club",
+      "dateTime": "2026-09-09T11:35:00+02:00",
+      "url": "https://parisien90.com/news/psg-ballon-or-dix-nommes-record-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate",
       "category": "Europe",
@@ -456,15 +465,6 @@
       "url": "https://parisien90.com/news/lens-psg-trophee-champions-defaite-officielle-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/matches/mens-football/20262027/lens-vs-paris-2026-08-16",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Lens-PSG : Paris vise un 15e Trophée des Champions, record français",
-      "category": "Match",
-      "dateTime": "2026-08-16T12:00:00+02:00",
-      "url": "https://parisien90.com/news/lens-psg-chiffres-officiels-trophee-champions-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/en/content/the-key-stats-trophee-des-champions",
       "reliability": "Officiel"
     }
   ],
