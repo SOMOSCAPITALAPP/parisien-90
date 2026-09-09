@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-09T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 9 septembre 2026. Fil public : 105 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 3 articles de fond sous /dossiers-psg/. À suivre : Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 9 septembre 2026. Fil public : 105 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 4 articles de fond sous /dossiers-psg/. À suivre : Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -1928,6 +1928,57 @@
     ]
   },
   "editorialArticles": [
+    {
+      "title": "Futur Ballon d'Or 2026 : le PSG peut-il vraiment garder le trophée avec Dembélé, Vitinha ou Kvaratskhelia ?",
+      "category": "Ballon d'Or PSG",
+      "angle": "Analyse chaude",
+      "dateTime": "2026-09-09T15:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/futur-ballon-d-or-2026-psg-dembele-vitinha-kvaratskhelia/",
+      "summary": "Le Ballon d'Or 2026 n'est pas seulement une bataille de stars. Avec dix joueurs dans la liste officielle, Paris transforme une récompense individuelle en référendum mondial sur son collectif.",
+      "keywords": [
+        "futur Ballon d'Or",
+        "Ballon d'Or 2026 PSG",
+        "Dembélé Ballon d'Or 2026",
+        "Vitinha Ballon d'Or 2026",
+        "Kvaratskhelia Ballon d'Or PSG",
+        "Hakimi Ballon d'Or",
+        "Marquinhos Ballon d'Or",
+        "Nuno Mendes PSG",
+        "João Neves PSG",
+        "Willian Pacho PSG",
+        "Fabián Ruiz PSG",
+        "Ferran Torres PSG",
+        "Mbappé Ballon d'Or",
+        "Messi Ballon d'Or"
+      ],
+      "sources": [
+        {
+          "name": "Ballon d'Or - nommés masculins 2026",
+          "url": "https://ballondor.com/news/posts/mens-ballon-dor-discover-the-ballon-dor-2026-nominees",
+          "note": "Liste officielle des 30 nommés et repères statistiques publiés le 8 septembre 2026."
+        },
+        {
+          "name": "Ballon d'Or - clubs les plus représentés",
+          "url": "https://ballondor.com/news/posts/which-clubs-have-the-most-nominees-for-the-2026-ballon-dor",
+          "note": "Classement officiel des clubs représentés et précision sur les joueurs ayant changé de club."
+        },
+        {
+          "name": "PSG.fr - dix nommés parisiens",
+          "url": "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/",
+          "note": "Annonce club, noms des joueurs parisiens et catégories associées."
+        },
+        {
+          "name": "UEFA - cérémonie 2026 à Londres",
+          "url": "https://www.uefa.com/news-media/news/02a5-20bba4224372-ded650cfa1da-1000--2026-ballon-d-or-ceremony-date-and-host-city-announced/",
+          "note": "Date, lieu et contexte officiel de la cérémonie 2026."
+        },
+        {
+          "name": "Parisien 90 - news Ballon d'Or PSG",
+          "url": "/news/psg-ballon-or-dix-nommes-record-septembre-2026/",
+          "note": "Synthèse interne datée et reliée au fil d'actualité PSG."
+        }
+      ]
+    },
     {
       "title": "Brésiliens du PSG : Raí, Ronaldinho, Neymar, Marquinhos, une histoire plus grande que le mercato",
       "category": "Histoire PSG",

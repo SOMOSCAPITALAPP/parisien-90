@@ -1,12 +1,162 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-06T09:20:00+02:00",
-  displayDate: "6 septembre 2026",
-  displayTime: "09h20",
+  updatedAt: "2026-09-09T15:30:00+02:00",
+  displayDate: "9 septembre 2026",
+  displayTime: "15h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "futur-ballon-d-or-2026-psg-dembele-vitinha-kvaratskhelia",
+    title: "Futur Ballon d'Or 2026 : le PSG peut-il vraiment garder le trophée avec Dembélé, Vitinha ou Kvaratskhelia ?",
+    description: "Dossier long format sur le futur Ballon d'Or 2026 et le PSG : Dembélé, Vitinha, Kvaratskhelia, Hakimi, Marquinhos, Nuno Mendes, João Neves, Willian Pacho, Fabián Ruiz, Ferran Torres, Mbappé et Messi.",
+    deck: "Le Ballon d'Or 2026 n'est pas seulement une bataille de stars. Avec dix joueurs dans la liste officielle, Paris transforme une récompense individuelle en référendum mondial sur son collectif.",
+    category: "Ballon d'Or PSG",
+    angle: "Analyse chaude",
+    date: "2026-09-09",
+    dateLabel: "9 septembre 2026",
+    time: "15:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "13 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Ambiance de stade pour un dossier sur le futur Ballon d'Or et les joueurs du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: [
+      "futur Ballon d'Or",
+      "Ballon d'Or 2026 PSG",
+      "Dembélé Ballon d'Or 2026",
+      "Vitinha Ballon d'Or 2026",
+      "Kvaratskhelia Ballon d'Or PSG",
+      "Hakimi Ballon d'Or",
+      "Marquinhos Ballon d'Or",
+      "Nuno Mendes PSG",
+      "João Neves PSG",
+      "Willian Pacho PSG",
+      "Fabián Ruiz PSG",
+      "Ferran Torres PSG",
+      "Mbappé Ballon d'Or",
+      "Messi Ballon d'Or"
+    ],
+    sections: [
+      {
+        heading: "Le PSG n'a pas dix nommés par hasard",
+        paragraphs: [
+          "La liste du Ballon d'Or 2026 a changé le centre du débat. Le 8 septembre, l'organisation officielle a publié les trente noms masculins, et Paris y apparaît avec une densité que peu de clubs peuvent seulement imaginer : Ousmane Dembélé, Achraf Hakimi, Khvicha Kvaratskhelia, Marquinhos, Nuno Mendes, João Neves, Willian Pacho, Fabián Ruiz, Ferran Torres et Vitinha sont tous présents dans la course. Pour un club français, ce n'est plus une belle représentation. C'est une démonstration de force.",
+          "Le plus intéressant n'est pas seulement le chiffre. Le plus intéressant, c'est la nature de ce chiffre. Paris ne place pas dix profils identiques dans la liste : un attaquant déjà sacré, des latéraux qui pèsent dans les deux surfaces, un capitaine brésilien, un défenseur équatorien devenu symbole de fiabilité, des milieux portugais capables de contrôler un match, un Espagnol champion du monde et un ailier géorgien devenu visage européen du danger permanent. Le Ballon d'Or aime les histoires individuelles ; le PSG lui impose une histoire collective."
+        ]
+      },
+      {
+        heading: "Dembélé, le sortant qui peut encore diviser tout le monde",
+        paragraphs: [
+          "Ousmane Dembélé arrive avec le statut le plus lourd : il est le lauréat 2025 et reste le candidat parisien que le grand public identifie immédiatement. C'est à la fois une arme et un piège. Une arme, parce que son nom pèse, que son style marque les mémoires et que sa campagne européenne a encore laissé des images fortes. Un piège, parce qu'un Ballon d'Or consécutif demande presque plus qu'une grande saison : il exige la sensation d'une domination évidente.",
+          "Le débat Dembélé Ballon d'Or 2026 sera donc explosif. Ses défenseurs parleront de continuité, de décisivité, de rareté technique et de trophées. Ses contradicteurs chercheront le joueur qui a le plus écrasé l'année statistiquement, le récit Coupe du monde, ou le visage neuf capable de prendre la lumière. Pour Paris, le meilleur scénario est peut-être paradoxal : même si Dembélé ne gagne pas, sa présence parmi les favoris installe l'idée que le PSG possède désormais un Ballon d'Or crédible dans son vestiaire, pas seulement un ancien vainqueur de passage."
+        ]
+      },
+      {
+        heading: "Vitinha, le candidat des connaisseurs",
+        paragraphs: [
+          "Vitinha est probablement le nom le plus dangereux dans une conversation sérieuse entre suiveurs du PSG. Il n'a pas le registre spectaculaire d'un pur finisseur, mais il coche la case devenue capitale dans le football moderne : le contrôle. Quand Paris respire, accélère, attire la pression puis ressort proprement, Vitinha est souvent au cœur de l'action avant l'action décisive. C'est moins viral qu'une reprise en lucarne, mais c'est parfois plus important pour gagner.",
+          "Son obstacle est culturel. Le Ballon d'Or sait récompenser un milieu quand le récit devient irrésistible, mais il demande alors une pédagogie médiatique très forte. Pour que Vitinha gagne, il faut que le débat public accepte de regarder le football autrement : pas seulement le dernier geste, mais la manière dont un joueur gouverne le rythme d'une équipe championne. C'est exactement le type de dossier où le PSG doit assumer une identité : le génie n'est pas toujours celui qui termine l'action, parfois c'est celui qui décide quand elle doit commencer."
+        ]
+      },
+      {
+        heading: "Kvaratskhelia, le candidat le plus cinématographique",
+        paragraphs: [
+          "Khvicha Kvaratskhelia possède ce que les trophées individuels adorent : une signature visuelle. Le supporter neutre n'a pas besoin de trois ralentis pour comprendre qu'il se passe quelque chose quand il reçoit le ballon. Il attaque, il fixe, il force l'adversaire à reculer, et il donne au PSG une forme de menace immédiate qui traverse les frontières linguistiques. Pour un Ballon d'Or, cette dimension compte énormément.",
+          "Son dossier peut devenir brûlant parce qu'il combine trois choses rares : impact européen, contribution offensive et sensation d'événement. Si le vote se joue sur l'impression laissée dans les grands matchs, Kvaratskhelia a une carte majeure. La question est de savoir si son récit individuel peut dépasser l'image collective du PSG. Dans une équipe qui place dix joueurs, la lumière se partage ; pour gagner, il faut parfois la confisquer."
+        ]
+      },
+      {
+        heading: "Hakimi, Nuno Mendes et la révolution des latéraux",
+        paragraphs: [
+          "Achraf Hakimi et Nuno Mendes racontent une mutation très parisienne : le PSG n'est plus seulement une collection d'attaquants, c'est aussi une équipe dont les côtés changent la géographie d'un match. Hakimi apporte l'expérience, la projection, la passe, la présence mentale dans les rendez-vous lourds. Nuno Mendes impose une intensité différente, plus verticale, plus physique, presque suffocante quand il enchaîne les courses.",
+          "Le problème des latéraux au Ballon d'Or est connu : ils doivent presque faire deux métiers pour être regardés comme des favoris. Défendre très haut, attaquer très juste, peser dans les chiffres, survivre dans les grands soirs et offrir un récit simple à raconter. Hakimi et Nuno Mendes ont justement cet intérêt éditorial : ils obligent à poser la question que le vote esquive souvent. Si un latéral peut dominer son couloir au point de changer toute une équipe, pourquoi resterait-il derrière les attaquants dans la hiérarchie symbolique ?"
+        ]
+      },
+      {
+        heading: "Marquinhos et Pacho, le mur a aussi droit à son histoire",
+        paragraphs: [
+          "Marquinhos n'est pas dans la liste pour décorer le papier. Il porte une dimension que peu de joueurs peuvent revendiquer : la durée, le brassard, la mémoire des échecs et la trace des titres. Dans un club longtemps accusé de manquer d'ossature, son nom raconte le passage de la promesse à l'autorité. Il n'est peut-être pas le favori naturel d'un trophée dominé par les attaquants, mais il est l'un des symboles les plus forts du PSG installé dans le très haut niveau.",
+          "Willian Pacho, lui, apporte un récit différent : celui du défenseur dont la valeur se voit parfois mieux quand il n'est plus là. Placement, duels, lecture, couverture, capacité à rendre l'équipe plus stable : son Ballon d'Or est moins probable, mais sa nomination sert le récit parisien. Elle dit que le PSG 2026 ne se résume pas à ses artistes. Il existe aussi un socle, et ce socle a fini par entrer dans la conversation mondiale."
+        ]
+      },
+      {
+        heading: "João Neves, Fabián Ruiz et Ferran Torres : l'Espagne, le Portugal et le poids du Mondial",
+        paragraphs: [
+          "João Neves incarne le futur proche. À son âge, être déjà présent dans ce type de liste installe une promesse rare : celle d'un joueur qui n'a pas encore fini de grandir, mais qui compte déjà dans une équipe qui gagne. Son nom parle aux supporters qui cherchent le prochain patron du milieu parisien. Si Vitinha est le métronome installé, João Neves est la projection vers ce que le PSG peut devenir.",
+          "Fabián Ruiz et Ferran Torres ajoutent une donnée capitale : le poids du football de sélection. Dans l'imaginaire du Ballon d'Or, la Coupe du monde peut réorganiser une hiérarchie en quelques semaines. Fabián possède le double récit du club et de la Roja ; Ferran arrive avec le parfum du but majeur et d'une nouvelle vie parisienne. Le PSG profite ici d'une situation rare : même les histoires nées ailleurs finissent par enrichir le récit du club."
+        ]
+      },
+      {
+        heading: "Mbappé et Messi restent dans le décor, et c'est bon pour Paris",
+        paragraphs: [
+          "Kylian Mbappé et Lionel Messi ne sont plus des joueurs du PSG, mais ils restent indispensables à ce dossier. Leur présence dans la liste 2026 rappelle que Paris a été l'un des rares clubs capables de réunir, à des moments différents ou simultanés, plusieurs des plus grands aimants médiatiques de l'ère moderne. Pour le lecteur qui cherche Messi PSG, Mbappé PSG ou Neymar PSG, la question du Ballon d'Or ouvre donc une porte naturelle vers l'histoire récente du club.",
+          "Il faut toutefois éviter la nostalgie facile. Le PSG actuel peut justement défendre une thèse nouvelle : l'après-Messi, l'après-Neymar et l'après-Mbappé n'a pas réduit Paris. Il l'a obligé à devenir plus équipe. C'est peut-être le cœur polémique du dossier : le club le plus starifié de la décennie peut-il gagner le Ballon d'Or au nom du collectif ? Si la réponse est oui, alors Paris aura vraiment changé de statut."
+        ]
+      },
+      {
+        heading: "Qui est le vrai favori parisien ?",
+        paragraphs: [
+          "Si l'on cherche le favori le plus lisible pour le grand public, Dembélé part avec l'avantage du nom, du statut et de la continuité. Si l'on cherche le joueur qui peut fédérer les analystes, Vitinha a une profondeur de dossier considérable. Si l'on cherche l'image, la menace et la capacité à séduire vite, Kvaratskhelia possède le récit le plus cinématographique. Et si l'on cherche une candidature qui bouscule les habitudes, Hakimi ou Nuno Mendes peuvent porter le débat sur la valeur des latéraux modernes.",
+          "Le futur Ballon d'Or 2026 ne se résume donc pas à un classement probable. Il raconte une bataille de récits : le buteur contre le meneur de tempo, l'artiste contre le cadre, le champion du monde contre le champion d'Europe, l'ancien Ballon d'Or contre la nouvelle sensation. Paris a rarement eu une telle quantité d'arguments dans une même édition. La seule vraie menace pour le PSG vient peut-être de son abondance : à force d'avoir trop de candidats crédibles, le vote peut se disperser."
+        ]
+      },
+      {
+        heading: "La lecture Parisien 90 : le trophée individuel, mais la victoire collective",
+        paragraphs: [
+          "Notre lecture est claire : même si le Ballon d'Or partait ailleurs le 26 octobre à Londres, le PSG aurait déjà gagné une bataille d'image. Dix joueurs dans la liste, un gardien nommé au Trophée Yachine, Warren Zaïre-Emery dans la course jeune, Luis Enrique cité chez les entraîneurs et le club présent dans la catégorie collective : c'est une occupation totale du paysage.",
+          "Mais Paris ne doit pas se contenter d'applaudir la vitrine. Le vrai enjeu est de transformer cette visibilité en mémoire durable. Dembélé, Vitinha, Kvaratskhelia, Hakimi, Marquinhos, Nuno Mendes, João Neves, Pacho, Fabián Ruiz et Ferran Torres donnent chacun une porte d'entrée vers le même récit : le PSG n'est plus seulement un club qui achète des stars. C'est un club dont le collectif fabrique des candidats au Ballon d'Or. Voilà le changement qui peut rester."
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Quels joueurs du PSG sont nommés au Ballon d'Or 2026 ?",
+        answer: "La liste officielle comprend Ousmane Dembélé, Achraf Hakimi, Khvicha Kvaratskhelia, Marquinhos, Nuno Mendes, João Neves, Willian Pacho, Fabián Ruiz, Ferran Torres et Vitinha côté PSG."
+      },
+      {
+        question: "Quand sera remis le Ballon d'Or 2026 ?",
+        answer: "La cérémonie du Ballon d'Or 2026 est prévue le 26 octobre 2026 au London Palladium Theatre, à Londres."
+      },
+      {
+        question: "Qui est le favori PSG pour le Ballon d'Or 2026 ?",
+        answer: "Dembélé a le statut le plus lisible, Vitinha possède un dossier de contrôle très fort, et Kvaratskhelia offre le récit le plus spectaculaire. Le vote peut toutefois être influencé par la Coupe du monde, les statistiques et la dispersion entre plusieurs candidats parisiens."
+      },
+      {
+        question: "Pourquoi Messi et Mbappé sont-ils évoqués dans un dossier PSG ?",
+        answer: "Parce que leurs passages à Paris restent liés aux recherches sur les grandes stars du PSG et au récit récent du club, même s'ils sont nommés en 2026 sous d'autres couleurs."
+      },
+      {
+        question: "Cet article reprend-il les textes de France Football, UEFA ou PSG.fr ?",
+        answer: "Non. Les sources servent à vérifier les faits, les listes et les dates. L'analyse, les angles et la rédaction sont originaux Parisien 90."
+      }
+    ],
+    sources: [
+      { name: "Ballon d'Or - nommés masculins 2026", url: "https://ballondor.com/news/posts/mens-ballon-dor-discover-the-ballon-dor-2026-nominees", note: "Liste officielle des 30 nommés et repères statistiques publiés le 8 septembre 2026." },
+      { name: "Ballon d'Or - clubs les plus représentés", url: "https://ballondor.com/news/posts/which-clubs-have-the-most-nominees-for-the-2026-ballon-dor", note: "Classement officiel des clubs représentés et précision sur les joueurs ayant changé de club." },
+      { name: "PSG.fr - dix nommés parisiens", url: "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/", note: "Annonce club, noms des joueurs parisiens et catégories associées." },
+      { name: "UEFA - cérémonie 2026 à Londres", url: "https://www.uefa.com/news-media/news/02a5-20bba4224372-ded650cfa1da-1000--2026-ballon-d-or-ceremony-date-and-host-city-announced/", note: "Date, lieu et contexte officiel de la cérémonie 2026." },
+      { name: "Parisien 90 - news Ballon d'Or PSG", url: "/news/psg-ballon-or-dix-nommes-record-septembre-2026/", note: "Synthèse interne datée et reliée au fil d'actualité PSG." }
+    ],
+    internalLinks: [
+      { label: "Dembélé PSG", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Vitinha PSG", url: "/joueurs-psg/vitinha/" },
+      { label: "Kvaratskhelia PSG", url: "/joueurs-psg/khvicha-kvaratskhelia/" },
+      { label: "Hakimi PSG", url: "/joueurs-psg/achraf-hakimi/" },
+      { label: "Marquinhos PSG", url: "/joueurs-psg/marquinhos/" },
+      { label: "Nuno Mendes PSG", url: "/joueurs-psg/nuno-mendes/" },
+      { label: "João Neves PSG", url: "/joueurs-psg/joao-neves/" },
+      { label: "Willian Pacho PSG", url: "/joueurs-psg/willian-pacho/" },
+      { label: "Fabián Ruiz PSG", url: "/joueurs-psg/fabian-ruiz/" },
+      { label: "Ferran Torres PSG", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Mbappé PSG", url: "/anciens-joueurs-psg/kylian-mbappe/" },
+      { label: "Messi PSG", url: "/anciens-joueurs-psg/lionel-messi/" },
+      { label: "Records PSG", url: "/records-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Actualité PSG", url: "/actualite-psg/" }
+    ]
+  },
   {
     id: "bresiliens-psg-rai-ronaldinho-neymar-marquinhos",
     title: "Brésiliens du PSG : Raí, Ronaldinho, Neymar, Marquinhos, une histoire plus grande que le mercato",

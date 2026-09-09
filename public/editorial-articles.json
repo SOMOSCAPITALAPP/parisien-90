@@ -1,11 +1,66 @@
 {
-  "updatedAt": "2026-09-06T09:20:00+02:00",
-  "displayDate": "6 septembre 2026",
-  "displayTime": "09h20",
+  "updatedAt": "2026-09-09T15:30:00+02:00",
+  "displayDate": "9 septembre 2026",
+  "displayTime": "15h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "id": "futur-ballon-d-or-2026-psg-dembele-vitinha-kvaratskhelia",
+      "category": "Ballon d'Or PSG",
+      "angle": "Analyse chaude",
+      "date": "2026-09-09",
+      "dateLabel": "9 septembre 2026",
+      "time": "15:30",
+      "dateTime": "2026-09-09T15:30:00+02:00",
+      "headline": "Futur Ballon d'Or 2026 : le PSG peut-il vraiment garder le trophée avec Dembélé, Vitinha ou Kvaratskhelia ?",
+      "summary": "Le Ballon d'Or 2026 n'est pas seulement une bataille de stars. Avec dix joueurs dans la liste officielle, Paris transforme une récompense individuelle en référendum mondial sur son collectif.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/futur-ballon-d-or-2026-psg-dembele-vitinha-kvaratskhelia/",
+      "sources": [
+        {
+          "name": "Ballon d'Or - nommés masculins 2026",
+          "url": "https://ballondor.com/news/posts/mens-ballon-dor-discover-the-ballon-dor-2026-nominees",
+          "note": "Liste officielle des 30 nommés et repères statistiques publiés le 8 septembre 2026."
+        },
+        {
+          "name": "Ballon d'Or - clubs les plus représentés",
+          "url": "https://ballondor.com/news/posts/which-clubs-have-the-most-nominees-for-the-2026-ballon-dor",
+          "note": "Classement officiel des clubs représentés et précision sur les joueurs ayant changé de club."
+        },
+        {
+          "name": "PSG.fr - dix nommés parisiens",
+          "url": "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/",
+          "note": "Annonce club, noms des joueurs parisiens et catégories associées."
+        },
+        {
+          "name": "UEFA - cérémonie 2026 à Londres",
+          "url": "https://www.uefa.com/news-media/news/02a5-20bba4224372-ded650cfa1da-1000--2026-ballon-d-or-ceremony-date-and-host-city-announced/",
+          "note": "Date, lieu et contexte officiel de la cérémonie 2026."
+        },
+        {
+          "name": "Parisien 90 - news Ballon d'Or PSG",
+          "url": "/news/psg-ballon-or-dix-nommes-record-septembre-2026/",
+          "note": "Synthèse interne datée et reliée au fil d'actualité PSG."
+        }
+      ],
+      "keywords": [
+        "futur Ballon d'Or",
+        "Ballon d'Or 2026 PSG",
+        "Dembélé Ballon d'Or 2026",
+        "Vitinha Ballon d'Or 2026",
+        "Kvaratskhelia Ballon d'Or PSG",
+        "Hakimi Ballon d'Or",
+        "Marquinhos Ballon d'Or",
+        "Nuno Mendes PSG",
+        "João Neves PSG",
+        "Willian Pacho PSG",
+        "Fabián Ruiz PSG",
+        "Ferran Torres PSG",
+        "Mbappé Ballon d'Or",
+        "Messi Ballon d'Or"
+      ]
+    },
     {
       "id": "bresiliens-psg-rai-ronaldinho-neymar-marquinhos",
       "category": "Histoire PSG",
