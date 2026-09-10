@@ -6,7 +6,7 @@ export const psgSchedule2627 = [
   { round: 1, isoDate: "2026-08-23", day: "dimanche", dateLabel: "23 août 2026", month: "2026-08", competition: "Ligue 1", home: "Stade Rennais", away: "Paris Saint-Germain", opponent: "Stade Rennais", venue: "Roazhon Park", place: "Extérieur", time: "20:45", status: "Terminé 2-2", note: "La LFP a inversé l'affiche en raison de la pelouse du Parc ; Paris a arraché le nul à Rennes.", highlight: true },
   { round: 2, isoDate: "2026-08-28", day: "vendredi", dateLabel: "28 août 2026", month: "2026-08", competition: "Ligue 1", home: "LOSC", away: "Paris Saint-Germain", opponent: "LOSC", venue: "Decathlon Arena - Stade Pierre-Mauroy", place: "Extérieur", time: "20:45", status: "Terminé 2-2", note: "Mené 2-0, Paris a arraché le nul dans le temps additionnel grâce à Vitinha puis Marquinhos.", highlight: true },
   { round: 3, isoDate: "2026-09-04", day: "vendredi", dateLabel: "4 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Paris Saint-Germain", away: "AS Monaco", opponent: "AS Monaco", venue: "Parc des Princes", place: "Domicile", time: "21:05", status: "Terminé 1-2", note: "Paris a mené grâce à Marquinhos, puis Monaco a renversé le match en seconde période par Nazinho et Idumbo.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-monaco-2026-09-04" },
-  { round: 1, roundLabel: "C1 J1", isoDate: "2026-09-09", day: "mercredi", dateLabel: "9 septembre 2026", month: "2026-09", competition: "Ligue des champions", home: "Paris Saint-Germain", away: "Slovan Bratislava", opponent: "Slovan Bratislava", venue: "Parc des Princes", place: "Domicile", time: "21:00", status: "Programmé", note: "Ouverture européenne au Parc : Paris doit transformer ce tirage en départ autoritaire, sans laisser respirer le doute.", highlight: true, source: "PSG.fr / UEFA", sourceUrl: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027" },
+  { round: 1, roundLabel: "C1 J1", isoDate: "2026-09-09", day: "mercredi", dateLabel: "9 septembre 2026", month: "2026-09", competition: "Ligue des champions", home: "Paris Saint-Germain", away: "Slovan Bratislava", opponent: "Slovan Bratislava", venue: "Parc des Princes", place: "Domicile", time: "21:00", status: "Terminé 6-1", note: "Dembélé a signé un doublé, Ferran Torres un triplé et Fabián Ruiz a clos la démonstration pour l'entrée européenne du PSG.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-slovan-2026-09-09" },
   { round: 4, isoDate: "2026-09-13", day: "dimanche", dateLabel: "13 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Stade Brestois 29", away: "Paris Saint-Germain", opponent: "Stade Brestois 29", venue: "Stade Francis-Le Blé", place: "Extérieur", time: "20:45", status: "Programmé", note: "Déplacement piège après la trêve, programmé à 20h45 par le PSG.", highlight: false, source: "PSG.fr", sourceUrl: "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-7-au-13-septembre-2026" },
   { round: 5, isoDate: "2026-09-20", day: "dimanche", dateLabel: "20 septembre 2026", month: "2026-09", competition: "Ligue 1", home: "Olympique de Marseille", away: "Paris Saint-Germain", opponent: "Olympique de Marseille", venue: "Orange Vélodrome", place: "Extérieur", time: "18:45", status: "Programmé", note: "Premier Classique de la saison.", highlight: true },
   { round: 6, isoDate: "2026-10-10", day: "samedi", dateLabel: "10 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Le Mans FC", opponent: "Le Mans FC", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Retour au Parc contre un promu ambitieux.", highlight: false },
@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-09T12:00:00+02:00",
-  edition: "Fil PSG du 9 septembre 2026",
-  displayDate: "9 septembre 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-09-10T00:41:00+02:00",
+  edition: "Fil PSG du 10 septembre 2026",
+  displayDate: "10 septembre 2026",
+  displayTime: "00h41",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-10", "10 septembre 2026", [
+  { id: "psg-slovan-victoire-dembele-ferran-torres-triple-septembre-2026", time: "00:41", category: "Europe", title: "PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc", summary: "Pour son entrée en Ligue des champions, le PSG a écrasé le Slovan Bratislava 6-1 au Parc des Princes. Dembélé a lancé la soirée avec un doublé, Ferran Torres a signé un triplé pour ses débuts européens à Paris, puis Fabián Ruiz a refermé le récital. Le Slovan a sauvé l'honneur par Suleiman Camara, mais la réponse parisienne après Monaco est massive : du rythme, du pressing et une attaque enfin sans retenue.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-slovan-2026-09-09", reliability: "Officiel", viral: 99 },
+  ]),
   ...withNewsDate("2026-09-09", "9 septembre 2026", [
   { id: "psg-ballon-or-dix-nommes-record-septembre-2026", time: "11:35", category: "Club", title: "Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record", summary: "Le PSG annonce dix joueurs dans la liste des 30 nommés au Ballon d'Or 2026 : Dembélé, Hakimi, Kvaratskhelia, Marquinhos, Nuno Mendes, João Neves, Pacho, Fabián Ruiz, Ferran Torres et Vitinha. Le club revendique un record de représentation pour une même équipe dans l'histoire du trophée. Safonov (Yachine), Zaïre-Emery (Kopa), Luis Enrique et le PSG dans la catégorie club complètent une vitrine qui mesure surtout le poids collectif de la saison parisienne.", source: "PSG.fr", url: "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/", reliability: "Officiel", viral: 94 },
   ]),

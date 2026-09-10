@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-09T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 9 septembre 2026. Fil public : 105 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 4 articles de fond sous /dossiers-psg/. À suivre : Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0 ; Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-10T00:41:00+02:00",
+    "freshnessNote": "Fil PSG du 10 septembre 2026. Fil public : 106 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 4 articles de fond sous /dossiers-psg/. À suivre : PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -197,6 +197,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc",
+      "category": "Europe",
+      "dateTime": "2026-09-10T00:41:00+02:00",
+      "url": "https://parisien90.com/news/psg-slovan-victoire-dembele-ferran-torres-triple-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-slovan-2026-09-09",
+      "reliability": "Officiel"
+    },
     {
       "title": "Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record",
       "category": "Club",
@@ -456,15 +465,6 @@
       "url": "https://parisien90.com/news/psg-rennes-inversion-officielle-lfp-aout-2026/",
       "source": "Ligue 1",
       "sourceUrl": "https://ligue1.com/fr/articles/l1_article_5699-j1-psg-rennes-inverse-l1-2627",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Lens-PSG : Paris tombe 1-0 et laisse le Trophée des Champions aux Sang et Or",
-      "category": "Match",
-      "dateTime": "2026-08-16T22:45:00+02:00",
-      "url": "https://parisien90.com/news/lens-psg-trophee-champions-defaite-officielle-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/en/matches/mens-football/20262027/lens-vs-paris-2026-08-16",
       "reliability": "Officiel"
     }
   ],
