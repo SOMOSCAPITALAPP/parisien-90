@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-10T00:41:00+02:00",
-    "freshnessNote": "Fil PSG du 10 septembre 2026. Fil public : 106 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 4 articles de fond sous /dossiers-psg/. À suivre : PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment ; Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 10 septembre 2026. Fil public : 107 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 4 articles de fond sous /dossiers-psg/. À suivre : PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -214,6 +214,15 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/",
       "reliability": "Officiel"
+    },
+    {
+      "title": "Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée",
+      "category": "Club",
+      "dateTime": "2026-09-09T00:23:00+02:00",
+      "url": "https://parisien90.com/news/psg-penalite-index-egalite-professionnelle-confirmee-septembre-2026/",
+      "source": "L'Équipe / AFP",
+      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/La-sanction-du-psg-pour-non-respect-de-l-index-d-egalite-professionnelle-entre-les-femmes-et-les-hommes-confirmee-en-appel/1717273",
+      "reliability": "Fort — jugement rapporté par AFP"
     },
     {
       "title": "PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate",
@@ -457,15 +466,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-31-aout-au-6-septembre-2026",
       "reliability": "Officiel — programmation actualisée"
-    },
-    {
-      "title": "PSG-Rennes inversé : la LFP a déplacé la rentrée parisienne au Roazhon Park",
-      "category": "Calendrier",
-      "dateTime": "2026-08-19T18:23:00+02:00",
-      "url": "https://parisien90.com/news/psg-rennes-inversion-officielle-lfp-aout-2026/",
-      "source": "Ligue 1",
-      "sourceUrl": "https://ligue1.com/fr/articles/l1_article_5699-j1-psg-rennes-inverse-l1-2627",
-      "reliability": "Officiel"
     }
   ],
   "people": [
