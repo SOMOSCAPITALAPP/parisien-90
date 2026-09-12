@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-10T00:41:00+02:00",
-  edition: "Fil PSG du 10 septembre 2026",
-  displayDate: "10 septembre 2026",
-  displayTime: "00h41",
+  updatedAt: "2026-09-12T12:00:00+02:00",
+  edition: "Fil PSG du 12 septembre 2026",
+  displayDate: "12 septembre 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-11", "11 septembre 2026", [
+  { id: "ferran-torres-joueur-semaine-equipe-type-uefa-septembre-2026", time: "18:21", category: "Europe", title: "Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe", summary: "L'UEFA a désigné Ferran Torres joueur de la semaine de la première journée de Ligue des champions, puis l'a intégré à son équipe-type. L'instance salue son premier triplé parisien, mais aussi ses déplacements dans la surface : une distinction officielle qui prolonge la démonstration contre Bratislava et donne du poids à son départ express sous le maillot rouge et bleu.", source: "UEFA", url: "https://fr.uefa.com/uefachampionsleague/news/02a9-2191228a4324-39a961a366d2-1000--champions-league-equipe-de-la-semaine-j1/", reliability: "Officiel", viral: 95 },
+  ]),
   ...withNewsDate("2026-09-10", "10 septembre 2026", [
   { id: "psg-slovan-victoire-dembele-ferran-torres-triple-septembre-2026", time: "00:41", category: "Europe", title: "PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc", summary: "Pour son entrée en Ligue des champions, le PSG a écrasé le Slovan Bratislava 6-1 au Parc des Princes. Dembélé a lancé la soirée avec un doublé, Ferran Torres a signé un triplé pour ses débuts européens à Paris, puis Fabián Ruiz a refermé le récital. Le Slovan a sauvé l'honneur par Suleiman Camara, mais la réponse parisienne après Monaco est massive : du rythme, du pressing et une attaque enfin sans retenue.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-slovan-2026-09-09", reliability: "Officiel", viral: 99 },
   ]),
