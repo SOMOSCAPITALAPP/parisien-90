@@ -38,7 +38,15 @@
     },
     {
       "path": "/api/source-audit",
-      "schedule": "0 10 * * *"
+      "schedule": "30 10 * * *"
+    },
+    {
+      "path": "/api/gsc-rankings",
+      "schedule": "30 4 * * *"
+    },
+    {
+      "path": "/api/gsc-rankings",
+      "schedule": "30 10 * * *"
     }
   ]
 }

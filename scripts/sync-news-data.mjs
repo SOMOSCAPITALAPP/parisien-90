@@ -1,7 +1,7 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { allTimePsgPlayers, allTimePsgPlayersMeta } from "../src/all-time-psg-players.js";
 import { editorialArticles, editorialArticlesMeta } from "../src/editorial-articles.js";
-import { currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, staffProfiles } from "../src/site-data.js";
+import { calendarWatchSources, currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, staffProfiles } from "../src/site-data.js";
 
 const siteUrl = "https://parisien90.com";
 const publicDir = new URL("../public/", import.meta.url);
@@ -42,6 +42,7 @@ const staticPages = [
   { path: "/droits-disclaimer/", changefreq: "monthly", priority: "0.7" },
   { path: "/br/", changefreq: "daily", priority: "0.86" },
   { path: "/br/noticias-psg/", changefreq: "daily", priority: "0.82" },
+  { path: "/br/calendario-psg/", changefreq: "daily", priority: "0.82" },
   { path: "/br/transferencias-psg/", changefreq: "daily", priority: "0.78" },
   { path: "/br/mercado-psg/", changefreq: "daily", priority: "0.78" },
   { path: "/br/jogadores-psg/", changefreq: "weekly", priority: "0.72" },
@@ -743,7 +744,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
           "@type": "Person",
           name: profile.name,
           jobTitle: profile.role || profile.position,
-          alternateName: profile.aliases,
+          alternateName: Array.isArray(profile.aliases) ? profile.aliases.map(brValue) : brValue(profile.aliases),
           image: profile.image ? profileImage : undefined,
           memberOf: { "@type": "SportsTeam", name: "Paris Saint-Germain" }
         },
@@ -1420,6 +1421,54 @@ const brProfileDetails = {
       ["Ronaldinho virou estrela mundial depois do PSG?", "Sim. Seu período parisiense antecede a consagração global que viria depois, especialmente no futebol espanhol e na seleção brasileira."]
     ]
   },
+  alex: {
+    kicker: "Zagueiro brasileiro",
+    intro: "Alex no PSG é a história de um defensor forte, experiente e útil para entender a primeira fase do clube na era QSI.",
+    paragraphs: [
+      "Entre 2012 e 2014, Alex representou uma mudança importante: Paris queria brilho, mas também precisava de peso defensivo para competir com autoridade.",
+      "Sua passagem não viveu do marketing. Viveu de duelo, bola aérea, presença física e uma cobrança de falta pesada que marcou sua imagem entre os torcedores.",
+      "Para o público brasileiro, Alex entra em uma linha de zagueiros e líderes que ajudaram a fazer do PSG um clube mundial: Thiago Silva, Marquinhos, David Luiz e Lucas Beraldo prolongam essa conversa."
+    ],
+    focusTitle: "Por que Alex PSG merece uma ficha própria?",
+    focus: "Porque ele mostra que a construção do PSG moderno também passou por defensores experientes, não apenas por atacantes de cartaz.",
+    faq: [
+      ["Quando Alex jogou no PSG?", "Alex jogou no Paris Saint-Germain de 2012 a 2014."],
+      ["Qual era a posição de Alex no PSG?", "Ele era zagueiro, reconhecido pela força física, jogo aéreo e potência na bola parada."],
+      ["Alex faz parte da história brasileira do PSG?", "Sim. Ele é uma peça importante da presença brasileira em Paris, especialmente no início da era QSI."]
+    ]
+  },
+  valdo: {
+    kicker: "Elegância brasileira",
+    intro: "Valdo no PSG lembra que a ligação entre Paris e Brasil começou muito antes de Neymar e Ronaldinho virarem manchete diária.",
+    paragraphs: [
+      "Entre 1991 e 1995, Valdo trouxe técnica, pausa e leitura de jogo a um PSG que começava a construir uma identidade mais internacional.",
+      "Seu nome interessa porque ele pertence a uma memória menos barulhenta, mas muito rica: a dos anos 1990, do Parc vibrante e de um clube que crescia pela qualidade dos seus jogadores.",
+      "Falar de Valdo é falar de futebol brasileiro em Paris com profundidade. Ele prepara o terreno afetivo para Raí, Ronaldinho, Neymar e todos os brasileiros que transformaram o PSG em assunto também no Brasil."
+    ],
+    focusTitle: "Valdo PSG: por que o torcedor brasileiro deve olhar para trás?",
+    focus: "Porque Valdo ajuda a entender a raiz técnica e afetiva da relação entre o PSG e o futebol brasileiro.",
+    faq: [
+      ["Quando Valdo jogou no PSG?", "Valdo jogou pelo Paris Saint-Germain de 1991 a 1995."],
+      ["Qual era a função de Valdo?", "Era um meio-campista ofensivo técnico, ligado à criação e à inteligência de jogo."],
+      ["Por que Valdo é importante para a memória do PSG?", "Porque representa uma fase decisiva da abertura internacional do clube e da presença brasileira em Paris."]
+    ]
+  },
+  "ousmane-dembele": {
+    kicker: "Ataque atual",
+    intro: "Ousmane Dembélé no PSG é o tipo de jogador que muda o humor de um jogo: aceleração, ambidestria e desequilíbrio imediato.",
+    paragraphs: [
+      "No PSG de Luis Enrique, Dembélé não é apenas um ponta de drible. Ele abre espaços, prende defensores, acelera o ritmo e cria vantagens onde o jogo parecia fechado.",
+      "O interesse em torno dele também vem da tensão permanente entre brilho e gestão física. Por isso, Parisien 90 Brasil trata qualquer notícia de lesão, retorno ou ausência com data, fonte e prudência.",
+      "Para o torcedor brasileiro, Dembélé é uma porta de entrada para entender o PSG atual: um time coletivo, mas ainda capaz de depender de uma faísca individual nos grandes jogos."
+    ],
+    focusTitle: "Dembélé PSG: por que acompanhar de perto?",
+    focus: "Porque seu papel ofensivo, sua condição física e sua influência nas noites grandes podem alterar rapidamente a leitura da temporada parisiense.",
+    faq: [
+      ["Dembélé joga no PSG atual?", "Sim. Esta ficha acompanha Dembélé como jogador do elenco atual do PSG, com atualização baseada em fontes públicas."],
+      ["Qual é o estilo de Dembélé?", "Ele é um atacante criativo, ambidestro, forte no drible e capaz de acelerar o jogo pelos lados."],
+      ["Como acompanhar notícias físicas sobre Dembélé?", "Com prudência: a página privilegia comunicações oficiais do PSG, seleção francesa e registros de jogo antes de tratar uma informação como confirmada."]
+    ]
+  },
   rai: {
     kicker: "Capitão eterno",
     intro: "Raí é a ponte afetiva mais nobre entre o Paris Saint-Germain e o Brasil: liderança, elegância e título europeu no mesmo personagem.",
@@ -1487,6 +1536,7 @@ const brProfileDetails = {
 };
 
 const brValueTranslations = [
+  ["Alex défenseur PSG", "Alex zagueiro PSG"],
   ["Vivant", "Vivo"],
   ["Période à vérifier", "Período a verificar"],
   ["Poste à vérifier", "Posição a verificar"],
@@ -1521,12 +1571,15 @@ const brValueTranslations = [
   ["Ailier gauche", "Ponta esquerda"],
   ["Attaquant", "Atacante"],
   ["Meneur offensif", "Meia-atacante"],
+  ["Ailier créateur", "Ponta criativo"],
+  ["Ailier", "Ponta"],
   ["Milieu organisateur", "Meio-campista organizador"],
   ["Milieu box-to-box", "Meio-campista box-to-box"],
   ["Milieu intense et organisateur", "Meio-campista intenso e organizador"],
   ["Meneur de jeu", "Meia armador"],
   ["Gardien", "Goleiro"],
   ["Milieu", "Meio-campista"],
+  ["Meio-campista offensif", "Meia-atacante"],
   ["Minutes gagnées face à la concurrence centrale.", "Minutos conquistados diante da concorrência na zaga."],
   ["Gestion physique et rôle dans une défense rajeunie.", "Gestão física e papel em uma defesa rejuvenescida."],
   ["Influence dans les matchs verrouillés.", "Influência em jogos fechados."],
@@ -1549,11 +1602,21 @@ const brValueTranslations = [
   ["Star internationale encore en activité, après son départ du PSG.", "Estrela internacional depois de sua saída do PSG."],
   ["Figure publique au Brésil, engagé dans des causes sociales et éducatives.", "Figura pública no Brasil, ligada a causas sociais e educativas."],
   ["Ambassadeur médiatique du football spectacle, présent sur des événements internationaux.", "Embaixador midiático do futebol espetáculo, presente em eventos internacionais."],
+  ["Ancien défenseur brésilien, reconnu pour sa puissance, sa frappe et son expérience européenne.", "Ex-zagueiro brasileiro, reconhecido pela força, pela finalização de longa distância e pela experiência europeia."],
+  ["Ancien international brésilien, figure technique des années Canal+ et passerelle majeure entre Paris et le Brésil.", "Ex-internacional brasileiro, figura técnica dos anos 1990 e ponte importante entre Paris e Brasil."],
+  ["Joueur majeur du PSG actuel, suivi chaque semaine entre performances, gestion physique et rôle offensif.", "Jogador importante do PSG atual, acompanhado semana a semana entre desempenho, gestão física e função ofensiva."],
+  ["Suivi physique à vérifier via les points officiels", "Situação física a verificar por comunicados oficiais"],
+  ["Point de vigilance : son état physique doit toujours être recoupé avec les communications officielles du PSG et de l'équipe de France.", "Ponto de atenção: sua condição física deve sempre ser cruzada com comunicados oficiais do PSG e da seleção francesa."],
+  ["PSG.fr / FFF / archives publiques", "PSG.fr / FFF / arquivos públicos"],
+  ["PSG.fr / archives publiques", "PSG.fr / arquivos públicos"],
+  ["HistoireduPSG / archives publiques", "HistoireduPSG / arquivos públicos"],
+  ["archives publiques", "arquivos públicos"],
   ["Grand défenseur brésilien, figure de leadership reconnue en Europe et au Brésil.", "Grande zagueiro brasileiro, referência de liderança na Europa e no Brasil."],
   ["15 juillet 2026", "15 de julho de 2026"],
   ["29 août 2026", "29 de agosto de 2026"],
   ["4 septembre 2026", "4 de setembro de 2026"],
-  ["5 septembre 2026", "5 de setembro de 2026"]
+  ["5 septembre 2026", "5 de setembro de 2026"],
+  ["11 septembre 2026", "11 de setembro de 2026"]
 ];
 
 const brValue = (value) => {
@@ -1583,6 +1646,7 @@ const makeBrHeader = (active) => {
   const links = [
     ["/br/", "Início", "home"],
     ["/br/noticias-psg/", "Notícias", "noticias"],
+    ["/br/calendario-psg/", "Calendário", "calendario"],
     ["/br/transferencias-psg/", "Transferências", "transferencias"],
     ["/br/mercado-psg/", "Mercado", "mercado"],
     ["/br/dossies-psg/", "Dossiês", "dossies"],
@@ -1856,10 +1920,10 @@ const makeBrProfilePage = ({ profile, type }) => {
     ["Período no PSG", profile.psgPeriod],
     ["Situação pública", brValue(profile.currentLife)],
     ["Ponto de atenção", brValue(profile.watch)],
-    ["Nomes associados", Array.isArray(profile.aliases) ? profile.aliases.join(", ") : profile.aliases],
+    ["Nomes associados", Array.isArray(profile.aliases) ? profile.aliases.map(brValue).join(", ") : brValue(profile.aliases)],
     ["Foto", profile.image ? `${profile.image.credit} - ${profile.image.license}` : null],
     ["Última atualização", brValue(profile.updatedAt)],
-    ["Fonte", profile.source || "Síntese editorial Parisien 90"]
+    ["Fonte", brValue(profile.source || "Síntese editorial Parisien 90")]
   ].filter(([, value]) => value);
   const faq = (detail.faq || []).map(([question, answer]) => ({ question, answer }));
   const photoMarkup = profile.image
@@ -1888,7 +1952,7 @@ const makeBrProfilePage = ({ profile, type }) => {
           "@type": "Person",
           name: profile.name,
           jobTitle: brValue(profile.role || profile.position),
-          alternateName: profile.aliases,
+          alternateName: Array.isArray(profile.aliases) ? profile.aliases.map(brValue) : brValue(profile.aliases),
           image: profile.image ? profileImage : undefined,
           memberOf: { "@type": "SportsTeam", name: "Paris Saint-Germain" }
         },
@@ -2094,6 +2158,30 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         </article>`
     )
     .join("\n");
+  const championsLeagueFixtures = psgSchedule2627.filter((fixture) => fixture.competition === "Ligue des champions");
+  const frenchCupFixtures = psgSchedule2627.filter((fixture) => fixture.competition === "Coupe de France");
+  const homeFixtures = psgSchedule2627.filter((fixture) => fixture.place === "Domicile");
+  const brWatchStatusLabel = (value) =>
+    String(value)
+      .replace("Phase de ligue intégrée", "Fase de liga integrada")
+      .replace("Tours officiels intégrés, adversaire PSG en attente", "Fases oficiais integradas; adversário do PSG pendente");
+  const brWatchActionLabel = (value) =>
+    String(value)
+      .replace("Mettre à jour les éventuels changements d'horaires, les diffuseurs puis les barrages ou huitièmes après classement UEFA.", "Atualizar eventuais mudanças de horário, transmissões e depois os playoffs ou oitavas após a classificação da UEFA.")
+      .replace("Remplacer les jalons par les vrais adversaires, lieux et horaires dès publication FFF/PSG du tirage concernant Paris.", "Trocar os marcos pelos adversários reais, locais e horários assim que a FFF ou o PSG publicar o sorteio de Paris.")
+      .replace("Match à vérifier après chaque programmation LFP et PSG.fr.", "Conferir o jogo depois de cada programação da LFP e do PSG.fr.")
+      .replace("Huit affiches datées à 21h, à enrichir après désignations arbitres et diffuseurs.", "Oito jogos marcados às 21h, a completar com arbitragem, transmissão e contexto de cada noite.")
+      .replace("Intégrer adversaire, lieu et horaire dès le tirage des 32es, puis jalons conditionnels.", "Adicionar adversário, local e horário assim que sair o sorteio dos 32 avos, mantendo os marcos condicionais.");
+  const brCalendarWatchCards = calendarWatchSources
+    .map(
+      (item) => `<article class="watch-card">
+          <div><strong>${escapeHTML(brCompetitionLabel(item.competition))}</strong><span>${escapeHTML(brWatchStatusLabel(item.status))}</span></div>
+          <p>${escapeHTML(brWatchActionLabel(item.nextAction))}</p>
+          <div class="watch-links"><a href="${escapeHTML(item.url)}" rel="noopener noreferrer">${escapeHTML(item.source)}</a>${item.backupUrl ? `<a href="${escapeHTML(item.backupUrl)}" rel="noopener noreferrer">Fonte secundária</a>` : ""}</div>
+          <small>Verificado em ${escapeHTML(brDateLabel(item.updatedAt))}</small>
+        </article>`
+    )
+    .join("\n");
 
   const playerCards = currentPlayers
     .map(
@@ -2192,6 +2280,51 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
     publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
   };
+  const brCalendarJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${siteUrl}/br/calendario-psg/#page`,
+        name: "Calendário PSG 2026-2027",
+        url: `${siteUrl}/br/calendario-psg/`,
+        inLanguage: "pt-BR",
+        description: "Calendário do PSG 2026-2027 em português do Brasil, com Ligue 1, Liga dos Campeões, amistosos, Supercopa e Copa da França.",
+        about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+        publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${siteUrl}/br/calendario-psg/#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Início", item: `${siteUrl}/br/` },
+          { "@type": "ListItem", position: 2, name: "Calendário PSG", item: `${siteUrl}/br/calendario-psg/` }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${siteUrl}/br/calendario-psg/#faq`,
+        inLanguage: "pt-BR",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "O calendário PSG inclui Liga dos Campeões?",
+            acceptedAnswer: { "@type": "Answer", text: "Sim. A página acompanha os oito jogos da fase de liga da Champions League do PSG e separa cada partida por competição, local e status." }
+          },
+          {
+            "@type": "Question",
+            name: "A Copa da França aparece antes do adversário ser conhecido?",
+            acceptedAnswer: { "@type": "Answer", text: "Sim. Os marcos oficiais da Copa da França entram como datas condicionais; adversário, local e horário são atualizados depois de sorteio e confirmação oficial." }
+          },
+          {
+            "@type": "Question",
+            name: "Por que o calendário PSG interessa ao torcedor brasileiro?",
+            acceptedAnswer: { "@type": "Answer", text: "Porque ajuda a seguir horários, jogos grandes, rotação de elenco, noites europeias e partidas que envolvem brasileiros como Marquinhos e Lucas Beraldo." }
+          }
+        ]
+      }
+    ]
+  };
 
   const pages = [
     {
@@ -2209,6 +2342,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
           <p>Parisien 90 abre sua ponte brasileira: notícias do Paris Saint-Germain, mercado, Liga dos Campeões, jogadores e a linhagem verde-amarela que ajudou a construir o mito parisiense.</p>
           <div class="hero-actions">
             <a class="primary-action" href="/br/brasileiros-no-psg/">Ver brasileiros no PSG</a>
+            <a class="secondary-action" href="/br/calendario-psg/">Calendário PSG</a>
             <a class="secondary-action" href="/br/transferencias-psg/">Transferências PSG</a>
             <a class="secondary-action" href="/br/noticias-psg/">Notícias</a>
             <a class="secondary-action" href="/br/jogadores-psg/">Jogadores</a>
@@ -2233,6 +2367,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         <p>O Paris Saint-Germain não é apenas um clube francês para o público brasileiro. É Raí levantando taça europeia, Ronaldinho antes do auge, Neymar mudando a escala do projeto, Marquinhos virando capitão e uma lista de craques que liga Paris ao nosso futebol.</p>
         <div class="topic-grid">
           <a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Mercado PSG</h3><p>Rumores, chegadas, saídas e leitura de confiança dos movimentos.</p></a>
+          <a class="topic-card" href="/br/calendario-psg/"><span>Agenda</span><h3>Calendário PSG</h3><p>Ligue 1, Liga dos Campeões, Copa da França, amistosos e jogos grandes em português.</p></a>
           <a class="topic-card" href="/br/noticias-psg/"><span>Atualidade</span><h3>Notícias PSG</h3><p>As principais notícias traduzidas e contextualizadas para o leitor brasileiro.</p></a>
           <a class="topic-card" href="/br/historia-psg/"><span>Memória</span><h3>História do PSG</h3><p>Grandes eras, ídolos, noites europeias e viradas do clube.</p></a>
           <a class="topic-card" href="${escapeHTML(brDossierPath)}"><span>Dossiê</span><h3>Brasil e PSG</h3><p>Raí, Ronaldinho, Neymar, Thiago Silva e Marquinhos em uma história feita para o leitor brasileiro.</p></a>
@@ -2245,9 +2380,28 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         <div class="hot-grid">${brDossierCard}</div>
       </section>
       <section class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">Calendário</span><h2>Próximos jogos do PSG</h2></div><a class="primary-action compact-action" href="/br/calendario-psg/">Ver calendário completo</a></div>
+        <div class="hot-grid">${fixtureCards}</div>
+      </section>
+      <section class="content-section">
         <div class="section-heading"><div><span class="section-kicker">Atualidade</span><h2>Notícias PSG em destaque</h2></div><span class="freshness">${escapeHTML(brDateLabel(newsMeta.displayDate))} · ${escapeHTML(newsMeta.displayTime)}</span></div>
         <div class="hot-grid">${newsCards}</div>
       </section>`
+    },
+    {
+      path: "/br/calendario-psg/",
+      title: "Calendário PSG 2026-2027: jogos, Champions e Copa da França | Parisien 90 Brasil",
+      description: "Calendário do PSG em português do Brasil: jogos 2026-2027, Ligue 1, Liga dos Campeões, amistosos, Supercopa, Copa da França, horários e fontes oficiais.",
+      active: "calendario",
+      frPath: "/calendrier-psg/",
+      jsonLd: brCalendarJsonLd,
+      body: `<section class="page-hero"><span class="section-kicker">Calendário PSG</span><h1>Calendário PSG 2026-2027 em português do Brasil</h1><p>Todos os jogos de Paris na temporada: Ligue 1, Liga dos Campeões, amistosos, Supercopa, Trophée des Champions e Copa da França com status claro, filtros e fontes.</p></section>
+      <section class="signal-strip" aria-label="Resumo calendário PSG Brasil"><article class="signal-card"><span>Total de jogos</span><strong>${escapeHTML(psgSchedule2627.length)}</strong></article><article class="signal-card tone-red"><span>Liga dos Campeões</span><strong>${escapeHTML(championsLeagueFixtures.length)}</strong></article><article class="signal-card tone-green"><span>Copa da França</span><strong>${escapeHTML(frenchCupFixtures.length)}</strong></article><article class="signal-card"><span>No Parc</span><strong>${escapeHTML(homeFixtures.length)}</strong></article></section>
+      <section class="content-section"><span class="section-kicker">Guia do torcedor</span><h2>O calendário do PSG muda a leitura da temporada</h2><p>Para quem acompanha o PSG do Brasil, a agenda não é uma tabela fria. Ela mostra quando Paris precisa rodar o elenco, quando a Champions aperta, quando os brasileiros do grupo entram em noites grandes e quando uma sequência pode transformar uma vitória em obrigação.</p><p>A página separa amistosos, Ligue 1, Liga dos Campeões e Copa da França. Quando uma data ainda depende de sorteio, qualificação ou confirmação de horário, o status aparece com prudência para evitar confusão.</p><div class="topic-grid"><a class="topic-card" href="/br/noticias-psg/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/"><span>Europa</span><h3>Liga dos Campeões PSG</h3><p>O caminho europeu de Paris com City, Barcelona, Roma, Aston Villa e Galatasaray.</p></a><a class="topic-card" href="/br/jogadores-psg/marquinhos/"><span>Brasil</span><h3>Marquinhos PSG</h3><p>O capitão brasileiro como termômetro das grandes noites de Paris.</p></a><a class="topic-card" href="/br/mercado-psg/"><span>Elenco</span><h3>Mercado e rotação</h3><p>A agenda explica por que profundidade e concorrência importam tanto.</p></a></div></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Interativo</span><h2>Filtrar jogos por mês, competição e local</h2></div><span class="freshness">Atualizado em ${escapeHTML(brDateLabel(newsMeta.displayDate))} · ${escapeHTML(newsMeta.displayTime)}</span></div><div data-calendar-app data-calendar-locale="pt-BR"></div></section>
+      <section class="content-section"><h2>O que já está fixado</h2><div class="method-list"><article><strong>Liga dos Campeões</strong><p>Os oito jogos da fase de liga estão datados. Paris tem jogos grandes contra Manchester City, Barcelona, Roma, Aston Villa, Como e Galatasaray.</p></article><article><strong>Copa da França</strong><p>Os marcos oficiais aparecem como etapas condicionais: a página será detalhada quando adversário, local e horário forem confirmados.</p></article><article><strong>Ligue 1</strong><p>Os adversários e rodadas são listados; alguns horários ficam em aberto até programação da LFP ou comunicação do PSG.</p></article></div></section>
+      <section class="content-section"><h2>Fontes acompanhadas</h2><div class="calendar-watch">${brCalendarWatchCards}</div></section>
+      <section class="content-section"><h2>FAQ calendário PSG</h2><div class="faq-list"><details open><summary>O calendário PSG está completo?</summary><p>Ele reúne os jogos conhecidos e os marcos oficiais da temporada. Alguns horários, locais ou adversários podem mudar depois de decisões da LFP, da UEFA, da FFF ou dos clubes.</p></details><details><summary>Como acompanhar PSG na Champions League do Brasil?</summary><p>A página isola a Liga dos Campeões e mantém cada confronto com data, local, status e leitura esportiva para o torcedor brasileiro.</p></details><details><summary>A Copa da França será atualizada?</summary><p>Sim. Os marcos oficiais já aparecem; adversário, estádio e horário serão completados após sorteios e confirmações.</p></details></div></section>`
     },
     {
       path: "/br/dossies-psg/",
@@ -2299,9 +2453,9 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       body: `<section class="page-hero"><span class="section-kicker">Mercado Paris</span><h1>Transferências PSG: o que muda de verdade no time</h1><p>Chegada, saída ou rumor só interessa quando muda o campo: hierarquia, salário, minutos, vestiário e ambição europeia.</p></section>
       <section class="reader-layout">
         <article class="content-section"><h2>Como ler uma transferência do PSG</h2><p>O PSG compra status, mas também compra função. Antes de tratar qualquer nome como solução mágica, Parisien 90 Brasil separa confirmação oficial, negociação avançada, rumor forte e simples barulho de mercado.</p><p>Para o torcedor brasileiro, vale observar três pontos: quem perde espaço, quem ganha proteção na rotação e se a contratação aumenta a chance do PSG competir em noites grandes de Liga dos Campeões.</p></article>
-        <aside class="side-panel"><span class="section-kicker">Rotas rápidas</span><h2>Guias ligados</h2><ul class="link-list"><li><a href="/br/noticias-psg/">Notícias em português</a></li><li><a href="/br/mercado-psg/">Mercado PSG ao vivo</a></li><li><a href="/br/jogadores-psg/">Elenco atual</a></li><li><a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a></li><li><a href="/br/antigos-jogadores-psg/">Ídolos do PSG</a></li></ul></aside>
+        <aside class="side-panel"><span class="section-kicker">Rotas rápidas</span><h2>Guias ligados</h2><ul class="link-list"><li><a href="/br/noticias-psg/">Notícias em português</a></li><li><a href="/br/calendario-psg/">Calendário PSG</a></li><li><a href="/br/mercado-psg/">Mercado PSG ao vivo</a></li><li><a href="/br/jogadores-psg/">Elenco atual</a></li><li><a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a></li><li><a href="/br/antigos-jogadores-psg/">Ídolos do PSG</a></li></ul></aside>
       </section>
-      <section class="content-section"><span class="section-kicker">Guia do torcedor</span><h2>Transferências PSG: do rumor ao impacto no elenco</h2><p>Uma transferência do PSG começa com um nome, mas só fica séria quando ganha contexto: contrato, clube envolvido, necessidade de posição, calendário europeu e reação da comissão técnica. Por isso, Parisien 90 Brasil trata cada pista como uma história esportiva, não como uma promessa automática.</p><p>Depois de cada notícia, o leitor encontra caminhos diretos para <a href="/br/mercado-psg/">Mercado PSG</a>, <a href="/br/jogadores-psg/">Jogadores do PSG</a>, <a href="/br/historia-psg/">História do PSG</a>, <a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a> e <a href="/br/dossies-psg/">Dossiês PSG</a>. Assim, uma chegada, uma saída ou um empréstimo vira leitura completa.</p><div class="topic-grid"><a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Rumores e bastidores</h3><p>Quem informa, o que existe e o que ainda falta para virar fato.</p></a><a class="topic-card" href="/br/jogadores-psg/"><span>Elenco</span><h3>Quem ganha ou perde espaço</h3><p>A leitura do vestiário, da rotação e das posições mais disputadas.</p></a><a class="topic-card" href="/br/antigos-jogadores-psg/ronaldinho/"><span>História</span><h3>Ronaldinho PSG</h3><p>Um nome mundial para entender o peso internacional de Paris.</p></a></div></section>
+      <section class="content-section"><span class="section-kicker">Guia do torcedor</span><h2>Transferências PSG: do rumor ao impacto no elenco</h2><p>Uma transferência do PSG começa com um nome, mas só fica séria quando ganha contexto: contrato, clube envolvido, necessidade de posição, calendário europeu e reação da comissão técnica. Por isso, Parisien 90 Brasil trata cada pista como uma história esportiva, não como uma promessa automática.</p><p>Depois de cada notícia, o leitor encontra caminhos diretos para <a href="/br/mercado-psg/">Mercado PSG</a>, <a href="/br/calendario-psg/">Calendário PSG</a>, <a href="/br/jogadores-psg/">Jogadores do PSG</a>, <a href="/br/historia-psg/">História do PSG</a>, <a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a> e <a href="/br/dossies-psg/">Dossiês PSG</a>. Assim, uma chegada, uma saída ou um empréstimo vira leitura completa.</p><div class="topic-grid"><a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Rumores e bastidores</h3><p>Quem informa, o que existe e o que ainda falta para virar fato.</p></a><a class="topic-card" href="/br/calendario-psg/"><span>Agenda</span><h3>O efeito do calendário</h3><p>A sequência de jogos mostra onde Paris precisa de profundidade.</p></a><a class="topic-card" href="/br/jogadores-psg/"><span>Elenco</span><h3>Quem ganha ou perde espaço</h3><p>A leitura do vestiário, da rotação e das posições mais disputadas.</p></a><a class="topic-card" href="/br/antigos-jogadores-psg/ronaldinho/"><span>História</span><h3>Ronaldinho PSG</h3><p>Um nome mundial para entender o peso internacional de Paris.</p></a></div></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Sinais recentes</span><h2>Transferências e decisões quentes</h2></div></div><div class="hot-grid">${newsCards}</div></section>`
     },
     {
@@ -2313,7 +2467,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       jsonLd: { ...homeJsonLd, name: "Mercado PSG Brasil", url: `${siteUrl}/br/mercado-psg/` },
       body: `<section class="page-hero"><span class="section-kicker">Mercado PSG</span><h1>Mercado PSG: rumor só vale quando tem contexto</h1><p>Paris é gigante, então todo agente quer colocar um nome perto do PSG. A versão Brasil vai direto ao ponto: quem disse, o que existe, o que falta e por que isso importa.</p></section>
       <section class="content-section"><h2>O radar do torcedor brasileiro</h2><p>O mercado do PSG interessa no Brasil porque mistura craques mundiais, brasileiros históricos, dinheiro, Liga dos Campeões e decisões que mudam a hierarquia do elenco. O leitor não precisa de barulho: precisa saber se a informação é oficial, forte, frágil ou apenas debate.</p><div class="method-list"><article><strong>Oficial</strong><p>Comunicado de clube, liga, federação ou competição.</p></article><article><strong>Forte</strong><p>Informação atribuída, recortada e ainda dependente de assinatura ou exame médico.</p></article><article><strong>Debate</strong><p>Leitura editorial sobre impacto técnico, sem vender hipótese como fato.</p></article></div></section>
-      <section class="content-section"><span class="section-kicker">Leitura de mercado</span><h2>Mercado PSG: nomes, funções e noites grandes</h2><p>O PSG não entra no mercado apenas para empilhar estrelas. Cada movimento precisa responder a uma pergunta de campo: falta profundidade na defesa? O meio tem intensidade suficiente? O ataque tem finalização, drible e disciplina? E, acima de tudo, o elenco aguenta a sequência de Liga dos Campeões?</p><p>Para acompanhar sem se perder, abra também <a href="/br/transferencias-psg/">Transferências PSG</a>, <a href="/br/noticias-psg/">Notícias PSG</a>, <a href="/br/jogadores-psg/">Jogadores do PSG</a>, <a href="/br/antigos-jogadores-psg/neymar/">Neymar PSG</a> e <a href="/br/antigos-jogadores-psg/lionel-messi/">Messi PSG</a>. As fichas ajudam a comparar o presente com os grandes ciclos do clube.</p><div class="faq-list"><details open><summary>Como saber se uma notícia de mercado do PSG é confiável?</summary><p>Ela deve ter fonte identificada, data, contexto e distância clara entre fato confirmado e hipótese. Parisien 90 Brasil sempre aponta essa diferença.</p></details><details><summary>Qual é a diferença entre mercado PSG e transferências PSG?</summary><p>Mercado é o ambiente inteiro: rumores, necessidades, saídas, entradas e negociações. Transferência é o movimento específico de um jogador.</p></details><details><summary>Por que o mercado do PSG importa para o Brasil?</summary><p>Porque muitos brasileiros marcaram Paris e porque o clube continua sendo um palco mundial para jogadores, técnicos, agentes e torcedores brasileiros.</p></details></div></section>
+      <section class="content-section"><span class="section-kicker">Leitura de mercado</span><h2>Mercado PSG: nomes, funções e noites grandes</h2><p>O PSG não entra no mercado apenas para empilhar estrelas. Cada movimento precisa responder a uma pergunta de campo: falta profundidade na defesa? O meio tem intensidade suficiente? O ataque tem finalização, drible e disciplina? E, acima de tudo, o elenco aguenta a sequência de Liga dos Campeões?</p><p>Para acompanhar sem se perder, abra também <a href="/br/transferencias-psg/">Transferências PSG</a>, <a href="/br/calendario-psg/">Calendário PSG</a>, <a href="/br/noticias-psg/">Notícias PSG</a>, <a href="/br/jogadores-psg/">Jogadores do PSG</a>, <a href="/br/antigos-jogadores-psg/neymar/">Neymar PSG</a> e <a href="/br/antigos-jogadores-psg/lionel-messi/">Messi PSG</a>. As fichas ajudam a comparar o presente com os grandes ciclos do clube.</p><div class="faq-list"><details open><summary>Como saber se uma notícia de mercado do PSG é confiável?</summary><p>Ela deve ter fonte identificada, data, contexto e distância clara entre fato confirmado e hipótese. Parisien 90 Brasil sempre aponta essa diferença.</p></details><details><summary>Qual é a diferença entre mercado PSG e transferências PSG?</summary><p>Mercado é o ambiente inteiro: rumores, necessidades, saídas, entradas e negociações. Transferência é o movimento específico de um jogador.</p></details><details><summary>Por que o mercado do PSG importa para o Brasil?</summary><p>Porque muitos brasileiros marcaram Paris e porque o clube continua sendo um palco mundial para jogadores, técnicos, agentes e torcedores brasileiros.</p></details></div></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Agora</span><h2>Notícias de mercado</h2></div></div><div class="hot-grid">${newsCards}</div></section>`
     },
     {
@@ -2532,9 +2686,23 @@ const editorialPriorityPage = {
     "débats PSG"
   ]
 };
+const brazilCalendarPriorityPage = {
+  url: `${siteUrl}/br/calendario-psg/`,
+  title: "Calendário PSG 2026-2027 em português do Brasil",
+  intent: "Consultar o calendário completo do PSG em português do Brasil, com Ligue 1, Liga dos Campeões, Copa da França, amistosos e fontes oficiais",
+  topics: [
+    "calendário PSG",
+    "PSG Brasil",
+    "jogos PSG",
+    "Liga dos Campeões PSG",
+    "Copa da França PSG",
+    "Paris Saint-Germain calendário"
+  ]
+};
 aiIndex.priorityPages = [
   editorialPriorityPage,
-  ...(aiIndex.priorityPages || []).filter((page) => page.url !== editorialPriorityPage.url)
+  brazilCalendarPriorityPage,
+  ...(aiIndex.priorityPages || []).filter((page) => ![editorialPriorityPage.url, brazilCalendarPriorityPage.url].includes(page.url))
 ].map((page) => {
   if (!page.queries) return page;
   const { queries, ...rest } = page;
@@ -2559,6 +2727,26 @@ aiIndex.brazilNews = getBrLatestStories().map((story) => ({
   sourceUrl: sourceUrl(story.item),
   reliability: brReliabilityLabel(story.item.reliability)
 }));
+aiIndex.brazilCalendar = {
+  url: `${siteUrl}/br/calendario-psg/`,
+  frenchUrl: `${siteUrl}/calendrier-psg/`,
+  updatedAt: newsMeta.updatedAt,
+  totalFixtures: psgSchedule2627.length,
+  championsLeagueFixtures: psgSchedule2627.filter((fixture) => fixture.competition === "Ligue des champions").length,
+  frenchCupMilestones: psgSchedule2627.filter((fixture) => fixture.competition === "Coupe de France").length,
+  nextFixtures: psgSchedule2627
+    .filter((fixture) => fixture.isoDate >= currentDate)
+    .slice(0, 8)
+    .map((fixture) => ({
+      date: fixture.isoDate,
+      competition: brCompetitionLabel(fixture.competition),
+      home: fixture.home,
+      away: fixture.away,
+      status: fixture.status,
+      source: fixture.source || null,
+      sourceUrl: fixture.sourceUrl || null
+    }))
+};
 aiIndex.editorialArticles = editorialArticles.slice(0, 20).map((item) => ({
   title: item.title,
   category: item.category,

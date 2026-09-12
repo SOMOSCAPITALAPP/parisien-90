@@ -9,6 +9,7 @@
     "build": "vite build",
     "sync:news": "node scripts/sync-news-data.mjs",
     "sync:players": "node scripts/update-all-time-players.mjs",
+    "seo:gsc": "node scripts/fetch-gsc-report.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {

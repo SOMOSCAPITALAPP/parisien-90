@@ -33,3 +33,13 @@ npm run build
 - Speed Insights : https://vercel.com/somos-capital-apps-projects/parisien-90/speed-insights
 - Logs production : https://vercel.com/somos-capital-apps-projects/parisien-90/logs
 - Page interne noindex : https://parisien90.com/suivi-audience/
+
+## Suivi SEO (Search Console)
+
+- Endpoint local : `GET /api/gsc-rankings` (protégé par `CRON_SECRET`)
+- Mise à jour ponctuelle : `GET /api/gsc-rankings?public=1`
+- Export local : `npm run seo:gsc` (génère `public/seo-gsc-report.json`)
+- Variables d’environnement attendues pour la connexion GSC :
+  - `GSC_SITE_URL` (ex. `https://parisien90.com/`)
+  - `GSC_SERVICE_ACCOUNT_JSON` (objet JSON du compte de service **ou** `GSC_SERVICE_ACCOUNT_EMAIL` + `GSC_PRIVATE_KEY`)
+  - `CRON_SECRET` (pour déclencher depuis Vercel Cron)

@@ -1,12 +1,125 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-09T15:30:00+02:00",
-  displayDate: "9 septembre 2026",
-  displayTime: "15h30",
+  updatedAt: "2026-09-11T10:45:00+02:00",
+  displayDate: "11 septembre 2026",
+  displayTime: "10h45",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "ronaldinho-alex-valdo-sakho-dembele-psg-memoire-presente",
+    title: "Ronaldinho, Alex, Valdo, Sakho, Dembélé : cinq noms pour comprendre pourquoi le PSG reste impossible à ignorer",
+    description: "Dossier long format Parisien 90 sur Ronaldinho PSG, Alex PSG, Valdo PSG, Sakho PSG et Dembélé PSG : mémoire, Brésil, formation, puissance défensive et présent offensif.",
+    deck: "Certains noms racontent mieux Paris qu'un simple palmarès. Ronaldinho, Alex, Valdo, Mamadou Sakho et Ousmane Dembélé dessinent cinq portes d'entrée vers le PSG mondial : le génie, le Brésil, la formation, la défense et le chaos offensif.",
+    category: "Mémoire PSG",
+    angle: "Dossier long",
+    date: "2026-09-11",
+    dateLabel: "11 septembre 2026",
+    time: "10:45",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Parc des Princes de nuit pour un dossier sur les figures marquantes du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: [
+      "Ronaldinho PSG",
+      "Alex PSG",
+      "Valdo PSG",
+      "Sakho PSG",
+      "Dembélé PSG",
+      "Brésiliens PSG",
+      "anciens joueurs PSG",
+      "histoire PSG",
+      "joueurs PSG"
+    ],
+    sections: [
+      {
+        heading: "Pourquoi ces cinq noms disent beaucoup plus qu'on ne croit",
+        paragraphs: [
+          "On pourrait raconter le PSG avec les trophées, les finales, les records et les grandes ventes. Mais un club mondial se comprend aussi par les noms qui continuent de circuler longtemps après un match, parfois longtemps après un départ. Ronaldinho, Alex, Valdo, Mamadou Sakho et Ousmane Dembélé ne forment pas une génération. Ils forment une cartographie.",
+          "Ronaldinho raconte le fantasme pur : Paris a vu un futur Ballon d'Or avant que la planète entière ne bascule sous son charme. Alex raconte la puissance défensive du premier PSG QSI, moins glamour qu'une star offensive mais essentielle pour changer de catégorie. Valdo ramène aux années 1990, à une élégance brésilienne qui donne de l'épaisseur à l'histoire. Sakho parle du centre de formation, du brassard, du lien populaire. Dembélé ramène tout au présent : un PSG qui gagne, mais qui vit encore au rythme de joueurs capables de mettre le feu en une accélération."
+        ]
+      },
+      {
+        heading: "Ronaldinho PSG : la magie courte, la trace immense",
+        paragraphs: [
+          "Ronaldinho au PSG reste l'une des histoires les plus fascinantes du club parce qu'elle tient dans un paradoxe. Son passage parisien n'a pas duré une décennie, mais son souvenir continue de peser comme une longue dynastie. Pourquoi ? Parce que Paris n'a pas seulement recruté un très bon joueur. Paris a eu sous les yeux un futur symbole mondial du football spectacle.",
+          "La force de Ronaldinho, c'est que son nom traverse les frontières sans mode d'emploi. Au Brésil, en France, en Espagne, chez les nostalgiques comme chez les plus jeunes qui découvrent les images, il incarne une idée simple : le football peut être une fête, une provocation, une liberté. Pour Parisien 90, la fiche Ronaldinho doit donc être traitée comme une porte d'entrée majeure vers l'histoire des Brésiliens du PSG, mais aussi vers une question plus grande : comment un club transforme-t-il un passage court en souvenir permanent ?"
+        ]
+      },
+      {
+        heading: "Valdo PSG : le Brésil avant le bruit mondial",
+        paragraphs: [
+          "Valdo est précieux parce qu'il oblige à ralentir. Dans une époque où l'on résume parfois le PSG au cycle des stars récentes, son nom rappelle que le lien entre Paris et le Brésil ne commence ni avec Neymar ni avec Ronaldinho. Valdo appartient à une période où le club se construit une personnalité internationale, avec du jeu, de l'élégance et une relation particulière au Parc.",
+          "Son importance est moins tapageuse, mais elle est profonde. Valdo n'est pas seulement un nom d'ancien joueur ; il est un repère pour comprendre le PSG des années 1990, l'avant et l'autour de Raí, le goût parisien pour les joueurs capables d'apporter autre chose qu'une ligne statistique. Sa fiche doit parler aux connaisseurs, mais aussi aux lecteurs brésiliens qui cherchent les racines de cette relation entre Paris et leur football."
+        ]
+      },
+      {
+        heading: "Alex PSG : le défenseur dont le style disait déjà le changement",
+        paragraphs: [
+          "Alex n'a pas la mémoire populaire d'un Ronaldinho, et c'est justement pour cela qu'il mérite un dossier. Quand le PSG change d'échelle au début des années 2010, il ne lui faut pas uniquement des affiches. Il lui faut de la densité, de l'expérience, des défenseurs capables d'installer une autorité nouvelle. Alex entre dans cette catégorie : moins lyrique, plus massif, mais très révélateur de la mutation parisienne.",
+          "Un club ambitieux ne devient pas européen avec des slogans. Il le devient avec des détails : gagner les duels, défendre les coups de pied arrêtés, calmer les matchs mal engagés, inspirer une forme de crainte physique. Alex PSG est donc une recherche intéressante parce qu'elle raconte le moment où Paris ajoute du poids à son rêve. Et pour le public brésilien, elle prolonge une lignée défensive qui ira ensuite jusqu'à Thiago Silva, Marquinhos ou Lucas Beraldo."
+        ]
+      },
+      {
+        heading: "Sakho PSG : le Titi, le brassard et la cicatrice affective",
+        paragraphs: [
+          "Mamadou Sakho touche une corde différente. Il n'est pas d'abord un nom de marché mondial, mais un nom d'attachement. Formé au club, lancé très jeune, capitaine précoce, il cristallise une question qui revient à chaque génération : le PSG peut-il dominer l'Europe tout en gardant une place réelle pour ses enfants ?",
+          "C'est pour cela que Sakho reste important. Son histoire permet de parler des Titis sans folklore, de la pression du Parc, de l'impatience, de la fierté et de la douleur des départs. Quand un jeune parisien apparaît dans le groupe, le souvenir de Sakho revient comme une mesure émotionnelle : que veut dire réussir au PSG quand on porte déjà une partie de l'identité du club sur les épaules ?"
+        ]
+      },
+      {
+        heading: "Dembélé PSG : le présent qui refuse d'être tranquille",
+        paragraphs: [
+          "Ousmane Dembélé représente l'autre bout de la chaîne. Lui n'appartient pas encore à la mémoire froide : il est le présent brûlant. Chaque titularisation, chaque accélération, chaque absence et chaque retour peuvent changer l'humeur autour du PSG. Avec lui, Paris conserve ce que les grands clubs ont toujours besoin d'avoir : un joueur qui modifie la température d'un stade.",
+          "Le dossier Dembélé PSG doit être tenu avec une exigence particulière. Son jeu invite à l'enthousiasme, mais son suivi physique demande de la précision. Une blessure, une reprise ou une gestion de minutes ne doit jamais devenir une certitude sans source claire. C'est précisément ce mélange qui le rend central : spectaculaire sur le terrain, sensible dans l'actualité, décisif dans la manière dont Luis Enrique peut ouvrir ou fermer un match."
+        ]
+      },
+      {
+        heading: "Le fil commun : Paris attire, transforme et laisse des traces",
+        paragraphs: [
+          "Ces cinq noms ne racontent pas la même chose, mais ils racontent le même club. Paris attire des génies, accueille des Brésiliens de toutes époques, fabrique des joueurs populaires, cherche de la puissance, vit avec des débats permanents et transforme parfois un passage court en souvenir immense. C'est la marque des clubs qui comptent : même les seconds rôles apparents deviennent des portes d'entrée vers une histoire plus grande.",
+          "La lecture Parisien 90 est simple : pour devenir une référence PSG, il faut traiter les stars évidentes et les noms plus subtils avec le même sérieux. Ronaldinho attire la lumière, Valdo donne de la profondeur, Alex donne du poids, Sakho donne de l'émotion, Dembélé donne le présent. Ensemble, ils racontent un PSG qui ne se limite pas au résultat du week-end."
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Pourquoi Ronaldinho PSG reste-t-il autant recherché ?",
+        answer: "Parce que son passage parisien relie le PSG à une icône mondiale du football spectacle, future star du FC Barcelone et Ballon d'Or."
+      },
+      {
+        question: "Alex et Valdo sont-ils importants dans l'histoire brésilienne du PSG ?",
+        answer: "Oui. Valdo représente le lien technique des années 1990, tandis qu'Alex symbolise la puissance défensive du premier PSG QSI."
+      },
+      {
+        question: "Pourquoi Mamadou Sakho compte encore pour les supporters du PSG ?",
+        answer: "Parce qu'il incarne le centre de formation, le brassard porté très jeune et une relation affective forte avec le public parisien."
+      },
+      {
+        question: "Dembélé appartient-il déjà à l'histoire du PSG ?",
+        answer: "Il appartient surtout au présent du club, mais son style, son statut et son influence dans le PSG de Luis Enrique en font déjà une figure majeure à suivre."
+      }
+    ],
+    sources: [
+      { name: "PSG.fr - archives et fiches joueurs", url: "https://www.psg.fr/", note: "Base officielle pour les repères club et les communications publiques." },
+      { name: "HistoireduPSG - archives historiques", url: "https://histoiredupsg.fr/", note: "Repères historiques publics sur les anciens joueurs, matchs et statistiques du PSG." },
+      { name: "Wikidata", url: "https://www.wikidata.org/", note: "Données ouvertes CC0 utilisées comme appoint pour les identités publiques, sans reprise rédactionnelle." },
+      { name: "Parisien 90 - anciens joueurs PSG", url: "/anciens-joueurs-psg/", note: "Index interne des fiches joueurs et anciens joueurs." }
+    ],
+    internalLinks: [
+      { label: "Ronaldinho PSG", url: "/anciens-joueurs-psg/ronaldinho/" },
+      { label: "Alex PSG", url: "/anciens-joueurs-psg/alex/" },
+      { label: "Valdo PSG", url: "/anciens-joueurs-psg/valdo/" },
+      { label: "Sakho PSG", url: "/anciens-joueurs-psg/mamadou-sakho/" },
+      { label: "Dembélé PSG", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Records PSG", url: "/records-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transfert PSG", url: "/transfert-psg/" }
+    ]
+  },
   {
     id: "futur-ballon-d-or-2026-psg-dembele-vitinha-kvaratskhelia",
     title: "Futur Ballon d'Or 2026 : le PSG peut-il vraiment garder le trophée avec Dembélé, Vitinha ou Kvaratskhelia ?",

@@ -1,11 +1,56 @@
 {
-  "updatedAt": "2026-09-09T15:30:00+02:00",
-  "displayDate": "9 septembre 2026",
-  "displayTime": "15h30",
+  "updatedAt": "2026-09-11T10:45:00+02:00",
+  "displayDate": "11 septembre 2026",
+  "displayTime": "10h45",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 4,
+  "count": 5,
   "items": [
+    {
+      "id": "ronaldinho-alex-valdo-sakho-dembele-psg-memoire-presente",
+      "category": "Mémoire PSG",
+      "angle": "Dossier long",
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre 2026",
+      "time": "10:45",
+      "dateTime": "2026-09-11T10:45:00+02:00",
+      "headline": "Ronaldinho, Alex, Valdo, Sakho, Dembélé : cinq noms pour comprendre pourquoi le PSG reste impossible à ignorer",
+      "summary": "Certains noms racontent mieux Paris qu'un simple palmarès. Ronaldinho, Alex, Valdo, Mamadou Sakho et Ousmane Dembélé dessinent cinq portes d'entrée vers le PSG mondial : le génie, le Brésil, la formation, la défense et le chaos offensif.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/ronaldinho-alex-valdo-sakho-dembele-psg-memoire-presente/",
+      "sources": [
+        {
+          "name": "PSG.fr - archives et fiches joueurs",
+          "url": "https://www.psg.fr/",
+          "note": "Base officielle pour les repères club et les communications publiques."
+        },
+        {
+          "name": "HistoireduPSG - archives historiques",
+          "url": "https://histoiredupsg.fr/",
+          "note": "Repères historiques publics sur les anciens joueurs, matchs et statistiques du PSG."
+        },
+        {
+          "name": "Wikidata",
+          "url": "https://www.wikidata.org/",
+          "note": "Données ouvertes CC0 utilisées comme appoint pour les identités publiques, sans reprise rédactionnelle."
+        },
+        {
+          "name": "Parisien 90 - anciens joueurs PSG",
+          "url": "/anciens-joueurs-psg/",
+          "note": "Index interne des fiches joueurs et anciens joueurs."
+        }
+      ],
+      "keywords": [
+        "Ronaldinho PSG",
+        "Alex PSG",
+        "Valdo PSG",
+        "Sakho PSG",
+        "Dembélé PSG",
+        "Brésiliens PSG",
+        "anciens joueurs PSG",
+        "histoire PSG",
+        "joueurs PSG"
+      ]
+    },
     {
       "id": "futur-ballon-d-or-2026-psg-dembele-vitinha-kvaratskhelia",
       "category": "Ballon d'Or PSG",

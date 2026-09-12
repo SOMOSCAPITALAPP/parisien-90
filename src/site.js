@@ -662,12 +662,102 @@ const monthLabels = {
   "2027-05": "Mai 2027"
 };
 
-const createFixtureCard = (fixture) => {
+const brMonthLabels = {
+  "2026-08": "Agosto 2026",
+  "2026-09": "Setembro 2026",
+  "2026-10": "Outubro 2026",
+  "2026-11": "Novembro 2026",
+  "2026-12": "Dezembro 2026",
+  "2027-01": "Janeiro 2027",
+  "2027-02": "Fevereiro 2027",
+  "2027-03": "Março 2027",
+  "2027-04": "Abril 2027",
+  "2027-05": "Maio 2027"
+};
+
+const brCalendarText = {
+  "Domicile": "Casa",
+  "Extérieur": "Fora",
+  "Neutre": "Neutro",
+  "À confirmer": "A confirmar",
+  "Terminé": "Encerrado",
+  "Programmé": "Marcado",
+  "Horaire à confirmer": "Horário a confirmar",
+  "Tirage à venir": "Sorteio pendente",
+  "Si qualification": "Se classificado",
+  "Ligue des champions": "Liga dos Campeões",
+  "Coupe de France": "Copa da França",
+  "Supercoupe de l'UEFA": "Supercopa da UEFA",
+  "Trophée des Champions": "Trophée des Champions",
+  "Amical": "Amistoso",
+  "mercredi": "quarta-feira",
+  "samedi": "sábado",
+  "dimanche": "domingo",
+  "vendredi": "sexta-feira",
+  "mardi": "terça-feira",
+  "lundi": "segunda-feira",
+  "jeudi": "quinta-feira"
+  ,
+  "Phase de ligue intégrée": "Fase de liga integrada",
+  "Tours officiels intégrés, adversaire PSG en attente": "Fases oficiais integradas; adversário do PSG pendente"
+};
+
+const translateCalendarValue = (value, locale) =>
+  locale === "pt-BR"
+    ? String(value || "").startsWith("Terminé")
+      ? String(value).replace("Terminé", "Encerrado")
+      : brCalendarText[value] || value
+    : value;
+
+const translateCalendarEntity = (value, locale) => {
+  if (locale !== "pt-BR") return value;
+  return String(value || "")
+    .replaceAll("Adversaire à déterminer", "Adversário a definir")
+    .replaceAll("Lieu à confirmer", "Local a confirmar")
+    .replaceAll("Tirage à venir", "Sorteio pendente");
+};
+
+const translateDateLabel = (value, locale) => {
+  if (locale !== "pt-BR") return value;
+  return String(value)
+    .replace("janvier", "janeiro")
+    .replace("février", "fevereiro")
+    .replace("mars", "março")
+    .replace("avril", "abril")
+    .replace("mai", "maio")
+    .replace("juin", "junho")
+    .replace("juillet", "julho")
+    .replace("août", "agosto")
+    .replace("septembre", "setembro")
+    .replace("octobre", "outubro")
+    .replace("novembre", "novembro")
+    .replace("décembre", "dezembro");
+};
+
+const translateFixtureNote = (fixture, locale) => {
+  if (locale !== "pt-BR") return `${fixture.note} ${fixture.venue}.`;
+  const status = translateCalendarValue(fixture.status, locale);
+  return `${status}. Jogo contra ${translateCalendarEntity(fixture.opponent, locale)} em ${translateCalendarEntity(fixture.venue, locale)}. ${fixture.sourceUrl ? "Detalhes ligados à fonte oficial." : "Horário e contexto a acompanhar."}`;
+};
+
+const translateCalendarWatch = (value, locale) => {
+  if (locale !== "pt-BR") return value;
+  return String(value)
+    .replace("Match à vérifier après chaque programmation LFP et PSG.fr.", "Conferir o jogo depois de cada programação da LFP e do PSG.fr.")
+    .replace("Huit affiches datées à 21h, à enrichir après désignations arbitres et diffuseurs.", "Oito jogos marcados às 21h, a completar com arbitragem, transmissão e contexto de cada noite.")
+    .replace("Intégrer adversaire, lieu et horaire dès le tirage des 32es, puis jalons conditionnels.", "Adicionar adversário, local e horário assim que sair o sorteio dos 32 avos, mantendo os marcos condicionais.")
+    .replace("Mettre à jour les éventuels changements d'horaires, les diffuseurs puis les barrages ou huitièmes après classement UEFA.", "Atualizar eventuais mudanças de horário, transmissões e depois os playoffs ou oitavas após a classificação da UEFA.")
+    .replace("Remplacer les jalons par les vrais adversaires, lieux et horaires dès publication FFF/PSG du tirage concernant Paris.", "Trocar os marcos pelos adversários reais, locais e horários assim que a FFF ou o PSG publicar o sorteio de Paris.")
+    .replace("à enrichir", "a completar")
+    .replace("à vérifier", "a conferir");
+};
+
+const createFixtureCard = (fixture, locale = "fr-FR") => {
   const article = document.createElement("article");
   article.className = "match-card";
   const fixtureLabel = fixture.roundLabel || `J${fixture.round}`;
   article.id = `${slugify(fixture.competition)}-${fixture.isoDate}-${slugify(fixture.opponent)}`;
-  article.dataset.shareTitle = `${fixture.home} - ${fixture.away}, ${fixture.competition}`;
+  article.dataset.shareTitle = `${translateCalendarEntity(fixture.home, locale)} - ${translateCalendarEntity(fixture.away, locale)}, ${translateCalendarValue(fixture.competition, locale)}`;
 
   const placeClass =
     fixture.place === "Domicile"
@@ -680,26 +770,26 @@ const createFixtureCard = (fixture) => {
   article.innerHTML = `
     <div class="match-date">
       <strong>${escapeHTML(fixtureLabel)}</strong>
-      <span>${escapeHTML(fixture.dateLabel)}</span>
-      <small>${escapeHTML(fixture.day)}</small>
+      <span>${escapeHTML(translateDateLabel(fixture.dateLabel, locale))}</span>
+      <small>${escapeHTML(translateCalendarValue(fixture.day, locale))}</small>
     </div>
     <div class="match-main">
       <div class="item-tags">
-        <span>${escapeHTML(fixture.competition)}</span>
-        <span class="${placeClass}">${escapeHTML(fixture.place)}</span>
-        ${fixture.highlight ? "<span>Affiche</span>" : ""}
+        <span>${escapeHTML(translateCalendarValue(fixture.competition, locale))}</span>
+        <span class="${placeClass}">${escapeHTML(translateCalendarValue(fixture.place, locale))}</span>
+        ${fixture.highlight ? `<span>${locale === "pt-BR" ? "Jogo grande" : "Affiche"}</span>` : ""}
       </div>
-      <h3>${escapeHTML(fixture.home)} <span>vs</span> ${escapeHTML(fixture.away)}</h3>
-      <p>${escapeHTML(fixture.note)} ${escapeHTML(fixture.venue)}.</p>
+      <h3>${escapeHTML(translateCalendarEntity(fixture.home, locale))} <span>vs</span> ${escapeHTML(translateCalendarEntity(fixture.away, locale))}</h3>
+      <p>${escapeHTML(translateFixtureNote(fixture, locale))}</p>
       ${
         fixture.sourceUrl
-          ? `<a class="match-source" href="${escapeHTML(fixture.sourceUrl)}" rel="noopener noreferrer">Source : ${escapeHTML(fixture.source || "officielle")}</a>`
+          ? `<a class="match-source" href="${escapeHTML(fixture.sourceUrl)}" rel="noopener noreferrer">${locale === "pt-BR" ? "Fonte" : "Source"} : ${escapeHTML(fixture.source || (locale === "pt-BR" ? "oficial" : "officielle"))}</a>`
           : ""
       }
     </div>
     <div class="match-meta">
-      <strong>${escapeHTML(fixture.time)}</strong>
-      <span>${escapeHTML(fixture.status)}</span>
+      <strong>${escapeHTML(translateCalendarValue(fixture.time, locale))}</strong>
+      <span>${escapeHTML(translateCalendarValue(fixture.status, locale))}</span>
     </div>
   `;
   return article;
@@ -713,6 +803,57 @@ const getFixtureStatusGroup = (fixture) => {
 const initCalendarApp = () => {
   const target = document.querySelector("[data-calendar-app]");
   if (!target) return;
+  const locale = target.dataset.calendarLocale === "pt-BR" ? "pt-BR" : "fr-FR";
+  const labels =
+    locale === "pt-BR"
+      ? {
+          summary: "Resumo calendário PSG",
+          total: "Total de jogos",
+          championsLeague: "Liga dos Campeões",
+          frenchCup: "Copa da França",
+          home: "Casa",
+          highlights: "Jogos grandes",
+          search: "Busca",
+          searchPlaceholder: "Adversário, estádio, data",
+          month: "Mês",
+          allSeason: "Toda a temporada",
+          place: "Local",
+          allPlaces: "Todos os locais",
+          competition: "Competição",
+          allCompetitions: "Todas as competições",
+          status: "Status",
+          allStatuses: "Todos os horários",
+          watch: "Fontes oficiais acompanhadas",
+          secondarySource: "Fonte secundária",
+          checked: "Verificado em",
+          matchSingular: "jogo exibido",
+          matchPlural: "jogos exibidos",
+          empty: "Nenhum jogo corresponde a este filtro."
+        }
+      : {
+          summary: "Synthèse calendrier PSG",
+          total: "Total matchs",
+          championsLeague: "Ligue des champions",
+          frenchCup: "Coupe de France",
+          home: "Domicile",
+          highlights: "Affiches",
+          search: "Recherche",
+          searchPlaceholder: "Adversaire, stade, date",
+          month: "Mois",
+          allSeason: "Toute la saison",
+          place: "Lieu",
+          allPlaces: "Tous les lieux",
+          competition: "Compétition",
+          allCompetitions: "Toutes compétitions",
+          status: "Statut",
+          allStatuses: "Tous les horaires",
+          watch: "Suivi officiel des compétitions à compléter",
+          secondarySource: "Source secondaire",
+          checked: "Vérifié le",
+          matchSingular: "match affiché",
+          matchPlural: "matchs affichés",
+          empty: "Aucun match ne correspond à ce filtre."
+        };
 
   const months = Array.from(new Set(psgSchedule2627.map((fixture) => fixture.month)));
   const competitions = Array.from(new Set(psgSchedule2627.map((fixture) => fixture.competition)));
@@ -727,57 +868,57 @@ const initCalendarApp = () => {
   const watchMarkup = calendarWatchSources.map((item) => `
     <article class="watch-card">
       <div>
-        <strong>${escapeHTML(item.competition)}</strong>
-        <span>${escapeHTML(item.status)}</span>
+        <strong>${escapeHTML(translateCalendarValue(item.competition, locale))}</strong>
+        <span>${escapeHTML(translateCalendarWatch(item.status, locale))}</span>
       </div>
-      <p>${escapeHTML(item.nextAction)}</p>
+      <p>${escapeHTML(translateCalendarWatch(item.nextAction, locale))}</p>
       <div class="watch-links">
         <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">${escapeHTML(item.source)}</a>
-        ${item.backupUrl ? `<a href="${escapeHTML(item.backupUrl)}" rel="noopener noreferrer">Source secondaire</a>` : ""}
+        ${item.backupUrl ? `<a href="${escapeHTML(item.backupUrl)}" rel="noopener noreferrer">${labels.secondarySource}</a>` : ""}
       </div>
-      <small>Vérifié le ${escapeHTML(item.updatedAt)}</small>
+      <small>${labels.checked} ${escapeHTML(item.updatedAt)}</small>
     </article>
   `).join("");
 
   target.innerHTML = `
-    <div class="calendar-summary" aria-label="Synthèse calendrier PSG">
-      <div><span>Total matchs</span><strong>${psgSchedule2627.length}</strong></div>
+    <div class="calendar-summary" aria-label="${labels.summary}">
+      <div><span>${labels.total}</span><strong>${psgSchedule2627.length}</strong></div>
       <div><span>Ligue 1</span><strong>${leagueCount}</strong></div>
-      <div><span>Ligue des champions</span><strong>${championsLeagueCount}</strong></div>
-      <div><span>Coupe de France</span><strong>${cupCount}</strong></div>
-      <div><span>Domicile</span><strong>${homeCount}</strong></div>
-      <div><span>Affiches</span><strong>${highlights}</strong></div>
+      <div><span>${labels.championsLeague}</span><strong>${championsLeagueCount}</strong></div>
+      <div><span>${labels.frenchCup}</span><strong>${cupCount}</strong></div>
+      <div><span>${labels.home}</span><strong>${homeCount}</strong></div>
+      <div><span>${labels.highlights}</span><strong>${highlights}</strong></div>
     </div>
     <div class="interactive-toolbar">
-      <label class="control-field">Recherche
-        <input type="search" data-calendar-search placeholder="Adversaire, stade, date" />
+      <label class="control-field">${labels.search}
+        <input type="search" data-calendar-search placeholder="${labels.searchPlaceholder}" />
       </label>
-      <label class="control-field">Mois
+      <label class="control-field">${labels.month}
         <select data-calendar-month>
-          <option value="all">Toute la saison</option>
-          ${months.map((month) => `<option value="${month}">${monthLabels[month]}</option>`).join("")}
+          <option value="all">${labels.allSeason}</option>
+          ${months.map((month) => `<option value="${month}">${locale === "pt-BR" ? brMonthLabels[month] : monthLabels[month]}</option>`).join("")}
         </select>
       </label>
-      <label class="control-field">Lieu
+      <label class="control-field">${labels.place}
         <select data-calendar-place>
-          <option value="all">Tous les lieux</option>
-          ${places.map((place) => `<option value="${escapeHTML(place)}">${escapeHTML(place)}</option>`).join("")}
+          <option value="all">${labels.allPlaces}</option>
+          ${places.map((place) => `<option value="${escapeHTML(place)}">${escapeHTML(translateCalendarValue(place, locale))}</option>`).join("")}
         </select>
       </label>
-      <label class="control-field">Compétition
+      <label class="control-field">${labels.competition}
         <select data-calendar-competition>
-          <option value="all">Toutes compétitions</option>
-          ${competitions.map((competition) => `<option value="${escapeHTML(competition)}">${escapeHTML(competition)}</option>`).join("")}
+          <option value="all">${labels.allCompetitions}</option>
+          ${competitions.map((competition) => `<option value="${escapeHTML(competition)}">${escapeHTML(translateCalendarValue(competition, locale))}</option>`).join("")}
         </select>
       </label>
-      <label class="control-field">Statut
+      <label class="control-field">${labels.status}
         <select data-calendar-status>
-          <option value="all">Tous les horaires</option>
-          ${statuses.map((status) => `<option value="${escapeHTML(status)}">${escapeHTML(status)}</option>`).join("")}
+          <option value="all">${labels.allStatuses}</option>
+          ${statuses.map((status) => `<option value="${escapeHTML(status)}">${escapeHTML(translateCalendarValue(status, locale))}</option>`).join("")}
         </select>
       </label>
     </div>
-    <div class="calendar-watch" aria-label="Suivi officiel des compétitions à compléter">
+    <div class="calendar-watch" aria-label="${labels.watch}">
       ${watchMarkup}
     </div>
     <div class="calendar-meta" data-calendar-meta></div>
@@ -805,12 +946,12 @@ const initCalendarApp = () => {
       );
     });
 
-    meta.textContent = `${filtered.length} match${filtered.length > 1 ? "s" : ""} affiché${filtered.length > 1 ? "s" : ""}`;
-    list.replaceChildren(...filtered.map(createFixtureCard));
+    meta.textContent = `${filtered.length} ${filtered.length > 1 ? labels.matchPlural : labels.matchSingular}`;
+    list.replaceChildren(...filtered.map((fixture) => createFixtureCard(fixture, locale)));
     if (!filtered.length) {
       const empty = document.createElement("p");
       empty.className = "empty-state";
-      empty.textContent = "Aucun match ne correspond à ce filtre.";
+      empty.textContent = labels.empty;
       list.append(empty);
     }
     initShareActions(list);

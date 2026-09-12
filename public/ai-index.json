@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-10T00:41:00+02:00",
-    "freshnessNote": "Fil PSG du 10 septembre 2026. Fil public : 107 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 4 articles de fond sous /dossiers-psg/. À suivre : PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate ; Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-12T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 12 septembre 2026. Fil public : 108 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -56,6 +56,19 @@
         "histoire PSG",
         "joueurs PSG analyse",
         "débats PSG"
+      ]
+    },
+    {
+      "url": "https://parisien90.com/br/calendario-psg/",
+      "title": "Calendário PSG 2026-2027 em português do Brasil",
+      "intent": "Consultar o calendário completo do PSG em português do Brasil, com Ligue 1, Liga dos Campeões, Copa da França, amistosos e fontes oficiais",
+      "topics": [
+        "calendário PSG",
+        "PSG Brasil",
+        "jogos PSG",
+        "Liga dos Campeões PSG",
+        "Copa da França PSG",
+        "Paris Saint-Germain calendário"
       ]
     },
     {
@@ -197,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe",
+      "category": "Europe",
+      "dateTime": "2026-09-11T18:21:00+02:00",
+      "url": "https://parisien90.com/news/ferran-torres-joueur-semaine-equipe-type-uefa-septembre-2026/",
+      "source": "UEFA",
+      "sourceUrl": "https://fr.uefa.com/uefachampionsleague/news/02a9-2191228a4324-39a961a366d2-1000--champions-league-equipe-de-la-semaine-j1/",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc",
       "category": "Europe",
@@ -457,15 +479,6 @@
       "source": "L'Équipe",
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-ferran-torres-le-psg-ramene-le-nul-de-rennes/1713126",
       "reliability": "Fort — score, buteurs et scénario recoupés"
-    },
-    {
-      "title": "PSG-Monaco : un premier créneau à 19h05, depuis remplacé par 21h05",
-      "category": "Calendrier",
-      "dateTime": "2026-08-20T12:00:00+02:00",
-      "url": "https://parisien90.com/news/psg-monaco-horaire-officiel-19h05-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-31-aout-au-6-septembre-2026",
-      "reliability": "Officiel — programmation actualisée"
     }
   ],
   "people": [
@@ -672,10 +685,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier créateur",
-      "status": "Indisponible environ six semaines",
+      "status": "Suivi physique à vérifier via les points officiels",
       "url": "https://parisien90.com/joueurs-psg/ousmane-dembele/",
-      "updatedAt": "6 septembre 2026",
-      "source": "PSG.fr — point médical",
+      "updatedAt": "11 septembre 2026",
+      "source": "PSG.fr / FFF / archives publiques",
       "image": null
     },
     {
@@ -1410,14 +1423,15 @@
       "name": "Mamadou Sakho",
       "aliases": [
         "Sakho PSG",
-        "Mamadou Sakho Paris"
+        "Mamadou Sakho Paris",
+        "Mamadou Sakho PSG"
       ],
       "type": "legend",
       "role": "Défenseur central",
       "status": "Vivant",
       "url": "https://parisien90.com/anciens-joueurs-psg/mamadou-sakho/",
-      "updatedAt": "29 août 2026",
-      "source": "PSG.fr / archives publiques",
+      "updatedAt": "11 septembre 2026",
+      "source": "PSG.fr / FFF / archives publiques",
       "image": null
     },
     {
@@ -1929,6 +1943,47 @@
   },
   "editorialArticles": [
     {
+      "title": "Ronaldinho, Alex, Valdo, Sakho, Dembélé : cinq noms pour comprendre pourquoi le PSG reste impossible à ignorer",
+      "category": "Mémoire PSG",
+      "angle": "Dossier long",
+      "dateTime": "2026-09-11T10:45:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/ronaldinho-alex-valdo-sakho-dembele-psg-memoire-presente/",
+      "summary": "Certains noms racontent mieux Paris qu'un simple palmarès. Ronaldinho, Alex, Valdo, Mamadou Sakho et Ousmane Dembélé dessinent cinq portes d'entrée vers le PSG mondial : le génie, le Brésil, la formation, la défense et le chaos offensif.",
+      "keywords": [
+        "Ronaldinho PSG",
+        "Alex PSG",
+        "Valdo PSG",
+        "Sakho PSG",
+        "Dembélé PSG",
+        "Brésiliens PSG",
+        "anciens joueurs PSG",
+        "histoire PSG",
+        "joueurs PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - archives et fiches joueurs",
+          "url": "https://www.psg.fr/",
+          "note": "Base officielle pour les repères club et les communications publiques."
+        },
+        {
+          "name": "HistoireduPSG - archives historiques",
+          "url": "https://histoiredupsg.fr/",
+          "note": "Repères historiques publics sur les anciens joueurs, matchs et statistiques du PSG."
+        },
+        {
+          "name": "Wikidata",
+          "url": "https://www.wikidata.org/",
+          "note": "Données ouvertes CC0 utilisées comme appoint pour les identités publiques, sans reprise rédactionnelle."
+        },
+        {
+          "name": "Parisien 90 - anciens joueurs PSG",
+          "url": "/anciens-joueurs-psg/",
+          "note": "Index interne des fiches joueurs et anciens joueurs."
+        }
+      ]
+    },
+    {
       "title": "Futur Ballon d'Or 2026 : le PSG peut-il vraiment garder le trophée avec Dembélé, Vitinha ou Kvaratskhelia ?",
       "category": "Ballon d'Or PSG",
       "angle": "Analyse chaude",
@@ -2141,5 +2196,87 @@
       "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027",
       "reliability": "Oficial — coletiva"
     }
-  ]
+  ],
+  "brazilCalendar": {
+    "url": "https://parisien90.com/br/calendario-psg/",
+    "frenchUrl": "https://parisien90.com/calendrier-psg/",
+    "updatedAt": "2026-09-12T12:00:00+02:00",
+    "totalFixtures": 52,
+    "championsLeagueFixtures": 8,
+    "frenchCupMilestones": 6,
+    "nextFixtures": [
+      {
+        "date": "2026-09-13",
+        "competition": "Ligue 1",
+        "home": "Stade Brestois 29",
+        "away": "Paris Saint-Germain",
+        "status": "Programmé",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-7-au-13-septembre-2026"
+      },
+      {
+        "date": "2026-09-20",
+        "competition": "Ligue 1",
+        "home": "Olympique de Marseille",
+        "away": "Paris Saint-Germain",
+        "status": "Programmé",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-10-10",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "Le Mans FC",
+        "status": "Horaire à confirmer",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-10-14",
+        "competition": "Liga dos Campeões",
+        "home": "Manchester City",
+        "away": "Paris Saint-Germain",
+        "status": "Programmé",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-10-17",
+        "competition": "Ligue 1",
+        "home": "RC Strasbourg",
+        "away": "Paris Saint-Germain",
+        "status": "Horaire à confirmer",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-10-20",
+        "competition": "Liga dos Campeões",
+        "home": "Paris Saint-Germain",
+        "away": "FC Barcelone",
+        "status": "Programmé",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-10-25",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "Olympique Lyonnais",
+        "status": "Programmé",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-10-31",
+        "competition": "Ligue 1",
+        "home": "Le Havre AC",
+        "away": "Paris Saint-Germain",
+        "status": "Horaire à confirmer",
+        "source": null,
+        "sourceUrl": null
+      }
+    ]
+  }
 }
