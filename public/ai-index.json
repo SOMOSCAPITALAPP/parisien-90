@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-12T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 12 septembre 2026. Fil public : 108 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée ; PSG-Slovan : Longoni seul absent, Luis Enrique réclame une réponse immédiate. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-13T06:34:00+02:00",
+    "freshnessNote": "Fil PSG du 13 septembre 2026. Fil public : 109 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -226,6 +226,15 @@
       "url": "https://parisien90.com/news/psg-slovan-victoire-dembele-ferran-torres-triple-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-slovan-2026-09-09",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien",
+      "category": "Sélections",
+      "dateTime": "2026-09-09T14:31:00+02:00",
+      "url": "https://parisien90.com/news/marquinhos-bresil-selection-australie-inde-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/marquinhos-appele-avec-le-bresil-psg-selection-amicaux-treve-septembre-octobre-2026-2027",
       "reliability": "Officiel"
     },
     {
@@ -470,15 +479,6 @@
       "source": "Ligue 1",
       "sourceUrl": "https://ligue1.com/fr/articles/l1_article_5725-les-stats-marquantes-de-la-j1",
       "reliability": "Officiel — statistiques LFP"
-    },
-    {
-      "title": "Rennes-PSG : Paris arrache un nul 2-2 pour sa rentrée en Ligue 1",
-      "category": "Match",
-      "dateTime": "2026-08-23T22:38:00+02:00",
-      "url": "https://parisien90.com/news/rennes-psg-nul-2-2-ligue-1-aout-2026/",
-      "source": "L'Équipe",
-      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-ferran-torres-le-psg-ramene-le-nul-de-rennes/1713126",
-      "reliability": "Fort — score, buteurs et scénario recoupés"
     }
   ],
   "people": [
@@ -2200,7 +2200,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-12T12:00:00+02:00",
+    "updatedAt": "2026-09-13T06:34:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

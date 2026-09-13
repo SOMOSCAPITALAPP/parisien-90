@@ -323,10 +323,10 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-12T12:00:00+02:00",
-  edition: "Fil PSG du 12 septembre 2026",
-  displayDate: "12 septembre 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-09-13T06:34:00+02:00",
+  edition: "Fil PSG du 13 septembre 2026",
+  displayDate: "13 septembre 2026",
+  displayTime: "06h34",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -340,6 +340,7 @@ export const newsFeed = [
   { id: "psg-slovan-victoire-dembele-ferran-torres-triple-septembre-2026", time: "00:41", category: "Europe", title: "PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc", summary: "Pour son entrée en Ligue des champions, le PSG a écrasé le Slovan Bratislava 6-1 au Parc des Princes. Dembélé a lancé la soirée avec un doublé, Ferran Torres a signé un triplé pour ses débuts européens à Paris, puis Fabián Ruiz a refermé le récital. Le Slovan a sauvé l'honneur par Suleiman Camara, mais la réponse parisienne après Monaco est massive : du rythme, du pressing et une attaque enfin sans retenue.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-slovan-2026-09-09", reliability: "Officiel", viral: 99 },
   ]),
   ...withNewsDate("2026-09-09", "9 septembre 2026", [
+  { id: "marquinhos-bresil-selection-australie-inde-septembre-2026", time: "14:31", category: "Sélections", title: "Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien", summary: "Le PSG a confirmé la convocation de Marquinhos par Carlo Ancelotti pour les trois prochains matches amicaux du Brésil : deux rendez-vous contre l'Australie et un autre face à l'Inde. Le capitaine parisien retrouve ainsi la Seleção dans une liste où figurent notamment Vinícius Júnior, Raphinha et Bruno Guimarães. Une sélection officielle qui place déjà sa prochaine trêve internationale sous le signe du rythme et du leadership.", source: "PSG.fr", url: "https://www.psg.fr/content/marquinhos-appele-avec-le-bresil-psg-selection-amicaux-treve-septembre-octobre-2026-2027", reliability: "Officiel", viral: 83 },
   { id: "psg-ballon-or-dix-nommes-record-septembre-2026", time: "11:35", category: "Club", title: "Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record", summary: "Le PSG annonce dix joueurs dans la liste des 30 nommés au Ballon d'Or 2026 : Dembélé, Hakimi, Kvaratskhelia, Marquinhos, Nuno Mendes, João Neves, Pacho, Fabián Ruiz, Ferran Torres et Vitinha. Le club revendique un record de représentation pour une même équipe dans l'histoire du trophée. Safonov (Yachine), Zaïre-Emery (Kopa), Luis Enrique et le PSG dans la catégorie club complètent une vitrine qui mesure surtout le poids collectif de la saison parisienne.", source: "PSG.fr", url: "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/", reliability: "Officiel", viral: 94 },
   { id: "psg-penalite-index-egalite-professionnelle-confirmee-septembre-2026", time: "00:23", category: "Club", title: "Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée", summary: "Selon un jugement consulté par l'AFP et rapporté par L'Équipe, le tribunal administratif de Paris a confirmé la pénalité de 2,7 M€ infligée au PSG pour le non-respect de l'index d'égalité professionnelle femmes-hommes avant 2024. La sanction, fondée sur 0,5 % des revenus 2022 du club, avait été contestée par Paris. Le dossier porte sur une période antérieure et ne préjuge pas de la situation actuelle du PSG.", source: "L'Équipe / AFP", url: "https://www.lequipe.fr/Football/Actualites/La-sanction-du-psg-pour-non-respect-de-l-index-d-egalite-professionnelle-entre-les-femmes-et-les-hommes-confirmee-en-appel/1717273", reliability: "Fort — jugement rapporté par AFP", viral: 76 },
   ]),
