@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-13T06:34:00+02:00",
-    "freshnessNote": "Fil PSG du 13 septembre 2026. Fil public : 109 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record ; Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-13T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 13 septembre 2026. Fil public : 110 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu",
+      "category": "Match",
+      "dateTime": "2026-09-12T14:00:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-brest-points-dro-conference-septembre-2026/",
+      "source": "Planète PSG / conférence de Luis Enrique",
+      "sourceUrl": "https://www.planetepsg.com/news-125408-club-on_a_besoin_de_points_luis_enrique_fixe_le_cap_pour_les_deux_prochains_matchs_avant_la_treve.html",
+      "reliability": "Fort — conférence rapportée"
+    },
     {
       "title": "Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe",
       "category": "Europe",
@@ -470,15 +479,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/cp-yoram-zague-prete-au-paphos-fc",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Rennes-PSG : Ferran entre dans un cercle rare, Doué ne rate aucun dribble",
-      "category": "Analyse",
-      "dateTime": "2026-08-24T14:02:00+02:00",
-      "url": "https://parisien90.com/news/ferran-torres-double-debuts-doue-dribbles-ligue-1-aout-2026/",
-      "source": "Ligue 1",
-      "sourceUrl": "https://ligue1.com/fr/articles/l1_article_5725-les-stats-marquantes-de-la-j1",
-      "reliability": "Officiel — statistiques LFP"
     }
   ],
   "people": [
@@ -2200,7 +2200,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-13T06:34:00+02:00",
+    "updatedAt": "2026-09-13T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
