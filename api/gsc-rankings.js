@@ -1,6 +1,10 @@
+import fs from "node:fs/promises";
+import path from "node:path";
+
 const GOOGLE_TOKEN_URL = "https://oauth2.googleapis.com/token";
 const GSC_API_BASE = "https://searchconsole.googleapis.com";
 const SITE_URL = process.env.GSC_SITE_URL || "https://parisien90.com/";
+const CACHED_REPORT_PATH = path.join(process.cwd(), "data", "seo-gsc-report.json");
 
 const TARGET_QUERIES = [
   "transfert psg",
@@ -196,6 +200,27 @@ const summarizePages = (rows) => {
     .sort((a, b) => b.impressions - a.impressions);
 };
 
+const readCachedReport = async (reason) => {
+  try {
+    const cached = JSON.parse(await fs.readFile(CACHED_REPORT_PATH, "utf8"));
+    return {
+      ...cached,
+      ok: true,
+      live: false,
+      fallbackReason: reason,
+      servedAt: new Date().toISOString()
+    };
+  } catch (cacheError) {
+    return {
+      ok: false,
+      live: false,
+      fetchedAt: new Date().toISOString(),
+      error: reason,
+      cacheError: String(cacheError.message || cacheError)
+    };
+  }
+};
+
 export default async function handler(request, response) {
   const requestUrl = new URL(request.url || "/", SITE_URL);
   const isPublic = requestUrl.searchParams.get("public") === "1";
@@ -223,6 +248,7 @@ export default async function handler(request, response) {
     const rows = data.rows || [];
     response.status(200).json({
       ok: true,
+      live: true,
       fetchedAt: new Date().toISOString(),
       window: {
         startDate: startDate.toISOString().slice(0, 10),
@@ -234,10 +260,6 @@ export default async function handler(request, response) {
       sampledRows: rows.length
     });
   } catch (error) {
-    response.status(200).json({
-      ok: false,
-      fetchedAt: new Date().toISOString(),
-      error: String(error.message || error)
-    });
+    response.status(200).json(await readCachedReport(String(error.message || error)));
   }
 }
