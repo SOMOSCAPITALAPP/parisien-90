@@ -3,7 +3,8 @@ import path from "node:path";
 
 const GOOGLE_TOKEN_URL = "https://oauth2.googleapis.com/token";
 const GSC_API_BASE = "https://searchconsole.googleapis.com";
-const SITE_URL = process.env.GSC_SITE_URL || "https://parisien90.com/";
+const GSC_SITE_URL = process.env.GSC_SITE_URL || "sc-domain:parisien90.com";
+const PUBLIC_SITE_URL = process.env.PUBLIC_SITE_URL || "https://parisien90.com/";
 const CACHED_REPORT_PATH = path.join(process.cwd(), "data", "seo-gsc-report.json");
 
 const TARGET_QUERIES = [
@@ -222,7 +223,7 @@ const readCachedReport = async (reason) => {
 };
 
 export default async function handler(request, response) {
-  const requestUrl = new URL(request.url || "/", SITE_URL);
+  const requestUrl = new URL(request.url || "/", PUBLIC_SITE_URL);
   const isPublic = requestUrl.searchParams.get("public") === "1";
   const hasSecret = request.headers.authorization === `Bearer ${process.env.CRON_SECRET}`;
 
@@ -240,7 +241,7 @@ export default async function handler(request, response) {
     const accessToken = await getAccessToken();
     const data = await queryGsc(
       accessToken,
-      SITE_URL,
+      GSC_SITE_URL,
       startDate.toISOString().slice(0, 10),
       endDate
     );
@@ -250,6 +251,7 @@ export default async function handler(request, response) {
       ok: true,
       live: true,
       fetchedAt: new Date().toISOString(),
+      siteUrl: GSC_SITE_URL,
       window: {
         startDate: startDate.toISOString().slice(0, 10),
         endDate,
