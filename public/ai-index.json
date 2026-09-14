@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-13T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 13 septembre 2026. Fil public : 110 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien ; Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-13T22:42:00+02:00",
+    "freshnessNote": "Fil PSG du 13 septembre 2026. Fil public : 111 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Brest-PSG : Ferran libère Paris, Safonov ferme la porte",
+      "category": "Match",
+      "dateTime": "2026-09-13T22:42:00+02:00",
+      "url": "https://parisien90.com/news/brest-psg-victoire-ferran-torres-safonov-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13",
+      "reliability": "Officiel"
+    },
     {
       "title": "Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu",
       "category": "Match",
@@ -469,15 +478,6 @@
       "url": "https://parisien90.com/news/ousmane-dembele-reprise-entrainement-31-aout-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/ousmane-dembele-reprendra-le-lundi-31-aout",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Yoram Zague prêté à Paphos avec option d'achat",
-      "category": "Mercato",
-      "dateTime": "2026-08-25T14:00:00+02:00",
-      "url": "https://parisien90.com/news/yoram-zague-pret-officiel-pafos-2026-2027/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/cp-yoram-zague-prete-au-paphos-fc",
       "reliability": "Officiel"
     }
   ],
@@ -2200,7 +2200,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-13T12:00:00+02:00",
+    "updatedAt": "2026-09-13T22:42:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
@@ -2210,9 +2210,9 @@
         "competition": "Ligue 1",
         "home": "Stade Brestois 29",
         "away": "Paris Saint-Germain",
-        "status": "Programmé",
+        "status": "Terminé 0-1",
         "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-7-au-13-septembre-2026"
+        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13"
       },
       {
         "date": "2026-09-20",
@@ -2220,8 +2220,8 @@
         "home": "Olympique de Marseille",
         "away": "Paris Saint-Germain",
         "status": "Programmé",
-        "source": null,
-        "sourceUrl": null
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/en/content/pr-first-team-media-schedule-from-14th-september-to-20th-september-2026"
       },
       {
         "date": "2026-10-10",
