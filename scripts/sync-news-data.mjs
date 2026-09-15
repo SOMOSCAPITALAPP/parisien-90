@@ -855,6 +855,9 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             ${photoMarkup}
             <span class="section-kicker">Continuer</span>
             <a href="/joueurs-psg/">Effectif PSG</a>
+            <a href="/transfert-psg/">Transfert PSG</a>
+            <a href="/mercato-psg/">Mercato PSG</a>
+            <a href="/calendrier-psg/">Calendrier PSG</a>
             <a href="/records-psg/">Records PSG</a>
             <a href="/dossiers-psg/">Dossiers PSG</a>
             <a href="/histoire-psg/">Histoire du PSG</a>
@@ -1155,7 +1158,9 @@ const makeAllTimePlayersPage = (players) => {
         <p>
           La base Parisien 90 combine les fiches longues éditoriales et une extraction ouverte Wikidata sous licence CC0.
           Elle couvre les recherches Messi PSG, Neymar PSG, Mbappé PSG, Ronaldinho PSG, Zlatan PSG, Beckham PSG et les noms moins visibles qui font l'épaisseur historique du club.
-          Pour les chiffres d'histoire, consultez aussi la page <a href="/records-psg/">records PSG</a>.
+          Pour les chiffres d'histoire, consultez aussi la page <a href="/records-psg/">records PSG</a>. Pour relier ces noms au présent,
+          ouvrez aussi <a href="/transfert-psg/">transfert PSG</a>, <a href="/mercato-psg/">mercato PSG</a> et
+          <a href="/calendrier-psg/">calendrier PSG</a>.
         </p>
         <div class="metric-strip all-time-metrics">
           <article><strong>${escapeHTML(players.length)}</strong><span>joueurs indexés</span></article>
