@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-13T22:42:00+02:00",
-    "freshnessNote": "Fil PSG du 13 septembre 2026. Fil public : 111 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc ; Marquinhos retrouve le Brésil : trois amicaux pour le capitaine parisien. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-14T16:02:00+02:00",
+    "freshnessNote": "Fil PSG du 14 septembre 2026. Fil public : 112 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Hakimi : légère lésion à la cuisse droite, le PSG temporise",
+      "category": "Groupe",
+      "dateTime": "2026-09-14T16:02:00+02:00",
+      "url": "https://parisien90.com/news/achraf-hakimi-legere-lesion-cuisse-droite-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/communique-medical-achraf-hakimi-psg-news-2026-2027",
+      "reliability": "Officiel"
+    },
     {
       "title": "Brest-PSG : Ferran libère Paris, Safonov ferme la porte",
       "category": "Match",
@@ -470,15 +479,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/paris-accroche-francfort-et-jouera-sa-qualification-a-domicile-cr-eintracht-francfort-paris-saint-germain-uefa-womens-champions-league-2026-2027",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Dembélé reprendra l'entraînement avec le groupe le 31 août",
-      "category": "Groupe",
-      "dateTime": "2026-08-25T20:56:00+02:00",
-      "url": "https://parisien90.com/news/ousmane-dembele-reprise-entrainement-31-aout-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/ousmane-dembele-reprendra-le-lundi-31-aout",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -520,10 +520,10 @@
       "aliases": [],
       "type": "player",
       "role": "Latéral droit offensif",
-      "status": "Cadre majeur",
+      "status": "Soins — légère lésion à la cuisse droite",
       "url": "https://parisien90.com/joueurs-psg/achraf-hakimi/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "14 septembre 2026",
+      "source": "PSG.fr — communiqué médical",
       "image": null
     },
     {
@@ -2200,20 +2200,11 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-13T22:42:00+02:00",
+    "updatedAt": "2026-09-14T16:02:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
     "nextFixtures": [
-      {
-        "date": "2026-09-13",
-        "competition": "Ligue 1",
-        "home": "Stade Brestois 29",
-        "away": "Paris Saint-Germain",
-        "status": "Terminé 0-1",
-        "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13"
-      },
       {
         "date": "2026-09-20",
         "competition": "Ligue 1",
@@ -2276,6 +2267,15 @@
         "status": "Horaire à confirmer",
         "source": null,
         "sourceUrl": null
+      },
+      {
+        "date": "2026-11-03",
+        "competition": "Liga dos Campeões",
+        "home": "Villarreal CF",
+        "away": "Paris Saint-Germain",
+        "status": "Programmé",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
       }
     ]
   }

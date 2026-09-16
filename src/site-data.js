@@ -80,7 +80,7 @@ export const currentPlayerProfiles = [
   { id: "alessandro-longoni", name: "Alessandro Longoni", number: "16", position: "Gardien de but", line: "Gardiens", status: "Indisponible — gêne au quadriceps gauche", role: "Gardien de rotation", profile: "Profil jeune à développer dans un environnement très exposé.", watch: "Retour après sa gêne au quadriceps gauche, puis intégration aux entraînements de Luis Enrique et hiérarchie des gardiens.", updatedAt: "8 septembre 2026", source: "L'Équipe — entraînement avant Slovan" },
   { id: "lucas-chevalier", name: "Lucas Chevalier", number: "30", position: "Gardien de but", line: "Gardiens", status: "Effectif provisoire PSG 2026-2027", role: "Gardien français à fort potentiel", profile: "Lecture moderne du poste, jeu au pied et capacité à vivre loin de sa ligne.", watch: "Concurrence avec Safonov, place dans les grands matchs, adaptation à la pression parisienne.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "matvey-safonov", name: "Matvey Safonov", number: "39", position: "Gardien de but", line: "Gardiens", status: "Effectif provisoire PSG 2026-2027", role: "Gardien confirmé", profile: "Gardien robuste, utile dans une saison à haute densité.", watch: "Gestion de la concurrence et fiabilité sur les matchs à élimination.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
-  { id: "achraf-hakimi", name: "Achraf Hakimi", number: "2", position: "Défenseur", line: "Défenseurs", status: "Cadre majeur", role: "Latéral droit offensif", profile: "Accélération, volume et projection : l'un des moteurs du PSG moderne.", watch: "Son entente avec l'ailier droit et son impact dans les affiches européennes.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
+  { id: "achraf-hakimi", name: "Achraf Hakimi", number: "2", position: "Défenseur", line: "Défenseurs", status: "Soins — légère lésion à la cuisse droite", role: "Latéral droit offensif", profile: "Accélération, volume et projection : l'un des moteurs du PSG moderne.", watch: "Le point médical annoncé par le PSG après deux jours de soins, à l'approche du Classique à Marseille.", updatedAt: "14 septembre 2026", source: "PSG.fr — communiqué médical" },
   { id: "lucas-beraldo", name: "Lucas Beraldo", number: "4", position: "Défenseur", line: "Défenseurs", status: "Prolongé jusqu'en 2031", role: "Défenseur central gaucher", profile: "Relance propre, calme sous pression et marge de progression encore réelle.", watch: "Minutes gagnées face à la concurrence centrale.", updatedAt: "4 septembre 2026", source: "PSG.fr" },
   { id: "marquinhos", name: "Marquinhos", number: "5", position: "Défenseur", line: "Défenseurs", status: "Capitaine et recordman", role: "Défenseur central, leader de vestiaire", profile: "Repère historique du groupe, symbole de continuité entre plusieurs cycles parisiens.", watch: "Gestion physique et rôle dans une défense rajeunie.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "illia-zabarnyi", name: "Illia Zabarnyi", number: "6", position: "Défenseur", line: "Défenseurs", status: "Effectif provisoire PSG 2026-2027", role: "Défenseur central", profile: "Profil de duel, concentration et défense de surface.", watch: "Adaptation à la ligne haute parisienne.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-13T22:42:00+02:00",
-  edition: "Fil PSG du 13 septembre 2026",
-  displayDate: "13 septembre 2026",
-  displayTime: "22h42",
+  updatedAt: "2026-09-14T16:02:00+02:00",
+  edition: "Fil PSG du 14 septembre 2026",
+  displayDate: "14 septembre 2026",
+  displayTime: "16h02",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-14", "14 septembre 2026", [
+  { id: "achraf-hakimi-legere-lesion-cuisse-droite-septembre-2026", time: "16:02", category: "Groupe", title: "Hakimi : légère lésion à la cuisse droite, le PSG temporise", summary: "Sorti avant la pause lors de la victoire à Brest, Achraf Hakimi souffre d'une légère lésion à la cuisse droite, a confirmé le PSG. Le latéral restera en soins pendant deux jours et le club annoncera ensuite la suite de son programme. À six jours du Classique à Marseille, Paris ne fixe aucune durée d'absence : le prochain point médical sera donc le vrai repère.", source: "PSG.fr", url: "https://www.psg.fr/content/communique-medical-achraf-hakimi-psg-news-2026-2027", reliability: "Officiel", viral: 93 },
+  ]),
   ...withNewsDate("2026-09-13", "13 septembre 2026", [
   { id: "brest-psg-victoire-ferran-torres-safonov-septembre-2026", time: "22:42", category: "Match", title: "Brest-PSG : Ferran libère Paris, Safonov ferme la porte", summary: "Le PSG a décroché à Brest sa première victoire de Ligue 1 de la saison (0-1). Ferran Torres a conclu dès la 5e minute une séquence lancée par João Neves et prolongée par une talonnade de Dembélé. Paris a ensuite résisté : Safonov a été décisif, notamment devant Doumbia et Mboup, tandis que le poteau a sauvé les Rouge et Bleu. Un succès sans grand confort, mais trois points qui arrêtent la série sans victoire en championnat avant le Classique à Marseille.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13", reliability: "Officiel", viral: 96 },
   ]),
