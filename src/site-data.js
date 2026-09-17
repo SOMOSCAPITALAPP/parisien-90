@@ -91,7 +91,7 @@ export const currentPlayerProfiles = [
   { id: "fabian-ruiz", name: "Fabián Ruiz", number: "8", position: "Milieu de terrain", line: "Milieux", status: "Prolongé jusqu'en 2028 (+1 an en option)", role: "Milieu relayeur", profile: "Contrôle, orientation et frappe : il donne de la respiration au jeu parisien.", watch: "Forme post-Coupe du monde et rôle dans les grandes affiches.", updatedAt: "4 septembre 2026", source: "PSG.fr" },
   { id: "vitinha", name: "Vitinha", number: "17", position: "Milieu de terrain", line: "Milieux", status: "Cerveau du jeu", role: "Milieu organisateur", profile: "Le joueur qui règle le tempo, résiste au pressing et accélère quand Paris veut étouffer.", watch: "Influence dans les matchs verrouillés.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "senny-mayulu", name: "Senny Mayulu", number: "24", position: "Milieu de terrain", line: "Milieux", status: "Prolongé jusqu'en 2031", role: "Milieu polyvalent", profile: "Un Titi capable de relier les lignes sans se cacher du ballon.", watch: "Minutes en Ligue 1, progression physique et confiance du staff.", updatedAt: "4 septembre 2026", source: "PSG.fr" },
-  { id: "dro-fernandez", name: "Dro Fernández", number: "27", position: "Milieu de terrain", line: "Milieux", status: "Effectif provisoire PSG 2026-2027", role: "Milieu de développement", profile: "Profil technique à observer dans la rotation et les matchs de préparation.", watch: "Place réelle dans le groupe professionnel.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
+  { id: "dro-fernandez", name: "Dro Fernández", number: "27", position: "Milieu de terrain", line: "Milieux", status: "Convoqué avec l'Espagne U19", role: "Milieu de développement", profile: "Profil technique à observer dans la rotation et les matchs de préparation.", watch: "Rassemblement de l'Espagne U19 à Marbella du 21 au 24 septembre, puis place réelle dans le groupe professionnel.", updatedAt: "17 septembre 2026", source: "RFEF" },
   { id: "warren-zaire-emery", name: "Warren Zaïre-Emery", number: "33", position: "Milieu de terrain", line: "Milieux", status: "Symbole du projet", role: "Milieu box-to-box", profile: "Puissance, maturité et identité parisienne : il incarne la passerelle entre formation et très haut niveau.", watch: "Leadership et régularité offensive.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
   { id: "joao-neves", name: "João Neves", number: "87", position: "Milieu de terrain", line: "Milieux", status: "Prolongé jusqu'en 2031", role: "Milieu intense et organisateur", profile: "Pressing, qualité sous pression et volume : le type de joueur qui fait respirer tout un bloc.", watch: "Gestion de la fatigue sur une saison longue.", updatedAt: "4 septembre 2026", source: "PSG.fr" },
   { id: "khvicha-kvaratskhelia", name: "Khvicha Kvaratskhelia", number: "7", position: "Attaquant", line: "Attaquants", status: "Menace offensive majeure", role: "Ailier gauche", profile: "Dribble, imprévisibilité et prise de risque permanente.", watch: "Relation avec Nuno Mendes et efficacité dans les zones décisives.", updatedAt: "15 juillet 2026", source: "PSG.fr" },
@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-14T16:02:00+02:00",
-  edition: "Fil PSG du 14 septembre 2026",
-  displayDate: "14 septembre 2026",
-  displayTime: "16h02",
+  updatedAt: "2026-09-17T16:00:00+02:00",
+  edition: "Fil PSG du 17 septembre 2026",
+  displayDate: "17 septembre 2026",
+  displayTime: "16h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-17", "17 septembre 2026", [
+  { id: "dro-fernandez-espagne-u19-convocation-marbella-septembre-2026", time: "16:00", category: "Sélections", title: "Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG", summary: "Dro Fernández figure dans la première liste de l'Espagne U19 pour le rassemblement de Marbella, du 21 au 24 septembre. La fédération espagnole a retenu 26 joueurs pour quatre jours de séances, d'échanges techniques et de matches d'entraînement. Pour le milieu parisien, déjà aperçu dans la rotation de Luis Enrique, cette convocation ouvre une nouvelle étape internationale sans le priver du Classique : le stage débute le lendemain d'OM-PSG.", source: "RFEF", url: "https://rfef.es/es/noticias/paco-gallardo-da-una-lista-de-26-jugadores-para-los-entrenamientos-de-marbella", reliability: "Officiel", viral: 82 },
+  ]),
   ...withNewsDate("2026-09-14", "14 septembre 2026", [
   { id: "achraf-hakimi-legere-lesion-cuisse-droite-septembre-2026", time: "16:02", category: "Groupe", title: "Hakimi : légère lésion à la cuisse droite, le PSG temporise", summary: "Sorti avant la pause lors de la victoire à Brest, Achraf Hakimi souffre d'une légère lésion à la cuisse droite, a confirmé le PSG. Le latéral restera en soins pendant deux jours et le club annoncera ensuite la suite de son programme. À six jours du Classique à Marseille, Paris ne fixe aucune durée d'absence : le prochain point médical sera donc le vrai repère.", source: "PSG.fr", url: "https://www.psg.fr/content/communique-medical-achraf-hakimi-psg-news-2026-2027", reliability: "Officiel", viral: 93 },
   ]),

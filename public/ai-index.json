@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-14T16:02:00+02:00",
-    "freshnessNote": "Fil PSG du 14 septembre 2026. Fil public : 112 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe ; PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-17T16:00:00+02:00",
+    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 113 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG",
+      "category": "Sélections",
+      "dateTime": "2026-09-17T16:00:00+02:00",
+      "url": "https://parisien90.com/news/dro-fernandez-espagne-u19-convocation-marbella-septembre-2026/",
+      "source": "RFEF",
+      "sourceUrl": "https://rfef.es/es/noticias/paco-gallardo-da-una-lista-de-26-jugadores-para-los-entrenamientos-de-marbella",
+      "reliability": "Officiel"
+    },
     {
       "title": "Hakimi : légère lésion à la cuisse droite, le PSG temporise",
       "category": "Groupe",
@@ -470,15 +479,6 @@
       "source": "LFP",
       "sourceUrl": "https://www.lfp.fr/article/decisions-de-la-commission-des-competitions-du-28-aout-2026",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Francfort-PSG féminin : Paris répond vite et ramène un 1-1 précieux",
-      "category": "Féminines",
-      "dateTime": "2026-08-26T21:00:00+02:00",
-      "url": "https://parisien90.com/news/eintracht-francfort-psg-feminin-nul-barrage-uwcl-aout-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/paris-accroche-francfort-et-jouera-sa-qualification-a-domicile-cr-eintracht-francfort-paris-saint-germain-uefa-womens-champions-league-2026-2027",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -641,10 +641,10 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu de développement",
-      "status": "Effectif provisoire PSG 2026-2027",
+      "status": "Convoqué avec l'Espagne U19",
       "url": "https://parisien90.com/joueurs-psg/dro-fernandez/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "17 septembre 2026",
+      "source": "RFEF",
       "image": null
     },
     {
@@ -2200,7 +2200,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-14T16:02:00+02:00",
+    "updatedAt": "2026-09-17T16:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
