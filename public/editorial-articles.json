@@ -1,11 +1,78 @@
 {
-  "updatedAt": "2026-09-11T10:45:00+02:00",
-  "displayDate": "11 septembre 2026",
-  "displayTime": "10h45",
+  "updatedAt": "2026-09-17T20:35:00+02:00",
+  "displayDate": "17 septembre 2026",
+  "displayTime": "20h35",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 5,
+  "count": 6,
   "items": [
+    {
+      "id": "bilan-mercato-psg-ete-2026-arrivees-departs-solde",
+      "category": "Mercato PSG",
+      "angle": "Bilan financier vérifié",
+      "date": "2026-09-17",
+      "dateLabel": "17 septembre 2026",
+      "time": "20:35",
+      "dateTime": "2026-09-17T20:35:00+02:00",
+      "headline": "Bilan mercato PSG été 2026 : arrivées, départs, solde financier et vraie lecture sportive",
+      "summary": "Paris a vendu comme jamais, racheté vite et changé de visage offensif. Le mercato 2026 du PSG se lit en deux chiffres : 152 M€ d'achats hors bonus, 334,3 M€ de ventes hors bonus, soit un solde positif estimé à 182,3 M€ avant variables.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/",
+      "sources": [
+        {
+          "name": "CulturePSG - tableau mercato PSG été 2026",
+          "url": "https://www.culturepsg.com/bg/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
+          "note": "Tableau détaillé des arrivées et départs, montants hors bonus et total achats/ventes."
+        },
+        {
+          "name": "Sport.fr - bilan mercato PSG 2026",
+          "url": "https://www.sport.fr/football/psg-barcola-vendu-145-me-akliouche-torres-le-bilan-dun-mercato-historique-1478745.shtm",
+          "note": "Synthèse des dépenses, recettes et solde potentiel bonus inclus."
+        },
+        {
+          "name": "Le Monde - départ de Bradley Barcola à Liverpool",
+          "url": "https://www.lemonde.fr/sport/article/2026/08/31/bradley-barcola-quitte-le-psg-pour-liverpool-nouvelle-transaction-record-pour-le-depart-d-un-joueur-de-ligue-1-a-l-etranger_6762551_3242.html",
+          "note": "Contexte du transfert de Barcola et ordre de grandeur bonus compris."
+        },
+        {
+          "name": "Liverpool FC - signature de Bradley Barcola",
+          "url": "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain/",
+          "note": "Officialisation club du transfert de Bradley Barcola."
+        },
+        {
+          "name": "PSG.fr - Ferran Torres rejoint le PSG",
+          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
+          "note": "Officialisation club de l'arrivée de Ferran Torres."
+        },
+        {
+          "name": "PSG.fr - Mika Godts s'engage avec le PSG",
+          "url": "https://www.psg.fr/content/mika-godts-sengage-avec-le-paris-saint-germain-psg-mercato-2026-2027",
+          "note": "Officialisation club de l'arrivée de Mika Godts."
+        },
+        {
+          "name": "Parisien 90 - transfert PSG",
+          "url": "/transfert-psg/",
+          "note": "Page pilier interne reliée aux mouvements et articles mercato."
+        },
+        {
+          "name": "Parisien 90 - mercato PSG",
+          "url": "/mercato-psg/",
+          "note": "Page pilier interne pour suivre les rumeurs, officialisations et bilans."
+        }
+      ],
+      "keywords": [
+        "bilan mercato PSG 2026",
+        "mercato PSG été 2026",
+        "transfert PSG 2026",
+        "arrivées PSG 2026",
+        "départs PSG 2026",
+        "solde mercato PSG",
+        "Barcola Liverpool",
+        "Akliouche PSG",
+        "Ferran Torres PSG",
+        "Kolo Muani Juventus",
+        "Ibrahim Mbaye Aston Villa"
+      ]
+    },
     {
       "id": "ronaldinho-alex-valdo-sakho-dembele-psg-memoire-presente",
       "category": "Mémoire PSG",

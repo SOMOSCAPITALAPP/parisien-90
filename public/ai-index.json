@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-17T16:00:00+02:00",
-    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 113 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 5 articles de fond sous /dossiers-psg/. À suivre : Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 113 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -1942,6 +1942,69 @@
     ]
   },
   "editorialArticles": [
+    {
+      "title": "Bilan mercato PSG été 2026 : arrivées, départs, solde financier et vraie lecture sportive",
+      "category": "Mercato PSG",
+      "angle": "Bilan financier vérifié",
+      "dateTime": "2026-09-17T20:35:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/",
+      "summary": "Paris a vendu comme jamais, racheté vite et changé de visage offensif. Le mercato 2026 du PSG se lit en deux chiffres : 152 M€ d'achats hors bonus, 334,3 M€ de ventes hors bonus, soit un solde positif estimé à 182,3 M€ avant variables.",
+      "keywords": [
+        "bilan mercato PSG 2026",
+        "mercato PSG été 2026",
+        "transfert PSG 2026",
+        "arrivées PSG 2026",
+        "départs PSG 2026",
+        "solde mercato PSG",
+        "Barcola Liverpool",
+        "Akliouche PSG",
+        "Ferran Torres PSG",
+        "Kolo Muani Juventus",
+        "Ibrahim Mbaye Aston Villa"
+      ],
+      "sources": [
+        {
+          "name": "CulturePSG - tableau mercato PSG été 2026",
+          "url": "https://www.culturepsg.com/bg/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
+          "note": "Tableau détaillé des arrivées et départs, montants hors bonus et total achats/ventes."
+        },
+        {
+          "name": "Sport.fr - bilan mercato PSG 2026",
+          "url": "https://www.sport.fr/football/psg-barcola-vendu-145-me-akliouche-torres-le-bilan-dun-mercato-historique-1478745.shtm",
+          "note": "Synthèse des dépenses, recettes et solde potentiel bonus inclus."
+        },
+        {
+          "name": "Le Monde - départ de Bradley Barcola à Liverpool",
+          "url": "https://www.lemonde.fr/sport/article/2026/08/31/bradley-barcola-quitte-le-psg-pour-liverpool-nouvelle-transaction-record-pour-le-depart-d-un-joueur-de-ligue-1-a-l-etranger_6762551_3242.html",
+          "note": "Contexte du transfert de Barcola et ordre de grandeur bonus compris."
+        },
+        {
+          "name": "Liverpool FC - signature de Bradley Barcola",
+          "url": "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain/",
+          "note": "Officialisation club du transfert de Bradley Barcola."
+        },
+        {
+          "name": "PSG.fr - Ferran Torres rejoint le PSG",
+          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
+          "note": "Officialisation club de l'arrivée de Ferran Torres."
+        },
+        {
+          "name": "PSG.fr - Mika Godts s'engage avec le PSG",
+          "url": "https://www.psg.fr/content/mika-godts-sengage-avec-le-paris-saint-germain-psg-mercato-2026-2027",
+          "note": "Officialisation club de l'arrivée de Mika Godts."
+        },
+        {
+          "name": "Parisien 90 - transfert PSG",
+          "url": "/transfert-psg/",
+          "note": "Page pilier interne reliée aux mouvements et articles mercato."
+        },
+        {
+          "name": "Parisien 90 - mercato PSG",
+          "url": "/mercato-psg/",
+          "note": "Page pilier interne pour suivre les rumeurs, officialisations et bilans."
+        }
+      ]
+    },
     {
       "title": "Ronaldinho, Alex, Valdo, Sakho, Dembélé : cinq noms pour comprendre pourquoi le PSG reste impossible à ignorer",
       "category": "Mémoire PSG",

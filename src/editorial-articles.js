@@ -1,12 +1,143 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-11T10:45:00+02:00",
-  displayDate: "11 septembre 2026",
-  displayTime: "10h45",
+  updatedAt: "2026-09-17T20:35:00+02:00",
+  displayDate: "17 septembre 2026",
+  displayTime: "20h35",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "bilan-mercato-psg-ete-2026-arrivees-departs-solde",
+    title: "Bilan mercato PSG été 2026 : arrivées, départs, solde financier et vraie lecture sportive",
+    description: "Dossier long format sur le bilan du mercato été 2026 du PSG : arrivées, départs, montants hors bonus, recettes, dépenses, solde et analyse sportive.",
+    deck: "Paris a vendu comme jamais, racheté vite et changé de visage offensif. Le mercato 2026 du PSG se lit en deux chiffres : 152 M€ d'achats hors bonus, 334,3 M€ de ventes hors bonus, soit un solde positif estimé à 182,3 M€ avant variables.",
+    category: "Mercato PSG",
+    angle: "Bilan financier vérifié",
+    date: "2026-09-17",
+    dateLabel: "17 septembre 2026",
+    time: "20:35",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Parc des Princes de nuit pour un dossier sur le bilan du mercato PSG été 2026",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: [
+      "bilan mercato PSG 2026",
+      "mercato PSG été 2026",
+      "transfert PSG 2026",
+      "arrivées PSG 2026",
+      "départs PSG 2026",
+      "solde mercato PSG",
+      "Barcola Liverpool",
+      "Akliouche PSG",
+      "Ferran Torres PSG",
+      "Kolo Muani Juventus",
+      "Ibrahim Mbaye Aston Villa"
+    ],
+    sections: [
+      {
+        heading: "Le chiffre froid : Paris finit l'été avec une balance largement positive",
+        paragraphs: [
+          "Le mercato d'été 2026 du PSG n'a pas seulement été agité. Il a été brutalement rentable. D'après le tableau récapitulatif publié par CulturePSG après la fermeture du marché, Paris totalise 152 M€ d'achats hors bonus et 334,3 M€ de ventes hors bonus. Le calcul est simple : le solde hors bonus ressort à +182,3 M€.",
+          "Ce chiffre doit être lu avec méthode. Les clubs communiquent rarement tous les montants, et les bonus peuvent transformer le total final. C'est pourquoi Parisien 90 sépare le bilan hors bonus, plus prudent, et le scénario bonus inclus repris par plusieurs médias, où les recettes parisiennes approchent environ 370 M€ et le solde positif environ 190 M€."
+        ]
+      },
+      {
+        heading: "Arrivées PSG été 2026 : 152 M€ hors bonus pour reconstruire l'attaque",
+        paragraphs: [
+          "Le tableau des arrivées place Maghnes Akliouche en tête des investissements, avec un transfert estimé à 50 M€ depuis Monaco. Ferran Torres suit à 48,5 M€ depuis le FC Barcelone, puis Mika Godts à 45 M€ depuis l'Ajax. Lucas Digne complète les achats principaux avec 7 M€ depuis Aston Villa, tandis que Khalil Ayari est évalué à 1,5 M€ et Alessandro Longoni arrive libre.",
+          "Le sens sportif est limpide : Paris perd du volume offensif, mais répond avec trois profils capables d'ouvrir plusieurs portes. Akliouche ajoute de la création intérieure, Ferran Torres donne une solution de finition et de mobilité, Godts apporte percussion et projection. Digne, lui, ne fait pas rêver le marché, mais il donne une doublure crédible à gauche. Ce n'est pas le mercato du poster, c'est le mercato de la rotation."
+        ]
+      },
+      {
+        heading: "Départs PSG été 2026 : Barcola, Ramos, Mbaye, Lee et Kolo Muani font exploser les recettes",
+        paragraphs: [
+          "Le moteur du bilan, ce sont les ventes. Bradley Barcola rejoint Liverpool pour 125 M€ hors bonus selon CulturePSG, avec une opération pouvant atteindre 145 M€ bonus compris selon plusieurs médias. Gonçalo Ramos est compté à 74 M€, Ibrahim Mbaye à 55 M€, Kang-in Lee à 35 M€, Randal Kolo Muani à 41,2 M€ et Noham Kamara à 4,1 M€.",
+          "La photographie est spectaculaire : Paris vend cher, parfois très cher, et transforme un été de départs lourds en opération financière positive. Mais le vrai débat commence là. Une balance positive ne marque pas de buts. Barcola, Ramos, Lee, Kolo Muani et Mbaye représentaient du volume, de la profondeur, des statuts différents et des solutions de match. Le PSG gagne en marge financière ; il doit maintenant prouver qu'il n'a pas perdu trop de variété."
+        ]
+      },
+      {
+        heading: "Tableau financier : deux lectures, une prudente et une maximale",
+        paragraphs: [
+          "Lecture prudente, hors bonus : achats estimés à 152 M€, ventes estimées à 334,3 M€, solde positif de +182,3 M€. C'est le chiffre le plus propre à retenir pour une lecture rigoureuse, car il s'appuie sur des montants fixes ou présentés hors bonus.",
+          "Lecture potentielle, bonus inclus : plusieurs synthèses publiques évoquent près de 180 M€ investis et environ 370 M€ de ventes. Cette lecture donne un solde proche de +190 M€, mais elle dépend de variables, de bonus atteignables et parfois d'estimations médias. Elle doit donc être présentée comme un ordre de grandeur, pas comme une certitude comptable."
+        ]
+      },
+      {
+        heading: "Le dossier Barcola : record financier, cicatrice sportive",
+        paragraphs: [
+          "Le départ de Bradley Barcola est le symbole de l'été. Liverpool officialise l'arrivée du joueur le 31 août 2026, et Le Monde rapporte une opération autour de 145 M€ bonus compris selon les chiffres évoqués par les médias français et britanniques. Financièrement, c'est un coup de force. Sportivement, c'est une perte qui change le visage du couloir offensif.",
+          "Paris peut défendre l'opération : vendre un ailier à ce niveau de valorisation, après l'avoir acheté bien moins cher en 2023, c'est une création de valeur massive. Mais le supporter a aussi le droit de tiquer. Barcola n'était pas seulement une ligne de bilan. Il portait une accélération, une identité française, une capacité à faire reculer un bloc. Le PSG a encaissé. Reste à savoir s'il a remplacé l'émotion autant que les minutes."
+        ]
+      },
+      {
+        heading: "Le point sensible : un mercato riche, mais pas sans risque",
+        paragraphs: [
+          "La tentation serait de conclure que Paris a réussi un mercato parfait parce que le solde est énorme. Ce serait trop facile. Le PSG 2026 a vendu plusieurs attaquants ou milieux offensifs capables de peser dans une saison longue. Il a aussi ajouté des joueurs forts, mais qui doivent apprendre vite les exigences de Luis Enrique.",
+          "La vraie question n'est donc pas seulement financière. Elle est sportive : le PSG a-t-il mieux équilibré son effectif ou simplement renouvelé son attaque à grande vitesse ? Les premières semaines diront si Akliouche, Ferran Torres et Godts peuvent absorber le poids laissé par Barcola, Ramos, Lee, Kolo Muani et Mbaye. Le bilan comptable est brillant. Le verdict sportif, lui, devra attendre les grands matchs."
+        ]
+      },
+      {
+        heading: "Méthode Parisien 90 : ce qui est compté, ce qui reste à confirmer",
+        paragraphs: [
+          "Dans ce dossier, Parisien 90 compte comme mouvements financiers structurants les opérations définitives publiées dans les tableaux et synthèses de référence. Les prêts, retours de prêt, résiliations et départs libres sont mentionnés dans l'analyse, mais ne gonflent pas artificiellement le solde quand aucun montant fiable n'est communiqué.",
+          "Les montants cités ne sont pas des comptes certifiés du club. Ils sont des estimations de marché sourcées, utiles pour lire le rapport de force du mercato. La rigueur consiste à dire ce que l'on sait, ce que l'on estime, et ce que seuls les clubs ou les documents comptables pourraient confirmer définitivement."
+        ]
+      },
+      {
+        heading: "La conclusion : Paris a vendu comme un géant, il doit maintenant jouer comme tel",
+        paragraphs: [
+          "Le PSG sort de l'été 2026 avec une image rare : celle d'un club capable d'attirer, mais aussi de vendre très haut. Pendant longtemps, Paris a été caricaturé comme un acheteur sans sortie. Ce mercato raconte autre chose : une puissance qui sait transformer ses actifs, réduire son exposition et remodeler son effectif sans paniquer.",
+          "Mais le football n'est pas une feuille Excel. Une vente record devient géniale si l'équipe avance. Elle devient une blessure si le terrain regrette trop vite le joueur parti. Voilà pourquoi ce bilan restera l'un des grands dossiers de la saison : le PSG a gagné l'été financier. Il doit maintenant gagner l'automne sportif."
+        ]
+      }
+    ],
+    faq: [
+      {
+        question: "Quel est le solde du mercato été 2026 du PSG ?",
+        answer: "Sur la base hors bonus publiée par CulturePSG, le PSG affiche 152 M€ d'achats et 334,3 M€ de ventes, soit un solde positif estimé à +182,3 M€. Bonus inclus, plusieurs médias évoquent un solde proche de +190 M€, à traiter comme un ordre de grandeur."
+      },
+      {
+        question: "Quelle est la plus grosse vente du PSG pendant l'été 2026 ?",
+        answer: "Bradley Barcola à Liverpool est la vente majeure de l'été, évaluée à 125 M€ hors bonus par CulturePSG et jusqu'à environ 145 M€ bonus compris selon plusieurs médias."
+      },
+      {
+        question: "Quelles sont les principales arrivées du PSG en 2026 ?",
+        answer: "Les principales arrivées sont Maghnes Akliouche, Ferran Torres, Mika Godts, Lucas Digne, Khalil Ayari et Alessandro Longoni, avec un total d'achats estimé à 152 M€ hors bonus."
+      },
+      {
+        question: "Pourquoi distinguer hors bonus et bonus inclus ?",
+        answer: "Parce que les bonus dépendent de conditions sportives ou contractuelles qui ne sont pas toujours publiques. Le hors bonus donne une base prudente ; le bonus inclus donne un potentiel financier."
+      },
+      {
+        question: "Cet article reprend-il les tableaux ou textes des médias sources ?",
+        answer: "Non. Les montants et officialisations sont cités comme faits sourcés ; l'analyse, la structure, les calculs et la rédaction sont originaux Parisien 90."
+      }
+    ],
+    sources: [
+      { name: "CulturePSG - tableau mercato PSG été 2026", url: "https://www.culturepsg.com/bg/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647", note: "Tableau détaillé des arrivées et départs, montants hors bonus et total achats/ventes." },
+      { name: "Sport.fr - bilan mercato PSG 2026", url: "https://www.sport.fr/football/psg-barcola-vendu-145-me-akliouche-torres-le-bilan-dun-mercato-historique-1478745.shtm", note: "Synthèse des dépenses, recettes et solde potentiel bonus inclus." },
+      { name: "Le Monde - départ de Bradley Barcola à Liverpool", url: "https://www.lemonde.fr/sport/article/2026/08/31/bradley-barcola-quitte-le-psg-pour-liverpool-nouvelle-transaction-record-pour-le-depart-d-un-joueur-de-ligue-1-a-l-etranger_6762551_3242.html", note: "Contexte du transfert de Barcola et ordre de grandeur bonus compris." },
+      { name: "Liverpool FC - signature de Bradley Barcola", url: "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain/", note: "Officialisation club du transfert de Bradley Barcola." },
+      { name: "PSG.fr - Ferran Torres rejoint le PSG", url: "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027", note: "Officialisation club de l'arrivée de Ferran Torres." },
+      { name: "PSG.fr - Mika Godts s'engage avec le PSG", url: "https://www.psg.fr/content/mika-godts-sengage-avec-le-paris-saint-germain-psg-mercato-2026-2027", note: "Officialisation club de l'arrivée de Mika Godts." },
+      { name: "Parisien 90 - transfert PSG", url: "/transfert-psg/", note: "Page pilier interne reliée aux mouvements et articles mercato." },
+      { name: "Parisien 90 - mercato PSG", url: "/mercato-psg/", note: "Page pilier interne pour suivre les rumeurs, officialisations et bilans." }
+    ],
+    internalLinks: [
+      { label: "Transfert PSG", url: "/transfert-psg/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Barcola à Liverpool", url: "/news/bradley-barcola-liverpool-transfert-officiel-aout-2026/" },
+      { label: "Ibrahim Mbaye à Aston Villa", url: "/news/ibrahim-mbaye-aston-villa-transfert-officiel-septembre-2026/" },
+      { label: "Kolo Muani à la Juventus", url: "/news/kolo-muani-juventus-transfert-definitif-officiel/" },
+      { label: "Ferran Torres PSG", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Mika Godts PSG", url: "/joueurs-psg/mika-godts/" },
+      { label: "Maghnes Akliouche PSG", url: "/joueurs-psg/maghnes-akliouche/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" }
+    ]
+  },
   {
     id: "ronaldinho-alex-valdo-sakho-dembele-psg-memoire-presente",
     title: "Ronaldinho, Alex, Valdo, Sakho, Dembélé : cinq noms pour comprendre pourquoi le PSG reste impossible à ignorer",
