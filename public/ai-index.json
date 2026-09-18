@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-17T16:00:00+02:00",
-    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 114 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-17T20:17:00+02:00",
+    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 115 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt ; Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt",
+      "category": "Féminines",
+      "dateTime": "2026-09-17T20:17:00+02:00",
+      "url": "https://parisien90.com/news/ornella-graziani-pret-juventus-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/ornella-graziani-rejoint-la-juventus-en-pret-paris-saint-germain-feminin-2026-2027",
+      "reliability": "Officiel"
+    },
     {
       "title": "Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG",
       "category": "Sélections",
@@ -470,15 +479,6 @@
       "source": "Le Parisien",
       "sourceUrl": "https://www.leparisien.fr/sports/football/psg/mercato-psg-ibrahim-mbaye-a-aston-villa-cest-comme-si-cetait-fait-28-08-2026-VAUKMRWWCJFEBFAA66QVOAPDNI.php",
       "reliability": "Très fort — accord rapporté, officialisation attendue"
-    },
-    {
-      "title": "Lille-PSG : Paris revient de l'enfer en quatre minutes",
-      "category": "Match",
-      "dateTime": "2026-08-28T23:00:00+02:00",
-      "url": "https://parisien90.com/news/lille-psg-nul-remontee-vitinha-marquinhos-aout-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/losc-vs-paris-2026-08-28",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -2263,7 +2263,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-17T16:00:00+02:00",
+    "updatedAt": "2026-09-17T20:17:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

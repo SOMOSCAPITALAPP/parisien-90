@@ -323,10 +323,10 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-17T16:00:00+02:00",
+  updatedAt: "2026-09-17T20:17:00+02:00",
   edition: "Fil PSG du 17 septembre 2026",
   displayDate: "17 septembre 2026",
-  displayTime: "16h00",
+  displayTime: "20h17",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -334,6 +334,7 @@ const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, da
 
 export const newsFeed = [
   ...withNewsDate("2026-09-17", "17 septembre 2026", [
+  { id: "ornella-graziani-pret-juventus-septembre-2026", time: "20:17", category: "Féminines", title: "Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt", summary: "Le PSG a officialisé le prêt d'Ornella Graziani à la Juventus pour la saison. Formée au club depuis 2022, l'attaquante de 19 ans rejoint Turin après avoir déjà disputé 18 matches avec l'équipe première, pour un but et deux passes décisives. Championne de France U19 en 2025 et internationale française chez les jeunes, elle poursuit sa progression dans un environnement européen exigeant : une sortie temporaire, pas un départ définitif.", source: "PSG.fr", url: "https://www.psg.fr/content/ornella-graziani-rejoint-la-juventus-en-pret-paris-saint-germain-feminin-2026-2027", reliability: "Officiel", viral: 84 },
   { id: "dro-fernandez-espagne-u19-convocation-marbella-septembre-2026", time: "16:00", category: "Sélections", title: "Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG", summary: "Dro Fernández figure dans la première liste de l'Espagne U19 pour le rassemblement de Marbella, du 21 au 24 septembre. La fédération espagnole a retenu 26 joueurs pour quatre jours de séances, d'échanges techniques et de matches d'entraînement. Pour le milieu parisien, déjà aperçu dans la rotation de Luis Enrique, cette convocation ouvre une nouvelle étape internationale sans le priver du Classique : le stage débute le lendemain d'OM-PSG.", source: "RFEF", url: "https://rfef.es/es/noticias/paco-gallardo-da-una-lista-de-26-jugadores-para-los-entrenamientos-de-marbella", reliability: "Officiel", viral: 82 },
   { id: "achraf-hakimi-maroc-convocation-gabon-lesotho-ghana-septembre-2026", time: "14:22", category: "Sélections", title: "Hakimi convoqué par le Maroc, mais suspendu pour le premier match", summary: "La Fédération royale marocaine a retenu Achraf Hakimi pour les trois rendez-vous de fin septembre et début octobre : Gabon, Lesotho puis Ghana. Le latéral parisien ne pourra toutefois pas jouer contre le Gabon le 25 septembre, car il doit purger une suspension CAF. Sa présence dans la liste ne tranche pas sa disponibilité immédiate avec le PSG : blessé à la cuisse droite à Brest, il reste attendu sur le prochain point médical parisien avant le Classique.", source: "Fédération royale marocaine de football / PSG.fr", url: "https://frmf.ma/fr/articles/m-mohamed-ouahbi-annonce-une-liste-de-29-joueurs-en-prevision-des-matchs-face-au-gabon-au-lesotho-et-au-ghana", reliability: "Officiel", viral: 88 },
   ]),

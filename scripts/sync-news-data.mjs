@@ -2835,7 +2835,7 @@ const llmsFullPath = new URL("llms-full.txt", publicDir);
 const llmsFull = await readFile(llmsFullPath, "utf8");
 await writeFile(
   llmsFullPath,
-  llmsFull.replace(
+  llmsFull.replace(/\r\n/g, "\n").replace(
     /## (Signal de fraîcheur|Repère éditorial)[\s\S]*?\n\nLe contenu est organisé/,
     `## Repère éditorial — ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris)\n\n${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.\n\nLe contenu est organisé`
   ),
