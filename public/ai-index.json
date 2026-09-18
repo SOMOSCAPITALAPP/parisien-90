@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-17T16:00:00+02:00",
-    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 113 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu ; Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 114 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte ; Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -217,6 +217,15 @@
       "url": "https://parisien90.com/news/dro-fernandez-espagne-u19-convocation-marbella-septembre-2026/",
       "source": "RFEF",
       "sourceUrl": "https://rfef.es/es/noticias/paco-gallardo-da-una-lista-de-26-jugadores-para-los-entrenamientos-de-marbella",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Hakimi convoqué par le Maroc, mais suspendu pour le premier match",
+      "category": "Sélections",
+      "dateTime": "2026-09-17T14:22:00+02:00",
+      "url": "https://parisien90.com/news/achraf-hakimi-maroc-convocation-gabon-lesotho-ghana-septembre-2026/",
+      "source": "Fédération royale marocaine de football / PSG.fr",
+      "sourceUrl": "https://frmf.ma/fr/articles/m-mohamed-ouahbi-annonce-une-liste-de-29-joueurs-en-prevision-des-matchs-face-au-gabon-au-lesotho-et-au-ghana",
       "reliability": "Officiel"
     },
     {
@@ -470,15 +479,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/losc-vs-paris-2026-08-28",
       "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Rennes : 150 000 € d'amende, le match retour confirmé au Parc",
-      "category": "Calendrier",
-      "dateTime": "2026-08-28T18:11:00+02:00",
-      "url": "https://parisien90.com/news/lfp-amende-psg-inversion-retour-rennes-aout-2026/",
-      "source": "LFP",
-      "sourceUrl": "https://www.lfp.fr/article/decisions-de-la-commission-des-competitions-du-28-aout-2026",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -522,8 +522,8 @@
       "role": "Latéral droit offensif",
       "status": "Soins — légère lésion à la cuisse droite",
       "url": "https://parisien90.com/joueurs-psg/achraf-hakimi/",
-      "updatedAt": "14 septembre 2026",
-      "source": "PSG.fr — communiqué médical",
+      "updatedAt": "17 septembre 2026",
+      "source": "PSG.fr / Fédération royale marocaine de football",
       "image": null
     },
     {
