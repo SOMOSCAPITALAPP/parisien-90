@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-17T20:17:00+02:00",
-  edition: "Fil PSG du 17 septembre 2026",
-  displayDate: "17 septembre 2026",
-  displayTime: "20h17",
+  updatedAt: "2026-09-18T22:59:00+02:00",
+  edition: "Fil PSG du 18 septembre 2026",
+  displayDate: "18 septembre 2026",
+  displayTime: "22h59",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-18", "18 septembre 2026", [
+  { id: "psg-feminin-nantes-victoire-kanjinga-temps-additionnel-septembre-2026", time: "22:59", category: "Féminines", title: "PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze", summary: "Les Parisiennes ont battu Nantes 1-0 au Campus PSG, au bout d'un scénario renversant. Réduites à dix après l'exclusion de Lafontaine, puis à neuf dans le temps additionnel, elles ont trouvé la faille par Merveille Kanjinga à la 90e+6. Le calendrier officiel du club confirme ce troisième succès consécutif en Première Ligue ; une victoire au caractère précieux avant le déplacement européen au Real Madrid.", source: "PSG.fr / CulturePSG", url: "https://www.psg.fr/football-feminin/calendrier", reliability: "Officiel — résultat, feuille de match recoupée", viral: 94 },
+  ]),
   ...withNewsDate("2026-09-17", "17 septembre 2026", [
   { id: "ornella-graziani-pret-juventus-septembre-2026", time: "20:17", category: "Féminines", title: "Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt", summary: "Le PSG a officialisé le prêt d'Ornella Graziani à la Juventus pour la saison. Formée au club depuis 2022, l'attaquante de 19 ans rejoint Turin après avoir déjà disputé 18 matches avec l'équipe première, pour un but et deux passes décisives. Championne de France U19 en 2025 et internationale française chez les jeunes, elle poursuit sa progression dans un environnement européen exigeant : une sortie temporaire, pas un départ définitif.", source: "PSG.fr", url: "https://www.psg.fr/content/ornella-graziani-rejoint-la-juventus-en-pret-paris-saint-germain-feminin-2026-2027", reliability: "Officiel", viral: 84 },
   { id: "dro-fernandez-espagne-u19-convocation-marbella-septembre-2026", time: "16:00", category: "Sélections", title: "Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG", summary: "Dro Fernández figure dans la première liste de l'Espagne U19 pour le rassemblement de Marbella, du 21 au 24 septembre. La fédération espagnole a retenu 26 joueurs pour quatre jours de séances, d'échanges techniques et de matches d'entraînement. Pour le milieu parisien, déjà aperçu dans la rotation de Luis Enrique, cette convocation ouvre une nouvelle étape internationale sans le priver du Classique : le stage débute le lendemain d'OM-PSG.", source: "RFEF", url: "https://rfef.es/es/noticias/paco-gallardo-da-una-lista-de-26-jugadores-para-los-entrenamientos-de-marbella", reliability: "Officiel", viral: 82 },

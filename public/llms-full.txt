@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site couvre clairement les grands sujets PSG : transfert PSG, mercato PSG, actualité PSG, viral PSG, buzz PSG, débat PSG, vidéos PSG, YouTube PSG, chaînes PSG, calendrier PSG, calendrier PSG 2026-2027, joueurs PSG, effectif PSG, fiches joueurs, anciens joueurs PSG, histoire PSG, records PSG, meilleur buteur PSG, joueur le plus capé PSG, Brésiliens PSG et Argentins PSG.
 
-## Repère éditorial — 17 septembre 2026, 20h17 (Europe/Paris)
+## Repère éditorial — 18 septembre 2026, 22h59 (Europe/Paris)
 
-Fil PSG du 17 septembre 2026. Fil public : 115 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt ; Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Fil PSG du 18 septembre 2026. Fil public : 116 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt ; Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en grandes rubriques, avec titres explicites, descriptions, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et page vidéos PSG/YouTube.
 

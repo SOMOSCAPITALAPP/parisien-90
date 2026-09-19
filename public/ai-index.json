@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-17T20:17:00+02:00",
-    "freshnessNote": "Fil PSG du 17 septembre 2026. Fil public : 115 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt ; Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise ; Brest-PSG : Ferran libère Paris, Safonov ferme la porte. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-18T22:59:00+02:00",
+    "freshnessNote": "Fil PSG du 18 septembre 2026. Fil public : 116 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt ; Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze",
+      "category": "Féminines",
+      "dateTime": "2026-09-18T22:59:00+02:00",
+      "url": "https://parisien90.com/news/psg-feminin-nantes-victoire-kanjinga-temps-additionnel-septembre-2026/",
+      "source": "PSG.fr / CulturePSG",
+      "sourceUrl": "https://www.psg.fr/football-feminin/calendrier",
+      "reliability": "Officiel — résultat, feuille de match recoupée"
+    },
     {
       "title": "Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt",
       "category": "Féminines",
@@ -469,15 +478,6 @@
       "url": "https://parisien90.com/news/bradley-barcola-liverpool-accord-annonce-aout-2026/",
       "source": "Le Parisien",
       "sourceUrl": "https://www.leparisien.fr/sports/football/psg/mercato-psg-paris-et-liverpool-daccord-pour-le-transfert-de-bradley-barcola-estime-a-pres-de-145-millions-deuros-29-08-2026-SOKUTKJOZFF7LF67DITDKTZR5A.php",
-      "reliability": "Très fort — accord rapporté, officialisation attendue"
-    },
-    {
-      "title": "Ibrahim Mbaye vers Aston Villa : accord annoncé, signature encore attendue",
-      "category": "Mercato",
-      "dateTime": "2026-08-28T23:46:00+02:00",
-      "url": "https://parisien90.com/news/ibrahim-mbaye-aston-villa-accord-annonce-aout-2026/",
-      "source": "Le Parisien",
-      "sourceUrl": "https://www.leparisien.fr/sports/football/psg/mercato-psg-ibrahim-mbaye-a-aston-villa-cest-comme-si-cetait-fait-28-08-2026-VAUKMRWWCJFEBFAA66QVOAPDNI.php",
       "reliability": "Très fort — accord rapporté, officialisation attendue"
     }
   ],
@@ -2263,7 +2263,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-17T20:17:00+02:00",
+    "updatedAt": "2026-09-18T22:59:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
