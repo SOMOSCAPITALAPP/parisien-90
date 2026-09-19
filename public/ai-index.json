@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-18T22:59:00+02:00",
-    "freshnessNote": "Fil PSG du 18 septembre 2026. Fil public : 116 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt ; Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG ; Hakimi convoqué par le Maroc, mais suspendu pour le premier match ; Hakimi : légère lésion à la cuisse droite, le PSG temporise. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 18 septembre 2026. Fil public : 119 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane ; Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique ; Luis Enrique avant OM-PSG : contrôler les émotions, prendre les trois points ; Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -218,6 +218,33 @@
       "source": "PSG.fr / CulturePSG",
       "sourceUrl": "https://www.psg.fr/football-feminin/calendrier",
       "reliability": "Officiel — résultat, feuille de match recoupée"
+    },
+    {
+      "title": "Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane",
+      "category": "Sélections",
+      "dateTime": "2026-09-18T19:10:00+02:00",
+      "url": "https://parisien90.com/news/france-dembele-doue-zaire-emery-nations-league-septembre-2026/",
+      "source": "PSG.fr / FFF",
+      "sourceUrl": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique",
+      "category": "Groupe",
+      "dateTime": "2026-09-18T15:00:00+02:00",
+      "url": "https://parisien90.com/news/achraf-hakimi-reprise-individuelle-classique-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/point-medical-concernant-achraf-hakimi-psg-news-2026-2027",
+      "reliability": "Officiel — reprise individuelle"
+    },
+    {
+      "title": "Luis Enrique avant OM-PSG : contrôler les émotions, prendre les trois points",
+      "category": "Match",
+      "dateTime": "2026-09-18T13:00:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-classique-marseille-psg-conference-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-toujours-beaucoup-de-motivation-avant-un-classique-psg-conference-de-presse-classique-om-paris-saint-germain-marseille-ligue-1-2026-2027",
+      "reliability": "Officiel — conférence"
     },
     {
       "title": "Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt",
@@ -452,33 +479,6 @@
       "source": "PSG / Liverpool FC",
       "sourceUrl": "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain",
       "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Monaco : le coup d'envoi est fixé à 21h05 au Parc",
-      "category": "Calendrier",
-      "dateTime": "2026-08-31T11:05:00+02:00",
-      "url": "https://parisien90.com/news/psg-monaco-coup-envoi-21h05-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-l-equipe-premiere-du-31-aout-au-6-septembre-2026",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Ligue des champions : le calendrier du PSG est fixé, Barça au Parc le 20 octobre",
-      "category": "Europe",
-      "dateTime": "2026-08-29T17:56:00+02:00",
-      "url": "https://parisien90.com/news/calendrier-psg-ligue-champions-phase-ligue-2026-2027/",
-      "source": "PSG.fr / UEFA",
-      "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Barcola-Liverpool : accord annoncé à 145 M€, mais pas encore d'officialisation",
-      "category": "Mercato",
-      "dateTime": "2026-08-29T11:05:00+02:00",
-      "url": "https://parisien90.com/news/bradley-barcola-liverpool-accord-annonce-aout-2026/",
-      "source": "Le Parisien",
-      "sourceUrl": "https://www.leparisien.fr/sports/football/psg/mercato-psg-paris-et-liverpool-daccord-pour-le-transfert-de-bradley-barcola-estime-a-pres-de-145-millions-deuros-29-08-2026-SOKUTKJOZFF7LF67DITDKTZR5A.php",
-      "reliability": "Très fort — accord rapporté, officialisation attendue"
     }
   ],
   "people": [
@@ -520,9 +520,9 @@
       "aliases": [],
       "type": "player",
       "role": "Latéral droit offensif",
-      "status": "Soins — légère lésion à la cuisse droite",
+      "status": "Reprise individuelle sur le terrain — cuisse droite",
       "url": "https://parisien90.com/joueurs-psg/achraf-hakimi/",
-      "updatedAt": "17 septembre 2026",
+      "updatedAt": "18 septembre 2026",
       "source": "PSG.fr / Fédération royale marocaine de football",
       "image": null
     },
