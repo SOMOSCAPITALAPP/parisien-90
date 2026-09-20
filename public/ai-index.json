@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-19T11:34:00+02:00",
-    "freshnessNote": "Fil PSG du 19 septembre 2026. Fil public : 120 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane ; Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique ; Luis Enrique avant OM-PSG : contrôler les émotions, prendre les trois points. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-20T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 20 septembre 2026. Fil public : 121 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique ; Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane ; Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique",
+      "category": "Groupe",
+      "dateTime": "2026-09-20T12:00:00+02:00",
+      "url": "https://parisien90.com/news/groupe-psg-marseille-classique-hakimi-mouak-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/paris-squad-for-le-classique-against-marseille-psg-om-ligue-1-2026-2027",
+      "reliability": "Officiel"
+    },
     {
       "title": "Avant OM-PSG, le Campus a donné de la voix à Paris",
       "category": "Supporters",
@@ -470,15 +479,6 @@
       "source": "CulturePSG / Record / A Bola / Fabrizio Romano",
       "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-a-boucle-un-dernier-depart/60559",
       "reliability": "Très fort — résiliation rapportée, communiqué PSG attendu"
-    },
-    {
-      "title": "Ibrahim Mbaye à Aston Villa : le départ du Titi est officiel",
-      "category": "Mercato",
-      "dateTime": "2026-09-01T12:00:00+02:00",
-      "url": "https://parisien90.com/news/ibrahim-mbaye-aston-villa-transfert-officiel-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/en/content/ibrahim-mbaye-signs-for-aston-villa-psg-club-news-2026-2027",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -2263,7 +2263,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-19T11:34:00+02:00",
+    "updatedAt": "2026-09-20T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

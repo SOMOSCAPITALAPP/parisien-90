@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-19T11:34:00+02:00",
-  edition: "Fil PSG du 19 septembre 2026",
-  displayDate: "19 septembre 2026",
-  displayTime: "11h34",
+  updatedAt: "2026-09-20T12:00:00+02:00",
+  edition: "Fil PSG du 20 septembre 2026",
+  displayDate: "20 septembre 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-20", "20 septembre 2026", [
+  { id: "groupe-psg-marseille-classique-hakimi-mouak-septembre-2026", time: "12:00", category: "Groupe", title: "OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique", summary: "Le PSG a dévoilé les 21 joueurs retenus par Luis Enrique pour le déplacement à Marseille, ce dimanche à 20h45. Achraf Hakimi n'en fait pas partie, confirmation que le latéral droit n'est pas encore disponible après sa reprise individuelle. Adam Mouak, milieu de 18 ans, est en revanche convoqué avec le groupe professionnel, aux côtés de Dembélé, Doué, Kvaratskhelia et du duo Chevalier-Safonov. Le onze, lui, ne sera connu qu'à l'approche du coup d'envoi.", source: "PSG.fr", url: "https://www.psg.fr/en/content/paris-squad-for-le-classique-against-marseille-psg-om-ligue-1-2026-2027", reliability: "Officiel", viral: 97 },
+  ]),
   ...withNewsDate("2026-09-19", "19 septembre 2026", [
   { id: "supporters-campus-dernier-entrainement-om-psg-septembre-2026", time: "11:34", category: "Supporters", title: "Avant OM-PSG, le Campus a donné de la voix à Paris", summary: "À la veille du Classique, le PSG a ouvert sa dernière séance au Campus à de nombreux supporters venus pousser le groupe avant le départ pour Marseille. Chants, encouragements et présence de Nasser Al-Khelaïfi : Luis Enrique et ses joueurs ont préparé le rendez-vous dans une ambiance déjà électrique. Des enfants invités par PSG for Communities ont aussi échangé avec les Parisiens après l'entraînement. Un soutien à distance du Vélodrome, où les Rouge et Bleu devront désormais transformer cette énergie en résultat.", source: "PSG.fr", url: "https://www.psg.fr/content/les-supporters-au-campus-avant-le-classique-psg-ligue-1-marseille-paris-saint-germain-2026-2027/", reliability: "Officiel", viral: 92 },
   ]),
