@@ -5,6 +5,7 @@ dist/
 .env.*
 !.env.example
 npm-debug.log*
+data/daily-editorial-plan.json
 
 .vercel
 .env*

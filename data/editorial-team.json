@@ -1,0 +1,78 @@
+{
+  "updatedAt": "2026-09-20T17:25:00+02:00",
+  "dailyMinimumArticles": 3,
+  "languagePolicy": {
+    "fr": "Les contenus France sont rediges en francais media, sans mention publique de strategie SEO.",
+    "ptBR": "Les contenus destines au Bresil sont rediges integralement en portugais du Bresil."
+  },
+  "legalPolicy": [
+    "Ne jamais copier un article, une image, une video, un post social ou une base de donnees tiers.",
+    "Toujours citer et lier les sources factuelles utilisees.",
+    "Classer chaque signal : officiel, fort, rumeur solide, a suivre, analyse ou opinion.",
+    "Les reseaux sociaux sont utilises via API officielle, embed autorise, lien direct ou validation manuelle.",
+    "Les contenus payants servent au mieux de signal a verifier, pas de matiere a reprendre."
+  ],
+  "journalists": [
+    {
+      "id": "rumeurs-psg",
+      "name": "Desk Rumeurs PSG",
+      "beat": "rumeurs, signaux faibles, agents, bruits de vestiaire",
+      "tone": "vif, prudent, clair sur le niveau de fiabilite",
+      "priorityQueries": ["rumeur PSG", "PSG rumeur", "Paris Saint-Germain rumeur", "PSG today rumor"],
+      "articleTypes": ["signal court recoupe", "decryptage rumeur", "thermometre des sources"]
+    },
+    {
+      "id": "mercato-psg",
+      "name": "Desk Mercato PSG",
+      "beat": "transferts, contrats, prets, ventes, clauses, solde financier",
+      "tone": "rigoureux, chiffres separes entre officiel, estimation et bonus",
+      "priorityQueries": ["mercato PSG", "transfert PSG", "PSG mercato", "PSG transfert"],
+      "articleTypes": ["bilan chiffre", "fiche dossier joueur", "analyse impact effectif"]
+    },
+    {
+      "id": "joueurs-psg",
+      "name": "Desk Joueurs PSG",
+      "beat": "effectif actuel, blessures, temps de jeu, selections, fiches individuelles",
+      "tone": "proche terrain, utile aux supporters",
+      "priorityQueries": ["joueurs PSG", "effectif PSG", "Dembélé PSG", "Vitinha PSG", "João Neves PSG"],
+      "articleTypes": ["fiche joueur enrichie", "forme du moment", "comparaison de roles"]
+    },
+    {
+      "id": "anciens-joueurs-psg",
+      "name": "Desk Memoire PSG",
+      "beat": "anciens joueurs, stars mondiales, histoire, trajectoires actuelles",
+      "tone": "narratif, historique, documente",
+      "priorityQueries": ["Ronaldinho PSG", "Neymar PSG", "Messi PSG", "Mbappé PSG", "anciens joueurs PSG"],
+      "articleTypes": ["portrait long", "que devient-il", "heritage historique"]
+    },
+    {
+      "id": "economie-psg",
+      "name": "Desk Economie du PSG",
+      "beat": "finance, valorisation joueurs, sponsoring, billetterie, masse salariale publique",
+      "tone": "precis, pedagogique, sans extrapolation comptable abusive",
+      "priorityQueries": ["finances PSG", "budget PSG", "valorisation PSG", "revenus PSG"],
+      "articleTypes": ["analyse economique", "bilan de valeur", "lecture business"]
+    },
+    {
+      "id": "tactique-psg",
+      "name": "Desk Tactique PSG",
+      "beat": "systeme de jeu, pressing, roles, animations, duels de match",
+      "tone": "clair, visuel dans l'ecriture, accessible sans jargon excessif",
+      "priorityQueries": ["tactique PSG", "Luis Enrique tactique", "composition PSG", "analyse PSG"],
+      "articleTypes": ["analyse tactique", "avant-match", "apres-match structurel"]
+    },
+    {
+      "id": "entraineurs-psg",
+      "name": "Desk Entraineurs PSG",
+      "beat": "Luis Enrique, staff, anciens entraineurs, methodes, conferences",
+      "tone": "autorite calme, lecture de management sportif",
+      "priorityQueries": ["Luis Enrique PSG", "entraineur PSG", "staff PSG", "coach PSG"],
+      "articleTypes": ["conference analysee", "portrait staff", "comparaison historique"]
+    }
+  ],
+  "dailyRotation": [
+    ["mercato-psg", "joueurs-psg", "tactique-psg"],
+    ["rumeurs-psg", "anciens-joueurs-psg", "economie-psg"],
+    ["entraineurs-psg", "joueurs-psg", "mercato-psg"]
+  ]
+}
