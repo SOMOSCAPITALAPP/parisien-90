@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-18T22:59:00+02:00",
-  edition: "Fil PSG du 18 septembre 2026",
-  displayDate: "18 septembre 2026",
-  displayTime: "22h59",
+  updatedAt: "2026-09-19T11:34:00+02:00",
+  edition: "Fil PSG du 19 septembre 2026",
+  displayDate: "19 septembre 2026",
+  displayTime: "11h34",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-19", "19 septembre 2026", [
+  { id: "supporters-campus-dernier-entrainement-om-psg-septembre-2026", time: "11:34", category: "Supporters", title: "Avant OM-PSG, le Campus a donné de la voix à Paris", summary: "À la veille du Classique, le PSG a ouvert sa dernière séance au Campus à de nombreux supporters venus pousser le groupe avant le départ pour Marseille. Chants, encouragements et présence de Nasser Al-Khelaïfi : Luis Enrique et ses joueurs ont préparé le rendez-vous dans une ambiance déjà électrique. Des enfants invités par PSG for Communities ont aussi échangé avec les Parisiens après l'entraînement. Un soutien à distance du Vélodrome, où les Rouge et Bleu devront désormais transformer cette énergie en résultat.", source: "PSG.fr", url: "https://www.psg.fr/content/les-supporters-au-campus-avant-le-classique-psg-ligue-1-marseille-paris-saint-germain-2026-2027/", reliability: "Officiel", viral: 92 },
+  ]),
   ...withNewsDate("2026-09-18", "18 septembre 2026", [
   { id: "psg-feminin-nantes-victoire-kanjinga-temps-additionnel-septembre-2026", time: "22:59", category: "Féminines", title: "PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze", summary: "Les Parisiennes ont battu Nantes 1-0 au Campus PSG, au bout d'un scénario renversant. Réduites à dix après l'exclusion de Lafontaine, puis à neuf dans le temps additionnel, elles ont trouvé la faille par Merveille Kanjinga à la 90e+6. Le calendrier officiel du club confirme ce troisième succès consécutif en Première Ligue ; une victoire au caractère précieux avant le déplacement européen au Real Madrid.", source: "PSG.fr / CulturePSG", url: "https://www.psg.fr/football-feminin/calendrier", reliability: "Officiel — résultat, feuille de match recoupée", viral: 94 },
   { id: "france-dembele-doue-zaire-emery-nations-league-septembre-2026", time: "19:10", category: "Sélections", title: "Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane", summary: "Ousmane Dembélé, Désiré Doué et Warren Zaïre-Emery ont été appelés avec la France pour les quatre premières journées de Ligue des nations. Les Bleus commenceront en Turquie le 25 septembre, puis retrouveront la Belgique de Mika Godts le 28. Cette convocation officielle arrive après le Classique : elle confirme surtout la place des trois Parisiens dans le nouveau cycle tricolore.", source: "PSG.fr / FFF", url: "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027", reliability: "Officiel", viral: 91 },

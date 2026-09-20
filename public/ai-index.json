@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-18T22:59:00+02:00",
-    "freshnessNote": "Fil PSG du 18 septembre 2026. Fil public : 119 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane ; Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique ; Luis Enrique avant OM-PSG : contrôler les émotions, prendre les trois points ; Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-19T11:34:00+02:00",
+    "freshnessNote": "Fil PSG du 19 septembre 2026. Fil public : 120 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane ; Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique ; Luis Enrique avant OM-PSG : contrôler les émotions, prendre les trois points. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Avant OM-PSG, le Campus a donné de la voix à Paris",
+      "category": "Supporters",
+      "dateTime": "2026-09-19T11:34:00+02:00",
+      "url": "https://parisien90.com/news/supporters-campus-dernier-entrainement-om-psg-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/les-supporters-au-campus-avant-le-classique-psg-ligue-1-marseille-paris-saint-germain-2026-2027/",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze",
       "category": "Féminines",
@@ -469,15 +478,6 @@
       "url": "https://parisien90.com/news/ibrahim-mbaye-aston-villa-transfert-officiel-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/ibrahim-mbaye-signs-for-aston-villa-psg-club-news-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Barcola à Liverpool : le record de vente du PSG est officiel",
-      "category": "Mercato",
-      "dateTime": "2026-08-31T15:05:00+02:00",
-      "url": "https://parisien90.com/news/bradley-barcola-liverpool-transfert-officiel-aout-2026/",
-      "source": "PSG / Liverpool FC",
-      "sourceUrl": "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain",
       "reliability": "Officiel"
     }
   ],
@@ -2263,7 +2263,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-18T22:59:00+02:00",
+    "updatedAt": "2026-09-19T11:34:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
