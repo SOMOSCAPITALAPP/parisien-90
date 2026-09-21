@@ -1,12 +1,271 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-17T20:35:00+02:00",
-  displayDate: "17 septembre 2026",
-  displayTime: "20h35",
+  updatedAt: "2026-09-21T15:50:00+02:00",
+  displayDate: "21 septembre 2026",
+  displayTime: "15h50",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "luis-enrique-psg-classique-marseille-methode-2026",
+    title: "Luis Enrique au PSG : ce Classique gagné à Marseille valide-t-il sa méthode ?",
+    description: "Analyse de la méthode Luis Enrique après la victoire du PSG à Marseille le 20 septembre 2026 : ajustements, profondeur d'effectif, volume offensif et gestion du Classique.",
+    deck: "Paris n'a pas seulement gagné 2-1 au Vélodrome. Le PSG a produit 31 tirs, trouvé la faille grâce à un remplaçant et repris l'avantage deux minutes après l'égalisation. Une victoire qui raconte beaucoup de la méthode Luis Enrique, sans effacer toutes les questions.",
+    category: "Entraîneur PSG",
+    angle: "Analyse de méthode",
+    date: "2026-09-21",
+    dateLabel: "21 septembre 2026",
+    time: "15:50",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade éclairé pour une analyse de Luis Enrique après le Classique OM-PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Luis Enrique PSG", "tactique PSG", "OM PSG", "Classique PSG", "entraîneur PSG", "analyse PSG Marseille"],
+    sections: [
+      {
+        heading: "Les faits : Paris a insisté jusqu'à faire craquer Marseille",
+        paragraphs: [
+          "Le 20 septembre 2026, le Paris Saint-Germain a remporté le Classique 2-1 au CEPAC Vélodrome. Ferran Torres, entré à la 59e minute, a ouvert le score sept minutes plus tard sur un centre de Désiré Doué. Angel Gomes a égalisé à la 72e, mais Marquinhos a rendu l'avantage à Paris dès la 74e. Le direct officiel du club relève aussi 31 tirs parisiens, le plus haut total du PSG contre Marseille en Ligue 1 depuis le début du suivi statistique cité par PSG.fr. Voilà le socle factuel : domination territoriale, efficacité tardive et réaction immédiate après le seul but encaissé.",
+          "Ce scénario donne du poids au discours de Luis Enrique. Après la rencontre, l'entraîneur a insisté sur la difficulté d'un Classique à l'extérieur et sur une seconde période meilleure que la première. Il ne s'agit pas d'une victoire fluide de bout en bout. Paris a longtemps manqué de précision, puis a accéléré avec ses changements. La méthode ne se juge donc pas seulement au score final : elle se lit dans la capacité à maintenir la pression, à modifier les profils offensifs et à ne pas se désorganiser après l'égalisation marseillaise."
+        ]
+      },
+      {
+        heading: "Une première période utile, même sans but",
+        paragraphs: [
+          "Le 0-0 à la pause aurait pu nourrir l'impatience. Paris avait le ballon, attaquait les couloirs et trouvait régulièrement des positions de frappe, mais le geste final restait imparfait. Dembélé, Doué, Kvaratskhelia et Vitinha ont tous participé à cette usure. Luis Enrique n'a pas bouleversé son plan à la mi-temps. Il a demandé davantage de rythme et de qualité dans les derniers mètres, puis a attendu l'heure de jeu pour introduire Ferran. Cette patience est une caractéristique forte de son management : le premier plan doit fatiguer l'adversaire avant que le banc ne transforme le match.",
+          "Il serait pourtant excessif de transformer ce choix en coup parfait préparé à la minute près. Un entraîneur dépend aussi de l'exécution et Ferran a réussi une entrée remarquable. Mais la répétition des attaques parisiennes a rendu cette entrée possible. Marseille devait déjà défendre large, suivre les décrochages et protéger sa surface. Quand un avant-centre plus direct est arrivé, les espaces étaient plus difficiles à fermer. L'analyse tactique doit tenir les deux vérités ensemble : le collectif a préparé le terrain, puis le joueur a fait la différence."
+        ]
+      },
+      {
+        heading: "Ferran, Akliouche et le banc comme deuxième équipe",
+        paragraphs: [
+          "Luis Enrique refuse souvent l'idée d'un onze totalement figé. À Marseille, cette conception a pris une forme très concrète. Ferran remplace Kvaratskhelia et attaque immédiatement la zone du premier poteau. Akliouche remplace Fabián Ruiz et apporte un autre type de conduite entre les lignes. Godts et Beraldo entrent ensuite pour adapter la fin de match. Le banc n'est pas seulement une réserve destinée aux blessures ou aux dernières minutes : il devient une seconde vague avec des missions distinctes.",
+          "Cette gestion protège aussi le PSG d'une dépendance excessive à une seule star. Dembélé peut attirer les défenseurs sans être le buteur du soir. Doué peut créer le premier but sans monopoliser toutes les possessions. Marquinhos peut décider du match depuis une projection inattendue. Dans un effectif aussi dense, la difficulté sera de préserver l'adhésion de ceux qui commencent moins souvent. À court terme, le Classique valide la profondeur. Sur plusieurs mois, la méthode devra encore prouver qu'elle sait distribuer les rôles sans rendre la hiérarchie illisible."
+        ]
+      },
+      {
+        heading: "La réaction après le 1-1, vrai signal mental",
+        paragraphs: [
+          "Le passage le plus révélateur se situe entre la 72e et la 74e minute. Marseille égalise sur une transition qui expose la défense parisienne. Dans ce contexte et dans ce stade, beaucoup d'équipes auraient ralenti pour reprendre leurs esprits. Paris a fait l'inverse. Dembélé et Nuno Mendes ont combiné sur le côté gauche, le Portugais a centré et Marquinhos a suivi l'action jusqu'aux six mètres. Le capitaine a dû s'y reprendre à deux fois, mais le ballon est entré. Deux minutes ont suffi pour reprendre le contrôle du récit.",
+          "Ce réflexe correspond à ce que Luis Enrique recherche : accepter le risque sans laisser un événement négatif dicter les minutes suivantes. Cela ne gomme pas la perte de balle qui précède l'égalisation ni la dernière occasion marseillaise dans le temps additionnel. Le PSG est resté exposé. Mais l'équipe n'a pas perdu sa volonté d'attaquer. Dans une saison où Paris vise la Ligue 1 et l'Europe, cette capacité à répondre vite peut compter autant qu'une domination plus confortable."
+        ]
+      },
+      {
+        heading: "31 tirs : domination réelle, efficacité encore perfectible",
+        paragraphs: [
+          "Le volume de 31 tirs impressionne, mais il doit être interprété avec prudence. Tirer beaucoup ne signifie pas toujours créer des occasions de très grande qualité. Plusieurs tentatives parisiennes ont été contrées, prises de loin ou mal ajustées. Le gardien marseillais a aussi retardé l'ouverture du score. L'équipe de Luis Enrique a donc réussi à installer le match dans le camp adverse, sans convertir assez tôt cette domination. C'est à la fois une force et un axe de travail évident.",
+          "La question pour les prochains matches sera simple : Paris peut-il conserver ce volume tout en choisissant mieux ses frappes ? Les centres de Doué, les courses de Mendes et les déplacements de Ferran ont offert une réponse en seconde période. Le PSG a été plus dangereux quand les appels ont attaqué la surface au lieu d'attendre le ballon devant elle. La méthode produit des situations ; la prochaine étape consiste à rendre ces situations plus nettes, plus rapides et moins dépendantes d'une accumulation de tentatives."
+        ]
+      },
+      {
+        heading: "182 matches et une empreinte déjà historique",
+        paragraphs: [
+          "Le direct officiel indique que Luis Enrique dirigeait son 182e match avec le PSG, dépassant son total à la tête du FC Barcelone. Seuls Luis Fernandez et Georges Peyroche ont conduit davantage de rencontres parisiennes. Ce repère ne vaut pas un trophée, mais il dit quelque chose de la durée. À Paris, où les cycles d'entraîneurs ont souvent été courts et agités, atteindre ce volume avec une identité toujours reconnaissable représente déjà un marqueur fort.",
+          "La victoire à Marseille renforce cette empreinte parce qu'elle associe plusieurs idées chères à l'Espagnol : possession active, rotations, latéraux agressifs, joueurs polyvalents et confiance dans la profondeur. Elle ne ferme aucun débat. Le début de championnat reste irrégulier et la qualité de la première période n'a pas été parfaite. Mais le PSG sort du Vélodrome avec trois points, une réponse mentale et un match qui donne une cohérence visible au projet. C'est beaucoup plus qu'une simple ligne au classement."
+        ]
+      },
+      {
+        heading: "Notre analyse : une validation, pas encore un verdict",
+        paragraphs: [
+          "Notre lecture est celle d'une validation partielle. Luis Enrique a gagné le duel des ajustements et son équipe a confirmé qu'elle pouvait dominer un match hostile sans paniquer. Le rôle de Ferran, l'activité de Doué, les montées de Mendes et la projection de Marquinhos ont produit une victoire collective. Le PSG semble disposer de plusieurs chemins vers le but, ce qui rend son jeu plus difficile à enfermer.",
+          "Le verdict viendra plus tard, face à des adversaires européens capables de punir chaque perte et de résister plus longtemps à la pression. Paris devra convertir davantage, mieux contrôler les transitions et maintenir une hiérarchie compréhensible. Le Classique n'apporte donc pas une preuve définitive. Il apporte quelque chose de plus utile en septembre : une direction claire, un groupe impliqué et une victoire de référence pour continuer à construire."
+        ]
+      }
+    ],
+    faq: [
+      { question: "Quel était le score de OM-PSG le 20 septembre 2026 ?", answer: "Le PSG s'est imposé 2-1 à Marseille grâce à Ferran Torres et Marquinhos, après l'égalisation d'Angel Gomes." },
+      { question: "Pourquoi l'entrée de Ferran Torres a-t-elle été décisive ?", answer: "Entré à la 59e minute, l'attaquant a ouvert le score à la 66e en attaquant le premier poteau sur un centre de Désiré Doué." },
+      { question: "Combien de tirs le PSG a-t-il tentés dans ce Classique ?", answer: "PSG.fr a comptabilisé 31 tirs parisiens, un record du club contre Marseille en Ligue 1 sur la période statistique citée par le site officiel." }
+    ],
+    sources: [
+      { name: "PSG.fr - Marseille 1-2 Paris", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Score, chronologie, changements et statistiques du direct officiel." },
+      { name: "PSG.fr - réactions après le Classique", url: "https://www.psg.fr/content/luis-enrique-trois-points-importants-pour-nos-supporters-reactions-olympique-de-marseille-paris-saint-germain-journee-5-ligue-1-2026-2027/", note: "Réactions officielles de Luis Enrique, Ferran Torres et Marquinhos." },
+      { name: "Ligue 1 - programmation du Classique", url: "https://ligue1.com/fr/articles/l1_article_5867-", note: "Contexte officiel de la rencontre et dynamique avant match." }
+    ],
+    internalLinks: [
+      { label: "Luis Enrique PSG", url: "/staff-psg/luis-enrique/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Records PSG", url: "/records-psg/" },
+      { label: "Actualité PSG", url: "/actualite-psg/" }
+    ]
+  },
+  {
+    id: "ferran-torres-psg-buteur-supersub-numero-9",
+    title: "Ferran Torres au PSG : supersub de luxe ou nouveau numéro 9 incontournable ?",
+    description: "Portrait et analyse de Ferran Torres au PSG après son but décisif lors du Classique à Marseille : statistiques officielles, rôle, concurrence et marge de progression.",
+    deck: "Sept minutes après son entrée, Ferran Torres a fait basculer le Classique. Avec sept buts toutes compétitions confondues depuis son arrivée, l'Espagnol ne se contente plus d'être une option : il oblige déjà Luis Enrique à repenser la hiérarchie offensive.",
+    category: "Joueurs PSG",
+    angle: "Forme du moment",
+    date: "2026-09-21",
+    dateLabel: "21 septembre 2026",
+    time: "15:40",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Ambiance de stade pour un portrait de Ferran Torres au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Ferran Torres PSG", "Ferran PSG", "numéro 9 PSG", "buteur PSG", "joueurs PSG", "OM PSG"],
+    sections: [
+      {
+        heading: "Une entrée qui change immédiatement le Classique",
+        paragraphs: [
+          "Ferran Torres commence OM-PSG sur le banc. À la 59e minute, il remplace Khvicha Kvaratskhelia alors que le score est toujours de 0-0. Sept minutes plus tard, Désiré Doué enroule un centre depuis la droite et l'Espagnol attaque le premier poteau. Sa tête ouvre le score. Il manque ensuite de peu le doublé sur un service de Marquinhos. Le PSG s'impose finalement 2-1 et le direct officiel désigne Ferran homme du match. Les faits suffisent à mesurer l'impact de son entrée.",
+          "Ce but n'est pas une action isolée dans son début de saison. PSG.fr lui attribue quatre réalisations en Ligue 1 et sept toutes compétitions confondues après le Classique. Une semaine plus tôt, il avait déjà marqué l'unique but de la victoire à Brest. L'attaquant arrivé du FC Barcelone a donc répondu très vite à la question la plus directe posée à un numéro 9 : peut-il transformer les temps forts de l'équipe en buts ? Pour l'instant, sa réponse est nette."
+        ]
+      },
+      {
+        heading: "Le mouvement avant le ballon, sa première qualité",
+        paragraphs: [
+          "Le but du Vélodrome résume le profil de Ferran. Il ne demande pas le ballon dans les pieds et ne cherche pas à fabriquer seul une action spectaculaire. Il lit la position de Doué, accélère entre les défenseurs et gagne la zone du premier poteau. Ce déplacement court paraît simple après coup, mais il nécessite du timing, de la conviction et une compréhension immédiate du porteur. Paris avait beaucoup centré avant son entrée ; avec lui, la surface a soudain été attaquée différemment.",
+          "Son but à Brest racontait déjà cette intelligence, sous une autre forme. Ferran avait intercepté une passe, participé à la combinaison avec João Neves et Dembélé, puis poursuivi sa course pour finir l'action. Il peut donc déclencher le mouvement, disparaître momentanément de la circulation et réapparaître dans la zone décisive. Pour une équipe qui possède beaucoup de créateurs, cette sobriété est précieuse. Le PSG n'a pas toujours besoin d'un attaquant qui touche davantage le ballon ; il a souvent besoin de celui qui touche le bon ballon."
+        ]
+      },
+      {
+        heading: "Supersub, titulaire ou attaquant de contexte ?",
+        paragraphs: [
+          "Le mot supersub colle naturellement à son Classique, mais il peut devenir réducteur. Ferran a aussi montré qu'il pouvait marquer en débutant une rencontre, comme à Brest. Sa polyvalence permet à Luis Enrique de l'utiliser dans l'axe ou depuis un côté, avec la liberté d'attaquer la surface. Le débat ne consiste donc pas seulement à choisir entre titulaire et remplaçant. Il faut identifier les matches où son jeu sans ballon apporte davantage que la présence d'un dribbleur supplémentaire.",
+          "Face à un bloc compact, Ferran offre des courses verticales et une présence au premier poteau. Dans un match plus ouvert, sa vitesse de projection peut étirer la défense. Quand Paris veut conserver longtemps le ballon, d'autres profils peuvent participer davantage à la construction. Cette diversité explique pourquoi la hiérarchie offensive restera mobile. Mais avec sept buts, l'Espagnol a gagné quelque chose que tous les attaquants recherchent : le droit d'être jugé sur ses performances, et non plus seulement sur le montant ou le contexte de son transfert."
+        ]
+      },
+      {
+        heading: "Ce qu'il change pour Dembélé, Doué et Kvaratskhelia",
+        paragraphs: [
+          "La présence d'un finisseur mobile modifie le travail de ses partenaires. Dembélé peut décrocher, provoquer et attirer plusieurs adversaires sans devoir terminer chaque action. Doué trouve une cible agressive lorsqu'il lève la tête dans le couloir. Kvaratskhelia peut rentrer vers l'intérieur pendant que Ferran fixe les centraux. Le numéro 9 ne prend donc pas seulement une place : il donne une destination plus claire aux initiatives des autres attaquants.",
+          "Cette complémentarité reste à stabiliser. Les automatismes observés à Marseille sont prometteurs, mais quelques semaines ne suffisent pas pour conclure que tout est réglé. Ferran doit encore enchaîner contre des défenses de styles différents et participer à l'effort collectif demandé par Luis Enrique. Son rendement actuel lui offre du crédit. Il ne lui garantit pas une place permanente, car le PSG possède assez de talent pour changer de structure sans prévenir. La concurrence sera une épreuve autant qu'un moteur."
+        ]
+      },
+      {
+        heading: "Des débuts rapides, mais une comparaison à manier avec soin",
+        paragraphs: [
+          "Le direct de PSG.fr souligne que seul Zlatan Ibrahimović avait marqué davantage lors de ses premiers matches parisiens sur la séquence comparée par le club : huit buts contre sept pour Ferran. Le rapprochement attire forcément l'attention, mais les profils, les époques et les responsabilités ne sont pas identiques. Ibrahimović était le centre immédiat du projet offensif. Ferran arrive dans une équipe où Dembélé, Doué, Kvaratskhelia, Vitinha et plusieurs autres joueurs peuvent décider des rencontres.",
+          "La donnée reste cependant révélatrice. Elle montre que l'adaptation sportive a été rapide malgré un nouvel environnement et des partenaires nombreux. Ferran ne semble pas avoir besoin d'une longue période pour comprendre où se trouvent les espaces. Son expérience à Valence, Manchester City, Barcelone et avec l'Espagne lui a donné plusieurs manières d'habiter une attaque. Paris bénéficie aujourd'hui de cette mobilité tactique, sans avoir à construire tout son jeu autour de lui."
+        ]
+      },
+      {
+        heading: "Les points à surveiller dans les prochaines semaines",
+        paragraphs: [
+          "Le premier enjeu sera la régularité. Un début spectaculaire crée vite des attentes démesurées. Ferran devra continuer à peser quand les occasions seront moins nombreuses et quand les adversaires anticiperont ses appels au premier poteau. Le deuxième enjeu concerne la participation hors possession. Luis Enrique exige de ses attaquants qu'ils déclenchent le pressing, ferment les lignes et répètent les courses. Marquer ouvre les portes ; maintenir l'équilibre collectif permet de rester sur le terrain.",
+          "Le troisième enjeu sera la place dans les grands rendez-vous européens. Le PSG affrontera des défenses capables de contrôler la surface avec plus de densité et de punir les pertes de balle. Ferran peut devenir une arme majeure, titulaire ou remplaçant, s'il conserve la même précision dans ses courses. Sa fiche individuelle devra donc être lue comme un dossier vivant : buts, temps de jeu, rôle et associations offensives diront progressivement s'il devient le numéro 9 de référence."
+        ]
+      },
+      {
+        heading: "Notre analyse : il a déjà dépassé le statut de bonne surprise",
+        paragraphs: [
+          "Parler de surprise devient presque injuste. Ferran est un international expérimenté, recruté pour apporter des buts et de la polyvalence. La rapidité de son impact, elle, dépasse probablement les attentes raisonnables. Deux buts décisifs à l'extérieur en une semaine, sept réalisations toutes compétitions confondues et un Classique renversé depuis le banc : le bilan est déjà consistant. Son efficacité donne au PSG une solution que les adversaires doivent préparer spécifiquement.",
+          "La question du titre de titulaire absolu peut attendre. Dans le football de Luis Enrique, être indispensable ne signifie pas nécessairement commencer tous les matches. Ferran peut devenir incontournable par la variété des réponses qu'il apporte. Au Vélodrome, il a montré la plus spectaculaire : entrer, lire l'espace et marquer presque immédiatement. Pour les supporters, c'est la naissance d'un lien. Pour le staff, c'est un problème de riche qui devient chaque semaine plus difficile à ignorer."
+        ]
+      }
+    ],
+    faq: [
+      { question: "Combien de buts Ferran Torres comptait-il après OM-PSG ?", answer: "Après le Classique du 20 septembre 2026, PSG.fr lui attribuait quatre buts en Ligue 1 et sept toutes compétitions confondues avec Paris." },
+      { question: "À quelle minute Ferran a-t-il marqué contre Marseille ?", answer: "Entré à la 59e minute, il a ouvert le score à la 66e sur une passe décisive de Désiré Doué." },
+      { question: "Quel numéro porte Ferran Torres au PSG ?", answer: "Le PSG a annoncé à sa signature qu'il porterait le numéro 9 et serait lié au club jusqu'en 2031." }
+    ],
+    sources: [
+      { name: "PSG.fr - Marseille 1-2 Paris", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Chronologie du but, statistiques et distinction d'homme du match." },
+      { name: "PSG.fr - Brest 0-1 Paris", url: "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13", note: "But décisif et séquence collective à Brest." },
+      { name: "PSG.fr - signature de Ferran Torres", url: "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027", note: "Annonce officielle, contrat, numéro et repères de carrière." },
+      { name: "PSG.fr - réactions après le Classique", url: "https://www.psg.fr/content/luis-enrique-trois-points-importants-pour-nos-supporters-reactions-olympique-de-marseille-paris-saint-germain-journee-5-ligue-1-2026-2027/", note: "Réactions officielles du joueur et du staff après la victoire." }
+    ],
+    internalLinks: [
+      { label: "Ferran Torres PSG", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Désiré Doué PSG", url: "/joueurs-psg/desire-doue/" },
+      { label: "Ousmane Dembélé PSG", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" }
+    ]
+  },
+  {
+    id: "mercato-psg-2026-recrues-ferran-akliouche-godts-digne",
+    title: "Mercato PSG 2026 : le Classique révèle déjà les vrais choix forts de Paris",
+    description: "Analyse de l'impact sportif du mercato PSG 2026 après la victoire à Marseille : Ferran Torres, Maghnes Akliouche, Mika Godts, Lucas Digne et nouvelle profondeur d'effectif.",
+    deck: "Ferran Torres buteur, Maghnes Akliouche et Mika Godts lancés dans le feu du Vélodrome, Lucas Digne en concurrence : le mercato parisien ne se résume plus à des signatures. Ses premières conséquences apparaissent dans les matches qui comptent.",
+    category: "Mercato PSG",
+    angle: "Impact sur l'effectif",
+    date: "2026-09-21",
+    dateLabel: "21 septembre 2026",
+    time: "15:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour une analyse du mercato PSG 2026",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG", "transfert PSG", "PSG mercato 2026", "Ferran Torres PSG", "Maghnes Akliouche PSG", "recrues PSG"],
+    sections: [
+      {
+        heading: "Le mercato quitte le tableau des transferts pour entrer sur le terrain",
+        paragraphs: [
+          "Un mercato se raconte d'abord avec des annonces, des contrats et des montants. Il se juge ensuite quand le match se tend. Au Vélodrome, le 20 septembre 2026, plusieurs recrues parisiennes ont participé à la victoire 2-1. Ferran Torres est entré et a marqué. Maghnes Akliouche a remplacé Fabián Ruiz. Mika Godts a pris la place d'Ousmane Dembélé en fin de rencontre. Ces choix montrent que Luis Enrique considère déjà les nouveaux comme des solutions dans un Classique, pas comme de simples projets à acclimater.",
+          "Le PSG avait présenté cinq recrues au Parc des Princes : Akliouche, Ferran, Lucas Digne, Alessandro Longoni et Godts. Tous répondent à des besoins différents. L'objectif n'était pas seulement d'ajouter des noms prestigieux, mais d'élargir les possibilités du groupe. Le Classique offre un premier contrôle grandeur nature. Il ne permet pas de noter définitivement chaque opération, mais il révèle la logique d'ensemble : davantage de profils offensifs, une concurrence renforcée et un banc capable de changer la forme d'un match."
+        ]
+      },
+      {
+        heading: "Ferran Torres, la recrue qui transforme déjà les résultats",
+        paragraphs: [
+          "Ferran est le cas le plus visible. Le PSG l'a recruté au FC Barcelone avec un contrat jusqu'en 2031 et le numéro 9. Après le Classique, le club comptait sept buts de l'Espagnol toutes compétitions confondues. Il avait déjà offert la victoire à Brest avant de débloquer Marseille. Son impact ne relève donc plus de la projection : il rapporte directement des points et modifie la concurrence offensive.",
+          "Ce rendement valide une idée centrale du recrutement. Paris possédait des créateurs, des dribbleurs et des joueurs capables d'occuper plusieurs zones. Ferran ajoute des courses de finisseur, notamment au premier poteau, sans immobiliser toute l'attaque autour de lui. Il peut commencer ou entrer en cours de match. Cette souplesse correspond au football de Luis Enrique. La vraie question n'est déjà plus de savoir s'il s'adaptera, mais jusqu'où son efficacité peut réorganiser le statut des autres attaquants."
+        ]
+      },
+      {
+        heading: "Akliouche, un investissement dans la création française",
+        paragraphs: [
+          "Maghnes Akliouche s'est engagé jusqu'en 2031 après neuf saisons de formation et de progression à Monaco. Le PSG a recruté un joueur de 24 ans, gaucher, créatif et déjà expérimenté en Ligue 1 et en Europe. Au Vélodrome, il entre à la 65e minute, participe à la pression offensive et se procure des situations en fin de rencontre. Il ne décide pas le match, mais sa présence dans ce contexte confirme une intégration rapide.",
+          "Son intérêt dépasse les statistiques immédiates. Akliouche peut jouer entre les lignes, depuis un côté ou plus près des milieux. Il offre un profil différent de Fabián Ruiz et de Vitinha, sans être le double exact de Dembélé ou Doué. Le PSG a donc acheté de la variété et une marge de progression. La contrepartie sera une bataille intense pour les minutes. Pour que l'opération soit réussie, le staff devra définir progressivement où son talent apporte le plus au collectif."
+        ]
+      },
+      {
+        heading: "Godts et Digne, deux façons d'augmenter la concurrence",
+        paragraphs: [
+          "Mika Godts représente l'option de rupture. Le jeune Belge peut entrer pour maintenir la vitesse et le dribble quand les titulaires fatiguent. Sa participation aux dernières minutes du Classique, dans un stade hostile et avec un avantage à défendre, constitue un signe de confiance. Il n'est pas seulement une recrue pour les rencontres secondaires. Luis Enrique semble prêt à l'exposer tôt à des situations de forte pression.",
+          "Lucas Digne répond à un autre besoin. Son retour apporte expérience, qualité de centre et concurrence sur le côté gauche. Il n'a pas joué à Marseille, où Nuno Mendes a été déterminant sur le deuxième but, mais son existence dans l'effectif protège le poste et permet d'adapter la charge. Un mercato utile ne se mesure pas uniquement au nombre de titulaires recrutés. Il se mesure aussi à la capacité de l'équipe à traverser blessures, suspensions et enchaînements sans perdre son identité."
+        ]
+      },
+      {
+        heading: "Longoni et la construction d'une profondeur durable",
+        paragraphs: [
+          "Alessandro Longoni, gardien italien de 18 ans, incarne une temporalité différente. Il ne faut pas exiger de chaque recrue un impact immédiat comparable à celui de Ferran. Le recrutement d'un jeune gardien peut viser le développement, la concurrence future et la sécurité d'un poste sur plusieurs saisons. Cette distinction est importante pour évaluer le marché parisien sans confondre toutes les opérations.",
+          "Le groupe officiel 2026-2027 montre trois gardiens, plusieurs défenseurs polyvalents, une forte densité au milieu et une attaque capable de changer de structure. Paris a donc cherché à multiplier les solutions. Mais la profondeur n'est utile que si les rôles restent lisibles. Longoni doit disposer d'un parcours cohérent ; Godts et Akliouche ont besoin de minutes qui construisent ; Digne doit pouvoir concurrencer sans bloquer ; Ferran doit conserver sa liberté de mouvement. Le travail du mercato continue après la fermeture du marché."
+        ]
+      },
+      {
+        heading: "Le risque caché : trop de choix peut brouiller la hiérarchie",
+        paragraphs: [
+          "La victoire à Marseille montre le meilleur visage de la concurrence. Un remplaçant marque, d'autres recrues entrent avec énergie et les titulaires restent engagés. Sur une saison entière, cette abondance peut aussi produire des frustrations. Dembélé, Doué, Kvaratskhelia, Ferran, Godts, Akliouche et les jeunes ne peuvent pas tous occuper les zones offensives en même temps. Chaque grande soirée créera des gagnants et des déçus.",
+          "Luis Enrique devra expliquer les choix et maintenir une logique sportive compréhensible. La rotation permanente fonctionne quand chacun sait pourquoi il joue et ce qu'on attend de lui. Elle devient fragile si les statuts semblent changer sans repère. Le mercato a donné au coach une boîte à outils riche ; il lui confie également la responsabilité de ne pas transformer cette richesse en bruit. C'est probablement le principal défi de gestion des prochains mois."
+        ]
+      },
+      {
+        heading: "Notre analyse : Paris a recruté des usages, pas seulement des noms",
+        paragraphs: [
+          "Le premier verdict est favorable parce que les recrues répondent déjà à des situations concrètes. Ferran attaque la surface et marque. Akliouche apporte une création intermédiaire. Godts conserve la menace en sortie de banc. Digne offre une alternative expérimentée. Longoni prépare l'avenir. Cette distribution des usages rend l'effectif plus adaptable et limite la dépendance à une seule organisation.",
+          "Il faut néanmoins résister à l'euphorie d'un soir. Un Classique gagné ne valide pas à lui seul tout un marché, pas plus qu'un mauvais match ne l'aurait condamné. Les contrats longs seront jugés sur plusieurs saisons, en Ligue 1 comme en Ligue des champions. Mais le mercato 2026 possède déjà une qualité essentielle : on comprend ce que les nouveaux peuvent apporter. Au Vélodrome, l'un d'eux a changé le score et deux autres ont contribué à finir le travail. Pour un début, le signal est puissant."
+        ]
+      }
+    ],
+    faq: [
+      { question: "Quelles recrues du PSG ont joué contre Marseille le 20 septembre 2026 ?", answer: "Ferran Torres, Maghnes Akliouche et Mika Godts ont participé à la victoire 2-1. Ferran a marqué le premier but parisien." },
+      { question: "Jusqu'à quand Ferran Torres et Maghnes Akliouche sont-ils liés au PSG ?", answer: "Les annonces officielles du club indiquent que les deux joueurs ont signé jusqu'en 2031." },
+      { question: "Qui sont les cinq recrues présentées par le PSG au Parc en 2026 ?", answer: "Le club a présenté Maghnes Akliouche, Ferran Torres, Lucas Digne, Alessandro Longoni et Mika Godts." }
+    ],
+    sources: [
+      { name: "PSG.fr - Marseille 1-2 Paris", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Utilisation des recrues, changements et faits du match." },
+      { name: "PSG.fr - présentation des recrues", url: "https://www.psg.fr/content/les-recrues-parisiennes-presentees-au-parc-des-princes-paris-saint-germain-as-monaco-ligue-1-mcdonalds-2026-2027", note: "Liste officielle des cinq recrues et contexte de leur arrivée." },
+      { name: "PSG.fr - signature de Ferran Torres", url: "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027", note: "Contrat, numéro et parcours officiel de l'attaquant." },
+      { name: "PSG.fr - signature de Maghnes Akliouche", url: "https://www.psg.fr/content/maghnes-akliouche-rejoint-le-paris-saint-germain-mercato-20262027", note: "Contrat et repères de carrière du milieu français." },
+      { name: "PSG.fr - effectif 2026-2027", url: "https://www.psg.fr/football-masculin/effectif", note: "Composition actuelle de l'effectif masculin officiel." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transfert PSG", url: "/transfert-psg/" },
+      { label: "Ferran Torres PSG", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Maghnes Akliouche PSG", url: "/joueurs-psg/maghnes-akliouche/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Bilan mercato PSG été 2026", url: "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/" }
+    ]
+  },
   {
     id: "bilan-mercato-psg-ete-2026-arrivees-departs-solde",
     title: "Bilan mercato PSG été 2026 : arrivées, départs, solde financier et vraie lecture sportive",

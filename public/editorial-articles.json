@@ -1,11 +1,137 @@
 {
-  "updatedAt": "2026-09-17T20:35:00+02:00",
-  "displayDate": "17 septembre 2026",
-  "displayTime": "20h35",
+  "updatedAt": "2026-09-21T15:50:00+02:00",
+  "displayDate": "21 septembre 2026",
+  "displayTime": "15h50",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 6,
+  "count": 9,
   "items": [
+    {
+      "id": "luis-enrique-psg-classique-marseille-methode-2026",
+      "category": "Entraîneur PSG",
+      "angle": "Analyse de méthode",
+      "date": "2026-09-21",
+      "dateLabel": "21 septembre 2026",
+      "time": "15:50",
+      "dateTime": "2026-09-21T15:50:00+02:00",
+      "headline": "Luis Enrique au PSG : ce Classique gagné à Marseille valide-t-il sa méthode ?",
+      "summary": "Paris n'a pas seulement gagné 2-1 au Vélodrome. Le PSG a produit 31 tirs, trouvé la faille grâce à un remplaçant et repris l'avantage deux minutes après l'égalisation. Une victoire qui raconte beaucoup de la méthode Luis Enrique, sans effacer toutes les questions.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/luis-enrique-psg-classique-marseille-methode-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - Marseille 1-2 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Score, chronologie, changements et statistiques du direct officiel."
+        },
+        {
+          "name": "PSG.fr - réactions après le Classique",
+          "url": "https://www.psg.fr/content/luis-enrique-trois-points-importants-pour-nos-supporters-reactions-olympique-de-marseille-paris-saint-germain-journee-5-ligue-1-2026-2027/",
+          "note": "Réactions officielles de Luis Enrique, Ferran Torres et Marquinhos."
+        },
+        {
+          "name": "Ligue 1 - programmation du Classique",
+          "url": "https://ligue1.com/fr/articles/l1_article_5867-",
+          "note": "Contexte officiel de la rencontre et dynamique avant match."
+        }
+      ],
+      "keywords": [
+        "Luis Enrique PSG",
+        "tactique PSG",
+        "OM PSG",
+        "Classique PSG",
+        "entraîneur PSG",
+        "analyse PSG Marseille"
+      ]
+    },
+    {
+      "id": "ferran-torres-psg-buteur-supersub-numero-9",
+      "category": "Joueurs PSG",
+      "angle": "Forme du moment",
+      "date": "2026-09-21",
+      "dateLabel": "21 septembre 2026",
+      "time": "15:40",
+      "dateTime": "2026-09-21T15:40:00+02:00",
+      "headline": "Ferran Torres au PSG : supersub de luxe ou nouveau numéro 9 incontournable ?",
+      "summary": "Sept minutes après son entrée, Ferran Torres a fait basculer le Classique. Avec sept buts toutes compétitions confondues depuis son arrivée, l'Espagnol ne se contente plus d'être une option : il oblige déjà Luis Enrique à repenser la hiérarchie offensive.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/ferran-torres-psg-buteur-supersub-numero-9/",
+      "sources": [
+        {
+          "name": "PSG.fr - Marseille 1-2 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Chronologie du but, statistiques et distinction d'homme du match."
+        },
+        {
+          "name": "PSG.fr - Brest 0-1 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13",
+          "note": "But décisif et séquence collective à Brest."
+        },
+        {
+          "name": "PSG.fr - signature de Ferran Torres",
+          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
+          "note": "Annonce officielle, contrat, numéro et repères de carrière."
+        },
+        {
+          "name": "PSG.fr - réactions après le Classique",
+          "url": "https://www.psg.fr/content/luis-enrique-trois-points-importants-pour-nos-supporters-reactions-olympique-de-marseille-paris-saint-germain-journee-5-ligue-1-2026-2027/",
+          "note": "Réactions officielles du joueur et du staff après la victoire."
+        }
+      ],
+      "keywords": [
+        "Ferran Torres PSG",
+        "Ferran PSG",
+        "numéro 9 PSG",
+        "buteur PSG",
+        "joueurs PSG",
+        "OM PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-2026-recrues-ferran-akliouche-godts-digne",
+      "category": "Mercato PSG",
+      "angle": "Impact sur l'effectif",
+      "date": "2026-09-21",
+      "dateLabel": "21 septembre 2026",
+      "time": "15:30",
+      "dateTime": "2026-09-21T15:30:00+02:00",
+      "headline": "Mercato PSG 2026 : le Classique révèle déjà les vrais choix forts de Paris",
+      "summary": "Ferran Torres buteur, Maghnes Akliouche et Mika Godts lancés dans le feu du Vélodrome, Lucas Digne en concurrence : le mercato parisien ne se résume plus à des signatures. Ses premières conséquences apparaissent dans les matches qui comptent.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-2026-recrues-ferran-akliouche-godts-digne/",
+      "sources": [
+        {
+          "name": "PSG.fr - Marseille 1-2 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Utilisation des recrues, changements et faits du match."
+        },
+        {
+          "name": "PSG.fr - présentation des recrues",
+          "url": "https://www.psg.fr/content/les-recrues-parisiennes-presentees-au-parc-des-princes-paris-saint-germain-as-monaco-ligue-1-mcdonalds-2026-2027",
+          "note": "Liste officielle des cinq recrues et contexte de leur arrivée."
+        },
+        {
+          "name": "PSG.fr - signature de Ferran Torres",
+          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
+          "note": "Contrat, numéro et parcours officiel de l'attaquant."
+        },
+        {
+          "name": "PSG.fr - signature de Maghnes Akliouche",
+          "url": "https://www.psg.fr/content/maghnes-akliouche-rejoint-le-paris-saint-germain-mercato-20262027",
+          "note": "Contrat et repères de carrière du milieu français."
+        },
+        {
+          "name": "PSG.fr - effectif 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition actuelle de l'effectif masculin officiel."
+        }
+      ],
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG",
+        "PSG mercato 2026",
+        "Ferran Torres PSG",
+        "Maghnes Akliouche PSG",
+        "recrues PSG"
+      ]
+    },
     {
       "id": "bilan-mercato-psg-ete-2026-arrivees-departs-solde",
       "category": "Mercato PSG",

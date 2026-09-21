@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-17T18:02:51.354Z",
+  "checkedAt": "2026-09-21T13:41:07.046Z",
   "policy": "Veille de signaux uniquement. Ne pas copier les articles, images, posts ou bases de donnees tiers. Respecter robots.txt, conditions d'utilisation, API officielles et limites raisonnables.",
   "summary": {
     "OK": 4,
@@ -17,7 +17,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "PSG.FR | Official site of Paris Saint-Germain",
-      "latencyMs": 1703,
+      "latencyMs": 933,
       "note": "Source primaire pour officialisations, groupe, calendrier et communiques."
     },
     {
@@ -29,7 +29,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "Mercato | CulturePSG",
-      "latencyMs": 1661,
+      "latencyMs": 1388,
       "note": "Source specialisee PSG. Utiliser les liens, statuts et montants comme signaux a citer, pas comme texte a reprendre."
     },
     {
@@ -41,7 +41,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "Mercato - Canal Supporters PSG 24-7",
-      "latencyMs": 1443,
+      "latencyMs": 1222,
       "note": "Veille mercato et reactions. A recouper avant publication."
     },
     {
@@ -53,7 +53,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "ParisFans : PSG - Toute l&#039;actualité du Paris Saint-Germain",
-      "latencyMs": 910,
+      "latencyMs": 1196,
       "note": "Suivi quotidien PSG. A recouper avec sources primaires ou medias signes."
     },
     {
@@ -65,7 +65,7 @@
       "status": 403,
       "state": "SOURCE_A_VERIFIER",
       "pageTitle": "Access Denied",
-      "latencyMs": 195,
+      "latencyMs": 516,
       "note": "Media generaliste de reference. Respect strict des droits et du paywall."
     },
     {
@@ -77,7 +77,7 @@
       "status": 403,
       "state": "SOURCE_A_VERIFIER",
       "pageTitle": "Access Denied",
-      "latencyMs": 192,
+      "latencyMs": 243,
       "note": "Media local fort sur le PSG. Ne jamais reprendre les contenus payants."
     },
     {
