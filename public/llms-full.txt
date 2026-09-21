@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site couvre clairement les grands sujets PSG : transfert PSG, mercato PSG, actualité PSG, viral PSG, buzz PSG, débat PSG, vidéos PSG, YouTube PSG, chaînes PSG, calendrier PSG, calendrier PSG 2026-2027, joueurs PSG, effectif PSG, fiches joueurs, anciens joueurs PSG, histoire PSG, records PSG, meilleur buteur PSG, joueur le plus capé PSG, Brésiliens PSG et Argentins PSG.
 
-## Repère éditorial — 20 septembre 2026, 12h00 (Europe/Paris)
+## Repère éditorial — 20 septembre 2026, 22h50 (Europe/Paris)
 
-Fil PSG du 20 septembre 2026. Fil public : 121 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique ; Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane ; Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Fil PSG du 20 septembre 2026. Fil public : 122 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : OM-PSG : Torres et Marquinhos offrent le Classique à Paris ; OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique ; Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en grandes rubriques, avec titres explicites, descriptions, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et page vidéos PSG/YouTube.
 

@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-20T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 20 septembre 2026. Fil public : 121 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique ; Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane ; Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-20T22:50:00+02:00",
+    "freshnessNote": "Fil PSG du 20 septembre 2026. Fil public : 122 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 6 articles de fond sous /dossiers-psg/. À suivre : OM-PSG : Torres et Marquinhos offrent le Classique à Paris ; OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique ; Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze ; Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "OM-PSG : Torres et Marquinhos offrent le Classique à Paris",
+      "category": "Match",
+      "dateTime": "2026-09-20T22:50:00+02:00",
+      "url": "https://parisien90.com/news/om-psg-victoire-torres-marquinhos-classique-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+      "reliability": "Officiel"
+    },
     {
       "title": "OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique",
       "category": "Groupe",
@@ -470,15 +479,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Renato Sanches quitte le PSG libre après une résiliation annoncée",
-      "category": "Mercato",
-      "dateTime": "2026-09-02T08:40:00+02:00",
-      "url": "https://parisien90.com/news/renato-sanches-resiliation-contrat-psg-septembre-2026/",
-      "source": "CulturePSG / Record / A Bola / Fabrizio Romano",
-      "sourceUrl": "https://www.culturepsg.com/news/mercato/le-psg-a-boucle-un-dernier-depart/60559",
-      "reliability": "Très fort — résiliation rapportée, communiqué PSG attendu"
     }
   ],
   "people": [
@@ -2263,7 +2263,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-20T12:00:00+02:00",
+    "updatedAt": "2026-09-20T22:50:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
@@ -2273,9 +2273,9 @@
         "competition": "Ligue 1",
         "home": "Olympique de Marseille",
         "away": "Paris Saint-Germain",
-        "status": "Programmé",
+        "status": "Terminé 1-2",
         "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/en/content/pr-first-team-media-schedule-from-14th-september-to-20th-september-2026"
+        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20"
       },
       {
         "date": "2026-10-10",
