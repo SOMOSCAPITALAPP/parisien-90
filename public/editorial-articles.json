@@ -1,11 +1,135 @@
 {
-  "updatedAt": "2026-09-21T15:50:00+02:00",
-  "displayDate": "21 septembre 2026",
-  "displayTime": "15h50",
+  "updatedAt": "2026-09-22T13:35:00+02:00",
+  "displayDate": "22 septembre 2026",
+  "displayTime": "13h35",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 9,
+  "count": 12,
   "items": [
+    {
+      "id": "mercato-psg-2026-cinq-recrues-deux-bilans",
+      "category": "Mercato PSG",
+      "angle": "Analyse de l'effectif",
+      "date": "2026-09-22",
+      "dateLabel": "22 septembre 2026",
+      "time": "13:35",
+      "dateTime": "2026-09-22T13:35:00+02:00",
+      "headline": "Mercato PSG 2026 : cinq recrues, mais déjà deux bilans très différents",
+      "summary": "Ferran marque déjà, Akliouche et Godts entrent dans la rotation, Digne renforce un poste et Longoni prépare l'avenir. Mettre ces cinq recrues dans une seule note serait trompeur : le mercato parisien se juge à plusieurs vitesses.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-2026-cinq-recrues-deux-bilans/",
+      "sources": [
+        {
+          "name": "PSG.fr - présentation des recrues",
+          "url": "https://www.psg.fr/content/les-recrues-parisiennes-presentees-au-parc-des-princes-paris-saint-germain-as-monaco-ligue-1-mcdonalds-2026-2027",
+          "note": "Liste officielle des cinq arrivées."
+        },
+        {
+          "name": "PSG.fr - match Marseille-Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Résultat, changements et bilan de Ferran."
+        },
+        {
+          "name": "Ligue 1 - Ferran Torres après cinq journées",
+          "url": "https://ligue1.com/fr/articles/l1_article_5885-",
+          "note": "Statistiques de championnat publiées par l'organisateur."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle de l'effectif 2026-2027."
+        }
+      ],
+      "keywords": [
+        "mercato PSG 2026",
+        "transfert PSG",
+        "recrues PSG",
+        "Ferran PSG",
+        "Akliouche PSG",
+        "Godts PSG"
+      ]
+    },
+    {
+      "id": "desire-doue-psg-classique-marseille-passe-decisive-role",
+      "category": "Joueurs PSG",
+      "angle": "Portrait du moment",
+      "date": "2026-09-22",
+      "dateLabel": "22 septembre 2026",
+      "time": "13:30",
+      "dateTime": "2026-09-22T13:30:00+02:00",
+      "headline": "Désiré Doué au PSG : pourquoi sa passe contre l'OM compte plus qu'un chiffre",
+      "summary": "Une passe décisive pour Ferran, beaucoup d'initiatives et une place retrouvée dans le onze : Désiré Doué a donné au PSG un point d'appui décisif à Marseille. Son match raconte aussi ce qu'il lui reste à maîtriser.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/desire-doue-psg-classique-marseille-passe-decisive-role/",
+      "sources": [
+        {
+          "name": "PSG.fr - Marseille 1-2 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Chronologie et statistique de la passe décisive."
+        },
+        {
+          "name": "PSG.fr - avant le Classique",
+          "url": "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027",
+          "note": "Composition officielle et position de Doué au départ."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Contexte de la concurrence offensive."
+        }
+      ],
+      "keywords": [
+        "Désiré Doué PSG",
+        "Doué OM PSG",
+        "passe décisive Doué",
+        "joueurs PSG",
+        "effectif PSG"
+      ]
+    },
+    {
+      "id": "tactique-psg-zaire-emery-lateral-droit-marseille-2026",
+      "category": "Tactique PSG",
+      "angle": "Décryptage de composition",
+      "date": "2026-09-22",
+      "dateLabel": "22 septembre 2026",
+      "time": "13:25",
+      "dateTime": "2026-09-22T13:25:00+02:00",
+      "headline": "Tactique PSG : Zaïre-Emery latéral droit, solution durable ou dépannage de luxe ?",
+      "summary": "Sans Achraf Hakimi, Luis Enrique a placé Warren Zaïre-Emery à droite de la défense contre l'OM. Paris a gagné, mais la question dépasse le résultat : que gagne et que perd l'équipe quand un milieu de formation occupe ce couloir ?",
+      "internalUrl": "https://parisien90.com/dossiers-psg/tactique-psg-zaire-emery-lateral-droit-marseille-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - composition avant le Classique",
+          "url": "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027",
+          "note": "Onze de départ et remplacement d'Hakimi par Zaïre-Emery."
+        },
+        {
+          "name": "PSG.fr - Marseille 1-2 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Chronologie, buts et volume de tirs."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Date et horaire du déplacement à Manchester City."
+        },
+        {
+          "name": "PSG.fr - Paris-Le Mans",
+          "url": "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027",
+          "note": "Programmation du prochain match de championnat."
+        },
+        {
+          "name": "Ligue de Paris Île-de-France / FFF - forfait de Zaïre-Emery",
+          "url": "https://paris-idf.fff.fr/simple/equipe-de-france-huit-franciliens-chez-les-bleus/",
+          "note": "Confirmation du forfait en sélection, sans indication de durée d'absence."
+        }
+      ],
+      "keywords": [
+        "tactique PSG",
+        "composition PSG",
+        "Warren Zaïre-Emery latéral droit",
+        "Hakimi PSG",
+        "Luis Enrique tactique"
+      ]
+    },
     {
       "id": "luis-enrique-psg-classique-marseille-methode-2026",
       "category": "Entraîneur PSG",

@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-21T14:13:00+02:00",
-    "freshnessNote": "Fil PSG du 21 septembre 2026. Fil public : 123 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 9 articles de fond sous /dossiers-psg/. À suivre : Zaïre-Emery forfait avec les Bleus : Paris surveille son adducteur ; OM-PSG : Torres et Marquinhos offrent le Classique à Paris ; OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique ; Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 21 septembre 2026. Fil public : 123 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 12 articles de fond sous /dossiers-psg/. À suivre : Zaïre-Emery forfait avec les Bleus : Paris surveille son adducteur ; OM-PSG : Torres et Marquinhos offrent le Classique à Paris ; OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique ; Avant OM-PSG, le Campus a donné de la voix à Paris ; PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -1942,6 +1942,118 @@
     ]
   },
   "editorialArticles": [
+    {
+      "title": "Mercato PSG 2026 : cinq recrues, mais déjà deux bilans très différents",
+      "category": "Mercato PSG",
+      "angle": "Analyse de l'effectif",
+      "dateTime": "2026-09-22T13:35:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-2026-cinq-recrues-deux-bilans/",
+      "summary": "Ferran marque déjà, Akliouche et Godts entrent dans la rotation, Digne renforce un poste et Longoni prépare l'avenir. Mettre ces cinq recrues dans une seule note serait trompeur : le mercato parisien se juge à plusieurs vitesses.",
+      "keywords": [
+        "mercato PSG 2026",
+        "transfert PSG",
+        "recrues PSG",
+        "Ferran PSG",
+        "Akliouche PSG",
+        "Godts PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - présentation des recrues",
+          "url": "https://www.psg.fr/content/les-recrues-parisiennes-presentees-au-parc-des-princes-paris-saint-germain-as-monaco-ligue-1-mcdonalds-2026-2027",
+          "note": "Liste officielle des cinq arrivées."
+        },
+        {
+          "name": "PSG.fr - match Marseille-Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Résultat, changements et bilan de Ferran."
+        },
+        {
+          "name": "Ligue 1 - Ferran Torres après cinq journées",
+          "url": "https://ligue1.com/fr/articles/l1_article_5885-",
+          "note": "Statistiques de championnat publiées par l'organisateur."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle de l'effectif 2026-2027."
+        }
+      ]
+    },
+    {
+      "title": "Désiré Doué au PSG : pourquoi sa passe contre l'OM compte plus qu'un chiffre",
+      "category": "Joueurs PSG",
+      "angle": "Portrait du moment",
+      "dateTime": "2026-09-22T13:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/desire-doue-psg-classique-marseille-passe-decisive-role/",
+      "summary": "Une passe décisive pour Ferran, beaucoup d'initiatives et une place retrouvée dans le onze : Désiré Doué a donné au PSG un point d'appui décisif à Marseille. Son match raconte aussi ce qu'il lui reste à maîtriser.",
+      "keywords": [
+        "Désiré Doué PSG",
+        "Doué OM PSG",
+        "passe décisive Doué",
+        "joueurs PSG",
+        "effectif PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - Marseille 1-2 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Chronologie et statistique de la passe décisive."
+        },
+        {
+          "name": "PSG.fr - avant le Classique",
+          "url": "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027",
+          "note": "Composition officielle et position de Doué au départ."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Contexte de la concurrence offensive."
+        }
+      ]
+    },
+    {
+      "title": "Tactique PSG : Zaïre-Emery latéral droit, solution durable ou dépannage de luxe ?",
+      "category": "Tactique PSG",
+      "angle": "Décryptage de composition",
+      "dateTime": "2026-09-22T13:25:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/tactique-psg-zaire-emery-lateral-droit-marseille-2026/",
+      "summary": "Sans Achraf Hakimi, Luis Enrique a placé Warren Zaïre-Emery à droite de la défense contre l'OM. Paris a gagné, mais la question dépasse le résultat : que gagne et que perd l'équipe quand un milieu de formation occupe ce couloir ?",
+      "keywords": [
+        "tactique PSG",
+        "composition PSG",
+        "Warren Zaïre-Emery latéral droit",
+        "Hakimi PSG",
+        "Luis Enrique tactique"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - composition avant le Classique",
+          "url": "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027",
+          "note": "Onze de départ et remplacement d'Hakimi par Zaïre-Emery."
+        },
+        {
+          "name": "PSG.fr - Marseille 1-2 Paris",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Chronologie, buts et volume de tirs."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Date et horaire du déplacement à Manchester City."
+        },
+        {
+          "name": "PSG.fr - Paris-Le Mans",
+          "url": "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027",
+          "note": "Programmation du prochain match de championnat."
+        },
+        {
+          "name": "Ligue de Paris Île-de-France / FFF - forfait de Zaïre-Emery",
+          "url": "https://paris-idf.fff.fr/simple/equipe-de-france-huit-franciliens-chez-les-bleus/",
+          "note": "Confirmation du forfait en sélection, sans indication de durée d'absence."
+        }
+      ]
+    },
     {
       "title": "Luis Enrique au PSG : ce Classique gagné à Marseille valide-t-il sa méthode ?",
       "category": "Entraîneur PSG",
