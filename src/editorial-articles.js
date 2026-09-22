@@ -1,12 +1,187 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-21T15:50:00+02:00",
-  displayDate: "21 septembre 2026",
-  displayTime: "15h50",
+  updatedAt: "2026-09-22T13:35:00+02:00",
+  displayDate: "22 septembre 2026",
+  displayTime: "13h35",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "mercato-psg-2026-cinq-recrues-deux-bilans",
+    title: "Mercato PSG 2026 : cinq recrues, mais déjà deux bilans très différents",
+    description: "Après cinq journées de Ligue 1, comment juger le mercato 2026 du PSG ? Les cinq recrues officielles n'ont ni le même rôle ni le même horizon : analyse sans confondre performances et finances.",
+    deck: "Ferran marque déjà, Akliouche et Godts entrent dans la rotation, Digne renforce un poste et Longoni prépare l'avenir. Mettre ces cinq recrues dans une seule note serait trompeur : le mercato parisien se juge à plusieurs vitesses.",
+    category: "Mercato PSG",
+    angle: "Analyse de l'effectif",
+    date: "2026-09-22",
+    dateLabel: "22 septembre 2026",
+    time: "13:35",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour un dossier sur les recrues du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG 2026", "transfert PSG", "recrues PSG", "Ferran PSG", "Akliouche PSG", "Godts PSG"],
+    sections: [
+      { heading: "Le fait : cinq nouveaux visages présentés au Parc", paragraphs: [
+        "Le PSG a présenté au Parc des Princes cinq recrues de l'été 2026 : Maghnes Akliouche, Ferran Torres, Lucas Digne, Alessandro Longoni et Mika Godts. Le communiqué du club donne une photographie claire du groupe, mais ne dit pas à lui seul ce que vaudra cette campagne. Tous n'arrivent pas avec la même expérience, le même temps de jeu attendu ni la même mission. Après cinq journées de championnat, l'évaluation la plus honnête consiste à distinguer les effets immédiats des paris sur plusieurs saisons.",
+        "Ce principe évite un piège fréquent dans les discussions de transferts. Quand un buteur marque vite, tout le recrutement paraît soudain excellent. Quand un jeune gardien ne joue pas, son arrivée peut sembler inutile. Ces deux réflexes ignorent le contexte. Paris cherche à gagner dès maintenant, à protéger son effectif contre les absences et à préparer la suite. Le score de Marseille, gagné 2-1 avec un but de Ferran et des entrées d'Akliouche et Godts, montre que plusieurs recrues comptent déjà. Il ne mesure pas encore leur valeur durable."
+      ] },
+      { heading: "Premier bilan : Ferran Torres rapporte des buts", paragraphs: [
+        "À court terme, le cas le plus net est Ferran Torres. Le site officiel du PSG lui attribuait, après le Classique du 20 septembre, sept buts toutes compétitions confondues, dont quatre en Ligue 1. La Ligue 1 relève un but toutes les 63 minutes de championnat sur la période observée. Il avait déjà marqué le but de la victoire à Brest avant de débloquer la rencontre à Marseille, sept minutes après son entrée. Il apporte donc une réponse mesurable à la question centrale d'un attaquant : transforme-t-il les occasions en résultats ?",
+        "Le chiffre ne signifie pas que son rendement restera identique toute la saison. Un ratio calculé sur un petit nombre de matches peut varier très vite. Il montre cependant que Paris possède aujourd'hui un finisseur efficace et immédiatement utilisable. Son contrat annoncé jusqu'en 2031 donne au club un horizon long, mais son impact actuel n'a rien d'un investissement différé. La suite sera de mesurer sa contribution lorsqu'il débutera davantage, contre des blocs plus serrés ou dans les grands rendez-vous européens. Un bon départ mérite d'être salué sans devenir une promesse statistique."
+      ] },
+      { heading: "Deuxième bilan : Akliouche et Godts créent des options", paragraphs: [
+        "Akliouche et Godts répondent à une logique différente. Le premier, arrivé de Monaco et engagé jusqu'en 2031 selon l'annonce officielle, peut recevoir entre les lignes, conduire le ballon et changer le rythme d'une attaque. Le second peut apporter percussion et fraîcheur depuis un côté. Tous les deux sont entrés au Vélodrome. Leurs minutes ne permettent pas de conclure à une installation dans le onze, mais elles démontrent qu'ils ne sont pas cantonnés à des apparitions sans enjeu. Luis Enrique a choisi de les utiliser dans un Classique encore incertain.",
+        "La valeur sportive de ces recrutements se mesurera à leur complémentarité avec Dembélé, Doué et Kvaratskhelia. Akliouche devra trouver les espaces où sa créativité ne répète pas celle des autres. Godts devra convertir ses prises de balle en occasions franches, sans perdre les exigences défensives du poste. Ce sont des questions de rôle, pas des défauts prouvés. Le mercato a fourni davantage de solutions au staff ; l'entraînement et la succession des matches doivent maintenant transformer cette variété en automatismes."
+      ] },
+      { heading: "Digne et Longoni : la profondeur n'a pas le même calendrier", paragraphs: [
+        "Lucas Digne revient à Paris avec une expérience que l'effectif peut mobiliser immédiatement, même lorsqu'il ne joue pas. La concurrence avec Nuno Mendes est forte, et le Classique a encore montré l'influence du Portugais sur le côté gauche. Digne n'a pas besoin de lui prendre systématiquement sa place pour justifier sa présence : il peut permettre une rotation, couvrir une indisponibilité et offrir une autre qualité de centre. Son utilité se vérifiera surtout dans les semaines de matches rapprochés, pas sur une seule feuille de match.",
+        "Alessandro Longoni, présenté par le club comme un gardien italien de 18 ans, relève d'un horizon encore différent. Le juger à ses minutes professionnelles de septembre serait prématuré. Un gardien jeune se développe selon une trajectoire spécifique : travail quotidien, concurrence, progression physique et occasions bien choisies. Paris a aussi Chevalier et Safonov dans l'effectif officiel. Il faut donc demander au club de construire un chemin crédible pour Longoni, sans réclamer artificiellement une titularisation rapide. Un recrutement pour l'avenir ne devient pertinent que si le projet de développement suit."
+      ] },
+      { heading: "Le bilan financier n'est pas le bilan sportif", paragraphs: [
+        "Un autre point demande de la rigueur : l'efficacité sportive de ces cinq joueurs ne suffit pas à calculer le solde du mercato. Les indemnités, bonus, commissions, salaires et échéanciers ne sont pas tous publiés de façon homogène. Même lorsqu'un montant circule largement, il peut mêler part fixe et variables. Notre dossier chiffré séparé présente les hypothèses de dépenses et de recettes de l'été avec leurs limites. Cet article répond à une autre question : ce que les nouveaux apportent réellement à l'équipe après les premiers matches.",
+        "Cette distinction protège le lecteur de deux conclusions faciles. Un joueur peut être utile sportivement tout en représentant un coût élevé. Un départ peut améliorer un solde estimé tout en retirant une option importante au coach. La valeur d'un marché ne se résume ni à un tableau de comptes ni à un soir de victoire. Pour Paris, les deux lectures doivent rester côte à côte. Le Classique offre un signal positif sur les usages des recrues ; il ne publie aucune preuve nouvelle sur les clauses de transfert ou sur la rentabilité totale de l'opération."
+      ] },
+      { heading: "Notre analyse : une rotation plus riche, mais plus difficile à gérer", paragraphs: [
+        "La force actuelle de ce mercato est sa diversité. Paris a ajouté un finisseur, un créateur, un ailier de rupture, un latéral expérimenté et un gardien en développement. Cette répartition répond à plusieurs durées et à plusieurs types de match. Elle rend l'équipe moins prévisible. À Marseille, les changements ont eu un effet concret : Ferran a marqué, Akliouche et Godts ont participé à la fin du match. Mais plus la réserve de talent grandit, plus l'arbitrage des minutes devient délicat pour Luis Enrique.",
+        "Il faudra observer les titulaires, les entrées, les postes réellement occupés et les associations qui fonctionnent, plutôt que compter seulement les apparitions. L'absence d'Hakimi contre l'OM rappelle aussi qu'un effectif peut rester vulnérable à un poste malgré une campagne active. À ce stade, le mercato parisien mérite un premier jugement favorable sur son utilité immédiate et sa variété. Il ne mérite pas encore un verdict définitif. La Ligue des champions et les enchaînements d'automne seront un test autrement exigeant pour mesurer sa profondeur."
+      ] }
+    ],
+    faq: [
+      { question: "Quelles sont les cinq recrues du PSG présentées au Parc en 2026 ?", answer: "Le PSG a présenté Maghnes Akliouche, Ferran Torres, Lucas Digne, Alessandro Longoni et Mika Godts." },
+      { question: "Peut-on juger le mercato PSG sur le seul Classique ?", answer: "Non. Le match offre un premier indice sportif, mais les rôles, la régularité et les coûts demandent une observation sur une période plus longue." },
+      { question: "Combien de buts Ferran avait-il inscrits après OM-PSG ?", answer: "Le PSG indiquait sept buts toutes compétitions confondues, dont quatre en Ligue 1, après la rencontre du 20 septembre 2026." }
+    ],
+    sources: [
+      { name: "PSG.fr - présentation des recrues", url: "https://www.psg.fr/content/les-recrues-parisiennes-presentees-au-parc-des-princes-paris-saint-germain-as-monaco-ligue-1-mcdonalds-2026-2027", note: "Liste officielle des cinq arrivées." },
+      { name: "PSG.fr - match Marseille-Paris", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Résultat, changements et bilan de Ferran." },
+      { name: "Ligue 1 - Ferran Torres après cinq journées", url: "https://ligue1.com/fr/articles/l1_article_5885-", note: "Statistiques de championnat publiées par l'organisateur." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Composition officielle de l'effectif 2026-2027." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" }, { label: "Transfert PSG", url: "/transfert-psg/" },
+      { label: "Bilan chiffré de l'été", url: "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/" },
+      { label: "Ferran Torres PSG", url: "/joueurs-psg/ferran-torres/" }, { label: "Joueurs PSG", url: "/joueurs-psg/" }
+    ]
+  },
+  {
+    id: "desire-doue-psg-classique-marseille-passe-decisive-role",
+    title: "Désiré Doué au PSG : pourquoi sa passe contre l'OM compte plus qu'un chiffre",
+    description: "Analyse du rôle de Désiré Doué au PSG après le Classique de septembre 2026 : passe décisive, occupation du couloir droit, complémentarité avec Ferran et progression.",
+    deck: "Une passe décisive pour Ferran, beaucoup d'initiatives et une place retrouvée dans le onze : Désiré Doué a donné au PSG un point d'appui décisif à Marseille. Son match raconte aussi ce qu'il lui reste à maîtriser.",
+    category: "Joueurs PSG",
+    angle: "Portrait du moment",
+    date: "2026-09-22",
+    dateLabel: "22 septembre 2026",
+    time: "13:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade de football pour une analyse de Désiré Doué au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Désiré Doué PSG", "Doué OM PSG", "passe décisive Doué", "joueurs PSG", "effectif PSG"],
+    sections: [
+      { heading: "Un geste décisif dans le match le plus exposé", paragraphs: [
+        "Le fait est simple et vérifiable. Le 20 septembre 2026, Désiré Doué a centré depuis la droite pour la tête de Ferran Torres à la 66e minute du Classique à Marseille. Le PSG a pris l'avantage et s'est finalement imposé 2-1. Selon le direct officiel, il s'agissait de la première passe décisive de Doué en Ligue 1 cette saison, de la deuxième toutes compétitions confondues. Ce nombre n'est pas spectaculaire à lui seul. Le contexte, lui, l'est : un score bloqué, un stade hostile et une entrée de Ferran dont il fallait immédiatement comprendre les appels.",
+        "La qualité du centre dépend autant du choix que de l'exécution. Doué avait plusieurs solutions, dont une conduite supplémentaire ou un ballon en retrait. Il a préféré attaquer l'espace devant le gardien, là où Ferran se projetait. Quelques minutes plus tôt, les Parisiens avaient déjà multiplié les tentatives sans marquer. Le bon geste au bon instant a donc transformé une domination en avantage concret. C'est souvent ce qui sépare un joueur seulement séduisant d'un joueur décisif."
+      ] },
+      { heading: "Revenir dans le onze, puis assumer le couloir", paragraphs: [
+        "Le PSG a confirmé avant le match que Doué retrouvait une place de titulaire sur le front de l'attaque, avec Dembélé et Kvaratskhelia. Il n'était pas chargé de répéter mécaniquement les mêmes courses. Sur la droite, il pouvait conserver la largeur, rentrer sur son pied fort, trouver un partenaire à l'intérieur ou porter le ballon dans la surface. Cette liberté ne vaut que si elle conserve des repères pour les autres. Au Vélodrome, ses séquences les plus utiles sont celles où son initiative s'est reliée à un appel collectif.",
+        "Le direct officiel mentionne plusieurs actions qui dessinent son match : une frappe dès la reprise, des centres dangereux vers João Neves ou Nuno Mendes et une tentative au-dessus après un ballon revenu dans la surface. Tout n'a pas réussi. C'est important de le rappeler, car un seul geste décisif peut déformer le souvenir d'une performance. Doué a alterné bonnes décisions et séquences moins précises. Mais il a continué à demander le ballon, même après des occasions manquées. Cette persistance donne du poids à sa passe pour Ferran."
+      ] },
+      { heading: "La connexion avec Ferran n'est pas un hasard tactique", paragraphs: [
+        "Ferran Torres est entré à la 59e minute. Sept minutes plus tard, il marquait sur le centre de Doué. L'action illustre une complémentarité facile à comprendre : le Français peut attirer, fixer puis libérer le ballon ; l'Espagnol peut courir vers le premier poteau avant que la défense ait le temps de se réorganiser. Ferran n'a pas besoin de longues phases de possession pour faire sentir sa présence. Doué, lui, bénéficie d'une cible plus agressive dans la surface. La combinaison sert donc les qualités des deux joueurs.",
+        "Il faut éviter d'en faire déjà une formule magique. Une passe décisive ne garantit pas qu'ils reproduiront le même mouvement contre toutes les défenses. Les adversaires ajusteront leur couverture du couloir et les espaces du Vélodrome ne seront pas identiques au Parc des Princes. Mais cette première connexion de championnat donne une piste au staff : quand Doué reçoit en position de centre, Paris gagne à placer un joueur qui attaque franchement la zone du gardien. Le but montre une solution concrète, pas une recette définitive."
+      ] },
+      { heading: "Créer sans transformer chaque ballon en numéro personnel", paragraphs: [
+        "Doué possède assez de technique pour éliminer dans un espace réduit. Le danger, pour un jeune attaquant de ce niveau, serait de croire que chaque possession doit confirmer son talent individuel. Son meilleur match n'est pas forcément celui où il dribble le plus. C'est celui où ses changements de rythme ouvrent des occasions pour l'équipe. À Marseille, la passe pour Ferran a eu cet effet. D'autres actions l'ont vu chercher ses partenaires rapidement après avoir attiré le premier défenseur.",
+        "Cela n'enlève rien à sa capacité de provoquer. Le PSG a besoin de joueurs capables de rompre une organisation adverse quand la circulation devient trop prévisible. Il s'agit de choisir le moment : garder le ballon pour attirer, puis le donner avant que l'avantage ne disparaisse. Cette maîtrise de la cadence sera plus déterminante sur la durée que le total brut de dribbles. L'action du premier but parisien offre une image claire de cette évolution possible."
+      ] },
+      { heading: "Une concurrence qui l'oblige à être complet", paragraphs: [
+        "L'attaque parisienne comprend Dembélé, Kvaratskhelia, Ferran Torres, Mika Godts et plusieurs solutions capables de changer de poste. Akliouche peut également occuper des zones de création proches. Doué n'a donc aucune raison de penser sa place garantie par son seul potentiel. Sa polyvalence l'aide, mais elle lui impose aussi d'être utile dans plusieurs configurations : titulaire sur un côté, joueur intérieur, partenaire d'un vrai numéro 9 ou relais d'un bloc qui presse haut.",
+        "Le Classique lui a donné des arguments dans cette concurrence. Il a été titulaire, a participé à la production offensive et a offert le premier but. Il est sorti à la 79e minute, une fois le score redevenu favorable à Paris. Ce remplacement n'a pas besoin d'être transformé en jugement sur sa prestation. Luis Enrique ajustait alors son équipe pour finir une rencontre tendue. La question intéressante sera la suivante : Doué peut-il répéter cette utilité quand son rôle change d'un match à l'autre ?"
+      ] },
+      { heading: "Notre analyse : une passe, et surtout une direction", paragraphs: [
+        "La passe décisive du Vélodrome est un repère, pas un aboutissement. Elle confirme que Doué peut participer directement aux buts du PSG tout en gardant sa liberté créative. Son activité durant le match suggère un joueur prêt à prendre des responsabilités, mais encore perfectible dans le dernier geste. Cette nuance compte. Le récit d'une star déjà finie serait aussi trompeur que celui d'un talent seulement prometteur. Paris a besoin de sa progression présente, pas uniquement de la projection vers ce qu'il pourrait devenir.",
+        "Pour suivre cette progression, il faudra regarder les occasions créées, les choix près de la surface, les associations avec Ferran et Dembélé, puis la constance de son influence. Les chiffres de passes décisives aideront, mais ils ne diront pas tout. À Marseille, Doué a montré qu'il savait donner à un partenaire le ballon que le match réclamait. C'est peut-être le plus important : dans un effectif rempli de gestes forts, le jeune Parisien a choisi le geste juste."
+      ] }
+    ],
+    faq: [
+      { question: "Qui a fait la passe décisive sur le but de Ferran contre Marseille ?", answer: "Désiré Doué a centré depuis la droite pour Ferran Torres à la 66e minute du Classique du 20 septembre 2026." },
+      { question: "Combien de passes décisives Doué avait-il après OM-PSG ?", answer: "Selon le direct du PSG, c'était sa première passe décisive de la saison en Ligue 1 et sa deuxième toutes compétitions confondues." },
+      { question: "Doué était-il titulaire contre l'OM ?", answer: "Oui, le PSG l'avait annoncé titulaire en attaque aux côtés d'Ousmane Dembélé et Khvicha Kvaratskhelia." }
+    ],
+    sources: [
+      { name: "PSG.fr - Marseille 1-2 Paris", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Chronologie et statistique de la passe décisive." },
+      { name: "PSG.fr - avant le Classique", url: "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027", note: "Composition officielle et position de Doué au départ." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Contexte de la concurrence offensive." }
+    ],
+    internalLinks: [
+      { label: "Désiré Doué PSG", url: "/joueurs-psg/desire-doue/" }, { label: "Ferran Torres PSG", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" }, { label: "Calendrier PSG", url: "/calendrier-psg/" }, { label: "Mercato PSG", url: "/mercato-psg/" }
+    ]
+  },
+  {
+    id: "tactique-psg-zaire-emery-lateral-droit-marseille-2026",
+    title: "Tactique PSG : Zaïre-Emery latéral droit, solution durable ou dépannage de luxe ?",
+    description: "Décryptage de la composition du PSG à Marseille en septembre 2026 : Warren Zaïre-Emery arrière droit, absence d'Hakimi, asymétrie des couloirs et conséquences tactiques.",
+    deck: "Sans Achraf Hakimi, Luis Enrique a placé Warren Zaïre-Emery à droite de la défense contre l'OM. Paris a gagné, mais la question dépasse le résultat : que gagne et que perd l'équipe quand un milieu de formation occupe ce couloir ?",
+    category: "Tactique PSG",
+    angle: "Décryptage de composition",
+    date: "2026-09-22",
+    dateLabel: "22 septembre 2026",
+    time: "13:25",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Terrain de football pour un décryptage tactique du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["tactique PSG", "composition PSG", "Warren Zaïre-Emery latéral droit", "Hakimi PSG", "Luis Enrique tactique"],
+    sections: [
+      { heading: "Le choix de départ, confirmé par le club", paragraphs: [
+        "Avant le Classique du 20 septembre 2026, le PSG a annoncé sa composition : Matvey Safonov dans le but, Warren Zaïre-Emery à droite de la défense en remplacement d'Achraf Hakimi blessé, Nuno Mendes à gauche, Marquinhos et Willian Pacho dans l'axe. Vitinha, João Neves et Fabián Ruiz formaient le milieu, devant lequel débutaient Dembélé, Doué et Kvaratskhelia. Paris a remporté le match 2-1. Le résultat valide la capacité du groupe à survivre à une absence importante ; il ne prouve pas automatiquement que tous les postes peuvent être interchangeables.",
+        "Zaïre-Emery est identifié par l'effectif officiel comme milieu de terrain. Le faire débuter arrière droit change donc la répartition habituelle des tâches. Hakimi offre naturellement des appels répétés dans la profondeur et une menace offensive très spécifique. Un milieu placé dans le couloir tend, lui, à lire les espaces intérieurs et les moments de sécurité. Cette différence peut être utile si elle est assumée. Elle peut devenir problématique si l'équipe attend de son remplaçant exactement les mêmes courses qu'un spécialiste."
+      ] },
+      { heading: "Deux couloirs qui ne racontent pas le même match", paragraphs: [
+        "Le PSG n'a pas besoin d'une symétrie parfaite pour attaquer. À Marseille, Nuno Mendes a été très présent à gauche et a participé directement au but de Marquinhos à la 74e minute. À droite, Doué créait du danger plus haut, tandis que Zaïre-Emery devait assurer la continuité entre défense et milieu. Cette répartition ouvre une piste tactique : faire du côté gauche la voie principale de projection du latéral, et du côté droit une zone de combinaison plus patiente. On peut gagner de la stabilité sans renoncer à attaquer.",
+        "Ce n'est pas une carte de chaleur mesurée ni un dispositif figé pendant quatre-vingt-dix minutes. C'est une lecture des rôles visibles dans la composition et dans les actions décrites par le direct officiel. Doué a notamment délivré depuis la droite le centre du premier but, inscrit par Ferran Torres. Mendes a lancé l'action du second depuis la gauche. Les deux côtés ont donc contribué, mais par des mécanismes différents : le centre d'un attaquant sur l'un, la montée d'un latéral sur l'autre. L'asymétrie devient une ressource lorsqu'elle reste lisible pour les partenaires."
+      ] },
+      { heading: "Ce que Zaïre-Emery peut apporter à la construction", paragraphs: [
+        "Un milieu de formation possède des habitudes précieuses près de la ligne de touche. Il sait recevoir avec un adversaire dans le dos, jouer à une ou deux touches vers l'intérieur et protéger la possession après une récupération. À droite, Zaïre-Emery peut donc aider le PSG à sortir proprement de la pression et à offrir une ligne de passe à Vitinha ou João Neves. Il ne s'agit pas de prétendre qu'il remplace Hakimi à l'identique ; son intérêt est justement d'amener un autre équilibre.",
+        "Ce rôle demande néanmoins une discipline propre aux défenseurs. La position du corps face à un ailier rapide, la couverture du second poteau et le timing de la montée ne sont pas les mêmes que dans l'entrejeu. Une équipe très dominante peut masquer ces difficultés pendant une grande partie du match, puis se faire surprendre sur une transition. L'égalisation de Marseille, intervenue à la 72e minute après une progression rapide dans le camp parisien, rappelle que le contrôle du ballon ne supprime jamais entièrement le risque défensif."
+      ] },
+      { heading: "Le prix payé au milieu de terrain", paragraphs: [
+        "Chaque repositionnement a un coût invisible. Placer Zaïre-Emery à droite retire une option au milieu, secteur où ses courses et sa capacité à couvrir de grandes distances peuvent compter. Luis Enrique disposait à Marseille de Vitinha, João Neves et Fabián Ruiz pour commencer, puis a fait entrer Akliouche à la place de Ruiz. Le groupe a absorbé le déplacement du jeune Français sur un match. Sur plusieurs semaines, l'équation pourrait devenir plus complexe si d'autres absences apparaissent ou si les rencontres s'enchaînent.",
+        "C'est pourquoi la question de la durée ne peut être séparée du calendrier. Le PSG retrouvera le championnat contre Le Mans le 10 octobre avant de se déplacer à Manchester City en Ligue des champions le 14 octobre, selon les programmations officielles. Un dépannage utile contre Marseille n'engage pas forcément le choix à faire pour une grande soirée européenne. Les adversaires, leur pressing et la vitesse de leurs ailiers imposeront peut-être d'autres réponses. La flexibilité du joueur est une force ; elle ne doit pas devenir une obligation permanente."
+      ] },
+      { heading: "31 tirs pour Paris, mais pas une immunité défensive", paragraphs: [
+        "PSG.fr a compté 31 tentatives parisiennes contre l'OM. Ce volume montre que la composition n'a pas empêché Paris d'installer sa domination offensive. Le côté droit a produit le centre de Doué pour Ferran ; le côté gauche a nourri de nombreuses situations avant la montée décisive de Mendes. Sous cet angle, l'utilisation de Zaïre-Emery n'a pas paralysé l'équipe. Luis Enrique a conservé suffisamment de créateurs et de profondeur de banc pour peser jusqu'à la fin.",
+        "Le score final reste pourtant serré. Marseille a égalisé, puis a encore eu une occasion de revenir dans le temps additionnel. Une domination de 31 tirs peut coexister avec des moments de vulnérabilité. Le bon diagnostic tactique doit donc résister aux deux simplifications : dire que l'expérience a entièrement réussi parce que Paris a gagné, ou dire qu'elle a échoué parce que le PSG a encaissé. Elle a permis de traverser un match difficile, avec des bénéfices dans la circulation et des risques à surveiller dans la couverture."
+      ] },
+      { heading: "Notre analyse : une option sérieuse, pas une nouvelle identité", paragraphs: [
+        "Zaïre-Emery latéral droit est une solution crédible lorsque Hakimi manque et que le reste du milieu peut tenir sans lui. Elle permet de conserver un joueur fiable techniquement et capable de comprendre plusieurs zones. Le Classique apporte une preuve limitée mais réelle : Paris a gagné à l'extérieur avec cette organisation. L'impact offensif décisif est venu d'autres joueurs, ce qui montre que l'équipe peut répartir différemment sa menace sans dépendre des montées habituelles du couloir droit.",
+        "Nous n'en tirerions pas la conclusion qu'il faut déplacer durablement Zaïre-Emery. Ses qualités au milieu restent importantes et la comparaison avec Hakimi serait injuste pour les deux. La meilleure lecture est celle d'une option de composition, activable selon l'adversaire, les absences et le calendrier. Son forfait pour le rassemblement des Bleus, signalé le 21 septembre par la Ligue de Paris Île-de-France de la FFF, impose en outre de vérifier sa disponibilité avant toute projection sur le prochain match ; aucune date de reprise n'est établie ici. Marseille a montré une adaptation réussie, pas une solution immédiatement reconductible."
+      ] }
+    ],
+    faq: [
+      { question: "Qui jouait arrière droit pour le PSG contre Marseille ?", answer: "Warren Zaïre-Emery a débuté à droite de la défense le 20 septembre 2026, Achraf Hakimi étant blessé." },
+      { question: "Pourquoi ce choix change-t-il la tactique du PSG ?", answer: "Zaïre-Emery est un milieu de formation ; il apporte des habitudes de circulation intérieure différentes des appels offensifs d'Hakimi." },
+      { question: "Quand le PSG joue-t-il contre Manchester City ?", answer: "Le calendrier européen officiel annonce Manchester City-PSG le mercredi 14 octobre 2026 à 21h, heure française." }
+    ],
+    sources: [
+      { name: "PSG.fr - composition avant le Classique", url: "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027", note: "Onze de départ et remplacement d'Hakimi par Zaïre-Emery." },
+      { name: "PSG.fr - Marseille 1-2 Paris", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Chronologie, buts et volume de tirs." },
+      { name: "PSG.fr - calendrier européen", url: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027", note: "Date et horaire du déplacement à Manchester City." },
+      { name: "PSG.fr - Paris-Le Mans", url: "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027", note: "Programmation du prochain match de championnat." },
+      { name: "Ligue de Paris Île-de-France / FFF - forfait de Zaïre-Emery", url: "https://paris-idf.fff.fr/simple/equipe-de-france-huit-franciliens-chez-les-bleus/", note: "Confirmation du forfait en sélection, sans indication de durée d'absence." }
+    ],
+    internalLinks: [
+      { label: "Warren Zaïre-Emery PSG", url: "/joueurs-psg/warren-zaire-emery/" }, { label: "Achraf Hakimi PSG", url: "/joueurs-psg/achraf-hakimi/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" }, { label: "Calendrier PSG", url: "/calendrier-psg/" }, { label: "Luis Enrique PSG", url: "/staff-psg/luis-enrique/" }
+    ]
+  },
   {
     id: "luis-enrique-psg-classique-marseille-methode-2026",
     title: "Luis Enrique au PSG : ce Classique gagné à Marseille valide-t-il sa méthode ?",
