@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-21T14:13:00+02:00",
-  edition: "Fil PSG du 21 septembre 2026",
-  displayDate: "21 septembre 2026",
-  displayTime: "14h13",
+  updatedAt: "2026-09-22T23:00:00+02:00",
+  edition: "Fil PSG du 22 septembre 2026",
+  displayDate: "22 septembre 2026",
+  displayTime: "23h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-22", "22 septembre 2026", [
+  { id: "real-madrid-psg-feminin-nul-karchaoui-uwcl-septembre-2026", time: "23:00", category: "Féminines", title: "Real Madrid-PSG féminin : Karchaoui répond, Paris ramène un point de caractère", summary: "Cueillies à froid par Felicia Schröder dès la 2e minute, les Parisiennes n'ont pas plié à Madrid pour leur entrée en Ligue des champions. Après avoir longtemps poussé, elles ont égalisé à la 74e sur un penalty de Sakina Karchaoui, obtenu par Léa Morissaint. Le 1-1, confirmé par le compte rendu officiel du club et l'UEFA, lance la phase de ligue avec un point solide et une promesse : Paris a même eu la balle du 2-1 dans le temps additionnel.", source: "PSG.fr / UEFA", url: "https://www.psg.fr/content/compte-rendu-real-madrid-cf-paris-saint-germain-feminin-uefa-womens-champions-league-2026-2027", reliability: "Officiel", viral: 93 },
+  ]),
   ...withNewsDate("2026-09-21", "21 septembre 2026", [
   { id: "warren-zaire-emery-forfait-bleus-adducteur-septembre-2026", time: "14:13", category: "Sélections", title: "Zaïre-Emery forfait avec les Bleus : Paris surveille son adducteur", summary: "Warren Zaïre-Emery ne rejoindra pas l'équipe de France pour le rassemblement de fin septembre. Après échanges entre les staffs des Bleus et du PSG, le milieu de 20 ans a déclaré forfait en raison d'une gêne à l'adducteur, selon L'Équipe. La FFF confirme son absence de la sélection, où Maghnes Akliouche le remplace. Pour Paris, l'enjeu est désormais une reprise sans précipitation : aucune durée d'indisponibilité n'a été communiquée.", source: "L'Équipe / FFF", url: "https://www.lequipe.fr/Football/Actualites/Blesse-a-un-adducteur-warren-zaire-emery-forfait-avec-l-equipe-de-france-et-remplace-par-maghnes-akliouche/1720298", reliability: "Fort — forfait confirmé", viral: 91 },
   ]),
