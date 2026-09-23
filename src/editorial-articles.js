@@ -1,12 +1,193 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-22T13:35:00+02:00",
-  displayDate: "22 septembre 2026",
-  displayTime: "13h35",
+  updatedAt: "2026-09-23T14:54:00+02:00",
+  displayDate: "23 septembre 2026",
+  displayTime: "14h54",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "rumeur-psg-jj-gabriel-manchester-united-decryptage",
+    title: "Rumeur PSG : JJ Gabriel, le dossier qui excite l'Europe mais exige encore de la prudence",
+    description: "Le PSG est cité parmi les clubs attentifs à JJ Gabriel, jeune talent de Manchester United. Faits établis, zones d'ombre, concurrence et lecture du projet parisien.",
+    deck: "Son nom circule déjà entre Paris, Madrid, Barcelone et Munich. Pourtant, aucune arrivée n'est actée. Parisien 90 sépare ce qui est documenté de ce qui reste hypothétique dans le dossier JJ Gabriel.",
+    category: "Rumeurs PSG",
+    angle: "Décryptage d'une rumeur",
+    date: "2026-09-23",
+    dateLabel: "23 septembre 2026",
+    time: "14:54",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour un décryptage de rumeur PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["rumeur PSG", "JJ Gabriel PSG", "mercato PSG", "transfert PSG", "Manchester United PSG"],
+    sections: [
+      { heading: "Le signal : Paris est cité, rien n'est signé", paragraphs: [
+        "Le point de départ est précis mais limité. CulturePSG, en s'appuyant sur The Athletic et plusieurs confirmations de la presse anglaise, rapporte que le Paris Saint-Germain fait partie des clubs attentifs à Joseph Junior Gabriel, dit JJ Gabriel, jeune joueur offensif formé à Manchester United. Le Real Madrid, le FC Barcelone et le Bayern Munich sont également cités. Ce faisceau de médias donne du poids à l'existence d'un intérêt européen. Il ne constitue ni un accord avec le joueur, ni une offre acceptée, ni une décision officielle de Manchester United.",
+        "Le bon classement éditorial est donc « rumeur solide à suivre ». Il existe une source identifiée et plusieurs clubs sont nommés, mais aucune des parties directement concernées n'a annoncé de mouvement. Le PSG n'a pas communiqué. Manchester United n'a pas confirmé un départ. Le joueur n'a pas présenté publiquement un futur club. Tant que ces trois niveaux restent absents, transformer l'intérêt en transfert serait trompeur. Le dossier mérite de l'attention, pas un faux compte à rebours."
+      ] },
+      { heading: "Pourquoi le cas JJ Gabriel est juridiquement particulier", paragraphs: [
+        "Le jeune Anglais est né en octobre 2010 et n'a donc pas encore seize ans à la date où son nom apparaît dans la presse. Selon les informations relayées, la nature de son engagement à Manchester et la possibilité de disposer d'une nationalité européenne pourraient peser lourd. Depuis le Brexit, les mouvements internationaux de mineurs sont encadrés et les exceptions sont étroites. La question d'un éventuel passeport irlandais ou chypriote n'est donc pas un détail administratif : elle pourrait déterminer si un départ vers l'Union européenne est possible à court terme.",
+        "Cette dimension impose une double prudence. D'abord, les règles applicables aux mineurs, aux contrats de formation et à l'enregistrement international ne se résument pas à une phrase de mercato. Ensuite, il s'agit d'un adolescent. Les comparaisons précoces, les montants supposés et la pression publique peuvent produire plus de bruit que d'information. Parisien 90 ne publiera ni données privées, ni spéculation sur son entourage, ni conclusion juridique sans document officiel. Le football peut s'intéresser à un talent sans transformer sa jeunesse en feuilleton permanent."
+      ] },
+      { heading: "Ce que son profil pourrait apporter au PSG", paragraphs: [
+        "Les descriptions publiques présentent JJ Gabriel comme un offensif droitier, capable de partir du côté gauche, d'éliminer et de créer dans les trente derniers mètres. Les statistiques de catégories de jeunes citées par CulturePSG suggèrent une production élevée face à des adversaires parfois plus âgés. Elles doivent cependant rester à leur place. Le niveau des compétitions de jeunes, les minutes jouées, les postes occupés et la maturation physique rendent toute projection vers la Ligue 1 fragile. Un joueur brillant à quinze ans n'est pas encore une recrue pour l'équipe première.",
+        "L'intérêt théorique de Paris est néanmoins cohérent avec un effectif qui veut réunir des joueurs créatifs avant leur pleine maturité. Le club a valorisé ces dernières saisons la technique sous pression, la polyvalence et la capacité à participer au contre-pressing. Si le suivi est réel, il peut concerner autant un projet de développement qu'un rôle immédiat. Le défi ne serait pas seulement de gagner la signature. Il faudrait proposer une trajectoire crédible entre formation, entraînement professionnel, compétition et protection du joueur."
+      ] },
+      { heading: "La concurrence change totalement l'équation", paragraphs: [
+        "Quand Madrid, Barcelone, Munich et plusieurs clubs anglais sont associés au même talent, la question ne se limite plus au prestige. Chaque candidat peut proposer un championnat, une académie, une proximité familiale, un cadre contractuel et une route différente vers l'équipe première. Le PSG peut mettre en avant son Campus et la place accordée à de jeunes profils, mais il doit aussi convaincre qu'une concurrence offensive très dense n'empêchera pas la progression. Pour un joueur aussi jeune, la qualité du prochain environnement compte probablement davantage qu'une promesse spectaculaire.",
+        "Manchester United conserve par ailleurs un intérêt évident à garder l'un des joueurs les plus remarqués de son académie. Une prolongation ou un nouvel accord reste possible. C'est pourquoi le vocabulaire de « course gagnée » serait prématuré. Dans un dossier international impliquant un mineur, les négociations peuvent changer rapidement au gré des règles, de la famille, du projet scolaire et du calendrier contractuel. Paris peut être actif sans être favori, et favori un jour sans être destination finale."
+      ] },
+      { heading: "Notre analyse : une rumeur crédible, un transfert encore lointain", paragraphs: [
+        "Notre lecture est simple : la présence du PSG parmi les clubs cités est crédible, mais l'écart entre la veille et la signature demeure immense. Le club parisien doit observer les meilleurs talents européens ; ne pas le faire serait surprenant. En revanche, un intérêt de recrutement peut aller d'une prise de renseignements à une discussion avancée. Les informations accessibles ne permettent pas aujourd'hui de placer le dossier au-dessus du stade de l'attention sérieuse.",
+        "Les prochains signaux utiles seront vérifiables : une position officielle de Manchester United, la clarification du statut contractuel, une prise de parole attribuée au représentant légal du joueur, ou une procédure d'enregistrement auprès des instances. Les montages vidéo, les comptes anonymes et les reprises en chaîne ne feront pas progresser le niveau de certitude. La rumeur est intéressante parce qu'elle révèle le type de talent que Paris surveille. Elle ne doit pas être vendue comme une recrue déjà choisie."
+      ] },
+      { heading: "Ce que ce dossier dit du mercato PSG", paragraphs: [
+        "Même fermé, le marché continue de vivre à travers le recrutement des jeunes, les renouvellements et la préparation des fenêtres suivantes. Le dossier JJ Gabriel rappelle que le PSG ne travaille pas seulement sur le prochain titulaire. Il cherche aussi des actifs sportifs rares, capables de grandir dans un cadre de très haut niveau. Cette politique peut créer de la valeur et renouveler l'effectif, à condition de ne pas empiler les promesses sans minutes ni parcours individualisé.",
+        "Pour les supporters, la meilleure manière de suivre cette histoire est de relier chaque nouvelle information à sa source et à son statut. Une citation d'un média reconnu n'a pas la même force qu'un communiqué. Un intérêt n'est pas une négociation, une négociation n'est pas un accord, et un accord n'est pas une homologation. Cette échelle permet de conserver l'excitation du mercato sans sacrifier la confiance. Au 23 septembre, JJ Gabriel reste un nom à surveiller, pas un futur Parisien annoncé."
+      ] }
+    ],
+    faq: [
+      { question: "JJ Gabriel a-t-il signé au PSG ?", answer: "Non. Le PSG est cité parmi plusieurs clubs intéressés, mais aucune signature ni aucun accord officiel n'ont été annoncés." },
+      { question: "Pourquoi son âge est-il important ?", answer: "Parce que les transferts internationaux de mineurs et les contrats de formation obéissent à des règles spécifiques, notamment depuis le Brexit." },
+      { question: "Quel est le niveau de fiabilité de cette rumeur ?", answer: "Parisien 90 la classe comme rumeur solide à suivre : les sources sont identifiées, mais les confirmations officielles manquent." }
+    ],
+    sources: [
+      { name: "CulturePSG - le PSG cité dans le dossier JJ Gabriel", url: "https://www.culturepsg.com/news/mercato/le-psg-a-l-affut-pour-jj-gabriel-le-phenomene-de-manchester-united/60790", note: "Synthèse datée du 16 septembre 2026, fondée notamment sur The Athletic." },
+      { name: "FIFA - protection des mineurs", url: "https://inside.fifa.com/legal/football-regulatory/clearing-house/minors", note: "Cadre général officiel des transferts internationaux de joueurs mineurs." },
+      { name: "Parisien 90 - mercato PSG", url: "/mercato-psg/", note: "Suivi des arrivées, départs et niveaux de fiabilité." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transfert PSG", url: "/transfert-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Charte éditoriale", url: "/charte-editoriale/" }
+    ]
+  },
+  {
+    id: "neymar-psg-heritage-santos-2026",
+    title: "Neymar et le PSG : ce que son retour au premier plan change dans la mémoire parisienne",
+    description: "Neymar joue à Santos en 2026, mais son passage au PSG continue de diviser. Bilan chiffré, héritage sportif, blessures et influence mondiale.",
+    deck: "À Santos et de nouveau présent avec le Brésil en 2026, Neymar reste indissociable du PSG moderne. Son héritage parisien mérite mieux qu'un procès permanent ou une nostalgie sans nuance.",
+    category: "Anciens joueurs PSG",
+    angle: "Que devient-il ?",
+    date: "2026-09-23",
+    dateLabel: "23 septembre 2026",
+    time: "14:54",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Ambiance parisienne pour un dossier consacré à Neymar et au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Neymar PSG", "Neymar Santos 2026", "Neymar Paris Saint-Germain", "ancien joueur PSG", "Brésiliens PSG"],
+    sections: [
+      { heading: "Le fait actuel : Neymar est un joueur de Santos", paragraphs: [
+        "La fiche officielle de la Confédération brésilienne de football identifie Neymar comme joueur du Santos FC en 2026. Elle recense notamment ses apparitions dans les compétitions nationales suivies par la CBF. Ce retour dans son club formateur donne à sa carrière une dimension presque circulaire : Santos l'a révélé, l'Europe l'a transformé en superstar, puis le Brésil l'a retrouvé à un âge où chaque match est observé à travers la question de la durée et du corps.",
+        "La CBF a également documenté sa participation au Mondial 2026 avec le Brésil. Cette présence a changé le récit récent autour de lui : après les blessures et les interrogations, il a de nouveau porté le numéro 10 dans une Coupe du monde. Cela ne permet pas de prédire sa fin de carrière ni son niveau futur. Cela établit simplement qu'en 2026, Neymar n'est pas seulement une ancienne célébrité parisienne. Il reste un joueur en activité, engagé dans une dernière partie de trajectoire encore sportive."
+      ] },
+      { heading: "Paris, six saisons et des chiffres qui résistent au temps", paragraphs: [
+        "Le PSG a publié un bilan officiel au moment de son départ en août 2023 : 173 matches et 118 buts sous le maillot parisien, avec treize trophées selon la rétrospective du club. Ces nombres décrivent une production offensive exceptionnelle. Ils rappellent aussi pourquoi le débat Neymar ne peut pas être réduit à ses indisponibilités. Lorsqu'il était sur le terrain, il a produit à un rythme de très haut niveau, créé des occasions et donné à Paris une capacité rare à déséquilibrer un bloc par le dribble ou la passe.",
+        "Les statistiques n'effacent pourtant pas la frustration. Les blessures ont interrompu plusieurs saisons, parfois aux moments où la Ligue des champions entrait dans sa phase décisive. L'absence a alors pesé presque autant que la performance. Neymar est devenu le symbole d'un paradoxe parisien : un joueur capable d'être l'un des meilleurs du monde, mais dont la continuité ne permettait pas toujours au projet collectif de s'appuyer sur lui. Cette tension explique la violence de certains jugements et la puissance de la nostalgie."
+      ] },
+      { heading: "Lisbonne 2020, le sommet qui n'a pas eu de couronne", paragraphs: [
+        "La campagne européenne de 2020 reste le centre sportif de son passage. Neymar a conduit, provoqué, créé et porté Paris jusqu'à sa première finale de Ligue des champions. Le PSG a perdu contre le Bayern Munich, mais il a franchi un seuil historique. Dans la mémoire collective, ce parcours demeure associé à son influence, notamment contre Dortmund puis pendant le tournoi final à Lisbonne. Il n'a pas gagné la coupe, mais il a rapproché le club de son obsession plus que beaucoup de stars avant lui.",
+        "Ce sommet nourrit encore une question inconfortable : faut-il juger un joueur seulement sur le trophée qui manque ? Une finale perdue n'est pas une victoire, et le PSG recrutait Neymar précisément pour conquérir l'Europe. Mais éliminer tout ce qui précède le résultat final reviendrait à effacer la difficulté du parcours. La lecture la plus juste tient les deux idées ensemble : Neymar n'a pas offert la Ligue des champions à Paris, mais il a été déterminant dans le premier voyage du club jusqu'à la finale."
+      ] },
+      { heading: "L'impact mondial dépasse les matches", paragraphs: [
+        "Son arrivée en 2017 a changé la perception internationale du PSG. Le transfert record, la présentation, les maillots et l'attention médiatique ont placé Paris au centre du marché mondial. Au Brésil, Neymar a créé une connexion immédiate avec des millions de supporters qui connaissaient déjà Raí, Ronaldinho, Thiago Silva ou Marquinhos. Le PSG n'a pas inventé son histoire brésilienne avec lui, mais il l'a transformée en phénomène contemporain, visible chaque semaine sur tous les continents.",
+        "Cette influence commerciale ne doit pas être confondue avec une mesure exacte de rentabilité. Les ventes de maillots, les contrats de partenaires et la croissance d'une marque ne sont pas publiés joueur par joueur de manière complète. On peut affirmer que Neymar a amplifié la visibilité du club ; on ne peut pas attribuer sans preuve une somme précise à son image. Son rôle culturel est évident. Son bilan financier détaillé reste, lui, inaccessible au public."
+      ] },
+      { heading: "Pourquoi son héritage divise encore les supporters", paragraphs: [
+        "Une partie du public retient le génie, les gestes, les buts et la relation technique avec Mbappé ou Messi. Une autre retient les absences, les polémiques et le sentiment qu'une promesse historique n'a pas été tenue. Les deux mémoires reposent sur des faits réels, mais elles sélectionnent des moments différents. Neymar n'est pas un ancien joueur facile à classer parce qu'il a incarné à la fois le rêve le plus ambitieux de Paris et les limites d'un projet construit autour de superstars.",
+        "Le temps peut calmer ce conflit. À mesure que sa carrière avance à Santos, les matches parisiens deviennent une période délimitée plutôt qu'un débat quotidien. On peut alors mieux distinguer l'homme public, le joueur disponible, le joueur blessé et le symbole économique. Cette distance ne transforme pas les échecs en succès. Elle permet simplement de voir que l'histoire du PSG moderne serait incompréhensible sans son numéro 10 brésilien."
+      ] },
+      { heading: "Notre analyse : ni légende parfaite, ni échec total", paragraphs: [
+        "Neymar mérite une place majeure dans l'histoire du PSG, mais pas une statue sans fissure. Son rendement, sa créativité et la finale européenne justifient le mot héritage. Ses blessures répétées et l'absence de Ligue des champions pendant son passage empêchent de parler d'accomplissement total. Cette conclusion est moins spectaculaire qu'un verdict définitif, mais elle correspond mieux à six saisons faites de sommets, d'attente, de rechutes et de magie.",
+        "Son actualité à Santos et avec le Brésil donne aujourd'hui une nouvelle raison de revisiter cette période. Paris a possédé Neymar pendant ses années centrales, avec tout ce que cela implique de lumière et d'exigence. La meilleure question n'est plus de savoir s'il a été « bon » ou « mauvais » pour le PSG. Elle est de comprendre pourquoi un joueur aussi productif a laissé un sentiment aussi inachevé. C'est précisément ce paradoxe qui le rend inoubliable."
+      ] }
+    ],
+    faq: [
+      { question: "Où joue Neymar en 2026 ?", answer: "La Confédération brésilienne de football l'identifie comme joueur du Santos FC en 2026." },
+      { question: "Combien de matches Neymar a-t-il joués avec le PSG ?", answer: "Le bilan officiel publié par le PSG à son départ mentionne 173 matches et 118 buts." },
+      { question: "Neymar a-t-il gagné la Ligue des champions avec Paris ?", answer: "Non. Il a atteint la finale en 2020, perdue face au Bayern Munich." }
+    ],
+    sources: [
+      { name: "CBF - fiche Neymar 2026", url: "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791", note: "Club actuel et données de compétitions nationales en 2026." },
+      { name: "CBF - Neymar au Mondial 2026", url: "https://www.cbf.com.br/selecao-brasileira/noticias/selecao-masculina/a/neymar-se-torna-segundo-jogador-a-vestir-a-camisa-10-do-brasil-em-quatro-copas", note: "Participation documentée à une quatrième Coupe du monde." },
+      { name: "PSG.fr - merci Neymar", url: "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club", note: "Bilan officiel de son passage parisien." },
+      { name: "PSG.fr - souvenirs éternels", url: "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories", note: "Rétrospective officielle et statistiques parisiennes." }
+    ],
+    internalLinks: [
+      { label: "Fiche Neymar PSG", url: "/anciens-joueurs-psg/neymar/" },
+      { label: "Anciens joueurs PSG", url: "/anciens-joueurs-psg/" },
+      { label: "Brésiliens au PSG", url: "/br/brasileiros-no-psg/" },
+      { label: "Histoire PSG", url: "/histoire-psg/" },
+      { label: "Records PSG", url: "/records-psg/" }
+    ]
+  },
+  {
+    id: "valorisation-psg-revenus-837-millions-modele-economique",
+    title: "Valorisation du PSG : ce que les 837 millions d'euros de revenus disent vraiment de sa puissance",
+    description: "Le PSG est quatrième de la Football Money League 2026 avec 837 millions d'euros de revenus. Analyse de sa puissance économique, sans confondre revenus et valeur du club.",
+    deck: "Paris appartient au carré de tête économique européen. Mais un chiffre d'affaires n'est pas une valorisation, et une saison sportive exceptionnelle ne garantit pas seule une croissance durable.",
+    category: "Économie du PSG",
+    angle: "Lecture business",
+    date: "2026-09-23",
+    dateLabel: "23 septembre 2026",
+    time: "14:54",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Parc des Princes pour une analyse économique du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["valorisation PSG", "revenus PSG", "finances PSG", "budget PSG", "Deloitte PSG 2026"],
+    sections: [
+      { heading: "Le chiffre vérifié : 837 millions d'euros de revenus", paragraphs: [
+        "La Football Money League 2026 de Deloitte classe le Paris Saint-Germain au quatrième rang mondial des clubs générant le plus de revenus, avec 837 millions d'euros pour l'exercice couvrant la saison 2024-2025. Paris reste ainsi dans le top 5 pour une quatrième année consécutive. Le Real Madrid, le FC Barcelone et le Bayern Munich le devancent ; Liverpool suit avec un total presque identique. Ce classement mesure une capacité à produire des recettes, pas la richesse personnelle du propriétaire ni le prix de vente théorique du club.",
+        "Deloitte répartit les revenus entre jour de match, diffusion et activités commerciales. Les indemnités de transfert sont exclues, tout comme la TVA et certains éléments non comparables. Cette méthode est essentielle pour lire correctement le chiffre. Les 837 millions ne représentent ni un bénéfice, ni une trésorerie disponible, ni une enveloppe de mercato. Ils indiquent le volume d'activité footballistique retenu selon une méthode harmonisée. Pour connaître le résultat net ou la dette, il faudrait d'autres documents comptables et un périmètre identique."
+      ] },
+      { heading: "Revenus et valorisation : deux notions différentes", paragraphs: [
+        "La valorisation répond à une autre question : combien pourrait valoir l'ensemble du club dans une transaction, selon ses actifs, ses revenus futurs, ses risques, sa marque, son stade, ses contrats et la rareté de l'opportunité ? Elle repose sur des hypothèses. Le revenu, lui, constate une activité sur une période définie. Un club peut afficher un chiffre d'affaires très élevé et supporter des coûts tout aussi élevés. À l'inverse, une marque en croissance peut recevoir une valorisation généreuse malgré un bénéfice limité.",
+        "C'est pourquoi Parisien 90 ne convertit pas mécaniquement les 837 millions en prix du PSG. Appliquer un multiple arbitraire donnerait une illusion de précision. Les estimations publiées par des cabinets ou médias peuvent être utiles si leur méthode est détaillée, mais elles ne deviennent pas des comptes officiels. La donnée la plus robuste aujourd'hui est le rang de revenus établi par Deloitte. Elle prouve la puissance commerciale du PSG ; elle ne fixe pas le montant auquel ses actionnaires accepteraient de vendre."
+      ] },
+      { heading: "La Ligue des champions a changé l'échelle des recettes", paragraphs: [
+        "Deloitte relie la place du PSG à sa réussite sportive, notamment à son premier titre en Ligue des champions pendant la saison étudiée. Le rapport financier de l'UEFA attribue au club 144,4 millions d'euros de distribution pour la compétition 2024-2025, tandis que Football Benchmark évoque environ 154 millions de revenus UEFA selon son propre périmètre. L'écart rappelle qu'il faut toujours vérifier la définition utilisée. Dans les deux cas, la performance européenne a fourni un apport majeur aux recettes de diffusion et de primes.",
+        "Cette dépendance à la performance est à la fois une force et un risque. Une longue campagne européenne augmente les distributions, l'exposition des partenaires et le nombre de matches attractifs. Une élimination précoce peut inverser le mouvement. Le PSG doit donc transformer un succès exceptionnel en base commerciale durable. Plus les revenus indépendants d'un résultat ponctuel progressent, plus le club peut absorber les variations sportives sans remettre en cause son niveau d'investissement."
+      ] },
+      { heading: "La marque mondiale devient le moteur central", paragraphs: [
+        "Deloitte souligne la capacité du PSG à utiliser sa marque et cite notamment la relation avec Air Jordan comme exemple d'inscription dans la culture populaire. Cette dimension dépasse le sponsoring traditionnel. Paris associe football, mode, musique et attractivité touristique. Le club bénéficie aussi d'être implanté dans une capitale mondiale connue sur tous les marchés. Cette combinaison donne à ses partenaires une audience qui ne dépend pas uniquement de la France ou des droits domestiques de Ligue 1.",
+        "Le modèle n'est pourtant pas automatique. Une marque mondiale doit continuellement produire de l'attachement, distribuer ses contenus, vendre des produits pertinents et rester crédible sportivement. Le départ d'une superstar peut réduire certaines attentions, mais une identité collective forte peut stabiliser l'audience. Le défi économique du PSG est donc proche de son défi sportif : faire en sorte que la valeur du maillot ne repose pas sur un seul nom, tout en conservant des joueurs capables de parler au monde entier."
+      ] },
+      { heading: "Le Parc des Princes limite et protège à la fois", paragraphs: [
+        "Les revenus de jour de match dépendent de la capacité, des prix, de l'hospitalité et du nombre de rencontres. Le Parc des Princes offre une forte demande et une image immédiatement reconnaissable, mais sa capacité reste inférieure à celle de plusieurs grands stades européens. Dans le même temps, la rareté des places peut soutenir le taux de remplissage et la valeur de l'hospitalité. Une comparaison simple par nombre de sièges ne suffit donc pas à établir le potentiel économique.",
+        "Deloitte observe une hausse générale des revenus de match et la diversification des stades en destinations utilisées hors rencontres. Pour Paris, la question de l'enceinte influence nécessairement la croissance à long terme. Mais aucun scénario de déménagement, d'achat ou de rénovation ne doit être intégré aux projections tant qu'il n'est pas officiellement arrêté. Le stade peut être un accélérateur ; il peut aussi devenir un poste d'investissement considérable. Toute lecture sérieuse doit garder les deux dimensions."
+      ] },
+      { heading: "Notre analyse : puissance confirmée, avance jamais acquise", paragraphs: [
+        "Le PSG possède un avantage rare en France : il combine une audience internationale, une ville mondiale, des partenaires puissants et une équipe capable de gagner la plus grande compétition européenne. Ses 837 millions d'euros de revenus le placent dans le même groupe que les géants espagnols, allemands et anglais. Ce niveau donne davantage de choix sportifs et commerciaux, mais il ne supprime ni le contrôle des coûts, ni les règles UEFA, ni la nécessité de renouveler l'intérêt du public.",
+        "Le point de vigilance vient aussi du marché français. Deloitte note que la valeur des accords audiovisuels domestiques de Ligue 1 a baissé et que le modèle direct au consommateur ouvre une période d'incertitude. Paris doit donc continuer à croître par l'international, le commercial, l'Europe et l'expérience des supporters. Sa puissance économique est réelle et mesurable. Sa valorisation exacte demeure une estimation tant qu'aucune transaction ou expertise détaillée ne la révèle. Confondre les deux affaiblirait justement l'analyse."
+      ] }
+    ],
+    faq: [
+      { question: "Quels sont les revenus du PSG dans la Money League 2026 ?", answer: "Deloitte attribue 837 millions d'euros de revenus au PSG pour l'exercice couvrant la saison 2024-2025." },
+      { question: "Le PSG est-il le quatrième club le plus cher du monde ?", answer: "Le classement Deloitte mesure les revenus, pas la valeur de vente des clubs. Paris y occupe la quatrième place mondiale." },
+      { question: "Les ventes de joueurs sont-elles incluses ?", answer: "Non. Deloitte précise que les indemnités de transfert de joueurs et d'entraîneurs sont exclues de son calcul des revenus." }
+    ],
+    sources: [
+      { name: "Deloitte - Football Money League 2026", url: "https://www.deloitte.com/uk/en/services/financial-advisory/analysis/deloitte-football-money-league.html", note: "Classement, revenus et méthode de préparation." },
+      { name: "UEFA - rapport financier 2024-2025", url: "https://editorial.uefa.com/resources/02a1-1fcc539a26d9-78ac6793e755-1000/20260113_enclosure_04_financial_report_2024-25_en.pdf", note: "Distributions officielles des compétitions UEFA." },
+      { name: "Football Benchmark - European Champions Report 2026", url: "https://footballbenchmark.com/documents/d/guest/football-benchmark-european-champions-report-2026", note: "Analyse économique complémentaire du champion d'Europe." },
+      { name: "Parisien 90 - bilan mercato", url: "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/", note: "Distinction entre estimations de transferts et données officielles." }
+    ],
+    internalLinks: [
+      { label: "Bilan mercato PSG 2026", url: "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transfert PSG", url: "/transfert-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Records PSG", url: "/records-psg/" }
+    ]
+  },
   {
     id: "mercato-psg-2026-cinq-recrues-deux-bilans",
     title: "Mercato PSG 2026 : cinq recrues, mais déjà deux bilans très différents",
