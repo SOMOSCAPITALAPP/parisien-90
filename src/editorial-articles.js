@@ -1,12 +1,192 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-23T14:54:00+02:00",
-  displayDate: "23 septembre 2026",
-  displayTime: "14h54",
+  updatedAt: "2026-09-24T14:53:00+02:00",
+  displayDate: "24 septembre 2026",
+  displayTime: "14h53",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "luis-enrique-psg-2030-rotation-methode",
+    title: "Luis Enrique au PSG jusqu'en 2030 : sa rotation permanente peut-elle devenir la nouvelle norme ?",
+    description: "Prolongé jusqu'en 2030, Luis Enrique pousse la concurrence à un niveau inédit au PSG. Méthode, bénéfices, tensions et conséquences pour les grands rendez-vous.",
+    deck: "Sept matches, sept onze différents : le PSG ne cache plus sa révolution interne. Derrière la rotation, Luis Enrique cherche moins à brouiller les pistes qu'à empêcher son équipe de s'installer dans le confort.",
+    category: "Entraîneurs PSG",
+    angle: "Méthode et management",
+    date: "2026-09-24",
+    dateLabel: "24 septembre 2026",
+    time: "14:53",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour une analyse de la méthode de Luis Enrique",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Luis Enrique PSG", "entraîneur PSG", "rotation PSG", "composition PSG", "staff PSG"],
+    sections: [
+      { heading: "Le fait : un contrat long et une autorité renforcée", paragraphs: [
+        "Le Paris Saint-Germain a officialisé la prolongation de Luis Enrique jusqu'en 2030. Ce choix dépasse la récompense accordée à un entraîneur victorieux : il fixe une direction sportive sur quatre saisons supplémentaires et place le technicien au centre de la continuité du projet. Dans un club longtemps rythmé par les changements de banc, une telle durée donne au coach le temps d'imposer des principes, de faire progresser les jeunes et d'accepter qu'une décision immédiate puisse servir un objectif plus lointain.",
+        "Le communiqué du club insiste sur un football offensif fondé sur la possession, le collectif et le développement des joueurs. Ces mots décrivent une identité, mais la réalité quotidienne se mesure dans les choix de groupe. CulturePSG relevait avant le Classique sept compositions de départ différentes en sept matches officiels. Ce chiffre montre que la prolongation ne signifie pas stabilité du onze. Paris veut stabiliser la méthode tout en rendant les places instables. C'est le cœur du modèle Luis Enrique."
+      ] },
+      { heading: "La rotation n'est plus une simple gestion physique", paragraphs: [
+        "Faire tourner peut protéger les organismes, surtout après des saisons longues et des fenêtres internationales chargées. Mais la logique actuelle va plus loin. Les changements touchent aussi des joueurs disponibles et performants. Ils servent à entretenir la concurrence, adapter les profils à l'adversaire et rappeler que le statut ne garantit pas quatre-vingt-dix minutes. Un ailier peut commencer un grand match sur le banc ; un jeune peut entrer quand le score reste ouvert ; un cadre peut sortir avant la fin sans que cela annonce une rupture.",
+        "Cette politique crée une équipe moins lisible pour l'adversaire. Un PSG capable de varier son ailier gauche, son milieu avancé ou son avant-centre modifie les repères du pressing adverse. Elle permet aussi au staff d'observer des associations différentes avant le printemps européen. Le risque est évident : si les joueurs ne comprennent pas la logique, l'émulation devient frustration. La méthode ne fonctionne donc que si les critères sont cohérents et expliqués au vestiaire, même lorsqu'ils ne le sont pas publiquement."
+      ] },
+      { heading: "Le Classique a donné un argument au coach", paragraphs: [
+        "À Marseille, Luis Enrique a vu ses changements peser sur le résultat. Ferran Torres, remplaçant au coup d'envoi, a marqué après son entrée. Maghnes Akliouche et Mika Godts ont également participé à une fin de rencontre encore indécise. Ce scénario nourrit la thèse d'un groupe où le banc ne représente pas une sanction mais une réserve d'impact. Un entraîneur convainc plus facilement lorsqu'une décision impopulaire produit un but ou change le rythme d'un match majeur.",
+        "Il faut cependant éviter de transformer une soirée en preuve définitive. Une rotation réussie à Marseille ne garantit pas que toutes les associations fonctionneront en Ligue des champions. Les automatismes défensifs, la sortie de balle et les relations dans la surface demandent de la répétition. Luis Enrique doit donc résoudre une équation délicate : conserver assez de repères pour que l'équipe reste fluide, tout en changeant assez de joueurs pour que personne ne se sente propriétaire d'une place."
+      ] },
+      { heading: "Les cadres doivent accepter une nouvelle définition du leadership", paragraphs: [
+        "Dans ce système, être leader ne signifie plus forcément débuter chaque rencontre ou rester sur le terrain jusqu'au coup de sifflet. Le leadership se mesure aussi à la réponse après un remplacement, au niveau de l'entraînement et à la capacité d'aider un joueur plus jeune. Pour des internationaux habitués à être centraux dans leurs sélections, cette redéfinition peut être difficile. Elle devient pourtant nécessaire lorsque six ou sept attaquants peuvent légitimement réclamer des minutes.",
+        "Le coach prend ici un risque politique. Une rotation constante protège le groupe tant que les résultats suivent et que les grands matches donnent une hiérarchie compréhensible. Si Paris traverse une série négative, chaque changement peut être relu comme une hésitation. L'autorité née des titres offre à Luis Enrique une marge importante, mais pas illimitée. Son défi n'est pas seulement tactique : il doit maintenir l'adhésion de joueurs dont la valeur et l'ambition dépassent souvent le rôle proposé un soir donné."
+      ] },
+      { heading: "Pourquoi 2030 change la relation avec les jeunes", paragraphs: [
+        "Un contrat long permet au staff de promettre autre chose que des minutes immédiates. Senny Mayulu, João Neves, Lucas Beraldo et Willian Pacho ont eux aussi prolongé jusqu'en 2031. Le message est cohérent : le club sécurise le coach et plusieurs joueurs appelés à porter le cycle. Pour un jeune, cette continuité réduit l'incertitude sur les principes de jeu. Il sait quel type d'effort, de prise de décision et de polyvalence sera valorisé sur plusieurs saisons.",
+        "Cette stabilité ne dispense pas Paris de construire des parcours individuels. Un talent ne progresse pas seulement parce que l'entraîneur reste. Il lui faut des matches, un rôle lisible et des étapes adaptées. La rotation peut offrir ces fenêtres, à condition qu'elle ne se résume pas à quelques entrées dispersées. La réussite du projet se verra lorsque les jeunes passeront de solutions occasionnelles à joueurs fiables dans les grands rendez-vous, sans rupture entre formation, banc et titularisation."
+      ] },
+      { heading: "Notre analyse : l'équipe type devient une équipe de moments", paragraphs: [
+        "Luis Enrique semble remplacer l'idée d'un onze idéal par celle d'un groupe idéal. Certains joueurs commencent, d'autres accélèrent, d'autres encore ferment un match. La hiérarchie existe toujours, mais elle devient contextuelle. Vitinha peut rester le centre du jeu tandis que les ailes changent ; Marquinhos peut demeurer le repère défensif alors que ses partenaires tournent. L'objectif n'est pas l'égalité parfaite des minutes, impossible à ce niveau, mais la conviction que chacun peut peser.",
+        "Cette méthode sera jugée au printemps. Si Paris arrive dans les matches décisifs avec des cadres frais, des remplaçants concernés et plusieurs plans crédibles, la rotation apparaîtra comme un avantage structurel. Si l'équipe manque de connexions ou si les frustrations s'installent, elle sera accusée d'avoir brouillé sa propre force. Au 24 septembre, le bilan penche du côté de l'audace maîtrisée. La prolongation jusqu'en 2030 donne au coach le pouvoir d'aller au bout de cette idée."
+      ] }
+    ],
+    faq: [
+      { question: "Jusqu'à quand Luis Enrique est-il sous contrat avec le PSG ?", answer: "Le PSG a officialisé sa prolongation jusqu'en 2030." },
+      { question: "Pourquoi Luis Enrique change-t-il souvent son onze ?", answer: "La rotation vise à gérer les efforts, adapter les profils aux adversaires et maintenir une concurrence élevée dans tout l'effectif." },
+      { question: "Le PSG possède-t-il encore une équipe type ?", answer: "Une ossature demeure, mais plusieurs postes sont attribués selon la forme, l'adversaire et le moment du match." }
+    ],
+    sources: [
+      { name: "PSG.fr - prolongations et continuité", url: "https://www.psg.fr/en/content/pr-choosing-continuity", note: "Annonce officielle du contrat de Luis Enrique jusqu'en 2030 et des prolongations de joueurs." },
+      { name: "CulturePSG - la rotation de Luis Enrique", url: "https://www.culturepsg.com/fr/news/match/luis-enrique-a-hausse-un-curseur-pour-sa-4eme-saison-au-psg/60840", note: "Données de compositions et contexte sportif au 20 septembre 2026." },
+      { name: "PSG.fr - calendrier officiel", url: "https://www.psg.fr/football-masculin/calendrier", note: "Résultats et contexte des rencontres officielles." }
+    ],
+    internalLinks: [
+      { label: "Fiche Luis Enrique", url: "/staff-psg/luis-enrique/" },
+      { label: "Actualité PSG", url: "/actualite-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Analyse tactique PSG", url: "/dossiers-psg/tactique-psg-zaire-emery-lateral-droit-marseille-2026/" }
+    ]
+  },
+  {
+    id: "effectif-psg-19-internationaux-treve-septembre-2026",
+    title: "Effectif PSG : 19 internationaux dispersés, le vrai test commence au retour de la trêve",
+    description: "Dix-neuf joueurs du PSG rejoignent leur sélection en septembre 2026. Calendrier, risques, opportunités et conséquences pour Luis Enrique.",
+    deck: "De la France au Brésil, du Portugal à l'Équateur, presque tout le vestiaire parisien part en sélection. Le prestige est immense, mais le retour au Campus sera une course contre la fatigue et les décalages horaires.",
+    category: "Joueurs PSG",
+    angle: "Forme et disponibilité",
+    date: "2026-09-24",
+    dateLabel: "24 septembre 2026",
+    time: "14:53",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour une analyse de l'effectif du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["effectif PSG", "joueurs PSG", "internationaux PSG", "Dembélé PSG", "João Neves PSG"],
+    sections: [
+      { heading: "Le chiffre officiel : dix-neuf joueurs convoqués", paragraphs: [
+        "Le PSG annonce dix-neuf joueurs de son effectif appelés par leur sélection pendant la fenêtre internationale de septembre et octobre 2026. La France a retenu Maghnes Akliouche, Ousmane Dembélé et Désiré Doué. Le Portugal convoque Nuno Mendes, João Neves et Vitinha. L'Espagne compte sur Fabián Ruiz et Ferran Torres. S'ajoutent notamment Kvaratskhelia, Godts, Hakimi, Zabarnyi, Pacho, Safonov, Marquinhos, Mayulu, Ndjantou et Dro Fernandez, avec des programmes très différents.",
+        "Ce total confirme la qualité et la dimension mondiale de l'effectif. Il révèle aussi combien Luis Enrique perd la main pendant près de deux semaines. Les joueurs s'entraînent selon d'autres méthodes, voyagent sur plusieurs continents et disputent parfois jusqu'à quatre rencontres. Le club récupérera des internationaux avec des charges variables, des heures d'arrivée différentes et peu de séances collectives avant la reprise. La profondeur du groupe devient alors une nécessité, pas un luxe."
+      ] },
+      { heading: "La France et le Portugal concentrent le cœur du jeu", paragraphs: [
+        "Les sélections française et portugaise emportent une part importante de la création parisienne. Dembélé, Doué et Akliouche représentent trois solutions offensives majeures. Vitinha et João Neves structurent le milieu, tandis que Nuno Mendes donne de la largeur et de la percussion. Leur utilisation en sélection intéressera directement le staff : titulaires, remplaçants, temps de jeu et postes occupés détermineront la fraîcheur disponible à leur retour.",
+        "Une trêve peut aussi servir de laboratoire. Un joueur utilisé différemment par son sélectionneur peut revenir avec de nouveaux repères. Akliouche peut gagner en responsabilité, Doué confirmer sa polyvalence, João Neves accumuler des situations de haut niveau. Mais la diversité des rôles exige une réadaptation rapide au système parisien. Le premier entraînement collectif ne consiste pas seulement à vérifier les jambes ; il faut reconnecter les habitudes de pressing, les distances et les circuits de passe."
+      ] },
+      { heading: "Les longs voyages créent une inégalité invisible", paragraphs: [
+        "Tous les internationaux ne reviennent pas dans les mêmes conditions. Marquinhos part avec le Brésil, Pacho avec l'Équateur et Hakimi avec le Maroc. Les distances, les fuseaux horaires et les horaires de vol ajoutent une fatigue que le nombre de minutes ne montre pas. Un joueur ayant disputé un seul match en Amérique du Sud peut arriver plus tard et récupérer moins bien qu'un Européen ayant joué davantage mais voyagé sur une courte distance.",
+        "Cette réalité pousse le staff à individualiser la reprise. Les données physiques internes ne sont pas publiques et il serait imprudent de prédire une titularisation à partir du seul calendrier. On peut toutefois identifier les points de vigilance : dernier match de la fenêtre, durée du trajet, enchaînement prévu avec le PSG et antécédents récents. La communication médicale officielle reste la référence pour toute indisponibilité. Une photo d'entraînement ne suffit pas à déclarer un joueur prêt ou blessé."
+      ] },
+      { heading: "Ceux qui restent au Campus gagnent une fenêtre", paragraphs: [
+        "La dispersion des cadres ouvre du temps de travail aux joueurs non convoqués, aux gardiens et à certains jeunes. Ils peuvent bénéficier de séances plus individualisées et d'une attention directe du staff. Pour un joueur en manque de minutes, cette période permet de travailler un rôle précis sans la pression du prochain match immédiat. Elle peut aussi faciliter l'intégration de profils récemment arrivés ou revenus de blessure.",
+        "L'avantage reste relatif puisque les entraînements se déroulent avec un groupe réduit. Les automatismes collectifs ne se construisent pas sans les principaux partenaires. Le bénéfice est donc surtout technique, physique et tactique à l'échelle individuelle. Luis Enrique pourra préparer plusieurs scénarios de reprise, mais il ne saura qu'au retour des sélections lequel correspond réellement aux disponibilités. La trêve donne du temps ; elle retire en même temps une grande partie de l'équipe."
+      ] },
+      { heading: "Le calendrier impose de penser au-delà du prochain onze", paragraphs: [
+        "Paris joue sur plusieurs tableaux et la Ligue des champions ajoute des rencontres à haute intensité. Après une fenêtre internationale aussi dense, aligner systématiquement les joueurs les plus utilisés serait une prise de risque. La rotation observée depuis le début de saison prend ici tout son sens. Ferran Torres, Mika Godts, Senny Mayulu ou Lucas Digne peuvent devenir essentiels selon les minutes accumulées par leurs concurrents et les besoins du prochain adversaire.",
+        "La gestion ne doit pourtant pas ressembler à une mise au repos automatique. Certains internationaux reviennent en confiance après avoir marqué ou joué un grand match. Les priver immédiatement peut casser une dynamique. Le staff doit arbitrer entre fraîcheur, forme et cohésion. C'est l'une des raisons pour lesquelles les compositions parisiennes sont difficiles à anticiper : les informations décisives apparaissent souvent dans les quarante-huit heures précédant la rencontre."
+      ] },
+      { heading: "Notre analyse : la profondeur se juge quand les calendriers se croisent", paragraphs: [
+        "Sur le papier, l'effectif officiel du PSG offre des solutions à chaque ligne. Trois gardiens, plusieurs défenseurs polyvalents, un milieu dense et six profils offensifs peuvent absorber des variations de forme. Mais une liste ne joue pas. La vraie profondeur se mesure lorsque deux joueurs d'un même poste reviennent fatigués, qu'un troisième manque de rythme et qu'un match européen approche. C'est dans ces semaines que les recrues et les jeunes cessent d'être des options théoriques.",
+        "Les dix-neuf convocations sont donc à la fois un honneur et un test. Elles valorisent le recrutement parisien et l'influence du club dans les grandes sélections. Elles obligent aussi Luis Enrique à gérer des informations mouvantes sans sacrifier les résultats. Au retour, il faudra regarder les minutes, les voyages et les éventuels communiqués plutôt que se fier au prestige des noms. La bataille de l'automne se gagnera autant par la récupération que par le talent."
+      ] }
+    ],
+    faq: [
+      { question: "Combien de joueurs du PSG sont convoqués en sélection en septembre 2026 ?", answer: "Le PSG annonce dix-neuf joueurs concernés par cette fenêtre internationale." },
+      { question: "Quels Parisiens sont appelés avec la France ?", answer: "Maghnes Akliouche, Ousmane Dembélé et Désiré Doué figurent dans la liste annoncée par le club." },
+      { question: "Pourquoi la trêve peut-elle modifier le onze du PSG ?", answer: "Les temps de jeu, les voyages, la récupération et les éventuels pépins physiques diffèrent fortement selon les sélections." }
+    ],
+    sources: [
+      { name: "PSG.fr - programme des internationaux", url: "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027", note: "Liste officielle des dix-neuf joueurs et calendrier des sélections." },
+      { name: "PSG.fr - effectif masculin 2026-2027", url: "https://www.psg.fr/football-masculin/effectif", note: "Référence officielle pour les joueurs de l'équipe première." },
+      { name: "Parisien 90 - calendrier PSG", url: "/calendrier-psg/", note: "Contexte des rencontres avant et après la trêve." }
+    ],
+    internalLinks: [
+      { label: "Effectif et joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Ousmane Dembélé", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "João Neves", url: "/joueurs-psg/joao-neves/" },
+      { label: "Marquinhos", url: "/joueurs-psg/marquinhos/" }
+    ]
+  },
+  {
+    id: "mercato-psg-prolongations-2031-continuite-effectif",
+    title: "Mercato PSG : pourquoi les prolongations jusqu'en 2031 valent presque autant que des recrues",
+    description: "Beraldo, Mayulu, João Neves et Willian Pacho prolongent jusqu'en 2031, Fabián Ruiz jusqu'en 2028. Analyse de l'impact sur le prochain mercato du PSG.",
+    deck: "Le marché ne se gagne pas seulement avec des arrivées. En sécurisant quatre joueurs jusqu'en 2031 et Fabián Ruiz jusqu'en 2028, Paris réduit ses urgences, protège ses actifs et prépare déjà les fenêtres suivantes.",
+    category: "Mercato PSG",
+    angle: "Impact sur l'effectif",
+    date: "2026-09-24",
+    dateLabel: "24 septembre 2026",
+    time: "14:53",
+    author: "Rédaction Parisien 90",
+    readingTime: "10 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour une analyse du mercato et des prolongations du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["PSG mercato", "mercato PSG", "prolongation PSG", "transfert PSG", "João Neves PSG"],
+    sections: [
+      { heading: "Le fait officiel : cinq joueurs sécurisés", paragraphs: [
+        "Le PSG a annoncé les prolongations de Lucas Beraldo, Senny Mayulu, João Neves et Willian Pacho jusqu'en 2031. Fabián Ruiz est lié jusqu'en 2028, avec une option pour une saison supplémentaire selon le communiqué du club. Cette opération accompagne le nouveau contrat de Luis Enrique jusqu'en 2030. Elle donne une cohérence temporelle au projet : le coach et plusieurs joueurs de l'ossature savent qu'ils peuvent construire ensemble au-delà de la saison actuelle.",
+        "Ces signatures ne sont pas de simples cérémonies. Un contrat long modifie la position du club dans toute discussion future. Il évite qu'une échéance proche oblige à vendre sous pression, offre davantage de contrôle sur le calendrier et protège la valeur sportive. Cela ne signifie pas qu'aucun joueur ne partira avant 2031. Un transfert reste possible si les parties le souhaitent. Mais Paris n'entre plus dans les prochaines fenêtres avec l'urgence de renégocier ces cinq dossiers."
+      ] },
+      { heading: "João Neves et Pacho : verrouiller des titulaires de demain", paragraphs: [
+        "João Neves a atteint cent apparitions avec le PSG selon le bilan officiel, avec quatorze buts et quatorze passes décisives. À vingt et un ans, il représente déjà le présent et une grande partie du futur du milieu. Willian Pacho, vingt-quatre ans, a dépassé la centaine de matches et s'est installé dans la défense. Les prolonger jusqu'en 2031 revient à sécuriser deux postes centraux sans devoir retourner rapidement sur le marché pour remplacer une pièce majeure.",
+        "La valeur dépasse les statistiques. Neves maîtrise les principes de pression, de disponibilité et de circulation voulus par Luis Enrique. Pacho possède les repères de la ligne défensive et la capacité à défendre de grands espaces. Recruter des joueurs équivalents coûterait une indemnité, du temps d'adaptation et une part d'incertitude. Prolonger ne rend pas le mercato inutile, mais réduit le nombre de problèmes à résoudre. C'est une forme de recrutement intérieur, moins spectaculaire et souvent plus prévisible."
+      ] },
+      { heading: "Mayulu et Beraldo : protéger la progression", paragraphs: [
+        "Senny Mayulu incarne la formation parisienne et la possibilité de faire grandir un joueur jusqu'au très haut niveau. Son nouveau contrat donne au club le temps d'organiser ses minutes sans que chaque période de banc déclenche une urgence contractuelle. Lucas Beraldo, arrivé en 2024, offre pour sa part plusieurs solutions dans l'axe et une qualité de relance adaptée au projet. Leur âge permet encore une progression importante, mais rien ne garantit qu'elle sera linéaire.",
+        "Un contrat long doit donc s'accompagner d'un plan sportif. Pour Mayulu, la question sera de transformer la polyvalence en rôle suffisamment lisible. Pour Beraldo, il faudra maintenir un volume de matches compatible avec la concurrence. La protection contractuelle empêche surtout le temps de jouer contre Paris. Elle ne remplace ni la performance ni la confiance du coach. La valeur d'une prolongation se mesure quand le joueur continue à avancer après la signature."
+      ] },
+      { heading: "Fabián Ruiz apporte un autre type de sécurité", paragraphs: [
+        "À trente ans, Fabián Ruiz n'est pas dans la même courbe que les quatre joueurs prolongés jusqu'en 2031. Son accord jusqu'en 2028, avec option, offre une durée plus adaptée à son expérience. Il donne au milieu une référence technique capable de dicter le rythme, d'attaquer la surface et de comprendre plusieurs rôles. Paris conserve ainsi un cadre sans bloquer artificiellement un horizon trop lointain.",
+        "Cette différence montre que le club ne traite pas tous les contrats selon une formule unique. La durée doit correspondre à l'âge, au rôle, à la valeur et au risque. Pour un jeune titulaire, six années peuvent protéger un actif rare. Pour un joueur expérimenté, deux saisons plus une option laissent davantage de souplesse. Cette architecture contractuelle est moins visible qu'un transfert, mais elle conditionne fortement les marges de manœuvre du prochain été."
+      ] },
+      { heading: "Ce que cela change pour le mercato de janvier", paragraphs: [
+        "Avec plusieurs postes sécurisés, le PSG peut cibler des besoins précis plutôt que multiplier les recrutements. Les prochaines décisions dépendront des blessures, du temps de jeu réel des recrues estivales et des équilibres observés en Ligue des champions. Un latéral, un profil offensif ou un jeune talent peut rester suivi sans que le club doive reconstruire son milieu ou sa défense centrale. Cette liberté augmente la capacité à renoncer à une opération trop chère.",
+        "Il faut aussi distinguer sécurité et immobilisme. Un effectif sous contrat peut manquer de complémentarité ou de profondeur. Les prolongations n'empêchent pas la concurrence, les prêts ou les ventes. Elles donnent seulement au PSG une meilleure position pour choisir. Le marché devient alors un outil d'ajustement, pas une réparation permanente. C'est probablement l'objectif le plus important après un été déjà riche en mouvements : faire moins d'opérations contraintes et davantage d'opérations cohérentes."
+      ] },
+      { heading: "Notre analyse : la continuité devient une arme de marché", paragraphs: [
+        "Pendant longtemps, le mercato parisien a été raconté à travers les stars achetées. Le cycle actuel met davantage en avant la conservation d'un noyau compatible avec l'entraîneur. Cette stratégie peut sembler moins virale qu'une signature géante, mais elle protège les automatismes et limite le coût caché des adaptations. Neves, Pacho, Beraldo, Mayulu et Fabián connaissent déjà le vestiaire, la ville, les exigences européennes et la méthode du staff.",
+        "Le test viendra lorsque des offres importantes arriveront ou qu'un joueur réclamera plus de minutes. Un contrat long donne du pouvoir au club, pas une garantie d'harmonie. Paris devra rester capable d'écouter le marché sans casser son ossature. Au 24 septembre, ces prolongations offrent surtout une lecture claire : le prochain mercato PSG ne partira pas d'une page blanche. Le club a déjà décidé quels profils doivent traverser le cycle avec Luis Enrique."
+      ] }
+    ],
+    faq: [
+      { question: "Quels joueurs du PSG ont prolongé jusqu'en 2031 ?", answer: "Lucas Beraldo, Senny Mayulu, João Neves et Willian Pacho ont prolongé jusqu'en 2031." },
+      { question: "Jusqu'à quand Fabián Ruiz est-il lié au PSG ?", answer: "Le PSG annonce un contrat jusqu'en 2028, assorti d'une option pour une saison supplémentaire." },
+      { question: "Une prolongation interdit-elle un transfert ?", answer: "Non. Elle donne au club davantage de contrôle, mais un transfert reste possible si un accord intervient entre les parties." }
+    ],
+    sources: [
+      { name: "PSG.fr - choisir la continuité", url: "https://www.psg.fr/en/content/pr-choosing-continuity", note: "Durées officielles des contrats et bilan des joueurs." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Effectif officiel 2026-2027." },
+      { name: "Parisien 90 - bilan du mercato été 2026", url: "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/", note: "Contexte des arrivées, départs et estimations financières." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transfert PSG", url: "/transfert-psg/" },
+      { label: "João Neves", url: "/joueurs-psg/joao-neves/" },
+      { label: "Willian Pacho", url: "/joueurs-psg/willian-pacho/" },
+      { label: "Bilan mercato 2026", url: "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/" }
+    ]
+  },
   {
     id: "rumeur-psg-jj-gabriel-manchester-united-decryptage",
     title: "Rumeur PSG : JJ Gabriel, le dossier qui excite l'Europe mais exige encore de la prudence",
