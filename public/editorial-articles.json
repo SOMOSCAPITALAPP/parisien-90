@@ -1,11 +1,237 @@
 {
-  "updatedAt": "2026-09-22T13:35:00+02:00",
-  "displayDate": "22 septembre 2026",
-  "displayTime": "13h35",
+  "updatedAt": "2026-09-24T14:53:00+02:00",
+  "displayDate": "24 septembre 2026",
+  "displayTime": "14h53",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 12,
+  "count": 18,
   "items": [
+    {
+      "id": "luis-enrique-psg-2030-rotation-methode",
+      "category": "Entraîneurs PSG",
+      "angle": "Méthode et management",
+      "date": "2026-09-24",
+      "dateLabel": "24 septembre 2026",
+      "time": "14:53",
+      "dateTime": "2026-09-24T14:53:00+02:00",
+      "headline": "Luis Enrique au PSG jusqu'en 2030 : sa rotation permanente peut-elle devenir la nouvelle norme ?",
+      "summary": "Sept matches, sept onze différents : le PSG ne cache plus sa révolution interne. Derrière la rotation, Luis Enrique cherche moins à brouiller les pistes qu'à empêcher son équipe de s'installer dans le confort.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/luis-enrique-psg-2030-rotation-methode/",
+      "sources": [
+        {
+          "name": "PSG.fr - prolongations et continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Annonce officielle du contrat de Luis Enrique jusqu'en 2030 et des prolongations de joueurs."
+        },
+        {
+          "name": "CulturePSG - la rotation de Luis Enrique",
+          "url": "https://www.culturepsg.com/fr/news/match/luis-enrique-a-hausse-un-curseur-pour-sa-4eme-saison-au-psg/60840",
+          "note": "Données de compositions et contexte sportif au 20 septembre 2026."
+        },
+        {
+          "name": "PSG.fr - calendrier officiel",
+          "url": "https://www.psg.fr/football-masculin/calendrier",
+          "note": "Résultats et contexte des rencontres officielles."
+        }
+      ],
+      "keywords": [
+        "Luis Enrique PSG",
+        "entraîneur PSG",
+        "rotation PSG",
+        "composition PSG",
+        "staff PSG"
+      ]
+    },
+    {
+      "id": "effectif-psg-19-internationaux-treve-septembre-2026",
+      "category": "Joueurs PSG",
+      "angle": "Forme et disponibilité",
+      "date": "2026-09-24",
+      "dateLabel": "24 septembre 2026",
+      "time": "14:53",
+      "dateTime": "2026-09-24T14:53:00+02:00",
+      "headline": "Effectif PSG : 19 internationaux dispersés, le vrai test commence au retour de la trêve",
+      "summary": "De la France au Brésil, du Portugal à l'Équateur, presque tout le vestiaire parisien part en sélection. Le prestige est immense, mais le retour au Campus sera une course contre la fatigue et les décalages horaires.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/effectif-psg-19-internationaux-treve-septembre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Liste officielle des dix-neuf joueurs et calendrier des sélections."
+        },
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Référence officielle pour les joueurs de l'équipe première."
+        },
+        {
+          "name": "Parisien 90 - calendrier PSG",
+          "url": "/calendrier-psg/",
+          "note": "Contexte des rencontres avant et après la trêve."
+        }
+      ],
+      "keywords": [
+        "effectif PSG",
+        "joueurs PSG",
+        "internationaux PSG",
+        "Dembélé PSG",
+        "João Neves PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-prolongations-2031-continuite-effectif",
+      "category": "Mercato PSG",
+      "angle": "Impact sur l'effectif",
+      "date": "2026-09-24",
+      "dateLabel": "24 septembre 2026",
+      "time": "14:53",
+      "dateTime": "2026-09-24T14:53:00+02:00",
+      "headline": "Mercato PSG : pourquoi les prolongations jusqu'en 2031 valent presque autant que des recrues",
+      "summary": "Le marché ne se gagne pas seulement avec des arrivées. En sécurisant quatre joueurs jusqu'en 2031 et Fabián Ruiz jusqu'en 2028, Paris réduit ses urgences, protège ses actifs et prépare déjà les fenêtres suivantes.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-prolongations-2031-continuite-effectif/",
+      "sources": [
+        {
+          "name": "PSG.fr - choisir la continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Durées officielles des contrats et bilan des joueurs."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Effectif officiel 2026-2027."
+        },
+        {
+          "name": "Parisien 90 - bilan du mercato été 2026",
+          "url": "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/",
+          "note": "Contexte des arrivées, départs et estimations financières."
+        }
+      ],
+      "keywords": [
+        "PSG mercato",
+        "mercato PSG",
+        "prolongation PSG",
+        "transfert PSG",
+        "João Neves PSG"
+      ]
+    },
+    {
+      "id": "rumeur-psg-jj-gabriel-manchester-united-decryptage",
+      "category": "Rumeurs PSG",
+      "angle": "Décryptage d'une rumeur",
+      "date": "2026-09-23",
+      "dateLabel": "23 septembre 2026",
+      "time": "14:54",
+      "dateTime": "2026-09-23T14:54:00+02:00",
+      "headline": "Rumeur PSG : JJ Gabriel, le dossier qui excite l'Europe mais exige encore de la prudence",
+      "summary": "Son nom circule déjà entre Paris, Madrid, Barcelone et Munich. Pourtant, aucune arrivée n'est actée. Parisien 90 sépare ce qui est documenté de ce qui reste hypothétique dans le dossier JJ Gabriel.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/rumeur-psg-jj-gabriel-manchester-united-decryptage/",
+      "sources": [
+        {
+          "name": "CulturePSG - le PSG cité dans le dossier JJ Gabriel",
+          "url": "https://www.culturepsg.com/news/mercato/le-psg-a-l-affut-pour-jj-gabriel-le-phenomene-de-manchester-united/60790",
+          "note": "Synthèse datée du 16 septembre 2026, fondée notamment sur The Athletic."
+        },
+        {
+          "name": "FIFA - protection des mineurs",
+          "url": "https://inside.fifa.com/legal/football-regulatory/clearing-house/minors",
+          "note": "Cadre général officiel des transferts internationaux de joueurs mineurs."
+        },
+        {
+          "name": "Parisien 90 - mercato PSG",
+          "url": "/mercato-psg/",
+          "note": "Suivi des arrivées, départs et niveaux de fiabilité."
+        }
+      ],
+      "keywords": [
+        "rumeur PSG",
+        "JJ Gabriel PSG",
+        "mercato PSG",
+        "transfert PSG",
+        "Manchester United PSG"
+      ]
+    },
+    {
+      "id": "neymar-psg-heritage-santos-2026",
+      "category": "Anciens joueurs PSG",
+      "angle": "Que devient-il ?",
+      "date": "2026-09-23",
+      "dateLabel": "23 septembre 2026",
+      "time": "14:54",
+      "dateTime": "2026-09-23T14:54:00+02:00",
+      "headline": "Neymar et le PSG : ce que son retour au premier plan change dans la mémoire parisienne",
+      "summary": "À Santos et de nouveau présent avec le Brésil en 2026, Neymar reste indissociable du PSG moderne. Son héritage parisien mérite mieux qu'un procès permanent ou une nostalgie sans nuance.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/neymar-psg-heritage-santos-2026/",
+      "sources": [
+        {
+          "name": "CBF - fiche Neymar 2026",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
+          "note": "Club actuel et données de compétitions nationales en 2026."
+        },
+        {
+          "name": "CBF - Neymar au Mondial 2026",
+          "url": "https://www.cbf.com.br/selecao-brasileira/noticias/selecao-masculina/a/neymar-se-torna-segundo-jogador-a-vestir-a-camisa-10-do-brasil-em-quatro-copas",
+          "note": "Participation documentée à une quatrième Coupe du monde."
+        },
+        {
+          "name": "PSG.fr - merci Neymar",
+          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
+          "note": "Bilan officiel de son passage parisien."
+        },
+        {
+          "name": "PSG.fr - souvenirs éternels",
+          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+          "note": "Rétrospective officielle et statistiques parisiennes."
+        }
+      ],
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "Neymar Paris Saint-Germain",
+        "ancien joueur PSG",
+        "Brésiliens PSG"
+      ]
+    },
+    {
+      "id": "valorisation-psg-revenus-837-millions-modele-economique",
+      "category": "Économie du PSG",
+      "angle": "Lecture business",
+      "date": "2026-09-23",
+      "dateLabel": "23 septembre 2026",
+      "time": "14:54",
+      "dateTime": "2026-09-23T14:54:00+02:00",
+      "headline": "Valorisation du PSG : ce que les 837 millions d'euros de revenus disent vraiment de sa puissance",
+      "summary": "Paris appartient au carré de tête économique européen. Mais un chiffre d'affaires n'est pas une valorisation, et une saison sportive exceptionnelle ne garantit pas seule une croissance durable.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/valorisation-psg-revenus-837-millions-modele-economique/",
+      "sources": [
+        {
+          "name": "Deloitte - Football Money League 2026",
+          "url": "https://www.deloitte.com/uk/en/services/financial-advisory/analysis/deloitte-football-money-league.html",
+          "note": "Classement, revenus et méthode de préparation."
+        },
+        {
+          "name": "UEFA - rapport financier 2024-2025",
+          "url": "https://editorial.uefa.com/resources/02a1-1fcc539a26d9-78ac6793e755-1000/20260113_enclosure_04_financial_report_2024-25_en.pdf",
+          "note": "Distributions officielles des compétitions UEFA."
+        },
+        {
+          "name": "Football Benchmark - European Champions Report 2026",
+          "url": "https://footballbenchmark.com/documents/d/guest/football-benchmark-european-champions-report-2026",
+          "note": "Analyse économique complémentaire du champion d'Europe."
+        },
+        {
+          "name": "Parisien 90 - bilan mercato",
+          "url": "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/",
+          "note": "Distinction entre estimations de transferts et données officielles."
+        }
+      ],
+      "keywords": [
+        "valorisation PSG",
+        "revenus PSG",
+        "finances PSG",
+        "budget PSG",
+        "Deloitte PSG 2026"
+      ]
+    },
     {
       "id": "mercato-psg-2026-cinq-recrues-deux-bilans",
       "category": "Mercato PSG",

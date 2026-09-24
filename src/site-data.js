@@ -323,7 +323,7 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-22T23:00:00+02:00",
+  updatedAt: "2026-09-24T12:00:00+02:00",
   edition: "Fil PSG du 22 septembre 2026",
   displayDate: "22 septembre 2026",
   displayTime: "23h00",
@@ -333,6 +333,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-24", "24 septembre 2026", [
+  { id: "psg-programme-19-internationaux-treve-septembre-2026", time: "12:00", category: "Sélections", title: "Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus", summary: "Le PSG a publié le programme de ses 19 internationaux pour cette fenêtre de septembre-octobre. Dembélé, Doué et Akliouche ouvrent avec la France en Turquie, tandis que Vitinha, João Neves et Nuno Mendes retrouvent le Portugal. Hakimi, Kvaratskhelia, Marquinhos, Pacho, Zabarnyi et les jeunes du club sont également concernés. Une séquence à surveiller de près : Paris devra gérer les temps de jeu et les retours physiques avant la reprise.", source: "PSG.fr", url: "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027", reliability: "Officiel", viral: 88 },
+  ]),
   ...withNewsDate("2026-09-22", "22 septembre 2026", [
   { id: "real-madrid-psg-feminin-nul-karchaoui-uwcl-septembre-2026", time: "23:00", category: "Féminines", title: "Real Madrid-PSG féminin : Karchaoui répond, Paris ramène un point de caractère", summary: "Cueillies à froid par Felicia Schröder dès la 2e minute, les Parisiennes n'ont pas plié à Madrid pour leur entrée en Ligue des champions. Après avoir longtemps poussé, elles ont égalisé à la 74e sur un penalty de Sakina Karchaoui, obtenu par Léa Morissaint. Le 1-1, confirmé par le compte rendu officiel du club et l'UEFA, lance la phase de ligue avec un point solide et une promesse : Paris a même eu la balle du 2-1 dans le temps additionnel.", source: "PSG.fr / UEFA", url: "https://www.psg.fr/content/compte-rendu-real-madrid-cf-paris-saint-germain-feminin-uefa-womens-champions-league-2026-2027", reliability: "Officiel", viral: 93 },
   ]),
