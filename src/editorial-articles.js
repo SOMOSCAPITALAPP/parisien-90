@@ -1,12 +1,192 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-24T14:53:00+02:00",
-  displayDate: "24 septembre 2026",
-  displayTime: "14h53",
+  updatedAt: "2026-09-25T14:15:00+02:00",
+  displayDate: "25 septembre 2026",
+  displayTime: "14h15",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "mercato-psg-ete-2026-cinq-recrues-ventes-equilibre",
+    title: "Mercato PSG 2026 : cinq recrues, plus de 330 M€ de ventes annoncées, mais quel équilibre réel ?",
+    description: "Le PSG a profondément remodelé son effectif pendant l'été 2026. Arrivées, départs, estimations financières et équilibre sportif : notre bilan rigoureux.",
+    deck: "Paris a beaucoup vendu, recruté cinq joueurs et résisté à la tentation d'un dernier achat précipité. Derrière les montants spectaculaires, le vrai bilan se lit poste par poste et avec les précautions qu'imposent des chiffres rarement publics dans leur totalité.",
+    category: "Mercato PSG",
+    angle: "Bilan chiffré et sportif",
+    date: "2026-09-25",
+    dateLabel: "25 septembre 2026",
+    time: "14:15",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour le bilan du mercato estival 2026 du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG 2026", "PSG transfert", "arrivées PSG", "départs PSG", "bilan mercato PSG"],
+    sections: [
+      { heading: "Le fait : cinq arrivées et un effectif largement recomposé", paragraphs: [
+        "Le marché estival 2026 du Paris Saint-Germain s'est refermé avec cinq recrues intégrées au groupe professionnel. Ce nombre, rapporté par les médias spécialisés et cohérent avec l'effectif officiel publié par le club, donne la première mesure du chantier. Paris n'a pas empilé les signatures jusqu'à la dernière heure : la direction a renforcé plusieurs lignes tout en laissant une place réelle aux joueurs déjà présents, aux prolongés et aux jeunes susceptibles de franchir un cap. Cette retenue relative tranche avec les fenêtres où le volume des mouvements rendait la lecture sportive presque impossible dès septembre.",
+        "Le chiffre brut ne raconte toutefois pas la nature des opérations. Une recrue destinée à devenir titulaire immédiatement n'a pas le même effet qu'un pari de développement ou qu'une solution de rotation. Pour juger le marché, il faut donc observer les minutes, les rôles et les complémentarités plutôt que compter seulement les noms. L'effectif officiel montre un groupe doté de plusieurs profils par ligne, mais certaines positions restent dépendantes de la polyvalence. Paris a choisi une construction flexible : elle peut offrir plusieurs plans à Luis Enrique, à condition que les joueurs acceptent une concurrence et des fonctions variables."
+      ] },
+      { heading: "Plus de 330 millions d'euros de ventes : un ordre de grandeur, pas un compte certifié", paragraphs: [
+        "Les estimations publiées par la presse spécialisée placent les ventes parisiennes de l'été au-delà de 330 millions d'euros. Le montant frappe par son ampleur et traduit la capacité du club à valoriser des joueurs devenus moins centraux dans le projet. Il doit néanmoins être présenté pour ce qu'il est : une addition médiatique d'indemnités annoncées, parfois bonus compris, et non un chiffre audité par le PSG. Les modalités de paiement, les bonus conditionnels, les mécanismes de solidarité, les commissions et d'éventuels pourcentages à la revente peuvent modifier fortement le produit effectivement reconnu.",
+        "Cette prudence vaut aussi pour le solde. Soustraire une estimation des achats à une estimation des ventes produit un indicateur utile, mais pas la trésorerie nette du club ni son résultat comptable. Les transferts sont généralement amortis sur la durée des contrats, alors que les plus-values dépendent de la valeur résiduelle des joueurs cédés. Paris semble avoir dégagé une balance de transferts positive selon les montants publics disponibles, mais il serait abusif d'en déduire un bénéfice exact. Le constat solide est plus simple : les sorties ont largement financé le renouvellement et ont donné à la direction une marge supérieure à celle d'un mercato uniquement acheteur."
+      ] },
+      { heading: "Les départs ont clarifié la hiérarchie offensive", paragraphs: [
+        "Quatre départs offensifs pour trois arrivées dans ce secteur ont été recensés par CulturePSG. Ce différentiel réduit mécaniquement le nombre de candidats pour certaines minutes sans appauvrir nécessairement les solutions, car les nouveaux profils peuvent occuper plusieurs zones. La logique apparaît claire : remplacer des joueurs devenus périphériques par des éléments jugés plus compatibles avec le pressing, les permutations et la vitesse d'exécution demandés par Luis Enrique. Le club a ainsi privilégié l'adéquation au modèle plutôt que la conservation de tous les noms disponibles.",
+        "Une hiérarchie plus nette ne signifie pas une équipe figée. Ousmane Dembélé, Désiré Doué, Khvicha Kvaratskhelia, Ferran Torres, Maghnes Akliouche et les autres options offensives peuvent être associés de différentes manières. À Marseille, Ferran a marqué après son entrée, preuve immédiate de l'utilité d'un banc capable de changer le match. Le véritable test se situera sur la durée : lorsque les blessures, les sélections et la Ligue des champions se superposeront, trois arrivées pour quatre départs devront encore garantir assez de fraîcheur. Le PSG a gagné en lisibilité, mais il a aussi transféré davantage de responsabilité à chaque joueur conservé."
+      ] },
+      { heading: "L'opération manquée de fin de marché n'invalide pas le plan", paragraphs: [
+        "Plusieurs échos ont évoqué une dernière cible que Paris n'a pas réussi à attirer avant la fermeture. L'identité et les conditions exactes de cette tentative sont restées floues ; il serait donc imprudent d'en faire un échec attribué à un joueur précis. Le fait important est que le club n'a pas compensé dans l'urgence par une signature de substitution. Cette décision peut être lue comme un manque si un poste souffre dans les prochains mois, mais aussi comme une discipline de marché : acheter pour remplir une case coûte parfois plus cher que patienter.",
+        "La fenêtre de janvier offrira un point de contrôle. D'ici là, les matches européens permettront de distinguer un besoin structurel d'une simple inquiétude de début de saison. Si la polyvalence du groupe absorbe les absences et si les recrues s'imposent, l'absence de dernier mouvement semblera rationnelle. Si un rôle reste sans solution, Paris devra agir avec des paramètres différents et un marché généralement plus étroit. Le dossier rappelle surtout qu'un mercato ne doit pas être jugé le soir de sa clôture. La qualité d'une non-signature, comme celle d'une arrivée, se révèle dans les mois qui suivent."
+      ] },
+      { heading: "Le bilan sportif : davantage de concurrence, mais des repères à construire", paragraphs: [
+        "Le début de saison montre déjà la richesse des choix. Luis Enrique a utilisé des onze différents et fait peser ses remplaçants sur des rencontres majeures. Cette concurrence protège l'équipe contre la dépendance à une seule vedette et oblige chacun à maintenir son niveau. Elle correspond à la continuité annoncée par le club lors des prolongations de João Neves, Willian Pacho, Lucas Beraldo, Senny Mayulu et Fabián Ruiz. Recruter et prolonger participent d'un même objectif : sécuriser un noyau jeune, technique et capable de jouer plusieurs rôles.",
+        "L'envers du décor est le temps nécessaire pour créer des automatismes. Une équipe très modulable peut perdre de la fluidité si les associations changent sans cesse. Les circuits entre le latéral, le milieu et l'ailier, la coordination du pressing et la couverture après perte ne s'achètent pas. Ils se répètent. Le mercato a fourni des possibilités ; le staff doit maintenant transformer cette variété en repères communs. Le résultat obtenu à Marseille, avec 31 tirs et deux buts après avoir été mené, constitue un signal encourageant, mais une seule rencontre ne peut valider l'ensemble d'une politique de recrutement."
+      ] },
+      { heading: "Notre analyse : un mercato puissant à condition de ne pas confondre valeur et liquidités", paragraphs: [
+        "Le PSG sort de l'été avec une impression de maîtrise. Cinq recrues, des ventes évaluées à plus de 330 millions d'euros et aucune panique visible au dernier jour composent un bilan favorable. La direction a réduit certains embouteillages, protégé plusieurs joueurs majeurs par des contrats longs et donné à l'entraîneur un groupe cohérent avec son football. C'est plus important que de gagner un classement abstrait du marché. Un recrutement réussi est celui qui augmente les solutions sans affaiblir la compréhension collective.",
+        "La rigueur impose néanmoins trois réserves. Les montants publics restent des estimations ; le solde financier exact n'est pas accessible sans les comptes détaillés ; la valeur sportive des recrues se jugera au printemps, pas après quelques journées. Paris peut donc revendiquer une capacité de vente exceptionnelle, mais pas encore un triomphe définitif. Le verdict provisoire est celui d'un marché équilibré et ambitieux, avec un risque assumé sur la profondeur offensive. La meilleure preuve viendra lorsque les nouveaux joueurs décideront des matches européens et que les départs ne laisseront aucun vide durable."
+      ] }
+    ],
+    faq: [
+      { question: "Combien de joueurs le PSG a-t-il recrutés à l'été 2026 ?", answer: "Cinq recrues ont rejoint le groupe professionnel selon le bilan du marché et l'effectif officiel publié par le club." },
+      { question: "Le PSG a-t-il vendu pour plus de 330 millions d'euros ?", answer: "Les estimations de la presse spécialisée dépassent 330 millions d'euros, mais ce total n'est pas un compte audité et peut inclure des bonus conditionnels." },
+      { question: "Peut-on connaître le solde exact du mercato PSG ?", answer: "On peut calculer un ordre de grandeur à partir des montants publiés, mais le solde comptable exact exige des données contractuelles et financières non publiques." }
+    ],
+    sources: [
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Référence officielle pour la composition actuelle du groupe professionnel." },
+      { name: "CulturePSG - actualité mercato", url: "https://www.culturepsg.com/news/mercato/", note: "Bilans, estimations de ventes et suivi du marché estival 2026." },
+      { name: "CulturePSG - dernière tentative du mercato", url: "https://www.culturepsg.com/fr/news/mercato/le-joueur-mystere-manque-par-le-psg-toujours-aussi-flou/60560", note: "Contexte de la fin de marché et bilan des mouvements offensifs." }
+    ],
+    internalLinks: [
+      { label: "Bilan complet du mercato été 2026", url: "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transferts PSG", url: "/transfert-psg/" },
+      { label: "Effectif PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" }
+    ]
+  },
+  {
+    id: "dembele-doue-akliouche-france-roles-psg",
+    title: "Dembélé, Doué, Akliouche : trois Parisiens chez les Bleus, trois rôles à départager",
+    description: "Ousmane Dembélé, Désiré Doué et Maghnes Akliouche sont réunis avec la France. Leur utilisation peut-elle rebattre les cartes de l'attaque du PSG ?",
+    deck: "La sélection française réunit trois attaquants du PSG aux qualités voisines mais aux fonctions différentes. Leur trêve dira beaucoup de leur forme, moins de la hiérarchie parisienne, que Luis Enrique construit selon les adversaires.",
+    category: "Joueurs PSG",
+    angle: "Forme et complémentarité",
+    date: "2026-09-25",
+    dateLabel: "25 septembre 2026",
+    time: "14:15",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour une analyse de Dembélé, Doué et Akliouche",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Dembélé PSG", "Doué PSG", "Akliouche PSG", "joueurs PSG", "équipe de France PSG"],
+    sections: [
+      { heading: "Le fait : trois attaquants parisiens convoqués avec la France", paragraphs: [
+        "Le programme officiel publié par le Paris Saint-Germain confirme les convocations d'Ousmane Dembélé, Désiré Doué et Maghnes Akliouche avec l'équipe de France pour la fenêtre internationale de septembre et octobre 2026. Leur présence simultanée donne au rassemblement une couleur parisienne très nette dans le secteur offensif. Elle récompense aussi trois parcours différents : Dembélé possède l'expérience et le statut d'un cadre, Doué s'est imposé par sa polyvalence, tandis qu'Akliouche poursuit son installation au plus haut niveau après avoir rejoint la concurrence du PSG.",
+        "Une convocation ne garantit ni une titularisation ni un poste précis. Les choix du sélectionneur, l'état physique et le scénario des rencontres détermineront leur temps de jeu. Il faut donc éviter d'annoncer une nouvelle hiérarchie avant les matches. Le point certain est ailleurs : la France dispose désormais de trois joueurs entraînés quotidiennement dans les mêmes principes de mobilité, de pressing et d'occupation des espaces. Cette familiarité peut faciliter certaines associations, mais elle ne les rend pas automatiques, car le cadre tactique de la sélection diffère de celui de Luis Enrique."
+      ] },
+      { heading: "Dembélé reste le profil qui peut organiser et déséquilibrer", paragraphs: [
+        "Ousmane Dembélé conserve une singularité majeure : il peut recevoir très large, entrer dans l'axe, éliminer des deux côtés et servir un partenaire après avoir attiré plusieurs défenseurs. Son influence ne se résume pas aux buts. Quand il descend entre les lignes, il transforme la structure de l'attaque et libère un couloir pour le latéral ou un appel intérieur. Cette capacité à créer une supériorité à partir d'une situation neutre explique pourquoi son rôle demeure central même lorsque Luis Enrique modifie le onze autour de lui.",
+        "La sélection peut néanmoins lui demander un autre équilibre. Dans un système où les responsabilités créatives sont partagées, Dembélé doit parfois rester plus longtemps sur son côté ou attaquer davantage la profondeur. Son utilisation pendant la trêve intéressera le PSG pour deux raisons : le volume de minutes et la zone occupée. Un joueur très sollicité devra être récupéré avec prudence ; un Dembélé utilisé comme finisseur peut revenir avec des repères différents. Rien de cela ne remet en cause son statut, mais chaque charge compte dans un calendrier où les grands matches s'enchaînent."
+      ] },
+      { heading: "Doué possède la palette la plus difficile à enfermer", paragraphs: [
+        "Désiré Doué peut jouer sur une aile, entre les lignes et dans une position plus intérieure. Sa puissance dans les petits espaces lui permet de résister au contact, tandis que sa conduite de balle ouvre des angles que peu de joueurs voient aussi tôt. Cette polyvalence est un avantage immense pour un entraîneur : elle autorise un changement de structure sans remplacement. Elle comporte aussi un défi pour le joueur, qui doit devenir excellent dans plusieurs fonctions sans perdre une identité immédiatement reconnaissable.",
+        "Avec la France, Doué peut entrer pour accélérer une rencontre, commencer près d'un attaquant ou participer à la création depuis un côté. Le poste choisi ne suffira pas à annoncer celui qu'il occupera au PSG. Luis Enrique construit souvent ses rôles en fonction des partenaires et de l'adversaire. L'information la plus utile sera son état de forme : qualité des premières touches, fréquence des courses, capacité à répéter les efforts et précision dans le dernier geste. Ce sont ces signaux, davantage qu'une étiquette sur la feuille de match, qui peuvent influencer la reprise parisienne."
+      ] },
+      { heading: "Akliouche doit transformer l'adaptation en impact régulier", paragraphs: [
+        "Maghnes Akliouche apporte une lecture différente. Gaucher précis, capable de venir dans le demi-espace et de connecter le milieu à l'attaque, il peut ralentir juste assez pour attirer avant d'accélérer par la passe. Son entrée à Marseille a participé au déplacement du rapport de force dans une rencontre que Paris a finalement gagnée 2-1. Cette contribution illustre son utilité : il n'a pas besoin de monopoliser le ballon pour modifier les angles de progression et rapprocher les créateurs de la surface.",
+        "Son prochain palier concerne la répétition. Un grand club ne demande pas seulement un geste décisif ou une bonne entrée, mais la capacité à maintenir la même exigence dans des contextes très différents. La sélection lui offre une exposition et un niveau d'entraînement élevés. Elle ne garantit pas des minutes au retour. Pour s'installer, Akliouche devra continuer à être fiable sans ballon, comprendre les rotations du latéral et choisir quand provoquer. Sa concurrence avec Dembélé et Doué n'est d'ailleurs pas uniquement directe : les trois peuvent jouer ensemble si leurs déplacements se complètent."
+      ] },
+      { heading: "Trois joueurs proches ne signifient pas trois doublons", paragraphs: [
+        "À première vue, Dembélé, Doué et Akliouche aiment tous recevoir entre la ligne de touche et l'axe. On pourrait y voir un embouteillage. En réalité, leurs rythmes diffèrent. Dembélé attire et élimine, Doué résiste et transporte, Akliouche organise et combine. Ces nuances permettent de construire des associations complémentaires. Avec un avant-centre mobile, les trois peuvent occuper successivement la largeur, le demi-espace et la zone de finition. La difficulté est de conserver assez de profondeur : si chacun vient demander dans les pieds, l'adversaire peut avancer son bloc sans crainte.",
+        "Luis Enrique utilise précisément la rotation pour éviter cette uniformité. Un ailier peut commencer large puis se recentrer lorsque le latéral monte. Un autre attaque le second poteau pendant que le porteur fixe. La présence de Ferran Torres, Khvicha Kvaratskhelia ou Mika Godts ajoute encore des profils et oblige à penser en combinaisons plutôt qu'en classement individuel. La trêve française donnera des indices sur les affinités, mais le PSG conservera sa propre logique. La meilleure attaque ne sera pas forcément composée des trois noms les plus prestigieux ; elle sera celle dont les courses rendent le terrain plus grand."
+      ] },
+      { heading: "Notre analyse : la sélection valorise Paris, la reprise décidera des places", paragraphs: [
+        "Réunir trois attaquants en équipe de France confirme la qualité du recrutement et du développement parisien. Pour le club, c'est un signal d'attractivité ; pour les joueurs, une reconnaissance qui augmente encore la concurrence. Il serait pourtant trompeur d'utiliser la sélection comme un vote sur le onze du PSG. Les deux entraîneurs n'affrontent pas les mêmes adversaires, ne disposent pas des mêmes partenaires et ne gèrent pas le même calendrier. Une titularisation en Bleu peut être suivie d'un rôle de remplaçant à Paris sans contradiction.",
+        "Au retour, quatre éléments devront être observés : les minutes jouées, les déplacements, les éventuels communiqués médicaux et la proximité du prochain match. Les images d'entraînement ou les rumeurs ne suffisent pas pour déclarer un joueur disponible. Sur le fond, Paris possède trois solutions françaises capables de se compléter et de décider d'une rencontre. Dembélé part avec l'expérience, Doué avec une polyvalence exceptionnelle, Akliouche avec une marge de progression et une finesse technique rares. La hiérarchie restera vivante, mais le PSG gagne surtout la possibilité de choisir sans perdre son ambition."
+      ] }
+    ],
+    faq: [
+      { question: "Quels attaquants du PSG sont convoqués avec la France en septembre 2026 ?", answer: "Ousmane Dembélé, Désiré Doué et Maghnes Akliouche figurent dans le programme officiel des internationaux publié par le PSG." },
+      { question: "Dembélé, Doué et Akliouche peuvent-ils jouer ensemble ?", answer: "Oui. Leurs qualités sont différentes et peuvent être complémentaires, à condition de conserver de la largeur et des appels en profondeur." },
+      { question: "La sélection détermine-t-elle la hiérarchie au PSG ?", answer: "Non. Luis Enrique adapte ses choix à la forme, à la récupération, aux partenaires et au profil de chaque adversaire." }
+    ],
+    sources: [
+      { name: "PSG.fr - programme des internationaux", url: "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027", note: "Liste officielle des joueurs convoqués et programme de la fenêtre internationale." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Référence officielle pour l'effectif 2026-2027." },
+      { name: "PSG.fr - OM-PSG", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Feuille de match officielle et changements lors de la victoire à Marseille." }
+    ],
+    internalLinks: [
+      { label: "Fiche Ousmane Dembélé", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Fiche Désiré Doué", url: "/joueurs-psg/desire-doue/" },
+      { label: "Fiche Maghnes Akliouche", url: "/joueurs-psg/maghnes-akliouche/" },
+      { label: "Tous les joueurs du PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" }
+    ]
+  },
+  {
+    id: "om-psg-1-2-ferran-akliouche-bascule-tactique",
+    title: "OM-PSG 1-2 : comment Ferran et Akliouche ont déplacé le centre de gravité du match",
+    description: "Mené à Marseille, le PSG a renversé le Classique grâce à son banc. Analyse des entrées de Ferran Torres et Maghnes Akliouche, sans réduire le match aux buts.",
+    deck: "Paris avait le ballon et les tirs, Marseille avait l'avantage. Les changements de Luis Enrique ont rendu la domination plus dangereuse : Ferran a attaqué la zone décisive, Akliouche a rapproché les lignes, puis Marquinhos a fait basculer le Classique.",
+    category: "Tactique PSG",
+    angle: "Après-match structurel",
+    date: "2026-09-25",
+    dateLabel: "25 septembre 2026",
+    time: "14:15",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade pour l'analyse tactique du Classique OM-PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["OM PSG 1-2", "tactique PSG", "Ferran Torres PSG", "Akliouche PSG", "composition PSG"],
+    sections: [
+      { heading: "Le fait : Paris renverse Marseille en huit minutes", paragraphs: [
+        "Le Paris Saint-Germain a remporté le Classique 2-1 au stade Orange Vélodrome le 20 septembre 2026. Angel Gomes avait ouvert le score pour Marseille à la 27e minute. Ferran Torres, entré à la place de Khvicha Kvaratskhelia à la 59e, a égalisé à la 66e. Marquinhos a donné l'avantage à Paris à la 74e, deux minutes après le changement marseillais mentionné sur la feuille officielle et peu après l'entrée de Maghnes Akliouche pour Fabián Ruiz à la 65e. Le scénario suffit à expliquer l'émotion, pas la mécanique du renversement.",
+        "Les statistiques officielles donnent le cadre : 61 % de possession et 31 tirs pour Paris. Une telle production montre que le PSG ne manquait ni de ballon ni de présence autour de la surface. Il lui manquait surtout une occupation plus tranchante des zones décisives. Avant l'égalisation, la domination pouvait encore être absorbée par un bloc marseillais protégé par son avance. Les entrées n'ont pas créé la pression à partir de rien ; elles ont changé sa destination. Paris a cessé d'accumuler seulement des approches pour attaquer plus directement la surface et les espaces entre les défenseurs."
+      ] },
+      { heading: "Le onze de départ avait installé le contrôle", paragraphs: [
+        "Luis Enrique avait commencé avec Safonov dans le but, Warren Zaïre-Emery, Marquinhos, Willian Pacho et Nuno Mendes derrière, puis João Neves, Vitinha et Fabián Ruiz au milieu. Désiré Doué, Ousmane Dembélé et Khvicha Kvaratskhelia formaient la ligne offensive. Cette composition offrait beaucoup de joueurs capables de recevoir entre les lignes et de conserver sous pression. Elle a permis à Paris de monopoliser le ballon et de repousser régulièrement Marseille vers sa surface.",
+        "Ce contrôle comportait une limite. Lorsque plusieurs attaquants viennent simultanément participer à la création, la circulation peut être brillante sans fournir assez de cibles devant le ballon. Dembélé et Doué aiment toucher pour accélérer, Kvaratskhelia aime partir d'un côté pour éliminer, tandis que les milieux accompagnent par vagues. Face à un bloc regroupé, le porteur a alors beaucoup de partenaires proches mais moins de courses fixant la dernière ligne. Le nombre élevé de tirs montre que Paris trouvait des fenêtres ; le score à l'heure de jeu indique que leur qualité et leur répartition restaient insuffisantes."
+      ] },
+      { heading: "Ferran a donné une adresse centrale à la domination", paragraphs: [
+        "L'entrée de Ferran Torres a modifié la géographie offensive. Sans prétendre qu'il est resté immobile comme un avant-centre classique, l'Espagnol a davantage menacé la zone située entre les centraux et devant le but. Cette présence oblige les défenseurs à regarder derrière eux et offre aux passeurs une cible qui attaque le dernier geste. Son égalisation sept minutes après son entrée matérialise cette fonction : Paris avait enfin transformé son volume en une action terminée depuis une zone réellement dangereuse.",
+        "L'effet dépasse le but. Quand un joueur fixe l'axe, les créateurs autour de lui disposent de plus d'espace pour recevoir. Le défenseur ne peut plus sortir aussi agressivement sur Dembélé ou Doué s'il doit protéger une course dans son dos. Le latéral adverse hésite davantage à fermer l'intérieur. Ferran a donc servi de point de gravité : même sans toucher chaque ballon, il a rendu les autres menaces plus crédibles. C'est une leçon utile pour le PSG, dont l'abondance de dribbleurs doit toujours être accompagnée par au moins un joueur prêt à finir l'action."
+      ] },
+      { heading: "Akliouche a resserré les connexions autour du ballon", paragraphs: [
+        "Maghnes Akliouche est entré à la place de Fabián Ruiz à la 65e minute, soit juste avant l'égalisation. Le changement ne correspondait pas à un simple remplacement poste pour poste. Paris a ajouté un joueur offensif capable de recevoir dans le demi-espace, de jouer rapidement avec un partenaire et de se retourner près de la surface. Cette présence a rapproché la ligne de création de la ligne de finition. Le PSG pouvait désormais faire circuler devant le bloc puis trouver une accélération intérieure sans attendre uniquement un débordement.",
+        "Retirer un milieu pour un créateur comporte un risque à la perte. Le choix était rendu possible par la maîtrise territoriale parisienne et par la capacité de João Neves et Vitinha à couvrir de grandes zones. Akliouche devait néanmoins participer au contre-pressing pour empêcher Marseille de sortir sur la première passe. Sa valeur tactique se situe précisément dans cette double exigence : offrir une solution fine avec le ballon et rester assez proche pour le récupérer immédiatement. Le changement a augmenté l'audace sans désorganiser complètement la structure, ce qui explique pourquoi Paris a pu continuer à pousser après l'égalisation."
+      ] },
+      { heading: "Marquinhos a récompensé une occupation collective de la surface", paragraphs: [
+        "Le but de Marquinhos à la 74e ne doit pas être isolé du mouvement général. Lorsqu'une équipe installe trente et une frappes et maintient plus de soixante pour cent de possession, les défenseurs centraux finissent eux aussi par participer aux phases arrêtées ou aux secondes actions. Le capitaine parisien a transformé cette pression en avantage. Son but rappelle que la menace d'un PSG ne vient pas uniquement de ses attaquants : les défenseurs peuvent décider d'un match lorsque le bloc adverse concède des situations répétées près de sa surface.",
+        "Après le 2-1, la question n'était plus de créer mais de contrôler sans reculer excessivement. Les changements avaient rendu l'équipe plus offensive et potentiellement plus vulnérable aux transitions. Paris devait conserver le ballon avec intention, fermer l'axe à la perte et empêcher Marseille de transformer l'énergie du stade en attaques rapides. Le résultat final montre que l'équilibre a tenu. Cela ne signifie pas que chaque risque a disparu ; cela signifie que les joueurs restés derrière le ballon ont assumé les espaces ouverts par la recherche du renversement."
+      ] },
+      { heading: "Notre analyse : le banc n'a pas corrigé un mauvais plan, il l'a rendu plus vertical", paragraphs: [
+        "Il serait facile de raconter le match comme l'échec du onze suivi du salut par les remplaçants. Les chiffres invitent à une lecture plus précise. Le plan initial avait produit la possession, le territoire et un volume énorme de tirs. Il avait donc construit les conditions du retour. Ferran et Akliouche ont ajouté ce qui manquait : une présence plus nette au centre et une connexion plus proche de la surface. Leur impact démontre la qualité du banc, mais aussi la capacité de Luis Enrique à identifier la nature du problème plutôt qu'à changer au hasard.",
+        "Cette victoire offre une piste pour la Ligue des champions et les matches fermés. Contre un bloc bas, Paris doit associer des joueurs de fixation, de création et de profondeur. Accumuler les techniciens qui demandent le ballon ne suffit pas ; il faut menacer l'espace qu'ils libèrent. Ferran peut incarner cette occupation, Akliouche accélérer les combinaisons et Marquinhos apporter une menace supplémentaire. Le 2-1 au Vélodrome restera un résultat fort. Tactiquement, sa valeur la plus durable est ailleurs : Paris a montré qu'il pouvait transformer une domination stérile sans renoncer à ses principes."
+      ] }
+    ],
+    faq: [
+      { question: "Quel était le score de OM-PSG le 20 septembre 2026 ?", answer: "Le PSG s'est imposé 2-1 après avoir été mené, avec des buts de Ferran Torres et Marquinhos." },
+      { question: "Combien de tirs le PSG a-t-il tentés à Marseille ?", answer: "Les statistiques officielles du club indiquent 31 tirs et 61 % de possession pour Paris." },
+      { question: "Quels changements ont pesé sur le match ?", answer: "Ferran Torres est entré à la 59e minute et a égalisé à la 66e ; Maghnes Akliouche est entré à la 65e et a renforcé la création intérieure." }
+    ],
+    sources: [
+      { name: "PSG.fr - feuille de match OM-PSG", url: "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20", note: "Score, compositions, remplacements et chronologie officiels." },
+      { name: "PSG.fr - statistiques et faits du Classique", url: "https://www.psg.fr/content/stats-facts-olympique-de-marseille-paris-saint-germain-le-classique-ligue-1-2026-2027", note: "Données officielles sur la possession, les tirs et le contexte historique." },
+      { name: "CulturePSG - performances individuelles", url: "https://www.culturepsg.com/news/match/om-psg-1-2-les-performances-individuelles/60857", note: "Lecture complémentaire des performances parisiennes." }
+    ],
+    internalLinks: [
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Fiche Ferran Torres", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Fiche Maghnes Akliouche", url: "/joueurs-psg/maghnes-akliouche/" },
+      { label: "Fiche Marquinhos", url: "/joueurs-psg/marquinhos/" },
+      { label: "Dossiers tactiques PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "luis-enrique-psg-2030-rotation-methode",
     title: "Luis Enrique au PSG jusqu'en 2030 : sa rotation permanente peut-elle devenir la nouvelle norme ?",
