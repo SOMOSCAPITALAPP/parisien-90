@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-24T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 22 septembre 2026. Fil public : 125 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 18 articles de fond sous /dossiers-psg/. À suivre : Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus ; Real Madrid-PSG féminin : Karchaoui répond, Paris ramène un point de caractère ; Zaïre-Emery forfait avec les Bleus : Paris surveille son adducteur ; OM-PSG : Torres et Marquinhos offrent le Classique à Paris ; OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-27T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 26 septembre 2026. Fil public : 128 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 21 articles de fond sous /dossiers-psg/. À suivre : Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie ; Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane ; Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus ; Real Madrid-PSG féminin : Karchaoui répond, Paris ramène un point de caractère. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley",
+      "category": "Sélections",
+      "dateTime": "2026-09-26T23:00:00+02:00",
+      "url": "https://parisien90.com/news/fabian-ruiz-ferran-torres-espagne-angleterre-nations-league-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/fabian-ruiz-and-ferran-s-spain-beat-england-paris-saint-germain-20262027",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie",
+      "category": "Sélections",
+      "dateTime": "2026-09-25T23:00:00+02:00",
+      "url": "https://parisien90.com/news/mika-godts-premier-but-belgique-italie-nations-league-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/belgium-beat-italy-with-godts-on-the-scoresheet-psg-international-uefa-nations-league-2026",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane",
+      "category": "Sélections",
+      "dateTime": "2026-09-25T23:00:00+02:00",
+      "url": "https://parisien90.com/news/france-turquie-dembele-doue-nations-league-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/les-bleus-secure-the-win-in-tuerkiye-as-dembele-starts-for-france-uefa-nations-league-psg-international-2026",
+      "reliability": "Officiel"
+    },
     {
       "title": "Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus",
       "category": "Sélections",
@@ -452,33 +479,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027",
       "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Monaco : Dembélé et João Neves reviennent, Lucas Digne écarté",
-      "category": "Groupe",
-      "dateTime": "2026-09-04T16:15:00+02:00",
-      "url": "https://parisien90.com/news/psg-monaco-groupe-dembele-neves-digne-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-monaco-psg-ligue-1-journee-3-parc-des-princes-2026-2027/",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Monaco : le Parc rouvre, Paris n'a plus le droit au faux départ",
-      "category": "Match",
-      "dateTime": "2026-09-04T15:30:00+02:00",
-      "url": "https://parisien90.com/news/psg-monaco-preview-premiere-victoire-parc-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/paris-monaco-la-preview-psg-ligue-1-journee-3-parc-des-princes-2026-2027",
-      "reliability": "Officiel — avant-match"
-    },
-    {
-      "title": "Luis Enrique ferme le mercato : Paris assume un été de puissance",
-      "category": "Mercato",
-      "dateTime": "2026-09-04T13:20:00+02:00",
-      "url": "https://parisien90.com/news/luis-enrique-mercato-exceptionnel-psg-monaco-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027",
-      "reliability": "Officiel — conférence"
     }
   ],
   "people": [
@@ -1943,6 +1943,102 @@
   },
   "editorialArticles": [
     {
+      "title": "Mercato PSG 2026 : cinq recrues, plus de 330 M€ de ventes annoncées, mais quel équilibre réel ?",
+      "category": "Mercato PSG",
+      "angle": "Bilan chiffré et sportif",
+      "dateTime": "2026-09-25T14:15:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-ete-2026-cinq-recrues-ventes-equilibre/",
+      "summary": "Paris a beaucoup vendu, recruté cinq joueurs et résisté à la tentation d'un dernier achat précipité. Derrière les montants spectaculaires, le vrai bilan se lit poste par poste et avec les précautions qu'imposent des chiffres rarement publics dans leur totalité.",
+      "keywords": [
+        "mercato PSG 2026",
+        "PSG transfert",
+        "arrivées PSG",
+        "départs PSG",
+        "bilan mercato PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Référence officielle pour la composition actuelle du groupe professionnel."
+        },
+        {
+          "name": "CulturePSG - actualité mercato",
+          "url": "https://www.culturepsg.com/news/mercato/",
+          "note": "Bilans, estimations de ventes et suivi du marché estival 2026."
+        },
+        {
+          "name": "CulturePSG - dernière tentative du mercato",
+          "url": "https://www.culturepsg.com/fr/news/mercato/le-joueur-mystere-manque-par-le-psg-toujours-aussi-flou/60560",
+          "note": "Contexte de la fin de marché et bilan des mouvements offensifs."
+        }
+      ]
+    },
+    {
+      "title": "Dembélé, Doué, Akliouche : trois Parisiens chez les Bleus, trois rôles à départager",
+      "category": "Joueurs PSG",
+      "angle": "Forme et complémentarité",
+      "dateTime": "2026-09-25T14:15:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/dembele-doue-akliouche-france-roles-psg/",
+      "summary": "La sélection française réunit trois attaquants du PSG aux qualités voisines mais aux fonctions différentes. Leur trêve dira beaucoup de leur forme, moins de la hiérarchie parisienne, que Luis Enrique construit selon les adversaires.",
+      "keywords": [
+        "Dembélé PSG",
+        "Doué PSG",
+        "Akliouche PSG",
+        "joueurs PSG",
+        "équipe de France PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Liste officielle des joueurs convoqués et programme de la fenêtre internationale."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Référence officielle pour l'effectif 2026-2027."
+        },
+        {
+          "name": "PSG.fr - OM-PSG",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Feuille de match officielle et changements lors de la victoire à Marseille."
+        }
+      ]
+    },
+    {
+      "title": "OM-PSG 1-2 : comment Ferran et Akliouche ont déplacé le centre de gravité du match",
+      "category": "Tactique PSG",
+      "angle": "Après-match structurel",
+      "dateTime": "2026-09-25T14:15:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/om-psg-1-2-ferran-akliouche-bascule-tactique/",
+      "summary": "Paris avait le ballon et les tirs, Marseille avait l'avantage. Les changements de Luis Enrique ont rendu la domination plus dangereuse : Ferran a attaqué la zone décisive, Akliouche a rapproché les lignes, puis Marquinhos a fait basculer le Classique.",
+      "keywords": [
+        "OM PSG 1-2",
+        "tactique PSG",
+        "Ferran Torres PSG",
+        "Akliouche PSG",
+        "composition PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - feuille de match OM-PSG",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Score, compositions, remplacements et chronologie officiels."
+        },
+        {
+          "name": "PSG.fr - statistiques et faits du Classique",
+          "url": "https://www.psg.fr/content/stats-facts-olympique-de-marseille-paris-saint-germain-le-classique-ligue-1-2026-2027",
+          "note": "Données officielles sur la possession, les tirs et le contexte historique."
+        },
+        {
+          "name": "CulturePSG - performances individuelles",
+          "url": "https://www.culturepsg.com/news/match/om-psg-1-2-les-performances-individuelles/60857",
+          "note": "Lecture complémentaire des performances parisiennes."
+        }
+      ]
+    },
+    {
       "title": "Luis Enrique au PSG jusqu'en 2030 : sa rotation permanente peut-elle devenir la nouvelle norme ?",
       "category": "Entraîneurs PSG",
       "angle": "Méthode et management",
@@ -2606,44 +2702,6 @@
           "note": "Fiche interne enrichie et contexte historique."
         }
       ]
-    },
-    {
-      "title": "Joueurs PSG : la rotation de Luis Enrique est-elle une force ou une bombe à retardement ?",
-      "category": "Joueurs PSG",
-      "angle": "Analyse effectif",
-      "dateTime": "2026-09-05T14:00:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/joueurs-psg-rotation-doue-zaire-emery-mayulu/",
-      "summary": "Le PSG moderne ne manque pas de talents. Son vrai défi est plus dangereux : transformer l'abondance en hiérarchie lisible, sans étouffer les jeunes ni crisper les cadres.",
-      "keywords": [
-        "joueurs PSG",
-        "effectif PSG",
-        "Désiré Doué PSG",
-        "Warren Zaïre-Emery PSG",
-        "Senny Mayulu PSG",
-        "Luis Enrique PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
-          "note": "Référence publique pour l'effectif et les profils officiels."
-        },
-        {
-          "name": "Parisien 90 - joueurs PSG",
-          "url": "/joueurs-psg/",
-          "note": "Fiches internes, rôles et points de vigilance."
-        },
-        {
-          "name": "Parisien 90 - calendrier PSG",
-          "url": "/calendrier-psg/",
-          "note": "Contexte sportif pour lire la rotation."
-        },
-        {
-          "name": "Parisien 90 - charte éditoriale",
-          "url": "/charte-editoriale/",
-          "note": "Distinction entre fait, analyse, opinion et débat."
-        }
-      ]
     }
   ],
   "brazilNews": [
@@ -2691,7 +2749,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-24T12:00:00+02:00",
+    "updatedAt": "2026-09-27T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

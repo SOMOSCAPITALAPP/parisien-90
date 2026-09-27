@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-24T12:00:00+02:00",
-  edition: "Fil PSG du 22 septembre 2026",
-  displayDate: "22 septembre 2026",
+  updatedAt: "2026-09-27T12:00:00+02:00",
+  edition: "Fil PSG du 26 septembre 2026",
+  displayDate: "26 septembre 2026",
   displayTime: "23h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,13 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-26", "26 septembre 2026", [
+  { id: "fabian-ruiz-ferran-torres-espagne-angleterre-nations-league-septembre-2026", time: "23:00", category: "Sélections", title: "Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley", summary: "L'Espagne s'est imposée 3-2 à Wembley pour ouvrir sa Ligue des nations, avec Fabián Ruiz et Ferran Torres titulaires. Menés après avoir marqué très tôt, les Espagnols ont renversé l'Angleterre grâce à Álex Baena puis Mikel Oyarzabal ; les deux Parisiens sont sortis en seconde période. Une soirée internationale qui entretient le rythme compétitif de deux options majeures de Luis Enrique.", source: "PSG.fr", url: "https://www.psg.fr/en/content/fabian-ruiz-and-ferran-s-spain-beat-england-paris-saint-germain-20262027", reliability: "Officiel", viral: 86 },
+  ]),
+  ...withNewsDate("2026-09-25", "25 septembre 2026", [
+  { id: "mika-godts-premier-but-belgique-italie-nations-league-septembre-2026", time: "23:00", category: "Sélections", title: "Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie", summary: "Mika Godts a ouvert son compteur avec la Belgique en marquant lors du succès 2-0 contre l'Italie à Rome, pour la première journée de Ligue des nations. Titulaire, l'ailier parisien a lancé les Diables avant le but de Lukebakio. Un signal fort sans lui prêter plus qu'il n'en dit : Paris voit surtout sa recrue de 21 ans répondre présent dans un grand contexte international.", source: "PSG.fr", url: "https://www.psg.fr/en/content/belgium-beat-italy-with-godts-on-the-scoresheet-psg-international-uefa-nations-league-2026", reliability: "Officiel", viral: 92 },
+  { id: "france-turquie-dembele-doue-nations-league-septembre-2026", time: "23:00", category: "Sélections", title: "Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane", summary: "La France a battu la Turquie 1-0 à Kocaeli pour les débuts de Zinedine Zidane, grâce à un but de Mbappé. Ousmane Dembélé a commencé la rencontre et n'est sorti que dans le temps additionnel ; Désiré Doué est entré à l'heure de jeu. Le résultat est officiel, et il offre surtout à Paris deux internationaux concernés sans signal d'alerte rapporté par le club.", source: "PSG.fr", url: "https://www.psg.fr/en/content/les-bleus-secure-the-win-in-tuerkiye-as-dembele-starts-for-france-uefa-nations-league-psg-international-2026", reliability: "Officiel", viral: 89 },
+  ]),
   ...withNewsDate("2026-09-24", "24 septembre 2026", [
   { id: "psg-programme-19-internationaux-treve-septembre-2026", time: "12:00", category: "Sélections", title: "Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus", summary: "Le PSG a publié le programme de ses 19 internationaux pour cette fenêtre de septembre-octobre. Dembélé, Doué et Akliouche ouvrent avec la France en Turquie, tandis que Vitinha, João Neves et Nuno Mendes retrouvent le Portugal. Hakimi, Kvaratskhelia, Marquinhos, Pacho, Zabarnyi et les jeunes du club sont également concernés. Une séquence à surveiller de près : Paris devra gérer les temps de jeu et les retours physiques avant la reprise.", source: "PSG.fr", url: "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027", reliability: "Officiel", viral: 88 },
   ]),
