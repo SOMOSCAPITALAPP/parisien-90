@@ -133,11 +133,63 @@ const countryKey = (country) => normalizeKey(country);
 const getTopicPath = (item) => {
   const category = String(item.category || "").toLowerCase();
   const title = String(item.title || "").toLowerCase();
-  if (category.includes("mercato") || title.includes("transfert")) return "/transfert-psg/";
+  if (category.includes("mercato") || title.includes("mercato")) return "/mercato-psg/";
+  if (category.includes("transfert") || title.includes("transfert")) return "/transfert-psg/";
   if (category.includes("calendrier") || category.includes("match") || category.includes("europe")) return "/calendrier-psg/";
   if (category.includes("effectif") || category.includes("staff") || category.includes("joueur")) return "/joueurs-psg/";
   if (category.includes("histoire") || category.includes("ancien")) return "/histoire-psg/";
   return "/actualite-psg/";
+};
+
+const priorityReadingLinks = [
+  {
+    path: "/mercato-psg/",
+    kicker: "Marché",
+    title: "Mercato PSG",
+    text: "Rumeurs, confirmations et degrés de fiabilité pour suivre Paris sans confondre bruit et information."
+  },
+  {
+    path: "/transfert-psg/",
+    kicker: "Mouvements",
+    title: "Transfert PSG",
+    text: "Arrivées, départs, prêts, montants publics et impact sportif sur l'effectif parisien."
+  },
+  {
+    path: "/calendrier-psg/",
+    kicker: "Agenda",
+    title: "Calendrier PSG",
+    text: "Ligue 1, Europe, amicaux et coupes avec dates, statuts et lecture de la rotation."
+  },
+  {
+    path: "/records-psg/",
+    kicker: "Histoire",
+    title: "Records PSG",
+    text: "Buteurs, passeurs, joueurs les plus capés, grands scores et repères chiffrés du club."
+  }
+];
+
+const makePriorityReadingGrid = (preferredPath = "/actualite-psg/") => {
+  const ordered = [
+    ...priorityReadingLinks.filter((link) => link.path === preferredPath),
+    ...priorityReadingLinks.filter((link) => link.path !== preferredPath)
+  ];
+
+  return `<div class="topic-grid">
+              ${ordered
+                .map((link) => `<a class="topic-card" href="${escapeHTML(link.path)}"><span>${escapeHTML(link.kicker)}</span><h3>${escapeHTML(link.title)}</h3><p>${escapeHTML(link.text)}</p></a>`)
+                .join("\n              ")}
+            </div>`;
+};
+
+const mergePriorityInternalLinks = (links = []) => {
+  const seen = new Set();
+  const merged = [];
+  [...links, ...priorityReadingLinks.map((link) => ({ label: link.title, url: link.path }))].forEach((link) => {
+    if (!link?.url || seen.has(link.url)) return;
+    seen.add(link.url);
+    merged.push(link);
+  });
+  return merged;
 };
 
 const freshnessSummary = publishedNewsFeed
@@ -152,7 +204,7 @@ const getArticleAngle = (item) => {
   if (category.includes("mercato") || title.includes("transfert")) {
     return {
       label: "Mercato PSG",
-      pillar: "/transfert-psg/",
+      pillar: category.includes("mercato") || title.includes("mercato") ? "/mercato-psg/" : "/transfert-psg/",
       stakes: "Dans un mercato PSG, la vraie information n'est pas seulement le nom du joueur. C'est le degré d'avancement, la source, la logique sportive et ce que le mouvement changerait dans la rotation de Luis Enrique.",
       watch: "Le prochain signal fiable sera une confirmation club, un accord entre clubs, une visite médicale ou une prise de parole suffisamment attribuée. Tant que ce palier n'est pas franchi, Parisien 90 classe le dossier avec prudence."
     };
@@ -213,7 +265,8 @@ const makeArticleSections = (item) => {
             <p>La suite dépendra souvent d'un détail concret : une nouvelle convocation, un communiqué, une programmation, une évolution de prix, une image d'entraînement, un changement de groupe ou une confirmation d'instance. C'est précisément ce type de signal que Parisien 90 relie au fil live et aux dossiers de fond.</p>
             <p>Cette approche permet de garder une page utile après la première vague de partage : le lecteur peut revenir, retrouver l'heure de publication, vérifier la source et comprendre pourquoi l'information a été classée dans ce dossier PSG.</p>
             <h2>À lire ensuite sur Parisien 90</h2>
-            <p>Pour prolonger cette info sans repartir de zéro, Parisien 90 renvoie vers les pages utiles du site : <a href="/mercato-psg/">psg mercato</a>, <a href="/transfert-psg/">psg transfert</a>, <a href="/calendrier-psg/">calendrier PSG</a>, <a href="/records-psg/">records PSG</a> et <a href="/anciens-joueurs-psg/ronaldinho/">Ronaldinho PSG</a>. Le lecteur peut ainsi passer d'une information chaude à un contexte plus complet sur le club.</p>
+            <p>Pour prolonger cette info, le plus utile est de passer du signal chaud aux grands repères du site : marché, mouvements, calendrier et mémoire chiffrée du club.</p>
+            ${makePriorityReadingGrid(angle.pillar)}
             <h2>Source, droits et méthode</h2>
             <p>Cette page ne reproduit pas l'article d'origine. Elle propose une synthèse originale et renvoie vers <strong>${source}</strong>, afin que le lecteur puisse vérifier le signal de départ. Les faits bruts, dates, scores, mouvements et informations publiques sont reformulés ; les contenus tiers protégés ne sont pas recopiés.</p>`;
 };
@@ -452,7 +505,7 @@ const makeEditorialArticlePage = (item) => {
   const sourceLinks = (item.sources || [])
     .map((source) => `<li><a href="${escapeHTML(new URL(source.url, siteUrl).href)}" rel="noopener noreferrer">${escapeHTML(source.name)}</a><span>${escapeHTML(source.note)}</span></li>`)
     .join("\n");
-  const internalLinks = (item.internalLinks || [])
+  const internalLinks = mergePriorityInternalLinks(item.internalLinks || [])
     .map((link) => `<a href="${escapeHTML(link.url)}">${escapeHTML(link.label)}</a>`)
     .join("\n");
   const faqMarkup = (item.faq || [])
@@ -659,6 +712,15 @@ const makeEditorialIndexPage = () => {
           <article><strong>Actuel</strong><p>Joueurs, staff, rotation, calendrier, blessures, concurrence et conséquences mercato.</p></article>
           <article><strong>Opinion</strong><p>Sujets qui font discuter sans brouiller la frontière entre fait, analyse et polémique.</p></article>
         </div>
+      </section>
+      <section class="content-section">
+        <span class="section-kicker">Repères PSG</span>
+        <h2>Les parcours à garder ouverts pendant la saison</h2>
+        <p>
+          Un dossier prend plus de valeur quand il se relie au reste de la saison : marché des joueurs, mouvements officiels,
+          calendrier des grands matches et chiffres historiques qui replacent chaque débat dans la mémoire parisienne.
+        </p>
+        ${makePriorityReadingGrid("/mercato-psg/")}
       </section>
       <section class="content-section">
         <div class="section-heading">
