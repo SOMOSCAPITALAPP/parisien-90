@@ -1,12 +1,199 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-27T18:07:00+02:00",
-  displayDate: "27 septembre 2026",
-  displayTime: "18h07",
+  updatedAt: "2026-09-28T16:55:00+02:00",
+  displayDate: "28 septembre 2026",
+  displayTime: "16h55",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "mercato-psg-profondeur-19-internationaux-janvier-2027",
+    title: "Mercato PSG : 19 internationaux, 24 joueurs… la profondeur parisienne passe son vrai test avant janvier",
+    description: "Avec dix-neuf internationaux sur un effectif officiel de vingt-quatre joueurs, le PSG va mesurer sa profondeur réelle avant le mercato de janvier 2027.",
+    deck: "Les noms et les contrats dessinent un groupe riche. La trêve, les voyages puis l'enchaînement Le Mans-Manchester City-Barcelone diront si chaque fonction possède vraiment un relais fiable.",
+    category: "Mercato PSG",
+    angle: "Profondeur de l'effectif et besoins de janvier",
+    date: "2026-09-28",
+    dateLabel: "28 septembre 2026",
+    time: "16:55",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour une analyse de la profondeur de l'effectif et du mercato PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG", "PSG mercato janvier 2027", "effectif PSG", "transfert PSG", "recrutement PSG"],
+    sections: [
+      { heading: "Le fait : dix-neuf internationaux dans un groupe officiel de vingt-quatre joueurs", paragraphs: [
+        "Le Paris Saint-Germain a annoncé le départ de dix-neuf joueurs avec leur sélection pendant la trêve internationale. Dans le même temps, la page officielle de l'effectif masculin recense vingt-quatre joueurs pour la saison 2026-2027. Le rapprochement de ces deux chiffres donne une mesure concrète du niveau du groupe : presque tous les joueurs de champ appelés à compter à Paris possèdent aussi un statut international. Cette densité constitue un avantage compétitif, mais elle entraîne des voyages, des changements de méthode et une accumulation de minutes que le club ne contrôle pas entièrement.",
+        "Un effectif profond ne se juge pourtant pas au nombre de convocations ni à la réputation des remplaçants. Il se juge lorsqu'un titulaire revient tard, qu'un autre doit souffler et qu'un troisième manque une séance collective. Le calendrier place justement Paris devant cette épreuve. Après la trêve, le PSG recevra Le Mans le 10 octobre, se déplacera à Manchester City le 14, ira à Strasbourg le 17 et accueillera Barcelone le 20. Quatre matches en onze jours obligeront Luis Enrique à utiliser son groupe autrement que sur une feuille de composition idéale."
+      ] },
+      { heading: "Le mercato d'été a ajouté des options, mais chaque poste ne se double pas à l'identique", paragraphs: [
+        "L'effectif officiel présente quatre gardiens, huit défenseurs, six milieux et six attaquants. Sur le papier, chaque ligne paraît couverte. La réalité est plus nuancée. Aucun joueur ne reproduit exactement les accélérations de Nuno Mendes, les courses d'Achraf Hakimi, la gestion du tempo de Vitinha ou les ruptures d'Ousmane Dembélé. Remplacer un nom signifie souvent modifier le chemin emprunté par l'équipe. Lucas Digne peut apporter une qualité de centre différente ; Warren Zaïre-Emery peut défendre le couloir avec davantage de puissance ; Ferran Torres peut fixer la surface quand un autre attaquant préfère décrocher.",
+        "Cette diversité peut être une force supérieure à la simple duplication. Elle permet au staff de changer le rapport de force sans abandonner ses principes. Mais elle impose des automatismes : le milieu doit savoir qui couvre, l'ailier doit comprendre le moment où le latéral monte et les défenseurs doivent ajuster la hauteur du bloc. Le marché a fourni des profils. L'automne doit prouver que ces profils forment des associations crédibles. Si une absence oblige systématiquement à désorganiser deux autres postes, la profondeur affichée restera trompeuse."
+      ] },
+      { heading: "Premier audit avant janvier : les couloirs défensifs", paragraphs: [
+        "Les côtés concentrent une part importante de la création parisienne. Hakimi et Nuno Mendes donnent de la largeur, attaquent la profondeur et peuvent terminer une action. Leur activité permet aux joueurs offensifs de venir à l'intérieur. Le groupe comprend Lucas Digne et Lucas Hernandez à gauche, tandis que Zaïre-Emery peut offrir une solution à droite. Le nombre existe donc, mais les qualités changent. Une rotation réussie demandera au PSG de conserver sa capacité à progresser sans demander au remplaçant de copier un titulaire qui possède des caractéristiques rares.",
+        "La séquence d'octobre fournira un test exigeant. Le Mans peut permettre de répartir les minutes, mais Manchester City et Barcelone puniront immédiatement un mauvais équilibre après perte. Si Paris peut faire souffler un latéral sans perdre sa structure, le besoin d'un renfort hivernal reculera. Si le staff doit maintenir les mêmes joueurs malgré la fatigue, une question de recrutement apparaîtra. Elle ne concernera pas forcément un poste inscrit sur une fiche, mais une fonction : porter le ballon, défendre loin du but et répéter les courses dans les deux sens."
+      ] },
+      { heading: "Deuxième audit : le milieu peut-il rester dominant avec plusieurs combinaisons ?", paragraphs: [
+        "Vitinha, João Neves et Fabián Ruiz offrent une base technique de très haut niveau. Zaïre-Emery, Senny Mayulu et Dro Fernández élargissent les possibilités, tandis que Maghnes Akliouche est officiellement classé parmi les milieux même s'il peut évoluer plus haut. Cette richesse donne à Luis Enrique des choix de rythme, de percussion et de contrôle. Elle doit maintenant résister aux retours différés des sélections. Trois milieux disponibles ne suffisent pas si aucun n'a les jambes pour presser ou si leurs rôles se superposent.",
+        "Le signal le plus important sera la qualité de la sortie de balle lorsque Vitinha ou João Neves repose. Paris doit pouvoir attirer la pression puis la dépasser sans dépendre d'une seule orientation corporelle ou d'un seul passeur. Si Mayulu, Zaïre-Emery et Fabián maintiennent les distances et la circulation, le club disposera d'une profondeur organique. Dans le cas contraire, janvier pourrait remettre sur la table un milieu capable d'organiser. Là encore, le recrutement ne devrait intervenir qu'après observation de plusieurs configurations, pas après une prestation isolée."
+      ] },
+      { heading: "Troisième audit : l'attaque doit prouver qu'elle possède plusieurs manières de marquer", paragraphs: [
+        "Le groupe offensif réunit Dembélé, Désiré Doué, Khvicha Kvaratskhelia, Ferran Torres, Mika Godts et Quentin Ndjantou, avec Akliouche capable de rejoindre cette ligne. Les profils créatifs sont nombreux. La question concerne la présence dans la surface lorsque l'adversaire défend bas. Ferran peut occuper les centraux ; Dembélé peut déséquilibrer par la conduite et la passe ; Doué et Kvaratskhelia peuvent éliminer dans des espaces courts. L'efficacité collective dépendra de la complémentarité entre celui qui crée et celui qui termine.",
+        "Un mercato hivernal offensif n'aurait de sens que si un manque se répète. Si Paris produit des occasions mais manque constamment de présence devant le but, un profil de fixation pourrait devenir pertinent. Si les rotations génèrent des buts de plusieurs joueurs, recruter ajouterait surtout de la concurrence et réduirait les minutes des jeunes. Le calendrier européen offrira un échantillon plus fiable que les premières semaines : City et Barcelone obligeront Paris à attaquer des espaces différents, tandis que les matches de Ligue 1 testeront sa patience contre des blocs plus compacts."
+      ] },
+      { heading: "Notre analyse : le meilleur recrutement de janvier peut être une certitude acquise en octobre", paragraphs: [
+        "Paris n'a pas besoin d'annoncer dès septembre le poste qu'il recrutera en janvier. La direction possède un groupe de vingt-quatre joueurs, des contrats longs et plusieurs éléments capables d'occuper deux rôles. La priorité consiste à transformer cette quantité en preuves. Les minutes données après la trêve doivent servir à savoir quelles associations fonctionnent, quels jeunes peuvent assumer un rendez-vous important et quelles absences modifient trop profondément le jeu. Ce diagnostic sera plus précieux qu'une liste de noms construite sur la seule notoriété.",
+        "Le marché doit rester une réponse précise. Si les couloirs tiennent, si le milieu contrôle avec différentes combinaisons et si l'attaque marque de plusieurs façons, la stabilité sera une décision forte. Si une fonction demeure sans relais malgré les essais, le PSG pourra chercher un joueur défini par son utilité plutôt que par son statut. Les dix-neuf internationaux ne prouvent pas à eux seuls la profondeur parisienne. Ils créent le contexte qui va la révéler, entre récupération, rotation et très grands matches."
+      ] }
+    ],
+    faq: [
+      { question: "Combien de joueurs compte l'effectif officiel du PSG en 2026-2027 ?", answer: "La page officielle du club recense vingt-quatre joueurs dans le groupe masculin." },
+      { question: "Combien de Parisiens sont partis en sélection en septembre 2026 ?", answer: "Le PSG a annoncé dix-neuf internationaux concernés par cette trêve." },
+      { question: "Le PSG doit-il recruter en janvier 2027 ?", answer: "Aucune urgence n'est démontrée. La séquence d'octobre doit permettre d'évaluer les relais dans les couloirs, au milieu et dans la surface." }
+    ],
+    sources: [
+      { name: "PSG.fr - effectif masculin 2026-2027", url: "https://www.psg.fr/football-masculin/effectif", note: "Liste officielle des vingt-quatre joueurs et de leurs postes." },
+      { name: "PSG.fr - programme des internationaux", url: "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027", note: "Liste officielle des dix-neuf joueurs convoqués et de leurs rencontres." },
+      { name: "PSG.fr - calendrier 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Dates et résultats officiels du PSG." },
+      { name: "UEFA - calendrier européen du PSG", url: "https://fr.uefa.com/uefachampionsleague/news/02a9-218385b1b53b-a29130f33611-1000--paris-saint-germain-en-ligue-des-champions-2026-27-calendr/", note: "Calendrier et statut européen officiels." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transferts PSG", url: "/transfert-psg/" },
+      { label: "Effectif du PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "internationaux-psg-septembre-2026-charge-retours",
+    title: "Dembélé, Doué, Vitinha, Hakimi : les 19 internationaux du PSG sous surveillance avant octobre",
+    description: "Dix-neuf joueurs du PSG disputent la trêve internationale. Matches, voyages, récupération : les indicateurs à suivre avant une séquence décisive.",
+    deck: "La convocation est une récompense, mais le retour au Campus sera une opération de précision. Tous les internationaux ne rentreront ni le même jour, ni avec la même charge, ni avec le même besoin de récupération.",
+    category: "Joueurs PSG",
+    angle: "Forme, charge et retours de sélection",
+    date: "2026-09-28",
+    dateLabel: "28 septembre 2026",
+    time: "16:55",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour le suivi des dix-neuf internationaux du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["internationaux PSG", "Dembélé PSG", "Désiré Doué PSG", "Vitinha PSG", "effectif PSG"],
+    sections: [
+      { heading: "Le fait : dix-neuf Parisiens répartis entre plusieurs continents", paragraphs: [
+        "Le programme officiel publié par le PSG recense dix-neuf joueurs partis rejoindre leur sélection. La France a appelé Maghnes Akliouche, Ousmane Dembélé et Désiré Doué ; le Portugal compte sur Nuno Mendes, João Neves et Vitinha ; l'Espagne a retenu Fabián Ruiz et Ferran Torres. D'autres Parisiens représentent la Géorgie, l'Ukraine, l'Équateur, la Russie, le Brésil, le Maroc et différentes sélections de jeunes. Cette dispersion illustre la qualité du groupe, mais elle interdit toute lecture uniforme de la trêve.",
+        "Chaque joueur suit un programme différent. Certains peuvent enchaîner quatre rencontres, d'autres deux ou trois. Les distances de voyage, les fuseaux horaires, la surface de jeu, le poste occupé et le nombre de minutes modifient la charge réelle. Une apparition de vingt minutes ne produit pas le même effet qu'un match complet très intense. À l'inverse, rester sur le banc n'est pas toujours synonyme de fraîcheur : les déplacements, les séances et les changements de rythme pèsent aussi."
+      ] },
+      { heading: "Le trio français concentre l'attention offensive", paragraphs: [
+        "Dembélé, Doué et Akliouche disposent de quatre matches annoncés avec l'équipe de France entre le 25 septembre et le 5 octobre. Leur utilisation sera suivie parce qu'ils représentent trois solutions majeures pour l'attaque parisienne. Dembélé peut organiser et finir, Doué peut casser une ligne par le dribble, Akliouche peut relier le milieu à la dernière passe. S'ils jouent beaucoup ensemble, ils entretiendront certains repères techniques ; s'ils alternent, chacun reviendra avec une charge et une confiance différentes.",
+        "Il faudra éviter les conclusions médicales tirées d'une simple image ou d'une absence sur une séance ouverte. Seul un communiqué officiel peut établir une blessure et son calendrier. Le bon suivi consiste à noter les titularisations, les remplacements et les voyages, puis à attendre l'évaluation du club. Paris recevra Le Mans cinq jours après le dernier match français annoncé. Cette marge paraît raisonnable, mais elle peut être courte pour un joueur ayant accumulé les minutes ou subi des contacts."
+      ] },
+      { heading: "Le triangle portugais porte une grande partie du moteur parisien", paragraphs: [
+        "Nuno Mendes, João Neves et Vitinha participent au programme du Portugal. Leur importance au PSG dépasse leurs postes. Mendes donne la profondeur à gauche, Neves transforme la récupération en mouvement et Vitinha règle le tempo. Une forte utilisation simultanée peut donc affecter trois étages du jeu parisien. Le staff observera moins le score des rencontres que la répétition des accélérations, la durée des efforts et la proximité entre le dernier match international et la reprise collective.",
+        "La question n'est pas d'empêcher les joueurs de représenter leur pays. Elle consiste à adapter leur retour. Un titulaire très sollicité peut commencer sur le banc contre Le Mans, tandis qu'un joueur peu utilisé peut avoir besoin de rythme. La rotation ne doit pas être lue comme une sanction ou une hiérarchie définitive. Dans une séquence qui mène à Manchester City puis Barcelone, protéger une heure de jeu aujourd'hui peut préserver une action décisive quatre jours plus tard."
+      ] },
+      { heading: "Les longs voyages demandent une autre forme de prudence", paragraphs: [
+        "Willian Pacho avec l'Équateur, Marquinhos avec le Brésil et Achraf Hakimi avec le Maroc ne partagent pas les mêmes contraintes géographiques. Les déplacements peuvent ajouter une fatigue invisible aux statistiques de match. Le sommeil, l'heure d'arrivée et la récupération après le vol influencent la capacité à répéter des efforts. Un défenseur peut sembler disponible tout en manquant de vivacité sur les premières accélérations, précisément celles qui décident d'une transition défensive.",
+        "Paris doit aussi gérer les joueurs appelés avec les sélections de jeunes. Leur charge mérite la même attention, même si leurs rencontres bénéficient de moins d'exposition médiatique. Pour un jeune, une convocation peut représenter une forte dépense émotionnelle et une occasion majeure de gagner du temps de jeu. Le retour au club doit préserver cet élan tout en évaluant objectivement la fraîcheur. La gestion moderne ne sépare pas la performance physique de la confiance et de la concentration."
+      ] },
+      { heading: "Le retour ne produira pas une seule équipe, mais plusieurs niveaux de disponibilité", paragraphs: [
+        "Au Campus, le staff classera probablement les retours selon leur date, leur temps de jeu et leur état, sans que toutes ces informations deviennent publiques. Certains pourront participer immédiatement à une séance complète. D'autres passeront par la récupération, un travail individualisé ou une reprise partielle. Cette différence explique pourquoi une composition annoncée plusieurs jours à l'avance reste fragile. Être présent à l'entraînement ne signifie pas nécessairement être prêt à démarrer quatre-vingt-dix minutes.",
+        "Le calendrier peut toutefois aider Luis Enrique. Le match contre Le Mans offre une étape avant le déplacement à Manchester. Il permettra de relancer ceux qui ont peu joué, d'offrir des minutes aux joueurs restés à Paris et de réintroduire progressivement certains internationaux. Mais il ne faudra pas sous-estimer l'adversaire ni transformer la rencontre en simple séance. La bonne composition sera celle qui protège les organismes tout en conservant assez de cohésion pour gagner."
+      ] },
+      { heading: "Notre analyse : la forme du PSG dépendra de la qualité des décisions, pas du nombre de sélections", paragraphs: [
+        "Dix-neuf convocations confirment la valeur individuelle du groupe. Elles ne garantissent ni la fraîcheur ni les automatismes au retour. Le PSG devra accepter que ses meilleurs joueurs ne soient pas tous au même niveau de disponibilité le même jour. La force de l'effectif résidera dans la capacité des remplaçants et des jeunes à maintenir les principes : ressortir proprement, presser ensemble et occuper la surface avec plusieurs menaces.",
+        "Le public peut suivre des indicateurs simples sans transformer chaque minute en alerte : titularisation, temps de jeu, voyage, date du dernier match et communication officielle. Tout le reste relève de l'hypothèse. Pour Paris, la réussite de la trêve ne sera pas le total des buts inscrits en sélection, mais le nombre de joueurs revenus sains et la justesse de leur réintégration. Octobre sera dense ; le premier avantage se gagnera dans les décisions prises avant même le retour de la compétition."
+      ] }
+    ],
+    faq: [
+      { question: "Combien de joueurs du PSG sont en sélection en septembre 2026 ?", answer: "Le club a annoncé dix-neuf internationaux concernés par la trêve." },
+      { question: "Quels joueurs du PSG sont avec la France ?", answer: "Maghnes Akliouche, Ousmane Dembélé et Désiré Doué figurent dans le programme officiel publié par le PSG." },
+      { question: "Quand le PSG rejoue-t-il après la trêve ?", answer: "Le calendrier officiel prévoit PSG-Le Mans le 10 octobre 2026, avant Manchester City-PSG le 14 octobre." }
+    ],
+    sources: [
+      { name: "PSG.fr - programme des internationaux", url: "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027", note: "Sélections et calendrier annoncés par le club." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Composition officielle du groupe 2026-2027." },
+      { name: "PSG.fr - calendrier et résultats", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Dates officielles des prochains matches." },
+      { name: "UEFA - matches du PSG en Champions League", url: "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/", note: "Calendrier officiel de la phase de ligue." }
+    ],
+    internalLinks: [
+      { label: "Tous les joueurs du PSG", url: "/joueurs-psg/" },
+      { label: "Fiche Ousmane Dembélé", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Fiche Désiré Doué", url: "/joueurs-psg/desire-doue/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Actualité PSG", url: "/actualite-psg/" }
+    ]
+  },
+  {
+    id: "composition-psg-octobre-2026-le-mans-city-barcelone",
+    title: "Composition du PSG : les cinq choix tactiques qui vont décider du marathon d'octobre",
+    description: "Le Mans, Manchester City, Strasbourg puis Barcelone : Luis Enrique devra faire évoluer sa composition sans casser les principes du PSG.",
+    deck: "Après une trêve à dix-neuf internationaux, Paris jouera quatre matches en onze jours. L'enjeu ne sera pas de trouver un onze parfait, mais de construire plusieurs équipes capables de contrôler des scénarios opposés.",
+    category: "Tactique PSG",
+    angle: "Composition et rotation d'octobre",
+    date: "2026-09-28",
+    dateLabel: "28 septembre 2026",
+    time: "16:55",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour une analyse des compositions du PSG en octobre 2026",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["composition PSG", "tactique PSG", "Manchester City PSG", "PSG Barcelone", "Luis Enrique PSG"],
+    sections: [
+      { heading: "Le fait : quatre matches en onze jours après une trêve très chargée", paragraphs: [
+        "Le calendrier officiel place le PSG face au Mans le 10 octobre, à Manchester City le 14, à Strasbourg le 17 puis contre Barcelone le 20. Cette série associe un retour de trêve, deux affiches de Ligue des champions et un déplacement de championnat coincé entre elles. Dix-neuf Parisiens étant partis en sélection, le staff ne pourra pas préparer les quatre rencontres avec un groupe complet dès la première séance. La composition devra donc évoluer selon les retours et non selon une hiérarchie figée.",
+        "Paris a déjà montré plusieurs visages cette saison : six buts contre le Slovan Bratislava en Europe, une victoire 2-1 à Marseille, mais aussi des matches nuls à Rennes et Lille puis une défaite contre Monaco. Ces résultats officiels ne racontent pas tout du contenu, mais ils rappellent qu'une équipe peut dominer un soir et souffrir quatre jours plus tard. La continuité recherchée par Luis Enrique concerne les principes ; les titulaires et les positions peuvent changer pour les préserver."
+      ] },
+      { heading: "Premier choix : quel gardien pour lancer les attaques sous pression ?", paragraphs: [
+        "L'effectif compte quatre gardiens : Lucas Chevalier, Matvey Safonov, Alessandro Longoni et un groupe organisé autour de profils différents. Face à City ou Barcelone, la première relance sera immédiatement pressée. Le gardien devra trouver le joueur libre sans transformer chaque ballon en prise de risque. Son choix influencera la hauteur des défenseurs, la disponibilité du milieu et la capacité à attirer un adversaire avant de jouer dans son dos.",
+        "La rotation au poste ne peut pas seulement répondre au besoin de distribuer des minutes. Elle doit tenir compte des associations avec les centraux et du type de pression adverse. Un gardien très agressif dans ses sorties peut permettre à la ligne de défendre plus haut ; un autre peut offrir une qualité différente sur les passes longues. Le Mans peut servir à entretenir un rythme, mais les décisions européennes devront privilégier la cohérence du plan et la confiance collective."
+      ] },
+      { heading: "Deuxième choix : préserver les latéraux sans perdre la largeur", paragraphs: [
+        "Hakimi et Nuno Mendes donnent au PSG une amplitude difficile à remplacer. Lorsqu'ils montent, les ailiers peuvent se rapprocher de la surface et les milieux trouvent davantage de lignes de passe. Mais leur rôle exige des courses longues, précisément celles que les voyages internationaux et les matches rapprochés rendent coûteuses. Luis Enrique devra décider quand les utiliser ensemble et quand protéger l'un des deux, avec Lucas Digne, Lucas Hernandez ou Zaïre-Emery comme solutions possibles.",
+        "Changer de latéral implique de modifier les compensations. Si Digne reste plus bas ou centre plus tôt, l'ailier doit occuper autrement la profondeur. Si Zaïre-Emery joue à droite, son activité intérieure peut demander davantage de largeur au joueur offensif. La bonne rotation n'est pas un simple échange de noms. C'est une redistribution des espaces. Paris conservera son identité si le remplaçant reçoit un rôle adapté à ses qualités et si les partenaires comprennent ce que ce changement leur demande."
+      ] },
+      { heading: "Troisième choix : organiser le milieu sans épuiser Vitinha et João Neves", paragraphs: [
+        "Le contrôle parisien repose souvent sur la disponibilité de Vitinha et l'intensité de João Neves. Fabián Ruiz ajoute sa capacité à jouer entre les lignes, tandis que Zaïre-Emery, Mayulu et Dro offrent d'autres dynamiques. Sur quatre matches, aligner le même trio serait tentant pour sécuriser les repères, mais risqué pour la fraîcheur. La solution consiste à définir la fonction indispensable de chaque rencontre : résister à une pression, contrôler le tempo, gagner les deuxièmes ballons ou attaquer un bloc bas.",
+        "Contre Le Mans, Paris devrait avoir davantage le ballon et devra éviter une possession lente. À Manchester, sortir du pressing et défendre les transitions deviendront prioritaires. Strasbourg peut imposer un duel physique, puis Barcelone demandera de nouveau une grande précision technique. Un milieu différent peut répondre à chaque scénario sans renier le projet. L'essentiel sera de conserver un joueur qui organise, un autre qui donne de l'intensité et un troisième capable d'occuper l'espace libéré."
+      ] },
+      { heading: "Quatrième choix : avec ou sans véritable point de fixation ?", paragraphs: [
+        "Ferran Torres offre une présence axiale identifiable, tandis que Dembélé, Doué, Kvaratskhelia et Akliouche peuvent permuter et créer loin d'une position fixe. Le choix d'un numéro 9 change la manière dont Paris attaque la surface. Avec un point de fixation, les ailiers peuvent combiner autour d'un défenseur occupé. Sans avant-centre classique, les décrochages attirent les centraux mais exigent qu'un partenaire attaque immédiatement l'espace abandonné.",
+        "Les adversaires d'octobre ne défendront pas tous de la même façon. Contre un bloc bas, Paris aura besoin de présence devant le but et de courses au second poteau. Face à City, la mobilité peut aider à sortir d'un marquage agressif. Barcelone cherchera probablement à contrôler le ballon, ce qui donnera de la valeur aux appels après récupération. La composition offensive doit donc être pensée comme une réponse au terrain, pas comme un classement définitif entre les attaquants."
+      ] },
+      { heading: "Cinquième choix : préparer les remplaçants à décider les matches", paragraphs: [
+        "Une séquence aussi dense ne se gagne pas seulement avec les titulaires. Les entrées doivent conserver ou modifier le rapport de force. Un ailier frais peut attaquer un latéral averti ; un milieu supplémentaire peut protéger une avance ; un défenseur rapide peut permettre de maintenir le bloc haut. Pour que ces changements fonctionnent, les joueurs du banc doivent connaître leur mission avant d'entrer. Remplacer à la soixantième minute ne suffit pas si l'équipe perd ses distances pendant les trente suivantes.",
+        "Le match de Marseille, remporté 2-1 selon le calendrier officiel, a rappelé la valeur des solutions en cours de rencontre. Octobre amplifiera cette nécessité. Les cinq changements autorisés permettent de répartir la charge et d'ajuster le système, mais ils peuvent aussi casser un rythme si plusieurs lignes sont bouleversées simultanément. Luis Enrique devra préparer des groupes de substitutions : quels joueurs entrent ensemble, quelles fonctions ils prennent et quelle structure reste stable autour d'eux."
+      ] },
+      { heading: "Notre analyse : la meilleure composition sera une architecture, pas une photographie", paragraphs: [
+        "Chercher le onze idéal du PSG pour tout le mois d'octobre serait une fausse précision. Les retours de sélection, les états de forme et les adversaires imposeront plusieurs versions. Le véritable onze type est une architecture : une sortie de balle avec plusieurs solutions, une largeur suffisante, un milieu équilibré, des menaces dans la surface et une protection immédiate après perte. Les noms peuvent changer tant que ces fonctions restent occupées.",
+        "Le succès de la rotation se mesurera à deux éléments. Paris doit continuer à reconnaître son football, et les cadres doivent arriver avec assez de fraîcheur pour décider les grands matches. Le Mans ne sera pas seulement une répétition avant City ; Strasbourg ne sera pas une parenthèse avant Barcelone. Chaque rencontre demandera une équipe compétitive. Si Luis Enrique réussit à relier ces quatre compositions au lieu de les subir, le PSG transformera un calendrier dangereux en démonstration de profondeur."
+      ] }
+    ],
+    faq: [
+      { question: "Quand le PSG joue-t-il Manchester City et Barcelone ?", answer: "Le PSG se déplace à Manchester City le 14 octobre et reçoit Barcelone le 20 octobre 2026." },
+      { question: "Quel match le PSG joue-t-il avant Manchester City ?", answer: "Paris reçoit Le Mans en Ligue 1 le 10 octobre 2026." },
+      { question: "Quelle sera la composition du PSG en octobre ?", answer: "Elle dépendra des retours de sélection et des adversaires. Le staff devra préserver la largeur, le contrôle du milieu et la présence dans la surface avec plusieurs associations." }
+    ],
+    sources: [
+      { name: "PSG.fr - calendrier et résultats 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Résultats de septembre et calendrier d'octobre." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Postes et joueurs du groupe officiel." },
+      { name: "PSG.fr - programme des internationaux", url: "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027", note: "Dix-neuf joueurs concernés par la trêve." },
+      { name: "UEFA - calendrier Champions League par équipe", url: "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/", note: "Dates officielles de Manchester City-PSG et PSG-Barcelone." }
+    ],
+    internalLinks: [
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Effectif PSG", url: "/joueurs-psg/" },
+      { label: "Fiche Luis Enrique", url: "/staff-psg/luis-enrique/" },
+      { label: "Records PSG", url: "/records-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "luis-enrique-psg-treve-internationale-plan-octobre-2026",
     title: "Luis Enrique face à la trêve : le plan invisible qui doit préparer le PSG à son mois d'octobre",
