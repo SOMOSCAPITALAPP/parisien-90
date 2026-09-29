@@ -1,12 +1,196 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-28T16:55:00+02:00",
-  displayDate: "28 septembre 2026",
-  displayTime: "16h55",
+  updatedAt: "2026-09-29T07:30:00+02:00",
+  displayDate: "29 septembre 2026",
+  displayTime: "07h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "fabian-ruiz-psg-real-madrid-rumeur-transfert-decryptee",
+    title: "Fabián Ruiz recruté par le PSG pour contrarier le Real Madrid ? Ce que vaut vraiment cette histoire",
+    description: "Un ancien coéquipier affirme que le PSG aurait recruté Fabián Ruiz pour devancer le Real Madrid. Faits établis, témoignage et zones d'ombre.",
+    deck: "Le récit est spectaculaire, mais il repose sur une interprétation extérieure aux négociations. Quatre ans après le transfert, la trajectoire sportive de Fabián Ruiz apporte une réponse plus solide que la théorie de la vengeance.",
+    category: "Rumeurs PSG",
+    angle: "Décryptage et niveau de fiabilité",
+    date: "2026-09-29",
+    dateLabel: "29 septembre 2026",
+    time: "07:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour décrypter la rumeur sur le transfert de Fabián Ruiz au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Fabián Ruiz PSG", "rumeur PSG", "Real Madrid PSG", "transfert Fabián Ruiz", "mercato PSG"],
+    sections: [
+      { heading: "Le signal : le témoignage d'un ancien coéquipier, pas un document de négociation", paragraphs: [
+        "Faouzi Ghoulam, ancien coéquipier de Fabián Ruiz à Naples, a affirmé dans un entretien au Corriere dello Sport que le PSG aurait recruté le milieu espagnol en 2022 afin de devancer le Real Madrid. Le récit, relayé et remis en contexte par CulturePSG, relie deux dossiers très médiatisés de l'époque : l'intérêt madrilène pour Ruiz, alors proche de sa dernière année de contrat, et le feuilleton Kylian Mbappé. C'est une anecdote forte parce qu'elle transforme une opération sportive en épisode d'une rivalité entre deux puissances européennes.",
+        "Son niveau de preuve reste toutefois limité. Ghoulam connaissait le joueur et l'environnement napolitain, mais rien de public n'établit qu'il participait aux discussions entre Naples, Paris et les représentants de Ruiz. Aucun communiqué du PSG, du Napoli ou du Real Madrid ne présente le transfert comme une manœuvre de représailles. La formulation correcte est donc claire : il s'agit d'un témoignage et d'une interprétation, non d'un motif officiel démontré."
+      ] },
+      { heading: "Les faits établis : Paris a recruté un international espagnol arrivé à maturité", paragraphs: [
+        "Au moment de son arrivée, Fabián Ruiz possédait déjà une expérience importante en Serie A et avec la sélection espagnole. Le PSG achetait un milieu gaucher capable de résister à la pression, de se projeter et de frapper de loin. Que le Real Madrid ait observé sa situation contractuelle était crédible dans le fonctionnement ordinaire du marché, mais l'intérêt d'un concurrent ne suffit pas à expliquer une signature. Les grands clubs suivent souvent les mêmes joueurs, particulièrement lorsqu'un contrat approche de son terme.",
+        "Le premier exercice parisien contredit aussi l'idée d'un achat purement destiné à bloquer Madrid. CulturePSG rappelle que Ruiz a disputé 37 rencontres pendant sa première saison. Il n'était pas toujours indiscutable et son adaptation a connu des hauts et des bas, mais ce volume correspond à un joueur réellement utilisé. Un recrutement peut répondre à plusieurs objectifs à la fois : renforcer l'effectif, saisir une valeur de marché intéressante et empêcher un rival d'obtenir un profil convoité. Prouver le troisième ne permet pas d'effacer les deux premiers."
+      ] },
+      { heading: "Pourquoi la théorie séduit autant", paragraphs: [
+        "Le football adore les récits de revanche parce qu'ils donnent une intention simple à des négociations complexes. En 2022, les relations symboliques entre Paris et Madrid étaient scrutées à travers Mbappé. Dans ce contexte, chaque mouvement pouvait être interprété comme un message. Une décision prise par plusieurs dirigeants, analystes et entraîneurs devient alors la volonté d'un club-personnage qui chercherait à répondre à une offense. C'est efficace pour raconter le mercato, mais rarement suffisant pour le comprendre.",
+        "Une opération de transfert dépend du prix, du salaire, de la durée de contrat, du besoin sportif, de l'accord du joueur et du calendrier. Il faudrait disposer de témoignages directs concordants ou de documents pour hiérarchiser ces motivations. Sans eux, la prudence n'affaiblit pas l'histoire ; elle la remet à sa place. Ghoulam peut livrer ce qu'il a compris dans l'entourage napolitain, tandis que Paris peut avoir poursuivi une logique beaucoup plus large. Les deux réalités ne sont pas forcément incompatibles."
+      ] },
+      { heading: "La carrière parisienne a changé la lecture du transfert", paragraphs: [
+        "Les premières saisons de Ruiz ont parfois donné l'impression d'un joueur utile sans être central. La suite a renforcé son statut. Le communiqué parisien consacré à la continuité rappelle son palmarès avec l'Espagne et son installation dans le projet de Luis Enrique. Son intelligence de placement, sa qualité dans les demi-espaces et sa capacité à arriver dans la surface correspondent à un football de possession mobile. Le joueur recruté en 2022 n'est plus évalué à partir de la seule intention supposée de ses dirigeants, mais à partir de ce qu'il a construit sur le terrain.",
+        "Cette évolution est importante pour juger un mercato. Une signature peut être mal comprise au départ puis devenir cohérente lorsque le contexte tactique change. Ruiz a connu Christophe Galtier puis Luis Enrique, deux cadres différents. Son rendement ne dépendait donc pas uniquement de son talent, mais aussi du rôle demandé et des partenaires autour de lui. Réduire quatre saisons à une querelle PSG-Real enlèverait au joueur la part essentielle de son histoire : sa capacité à gagner sa place."
+      ] },
+      { heading: "Ce que Paris doit retenir pour ses prochains recrutements", paragraphs: [
+        "Le dossier illustre l'intérêt de recruter un joueur avant que sa valeur contractuelle n'échappe au club vendeur. Paris peut surveiller les opportunités sans laisser la concurrence dicter toute sa stratégie. Devancer un grand rival est un bénéfice, mais il ne doit jamais devenir le motif principal si le profil ne répond pas au projet. Le PSG actuel cherche des joueurs capables d'occuper plusieurs hauteurs, de presser et de comprendre des permutations rapides. Le nom du concurrent ne remplace pas cette compatibilité.",
+        "Il rappelle également qu'une recrue doit être jugée sur plusieurs saisons. Les premières semaines produisent des verdicts trop rapides ; les contrats longs et les changements d'entraîneur modifient la trajectoire. Ruiz est devenu un exemple de valeur développée dans le temps. Pour le mercato de janvier, Paris gagnera davantage à identifier une fonction manquante qu'à remporter une bataille de communication contre Madrid, Barcelone ou un club anglais."
+      ] },
+      { heading: "Notre verdict : une anecdote plausible, une intention centrale non démontrée", paragraphs: [
+        "Le témoignage de Ghoulam mérite d'être cité parce qu'il vient d'un ancien partenaire proche du contexte napolitain. Il ne mérite pas d'être transformé en vérité officielle. Le fait solide est que Paris a recruté Fabián Ruiz, l'a utilisé dès sa première saison et l'a ensuite intégré à un cycle sportif durable. L'hypothèse d'un intérêt du Real et d'une volonté parisienne de le devancer est plausible ; celle d'un transfert réalisé uniquement pour se venger reste invérifiable avec les éléments publics.",
+        "La distinction entre fait, rumeur et analyse protège la qualité du débat. Elle permet de conserver ce qui rend le mercato passionnant sans fabriquer une certitude. Quatre ans plus tard, la meilleure réponse se trouve moins dans les intentions prêtées aux dirigeants que dans le rôle du joueur. Ruiz n'est pas devenu important parce que Madrid ne l'a pas recruté. Il l'est devenu parce que son football a fini par correspondre à celui que Paris voulait construire."
+      ] }
+    ],
+    faq: [
+      { question: "Le PSG a-t-il recruté Fabián Ruiz pour se venger du Real Madrid ?", answer: "Cette motivation a été avancée par Faouzi Ghoulam, mais elle n'est confirmée par aucun document ou communiqué officiel." },
+      { question: "Fabián Ruiz a-t-il joué lors de sa première saison au PSG ?", answer: "Oui. CulturePSG rappelle qu'il a disputé 37 matches lors de son premier exercice parisien." },
+      { question: "Quel est le statut de cette information ?", answer: "C'est un témoignage à contextualiser, pas un fait établi sur les négociations du transfert." }
+    ],
+    sources: [
+      { name: "CulturePSG - le récit de Faouzi Ghoulam", url: "https://www.culturepsg.com/en/news/mercato/un-cadre-du-psg-recrute-pour-embeter-le-real/60948", note: "Témoignage, contexte et rappel du temps de jeu de Fabián Ruiz." },
+      { name: "PSG.fr - le choix de la continuité", url: "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027", note: "Parcours et statut officiels de Fabián Ruiz dans le projet parisien." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Présence et poste officiels du joueur dans l'effectif 2026-2027." }
+    ],
+    internalLinks: [
+      { label: "Fiche Fabián Ruiz", url: "/joueurs-psg/fabian-ruiz/" },
+      { label: "Rumeurs et mercato PSG", url: "/mercato-psg/" },
+      { label: "Transferts PSG", url: "/transfert-psg/" },
+      { label: "Effectif PSG", url: "/joueurs-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "neymar-psg-santos-2026-heritage-chiffres",
+    title: "Neymar en 2026 : ce que sa vie à Santos change dans le regard porté sur ses années PSG",
+    description: "Sous contrat à Santos jusqu'à fin 2026, Neymar reste lié à Paris par 173 matches, 118 buts et une histoire aussi brillante qu'inachevée.",
+    deck: "Son retour au Brésil, ses blessures et la fin de sa carrière internationale invitent à relire ses six saisons parisiennes sans caricature : une production immense, des sommets européens et une frustration durable.",
+    category: "Anciens joueurs PSG",
+    angle: "Que devient Neymar et quel héritage à Paris ?",
+    date: "2026-09-29",
+    dateLabel: "29 septembre 2026",
+    time: "07:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour un dossier sur Neymar, Santos et son héritage au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Neymar PSG", "Neymar Santos 2026", "Neymar Paris", "anciens joueurs PSG", "buts Neymar PSG"],
+    sections: [
+      { heading: "Le fait : Neymar appartient de nouveau au présent de Santos", paragraphs: [
+        "Santos a annoncé en janvier la prolongation de Neymar jusqu'à la fin de la saison 2026. Le club brésilien le présente comme une pièce centrale de sa reconstruction, après son retour en 2025. La base officielle de la Confédération brésilienne l'identifie toujours comme joueur de Santos et recense, au moment de sa mise à jour, 17 matches et six buts dans les compétitions nationales de 2026. Ces données replacent Neymar dans une réalité sportive actuelle, loin du simple statut d'ancienne star européenne.",
+        "La saison n'a pourtant pas été linéaire. La FIFA a documenté son retour en sélection pour la Coupe du monde, puis ses difficultés physiques. La CONMEBOL indique qu'une blessure musculaire l'a privé du quart de finale retour de Sudamericana perdu par Santos. Ces interruptions prolongent un thème déjà présent à Paris : lorsque Neymar joue avec continuité, sa production reste rare ; lorsque le corps l'arrête, le débat se déplace immédiatement de son talent vers ce qui aurait pu être."
+      ] },
+      { heading: "À Paris, les chiffres interdisent de parler d'un échec ordinaire", paragraphs: [
+        "Le communiqué publié par le PSG lors de son départ fixe une base impressionnante : 173 rencontres et 118 buts en six saisons. Le club le plaçait alors au quatrième rang de ses buteurs. Sa première année avait donné le ton avec 28 buts et 16 passes décisives en 30 matches, accompagnés de trois titres nationaux. Dans n'importe quel autre contexte, une telle production suffirait à définir une réussite majeure.",
+        "Le jugement reste plus sévère parce que Neymar était arrivé en 2017 avec une mission qui dépassait les statistiques. Il devait faire changer Paris de dimension européenne et devenir le visage d'un projet mondial. Le PSG a atteint sa première finale de Ligue des champions en 2020 avec lui comme moteur créatif, mais n'a pas soulevé le trophée pendant son passage. L'écart entre l'ambition initiale et le résultat ultime nourrit encore l'impression d'inachevé. Il ne doit pas effacer ce qui a réellement été accompli."
+      ] },
+      { heading: "Son meilleur héritage reste une manière d'attaquer", paragraphs: [
+        "Neymar a offert au Parc une combinaison particulière de dribble, de dernière passe et de finition. Il pouvait recevoir loin du but, attirer plusieurs adversaires puis créer l'occasion lui-même. Cette liberté rendait le PSG imprévisible et parfois dépendant. Lorsque le jeu se bloquait, le ballon revenait vers lui avec l'espoir qu'un geste individuel résolve tout. Cette responsabilité a produit des soirées extraordinaires, mais aussi une structure plus fragile lorsque le Brésilien manquait.",
+        "Le Paris actuel s'est construit autour d'une circulation plus collective et d'une répartition des responsabilités. Cela ne rend pas le football de Neymar dépassé ; cela montre ce que le club a appris. Un génie créatif peut élever une équipe, mais la conquête européenne exige que les distances, le pressing et les solutions survivent à son absence. Les joueurs d'aujourd'hui héritent de son exigence technique tout en évoluant dans un système qui cherche à ne dépendre d'aucun seul nom."
+      ] },
+      { heading: "Les blessures ont façonné le récit autant que les buts", paragraphs: [
+        "À Paris comme à Santos, chaque absence de Neymar devient une partie de son histoire. Ce constat doit être formulé sans procès d'intention. Une blessure n'est pas un choix et sa répétition ne retire rien au travail de retour. Elle affecte néanmoins la disponibilité, donc l'influence sur les matches décisifs. L'image laissée par un joueur se forme autant dans les grands rendez-vous disputés que dans ceux auxquels il n'a pas pu participer.",
+        "La Coupe du monde 2026 a ajouté un dernier chapitre international. La FIFA a retracé son retour dans la liste brésilienne puis la fin de sa carrière avec la Seleção après le tournoi. Cette fermeture donne davantage de poids à ses années parisiennes : elles appartiennent désormais à la période centrale d'une carrière achevée au niveau international. Paris a accueilli Neymar pendant ses années théoriquement les plus fortes, mais n'a jamais pu disposer de cette force sans interruption."
+      ] },
+      { heading: "Santos révèle une autre facette : le joueur devenu projet de club", paragraphs: [
+        "À Santos, Neymar n'est pas seulement attendu comme créateur. Il représente la mémoire du club, sa visibilité et une promesse de reconstruction. Le communiqué de prolongation insiste sur ce lien affectif et sur son rôle central depuis son retour. Cette position rappelle celle qu'il occupait au PSG par l'attention générée, mais elle s'en distingue par l'origine : au Brésil, il revient dans son club formateur, auprès d'un public qui connaît son histoire avant l'Europe.",
+        "Cette fin de parcours peut modifier le regard parisien. Elle montre un joueur qui accepte un contexte moins puissant pour tenter de transmettre, de sauver et de reconstruire. Les résultats et la disponibilité restent les critères sportifs, mais l'identité prend une place nouvelle. Pour les supporters du PSG, suivre Neymar à Santos permet de comprendre ce qui lui manquait parfois à Paris : un environnement où son appartenance ne devait pas être démontrée à chaque printemps européen."
+      ] },
+      { heading: "Notre analyse : une légende statistique, une légende émotionnelle encore discutée", paragraphs: [
+        "Neymar est incontestablement l'un des joueurs les plus talentueux et productifs de l'histoire du PSG. Les 118 buts, les titres et la campagne européenne de 2020 l'établissent. Le mot légende reste débattu parce qu'il contient une dimension affective : disponibilité, longévité ressentie, identification et victoire fondatrice. Certains supporters retiennent les gestes jamais vus au Parc ; d'autres pensent aux rendez-vous manqués et à un projet resté en dessous de sa promesse.",
+        "Sa trajectoire à Santos ne tranchera pas ce débat, mais elle peut l'apaiser. Le temps sépare progressivement le joueur réel du bruit qui accompagnait chaque saison. Il restera alors une histoire plus juste : Neymar a transformé la visibilité et l'imaginaire du PSG, produit des chiffres immenses et touché une finale européenne, sans réussir à donner au club le sacre qui devait définir son passage. C'est précisément cette coexistence entre grandeur et manque qui rend encore son nom impossible à ignorer."
+      ] }
+    ],
+    faq: [
+      { question: "Combien de matches Neymar a-t-il joués avec le PSG ?", answer: "Le PSG a recensé 173 rencontres officielles sous le maillot parisien." },
+      { question: "Combien de buts Neymar a-t-il marqués pour Paris ?", answer: "Le communiqué officiel publié à son départ lui attribue 118 buts avec le PSG." },
+      { question: "Où joue Neymar en 2026 ?", answer: "Neymar joue à Santos, avec un contrat prolongé jusqu'à la fin de la saison 2026." }
+    ],
+    sources: [
+      { name: "PSG.fr - hommage officiel à Neymar", url: "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club", note: "Bilan officiel de ses six saisons, matches, buts et titres." },
+      { name: "Santos FC - prolongation de Neymar", url: "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/", note: "Contrat et rôle annoncés officiellement par Santos." },
+      { name: "CBF - fiche 2026 de Neymar", url: "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791", note: "Club actuel et bilan national affiché par la fédération brésilienne." },
+      { name: "CONMEBOL - parcours 2026 de Santos", url: "https://gol.conmebol.com/sudamericana/en/news/santos-2026-conmebol-sudamericana-results-squad-and-schedule", note: "Parcours continental et absence sur blessure lors du quart de finale décisif." },
+      { name: "FIFA - carrière internationale de Neymar", url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/stars-retiring-neymar-neuer-ochoa-deschamps", note: "Fin de carrière internationale après la Coupe du monde 2026." }
+    ],
+    internalLinks: [
+      { label: "Fiche complète de Neymar", url: "/anciens-joueurs-psg/neymar/" },
+      { label: "Les Brésiliens du PSG", url: "/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/" },
+      { label: "Anciens joueurs du PSG", url: "/anciens-joueurs-psg/" },
+      { label: "Histoire du PSG", url: "/histoire-psg/" },
+      { label: "Records PSG", url: "/records-psg/" }
+    ]
+  },
+  {
+    id: "futur-stade-psg-parc-massy-poissy-equation-economique",
+    title: "Futur stade du PSG : Parc des Princes, Massy ou Poissy, l'équation qui engage les vingt prochaines années",
+    description: "Le choix du futur stade du PSG dépasse la capacité des tribunes : revenus, propriété, mobilité, identité et valorisation du club sont liés.",
+    deck: "Le Parc est revenu dans le périmètre des études aux côtés de Massy et Poissy. Pour un club valorisé autour de 5 milliards d'euros, la décision doit concilier croissance économique et ancrage parisien.",
+    category: "Économie du PSG",
+    angle: "Stade, revenus et valorisation",
+    date: "2026-09-29",
+    dateLabel: "29 septembre 2026",
+    time: "07:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour analyser l'équation économique du futur stade du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["futur stade PSG", "Parc des Princes PSG", "Massy PSG", "Poissy PSG", "valorisation PSG"],
+    sections: [
+      { heading: "Le fait : trois options restent étudiées et l'automne doit éclairer le choix", paragraphs: [
+        "La Ville de Paris et le PSG ont relancé en juin un comité de pilotage consacré au Parc des Princes et à la Porte de Saint-Cloud. Le communiqué municipal précise que le Parc a réintégré le périmètre des études menées par le club, aux côtés des démarches déjà engagées à Massy et Poissy. Les travaux portent sur le stade, ses abords, les mobilités et les usages du quartier. Les partenaires ont annoncé vouloir disposer à l'automne 2026 d'éléments permettant d'éclairer la sélection d'un site.",
+        "Aucune source officielle consultée ne confirme encore un choix définitif. Cette absence de décision doit être respectée : les titres annonçant un départ certain ou un maintien acquis vont plus vite que les documents publics. Le PSG joue toujours au Parc pendant la saison 2026-2027, comme l'indiquent les calendriers du club et de la Ville. En parallèle, il évalue une infrastructure capable de soutenir son développement pendant plusieurs décennies."
+      ] },
+      { heading: "Pourquoi le stade est devenu une question de modèle économique", paragraphs: [
+        "Le PSG a annoncé 837 millions d'euros de chiffre d'affaires pour l'exercice 2024-2025, dont 367 millions de revenus commerciaux et 175 millions liés aux jours de match. Ces montants montrent que l'enceinte ne sert pas uniquement à vendre des billets. Elle organise l'hospitalité, les espaces partenaires, les visites, la restauration, les événements et une partie de l'expérience de marque. Un stade plus grand ou mieux exploité peut augmenter les recettes récurrentes, donc la capacité du club à investir durablement.",
+        "Forbes évaluait le PSG à environ 5 milliards d'euros en mai 2026, avec une valeur d'entreprise de 5,8 milliards de dollars. Cette estimation n'est ni un prix de vente officiel ni de la trésorerie disponible. Elle mesure ce que pourrait valoir l'ensemble économique selon la méthodologie du média. Le contrôle ou la propriété d'un actif majeur comme le stade influence cette lecture, car il peut offrir des revenus supplémentaires, une maîtrise des travaux et une visibilité à long terme."
+      ] },
+      { heading: "Le Parc des Princes possède une valeur que les tableaux financiers captent mal", paragraphs: [
+        "Le Parc compte 47 929 places selon la Ville de Paris et accueille le PSG depuis 1974. Sa forme, ses tribunes et son emplacement ont construit une identité immédiate. Cette proximité avec l'histoire produit une valeur de marque : les souvenirs, les images et les habitudes des supporters associent le club à cette enceinte. Quitter le Parc peut ouvrir des capacités nouvelles, mais impose de recréer un sentiment d'appartenance qui ne s'achète pas avec des sièges supplémentaires.",
+        "Rester suppose de résoudre des contraintes foncières, juridiques, techniques et urbaines. Le stade appartient à la Ville, et toute transformation concerne aussi la Porte de Saint-Cloud, les transports, les riverains et les équipements de proximité. Le comité de pilotage réunit donc de nombreux acteurs publics. Un accord durable devrait préciser qui finance, qui exploite, qui assume les risques de chantier et comment le quartier bénéficie du projet. L'attachement ne remplace pas ce montage, mais il doit compter dans sa valeur."
+      ] },
+      { heading: "Massy et Poissy offrent de l'espace, mais doivent prouver leur accessibilité", paragraphs: [
+        "Le PSG avait annoncé dès 2025 des études approfondies à Massy et Poissy pour un projet moderne, durable et de grande capacité. Construire sur un nouveau site peut permettre de penser ensemble les tribunes, les espaces commerciaux, les accès et les usages hors match. Poissy possède la proximité du Campus ; Massy bénéficie d'un nœud de transports important. Ces avantages théoriques doivent être confirmés par les études de flux, le foncier disponible et l'impact environnemental.",
+        "Un stade ne réussit pas seulement le soir d'une grande affiche européenne. Il doit être accessible pour les rencontres ordinaires, fonctionner pour les familles, limiter les temps de sortie et rester vivant en dehors du football. Le coût complet comprend les transports et les aménagements publics, pas uniquement la construction. Si le déplacement éloigne une partie du public historique ou crée une dépendance excessive à la voiture, une capacité supérieure peut perdre une partie de son intérêt économique et social."
+      ] },
+      { heading: "La capacité ne doit pas devenir l'unique critère", paragraphs: [
+        "Augmenter le nombre de places peut accroître les recettes, mais seulement si la demande, les prix et le taux de remplissage restent solides. Une enceinte plus grande entraîne aussi davantage de coûts d'exploitation, de sécurité et d'entretien. Le PSG doit donc raisonner en revenu par spectateur, en fréquence d'utilisation et en qualité d'expérience. Les espaces d'hospitalité rapportent plus que des sièges standards, tandis qu'une ambiance affaiblie peut réduire l'attractivité globale du produit.",
+        "Le projet doit également anticiper les changements d'usage. Billetterie numérique, accessibilité, événements féminins, compétitions internationales, concerts et activités quotidiennes demandent une enceinte flexible. La soutenabilité environnementale pèsera sur les autorisations et sur la réputation du club. Le meilleur stade n'est pas nécessairement le plus grand : c'est celui qui augmente les ressources sans diluer l'identité, qui reste accessible et qui peut évoluer sans relancer un chantier majeur tous les dix ans."
+      ] },
+      { heading: "Notre analyse : la valeur du PSG dépendra autant du contrat que du béton", paragraphs: [
+        "Le PSG se trouve devant une décision structurante. Le Parc offre l'histoire, la centralité et une rare intensité ; Massy et Poissy offrent la possibilité d'un actif conçu autour des besoins futurs. Opposer émotion et économie serait trop simple. L'identité génère elle-même de la valeur, tandis qu'un projet économiquement fragile finirait par menacer l'ambition sportive. La bonne solution sera celle qui fixe un cadre de propriété ou d'exploitation stable, un financement soutenable et une expérience convaincante pour les supporters.",
+        "Les chiffres de revenus et de valorisation donnent au club une puissance exceptionnelle, mais ils augmentent aussi la responsabilité du choix. Une décision prise pour vingt ou trente ans ne doit pas dépendre d'un seul rapport de force politique ou d'une estimation de recettes optimiste. Elle doit résister aux changements de dirigeants, de résultats sportifs et de consommation du football. Le futur stade sera réussi s'il permet au PSG de grandir sans devenir un club géographiquement ou émotionnellement méconnaissable."
+      ] }
+    ],
+    faq: [
+      { question: "Le PSG a-t-il choisi son futur stade ?", answer: "Non. Les sources officielles indiquent que le Parc des Princes, Massy et Poissy restent dans le périmètre des études." },
+      { question: "Combien de places compte le Parc des Princes ?", answer: "La Ville de Paris indique une capacité homologuée de 47 929 places assises." },
+      { question: "Quelle est la valorisation estimée du PSG ?", answer: "Forbes estimait la valeur d'entreprise du club à 5,8 milliards de dollars, environ 5 milliards d'euros, en mai 2026." }
+    ],
+    sources: [
+      { name: "Ville de Paris - comité de pilotage du Parc", url: "https://pressev2.paris.fr/communiques/la-ville-de-paris-et-le-paris-saint-germain-lancent-les-travaux-du-comite-de-pilotage-consacre-au-site-du-parc-des-princes-et-de-la-porte-de-saint-cloud", note: "Périmètre des études et calendrier annoncé." },
+      { name: "PSG.fr - études à Massy et Poissy", url: "https://en.news.psg.fr/press-releases/club/paris-saint-germain-advances-feasibility-studies-in-massy-and-poissy-for-future-stadium-project", note: "Position officielle du club sur les deux sites étudiés." },
+      { name: "PSG.fr - saison économique record", url: "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026", note: "Chiffre d'affaires et ventilation des revenus 2024-2025." },
+      { name: "Forbes - valorisation du PSG", url: "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations", note: "Estimation de valeur, revenus et méthodologie en mai 2026." },
+      { name: "Ville de Paris - le Parc des Princes", url: "https://www.paris.fr/pages/les-grands-stades-2410", note: "Capacité, propriété et histoire du stade." }
+    ],
+    internalLinks: [
+      { label: "Histoire du PSG", url: "/histoire-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Records PSG", url: "/records-psg/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "mercato-psg-profondeur-19-internationaux-janvier-2027",
     title: "Mercato PSG : 19 internationaux, 24 joueurs… la profondeur parisienne passe son vrai test avant janvier",
