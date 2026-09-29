@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-27T12:00:00+02:00",
-  edition: "Fil PSG du 26 septembre 2026",
-  displayDate: "26 septembre 2026",
+  updatedAt: "2026-09-29T12:00:00+02:00",
+  edition: "Fil PSG du 28 septembre 2026",
+  displayDate: "28 septembre 2026",
   displayTime: "23h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-28", "28 septembre 2026", [
+  { id: "belgique-france-victoire-olise-doue-dembele-godts-septembre-2026", time: "23:00", category: "Sélections", title: "Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus", summary: "La France s'est imposée 1-0 à Bruxelles grâce à Michael Olise à la 88e minute, lors de la 2e journée de Ligue des nations. Désiré Doué a été titulaire et a trouvé la barre dès le début de rencontre ; Ousmane Dembélé est entré en seconde période. En face, Mika Godts a débuté avec la Belgique. Un match serré, finalement gagné par les Bleus, qui laisse les trois Parisiens dans le rythme de la trêve.", source: "UEFA / L'Équipe", url: "https://www.uefa.com/uefanationsleague/match/2047989--belgium-vs-france/", reliability: "Fort — résultat UEFA, feuille de match recoupée", viral: 90 },
+  ]),
   ...withNewsDate("2026-09-26", "26 septembre 2026", [
   { id: "fabian-ruiz-ferran-torres-espagne-angleterre-nations-league-septembre-2026", time: "23:00", category: "Sélections", title: "Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley", summary: "L'Espagne s'est imposée 3-2 à Wembley pour ouvrir sa Ligue des nations, avec Fabián Ruiz et Ferran Torres titulaires. Menés après avoir marqué très tôt, les Espagnols ont renversé l'Angleterre grâce à Álex Baena puis Mikel Oyarzabal ; les deux Parisiens sont sortis en seconde période. Une soirée internationale qui entretient le rythme compétitif de deux options majeures de Luis Enrique.", source: "PSG.fr", url: "https://www.psg.fr/en/content/fabian-ruiz-and-ferran-s-spain-beat-england-paris-saint-germain-20262027", reliability: "Officiel", viral: 86 },
   ]),

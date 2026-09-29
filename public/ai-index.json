@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-27T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 26 septembre 2026. Fil public : 128 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 21 articles de fond sous /dossiers-psg/. À suivre : Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie ; Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane ; Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus ; Real Madrid-PSG féminin : Karchaoui répond, Paris ramène un point de caractère. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-29T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 129 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 27 articles de fond sous /dossiers-psg/. À suivre : Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie ; Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane ; Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus",
+      "category": "Sélections",
+      "dateTime": "2026-09-28T23:00:00+02:00",
+      "url": "https://parisien90.com/news/belgique-france-victoire-olise-doue-dembele-godts-septembre-2026/",
+      "source": "UEFA / L'Équipe",
+      "sourceUrl": "https://www.uefa.com/uefanationsleague/match/2047989--belgium-vs-france/",
+      "reliability": "Fort — résultat UEFA, feuille de match recoupée"
+    },
     {
       "title": "Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley",
       "category": "Sélections",
@@ -469,15 +478,6 @@
       "url": "https://parisien90.com/news/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-monaco-2026-09-04",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Luis Enrique jusqu'en 2030 : le PSG verrouille aussi cinq cadres",
-      "category": "Club",
-      "dateTime": "2026-09-04T20:57:00+02:00",
-      "url": "https://parisien90.com/news/luis-enrique-neves-pacho-mayulu-beraldo-fabian-prolongations-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027",
       "reliability": "Officiel"
     }
   ],
@@ -1943,6 +1943,213 @@
   },
   "editorialArticles": [
     {
+      "title": "Mercato PSG : 19 internationaux, 24 joueurs… la profondeur parisienne passe son vrai test avant janvier",
+      "category": "Mercato PSG",
+      "angle": "Profondeur de l'effectif et besoins de janvier",
+      "dateTime": "2026-09-28T16:55:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-profondeur-19-internationaux-janvier-2027/",
+      "summary": "Les noms et les contrats dessinent un groupe riche. La trêve, les voyages puis l'enchaînement Le Mans-Manchester City-Barcelone diront si chaque fonction possède vraiment un relais fiable.",
+      "keywords": [
+        "mercato PSG",
+        "PSG mercato janvier 2027",
+        "effectif PSG",
+        "transfert PSG",
+        "recrutement PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Liste officielle des vingt-quatre joueurs et de leurs postes."
+        },
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Liste officielle des dix-neuf joueurs convoqués et de leurs rencontres."
+        },
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates et résultats officiels du PSG."
+        },
+        {
+          "name": "UEFA - calendrier européen du PSG",
+          "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-218385b1b53b-a29130f33611-1000--paris-saint-germain-en-ligue-des-champions-2026-27-calendr/",
+          "note": "Calendrier et statut européen officiels."
+        }
+      ]
+    },
+    {
+      "title": "Dembélé, Doué, Vitinha, Hakimi : les 19 internationaux du PSG sous surveillance avant octobre",
+      "category": "Joueurs PSG",
+      "angle": "Forme, charge et retours de sélection",
+      "dateTime": "2026-09-28T16:55:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/internationaux-psg-septembre-2026-charge-retours/",
+      "summary": "La convocation est une récompense, mais le retour au Campus sera une opération de précision. Tous les internationaux ne rentreront ni le même jour, ni avec la même charge, ni avec le même besoin de récupération.",
+      "keywords": [
+        "internationaux PSG",
+        "Dembélé PSG",
+        "Désiré Doué PSG",
+        "Vitinha PSG",
+        "effectif PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Sélections et calendrier annoncés par le club."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle du groupe 2026-2027."
+        },
+        {
+          "name": "PSG.fr - calendrier et résultats",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates officielles des prochains matches."
+        },
+        {
+          "name": "UEFA - matches du PSG en Champions League",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+          "note": "Calendrier officiel de la phase de ligue."
+        }
+      ]
+    },
+    {
+      "title": "Composition du PSG : les cinq choix tactiques qui vont décider du marathon d'octobre",
+      "category": "Tactique PSG",
+      "angle": "Composition et rotation d'octobre",
+      "dateTime": "2026-09-28T16:55:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/composition-psg-octobre-2026-le-mans-city-barcelone/",
+      "summary": "Après une trêve à dix-neuf internationaux, Paris jouera quatre matches en onze jours. L'enjeu ne sera pas de trouver un onze parfait, mais de construire plusieurs équipes capables de contrôler des scénarios opposés.",
+      "keywords": [
+        "composition PSG",
+        "tactique PSG",
+        "Manchester City PSG",
+        "PSG Barcelone",
+        "Luis Enrique PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier et résultats 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Résultats de septembre et calendrier d'octobre."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Postes et joueurs du groupe officiel."
+        },
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Dix-neuf joueurs concernés par la trêve."
+        },
+        {
+          "name": "UEFA - calendrier Champions League par équipe",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+          "note": "Dates officielles de Manchester City-PSG et PSG-Barcelone."
+        }
+      ]
+    },
+    {
+      "title": "Luis Enrique face à la trêve : le plan invisible qui doit préparer le PSG à son mois d'octobre",
+      "category": "Entraîneurs PSG",
+      "angle": "Méthode et gestion de la trêve",
+      "dateTime": "2026-09-27T18:07:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/luis-enrique-psg-treve-internationale-plan-octobre-2026/",
+      "summary": "Le PSG ne joue pas ce week-end, mais son entraîneur ne dispose presque plus de son équipe. Entre récupération, analyse et scénarios de reprise, la trêve internationale impose une méthode très différente d'une semaine classique.",
+      "keywords": [
+        "Luis Enrique PSG",
+        "entraîneur PSG",
+        "trêve internationale PSG",
+        "Manchester City PSG",
+        "calendrier PSG octobre 2026"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Liste officielle des dix-neuf internationaux et calendrier de leurs sélections."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates officielles des rencontres de Ligue des champions."
+        },
+        {
+          "name": "PSG.fr - choix de la continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Prolongation de Luis Enrique et continuité du projet sportif."
+        }
+      ]
+    },
+    {
+      "title": "Vitinha, João Neves, Nuno Mendes : le triangle portugais devenu le cœur battant du PSG",
+      "category": "Joueurs PSG",
+      "angle": "Forme, complémentarité et charge",
+      "dateTime": "2026-09-27T18:07:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/vitinha-joao-neves-nuno-mendes-portugal-coeur-psg/",
+      "summary": "Ils ne jouent pas sur la même ligne, mais ils donnent à Paris son rythme, son agressivité et sa profondeur. Leur utilisation avec le Portugal sera l'un des grands indicateurs à surveiller avant le retour des compétitions.",
+      "keywords": [
+        "Vitinha PSG",
+        "João Neves PSG",
+        "Nuno Mendes PSG",
+        "joueurs PSG",
+        "internationaux PSG Portugal"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Convocations et calendrier officiel des trois internationaux portugais."
+        },
+        {
+          "name": "PSG.fr - effectif 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Référence officielle pour les postes et l'effectif actuel."
+        },
+        {
+          "name": "PSG.fr - choix de la continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Prolongation officielle de João Neves jusqu'en 2031."
+        }
+      ]
+    },
+    {
+      "title": "Mercato PSG : 24 joueurs, des postes doublés et trois vraies questions avant janvier",
+      "category": "Mercato PSG",
+      "angle": "Impact sur l'effectif",
+      "dateTime": "2026-09-27T18:07:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-effectif-24-joueurs-priorites-janvier-2027/",
+      "summary": "Paris n'a pas besoin d'inventer une urgence à chaque poste. L'analyse du groupe montre un effectif dense, mais trois zones méritent d'être observées jusqu'en janvier : l'avant-centre, les équilibres défensifs et la place des jeunes.",
+      "keywords": [
+        "PSG mercato",
+        "mercato PSG janvier 2027",
+        "effectif PSG",
+        "transfert PSG",
+        "recrutement PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Liste officielle des vingt-quatre joueurs et de leurs postes."
+        },
+        {
+          "name": "PSG.fr - choix de la continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Durées officielles des prolongations annoncées en septembre."
+        },
+        {
+          "name": "PSG.fr - OM-PSG",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Référence officielle sur l'utilisation du groupe et l'impact du banc."
+        }
+      ]
+    },
+    {
       "title": "Mercato PSG 2026 : cinq recrues, plus de 330 M€ de ventes annoncées, mais quel équilibre réel ?",
       "category": "Mercato PSG",
       "angle": "Bilan chiffré et sportif",
@@ -2422,286 +2629,6 @@
           "note": "Réactions officielles du joueur et du staff après la victoire."
         }
       ]
-    },
-    {
-      "title": "Mercato PSG 2026 : le Classique révèle déjà les vrais choix forts de Paris",
-      "category": "Mercato PSG",
-      "angle": "Impact sur l'effectif",
-      "dateTime": "2026-09-21T15:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-2026-recrues-ferran-akliouche-godts-digne/",
-      "summary": "Ferran Torres buteur, Maghnes Akliouche et Mika Godts lancés dans le feu du Vélodrome, Lucas Digne en concurrence : le mercato parisien ne se résume plus à des signatures. Ses premières conséquences apparaissent dans les matches qui comptent.",
-      "keywords": [
-        "mercato PSG",
-        "transfert PSG",
-        "PSG mercato 2026",
-        "Ferran Torres PSG",
-        "Maghnes Akliouche PSG",
-        "recrues PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - Marseille 1-2 Paris",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-          "note": "Utilisation des recrues, changements et faits du match."
-        },
-        {
-          "name": "PSG.fr - présentation des recrues",
-          "url": "https://www.psg.fr/content/les-recrues-parisiennes-presentees-au-parc-des-princes-paris-saint-germain-as-monaco-ligue-1-mcdonalds-2026-2027",
-          "note": "Liste officielle des cinq recrues et contexte de leur arrivée."
-        },
-        {
-          "name": "PSG.fr - signature de Ferran Torres",
-          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
-          "note": "Contrat, numéro et parcours officiel de l'attaquant."
-        },
-        {
-          "name": "PSG.fr - signature de Maghnes Akliouche",
-          "url": "https://www.psg.fr/content/maghnes-akliouche-rejoint-le-paris-saint-germain-mercato-20262027",
-          "note": "Contrat et repères de carrière du milieu français."
-        },
-        {
-          "name": "PSG.fr - effectif 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Composition actuelle de l'effectif masculin officiel."
-        }
-      ]
-    },
-    {
-      "title": "Bilan mercato PSG été 2026 : arrivées, départs, solde financier et vraie lecture sportive",
-      "category": "Mercato PSG",
-      "angle": "Bilan financier vérifié",
-      "dateTime": "2026-09-17T20:35:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/",
-      "summary": "Paris a vendu comme jamais, racheté vite et changé de visage offensif. Le mercato 2026 du PSG se lit en deux chiffres : 152 M€ d'achats hors bonus, 334,3 M€ de ventes hors bonus, soit un solde positif estimé à 182,3 M€ avant variables.",
-      "keywords": [
-        "bilan mercato PSG 2026",
-        "mercato PSG été 2026",
-        "transfert PSG 2026",
-        "arrivées PSG 2026",
-        "départs PSG 2026",
-        "solde mercato PSG",
-        "Barcola Liverpool",
-        "Akliouche PSG",
-        "Ferran Torres PSG",
-        "Kolo Muani Juventus",
-        "Ibrahim Mbaye Aston Villa"
-      ],
-      "sources": [
-        {
-          "name": "CulturePSG - tableau mercato PSG été 2026",
-          "url": "https://www.culturepsg.com/bg/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
-          "note": "Tableau détaillé des arrivées et départs, montants hors bonus et total achats/ventes."
-        },
-        {
-          "name": "Sport.fr - bilan mercato PSG 2026",
-          "url": "https://www.sport.fr/football/psg-barcola-vendu-145-me-akliouche-torres-le-bilan-dun-mercato-historique-1478745.shtm",
-          "note": "Synthèse des dépenses, recettes et solde potentiel bonus inclus."
-        },
-        {
-          "name": "Le Monde - départ de Bradley Barcola à Liverpool",
-          "url": "https://www.lemonde.fr/sport/article/2026/08/31/bradley-barcola-quitte-le-psg-pour-liverpool-nouvelle-transaction-record-pour-le-depart-d-un-joueur-de-ligue-1-a-l-etranger_6762551_3242.html",
-          "note": "Contexte du transfert de Barcola et ordre de grandeur bonus compris."
-        },
-        {
-          "name": "Liverpool FC - signature de Bradley Barcola",
-          "url": "https://www.liverpoolfc.com/news/liverpool-sign-bradley-barcola-paris-saint-germain/",
-          "note": "Officialisation club du transfert de Bradley Barcola."
-        },
-        {
-          "name": "PSG.fr - Ferran Torres rejoint le PSG",
-          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
-          "note": "Officialisation club de l'arrivée de Ferran Torres."
-        },
-        {
-          "name": "PSG.fr - Mika Godts s'engage avec le PSG",
-          "url": "https://www.psg.fr/content/mika-godts-sengage-avec-le-paris-saint-germain-psg-mercato-2026-2027",
-          "note": "Officialisation club de l'arrivée de Mika Godts."
-        },
-        {
-          "name": "Parisien 90 - transfert PSG",
-          "url": "/transfert-psg/",
-          "note": "Page pilier interne reliée aux mouvements et articles mercato."
-        },
-        {
-          "name": "Parisien 90 - mercato PSG",
-          "url": "/mercato-psg/",
-          "note": "Page pilier interne pour suivre les rumeurs, officialisations et bilans."
-        }
-      ]
-    },
-    {
-      "title": "Ronaldinho, Alex, Valdo, Sakho, Dembélé : cinq noms pour comprendre pourquoi le PSG reste impossible à ignorer",
-      "category": "Mémoire PSG",
-      "angle": "Dossier long",
-      "dateTime": "2026-09-11T10:45:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/ronaldinho-alex-valdo-sakho-dembele-psg-memoire-presente/",
-      "summary": "Certains noms racontent mieux Paris qu'un simple palmarès. Ronaldinho, Alex, Valdo, Mamadou Sakho et Ousmane Dembélé dessinent cinq portes d'entrée vers le PSG mondial : le génie, le Brésil, la formation, la défense et le chaos offensif.",
-      "keywords": [
-        "Ronaldinho PSG",
-        "Alex PSG",
-        "Valdo PSG",
-        "Sakho PSG",
-        "Dembélé PSG",
-        "Brésiliens PSG",
-        "anciens joueurs PSG",
-        "histoire PSG",
-        "joueurs PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - archives et fiches joueurs",
-          "url": "https://www.psg.fr/",
-          "note": "Base officielle pour les repères club et les communications publiques."
-        },
-        {
-          "name": "HistoireduPSG - archives historiques",
-          "url": "https://histoiredupsg.fr/",
-          "note": "Repères historiques publics sur les anciens joueurs, matchs et statistiques du PSG."
-        },
-        {
-          "name": "Wikidata",
-          "url": "https://www.wikidata.org/",
-          "note": "Données ouvertes CC0 utilisées comme appoint pour les identités publiques, sans reprise rédactionnelle."
-        },
-        {
-          "name": "Parisien 90 - anciens joueurs PSG",
-          "url": "/anciens-joueurs-psg/",
-          "note": "Index interne des fiches joueurs et anciens joueurs."
-        }
-      ]
-    },
-    {
-      "title": "Futur Ballon d'Or 2026 : le PSG peut-il vraiment garder le trophée avec Dembélé, Vitinha ou Kvaratskhelia ?",
-      "category": "Ballon d'Or PSG",
-      "angle": "Analyse chaude",
-      "dateTime": "2026-09-09T15:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/futur-ballon-d-or-2026-psg-dembele-vitinha-kvaratskhelia/",
-      "summary": "Le Ballon d'Or 2026 n'est pas seulement une bataille de stars. Avec dix joueurs dans la liste officielle, Paris transforme une récompense individuelle en référendum mondial sur son collectif.",
-      "keywords": [
-        "futur Ballon d'Or",
-        "Ballon d'Or 2026 PSG",
-        "Dembélé Ballon d'Or 2026",
-        "Vitinha Ballon d'Or 2026",
-        "Kvaratskhelia Ballon d'Or PSG",
-        "Hakimi Ballon d'Or",
-        "Marquinhos Ballon d'Or",
-        "Nuno Mendes PSG",
-        "João Neves PSG",
-        "Willian Pacho PSG",
-        "Fabián Ruiz PSG",
-        "Ferran Torres PSG",
-        "Mbappé Ballon d'Or",
-        "Messi Ballon d'Or"
-      ],
-      "sources": [
-        {
-          "name": "Ballon d'Or - nommés masculins 2026",
-          "url": "https://ballondor.com/news/posts/mens-ballon-dor-discover-the-ballon-dor-2026-nominees",
-          "note": "Liste officielle des 30 nommés et repères statistiques publiés le 8 septembre 2026."
-        },
-        {
-          "name": "Ballon d'Or - clubs les plus représentés",
-          "url": "https://ballondor.com/news/posts/which-clubs-have-the-most-nominees-for-the-2026-ballon-dor",
-          "note": "Classement officiel des clubs représentés et précision sur les joueurs ayant changé de club."
-        },
-        {
-          "name": "PSG.fr - dix nommés parisiens",
-          "url": "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/",
-          "note": "Annonce club, noms des joueurs parisiens et catégories associées."
-        },
-        {
-          "name": "UEFA - cérémonie 2026 à Londres",
-          "url": "https://www.uefa.com/news-media/news/02a5-20bba4224372-ded650cfa1da-1000--2026-ballon-d-or-ceremony-date-and-host-city-announced/",
-          "note": "Date, lieu et contexte officiel de la cérémonie 2026."
-        },
-        {
-          "name": "Parisien 90 - news Ballon d'Or PSG",
-          "url": "/news/psg-ballon-or-dix-nommes-record-septembre-2026/",
-          "note": "Synthèse interne datée et reliée au fil d'actualité PSG."
-        }
-      ]
-    },
-    {
-      "title": "Brésiliens du PSG : Raí, Ronaldinho, Neymar, Marquinhos, une histoire plus grande que le mercato",
-      "category": "Histoire PSG",
-      "angle": "Dossier Brésil",
-      "dateTime": "2026-09-06T09:20:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/",
-      "summary": "Le PSG n'a pas seulement recruté des joueurs brésiliens. Il a emprunté au Brésil une partie de son imaginaire mondial : élégance, spectacle, leadership, excès, blessures et débats sans fin.",
-      "keywords": [
-        "Brésiliens PSG",
-        "Raí PSG",
-        "Ronaldinho PSG",
-        "Neymar PSG",
-        "Marquinhos PSG",
-        "Thiago Silva PSG",
-        "PSG Brésil"
-      ],
-      "sources": [
-        {
-          "name": "Wikipedia - Raí",
-          "url": "https://fr.wikipedia.org/wiki/Ra%C3%AD",
-          "note": "Repères biographiques et carrière publique."
-        },
-        {
-          "name": "Wikipedia - Ronaldinho",
-          "url": "https://fr.wikipedia.org/wiki/Ronaldinho",
-          "note": "Chronologie sportive publique."
-        },
-        {
-          "name": "Wikipedia - Neymar",
-          "url": "https://fr.wikipedia.org/wiki/Neymar",
-          "note": "Repères de carrière et passage au PSG."
-        },
-        {
-          "name": "Wikipedia - Thiago Silva",
-          "url": "https://fr.wikipedia.org/wiki/Thiago_Silva",
-          "note": "Repères de carrière publique."
-        },
-        {
-          "name": "Parisien 90 - Brésiliens au PSG",
-          "url": "/br/brasileiros-no-psg/",
-          "note": "Liste interne et fiches reliées en portugais du Brésil."
-        }
-      ]
-    },
-    {
-      "title": "Ronaldinho au PSG : génie trop tôt arrivé ou occasion manquée ?",
-      "category": "Histoire PSG",
-      "angle": "Analyse historique",
-      "dateTime": "2026-09-05T09:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/",
-      "summary": "Avant d'être une icône mondiale, Ronaldinho a porté le maillot du PSG. Ce passage court, imparfait et magnétique reste l'une des plus belles portes d'entrée vers l'histoire internationale du club.",
-      "keywords": [
-        "Ronaldinho PSG",
-        "Ronaldinho au PSG",
-        "Ronaldinho Gaucho PSG",
-        "ancien joueur PSG",
-        "Brésiliens PSG",
-        "histoire PSG"
-      ],
-      "sources": [
-        {
-          "name": "Wikipedia - Ronaldinho",
-          "url": "https://fr.wikipedia.org/wiki/Ronaldinho",
-          "note": "Repères biographiques et chronologie publique, sans reprise de texte."
-        },
-        {
-          "name": "Wikidata - Ronaldinho",
-          "url": "https://www.wikidata.org/wiki/Q39444",
-          "note": "Données structurées ouvertes et identifiants publics."
-        },
-        {
-          "name": "Wikimedia Commons - photo Ronaldinho",
-          "url": "https://commons.wikimedia.org/wiki/File:Ronaldinho061115.jpg",
-          "note": "Image sous licence ouverte avec attribution visible."
-        },
-        {
-          "name": "Parisien 90 - fiche Ronaldinho PSG",
-          "url": "/anciens-joueurs-psg/ronaldinho/",
-          "note": "Fiche interne enrichie et contexte historique."
-        }
-      ]
     }
   ],
   "brazilNews": [
@@ -2749,7 +2676,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-27T12:00:00+02:00",
+    "updatedAt": "2026-09-29T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
