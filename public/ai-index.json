@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-29T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 129 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 27 articles de fond sous /dossiers-psg/. À suivre : Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie ; Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane ; Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-09-30T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 130 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 30 articles de fond sous /dossiers-psg/. À suivre : Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie ; Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Hakimi reprend avec le Maroc : entrée et victoire au Lesotho",
+      "category": "Sélections",
+      "dateTime": "2026-09-29T23:00:00+02:00",
+      "url": "https://parisien90.com/news/hakimi-maroc-victoire-lesotho-can-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/achraf-hakimi-et-le-maroc-lemportent-face-au-lesotho-paris-saint-germain-selections-20262027",
+      "reliability": "Officiel"
+    },
     {
       "title": "Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus",
       "category": "Sélections",
@@ -469,15 +478,6 @@
       "url": "https://parisien90.com/news/psg-feminin-calendrier-uwcl-real-madrid-juventus-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/le-calendrier-de-luefa-womens-champions-league-devoile-psg-feminines-women-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Monaco : Paris renversé au Parc, première défaite et première alerte",
-      "category": "Match",
-      "dateTime": "2026-09-04T23:07:00+02:00",
-      "url": "https://parisien90.com/news/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-monaco-2026-09-04",
       "reliability": "Officiel"
     }
   ],
@@ -1943,6 +1943,122 @@
   },
   "editorialArticles": [
     {
+      "title": "Fabián Ruiz recruté par le PSG pour contrarier le Real Madrid ? Ce que vaut vraiment cette histoire",
+      "category": "Rumeurs PSG",
+      "angle": "Décryptage et niveau de fiabilité",
+      "dateTime": "2026-09-29T07:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/fabian-ruiz-psg-real-madrid-rumeur-transfert-decryptee/",
+      "summary": "Le récit est spectaculaire, mais il repose sur une interprétation extérieure aux négociations. Quatre ans après le transfert, la trajectoire sportive de Fabián Ruiz apporte une réponse plus solide que la théorie de la vengeance.",
+      "keywords": [
+        "Fabián Ruiz PSG",
+        "rumeur PSG",
+        "Real Madrid PSG",
+        "transfert Fabián Ruiz",
+        "mercato PSG"
+      ],
+      "sources": [
+        {
+          "name": "CulturePSG - le récit de Faouzi Ghoulam",
+          "url": "https://www.culturepsg.com/en/news/mercato/un-cadre-du-psg-recrute-pour-embeter-le-real/60948",
+          "note": "Témoignage, contexte et rappel du temps de jeu de Fabián Ruiz."
+        },
+        {
+          "name": "PSG.fr - le choix de la continuité",
+          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027",
+          "note": "Parcours et statut officiels de Fabián Ruiz dans le projet parisien."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Présence et poste officiels du joueur dans l'effectif 2026-2027."
+        }
+      ]
+    },
+    {
+      "title": "Neymar en 2026 : ce que sa vie à Santos change dans le regard porté sur ses années PSG",
+      "category": "Anciens joueurs PSG",
+      "angle": "Que devient Neymar et quel héritage à Paris ?",
+      "dateTime": "2026-09-29T07:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/neymar-psg-santos-2026-heritage-chiffres/",
+      "summary": "Son retour au Brésil, ses blessures et la fin de sa carrière internationale invitent à relire ses six saisons parisiennes sans caricature : une production immense, des sommets européens et une frustration durable.",
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "Neymar Paris",
+        "anciens joueurs PSG",
+        "buts Neymar PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - hommage officiel à Neymar",
+          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
+          "note": "Bilan officiel de ses six saisons, matches, buts et titres."
+        },
+        {
+          "name": "Santos FC - prolongation de Neymar",
+          "url": "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/",
+          "note": "Contrat et rôle annoncés officiellement par Santos."
+        },
+        {
+          "name": "CBF - fiche 2026 de Neymar",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
+          "note": "Club actuel et bilan national affiché par la fédération brésilienne."
+        },
+        {
+          "name": "CONMEBOL - parcours 2026 de Santos",
+          "url": "https://gol.conmebol.com/sudamericana/en/news/santos-2026-conmebol-sudamericana-results-squad-and-schedule",
+          "note": "Parcours continental et absence sur blessure lors du quart de finale décisif."
+        },
+        {
+          "name": "FIFA - carrière internationale de Neymar",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/stars-retiring-neymar-neuer-ochoa-deschamps",
+          "note": "Fin de carrière internationale après la Coupe du monde 2026."
+        }
+      ]
+    },
+    {
+      "title": "Futur stade du PSG : Parc des Princes, Massy ou Poissy, l'équation qui engage les vingt prochaines années",
+      "category": "Économie du PSG",
+      "angle": "Stade, revenus et valorisation",
+      "dateTime": "2026-09-29T07:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/",
+      "summary": "Le Parc est revenu dans le périmètre des études aux côtés de Massy et Poissy. Pour un club valorisé autour de 5 milliards d'euros, la décision doit concilier croissance économique et ancrage parisien.",
+      "keywords": [
+        "futur stade PSG",
+        "Parc des Princes PSG",
+        "Massy PSG",
+        "Poissy PSG",
+        "valorisation PSG"
+      ],
+      "sources": [
+        {
+          "name": "Ville de Paris - comité de pilotage du Parc",
+          "url": "https://pressev2.paris.fr/communiques/la-ville-de-paris-et-le-paris-saint-germain-lancent-les-travaux-du-comite-de-pilotage-consacre-au-site-du-parc-des-princes-et-de-la-porte-de-saint-cloud",
+          "note": "Périmètre des études et calendrier annoncé."
+        },
+        {
+          "name": "PSG.fr - études à Massy et Poissy",
+          "url": "https://en.news.psg.fr/press-releases/club/paris-saint-germain-advances-feasibility-studies-in-massy-and-poissy-for-future-stadium-project",
+          "note": "Position officielle du club sur les deux sites étudiés."
+        },
+        {
+          "name": "PSG.fr - saison économique record",
+          "url": "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026",
+          "note": "Chiffre d'affaires et ventilation des revenus 2024-2025."
+        },
+        {
+          "name": "Forbes - valorisation du PSG",
+          "url": "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations",
+          "note": "Estimation de valeur, revenus et méthodologie en mai 2026."
+        },
+        {
+          "name": "Ville de Paris - le Parc des Princes",
+          "url": "https://www.paris.fr/pages/les-grands-stades-2410",
+          "note": "Capacité, propriété et histoire du stade."
+        }
+      ]
+    },
+    {
       "title": "Mercato PSG : 19 internationaux, 24 joueurs… la profondeur parisienne passe son vrai test avant janvier",
       "category": "Mercato PSG",
       "angle": "Profondeur de l'effectif et besoins de janvier",
@@ -2516,119 +2632,6 @@
           "note": "Contexte de la concurrence offensive."
         }
       ]
-    },
-    {
-      "title": "Tactique PSG : Zaïre-Emery latéral droit, solution durable ou dépannage de luxe ?",
-      "category": "Tactique PSG",
-      "angle": "Décryptage de composition",
-      "dateTime": "2026-09-22T13:25:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/tactique-psg-zaire-emery-lateral-droit-marseille-2026/",
-      "summary": "Sans Achraf Hakimi, Luis Enrique a placé Warren Zaïre-Emery à droite de la défense contre l'OM. Paris a gagné, mais la question dépasse le résultat : que gagne et que perd l'équipe quand un milieu de formation occupe ce couloir ?",
-      "keywords": [
-        "tactique PSG",
-        "composition PSG",
-        "Warren Zaïre-Emery latéral droit",
-        "Hakimi PSG",
-        "Luis Enrique tactique"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - composition avant le Classique",
-          "url": "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027",
-          "note": "Onze de départ et remplacement d'Hakimi par Zaïre-Emery."
-        },
-        {
-          "name": "PSG.fr - Marseille 1-2 Paris",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-          "note": "Chronologie, buts et volume de tirs."
-        },
-        {
-          "name": "PSG.fr - calendrier européen",
-          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
-          "note": "Date et horaire du déplacement à Manchester City."
-        },
-        {
-          "name": "PSG.fr - Paris-Le Mans",
-          "url": "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027",
-          "note": "Programmation du prochain match de championnat."
-        },
-        {
-          "name": "Ligue de Paris Île-de-France / FFF - forfait de Zaïre-Emery",
-          "url": "https://paris-idf.fff.fr/simple/equipe-de-france-huit-franciliens-chez-les-bleus/",
-          "note": "Confirmation du forfait en sélection, sans indication de durée d'absence."
-        }
-      ]
-    },
-    {
-      "title": "Luis Enrique au PSG : ce Classique gagné à Marseille valide-t-il sa méthode ?",
-      "category": "Entraîneur PSG",
-      "angle": "Analyse de méthode",
-      "dateTime": "2026-09-21T15:50:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/luis-enrique-psg-classique-marseille-methode-2026/",
-      "summary": "Paris n'a pas seulement gagné 2-1 au Vélodrome. Le PSG a produit 31 tirs, trouvé la faille grâce à un remplaçant et repris l'avantage deux minutes après l'égalisation. Une victoire qui raconte beaucoup de la méthode Luis Enrique, sans effacer toutes les questions.",
-      "keywords": [
-        "Luis Enrique PSG",
-        "tactique PSG",
-        "OM PSG",
-        "Classique PSG",
-        "entraîneur PSG",
-        "analyse PSG Marseille"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - Marseille 1-2 Paris",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-          "note": "Score, chronologie, changements et statistiques du direct officiel."
-        },
-        {
-          "name": "PSG.fr - réactions après le Classique",
-          "url": "https://www.psg.fr/content/luis-enrique-trois-points-importants-pour-nos-supporters-reactions-olympique-de-marseille-paris-saint-germain-journee-5-ligue-1-2026-2027/",
-          "note": "Réactions officielles de Luis Enrique, Ferran Torres et Marquinhos."
-        },
-        {
-          "name": "Ligue 1 - programmation du Classique",
-          "url": "https://ligue1.com/fr/articles/l1_article_5867-",
-          "note": "Contexte officiel de la rencontre et dynamique avant match."
-        }
-      ]
-    },
-    {
-      "title": "Ferran Torres au PSG : supersub de luxe ou nouveau numéro 9 incontournable ?",
-      "category": "Joueurs PSG",
-      "angle": "Forme du moment",
-      "dateTime": "2026-09-21T15:40:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/ferran-torres-psg-buteur-supersub-numero-9/",
-      "summary": "Sept minutes après son entrée, Ferran Torres a fait basculer le Classique. Avec sept buts toutes compétitions confondues depuis son arrivée, l'Espagnol ne se contente plus d'être une option : il oblige déjà Luis Enrique à repenser la hiérarchie offensive.",
-      "keywords": [
-        "Ferran Torres PSG",
-        "Ferran PSG",
-        "numéro 9 PSG",
-        "buteur PSG",
-        "joueurs PSG",
-        "OM PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - Marseille 1-2 Paris",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-          "note": "Chronologie du but, statistiques et distinction d'homme du match."
-        },
-        {
-          "name": "PSG.fr - Brest 0-1 Paris",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13",
-          "note": "But décisif et séquence collective à Brest."
-        },
-        {
-          "name": "PSG.fr - signature de Ferran Torres",
-          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
-          "note": "Annonce officielle, contrat, numéro et repères de carrière."
-        },
-        {
-          "name": "PSG.fr - réactions après le Classique",
-          "url": "https://www.psg.fr/content/luis-enrique-trois-points-importants-pour-nos-supporters-reactions-olympique-de-marseille-paris-saint-germain-journee-5-ligue-1-2026-2027/",
-          "note": "Réactions officielles du joueur et du staff après la victoire."
-        }
-      ]
     }
   ],
   "brazilNews": [
@@ -2676,7 +2679,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-29T12:00:00+02:00",
+    "updatedAt": "2026-09-30T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

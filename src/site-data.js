@@ -323,7 +323,7 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-29T12:00:00+02:00",
+  updatedAt: "2026-09-30T12:00:00+02:00",
   edition: "Fil PSG du 28 septembre 2026",
   displayDate: "28 septembre 2026",
   displayTime: "23h00",
@@ -333,6 +333,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-09-29", "29 septembre 2026", [
+  { id: "hakimi-maroc-victoire-lesotho-can-septembre-2026", time: "23:00", category: "Sélections", title: "Hakimi reprend avec le Maroc : entrée et victoire au Lesotho", summary: "Le Maroc s'est imposé 2-0 face au Lesotho lors de la 2e journée des éliminatoires de la CAN 2027. Remplaçant au coup d'envoi, Achraf Hakimi est entré à la 69e minute pour accompagner le succès des Lions de l'Atlas, signé Brahim Diaz puis Azzedine Ounahi. Après sa récente gêne à la cuisse avec le PSG, cette apparition offre un repère positif, sans préjuger de son statut au retour de trêve.", source: "PSG.fr", url: "https://www.psg.fr/content/achraf-hakimi-et-le-maroc-lemportent-face-au-lesotho-paris-saint-germain-selections-20262027", reliability: "Officiel", viral: 87 },
+  ]),
   ...withNewsDate("2026-09-28", "28 septembre 2026", [
   { id: "belgique-france-victoire-olise-doue-dembele-godts-septembre-2026", time: "23:00", category: "Sélections", title: "Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus", summary: "La France s'est imposée 1-0 à Bruxelles grâce à Michael Olise à la 88e minute, lors de la 2e journée de Ligue des nations. Désiré Doué a été titulaire et a trouvé la barre dès le début de rencontre ; Ousmane Dembélé est entré en seconde période. En face, Mika Godts a débuté avec la Belgique. Un match serré, finalement gagné par les Bleus, qui laisse les trois Parisiens dans le rythme de la trêve.", source: "UEFA / L'Équipe", url: "https://www.uefa.com/uefanationsleague/match/2047989--belgium-vs-france/", reliability: "Fort — résultat UEFA, feuille de match recoupée", viral: 90 },
   ]),
