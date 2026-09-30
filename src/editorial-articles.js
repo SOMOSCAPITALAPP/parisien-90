@@ -1,12 +1,193 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-29T07:30:00+02:00",
-  displayDate: "29 septembre 2026",
-  displayTime: "07h30",
+  updatedAt: "2026-09-30T12:20:00+02:00",
+  displayDate: "30 septembre 2026",
+  displayTime: "12h20",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "luis-enrique-mika-godts-travail-sans-ballon-psg",
+    title: "Luis Enrique, Mika Godts et le détail qui peut ouvrir la porte du onze du PSG",
+    description: "Le talent de Mika Godts est visible. Pour gagner une première titularisation au PSG, Luis Enrique attend aussi ses courses sans ballon et une plus grande variété de décisions.",
+    deck: "Le jeune Belge vient de jouer tout un Belgique-France face à trois partenaires parisiens. Cette expérience éclaire le chantier fixé par le staff : transformer un ailier spectaculaire en joueur complet du collectif.",
+    category: "Entraîneurs PSG",
+    angle: "Méthode de Luis Enrique et progression individuelle",
+    date: "2026-09-30",
+    dateLabel: "30 septembre 2026",
+    time: "12:20",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour analyser le travail de Luis Enrique avec Mika Godts au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Luis Enrique PSG", "Mika Godts PSG", "titulaire PSG", "ailier PSG", "effectif PSG"],
+    sections: [
+      { heading: "Le fait : un match entier contre la France pour mesurer le chemin", paragraphs: [
+        "Mika Godts a disputé l'intégralité de Belgique-France le 28 septembre, une rencontre remportée 1-0 par les Bleus grâce à un but tardif de Michael Olise. Le compte rendu officiel du PSG confirme que Maghnes Akliouche était titulaire côté français, qu'Ousmane Dembélé est entré à la 68e minute et que Désiré Doué a lui aussi joué tout le match. Pour Godts, ce rendez-vous avait une valeur particulière : il affrontait des partenaires qui occupent précisément les zones offensives où il cherche à gagner du temps de jeu à Paris.",
+        "Une sélection ne reproduit pas le contexte d'un club, et un seul match ne décide pas d'une hiérarchie. Il offre néanmoins un repère. Godts a dû enchaîner les replis, choisir ses pressings et exister sans recevoir constamment le ballon. Ce sont justement les dimensions évoquées dans les informations rapportées autour du travail demandé par Luis Enrique. Le talent en conduite et en duel explique le recrutement ; la capacité à rester utile entre deux prises de balle déterminera une partie de son intégration."
+      ] },
+      { heading: "Ce que Luis Enrique demande au-delà du dribble", paragraphs: [
+        "CulturePSG rapporte que le staff a fixé deux axes de progression au jeune Belge : le travail sans ballon et la variété dans la prise d'initiative. La formulation paraît simple, mais elle recouvre presque tout le métier d'ailier dans une équipe qui veut dominer. Sans ballon, il faut fermer une ligne de passe, déclencher la pression au bon moment, suivre le latéral adverse et offrir une course qui libère un partenaire. Avec ballon, il faut savoir quand provoquer, quand combiner et quand conserver pour permettre au bloc de remonter.",
+        "Luis Enrique ne cherche donc pas à retirer à Godts ce qui fait sa différence. Un ailier qui ne prend plus de risque perdrait sa fonction. L'objectif consiste plutôt à rendre le risque lisible pour ses partenaires. Si le latéral sait quand l'ailier va rentrer dans l'axe, il peut choisir son dédoublement. Si le milieu sait que la perte sera immédiatement pressée, il peut avancer de quelques mètres. Le geste individuel devient alors une pièce du système au lieu d'être un événement isolé."
+      ] },
+      { heading: "Pourquoi le jeu sans ballon peut décider d'une titularisation", paragraphs: [
+        "Dans une équipe qui possède souvent le ballon, les minutes sans possession semblent minoritaires. Elles sont pourtant décisives. Paris défend très haut et expose de grands espaces derrière sa première ligne. Un pressing déclenché une seconde trop tard permet à l'adversaire de trouver le milieu libre ; une course bien orientée peut au contraire forcer une passe longue et rendre le ballon aux défenseurs parisiens. L'ailier n'est pas seulement le premier attaquant. Il est aussi le premier défenseur du plan de Luis Enrique.",
+        "La concurrence renforce cette exigence. Dembélé comprend les changements de rythme du collectif, Doué peut agir dans plusieurs zones et Akliouche sait associer conservation et dernière passe. Godts n'a pas besoin de leur ressembler, mais il doit offrir au staff une confiance comparable. Une première titularisation arrive souvent lorsque l'entraîneur sait ce que le joueur fera dans les séquences moins visibles : repli après une perte, couverture d'un couloir, course pour éloigner un défenseur. Le spectacle ouvre les yeux ; la répétition des détails ouvre le onze."
+      ] },
+      { heading: "La variété, antidote au piège de l'ailier prévisible", paragraphs: [
+        "Un jeune ailier qui réussit ses premiers dribbles peut être tenté de chercher systématiquement le duel. Les adversaires s'adaptent vite : prise à deux, orientation vers la ligne, défenseur qui recule pour réduire l'espace. La variété demandée par le staff sert à conserver l'incertitude. Godts peut fixer puis jouer en retrait, attaquer l'intervalle sans ballon, venir entre les lignes ou accélérer après une combinaison courte. Chaque option rend la suivante plus dangereuse parce que le défenseur ne peut plus anticiper une seule réponse.",
+        "Cette évolution demande du temps de jeu, mais aussi des séquences vidéo et des répétitions à l'entraînement. Luis Enrique utilise volontiers plusieurs joueurs dans une même position afin de tester leur compréhension. Les entrées en cours de match ne sont donc pas des minutes secondaires. Elles permettent de vérifier si l'ailier identifie rapidement le rapport de force, alors que l'adversaire fatigue et que le score impose parfois une décision. Pour Godts, réussir vingt minutes cohérentes peut être plus utile qu'accumuler des actions spectaculaires sans continuité."
+      ] },
+      { heading: "Le calendrier va offrir des occasions concrètes", paragraphs: [
+        "Le PSG doit reprendre avec une série qui mêle championnat et Ligue des champions. Les retours de sélection seront échelonnés, tandis que certains cadres auront accumulé des voyages et des minutes. Cette situation crée des fenêtres pour les joueurs qui ont moins débuté. Elle ne garantit rien : le staff peut modifier une structure ou utiliser un milieu sur un côté. Mais elle augmente la valeur de chaque séance et de chaque entrée, car la rotation devient une nécessité sportive plutôt qu'une récompense abstraite.",
+        "Godts devra également gérer sa propre charge après quatre rencontres internationales programmées avec la Belgique entre la fin septembre et le début octobre. Le club évaluera sa fraîcheur comme celle de tous les sélectionnés. Sa disponibilité peut toutefois devenir un argument si elle s'accompagne de discipline tactique. Une équipe ambitieuse ne fait pas tourner pour distribuer équitablement les minutes ; elle choisit le joueur qui protège le niveau collectif tout en apportant une qualité nouvelle."
+      ] },
+      { heading: "Notre analyse : le projet Godts se jugera sur la transformation, pas sur l'impatience", paragraphs: [
+        "Le montant évoqué de son transfert place naturellement Mika Godts sous observation. Il serait pourtant trompeur d'exiger immédiatement le rendement d'un titulaire installé. Paris a recruté un potentiel et un profil, puis doit les intégrer à une mécanique exigeante. Les premiers mois servent à apprendre les distances, les partenaires et les attentes du staff. L'indicateur le plus intéressant n'est pas seulement le nombre de buts, mais l'élargissement progressif de ce que l'entraîneur peut lui demander.",
+        "Le match contre la France n'a pas livré un verdict définitif. Il a donné une expérience de haut niveau face à des concurrents devenus partenaires. Si Godts transforme cette exposition en meilleures décisions sans ballon et en davantage de variété, sa première titularisation ne relèvera plus d'un pari. Elle deviendra une option logique. C'est souvent ainsi que Luis Enrique installe un jeune joueur : le talent lui donne une chance, la compréhension collective lui permet de la garder."
+      ] }
+    ],
+    faq: [
+      { question: "Mika Godts a-t-il joué contre la France avec la Belgique ?", answer: "Oui. Il a disputé tout le match Belgique-France du 28 septembre 2026, remporté 1-0 par les Bleus." },
+      { question: "Quels progrès Luis Enrique attend-il de Mika Godts ?", answer: "Les informations publiées évoquent surtout le travail sans ballon et une plus grande variété dans ses prises d'initiative." },
+      { question: "Mika Godts a-t-il déjà été titulaire avec le PSG ?", answer: "Au moment de cette analyse, il a surtout été utilisé comme remplaçant et cherche encore à obtenir une première place durable dans le onze." }
+    ],
+    sources: [
+      { name: "PSG.fr - Belgique 0-1 France", url: "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027", note: "Score, buteur et temps de jeu des quatre Parisiens." },
+      { name: "CulturePSG - les axes de progression de Godts", url: "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731", note: "Informations sur le travail demandé par le staff et son utilisation en début de saison." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Effectif officiel du PSG pour la saison 2026-2027." }
+    ],
+    internalLinks: [
+      { label: "Effectif et joueurs du PSG", url: "/joueurs-psg/" },
+      { label: "Fiche Luis Enrique", url: "/staff-psg/luis-enrique/" },
+      { label: "Calendrier complet du PSG", url: "/calendrier-psg/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "godts-doue-akliouche-dembele-belgique-france-psg",
+    title: "Godts, Doué, Akliouche, Dembélé : ce que leur duel Belgique-France révèle au PSG",
+    description: "Quatre attaquants du PSG se sont retrouvés dans un Belgique-France serré. Leurs temps de jeu et leurs rôles éclairent une concurrence offensive devenue très riche.",
+    deck: "Deux titulaires, un entrant, quatre profils différents et un but à la 88e minute : ce rendez-vous international offre un laboratoire utile pour comprendre les choix qui attendent Luis Enrique.",
+    category: "Joueurs PSG",
+    angle: "Forme, rôles et concurrence offensive",
+    date: "2026-09-30",
+    dateLabel: "30 septembre 2026",
+    time: "12:20",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour analyser les joueurs du PSG lors de Belgique-France",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Dembélé PSG", "Désiré Doué PSG", "Maghnes Akliouche PSG", "Mika Godts PSG", "Belgique France PSG"],
+    sections: [
+      { heading: "Un match international devenu presque une séance parisienne", paragraphs: [
+        "Belgique-France a réuni quatre joueurs offensifs du PSG sur une même pelouse. Le communiqué du club établit les faits : Maghnes Akliouche a débuté avec les Bleus avant de sortir autour de la 76e minute, Ousmane Dembélé est entré à la 68e, tandis que Désiré Doué et Mika Godts ont disputé toute la rencontre. La France s'est imposée 1-0 sur un but de Michael Olise à la 88e minute. Ces données ne racontent pas toutes les performances, mais elles donnent un cadre solide à l'analyse.",
+        "Voir quatre partenaires s'opposer ne transforme pas une rencontre internationale en audition pour le PSG. Les consignes, les partenaires et les rythmes diffèrent. Le match permet toutefois d'observer leur capacité à s'adapter hors du système quotidien de Luis Enrique. L'un doit créer sans les circuits habituels, l'autre défendre davantage, un troisième entrer dans une fin serrée. Cette plasticité compte pour Paris, où la concurrence ne porte pas seulement sur un poste mais sur plusieurs fonctions."
+      ] },
+      { heading: "Doué et Godts : quatre-vingt-dix minutes qui comptent différemment", paragraphs: [
+        "Désiré Doué et Mika Godts ont joué du début à la fin, mais leur situation parisienne n'est pas identique. Doué possède déjà une expérience importante des grands rendez-vous et peut occuper l'aile, l'axe ou un rôle de milieu offensif. Une rencontre entière confirme surtout sa capacité à supporter une charge élevée. Pour Godts, encore en phase d'installation au PSG, rester sur le terrain jusqu'au coup de sifflet offre un apprentissage et un signal de confiance de sa sélection.",
+        "Le staff parisien regardera moins le total brut que la manière dont chacun récupère. Un match complet implique des accélérations, des duels et une fatigue nerveuse que les statistiques de minutes ne décrivent pas. Doué peut revenir avec du rythme mais aussi avec un besoin de récupération ; Godts peut gagner de la confiance tout en devant assimiler les corrections. La gestion du prochain match dépendra de ces réponses physiques et des séances, pas d'une règle automatique entre titulaire et remplaçant."
+      ] },
+      { heading: "Akliouche apprend à peser dès le coup d'envoi", paragraphs: [
+        "La titularisation de Maghnes Akliouche est un indicateur important. Débuter avec la France suppose de participer à l'installation du rapport de force, quand les espaces sont plus rares et l'adversaire encore frais. À Paris, ce contexte se rapproche des matches où un bloc attend bas et oblige les attaquants à combiner dans de petites zones. Akliouche possède la qualité de passe et la mobilité nécessaires pour relier le milieu à la dernière ligne, sans dépendre uniquement de la vitesse.",
+        "Sa sortie avant le dernier quart d'heure ne constitue pas un jugement négatif. Elle peut répondre au scénario, à la recherche d'un profil différent ou à la gestion de la charge. L'intérêt pour le PSG réside dans l'expérience accumulée : commencer un match international serré, accepter de ne pas recevoir toujours dans sa zone préférée et maintenir la discipline jusqu'au changement. Cette maturité augmente le nombre de contextes dans lesquels Luis Enrique peut l'utiliser."
+      ] },
+      { heading: "Dembélé, l'arme de fin de match plutôt qu'un statut diminué", paragraphs: [
+        "Ousmane Dembélé est entré à la 68e minute. Interpréter cette présence sur le banc comme une perte de statut serait hasardeux. Une sélection gère plusieurs matches rapprochés, des états de forme et des plans adverses. Entrer lors des vingt dernières minutes d'un score fermé demande une qualité spécifique : comprendre immédiatement où se trouvent les espaces et accepter que chaque ballon puisse devenir décisif. Ce rôle peut valoriser l'explosivité et l'ambidextrie de Dembélé.",
+        "À Paris, Luis Enrique peut aussi utiliser cette option. Un joueur majeur n'est pas toujours celui qui débute ; il peut être celui qui transforme le rythme lorsque les défenseurs ont déjà couru une heure. La profondeur offensive actuelle permet de conserver une menace sur le banc sans affaiblir le onze initial. Elle oblige en retour les joueurs à accepter des statuts variables. La gestion humaine sera aussi importante que le dessin tactique, car quatre attaquants de haut niveau ne peuvent pas tous occuper simultanément leurs zones favorites."
+      ] },
+      { heading: "Quatre profils, trois questions pour Luis Enrique", paragraphs: [
+        "La première question concerne la largeur. Godts aime provoquer depuis le côté, Dembélé peut partir de la ligne puis attaquer l'axe, Doué navigue entre plusieurs hauteurs et Akliouche recherche volontiers les associations intérieures. La deuxième concerne le pressing : qui déclenche, qui ferme le milieu et qui protège le latéral ? La troisième concerne la surface, car une accumulation de créateurs ne garantit pas une présence suffisante devant le but. Les choix devront équilibrer ces fonctions.",
+        "La bonne nouvelle est que la concurrence ne se réduit pas à quatre copies du même joueur. Paris peut construire une attaque différente selon l'adversaire. Contre un bloc bas, la précision d'Akliouche et les changements de rythme de Doué peuvent ouvrir une brèche. Dans un match de transition, Dembélé et Godts peuvent étirer le terrain. Lorsque le PSG doit défendre un avantage, le travail sans ballon et la capacité à conserver deviennent prioritaires. Le mérite individuel reste essentiel, mais la complémentarité décidera souvent du onze."
+      ] },
+      { heading: "Notre analyse : la sélection enrichit Paris à condition de bien gérer le retour", paragraphs: [
+        "Belgique-France n'a pas établi un classement définitif entre les quatre Parisiens. Il a confirmé que chacun peut être sollicité dans un contexte international exigeant. Doué et Godts ont accumulé un match complet, Akliouche a commencé, Dembélé a dû influer rapidement. Ces expériences nourrissent des qualités différentes. Elles offrent aussi à Luis Enrique des informations sur leur adaptation, leur endurance et leur capacité à changer de rôle.",
+        "Le bénéfice dépend désormais de la récupération. Paris doit éviter de confondre rythme et fraîcheur, puis choisir les associations qui répondent au prochain adversaire. La densité offensive devient un avantage si elle permet de maintenir l'intensité pendant quatre-vingt-dix minutes. Elle devient un problème si chaque absence du onze est vécue comme une sanction. Le défi du staff consiste à faire de cette concurrence un mouvement permanent, où l'équipe gagne même lorsque les noms et les positions changent."
+      ] }
+    ],
+    faq: [
+      { question: "Quels joueurs du PSG ont participé à Belgique-France ?", answer: "Maghnes Akliouche, Ousmane Dembélé et Désiré Doué ont joué pour la France, tandis que Mika Godts a joué pour la Belgique." },
+      { question: "Qui a joué tout le match ?", answer: "Désiré Doué et Mika Godts ont disputé l'intégralité de la rencontre." },
+      { question: "Quel a été le score de Belgique-France ?", answer: "La France s'est imposée 1-0 grâce à un but de Michael Olise à la 88e minute." }
+    ],
+    sources: [
+      { name: "PSG.fr - les Bleus s'imposent face à la Belgique", url: "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027", note: "Compte rendu officiel, score et participation des joueurs parisiens." },
+      { name: "PSG.fr - calendrier des internationaux français", url: "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027", note: "Convocations et programme de la France pendant la trêve." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Postes et présence officielle des joueurs dans le groupe parisien." }
+    ],
+    internalLinks: [
+      { label: "Fiche Ousmane Dembélé", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Fiche Désiré Doué", url: "/joueurs-psg/desire-doue/" },
+      { label: "Tous les joueurs du PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "mercato-psg-hierarchie-offensive-apres-ete-2026",
+    title: "Mercato PSG : après un été de grands mouvements, la nouvelle hiérarchie offensive se dessine",
+    description: "Les transferts de l'été 2026 ont profondément modifié l'attaque du PSG. Un mois plus tard, les rôles comptent davantage que les montants annoncés.",
+    deck: "Akliouche, Ferran Torres et Mika Godts ont rejoint un secteur où Dembélé et Doué restent centraux. L'enjeu n'est plus d'empiler les noms, mais de couvrir toutes les fonctions sans déséquilibrer le collectif.",
+    category: "Mercato PSG",
+    angle: "Impact des transferts sur l'effectif",
+    date: "2026-09-30",
+    dateLabel: "30 septembre 2026",
+    time: "12:20",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour analyser la hiérarchie offensive après le mercato PSG 2026",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG", "transfert PSG 2026", "attaque PSG", "recrues PSG", "effectif PSG"],
+    sections: [
+      { heading: "Le fait : l'été a changé les noms, l'automne doit définir les rôles", paragraphs: [
+        "Le tableau du mercato publié par CulturePSG recense un été particulièrement animé, avec notamment les arrivées offensives de Maghnes Akliouche, Ferran Torres et Mika Godts, tandis que plusieurs attaquants ont quitté le club. Les montants relayés autour de ces opérations proviennent de sources de marché et ne constituent pas des comptes audités du PSG. Ils donnent un ordre de grandeur, mais ne doivent pas masquer la vraie question sportive : quelles fonctions le nouvel effectif peut-il remplir pendant une saison entière ?",
+        "La page officielle du groupe confirme une attaque composée de profils très différents. Ousmane Dembélé et Désiré Doué disposent déjà d'une place importante dans le projet. Akliouche apporte la liaison et la dernière passe, Ferran Torres la présence dans la surface et la mobilité sur tout le front, Godts le duel depuis l'aile. Un mois de compétition ne suffit pas à figer une hiérarchie. Il permet en revanche de distinguer les joueurs qui changent un poste de ceux qui changent le comportement de toute la ligne."
+      ] },
+      { heading: "Dembélé et Doué restent les références, mais plus les seules solutions", paragraphs: [
+        "Dembélé conserve une capacité rare à déséquilibrer des deux pieds et à accélérer le jeu sans annoncer son choix. Doué peut créer, porter le ballon et résister dans les petits espaces. Leur importance ne disparaît pas avec les recrues ; elle change de nature. Paris peut désormais mieux choisir leurs minutes, les déplacer selon l'adversaire et conserver une menace lorsqu'ils sortent. La profondeur doit prolonger leur influence au lieu de simplement préparer leur absence.",
+        "Cette concurrence peut aussi les libérer. Lorsque l'effectif manque d'alternatives, un joueur majeur reçoit dans toutes les situations et finit par devenir prévisible. Avec Akliouche, Ferran et Godts, la création peut partir d'un autre côté ou d'une autre hauteur. Dembélé n'a pas à porter chaque transition et Doué peut apparaître plus près du but. Le recrutement est réussi si les cadres deviennent plus dangereux grâce aux nouveaux venus, pas seulement si ceux-ci accumulent leurs propres statistiques."
+      ] },
+      { heading: "Akliouche apporte la continuité entre le milieu et l'attaque", paragraphs: [
+        "Maghnes Akliouche se distingue par sa capacité à recevoir entre les lignes et à jouer rapidement avec un partenaire. Il peut partir d'un côté sans rester collé à la ligne, puis créer une supériorité dans l'axe. Cette qualité répond à une difficulté fréquente des équipes dominantes : faire circuler le ballon autour d'un bloc sans réussir à le traverser. Sa précision et son orientation du corps peuvent accélérer une action avant même le dribble.",
+        "Son défi sera de transformer cette influence en occasions régulières tout en respectant l'équilibre. Venir à l'intérieur libère le couloir pour un latéral, mais peut aussi rapprocher trop de joueurs dans la même zone. Luis Enrique devra choisir les associations qui maintiennent la largeur. Akliouche ne sera pas évalué uniquement sur les passes décisives. Sa valeur se verra dans la qualité des possessions qu'il prolonge, les partenaires qu'il libère et les pertes qu'il évite."
+      ] },
+      { heading: "Ferran Torres répond à la question de la surface", paragraphs: [
+        "Un collectif rempli de créateurs peut manquer d'un joueur qui termine les actions. Ferran Torres offre cette menace par ses appels et sa capacité à occuper plusieurs positions offensives. Il peut partir d'un côté puis attaquer la zone du numéro neuf, ou fixer les défenseurs afin d'ouvrir un espace à un milieu lancé. Cette mobilité permet à Paris de jouer sans avant-centre immobile tout en conservant une présence devant le but.",
+        "Son intégration dépendra de la synchronisation avec les passeurs. Une course utile effectuée trop tôt devient un hors-jeu ; trop tard, elle laisse le centre sans cible. Les automatismes se construisent avec Akliouche, Doué, Dembélé et les latéraux. Ferran peut également devenir précieux dans les matches européens où Paris dispose de moins de possessions mais trouve davantage d'espace derrière la défense. Sa polyvalence n'a de valeur que si elle s'accompagne de repères précis dans chaque rôle."
+      ] },
+      { heading: "Godts représente le pari de développement", paragraphs: [
+        "Mika Godts arrive avec une force immédiatement visible : provoquer et éliminer depuis l'aile. Son transfert ne doit pourtant pas être jugé seulement à partir de ses premiers duels gagnés. Le staff lui demande de progresser sans ballon et de varier ses décisions, selon les éléments rapportés par CulturePSG. Cette exigence correspond à la logique du recrutement parisien : acquérir un joueur jeune, puis élargir son registre dans un cadre collectif.",
+        "Son calendrier international avec la Belgique et ses entrées parisiennes lui donnent des situations d'apprentissage variées. Il peut devenir une arme de fin de match avant de s'installer davantage. Cette progression n'est pas un retard ; elle fait partie du projet. Le risque serait de mesurer chaque apparition au montant médiatique de l'opération. Le bon indicateur sera sa capacité à jouer dans plusieurs scénarios sans que le PSG perde sa structure de pressing ou sa maîtrise du ballon."
+      ] },
+      { heading: "Notre verdict : janvier doit corriger une fonction, pas ajouter un nom", paragraphs: [
+        "L'été 2026 a donné à Paris plusieurs manières d'attaquer. La hiérarchie actuelle reste mobile : Dembélé et Doué disposent d'une avance liée à leur connaissance du projet, tandis qu'Akliouche, Ferran et Godts peuvent gagner du terrain selon les adversaires et leur progression. Les prochains matches européens seront plus révélateurs que les premières impressions. Ils montreront qui peut maintenir le niveau lorsque l'espace diminue, que le pressing adverse monte et que les transitions deviennent plus dangereuses.",
+        "Avant d'envisager le mercato d'hiver, le PSG doit donc observer les fonctions réellement fragiles. Si la surface manque de présence, la réponse peut venir d'un meilleur usage de Ferran. Si la création se concentre trop à gauche, Akliouche ou Dembélé peuvent rééquilibrer. Si l'équipe perd de l'intensité après les changements, Godts doit progresser dans le pressing. Recruter à nouveau ne se justifiera que si une fonction reste absente malgré ces ajustements. L'effectif a déjà beaucoup changé ; sa prochaine étape est de devenir cohérent."
+      ] }
+    ],
+    faq: [
+      { question: "Quelles recrues ont renforcé l'attaque du PSG à l'été 2026 ?", answer: "Maghnes Akliouche, Ferran Torres et Mika Godts figurent parmi les principales arrivées offensives recensées." },
+      { question: "La hiérarchie offensive du PSG est-elle déjà fixée ?", answer: "Non. Dembélé et Doué partent avec une connaissance supérieure du projet, mais les rôles évoluent selon les adversaires, la forme et les associations." },
+      { question: "Le PSG doit-il encore recruter en janvier ?", answer: "Il est trop tôt pour l'affirmer. Les matches de l'automne doivent d'abord révéler si une fonction précise reste insuffisamment couverte." }
+    ],
+    sources: [
+      { name: "CulturePSG - tableau du mercato été 2026", url: "https://www.culturepsg.com/fr/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647", note: "Récapitulatif des arrivées, départs et estimations de marché." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Composition officielle de l'effectif 2026-2027." },
+      { name: "CulturePSG - progression demandée à Mika Godts", url: "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731", note: "Éléments sur son intégration sportive et les attentes du staff." },
+      { name: "UEFA - calendrier de Ligue des champions", url: "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/", note: "Calendrier officiel des prochains rendez-vous européens du PSG." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transferts PSG", url: "/transfert-psg/" },
+      { label: "Effectif PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "fabian-ruiz-psg-real-madrid-rumeur-transfert-decryptee",
     title: "Fabián Ruiz recruté par le PSG pour contrarier le Real Madrid ? Ce que vaut vraiment cette histoire",
