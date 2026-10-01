@@ -601,6 +601,31 @@ main {
   line-height: 1.12;
 }
 
+.calendar-quick-answer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 20px 0 28px;
+  padding: 24px 28px;
+  border: 1px solid #c9d5e3;
+  border-left: 5px solid var(--red);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+
+.calendar-quick-answer h2 {
+  margin: 3px 0 6px;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.1;
+}
+
+.calendar-quick-answer p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .content-section > p,
 .side-panel > p {
   margin: 0 0 18px;
@@ -3593,6 +3618,16 @@ span.squad-player {
     flex-direction: column;
   }
 
+  .calendar-quick-answer {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  .calendar-quick-answer .primary-action {
+    width: 100%;
+  }
+
   .section-heading h2 {
     font-size: 24px;
   }
@@ -3606,7 +3641,10 @@ span.squad-player {
   .app-install-button {
     right: .65rem;
     bottom: calc(.65rem + env(safe-area-inset-bottom));
-    padding: .58rem .72rem;
+    width: 2.65rem;
+    height: 2.65rem;
+    justify-content: center;
+    padding: 0;
     font-size: 13px;
     box-shadow: 0 10px 24px rgba(4, 12, 29, .3);
   }
@@ -3617,10 +3655,8 @@ span.squad-player {
     font-size: .9rem;
   }
 
-  .app-install-label {
-    max-width: 4.4rem;
-    overflow: hidden;
-    white-space: nowrap;
+  .app-install-button .app-install-label {
+    display: none;
   }
 
   .brand strong {

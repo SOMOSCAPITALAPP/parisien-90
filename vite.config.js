@@ -40,6 +40,16 @@ const staffEntries = nestedEntries("staff-psg", "staff");
 const brazilEntries = recursiveEntries("br", "br");
 
 export default defineConfig({
+  plugins: [
+    {
+      name: "normalize-legacy-market-links",
+      transformIndexHtml(html) {
+        return html
+          .replaceAll("/br/transferencias-psg/", "/br/mercado-psg/")
+          .replaceAll("/transfert-psg/", "/mercato-psg/");
+      }
+    }
+  ],
   build: {
     rollupOptions: {
       input: {

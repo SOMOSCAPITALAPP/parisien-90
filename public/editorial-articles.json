@@ -1,11 +1,714 @@
 {
-  "updatedAt": "2026-09-24T14:53:00+02:00",
-  "displayDate": "24 septembre 2026",
-  "displayTime": "14h53",
+  "updatedAt": "2026-10-01T07:30:00+02:00",
+  "displayDate": "1er octobre 2026",
+  "displayTime": "07h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 18,
+  "count": 36,
   "items": [
+    {
+      "id": "michael-olise-psg-rumeur-mercato-contrat-bayern",
+      "category": "Mercato PSG",
+      "angle": "Rumeur, contrat et cohérence économique",
+      "date": "2026-10-01",
+      "dateLabel": "1er octobre 2026",
+      "time": "07:30",
+      "dateTime": "2026-10-01T07:30:00+02:00",
+      "headline": "Michael Olise au PSG : pourquoi le dossier est séduisant, mais pas ouvert",
+      "summary": "Son but contre la Belgique a relancé les projections. Les faits disponibles racontent pourtant un joueur sous contrat jusqu'en 2029, central au Bayern, et un PSG qui possède déjà plusieurs créateurs dans les mêmes zones.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/michael-olise-psg-rumeur-mercato-contrat-bayern/",
+      "sources": [
+        {
+          "name": "Bayern Munich - profil officiel de Michael Olise",
+          "url": "https://fcbayern.com/en/teams/first-team/michael-olise",
+          "note": "Durée de contrat, poste, parcours et rôle dans l'effectif bavarois."
+        },
+        {
+          "name": "CulturePSG - le PSG hors du dossier Olise ?",
+          "url": "https://www.culturepsg.com/ru/news/mercato/le-psg-hors-du-dossier-olise/60968",
+          "note": "État de la rumeur, projet de prolongation et clubs cités par la presse allemande."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle du secteur offensif parisien."
+        },
+        {
+          "name": "UEFA - profil 2026-2027 d'Olise",
+          "url": "https://www.uefa.com/uefachampionsleague/clubs/players/250171184--michael-olise/",
+          "note": "Position et statistiques européennes officielles de la saison."
+        }
+      ],
+      "keywords": [
+        "Michael Olise PSG",
+        "mercato PSG",
+        "transfert Olise",
+        "rumeur PSG",
+        "Bayern Munich Olise"
+      ]
+    },
+    {
+      "id": "senny-mayulu-estonie-france-espoirs-sortie-psg",
+      "category": "Joueurs PSG",
+      "angle": "Temps de jeu, disponibilité et prudence médicale",
+      "date": "2026-10-01",
+      "dateLabel": "1er octobre 2026",
+      "time": "07:30",
+      "dateTime": "2026-10-01T07:30:00+02:00",
+      "headline": "Senny Mayulu sorti avant la pause : ce que le PSG sait, et ce qu'il faut éviter d'inventer",
+      "summary": "Le remplacement précoce attire immédiatement l'attention, mais aucun diagnostic officiel ne permet de parler d'une blessure précise. Paris doit désormais évaluer un milieu devenu important dans sa rotation.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/senny-mayulu-estonie-france-espoirs-sortie-psg/",
+      "sources": [
+        {
+          "name": "PSG.fr - Estonie 0-2 France Espoirs",
+          "url": "https://www.psg.fr/content/avec-mayulu-les-bleuets-simposent-en-estonie-paris-saint-germain-selections-20262027",
+          "note": "Titularisation, remplacement à la 42e minute et score officiel."
+        },
+        {
+          "name": "PSG.fr - le choix de la continuité",
+          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/",
+          "note": "Prolongation, parcours, matches, buts et description officielle du profil."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier",
+          "note": "Dates officielles des rencontres d'octobre."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Place de Mayulu et composition actuelle du milieu parisien."
+        }
+      ],
+      "keywords": [
+        "Senny Mayulu PSG",
+        "blessure Mayulu",
+        "effectif PSG",
+        "France Espoirs Mayulu",
+        "milieu PSG"
+      ]
+    },
+    {
+      "id": "fabian-ruiz-espagne-croatie-role-tactique-psg",
+      "category": "Tactique PSG",
+      "angle": "Après-match structurel et rôle du milieu gauche",
+      "date": "2026-10-01",
+      "dateLabel": "1er octobre 2026",
+      "time": "07:30",
+      "dateTime": "2026-10-01T07:30:00+02:00",
+      "headline": "Fabián Ruiz, 57 minutes et une victoire 4-1 : le rôle discret que le PSG doit préserver",
+      "summary": "Il n'a ni marqué ni terminé la rencontre, mais sa présence dans l'entrejeu espagnol rappelle une vérité tactique : les joueurs qui relient les lignes rendent possibles les actions les plus visibles.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/fabian-ruiz-espagne-croatie-role-tactique-psg/",
+      "sources": [
+        {
+          "name": "PSG.fr - Espagne 4-1 Croatie",
+          "url": "https://www.psg.fr/content/lespagne-de-ruiz-et-ferran-torres-large-vainqueur-de-la-croatie-paris-saint-germain-selections-20262027",
+          "note": "Score, composition, temps de jeu et buteurs officiels."
+        },
+        {
+          "name": "PSG.fr - Ruiz et Ferran avec l'Espagne",
+          "url": "https://www.psg.fr/content/fabian-ruiz-et-ferran-torres-avec-lespagne-paris-saint-germain-2026-2027",
+          "note": "Programme complet de la sélection espagnole."
+        },
+        {
+          "name": "PSG.fr - le choix de la continuité",
+          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/",
+          "note": "Statut de Fabián Ruiz dans le projet parisien."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier",
+          "note": "Enchaînement officiel des rencontres parisiennes d'octobre."
+        }
+      ],
+      "keywords": [
+        "Fabián Ruiz PSG",
+        "tactique PSG",
+        "milieu PSG",
+        "Espagne Croatie",
+        "composition PSG"
+      ]
+    },
+    {
+      "id": "luis-enrique-mika-godts-travail-sans-ballon-psg",
+      "category": "Entraîneurs PSG",
+      "angle": "Méthode de Luis Enrique et progression individuelle",
+      "date": "2026-09-30",
+      "dateLabel": "30 septembre 2026",
+      "time": "12:20",
+      "dateTime": "2026-09-30T12:20:00+02:00",
+      "headline": "Luis Enrique, Mika Godts et le détail qui peut ouvrir la porte du onze du PSG",
+      "summary": "Le jeune Belge vient de jouer tout un Belgique-France face à trois partenaires parisiens. Cette expérience éclaire le chantier fixé par le staff : transformer un ailier spectaculaire en joueur complet du collectif.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/luis-enrique-mika-godts-travail-sans-ballon-psg/",
+      "sources": [
+        {
+          "name": "PSG.fr - Belgique 0-1 France",
+          "url": "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027",
+          "note": "Score, buteur et temps de jeu des quatre Parisiens."
+        },
+        {
+          "name": "CulturePSG - les axes de progression de Godts",
+          "url": "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731",
+          "note": "Informations sur le travail demandé par le staff et son utilisation en début de saison."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Effectif officiel du PSG pour la saison 2026-2027."
+        }
+      ],
+      "keywords": [
+        "Luis Enrique PSG",
+        "Mika Godts PSG",
+        "titulaire PSG",
+        "ailier PSG",
+        "effectif PSG"
+      ]
+    },
+    {
+      "id": "godts-doue-akliouche-dembele-belgique-france-psg",
+      "category": "Joueurs PSG",
+      "angle": "Forme, rôles et concurrence offensive",
+      "date": "2026-09-30",
+      "dateLabel": "30 septembre 2026",
+      "time": "12:20",
+      "dateTime": "2026-09-30T12:20:00+02:00",
+      "headline": "Godts, Doué, Akliouche, Dembélé : ce que leur duel Belgique-France révèle au PSG",
+      "summary": "Deux titulaires, un entrant, quatre profils différents et un but à la 88e minute : ce rendez-vous international offre un laboratoire utile pour comprendre les choix qui attendent Luis Enrique.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/godts-doue-akliouche-dembele-belgique-france-psg/",
+      "sources": [
+        {
+          "name": "PSG.fr - les Bleus s'imposent face à la Belgique",
+          "url": "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027",
+          "note": "Compte rendu officiel, score et participation des joueurs parisiens."
+        },
+        {
+          "name": "PSG.fr - calendrier des internationaux français",
+          "url": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
+          "note": "Convocations et programme de la France pendant la trêve."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Postes et présence officielle des joueurs dans le groupe parisien."
+        }
+      ],
+      "keywords": [
+        "Dembélé PSG",
+        "Désiré Doué PSG",
+        "Maghnes Akliouche PSG",
+        "Mika Godts PSG",
+        "Belgique France PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-hierarchie-offensive-apres-ete-2026",
+      "category": "Mercato PSG",
+      "angle": "Impact des transferts sur l'effectif",
+      "date": "2026-09-30",
+      "dateLabel": "30 septembre 2026",
+      "time": "12:20",
+      "dateTime": "2026-09-30T12:20:00+02:00",
+      "headline": "Mercato PSG : après un été de grands mouvements, la nouvelle hiérarchie offensive se dessine",
+      "summary": "Akliouche, Ferran Torres et Mika Godts ont rejoint un secteur où Dembélé et Doué restent centraux. L'enjeu n'est plus d'empiler les noms, mais de couvrir toutes les fonctions sans déséquilibrer le collectif.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-hierarchie-offensive-apres-ete-2026/",
+      "sources": [
+        {
+          "name": "CulturePSG - tableau du mercato été 2026",
+          "url": "https://www.culturepsg.com/fr/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
+          "note": "Récapitulatif des arrivées, départs et estimations de marché."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle de l'effectif 2026-2027."
+        },
+        {
+          "name": "CulturePSG - progression demandée à Mika Godts",
+          "url": "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731",
+          "note": "Éléments sur son intégration sportive et les attentes du staff."
+        },
+        {
+          "name": "UEFA - calendrier de Ligue des champions",
+          "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/",
+          "note": "Calendrier officiel des prochains rendez-vous européens du PSG."
+        }
+      ],
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG 2026",
+        "attaque PSG",
+        "recrues PSG",
+        "effectif PSG"
+      ]
+    },
+    {
+      "id": "fabian-ruiz-psg-real-madrid-rumeur-transfert-decryptee",
+      "category": "Rumeurs PSG",
+      "angle": "Décryptage et niveau de fiabilité",
+      "date": "2026-09-29",
+      "dateLabel": "29 septembre 2026",
+      "time": "07:30",
+      "dateTime": "2026-09-29T07:30:00+02:00",
+      "headline": "Fabián Ruiz recruté par le PSG pour contrarier le Real Madrid ? Ce que vaut vraiment cette histoire",
+      "summary": "Le récit est spectaculaire, mais il repose sur une interprétation extérieure aux négociations. Quatre ans après le transfert, la trajectoire sportive de Fabián Ruiz apporte une réponse plus solide que la théorie de la vengeance.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/fabian-ruiz-psg-real-madrid-rumeur-transfert-decryptee/",
+      "sources": [
+        {
+          "name": "CulturePSG - le récit de Faouzi Ghoulam",
+          "url": "https://www.culturepsg.com/en/news/mercato/un-cadre-du-psg-recrute-pour-embeter-le-real/60948",
+          "note": "Témoignage, contexte et rappel du temps de jeu de Fabián Ruiz."
+        },
+        {
+          "name": "PSG.fr - le choix de la continuité",
+          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027",
+          "note": "Parcours et statut officiels de Fabián Ruiz dans le projet parisien."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Présence et poste officiels du joueur dans l'effectif 2026-2027."
+        }
+      ],
+      "keywords": [
+        "Fabián Ruiz PSG",
+        "rumeur PSG",
+        "Real Madrid PSG",
+        "transfert Fabián Ruiz",
+        "mercato PSG"
+      ]
+    },
+    {
+      "id": "neymar-psg-santos-2026-heritage-chiffres",
+      "category": "Anciens joueurs PSG",
+      "angle": "Que devient Neymar et quel héritage à Paris ?",
+      "date": "2026-09-29",
+      "dateLabel": "29 septembre 2026",
+      "time": "07:30",
+      "dateTime": "2026-09-29T07:30:00+02:00",
+      "headline": "Neymar en 2026 : ce que sa vie à Santos change dans le regard porté sur ses années PSG",
+      "summary": "Son retour au Brésil, ses blessures et la fin de sa carrière internationale invitent à relire ses six saisons parisiennes sans caricature : une production immense, des sommets européens et une frustration durable.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/neymar-psg-santos-2026-heritage-chiffres/",
+      "sources": [
+        {
+          "name": "PSG.fr - hommage officiel à Neymar",
+          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
+          "note": "Bilan officiel de ses six saisons, matches, buts et titres."
+        },
+        {
+          "name": "Santos FC - prolongation de Neymar",
+          "url": "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/",
+          "note": "Contrat et rôle annoncés officiellement par Santos."
+        },
+        {
+          "name": "CBF - fiche 2026 de Neymar",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
+          "note": "Club actuel et bilan national affiché par la fédération brésilienne."
+        },
+        {
+          "name": "CONMEBOL - parcours 2026 de Santos",
+          "url": "https://gol.conmebol.com/sudamericana/en/news/santos-2026-conmebol-sudamericana-results-squad-and-schedule",
+          "note": "Parcours continental et absence sur blessure lors du quart de finale décisif."
+        },
+        {
+          "name": "FIFA - carrière internationale de Neymar",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/stars-retiring-neymar-neuer-ochoa-deschamps",
+          "note": "Fin de carrière internationale après la Coupe du monde 2026."
+        }
+      ],
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "Neymar Paris",
+        "anciens joueurs PSG",
+        "buts Neymar PSG"
+      ]
+    },
+    {
+      "id": "futur-stade-psg-parc-massy-poissy-equation-economique",
+      "category": "Économie du PSG",
+      "angle": "Stade, revenus et valorisation",
+      "date": "2026-09-29",
+      "dateLabel": "29 septembre 2026",
+      "time": "07:30",
+      "dateTime": "2026-09-29T07:30:00+02:00",
+      "headline": "Futur stade du PSG : Parc des Princes, Massy ou Poissy, l'équation qui engage les vingt prochaines années",
+      "summary": "Le Parc est revenu dans le périmètre des études aux côtés de Massy et Poissy. Pour un club valorisé autour de 5 milliards d'euros, la décision doit concilier croissance économique et ancrage parisien.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/",
+      "sources": [
+        {
+          "name": "Ville de Paris - comité de pilotage du Parc",
+          "url": "https://pressev2.paris.fr/communiques/la-ville-de-paris-et-le-paris-saint-germain-lancent-les-travaux-du-comite-de-pilotage-consacre-au-site-du-parc-des-princes-et-de-la-porte-de-saint-cloud",
+          "note": "Périmètre des études et calendrier annoncé."
+        },
+        {
+          "name": "PSG.fr - études à Massy et Poissy",
+          "url": "https://en.news.psg.fr/press-releases/club/paris-saint-germain-advances-feasibility-studies-in-massy-and-poissy-for-future-stadium-project",
+          "note": "Position officielle du club sur les deux sites étudiés."
+        },
+        {
+          "name": "PSG.fr - saison économique record",
+          "url": "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026",
+          "note": "Chiffre d'affaires et ventilation des revenus 2024-2025."
+        },
+        {
+          "name": "Forbes - valorisation du PSG",
+          "url": "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations",
+          "note": "Estimation de valeur, revenus et méthodologie en mai 2026."
+        },
+        {
+          "name": "Ville de Paris - le Parc des Princes",
+          "url": "https://www.paris.fr/pages/les-grands-stades-2410",
+          "note": "Capacité, propriété et histoire du stade."
+        }
+      ],
+      "keywords": [
+        "futur stade PSG",
+        "Parc des Princes PSG",
+        "Massy PSG",
+        "Poissy PSG",
+        "valorisation PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-profondeur-19-internationaux-janvier-2027",
+      "category": "Mercato PSG",
+      "angle": "Profondeur de l'effectif et besoins de janvier",
+      "date": "2026-09-28",
+      "dateLabel": "28 septembre 2026",
+      "time": "16:55",
+      "dateTime": "2026-09-28T16:55:00+02:00",
+      "headline": "Mercato PSG : 19 internationaux, 24 joueurs… la profondeur parisienne passe son vrai test avant janvier",
+      "summary": "Les noms et les contrats dessinent un groupe riche. La trêve, les voyages puis l'enchaînement Le Mans-Manchester City-Barcelone diront si chaque fonction possède vraiment un relais fiable.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-profondeur-19-internationaux-janvier-2027/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Liste officielle des vingt-quatre joueurs et de leurs postes."
+        },
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Liste officielle des dix-neuf joueurs convoqués et de leurs rencontres."
+        },
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates et résultats officiels du PSG."
+        },
+        {
+          "name": "UEFA - calendrier européen du PSG",
+          "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-218385b1b53b-a29130f33611-1000--paris-saint-germain-en-ligue-des-champions-2026-27-calendr/",
+          "note": "Calendrier et statut européen officiels."
+        }
+      ],
+      "keywords": [
+        "mercato PSG",
+        "PSG mercato janvier 2027",
+        "effectif PSG",
+        "transfert PSG",
+        "recrutement PSG"
+      ]
+    },
+    {
+      "id": "internationaux-psg-septembre-2026-charge-retours",
+      "category": "Joueurs PSG",
+      "angle": "Forme, charge et retours de sélection",
+      "date": "2026-09-28",
+      "dateLabel": "28 septembre 2026",
+      "time": "16:55",
+      "dateTime": "2026-09-28T16:55:00+02:00",
+      "headline": "Dembélé, Doué, Vitinha, Hakimi : les 19 internationaux du PSG sous surveillance avant octobre",
+      "summary": "La convocation est une récompense, mais le retour au Campus sera une opération de précision. Tous les internationaux ne rentreront ni le même jour, ni avec la même charge, ni avec le même besoin de récupération.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/internationaux-psg-septembre-2026-charge-retours/",
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Sélections et calendrier annoncés par le club."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle du groupe 2026-2027."
+        },
+        {
+          "name": "PSG.fr - calendrier et résultats",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates officielles des prochains matches."
+        },
+        {
+          "name": "UEFA - matches du PSG en Champions League",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+          "note": "Calendrier officiel de la phase de ligue."
+        }
+      ],
+      "keywords": [
+        "internationaux PSG",
+        "Dembélé PSG",
+        "Désiré Doué PSG",
+        "Vitinha PSG",
+        "effectif PSG"
+      ]
+    },
+    {
+      "id": "composition-psg-octobre-2026-le-mans-city-barcelone",
+      "category": "Tactique PSG",
+      "angle": "Composition et rotation d'octobre",
+      "date": "2026-09-28",
+      "dateLabel": "28 septembre 2026",
+      "time": "16:55",
+      "dateTime": "2026-09-28T16:55:00+02:00",
+      "headline": "Composition du PSG : les cinq choix tactiques qui vont décider du marathon d'octobre",
+      "summary": "Après une trêve à dix-neuf internationaux, Paris jouera quatre matches en onze jours. L'enjeu ne sera pas de trouver un onze parfait, mais de construire plusieurs équipes capables de contrôler des scénarios opposés.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/composition-psg-octobre-2026-le-mans-city-barcelone/",
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier et résultats 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Résultats de septembre et calendrier d'octobre."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Postes et joueurs du groupe officiel."
+        },
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Dix-neuf joueurs concernés par la trêve."
+        },
+        {
+          "name": "UEFA - calendrier Champions League par équipe",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+          "note": "Dates officielles de Manchester City-PSG et PSG-Barcelone."
+        }
+      ],
+      "keywords": [
+        "composition PSG",
+        "tactique PSG",
+        "Manchester City PSG",
+        "PSG Barcelone",
+        "Luis Enrique PSG"
+      ]
+    },
+    {
+      "id": "luis-enrique-psg-treve-internationale-plan-octobre-2026",
+      "category": "Entraîneurs PSG",
+      "angle": "Méthode et gestion de la trêve",
+      "date": "2026-09-27",
+      "dateLabel": "27 septembre 2026",
+      "time": "18:07",
+      "dateTime": "2026-09-27T18:07:00+02:00",
+      "headline": "Luis Enrique face à la trêve : le plan invisible qui doit préparer le PSG à son mois d'octobre",
+      "summary": "Le PSG ne joue pas ce week-end, mais son entraîneur ne dispose presque plus de son équipe. Entre récupération, analyse et scénarios de reprise, la trêve internationale impose une méthode très différente d'une semaine classique.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/luis-enrique-psg-treve-internationale-plan-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Liste officielle des dix-neuf internationaux et calendrier de leurs sélections."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates officielles des rencontres de Ligue des champions."
+        },
+        {
+          "name": "PSG.fr - choix de la continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Prolongation de Luis Enrique et continuité du projet sportif."
+        }
+      ],
+      "keywords": [
+        "Luis Enrique PSG",
+        "entraîneur PSG",
+        "trêve internationale PSG",
+        "Manchester City PSG",
+        "calendrier PSG octobre 2026"
+      ]
+    },
+    {
+      "id": "vitinha-joao-neves-nuno-mendes-portugal-coeur-psg",
+      "category": "Joueurs PSG",
+      "angle": "Forme, complémentarité et charge",
+      "date": "2026-09-27",
+      "dateLabel": "27 septembre 2026",
+      "time": "18:07",
+      "dateTime": "2026-09-27T18:07:00+02:00",
+      "headline": "Vitinha, João Neves, Nuno Mendes : le triangle portugais devenu le cœur battant du PSG",
+      "summary": "Ils ne jouent pas sur la même ligne, mais ils donnent à Paris son rythme, son agressivité et sa profondeur. Leur utilisation avec le Portugal sera l'un des grands indicateurs à surveiller avant le retour des compétitions.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/vitinha-joao-neves-nuno-mendes-portugal-coeur-psg/",
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Convocations et calendrier officiel des trois internationaux portugais."
+        },
+        {
+          "name": "PSG.fr - effectif 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Référence officielle pour les postes et l'effectif actuel."
+        },
+        {
+          "name": "PSG.fr - choix de la continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Prolongation officielle de João Neves jusqu'en 2031."
+        }
+      ],
+      "keywords": [
+        "Vitinha PSG",
+        "João Neves PSG",
+        "Nuno Mendes PSG",
+        "joueurs PSG",
+        "internationaux PSG Portugal"
+      ]
+    },
+    {
+      "id": "mercato-psg-effectif-24-joueurs-priorites-janvier-2027",
+      "category": "Mercato PSG",
+      "angle": "Impact sur l'effectif",
+      "date": "2026-09-27",
+      "dateLabel": "27 septembre 2026",
+      "time": "18:07",
+      "dateTime": "2026-09-27T18:07:00+02:00",
+      "headline": "Mercato PSG : 24 joueurs, des postes doublés et trois vraies questions avant janvier",
+      "summary": "Paris n'a pas besoin d'inventer une urgence à chaque poste. L'analyse du groupe montre un effectif dense, mais trois zones méritent d'être observées jusqu'en janvier : l'avant-centre, les équilibres défensifs et la place des jeunes.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-effectif-24-joueurs-priorites-janvier-2027/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Liste officielle des vingt-quatre joueurs et de leurs postes."
+        },
+        {
+          "name": "PSG.fr - choix de la continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Durées officielles des prolongations annoncées en septembre."
+        },
+        {
+          "name": "PSG.fr - OM-PSG",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Référence officielle sur l'utilisation du groupe et l'impact du banc."
+        }
+      ],
+      "keywords": [
+        "PSG mercato",
+        "mercato PSG janvier 2027",
+        "effectif PSG",
+        "transfert PSG",
+        "recrutement PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-ete-2026-cinq-recrues-ventes-equilibre",
+      "category": "Mercato PSG",
+      "angle": "Bilan chiffré et sportif",
+      "date": "2026-09-25",
+      "dateLabel": "25 septembre 2026",
+      "time": "14:15",
+      "dateTime": "2026-09-25T14:15:00+02:00",
+      "headline": "Mercato PSG 2026 : cinq recrues, plus de 330 M€ de ventes annoncées, mais quel équilibre réel ?",
+      "summary": "Paris a beaucoup vendu, recruté cinq joueurs et résisté à la tentation d'un dernier achat précipité. Derrière les montants spectaculaires, le vrai bilan se lit poste par poste et avec les précautions qu'imposent des chiffres rarement publics dans leur totalité.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-ete-2026-cinq-recrues-ventes-equilibre/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Référence officielle pour la composition actuelle du groupe professionnel."
+        },
+        {
+          "name": "CulturePSG - actualité mercato",
+          "url": "https://www.culturepsg.com/news/mercato/",
+          "note": "Bilans, estimations de ventes et suivi du marché estival 2026."
+        },
+        {
+          "name": "CulturePSG - dernière tentative du mercato",
+          "url": "https://www.culturepsg.com/fr/news/mercato/le-joueur-mystere-manque-par-le-psg-toujours-aussi-flou/60560",
+          "note": "Contexte de la fin de marché et bilan des mouvements offensifs."
+        }
+      ],
+      "keywords": [
+        "mercato PSG 2026",
+        "PSG transfert",
+        "arrivées PSG",
+        "départs PSG",
+        "bilan mercato PSG"
+      ]
+    },
+    {
+      "id": "dembele-doue-akliouche-france-roles-psg",
+      "category": "Joueurs PSG",
+      "angle": "Forme et complémentarité",
+      "date": "2026-09-25",
+      "dateLabel": "25 septembre 2026",
+      "time": "14:15",
+      "dateTime": "2026-09-25T14:15:00+02:00",
+      "headline": "Dembélé, Doué, Akliouche : trois Parisiens chez les Bleus, trois rôles à départager",
+      "summary": "La sélection française réunit trois attaquants du PSG aux qualités voisines mais aux fonctions différentes. Leur trêve dira beaucoup de leur forme, moins de la hiérarchie parisienne, que Luis Enrique construit selon les adversaires.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/dembele-doue-akliouche-france-roles-psg/",
+      "sources": [
+        {
+          "name": "PSG.fr - programme des internationaux",
+          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
+          "note": "Liste officielle des joueurs convoqués et programme de la fenêtre internationale."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Référence officielle pour l'effectif 2026-2027."
+        },
+        {
+          "name": "PSG.fr - OM-PSG",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Feuille de match officielle et changements lors de la victoire à Marseille."
+        }
+      ],
+      "keywords": [
+        "Dembélé PSG",
+        "Doué PSG",
+        "Akliouche PSG",
+        "joueurs PSG",
+        "équipe de France PSG"
+      ]
+    },
+    {
+      "id": "om-psg-1-2-ferran-akliouche-bascule-tactique",
+      "category": "Tactique PSG",
+      "angle": "Après-match structurel",
+      "date": "2026-09-25",
+      "dateLabel": "25 septembre 2026",
+      "time": "14:15",
+      "dateTime": "2026-09-25T14:15:00+02:00",
+      "headline": "OM-PSG 1-2 : comment Ferran et Akliouche ont déplacé le centre de gravité du match",
+      "summary": "Paris avait le ballon et les tirs, Marseille avait l'avantage. Les changements de Luis Enrique ont rendu la domination plus dangereuse : Ferran a attaqué la zone décisive, Akliouche a rapproché les lignes, puis Marquinhos a fait basculer le Classique.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/om-psg-1-2-ferran-akliouche-bascule-tactique/",
+      "sources": [
+        {
+          "name": "PSG.fr - feuille de match OM-PSG",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
+          "note": "Score, compositions, remplacements et chronologie officiels."
+        },
+        {
+          "name": "PSG.fr - statistiques et faits du Classique",
+          "url": "https://www.psg.fr/content/stats-facts-olympique-de-marseille-paris-saint-germain-le-classique-ligue-1-2026-2027",
+          "note": "Données officielles sur la possession, les tirs et le contexte historique."
+        },
+        {
+          "name": "CulturePSG - performances individuelles",
+          "url": "https://www.culturepsg.com/news/match/om-psg-1-2-les-performances-individuelles/60857",
+          "note": "Lecture complémentaire des performances parisiennes."
+        }
+      ],
+      "keywords": [
+        "OM PSG 1-2",
+        "tactique PSG",
+        "Ferran Torres PSG",
+        "Akliouche PSG",
+        "composition PSG"
+      ]
+    },
     {
       "id": "luis-enrique-psg-2030-rotation-methode",
       "category": "Entraîneurs PSG",

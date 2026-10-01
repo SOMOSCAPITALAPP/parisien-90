@@ -1325,7 +1325,8 @@ const initAppInstall = () => {
   installer.className = "app-install-button";
   installer.type = "button";
   installer.hidden = true;
-  installer.innerHTML = '<span aria-hidden="true">+</span><span class="app-install-label">Installer l\'application</span>';
+  installer.title = "Installer l'application";
+  installer.innerHTML = '<span aria-hidden="true">&#8595;</span><span class="app-install-label">Installer</span>';
 
   const showIosInstructions = () => {
     const notice = document.createElement("aside");

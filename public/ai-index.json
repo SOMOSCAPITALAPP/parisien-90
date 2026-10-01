@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-30T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 131 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 33 articles de fond sous /dossiers-psg/. À suivre : PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 131 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 36 articles de fond sous /dossiers-psg/. À suivre : PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -72,23 +72,14 @@
       ]
     },
     {
-      "url": "https://parisien90.com/transfert-psg/",
-      "title": "Transfert PSG : arrivées, départs et rumeurs du Paris SG",
-      "intent": "Suivre les transferts du Paris Saint-Germain",
-      "topics": [
-        "transfert PSG",
-        "rumeur transfert PSG",
-        "arrivées PSG",
-        "départs PSG"
-      ]
-    },
-    {
       "url": "https://parisien90.com/mercato-psg/",
-      "title": "Mercato PSG en direct : rumeurs et infos transfert Paris",
-      "intent": "Suivre le mercato PSG en direct",
+      "title": "Mercato et transferts PSG : arrivées, départs et rumeurs",
+      "intent": "Suivre dans une page unique le mercato, les transferts, les arrivées, les départs et les rumeurs du Paris Saint-Germain",
       "topics": [
         "mercato PSG",
-        "mercato Paris Saint-Germain",
+        "transfert PSG",
+        "arrivées PSG",
+        "départs PSG",
         "rumeurs PSG"
       ]
     },
@@ -1943,6 +1934,117 @@
   },
   "editorialArticles": [
     {
+      "title": "Michael Olise au PSG : pourquoi le dossier est séduisant, mais pas ouvert",
+      "category": "Mercato PSG",
+      "angle": "Rumeur, contrat et cohérence économique",
+      "dateTime": "2026-10-01T07:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/michael-olise-psg-rumeur-mercato-contrat-bayern/",
+      "summary": "Son but contre la Belgique a relancé les projections. Les faits disponibles racontent pourtant un joueur sous contrat jusqu'en 2029, central au Bayern, et un PSG qui possède déjà plusieurs créateurs dans les mêmes zones.",
+      "keywords": [
+        "Michael Olise PSG",
+        "mercato PSG",
+        "transfert Olise",
+        "rumeur PSG",
+        "Bayern Munich Olise"
+      ],
+      "sources": [
+        {
+          "name": "Bayern Munich - profil officiel de Michael Olise",
+          "url": "https://fcbayern.com/en/teams/first-team/michael-olise",
+          "note": "Durée de contrat, poste, parcours et rôle dans l'effectif bavarois."
+        },
+        {
+          "name": "CulturePSG - le PSG hors du dossier Olise ?",
+          "url": "https://www.culturepsg.com/ru/news/mercato/le-psg-hors-du-dossier-olise/60968",
+          "note": "État de la rumeur, projet de prolongation et clubs cités par la presse allemande."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle du secteur offensif parisien."
+        },
+        {
+          "name": "UEFA - profil 2026-2027 d'Olise",
+          "url": "https://www.uefa.com/uefachampionsleague/clubs/players/250171184--michael-olise/",
+          "note": "Position et statistiques européennes officielles de la saison."
+        }
+      ]
+    },
+    {
+      "title": "Senny Mayulu sorti avant la pause : ce que le PSG sait, et ce qu'il faut éviter d'inventer",
+      "category": "Joueurs PSG",
+      "angle": "Temps de jeu, disponibilité et prudence médicale",
+      "dateTime": "2026-10-01T07:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/senny-mayulu-estonie-france-espoirs-sortie-psg/",
+      "summary": "Le remplacement précoce attire immédiatement l'attention, mais aucun diagnostic officiel ne permet de parler d'une blessure précise. Paris doit désormais évaluer un milieu devenu important dans sa rotation.",
+      "keywords": [
+        "Senny Mayulu PSG",
+        "blessure Mayulu",
+        "effectif PSG",
+        "France Espoirs Mayulu",
+        "milieu PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - Estonie 0-2 France Espoirs",
+          "url": "https://www.psg.fr/content/avec-mayulu-les-bleuets-simposent-en-estonie-paris-saint-germain-selections-20262027",
+          "note": "Titularisation, remplacement à la 42e minute et score officiel."
+        },
+        {
+          "name": "PSG.fr - le choix de la continuité",
+          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/",
+          "note": "Prolongation, parcours, matches, buts et description officielle du profil."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier",
+          "note": "Dates officielles des rencontres d'octobre."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Place de Mayulu et composition actuelle du milieu parisien."
+        }
+      ]
+    },
+    {
+      "title": "Fabián Ruiz, 57 minutes et une victoire 4-1 : le rôle discret que le PSG doit préserver",
+      "category": "Tactique PSG",
+      "angle": "Après-match structurel et rôle du milieu gauche",
+      "dateTime": "2026-10-01T07:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/fabian-ruiz-espagne-croatie-role-tactique-psg/",
+      "summary": "Il n'a ni marqué ni terminé la rencontre, mais sa présence dans l'entrejeu espagnol rappelle une vérité tactique : les joueurs qui relient les lignes rendent possibles les actions les plus visibles.",
+      "keywords": [
+        "Fabián Ruiz PSG",
+        "tactique PSG",
+        "milieu PSG",
+        "Espagne Croatie",
+        "composition PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - Espagne 4-1 Croatie",
+          "url": "https://www.psg.fr/content/lespagne-de-ruiz-et-ferran-torres-large-vainqueur-de-la-croatie-paris-saint-germain-selections-20262027",
+          "note": "Score, composition, temps de jeu et buteurs officiels."
+        },
+        {
+          "name": "PSG.fr - Ruiz et Ferran avec l'Espagne",
+          "url": "https://www.psg.fr/content/fabian-ruiz-et-ferran-torres-avec-lespagne-paris-saint-germain-2026-2027",
+          "note": "Programme complet de la sélection espagnole."
+        },
+        {
+          "name": "PSG.fr - le choix de la continuité",
+          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/",
+          "note": "Statut de Fabián Ruiz dans le projet parisien."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier",
+          "note": "Enchaînement officiel des rencontres parisiennes d'octobre."
+        }
+      ]
+    },
+    {
       "title": "Luis Enrique, Mika Godts et le détail qui peut ouvrir la porte du onze du PSG",
       "category": "Entraîneurs PSG",
       "angle": "Méthode de Luis Enrique et progression individuelle",
@@ -2525,110 +2627,19 @@
           "note": "Contexte des rencontres avant et après la trêve."
         }
       ]
-    },
-    {
-      "title": "Mercato PSG : pourquoi les prolongations jusqu'en 2031 valent presque autant que des recrues",
-      "category": "Mercato PSG",
-      "angle": "Impact sur l'effectif",
-      "dateTime": "2026-09-24T14:53:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-prolongations-2031-continuite-effectif/",
-      "summary": "Le marché ne se gagne pas seulement avec des arrivées. En sécurisant quatre joueurs jusqu'en 2031 et Fabián Ruiz jusqu'en 2028, Paris réduit ses urgences, protège ses actifs et prépare déjà les fenêtres suivantes.",
-      "keywords": [
-        "PSG mercato",
-        "mercato PSG",
-        "prolongation PSG",
-        "transfert PSG",
-        "João Neves PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - choisir la continuité",
-          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
-          "note": "Durées officielles des contrats et bilan des joueurs."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Effectif officiel 2026-2027."
-        },
-        {
-          "name": "Parisien 90 - bilan du mercato été 2026",
-          "url": "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/",
-          "note": "Contexte des arrivées, départs et estimations financières."
-        }
-      ]
-    },
-    {
-      "title": "Rumeur PSG : JJ Gabriel, le dossier qui excite l'Europe mais exige encore de la prudence",
-      "category": "Rumeurs PSG",
-      "angle": "Décryptage d'une rumeur",
-      "dateTime": "2026-09-23T14:54:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/rumeur-psg-jj-gabriel-manchester-united-decryptage/",
-      "summary": "Son nom circule déjà entre Paris, Madrid, Barcelone et Munich. Pourtant, aucune arrivée n'est actée. Parisien 90 sépare ce qui est documenté de ce qui reste hypothétique dans le dossier JJ Gabriel.",
-      "keywords": [
-        "rumeur PSG",
-        "JJ Gabriel PSG",
-        "mercato PSG",
-        "transfert PSG",
-        "Manchester United PSG"
-      ],
-      "sources": [
-        {
-          "name": "CulturePSG - le PSG cité dans le dossier JJ Gabriel",
-          "url": "https://www.culturepsg.com/news/mercato/le-psg-a-l-affut-pour-jj-gabriel-le-phenomene-de-manchester-united/60790",
-          "note": "Synthèse datée du 16 septembre 2026, fondée notamment sur The Athletic."
-        },
-        {
-          "name": "FIFA - protection des mineurs",
-          "url": "https://inside.fifa.com/legal/football-regulatory/clearing-house/minors",
-          "note": "Cadre général officiel des transferts internationaux de joueurs mineurs."
-        },
-        {
-          "name": "Parisien 90 - mercato PSG",
-          "url": "/mercato-psg/",
-          "note": "Suivi des arrivées, départs et niveaux de fiabilité."
-        }
-      ]
-    },
-    {
-      "title": "Neymar et le PSG : ce que son retour au premier plan change dans la mémoire parisienne",
-      "category": "Anciens joueurs PSG",
-      "angle": "Que devient-il ?",
-      "dateTime": "2026-09-23T14:54:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/neymar-psg-heritage-santos-2026/",
-      "summary": "À Santos et de nouveau présent avec le Brésil en 2026, Neymar reste indissociable du PSG moderne. Son héritage parisien mérite mieux qu'un procès permanent ou une nostalgie sans nuance.",
-      "keywords": [
-        "Neymar PSG",
-        "Neymar Santos 2026",
-        "Neymar Paris Saint-Germain",
-        "ancien joueur PSG",
-        "Brésiliens PSG"
-      ],
-      "sources": [
-        {
-          "name": "CBF - fiche Neymar 2026",
-          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
-          "note": "Club actuel et données de compétitions nationales en 2026."
-        },
-        {
-          "name": "CBF - Neymar au Mondial 2026",
-          "url": "https://www.cbf.com.br/selecao-brasileira/noticias/selecao-masculina/a/neymar-se-torna-segundo-jogador-a-vestir-a-camisa-10-do-brasil-em-quatro-copas",
-          "note": "Participation documentée à une quatrième Coupe du monde."
-        },
-        {
-          "name": "PSG.fr - merci Neymar",
-          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
-          "note": "Bilan officiel de son passage parisien."
-        },
-        {
-          "name": "PSG.fr - souvenirs éternels",
-          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
-          "note": "Rétrospective officielle et statistiques parisiennes."
-        }
-      ]
     }
   ],
   "brazilNews": [
+    {
+      "title": "PSG-OH Leuven: Paris recebe a campeã belga em noite europeia no Campus",
+      "category": "Féminines",
+      "dateTime": "2026-10-01T12:00:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/",
+      "frenchUrl": "https://parisien90.com/news/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-programme-de-la-2e-journee-de-luefa-womens-champions-league-paris-saint-germain-oh-louvain-feminines-20262027",
+      "reliability": "Oficial"
+    },
     {
       "title": "PSG-Monaco: Paris cai no Parc e acende o primeiro alerta",
       "category": "Jogo",

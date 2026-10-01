@@ -7,16 +7,10 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://parisien90.com/transfert-psg/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://parisien90.com/mercato-psg/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>hourly</changefreq>
-    <priority>0.95</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://parisien90.com/actualite-psg/</loc>
@@ -133,16 +127,10 @@
     <priority>0.82</priority>
   </url>
   <url>
-    <loc>https://parisien90.com/br/transferencias-psg/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.78</priority>
-  </url>
-  <url>
     <loc>https://parisien90.com/br/mercado-psg/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.78</priority>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://parisien90.com/br/jogadores-psg/</loc>
@@ -977,6 +965,24 @@
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/michael-olise-psg-rumeur-mercato-contrat-bayern/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/senny-mayulu-estonie-france-espoirs-sortie-psg/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/fabian-ruiz-espagne-croatie-role-tactique-psg/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://parisien90.com/dossiers-psg/luis-enrique-mika-godts-travail-sans-ballon-psg/</loc>
@@ -1943,6 +1949,12 @@
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/noticias-psg/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
   </url>
   <url>
     <loc>https://parisien90.com/br/noticias-psg/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/</loc>
