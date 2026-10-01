@@ -4,6 +4,16 @@
   "framework": "vite",
   "redirects": [
     {
+      "source": "/transfert-psg/",
+      "destination": "/mercato-psg/",
+      "permanent": true
+    },
+    {
+      "source": "/br/transferencias-psg/",
+      "destination": "/br/mercado-psg/",
+      "permanent": true
+    },
+    {
       "source": "/news/ousmane-dembele-desire-doue-point-medical-septembre-2026/",
       "destination": "/news/ousmane-dembele-desire-doue-point-medical-septembre-2025/",
       "permanent": true

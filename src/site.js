@@ -16,19 +16,127 @@ const query = params.get("q");
 const countryQuery = params.get("pays") || params.get("country");
 const shareCampaign = "parisien90_viral";
 
-const initLanguageSwitch = () => {
-  const nav = document.querySelector(".main-nav");
-  if (!nav || nav.querySelector("[data-language-switch]")) return;
+const navigationByLocale = {
+  fr: {
+    main: [
+      ["Actualité", "/"],
+      ["Mercato", "/mercato-psg/"],
+      ["Calendrier", "/calendrier-psg/"],
+      ["Équipe", "/joueurs-psg/"],
+      ["Dossiers", "/dossiers-psg/"]
+    ],
+    more: [
+      ["Histoire du PSG", "/histoire-psg/"],
+      ["Anciens joueurs", "/anciens-joueurs-psg/"],
+      ["Records", "/records-psg/"],
+      ["Vidéos", "/videos-psg/"],
+      ["Sources", "/sources-psg/"]
+    ],
+    moreLabel: "Plus",
+    menuLabel: "Ouvrir le menu",
+    closeLabel: "Fermer le menu",
+    languageLabel: "Ouvrir la version brésilienne",
+    languageText: "BR",
+    languageHref: "/br/"
+  },
+  br: {
+    main: [
+      ["Notícias", "/br/"],
+      ["Mercado", "/br/mercado-psg/"],
+      ["Calendário", "/br/calendario-psg/"],
+      ["Jogadores", "/br/jogadores-psg/"],
+      ["Dossiês", "/br/dossies-psg/"]
+    ],
+    more: [
+      ["História do PSG", "/br/historia-psg/"],
+      ["Ex-jogadores", "/br/antigos-jogadores-psg/"],
+      ["Brasileiros no PSG", "/br/brasileiros-no-psg/"],
+      ["Todas as notícias", "/br/noticias-psg/"]
+    ],
+    moreLabel: "Mais",
+    menuLabel: "Abrir o menu",
+    closeLabel: "Fechar o menu",
+    languageLabel: "Abrir a versão francesa",
+    languageText: "FR",
+    languageHref: "/"
+  }
+};
+
+const normalizeLegacyMarketLinks = () => {
+  const replacements = new Map([
+    ["/transfert-psg/", "/mercato-psg/"],
+    ["/br/transferencias-psg/", "/br/mercado-psg/"]
+  ]);
+
+  document.querySelectorAll("a[href]").forEach((link) => {
+    const replacement = replacements.get(link.getAttribute("href"));
+    if (replacement) link.setAttribute("href", replacement);
+  });
+};
+
+const initPrimaryNavigation = () => {
+  const header = document.querySelector(".site-header");
+  const nav = header?.querySelector(".main-nav");
+  const brand = header?.querySelector(".brand");
+  if (!header || !nav || !brand) return;
 
   const isBrazilPage = window.location.pathname === "/br/" || window.location.pathname.startsWith("/br/");
-  const link = document.createElement("a");
-  link.dataset.languageSwitch = "true";
-  link.className = "language-switch";
-  link.href = isBrazilPage ? "/" : "/br/";
-  link.hreflang = isBrazilPage ? "fr-FR" : "pt-BR";
-  link.textContent = isBrazilPage ? "FR" : "BR";
-  link.setAttribute("aria-label", isBrazilPage ? "Abrir a versão francesa" : "Ouvrir la version brésilienne");
-  nav.append(link);
+  const config = navigationByLocale[isBrazilPage ? "br" : "fr"];
+  const path = window.location.pathname;
+  const isActive = (href) => href === "/" || href === "/br/"
+    ? path === href
+    : path === href || path.startsWith(href);
+  const renderLink = ([label, href], extraClass = "") =>
+    `<a href="${href}"${extraClass ? ` class="${extraClass}"` : ""}${isActive(href) ? ' aria-current="page"' : ""}>${label}</a>`;
+
+  nav.classList.add("enhanced-nav");
+  nav.innerHTML = `
+    <div class="nav-primary">${config.main.map((item) => renderLink(item)).join("")}</div>
+    <details class="nav-more">
+      <summary>${config.moreLabel}<span aria-hidden="true">⌄</span></summary>
+      <div class="nav-more-panel">${config.more.map((item) => renderLink(item)).join("")}</div>
+    </details>
+    <a data-language-switch class="language-switch" href="${config.languageHref}" hreflang="${isBrazilPage ? "fr-FR" : "pt-BR"}" aria-label="${config.languageLabel}">${config.languageText}</a>
+  `;
+
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "menu-toggle";
+  toggle.setAttribute("aria-controls", "main-navigation");
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.setAttribute("aria-label", config.menuLabel);
+  toggle.innerHTML = '<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>';
+  nav.id = "main-navigation";
+  brand.after(toggle);
+
+  const closeMenu = () => {
+    header.classList.remove("nav-open");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", config.menuLabel);
+  };
+
+  toggle.addEventListener("click", () => {
+    const willOpen = !header.classList.contains("nav-open");
+    header.classList.toggle("nav-open", willOpen);
+    toggle.setAttribute("aria-expanded", String(willOpen));
+    toggle.setAttribute("aria-label", willOpen ? config.closeLabel : config.menuLabel);
+  });
+  nav.addEventListener("click", (event) => {
+    if (event.target.closest("a")) closeMenu();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMenu();
+  });
+
+  if (!document.querySelector(".skip-link")) {
+    const skipLink = document.createElement("a");
+    skipLink.className = "skip-link";
+    skipLink.href = "#main-content";
+    skipLink.textContent = isBrazilPage ? "Ir para o conteúdo" : "Aller au contenu";
+    document.body.prepend(skipLink);
+  }
+  const main = document.querySelector("main");
+  if (main && !main.id) main.id = "main-content";
 };
 
 if (query) {
@@ -1191,8 +1299,9 @@ const initHomeNews = () => {
   setTextForSelector("[data-home-news-count]", String(featured.length));
 };
 
+normalizeLegacyMarketLinks();
 initNewsFreshness();
-initLanguageSwitch();
+initPrimaryNavigation();
 initHomeNews();
 initCalendarApp();
 initLongNewsFeed();
@@ -1216,7 +1325,7 @@ const initAppInstall = () => {
   installer.className = "app-install-button";
   installer.type = "button";
   installer.hidden = true;
-  installer.innerHTML = '<span aria-hidden="true">+</span> Installer l\'application';
+  installer.innerHTML = '<span aria-hidden="true">+</span><span class="app-install-label">Installer l\'application</span>';
 
   const showIosInstructions = () => {
     const notice = document.createElement("aside");

@@ -44,7 +44,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        transfertPsg: resolve(__dirname, "transfert-psg/index.html"),
         mercatoPsg: resolve(__dirname, "mercato-psg/index.html"),
         actualitePsg: resolve(__dirname, "actualite-psg/index.html"),
         dossiersPsg: resolve(__dirname, "dossiers-psg/index.html"),
