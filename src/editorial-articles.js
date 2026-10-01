@@ -1,12 +1,198 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-09-30T12:20:00+02:00",
-  displayDate: "30 septembre 2026",
-  displayTime: "12h20",
+  updatedAt: "2026-10-01T07:30:00+02:00",
+  displayDate: "1er octobre 2026",
+  displayTime: "07h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "michael-olise-psg-rumeur-mercato-contrat-bayern",
+    title: "Michael Olise au PSG : pourquoi le dossier est séduisant, mais pas ouvert",
+    description: "Michael Olise brille avec le Bayern et la France, mais aucune négociation avec le PSG n'est établie. Contrat, concurrence et coût : le dossier décrypté.",
+    deck: "Son but contre la Belgique a relancé les projections. Les faits disponibles racontent pourtant un joueur sous contrat jusqu'en 2029, central au Bayern, et un PSG qui possède déjà plusieurs créateurs dans les mêmes zones.",
+    category: "Mercato PSG",
+    angle: "Rumeur, contrat et cohérence économique",
+    date: "2026-10-01",
+    dateLabel: "1er octobre 2026",
+    time: "07:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour décrypter la rumeur Michael Olise au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Michael Olise PSG", "mercato PSG", "transfert Olise", "rumeur PSG", "Bayern Munich Olise"],
+    sections: [
+      { heading: "Le signal : un grand joueur français associé à Paris, sans négociation établie", paragraphs: [
+        "Michael Olise a marqué le but de la victoire française contre la Belgique le 28 septembre. Sa forme avec le Bayern et son influence en sélection suffisent à alimenter les projections autour des grands clubs. CulturePSG rapporte que son nom avait été associé au PSG pendant l'été, mais que Paris n'est pas présenté aujourd'hui comme une destination active. Aucun communiqué du PSG, du Bayern ou du joueur ne fait état d'une discussion entre les clubs.",
+        "Le niveau de fiabilité doit donc être annoncé sans détour : l'intérêt passé relève de la presse de mercato et le transfert actuel n'est pas un fait. Le profil est crédible pour presque toutes les équipes ambitieuses, ce qui ne signifie pas que chaque association constitue un dossier. Une rumeur sérieuse commence lorsqu'au moins plusieurs sources indépendantes décrivent des contacts, une offre ou une volonté du joueur. Ces éléments publics manquent ici.",
+        "Son statut français et son but récent rendent l'histoire particulièrement partageable, mais la visibilité n'augmente pas la solidité d'une information. Le marché se nourrit souvent d'un raisonnement circulaire : un joueur performant serait suivi par Paris parce que Paris suit les joueurs performants. Pour sortir de cette boucle, il faut rechercher un acte vérifiable. À défaut d'offre, de contact confirmé ou de déclaration directe, le dossier reste une hypothèse éditoriale et non une opération en cours."
+      ] },
+      { heading: "Le contrat jusqu'en 2029 donne la main au Bayern", paragraphs: [
+        "La fiche officielle du Bayern indique qu'Olise est sous contrat jusqu'au 30 juin 2029. Cette durée change toute l'équation. Le club allemand n'est pas pressé de vendre et peut décider du calendrier comme du prix. CulturePSG relaie en outre une volonté bavaroise de discuter d'une prolongation jusqu'en 2032. Les chiffres de salaire ou de clause évoqués dans la presse ne sont pas des données contractuelles publiques ; ils doivent rester présentés comme des estimations.",
+        "Pour Paris, une opération ne dépendrait donc pas seulement de l'envie sportive. Elle exigerait l'accord d'un club puissant, un investissement très élevé et une place majeure dans la masse salariale. Le PSG vient de remodeler son attaque et n'a aucun intérêt à entrer dans une enchère uniquement pour ajouter un nom prestigieux. Le coût complet comprend l'indemnité, les commissions, le salaire sur plusieurs années et l'effet sur les contrats déjà présents dans le vestiaire."
+      ] },
+      { heading: "Pourquoi Olise correspond malgré tout au football parisien", paragraphs: [
+        "Olise évolue principalement à droite, peut rentrer sur son pied gauche et créer aussi bien par la passe que par la conduite. Le Bayern le décrit comme un joueur capable d'agir également dans l'axe derrière l'attaquant. Cette polyvalence correspond aux principes de Luis Enrique : occuper plusieurs hauteurs, permuter et conserver une menace de frappe lorsque le bloc adverse protège la surface. Son expérience internationale réduit aussi le risque d'un joueur limité à un championnat.",
+        "Son apport ne se résumerait pas aux buts. Un gaucher créatif à droite peut fixer le latéral, libérer le couloir pour Hakimi et attirer un milieu avant de trouver une passe intérieure. Olise sait aussi accélérer après une phase de possession lente. Ces qualités sont rares. Elles expliquent pourquoi son nom attire autant d'attention, mais elles ne prouvent pas que Paris doive le recruter maintenant. La compatibilité tactique est une condition nécessaire, jamais une justification financière suffisante."
+      ] },
+      { heading: "La vraie question : quelle place dans une attaque déjà dense ?", paragraphs: [
+        "L'effectif officiel du PSG comprend Dembélé, Doué, Kvaratskhelia, Ferran Torres, Mika Godts et Quentin Ndjantou parmi les attaquants, tandis qu'Akliouche peut évoluer très haut. Plusieurs de ces joueurs occupent les zones préférées d'Olise. Le recruter obligerait à redéfinir la hiérarchie, les temps de jeu et parfois le rôle de cadres importants. Une grande équipe a besoin de concurrence, mais l'accumulation peut réduire la continuité nécessaire aux automatismes.",
+        "Le départ éventuel d'un joueur, une blessure longue ou un changement de système pourraient modifier le besoin. En l'état, Paris doit d'abord évaluer les recrues de l'été. Akliouche apporte la liaison, Ferran la présence dans la surface et Godts le duel extérieur. Dembélé et Doué restent des références créatives. Si ces fonctions répondent aux attentes, l'argent disponible serait peut-être plus utile sur une zone moins couverte que l'aile droite."
+      ] },
+      { heading: "Le piège des montants spectaculaires et des clauses supposées", paragraphs: [
+        "Les rumeurs de prolongation s'accompagnent déjà de salaires et de clauses très élevés. Tant que le Bayern ou l'entourage ne les confirme pas, ces nombres servent surtout à décrire un rapport de force. Une clause de départ n'est pas toujours une invitation à acheter : son montant, sa date d'activation, les clubs concernés et les modalités de paiement peuvent la rendre presque théorique. Le droit allemand et la rédaction du contrat comptent davantage qu'un chiffre isolé.",
+        "Paris doit aussi protéger sa discipline économique. Une arrivée au sommet de la grille peut entraîner des demandes de revalorisation en chaîne. Le prix sportif d'Olise peut justifier un effort exceptionnel, mais seulement si le besoin est exceptionnel lui aussi. Le nouveau modèle parisien a davantage valorisé des joueurs compatibles et développables qu'une politique de collection. Revenir à une logique d'achat symbolique affaiblirait la cohérence construite depuis plusieurs saisons."
+      ] },
+      { heading: "Notre verdict : une piste de veille, pas un feuilleton PSG", paragraphs: [
+        "Michael Olise possède le talent, l'âge et la polyvalence pour intéresser Paris. C'est l'analyse. Le fait, au 1er octobre, est qu'il appartient au Bayern jusqu'en 2029 et qu'aucune négociation parisienne n'est publiquement établie. Les informations disponibles citent davantage une prolongation bavaroise et d'autres clubs étrangers qu'une offensive du PSG. Présenter son arrivée comme probable serait donc trompeur.",
+        "Le bon comportement consiste à suivre trois signaux : l'ouverture réelle de discussions contractuelles au Bayern, une éventuelle volonté publique du joueur et l'évolution de l'effectif parisien. Sans eux, le dossier reste une possibilité lointaine. Paris n'a pas besoin de nier l'intérêt d'un joueur aussi fort, mais il doit éviter de laisser le prestige décider à la place de la stratégie sportive. Olise mérite une veille attentive ; il ne mérite pas encore un faux transfert."
+      ] }
+    ],
+    faq: [
+      { question: "Michael Olise est-il en négociation avec le PSG ?", answer: "Aucune négociation entre le PSG, le Bayern et le joueur n'est publiquement établie au 1er octobre 2026." },
+      { question: "Jusqu'à quand Michael Olise est-il sous contrat au Bayern ?", answer: "La fiche officielle du Bayern indique un contrat jusqu'au 30 juin 2029." },
+      { question: "Pourquoi Olise pourrait-il intéresser Paris ?", answer: "Son profil de gaucher créatif, capable de jouer à droite ou dans l'axe, correspond à plusieurs principes du jeu parisien." }
+    ],
+    sources: [
+      { name: "Bayern Munich - profil officiel de Michael Olise", url: "https://fcbayern.com/en/teams/first-team/michael-olise", note: "Durée de contrat, poste, parcours et rôle dans l'effectif bavarois." },
+      { name: "CulturePSG - le PSG hors du dossier Olise ?", url: "https://www.culturepsg.com/ru/news/mercato/le-psg-hors-du-dossier-olise/60968", note: "État de la rumeur, projet de prolongation et clubs cités par la presse allemande." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Composition officielle du secteur offensif parisien." },
+      { name: "UEFA - profil 2026-2027 d'Olise", url: "https://www.uefa.com/uefachampionsleague/clubs/players/250171184--michael-olise/", note: "Position et statistiques européennes officielles de la saison." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Transferts PSG", url: "/transfert-psg/" },
+      { label: "Effectif PSG", url: "/joueurs-psg/" },
+      { label: "Fiche Ousmane Dembélé", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "senny-mayulu-estonie-france-espoirs-sortie-psg",
+    title: "Senny Mayulu sorti avant la pause : ce que le PSG sait, et ce qu'il faut éviter d'inventer",
+    description: "Titulaire avec les Espoirs contre l'Estonie, Senny Mayulu a quitté le terrain à la 42e minute. État des faits, charge et conséquences possibles pour le PSG.",
+    deck: "Le remplacement précoce attire immédiatement l'attention, mais aucun diagnostic officiel ne permet de parler d'une blessure précise. Paris doit désormais évaluer un milieu devenu important dans sa rotation.",
+    category: "Joueurs PSG",
+    angle: "Temps de jeu, disponibilité et prudence médicale",
+    date: "2026-10-01",
+    dateLabel: "1er octobre 2026",
+    time: "07:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour faire le point sur Senny Mayulu après Estonie France Espoirs",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Senny Mayulu PSG", "blessure Mayulu", "effectif PSG", "France Espoirs Mayulu", "milieu PSG"],
+    sections: [
+      { heading: "Le fait : titulaire, puis remplacé à la 42e minute", paragraphs: [
+        "Senny Mayulu a commencé Estonie-France Espoirs le 29 septembre, lors de la huitième journée des qualifications à l'Euro Espoirs 2027. Le compte rendu officiel du PSG indique qu'il a cédé sa place à la 42e minute, remplacé par Andy Lebreton. Les Bleuets se sont imposés 2-0 grâce à Steve Ngoura et Jean-Mattéo Bahoya. Ce remplacement avant la pause est inhabituel, mais le communiqué ne fournit ni diagnostic ni durée d'indisponibilité.",
+        "La distinction est essentielle. Une sortie précoce peut être liée à une gêne, un choc, une précaution ou une décision tactique. Sans point médical de la sélection ou du PSG, affirmer la nature d'une blessure serait spéculatif. L'information fiable s'arrête donc au remplacement. Le retour du joueur au club et les prochaines séances permettront de savoir s'il existe une conséquence pour la reprise contre Le Mans le 10 octobre.",
+        "La chronologie aide également à résister aux conclusions rapides. Le joueur a quitté une rencontre internationale, puis doit être revu par les équipes médicales concernées. Les premières sensations peuvent évoluer après quelques heures et un examen clinique peut conduire à des tests complémentaires. Une absence sur une photo d'entraînement ne suffirait pas davantage à fixer un délai. Seul un point médical attribué, daté et précis permettrait de franchir l'étape entre vigilance et indisponibilité confirmée."
+      ] },
+      { heading: "Pourquoi Mayulu compte davantage dans la rotation parisienne", paragraphs: [
+        "Le PSG a prolongé Mayulu jusqu'en 2031 en rappelant son parcours depuis le centre de formation, ses 75 matches toutes compétitions confondues et ses 12 buts. Le club souligne sa mobilité, son activité et sa capacité à se projeter. Ces qualités en font plus qu'un jeune appelé pour compléter un banc. Il peut remplacer un milieu, accompagner un attaquant ou ajouter une course dans la surface sans modifier tout le système.",
+        "Cette polyvalence devient précieuse dans une saison chargée. Vitinha, João Neves, Fabián Ruiz et Warren Zaïre-Emery sont régulièrement sollicités en sélection. Mayulu permet à Luis Enrique de répartir les minutes et d'adapter la hauteur du milieu. Son absence éventuelle ne supprimerait pas une position de l'effectif, mais elle réduirait les combinaisons disponibles. C'est souvent ainsi que la profondeur se mesure : non par le nombre total de joueurs, mais par le nombre de plans qui restent possibles."
+      ] },
+      { heading: "Le calendrier impose de ne pas précipiter le diagnostic", paragraphs: [
+        "Paris ne rejoue pas immédiatement. La prochaine rencontre masculine est programmée le 10 octobre contre Le Mans, avant Manchester City le 14, Strasbourg le 17 et Barcelone le 20. Cette fenêtre donne au staff médical le temps d'examiner Mayulu et de suivre son évolution. Elle permet aussi d'éviter une communication prématurée fondée sur les images ou sur l'absence d'un joueur à une séance isolée.",
+        "La priorité n'est pas de savoir aujourd'hui s'il sera disponible dans neuf jours, mais d'identifier précisément la cause de sa sortie. Une gêne mineure peut disparaître rapidement ; un problème musculaire demande une progression contrôlée. Les calendriers médiatiques aiment les délais immédiats, alors que la médecine sportive avance par examens et réponses à l'effort. Le PSG publie habituellement ses points médicaux à l'approche des matches, lorsque l'information devient utile et vérifiée."
+      ] },
+      { heading: "Ce que son profil apporte face aux blocs regroupés", paragraphs: [
+        "Mayulu possède une qualité particulièrement utile contre une défense basse : il sait arriver plutôt que rester. Lorsque les attaquants fixent la dernière ligne, il peut surgir dans un intervalle libéré. Son but en finale européenne 2025 a illustré cette projection, mais la compétence existe aussi dans des séquences moins visibles. Une course intérieure oblige un défenseur à choisir entre suivre le milieu ou protéger l'attaquant déjà présent dans la surface.",
+        "Contre Le Mans, Paris devrait avoir beaucoup le ballon. Ce type de match demande des joueurs capables de varier les positions sans ralentir la circulation. Mayulu peut recevoir entre les lignes, repartir vers l'extérieur ou attaquer la zone de finition. S'il n'est pas disponible, Akliouche, Doué, Zaïre-Emery ou Dro Fernández peuvent occuper certaines de ces fonctions. Aucun ne reproduit exactement le même mélange de volume et de projection."
+      ] },
+      { heading: "La gestion des jeunes ne se résume pas à accumuler des minutes", paragraphs: [
+        "Mayulu a déjà franchi le stade de la simple découverte, mais sa progression reste liée à la gestion de la charge. Les joueurs formés au club participent parfois aux rencontres seniors, aux sélections de jeunes et à des séances d'intensité élevée dans la même période. Chaque niveau possède ses exigences. Le nombre de matches ne raconte pas les voyages, les changements de terrain, le sommeil ou les accélérations effectuées à l'entraînement.",
+        "Protéger un joueur ne signifie pas le maintenir à l'écart. Il s'agit d'alterner exposition et récupération pour que les minutes développent ses qualités au lieu de les fragiliser. Luis Enrique a montré qu'il pouvait faire confiance aux jeunes dans des rendez-vous importants. Cette confiance autorise aussi la patience. Si le moindre doute médical existe, le prochain match ne doit pas devenir un test de courage. La saison sera assez longue pour offrir d'autres occasions."
+      ] },
+      { heading: "Notre analyse : attendre le point médical est la seule conclusion sérieuse", paragraphs: [
+        "La sortie à la 42e minute constitue un signal à surveiller, pas un diagnostic. Le fait est documenté par le PSG ; la cause ne l'est pas. Jusqu'à une communication officielle, toute durée annoncée relèverait de la supposition. Cette prudence n'empêche pas de mesurer l'importance de Mayulu : sa mobilité, sa polyvalence et son contrat jusqu'en 2031 le placent au cœur de la rotation parisienne.",
+        "Paris dispose de solutions si le joueur doit récupérer, mais l'enchaînement d'octobre rend chaque option utile. La meilleure nouvelle serait une reprise normale après évaluation. Dans le cas contraire, le staff devra adapter la composition sans forcer le calendrier. Le traitement médiatique doit suivre la même règle que la gestion sportive : partir des faits, laisser les examens répondre et ne jamais transformer une inquiétude légitime en certitude spectaculaire."
+      ] }
+    ],
+    faq: [
+      { question: "Senny Mayulu est-il blessé ?", answer: "Sa sortie à la 42e minute est officielle, mais aucun diagnostic médical public ne permet encore de confirmer la nature d'une éventuelle blessure." },
+      { question: "Quand le PSG rejoue-t-il ?", answer: "Le PSG doit recevoir Le Mans en Ligue 1 le 10 octobre 2026." },
+      { question: "Jusqu'à quand Mayulu est-il sous contrat avec Paris ?", answer: "Le PSG a annoncé sa prolongation jusqu'en 2031." }
+    ],
+    sources: [
+      { name: "PSG.fr - Estonie 0-2 France Espoirs", url: "https://www.psg.fr/content/avec-mayulu-les-bleuets-simposent-en-estonie-paris-saint-germain-selections-20262027", note: "Titularisation, remplacement à la 42e minute et score officiel." },
+      { name: "PSG.fr - le choix de la continuité", url: "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/", note: "Prolongation, parcours, matches, buts et description officielle du profil." },
+      { name: "PSG.fr - calendrier masculin", url: "https://www.psg.fr/football-masculin/calendrier", note: "Dates officielles des rencontres d'octobre." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Place de Mayulu et composition actuelle du milieu parisien." }
+    ],
+    internalLinks: [
+      { label: "Fiche Senny Mayulu", url: "/joueurs-psg/senny-mayulu/" },
+      { label: "Effectif PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Dernières actualités du PSG", url: "/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "fabian-ruiz-espagne-croatie-role-tactique-psg",
+    title: "Fabián Ruiz, 57 minutes et une victoire 4-1 : le rôle discret que le PSG doit préserver",
+    description: "Titulaire avec l'Espagne contre la Croatie, Fabián Ruiz a joué 57 minutes dans une large victoire. Son rôle de relais éclaire l'équilibre recherché au PSG.",
+    deck: "Il n'a ni marqué ni terminé la rencontre, mais sa présence dans l'entrejeu espagnol rappelle une vérité tactique : les joueurs qui relient les lignes rendent possibles les actions les plus visibles.",
+    category: "Tactique PSG",
+    angle: "Après-match structurel et rôle du milieu gauche",
+    date: "2026-10-01",
+    dateLabel: "1er octobre 2026",
+    time: "07:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Stade parisien pour analyser le rôle tactique de Fabian Ruiz au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Fabián Ruiz PSG", "tactique PSG", "milieu PSG", "Espagne Croatie", "composition PSG"],
+    sections: [
+      { heading: "Le fait : titulaire dans un succès espagnol très net", paragraphs: [
+        "L'Espagne a battu la Croatie 4-1 le 29 septembre à Séville, lors de la deuxième journée de Ligue des nations. Le compte rendu officiel du PSG indique que Fabián Ruiz a débuté dans l'entrejeu avant d'être remplacé par Pedri à la 57e minute. Ferran Torres est resté sur le banc. Lamine Yamal a inscrit un doublé, Marc Pubill et Nico Williams complétant le score espagnol.",
+        "Ces faits ne permettent pas d'attribuer à Ruiz l'ensemble de la domination espagnole ni de tirer une note individuelle précise. Ils établissent toutefois qu'il a participé à la construction d'une avance de deux buts à la pause et qu'il a bénéficié d'une sortie relativement tôt. Pour le PSG, la combinaison d'un match compétitif et d'une charge limitée peut être intéressante avant les rencontres rapprochées d'octobre.",
+        "Le score large peut aussi tromper l'analyse. Une victoire 4-1 met naturellement en lumière les buteurs, alors que l'équilibre du milieu conditionne la fréquence et la qualité des attaques. Ruiz n'a pas besoin d'être l'auteur de la dernière passe pour participer à la séquence qui désorganise l'adversaire. Pour évaluer son match, il faudrait étudier ses orientations, ses positions à la perte et la manière dont l'Espagne a progressé dans sa zone, pas seulement consulter la feuille des statistiques décisives."
+      ] },
+      { heading: "Le relais gauche, une fonction plus importante qu'un poste", paragraphs: [
+        "Ruiz est souvent décrit comme un milieu gauche, mais sa valeur dépend moins d'une case que de ses déplacements. Il peut venir près du premier relanceur, se placer dans le demi-espace ou avancer jusqu'à la surface. Ce mouvement crée une ligne de passe pour le défenseur puis libère une zone pour l'ailier ou le latéral. Le ballon progresse parce qu'un joueur change de hauteur au bon moment, pas seulement parce qu'une passe spectaculaire traverse le bloc.",
+        "À Paris, cette fonction s'articule particulièrement avec Nuno Mendes et Kvaratskhelia. Si le latéral monte, Ruiz peut protéger l'intérieur. Si l'ailier revient vers le ballon, le milieu peut attaquer l'espace laissé derrière lui. Cette alternance évite d'aligner trois joueurs sur la même ligne. Elle demande une lecture permanente de la position des partenaires, une qualité moins visible que le dribble mais essentielle pour conserver l'équilibre."
+      ] },
+      { heading: "Pourquoi sa lenteur apparente peut servir la vitesse collective", paragraphs: [
+        "Ruiz ne donne pas toujours l'impression d'accélérer parce qu'il utilise le contrôle, l'orientation du corps et la passe pour déplacer la pression. Un ballon joué au bon pied peut faire gagner davantage de temps qu'une course. Lorsqu'il attire un adversaire avant de servir Vitinha ou un attaquant entre les lignes, il augmente la vitesse de l'action sans courir lui-même sur une longue distance.",
+        "Cette maîtrise devient précieuse face à un pressing agressif. Paris aura besoin de calme à Manchester City, où la première pression peut enfermer le porteur près de la ligne. Ruiz offre un appui capable de conserver puis de ressortir dans une zone dense. Le risque existe lorsqu'il prend une touche de trop ou reçoit dos au jeu sans solution. Le collectif doit donc lui fournir des angles, tandis que lui doit décider rapidement entre sécuriser et casser une ligne."
+      ] },
+      { heading: "La projection dans la surface complète les créateurs", paragraphs: [
+        "Le milieu espagnol ne se contente pas d'organiser loin du but. Il sait arriver dans la surface lorsque l'action part du côté opposé. Cette course tardive est difficile à suivre pour un défenseur déjà occupé par l'avant-centre et les ailiers. Elle apporte une cible supplémentaire sans demander à Paris d'installer en permanence un second attaquant. C'est l'une des raisons pour lesquelles Ruiz peut être décisif sans toucher énormément de ballons.",
+        "Le timing doit rester précis. Une projection trop précoce vide le milieu et expose l'équipe à la transition. Une arrivée tardive laisse l'action se terminer sans lui. Luis Enrique cherche cet équilibre : assez de présence pour finir, assez de joueurs derrière le ballon pour récupérer immédiatement. Ruiz possède l'expérience nécessaire pour ajuster sa course au positionnement de Vitinha, João Neves ou Zaïre-Emery."
+      ] },
+      { heading: "Cinquante-sept minutes : une charge utile, pas une garantie de fraîcheur", paragraphs: [
+        "Sortir avant l'heure de jeu réduit le volume du match, mais ne suffit pas à conclure que le joueur reviendra frais. Les voyages, les entraînements et les accélérations à haute intensité comptent aussi. L'Espagne doit encore affronter la Tchéquie le 3 octobre puis la Croatie le 6. Le PSG récupérera Ruiz après cette séquence et devra évaluer l'ensemble de sa charge, pas uniquement les 57 minutes jouées à Séville.",
+        "La situation de Ferran Torres illustre l'autre versant. Ne pas entrer contre la Croatie préserve physiquement, mais le prochain match peut inverser la distribution. Les sélections poursuivent leurs propres objectifs et ne gèrent pas les joueurs pour le calendrier parisien. Luis Enrique devra donc individualiser les retours. Un titulaire en sélection peut avoir besoin de repos ; un remplaçant peut avoir besoin de rythme."
+      ] },
+      { heading: "Notre analyse : Paris doit préserver la complémentarité, pas un onze figé", paragraphs: [
+        "La victoire espagnole rappelle que Fabián Ruiz peut contribuer à une équipe dominante sans monopoliser les actions décisives. Son rôle consiste à relier, équilibrer et surgir. À Paris, cette fonction complète le contrôle de Vitinha, l'intensité de João Neves et la puissance de Zaïre-Emery. Aucun de ces milieux n'est une copie des autres, ce qui permet au staff de modifier le rapport de force sans abandonner son identité.",
+        "Le prochain mois ne doit donc pas produire une hiérarchie rigide fondée sur les seuls buts ou les notes. Face au Mans, Paris pourra rechercher davantage de projections ; à Manchester, la résistance à la pression primera ; contre Barcelone, la maîtrise des transitions deviendra centrale. Ruiz peut être essentiel dans les trois contextes, parfois comme titulaire, parfois comme solution de banc. Préserver son utilité signifie préserver les complémentarités et la fraîcheur qui rendent son jeu discret réellement influent."
+      ] }
+    ],
+    faq: [
+      { question: "Fabián Ruiz a-t-il joué contre la Croatie ?", answer: "Oui. Il était titulaire avec l'Espagne et a été remplacé à la 57e minute lors de la victoire 4-1." },
+      { question: "Ferran Torres a-t-il participé au match ?", answer: "Non. Le compte rendu officiel du PSG indique qu'il n'est pas entré en jeu." },
+      { question: "Quel rôle Fabián Ruiz joue-t-il au PSG ?", answer: "Il agit comme relais capable d'aider la relance, d'occuper le demi-espace gauche et de se projeter dans la surface." }
+    ],
+    sources: [
+      { name: "PSG.fr - Espagne 4-1 Croatie", url: "https://www.psg.fr/content/lespagne-de-ruiz-et-ferran-torres-large-vainqueur-de-la-croatie-paris-saint-germain-selections-20262027", note: "Score, composition, temps de jeu et buteurs officiels." },
+      { name: "PSG.fr - Ruiz et Ferran avec l'Espagne", url: "https://www.psg.fr/content/fabian-ruiz-et-ferran-torres-avec-lespagne-paris-saint-germain-2026-2027", note: "Programme complet de la sélection espagnole." },
+      { name: "PSG.fr - le choix de la continuité", url: "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/", note: "Statut de Fabián Ruiz dans le projet parisien." },
+      { name: "PSG.fr - calendrier masculin", url: "https://www.psg.fr/football-masculin/calendrier", note: "Enchaînement officiel des rencontres parisiennes d'octobre." }
+    ],
+    internalLinks: [
+      { label: "Fiche Fabián Ruiz", url: "/joueurs-psg/fabian-ruiz/" },
+      { label: "Effectif PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "luis-enrique-mika-godts-travail-sans-ballon-psg",
     title: "Luis Enrique, Mika Godts et le détail qui peut ouvrir la porte du onze du PSG",
