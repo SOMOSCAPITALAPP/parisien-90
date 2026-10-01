@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-09-30T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 130 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 30 articles de fond sous /dossiers-psg/. À suivre : Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie ; Turquie-France : Dembélé titulaire, Doué participe au premier succès de Zidane. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 131 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 33 articles de fond sous /dossiers-psg/. À suivre : PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -210,6 +210,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus",
+      "category": "Féminines",
+      "dateTime": "2026-10-01T12:00:00+02:00",
+      "url": "https://parisien90.com/news/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-programme-de-la-2e-journee-de-luefa-womens-champions-league-paris-saint-germain-oh-louvain-feminines-20262027",
+      "reliability": "Officiel"
+    },
     {
       "title": "Hakimi reprend avec le Maroc : entrée et victoire au Lesotho",
       "category": "Sélections",
@@ -469,15 +478,6 @@
       "url": "https://parisien90.com/news/psg-feminin-lens-victoire-premiere-ligue-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/paris-simpose-a-lens-pour-ses-debuts-en-championnat-cr-rc-lens-paris-saint-germain-arkema-premiere-ligue-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Ligue des champions féminine : le PSG commence au Real avant Bayern et Juventus",
-      "category": "Féminines",
-      "dateTime": "2026-09-05T20:00:00+02:00",
-      "url": "https://parisien90.com/news/psg-feminin-calendrier-uwcl-real-madrid-juventus-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/le-calendrier-de-luefa-womens-champions-league-devoile-psg-feminines-women-2026-2027",
       "reliability": "Officiel"
     }
   ],
@@ -1943,6 +1943,107 @@
   },
   "editorialArticles": [
     {
+      "title": "Luis Enrique, Mika Godts et le détail qui peut ouvrir la porte du onze du PSG",
+      "category": "Entraîneurs PSG",
+      "angle": "Méthode de Luis Enrique et progression individuelle",
+      "dateTime": "2026-09-30T12:20:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/luis-enrique-mika-godts-travail-sans-ballon-psg/",
+      "summary": "Le jeune Belge vient de jouer tout un Belgique-France face à trois partenaires parisiens. Cette expérience éclaire le chantier fixé par le staff : transformer un ailier spectaculaire en joueur complet du collectif.",
+      "keywords": [
+        "Luis Enrique PSG",
+        "Mika Godts PSG",
+        "titulaire PSG",
+        "ailier PSG",
+        "effectif PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - Belgique 0-1 France",
+          "url": "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027",
+          "note": "Score, buteur et temps de jeu des quatre Parisiens."
+        },
+        {
+          "name": "CulturePSG - les axes de progression de Godts",
+          "url": "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731",
+          "note": "Informations sur le travail demandé par le staff et son utilisation en début de saison."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Effectif officiel du PSG pour la saison 2026-2027."
+        }
+      ]
+    },
+    {
+      "title": "Godts, Doué, Akliouche, Dembélé : ce que leur duel Belgique-France révèle au PSG",
+      "category": "Joueurs PSG",
+      "angle": "Forme, rôles et concurrence offensive",
+      "dateTime": "2026-09-30T12:20:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/godts-doue-akliouche-dembele-belgique-france-psg/",
+      "summary": "Deux titulaires, un entrant, quatre profils différents et un but à la 88e minute : ce rendez-vous international offre un laboratoire utile pour comprendre les choix qui attendent Luis Enrique.",
+      "keywords": [
+        "Dembélé PSG",
+        "Désiré Doué PSG",
+        "Maghnes Akliouche PSG",
+        "Mika Godts PSG",
+        "Belgique France PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - les Bleus s'imposent face à la Belgique",
+          "url": "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027",
+          "note": "Compte rendu officiel, score et participation des joueurs parisiens."
+        },
+        {
+          "name": "PSG.fr - calendrier des internationaux français",
+          "url": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
+          "note": "Convocations et programme de la France pendant la trêve."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Postes et présence officielle des joueurs dans le groupe parisien."
+        }
+      ]
+    },
+    {
+      "title": "Mercato PSG : après un été de grands mouvements, la nouvelle hiérarchie offensive se dessine",
+      "category": "Mercato PSG",
+      "angle": "Impact des transferts sur l'effectif",
+      "dateTime": "2026-09-30T12:20:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-hierarchie-offensive-apres-ete-2026/",
+      "summary": "Akliouche, Ferran Torres et Mika Godts ont rejoint un secteur où Dembélé et Doué restent centraux. L'enjeu n'est plus d'empiler les noms, mais de couvrir toutes les fonctions sans déséquilibrer le collectif.",
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG 2026",
+        "attaque PSG",
+        "recrues PSG",
+        "effectif PSG"
+      ],
+      "sources": [
+        {
+          "name": "CulturePSG - tableau du mercato été 2026",
+          "url": "https://www.culturepsg.com/fr/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
+          "note": "Récapitulatif des arrivées, départs et estimations de marché."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle de l'effectif 2026-2027."
+        },
+        {
+          "name": "CulturePSG - progression demandée à Mika Godts",
+          "url": "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731",
+          "note": "Éléments sur son intégration sportive et les attentes du staff."
+        },
+        {
+          "name": "UEFA - calendrier de Ligue des champions",
+          "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/",
+          "note": "Calendrier officiel des prochains rendez-vous européens du PSG."
+        }
+      ]
+    },
+    {
       "title": "Fabián Ruiz recruté par le PSG pour contrarier le Real Madrid ? Ce que vaut vraiment cette histoire",
       "category": "Rumeurs PSG",
       "angle": "Décryptage et niveau de fiabilité",
@@ -2523,113 +2624,6 @@
           "name": "PSG.fr - souvenirs éternels",
           "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
           "note": "Rétrospective officielle et statistiques parisiennes."
-        }
-      ]
-    },
-    {
-      "title": "Valorisation du PSG : ce que les 837 millions d'euros de revenus disent vraiment de sa puissance",
-      "category": "Économie du PSG",
-      "angle": "Lecture business",
-      "dateTime": "2026-09-23T14:54:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/valorisation-psg-revenus-837-millions-modele-economique/",
-      "summary": "Paris appartient au carré de tête économique européen. Mais un chiffre d'affaires n'est pas une valorisation, et une saison sportive exceptionnelle ne garantit pas seule une croissance durable.",
-      "keywords": [
-        "valorisation PSG",
-        "revenus PSG",
-        "finances PSG",
-        "budget PSG",
-        "Deloitte PSG 2026"
-      ],
-      "sources": [
-        {
-          "name": "Deloitte - Football Money League 2026",
-          "url": "https://www.deloitte.com/uk/en/services/financial-advisory/analysis/deloitte-football-money-league.html",
-          "note": "Classement, revenus et méthode de préparation."
-        },
-        {
-          "name": "UEFA - rapport financier 2024-2025",
-          "url": "https://editorial.uefa.com/resources/02a1-1fcc539a26d9-78ac6793e755-1000/20260113_enclosure_04_financial_report_2024-25_en.pdf",
-          "note": "Distributions officielles des compétitions UEFA."
-        },
-        {
-          "name": "Football Benchmark - European Champions Report 2026",
-          "url": "https://footballbenchmark.com/documents/d/guest/football-benchmark-european-champions-report-2026",
-          "note": "Analyse économique complémentaire du champion d'Europe."
-        },
-        {
-          "name": "Parisien 90 - bilan mercato",
-          "url": "/dossiers-psg/bilan-mercato-psg-ete-2026-arrivees-departs-solde/",
-          "note": "Distinction entre estimations de transferts et données officielles."
-        }
-      ]
-    },
-    {
-      "title": "Mercato PSG 2026 : cinq recrues, mais déjà deux bilans très différents",
-      "category": "Mercato PSG",
-      "angle": "Analyse de l'effectif",
-      "dateTime": "2026-09-22T13:35:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-2026-cinq-recrues-deux-bilans/",
-      "summary": "Ferran marque déjà, Akliouche et Godts entrent dans la rotation, Digne renforce un poste et Longoni prépare l'avenir. Mettre ces cinq recrues dans une seule note serait trompeur : le mercato parisien se juge à plusieurs vitesses.",
-      "keywords": [
-        "mercato PSG 2026",
-        "transfert PSG",
-        "recrues PSG",
-        "Ferran PSG",
-        "Akliouche PSG",
-        "Godts PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - présentation des recrues",
-          "url": "https://www.psg.fr/content/les-recrues-parisiennes-presentees-au-parc-des-princes-paris-saint-germain-as-monaco-ligue-1-mcdonalds-2026-2027",
-          "note": "Liste officielle des cinq arrivées."
-        },
-        {
-          "name": "PSG.fr - match Marseille-Paris",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-          "note": "Résultat, changements et bilan de Ferran."
-        },
-        {
-          "name": "Ligue 1 - Ferran Torres après cinq journées",
-          "url": "https://ligue1.com/fr/articles/l1_article_5885-",
-          "note": "Statistiques de championnat publiées par l'organisateur."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Composition officielle de l'effectif 2026-2027."
-        }
-      ]
-    },
-    {
-      "title": "Désiré Doué au PSG : pourquoi sa passe contre l'OM compte plus qu'un chiffre",
-      "category": "Joueurs PSG",
-      "angle": "Portrait du moment",
-      "dateTime": "2026-09-22T13:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/desire-doue-psg-classique-marseille-passe-decisive-role/",
-      "summary": "Une passe décisive pour Ferran, beaucoup d'initiatives et une place retrouvée dans le onze : Désiré Doué a donné au PSG un point d'appui décisif à Marseille. Son match raconte aussi ce qu'il lui reste à maîtriser.",
-      "keywords": [
-        "Désiré Doué PSG",
-        "Doué OM PSG",
-        "passe décisive Doué",
-        "joueurs PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - Marseille 1-2 Paris",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-          "note": "Chronologie et statistique de la passe décisive."
-        },
-        {
-          "name": "PSG.fr - avant le Classique",
-          "url": "https://www.psg.fr/content/90-minutes-avant-le-classique-olympique-de-marseille-paris-saint-germain-ligue-1-2026-2027",
-          "note": "Composition officielle et position de Doué au départ."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Contexte de la concurrence offensive."
         }
       ]
     }

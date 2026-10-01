@@ -333,6 +333,9 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-01", "1er octobre 2026", [
+  { id: "psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026", time: "12:00", category: "Féminines", title: "PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus", summary: "Le PSG féminin reçoit l'OH Louvain ce jeudi à 21h pour la 2e journée de Ligue des champions. Le club a confirmé que cette affiche se jouera au Campus PSG, à Poissy, après le nul solide ramené du Real Madrid. Un rendez-vous déjà important : Paris peut transformer son premier point européen en véritable élan avant le retour de la Première Ligue.", source: "PSG.fr", url: "https://www.psg.fr/content/le-programme-de-la-2e-journee-de-luefa-womens-champions-league-paris-saint-germain-oh-louvain-feminines-20262027", reliability: "Officiel", viral: 82 },
+  ]),
   ...withNewsDate("2026-09-29", "29 septembre 2026", [
   { id: "hakimi-maroc-victoire-lesotho-can-septembre-2026", time: "23:00", category: "Sélections", title: "Hakimi reprend avec le Maroc : entrée et victoire au Lesotho", summary: "Le Maroc s'est imposé 2-0 face au Lesotho lors de la 2e journée des éliminatoires de la CAN 2027. Remplaçant au coup d'envoi, Achraf Hakimi est entré à la 69e minute pour accompagner le succès des Lions de l'Atlas, signé Brahim Diaz puis Azzedine Ounahi. Après sa récente gêne à la cuisse avec le PSG, cette apparition offre un repère positif, sans préjuger de son statut au retour de trêve.", source: "PSG.fr", url: "https://www.psg.fr/content/achraf-hakimi-et-le-maroc-lemportent-face-au-lesotho-paris-saint-germain-selections-20262027", reliability: "Officiel", viral: 87 },
   ]),

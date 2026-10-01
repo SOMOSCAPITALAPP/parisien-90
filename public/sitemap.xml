@@ -193,6 +193,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://parisien90.com/news/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://parisien90.com/news/hakimi-maroc-victoire-lesotho-can-septembre-2026/</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -971,6 +977,24 @@
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/luis-enrique-mika-godts-travail-sans-ballon-psg/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/godts-doue-akliouche-dembele-belgique-france-psg/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/dossiers-psg/mercato-psg-hierarchie-offensive-apres-ete-2026/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://parisien90.com/dossiers-psg/fabian-ruiz-psg-real-madrid-rumeur-transfert-decryptee/</loc>
