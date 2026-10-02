@@ -323,7 +323,7 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-09-30T12:00:00+02:00",
+  updatedAt: "2026-10-02T12:00:00+02:00",
   edition: "Fil PSG du 28 septembre 2026",
   displayDate: "28 septembre 2026",
   displayTime: "23h00",
@@ -334,6 +334,7 @@ const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, da
 
 export const newsFeed = [
   ...withNewsDate("2026-10-01", "1er octobre 2026", [
+  { id: "psg-oh-louvain-victoire-feller-double-passes-octobre-2026", time: "23:00", category: "Féminines", title: "PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0", summary: "Le PSG féminin a surclassé l'OH Louvain 5-0 au Campus PSG pour décrocher ses trois premiers points en Ligue des champions. Rasheedat Ajibade a lancé la soirée, puis Naomie Feller a signé un doublé avant de servir Sakina Karchaoui ; Yayá a scellé le festival. Avec deux buts et deux passes décisives, Feller a été au cœur d'une démonstration collective qui propulse les Parisiennes après le nul obtenu à Madrid.", source: "PSG.fr", url: "https://www.psg.fr/en/content/feller-stars-as-paris-trounce-ohl-match-report-paris-saint-germain-oh-louvain-uefa-womens-champions-league-ligue-2026-2027", reliability: "Officiel — compte rendu", viral: 96 },
   { id: "psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026", time: "12:00", category: "Féminines", title: "PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus", summary: "Le PSG féminin reçoit l'OH Louvain ce jeudi à 21h pour la 2e journée de Ligue des champions. Le club a confirmé que cette affiche se jouera au Campus PSG, à Poissy, après le nul solide ramené du Real Madrid. Un rendez-vous déjà important : Paris peut transformer son premier point européen en véritable élan avant le retour de la Première Ligue.", source: "PSG.fr", url: "https://www.psg.fr/content/le-programme-de-la-2e-journee-de-luefa-womens-champions-league-paris-saint-germain-oh-louvain-feminines-20262027", reliability: "Officiel", viral: 82 },
   ]),
   ...withNewsDate("2026-09-29", "29 septembre 2026", [

@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-30T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 131 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 36 articles de fond sous /dossiers-psg/. À suivre : PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-02T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 132 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 36 articles de fond sous /dossiers-psg/. À suivre : PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0 ; PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0",
+      "category": "Féminines",
+      "dateTime": "2026-10-01T23:00:00+02:00",
+      "url": "https://parisien90.com/news/psg-oh-louvain-victoire-feller-double-passes-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/feller-stars-as-paris-trounce-ohl-match-report-paris-saint-germain-oh-louvain-uefa-womens-champions-league-ligue-2026-2027",
+      "reliability": "Officiel — compte rendu"
+    },
     {
       "title": "PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus",
       "category": "Féminines",
@@ -460,15 +469,6 @@
       "url": "https://parisien90.com/news/elisa-de-almeida-arsenal-transfert-officiel-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/elisa-de-almeida-rejoint-arsenal-psg-news-mercato-feminines-women-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0",
-      "category": "Féminines",
-      "dateTime": "2026-09-05T21:15:00+02:00",
-      "url": "https://parisien90.com/news/psg-feminin-lens-victoire-premiere-ligue-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/paris-simpose-a-lens-pour-ses-debuts-en-championnat-cr-rc-lens-paris-saint-germain-arkema-premiere-ligue-2026-2027",
       "reliability": "Officiel"
     }
   ],
@@ -2684,7 +2684,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-30T12:00:00+02:00",
+    "updatedAt": "2026-10-02T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
