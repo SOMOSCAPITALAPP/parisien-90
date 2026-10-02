@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-10-02T20:30:00+02:00",
-    "freshnessNote": "Fil PSG du 2 octobre 2026. Fil public : 132 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 39 articles de fond sous /dossiers-psg/. À suivre : Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne ; PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 2 octobre 2026. Fil public : 133 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 39 articles de fond sous /dossiers-psg/. À suivre : Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne ; PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0 ; PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -209,6 +209,15 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
       "reliability": "Officiel"
+    },
+    {
+      "title": "PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0",
+      "category": "Féminines",
+      "dateTime": "2026-10-01T23:00:00+02:00",
+      "url": "https://parisien90.com/news/psg-oh-louvain-victoire-feller-double-passes-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/en/content/feller-stars-as-paris-trounce-ohl-match-report-paris-saint-germain-oh-louvain-uefa-womens-champions-league-ligue-2026-2027",
+      "reliability": "Officiel — compte rendu"
     },
     {
       "title": "PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus",
@@ -461,15 +470,6 @@
       "source": "L'Équipe / CulturePSG",
       "sourceUrl": "https://www.culturepsg.com/news/match/la-ligue-des-champions-la-defense-febrile-yaya-toure-etc-la-conf-complete-de-luis-enrique-avant-psg-bratislava/60661",
       "reliability": "Fort — groupe et conférence recoupés"
-    },
-    {
-      "title": "Elisa De Almeida rejoint Arsenal : cinq saisons parisiennes se referment",
-      "category": "Mercato",
-      "dateTime": "2026-09-06T11:00:00+02:00",
-      "url": "https://parisien90.com/news/elisa-de-almeida-arsenal-transfert-officiel-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/elisa-de-almeida-rejoint-arsenal-psg-news-mercato-feminines-women-2026-2027",
-      "reliability": "Officiel"
     }
   ],
   "people": [
