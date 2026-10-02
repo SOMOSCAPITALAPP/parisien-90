@@ -1,12 +1,192 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-10-01T07:30:00+02:00",
-  displayDate: "1er octobre 2026",
-  displayTime: "07h30",
+  updatedAt: "2026-10-02T20:30:00+02:00",
+  displayDate: "2 octobre 2026",
+  displayTime: "20h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "mercato-psg-janvier-2027-attaquant-priorite-rumeurs",
+    title: "Mercato PSG janvier 2027 : Paris a-t-il vraiment besoin d'un nouvel attaquant ?",
+    description: "Le PSG est déjà associé à plusieurs pistes pour janvier 2027. Besoin sportif, hiérarchie offensive et fiabilité des rumeurs : l'analyse complète.",
+    deck: "Le marché d'hiver n'est pas encore ouvert, mais les noms circulent déjà. Avant de transformer chaque piste en feuilleton, il faut poser la seule question utile : quel problème précis le PSG chercherait-il à résoudre ?",
+    category: "Mercato PSG",
+    angle: "Analyse des besoins et niveau de fiabilité",
+    date: "2026-10-02",
+    dateLabel: "2 octobre 2026",
+    time: "20:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Le Parc des Princes pour une analyse du mercato PSG de janvier 2027",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG janvier 2027", "transfert PSG", "attaquant PSG", "rumeur PSG", "effectif PSG"],
+    sections: [
+      { heading: "Le fait : Paris surveille le marché, mais aucune recrue hivernale n'est annoncée", paragraphs: [
+        "Le mercato d'été s'est fermé avec un PSG profondément remodelé et une attaque déjà dense. Depuis, plusieurs articles évoquent la possibilité d'un ajustement offensif en janvier. Le signal le plus solide reste ancien et général : L'Équipe expliquait début septembre que Paris avait cherché un attaquant supplémentaire dans les derniers jours du marché et pouvait reporter cette réflexion à l'hiver. Cela ne constitue ni une négociation ouverte ni la confirmation d'une cible précise.",
+        "Au 2 octobre, aucun communiqué du PSG ne présente le recrutement d'un attaquant comme une décision. Aucun accord, examen médical ou déplacement n'est établi. Les noms apparus depuis sur des sites spécialisés doivent donc être classés comme des pistes à vérifier. La nuance est essentielle : un besoin étudié par une direction sportive ne signifie pas qu'une opération aura lieu. Le calendrier, les blessures, la progression des recrues et la forme des jeunes peuvent encore modifier entièrement le diagnostic avant janvier."
+      ] },
+      { heading: "Une ligne offensive déjà riche et des fonctions qui se chevauchent", paragraphs: [
+        "L'effectif officiel permet de comprendre pourquoi Paris ne peut pas recruter par réflexe. Dembélé apporte la création et l'imprévisibilité, Kvaratskhelia le duel côté gauche, Doué la conduite entre les lignes, Ferran Torres la présence dans la surface, Akliouche la liaison et Godts une menace de débordement. À ces profils s'ajoutent les jeunes susceptibles de gagner des minutes. Le problème n'est donc pas le nombre brut d'attaquants, mais la répartition de leurs fonctions.",
+        "Un nouveau joueur n'aurait de sens que s'il offre une qualité rare dans le groupe : profondeur constante, fixation dos au but, jeu aérien, volume défensif ou capacité à occuper seul la surface. Recruter un autre créateur de couloir sans départ pourrait seulement déplacer la concurrence. Le PSG doit éviter le marché de prestige, où le nom paraît plus important que le rôle. Dans le modèle de Luis Enrique, la compatibilité avec le pressing et les permutations compte autant que les statistiques individuelles."
+      ] },
+      { heading: "Octobre servira de test grandeur nature", paragraphs: [
+        "Le calendrier officiel propose une séquence idéale pour évaluer le besoin réel. Le Mans, Manchester City, Strasbourg, Barcelone, Lyon puis Le Havre obligeront Paris à changer de rythme, de hauteur de bloc et de type d'attaque. Face aux équipes qui défendent bas, la présence dans la surface sera observée. Contre City ou Barcelone, la capacité à sortir sous pression et à attaquer l'espace comptera davantage. Un seul profil ne répond pas forcément à ces deux problèmes.",
+        "Cette série donnera aussi des informations sur la rotation. Si Ferran confirme dans l'axe, si Doué et Akliouche créent régulièrement, et si Godts gagne en constance, la priorité hivernale peut disparaître. À l'inverse, une dépendance excessive à Dembélé ou Kvaratskhelia rendrait le sujet plus urgent. Le mercato intelligent commence par l'observation des matches, pas par l'accumulation de listes. Octobre doit produire des réponses sportives avant que janvier ne produise des rumeurs."
+      ] },
+      { heading: "Pourquoi les pistes à bas prix doivent être traitées avec prudence", paragraphs: [
+        "Des articles récents associent Paris à des joueurs jeunes ou supposés accessibles. Ce type de récit est séduisant : il correspond à l'image d'un PSG plus attentif au potentiel qu'au statut. Mais un prix annoncé comme faible ne dit rien du coût total, de la concurrence, des commissions, du salaire ou de la volonté du club vendeur. Il ne dit pas non plus si le joueur accepterait un rôle de rotation dans un vestiaire déjà chargé.",
+        "La bonne grille de lecture comporte quatre étapes. Premièrement, identifier la source initiale plutôt que le site qui la relaie. Deuxièmement, vérifier l'existence d'un contact ou d'une offre. Troisièmement, comparer le profil à l'effectif actuel. Quatrièmement, attendre un signal concret du joueur ou des clubs. Sans ces éléments, une piste reste une hypothèse de marché. Parisien 90 peut l'analyser, mais ne doit jamais la transformer en arrivée probable."
+      ] },
+      { heading: "Le vrai arbitrage : recruter, promouvoir ou attendre l'été", paragraphs: [
+        "Janvier impose une difficulté particulière. Les meilleurs joueurs sont rarement disponibles, les clubs vendeurs ont peu de temps pour se remplacer et l'intégration doit se faire au milieu des compétitions. Une recrue moyenne peut coûter cher sans améliorer immédiatement l'équipe. Paris possède donc trois options : acheter un profil immédiatement utile, promouvoir un jeune, ou conserver ses moyens pour un dossier plus structurant l'été suivant.",
+        "La promotion interne n'est pas une solution décorative. Elle permet de vérifier si un joueur du groupe peut assumer dix ou quinze minutes importantes, puis une titularisation ciblée. Mais elle demande une vraie planification. À l'inverse, attendre l'été n'est pas un aveu de faiblesse si l'effectif reste compétitif. Le PSG doit choisir selon le niveau de risque sportif, notamment en Ligue des champions, et non selon la pression médiatique entourant chaque fenêtre de transferts."
+      ] },
+      { heading: "Notre verdict : une veille active, aucune urgence artificielle", paragraphs: [
+        "Le PSG a de bonnes raisons de surveiller un attaquant capable d'apporter profondeur et efficacité. Il n'a pas encore de raison publique de déclencher une opération. La profondeur de l'effectif, la séquence d'octobre et la polyvalence de plusieurs joueurs offrent du temps. Le dossier doit donc être classé en analyse de besoin, avec une veille active sur les profils réellement complémentaires.",
+        "Trois signaux peuvent faire évoluer ce verdict : une blessure longue, une difficulté répétée contre les blocs bas ou une occasion de marché exceptionnelle. Sans l'un de ces événements, recruter pour répondre au bruit serait une erreur. Le mercato PSG de janvier 2027 ne doit pas devenir une collection de noms. Il doit rester la conséquence d'un problème observé, mesuré et impossible à résoudre avec le groupe actuel."
+      ] }
+    ],
+    faq: [
+      { question: "Le PSG va-t-il recruter un attaquant en janvier 2027 ?", answer: "Aucune arrivée n'est confirmée. La presse a évoqué une réflexion offensive, mais le besoin dépendra des performances, des blessures et des opportunités réelles." },
+      { question: "Quelles qualités Paris pourrait-il rechercher ?", answer: "Un profil complémentaire capable d'attaquer la profondeur, d'occuper la surface ou de peser dos au but aurait davantage de sens qu'un créateur supplémentaire." },
+      { question: "Comment reconnaître une rumeur PSG fiable ?", answer: "Il faut remonter à la source initiale, chercher un contact ou une offre vérifiable, puis distinguer clairement l'analyse d'une négociation établie." }
+    ],
+    sources: [
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif", note: "Composition officielle du groupe et profils offensifs disponibles." },
+      { name: "PSG.fr - calendrier 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Séquence d'octobre utilisée pour évaluer la profondeur du groupe." },
+      { name: "L'Équipe - un attaquant supplémentaire envisagé", url: "https://www.lequipe.fr/Football/Article/Mercato-malgre-ses-tentatives-de-derniere-minute-le-psg-devra-attendre-l-hiver-pour-s-offrir-un-attaquant-de-plus/1715316", note: "Signal de presse du 2 septembre sur une réflexion reportée à l'hiver, sans officialisation." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Ousmane Dembélé", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "neymar-santos-2026-bilan-heritage-psg",
+    title: "Neymar en 2026 : ce que son retour à Santos change dans l'héritage laissé au PSG",
+    description: "Neymar joue encore à Santos en 2026. Contrat, statistiques publiques et héritage parisien : un bilan sourcé, sans nostalgie facile.",
+    deck: "À 34 ans, Neymar a choisi de prolonger avec Santos jusqu'à la fin de 2026. Sa trajectoire actuelle ne réécrit pas ses années parisiennes, mais elle aide à mieux comprendre ce que le PSG a gagné, perdu et conservé de son passage.",
+    category: "Anciens joueurs PSG",
+    angle: "Que devient Neymar ?",
+    date: "2026-10-02",
+    dateLabel: "2 octobre 2026",
+    time: "20:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Ambiance de stade pour un dossier sur Neymar, Santos et son héritage au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Neymar PSG", "Neymar Santos 2026", "ancien joueur PSG", "Neymar aujourd'hui", "Brésiliens PSG"],
+    sections: [
+      { heading: "Le fait actuel : Neymar est sous contrat avec Santos jusqu'à la fin de 2026", paragraphs: [
+        "Santos a officialisé le 6 janvier la prolongation de Neymar jusqu'au terme de la saison 2026. Le club présente ce choix comme une étape de son projet de reconstruction et rappelle que l'attaquant était revenu dans son club formateur au début de 2025. La situation est donc claire : au 2 octobre, Neymar appartient à Santos. Les spéculations sur un nouveau départ doivent être séparées de ce contrat public.",
+        "La Confédération brésilienne de football le répertorie toujours comme joueur de Santos et affiche, dans sa fiche 2026, 17 apparitions et six buts. Ces données publiques fournissent un repère, mais ne racontent ni la qualité de chaque performance ni l'ensemble de son état physique. Elles montrent surtout qu'il ne faut pas parler de Neymar comme d'un ancien joueur retiré : sa carrière de club continue, dans un environnement où son histoire personnelle pèse presque autant que son rendement."
+      ] },
+      { heading: "Santos lui offre ce que Paris ne pouvait plus lui donner", paragraphs: [
+        "À Santos, Neymar n'est pas une star étrangère venue accélérer un projet. Il est le produit de la maison, un symbole culturel et un capitaine affectif. Cette différence change la lecture de ses choix. Les attentes restent immenses, mais elles s'inscrivent dans un récit de retour, de transmission et de reconstruction. Chaque but rejoint une mémoire déjà ancienne ; chaque absence devient aussi un sujet national.",
+        "Le PSG, lui, avait besoin que Neymar soit disponible au sommet du calendrier européen. À Paris, l'évaluation passait par les huitièmes, quarts et demi-finales de Ligue des champions, souvent sur quelques semaines décisives. À Santos, l'utilité peut aussi se mesurer dans l'attractivité, la formation des jeunes et la capacité à redonner confiance à un club. Comparer directement les deux contextes serait donc trompeur. Le joueur est le même nom, mais pas la même fonction institutionnelle."
+      ] },
+      { heading: "Son passage au PSG reste un accélérateur historique", paragraphs: [
+        "Le transfert de 2017 a changé la dimension du PSG. Neymar a placé Paris au centre du marché mondial, augmenté l'audience du club au Brésil et donné à la Ligue 1 une visibilité qu'elle n'avait jamais connue à cette échelle. Son influence dépasse les buts : il a rendu chaque match, entraînement, blessure et déclaration potentiellement mondial. Le PSG a appris avec lui ce que signifie gérer une célébrité footballistique permanente.",
+        "Cette accélération a eu un prix. Le projet s'est parfois trouvé résumé à la santé ou à l'humeur d'un seul joueur. L'effectif a été construit autour d'une promesse de domination immédiate, et chaque élimination européenne a pris la forme d'un procès. Neymar n'est pas responsable de tout ce déséquilibre, mais son statut l'a rendu central. Son héritage est donc double : il a agrandi Paris tout en révélant les limites d'un club qui cherchait encore son équilibre collectif."
+      ] },
+      { heading: "Les blessures empêchent une lecture simple", paragraphs: [
+        "Réduire Neymar à ses indisponibilités serait injuste ; les ignorer serait faux. À Paris, plusieurs périodes de la saison se sont jouées sans lui, précisément lorsque la Ligue des champions entrait dans sa phase décisive. Cette répétition a nourri une frustration durable chez les supporters. Elle a aussi masqué la qualité de ses séquences disponibles : création, dribble, passes, buts et capacité à attirer plusieurs adversaires.",
+        "Son retour à Santos prolonge ce débat sur la gestion du corps. À 34 ans, la question n'est plus seulement de savoir s'il peut produire un geste exceptionnel. Elle est de savoir comment enchaîner, récupérer et choisir ses accélérations sur une saison complète. Les chiffres publics doivent être accompagnés de cette réalité. Une carrière tardive ne se juge pas à un montage de meilleures actions, mais à la répétition des minutes utiles."
+      ] },
+      { heading: "Le lien entre le PSG et le Brésil lui doit beaucoup", paragraphs: [
+        "Paris possédait déjà une histoire brésilienne immense avec Valdo, Raí, Leonardo, Ronaldinho, Alex, Thiago Silva, Marquinhos et tant d'autres. Neymar n'a pas créé ce lien. Il l'a rendu contemporain et massif. Pour une génération de jeunes supporters brésiliens, le PSG est devenu un club suivi chaque semaine, et non plus seulement la destination européenne de quelques compatriotes prestigieux.",
+        "Cette influence reste visible après son départ. Marquinhos porte la continuité sportive, les pages consacrées aux Brésiliens attirent une mémoire transgénérationnelle et Ronaldinho relie encore Paris au football de plaisir. Neymar occupe une place différente : celle du joueur qui a transformé l'audience. Le site brésilien de Parisien 90 doit raconter cette histoire sans idolâtrie ni règlement de comptes, avec des dates, des sources et une traduction culturelle adaptée."
+      ] },
+      { heading: "Notre lecture : ni échec total, ni légende incontestable", paragraphs: [
+        "Le passage de Neymar au PSG résiste aux verdicts faciles. Il n'a pas offert au club la domination européenne attendue au moment de son transfert, mais il a participé à une finale de Ligue des champions, produit des saisons de très haut niveau et changé la place de Paris dans le football mondial. Dire qu'il n'a rien réussi efface les faits ; en faire une réussite parfaite efface les blessures, les tensions et les occasions manquées.",
+        "Son année 2026 à Santos permet une lecture plus calme. Neymar appartient désormais à l'histoire du PSG et au présent d'un autre club. Paris peut reconnaître l'accélérateur qu'il a été tout en assumant que son meilleur équilibre collectif s'est construit plus tard. C'est peut-être la conclusion la plus juste : Neymar a rendu le PSG plus grand, mais le PSG a dû apprendre à devenir une grande équipe sans dépendre d'un seul Neymar."
+      ] }
+    ],
+    faq: [
+      { question: "Où joue Neymar en 2026 ?", answer: "Neymar joue à Santos. Le club a officialisé en janvier une prolongation jusqu'à la fin de la saison 2026." },
+      { question: "Combien de matches et de buts la CBF affiche-t-elle pour Neymar en 2026 ?", answer: "La fiche publique de la CBF consultée le 2 octobre affiche 17 matches et six buts pour l'année 2026." },
+      { question: "Neymar est-il une légende du PSG ?", answer: "Son influence mondiale et son talent sont incontestables, mais son statut reste débattu en raison des blessures et de l'absence de Ligue des champions remportée avec Paris." }
+    ],
+    sources: [
+      { name: "Santos FC - prolongation de Neymar", url: "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/", note: "Communiqué officiel du 6 janvier 2026 sur le contrat et le projet sportif." },
+      { name: "CBF - fiche Neymar 2026", url: "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791", note: "Club actuel et repères statistiques publics affichés pour 2026." },
+      { name: "Parisien 90 - fiche Neymar PSG", url: "/anciens-joueurs-psg/neymar/", note: "Repères parisiens et liens vers l'histoire des Brésiliens du club." }
+    ],
+    internalLinks: [
+      { label: "Neymar PSG", url: "/anciens-joueurs-psg/neymar/" },
+      { label: "Brésiliens du PSG", url: "/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/" },
+      { label: "Ronaldinho PSG", url: "/anciens-joueurs-psg/ronaldinho/" },
+      { label: "Histoire du PSG", url: "/histoire-psg/" },
+      { label: "Records PSG", url: "/records-psg/" }
+    ]
+  },
+  {
+    id: "parc-des-princes-octobre-2026-economie-stade-psg",
+    title: "Parc des Princes : pourquoi le marathon d'octobre relance l'équation économique du PSG",
+    description: "Trois matches à domicile en quinze jours, deux affiches mondiales et un stade au cœur du modèle économique : l'équation du Parc des Princes décryptée.",
+    deck: "Le Mans, Barcelone puis Lyon vont remplir l'agenda du Parc en octobre. Cette concentration rappelle que le stade n'est pas seulement un décor historique : il conditionne les recettes, l'expérience et une partie de l'avenir du PSG.",
+    category: "Économie du PSG",
+    angle: "Stade, billetterie et modèle économique",
+    date: "2026-10-02",
+    dateLabel: "2 octobre 2026",
+    time: "20:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Le Parc des Princes au cœur de l'économie du Paris Saint-Germain",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Parc des Princes PSG", "stade PSG", "économie PSG", "billetterie PSG", "PSG Barcelone"],
+    sections: [
+      { heading: "Trois soirées à domicile pour mesurer la puissance du Parc", paragraphs: [
+        "Le calendrier officiel place trois rencontres masculines au Parc des Princes entre le 10 et le 25 octobre : Le Mans en Ligue 1, Barcelone en Ligue des champions et Lyon en championnat. Cette séquence offre trois produits très différents. Le promu mesure la fidélité du public sur une affiche moins prestigieuse, Barcelone concentre la demande internationale, et Lyon mobilise l'histoire du championnat français.",
+        "Pour le PSG, ces matches ne valent pas seulement trois résultats. Ils activent la billetterie, l'hospitalité, la restauration, la boutique, les partenaires et la visibilité mondiale. Une soirée européenne attire des visiteurs qui consomment autrement qu'un abonné régulier. Une affiche nationale teste la capacité à maintenir le prix et le remplissage. Le stade devient ainsi un tableau de bord économique grandeur nature, où chaque siège produit une valeur différente selon le public et le service associé."
+      ] },
+      { heading: "La capacité limite mécaniquement les revenus", paragraphs: [
+        "Le Parc offre une rare intensité visuelle et sonore, mais sa capacité reste inférieure à celle de plusieurs grands concurrents européens. Quand une affiche comme PSG-Barcelone pourrait vendre beaucoup plus de places, la rareté augmente les prix et la valeur de l'hospitalité, sans supprimer la limite physique. Le club peut optimiser chaque siège ; il ne peut pas inventer des tribunes supplémentaires sans travaux majeurs.",
+        "Cette contrainte explique pourquoi le débat dépasse le confort. Les recettes de match deviennent cruciales dans un football où les droits audiovisuels français restent fragiles et où les règles financières européennes poussent les clubs à augmenter leurs revenus récurrents. Un stade plus grand ou profondément modernisé peut améliorer l'hospitalité et les événements hors match. Mais la capacité seule ne garantit rien : remplissage, accès, expérience, sécurité et programmation déterminent la rentabilité réelle."
+      ] },
+      { heading: "La Ville et le club discutent de patrimoine autant que de finance", paragraphs: [
+        "Un document adopté par le Conseil de Paris en avril 2026 rappelle l'attachement historique au Parc, l'impasse des discussions depuis 2023 et les montants déjà engagés ou envisagés. Le texte mentionne entre 75 et 100 millions d'euros de travaux passés et un projet d'agrandissement pouvant atteindre 500 millions. Il s'agit d'un vœu politique, pas d'un accord financier ni d'un permis de construire.",
+        "Cette distinction est essentielle. La Ville protège un actif patrimonial et l'identité urbaine du club. Le PSG cherche de la visibilité à long terme pour investir et exploiter l'enceinte. Un propriétaire peut amortir des travaux sur des décennies ; un locataire dépend du bail, des autorisations et du partage de la valeur créée. Le désaccord porte donc moins sur l'amour du Parc que sur le contrôle de l'investissement, du risque et des revenus futurs."
+      ] },
+      { heading: "Massy et Poissy restent des leviers, pas des stades déjà choisis", paragraphs: [
+        "Le même document municipal cite Poissy et Massy parmi les sites évoqués lorsque le départ est devenu une possibilité concrète. Cela ne signifie pas qu'un nouveau stade est décidé. Entre l'identification d'un terrain et l'ouverture d'une enceinte, il faut traiter le foncier, les transports, l'environnement, le financement, les recours et l'acceptabilité locale. Une annonce politique n'efface pas ces années de procédure.",
+        "Pour le PSG, conserver plusieurs options renforce la négociation. Pour les supporters, cette stratégie peut être vécue comme une menace sur l'identité. Les deux lectures peuvent être vraies simultanément. Un club mondial a besoin d'un outil économique plus puissant ; il ne peut pas considérer son ancrage comme une variable purement comptable. Le coût d'un déménagement inclut aussi la perte symbolique, les habitudes du public et le risque de diluer l'atmosphère."
+      ] },
+      { heading: "L'hospitalité et les jours sans match sont le vrai sujet", paragraphs: [
+        "Les discussions sur la capacité masquent souvent une source de valeur plus régulière : l'exploitation autour du match. Loges, salons, restauration premium, musée, visites, séminaires, événements et espaces commerciaux permettent à une enceinte de produire toute l'année. Pour un club dont la marque dépasse largement Paris, le stade peut devenir un lieu de destination plutôt qu'une porte ouverte seulement quelques heures avant le coup d'envoi.",
+        "Cette diversification réduit la dépendance au résultat sportif, sans la supprimer. Une mauvaise saison pèse toujours sur la demande mondiale, mais un équipement bien exploité stabilise davantage les revenus. Le PSG doit cependant préserver l'équilibre avec les supporters ordinaires. Une enceinte transformée uniquement en produit premium peut gagner par siège et perdre en atmosphère. Or cette atmosphère participe elle-même à la valeur télévisuelle et commerciale du club."
+      ] },
+      { heading: "Notre verdict : octobre montre l'urgence, pas la solution", paragraphs: [
+        "Le marathon d'octobre prouvera une nouvelle fois que le Parc des Princes sait accueillir des affiches mondiales avec une densité émotionnelle rare. Il montrera aussi ses limites : peu de sièges disponibles, une demande très différente selon les matches et une exploitation contrainte par le statut de l'enceinte. Ces constats justifient une décision de long terme, mais ne désignent pas automatiquement la bonne option.",
+        "La solution peut passer par un accord durable au Parc, un montage permettant des travaux lourds, ou un nouveau stade si les conditions économiques, urbaines et populaires sont réunies. Ce qui n'est plus crédible, c'est l'attente sans calendrier. Le PSG ne peut pas construire son modèle jusqu'en 2040 avec une visibilité annuelle. La Ville ne peut pas non plus traiter le club comme un locataire ordinaire. Octobre rappelle la valeur du lieu ; il doit aussi rappeler le prix de l'indécision."
+      ] }
+    ],
+    faq: [
+      { question: "Quels matches le PSG joue-t-il au Parc en octobre 2026 ?", answer: "Le calendrier officiel programme Paris-Le Mans le 10 octobre, Paris-Barcelone le 20 et Paris-Lyon le 25." },
+      { question: "Pourquoi le PSG veut-il davantage de contrôle sur son stade ?", answer: "Pour sécuriser les investissements lourds, développer l'hospitalité et les activités hors match, et augmenter des revenus récurrents." },
+      { question: "Le PSG a-t-il décidé de quitter le Parc des Princes ?", answer: "Aucune décision définitive n'est établie dans les sources utilisées. Massy et Poissy ont été évoqués, tandis que le débat avec la Ville reste ouvert." }
+    ],
+    sources: [
+      { name: "PSG.fr - calendrier 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Dates des rencontres d'octobre au Parc des Princes." },
+      { name: "Conseil de Paris - vœu 2026 V.22", url: "https://a06-v7.apps.paris.fr/a06/jsp/site/plugins/solr/modules/ods/DoDownload.jsp?id_document=184739&items_per_page=20", note: "Document public sur le maintien du PSG au Parc, les négociations et les ordres de grandeur des travaux." },
+      { name: "Parisien 90 - dossier futur stade", url: "/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/", note: "Contexte éditorial complémentaire sur les différents scénarios." }
+    ],
+    internalLinks: [
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Histoire du PSG", url: "/histoire-psg/" },
+      { label: "Records PSG", url: "/records-psg/" },
+      { label: "Futur stade du PSG", url: "/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "michael-olise-psg-rumeur-mercato-contrat-bayern",
     title: "Michael Olise au PSG : pourquoi le dossier est séduisant, mais pas ouvert",

@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-09-30T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 28 septembre 2026. Fil public : 131 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 36 articles de fond sous /dossiers-psg/. À suivre : PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley ; Godts frappe déjà avec la Belgique : premier but chez les Diables face à l'Italie. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-02T20:30:00+02:00",
+    "freshnessNote": "Fil PSG du 2 octobre 2026. Fil public : 132 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 39 articles de fond sous /dossiers-psg/. À suivre : Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne ; PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho ; Belgique-France : Doué, Dembélé et Godts dans une soirée qui tourne pour les Bleus ; Angleterre-Espagne : Fabián Ruiz et Ferran Torres gagnent le bras de fer à Wembley. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne",
+      "category": "Calendrier",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "url": "https://parisien90.com/news/psg-octobre-2026-calendrier-city-barcelone-rotation/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+      "reliability": "Officiel"
+    },
     {
       "title": "PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus",
       "category": "Féminines",
@@ -460,15 +469,6 @@
       "url": "https://parisien90.com/news/elisa-de-almeida-arsenal-transfert-officiel-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/elisa-de-almeida-rejoint-arsenal-psg-news-mercato-feminines-women-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Lens-PSG féminin : Ajibade lance la saison, Paris s'impose 2-0",
-      "category": "Féminines",
-      "dateTime": "2026-09-05T21:15:00+02:00",
-      "url": "https://parisien90.com/news/psg-feminin-lens-victoire-premiere-ligue-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/paris-simpose-a-lens-pour-ses-debuts-en-championnat-cr-rc-lens-paris-saint-germain-arkema-premiere-ligue-2026-2027",
       "reliability": "Officiel"
     }
   ],
@@ -1934,6 +1934,102 @@
   },
   "editorialArticles": [
     {
+      "title": "Mercato PSG janvier 2027 : Paris a-t-il vraiment besoin d'un nouvel attaquant ?",
+      "category": "Mercato PSG",
+      "angle": "Analyse des besoins et niveau de fiabilité",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-attaquant-priorite-rumeurs/",
+      "summary": "Le marché d'hiver n'est pas encore ouvert, mais les noms circulent déjà. Avant de transformer chaque piste en feuilleton, il faut poser la seule question utile : quel problème précis le PSG chercherait-il à résoudre ?",
+      "keywords": [
+        "mercato PSG janvier 2027",
+        "transfert PSG",
+        "attaquant PSG",
+        "rumeur PSG",
+        "effectif PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle du groupe et profils offensifs disponibles."
+        },
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence d'octobre utilisée pour évaluer la profondeur du groupe."
+        },
+        {
+          "name": "L'Équipe - un attaquant supplémentaire envisagé",
+          "url": "https://www.lequipe.fr/Football/Article/Mercato-malgre-ses-tentatives-de-derniere-minute-le-psg-devra-attendre-l-hiver-pour-s-offrir-un-attaquant-de-plus/1715316",
+          "note": "Signal de presse du 2 septembre sur une réflexion reportée à l'hiver, sans officialisation."
+        }
+      ]
+    },
+    {
+      "title": "Neymar en 2026 : ce que son retour à Santos change dans l'héritage laissé au PSG",
+      "category": "Anciens joueurs PSG",
+      "angle": "Que devient Neymar ?",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/neymar-santos-2026-bilan-heritage-psg/",
+      "summary": "À 34 ans, Neymar a choisi de prolonger avec Santos jusqu'à la fin de 2026. Sa trajectoire actuelle ne réécrit pas ses années parisiennes, mais elle aide à mieux comprendre ce que le PSG a gagné, perdu et conservé de son passage.",
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "ancien joueur PSG",
+        "Neymar aujourd'hui",
+        "Brésiliens PSG"
+      ],
+      "sources": [
+        {
+          "name": "Santos FC - prolongation de Neymar",
+          "url": "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/",
+          "note": "Communiqué officiel du 6 janvier 2026 sur le contrat et le projet sportif."
+        },
+        {
+          "name": "CBF - fiche Neymar 2026",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
+          "note": "Club actuel et repères statistiques publics affichés pour 2026."
+        },
+        {
+          "name": "Parisien 90 - fiche Neymar PSG",
+          "url": "/anciens-joueurs-psg/neymar/",
+          "note": "Repères parisiens et liens vers l'histoire des Brésiliens du club."
+        }
+      ]
+    },
+    {
+      "title": "Parc des Princes : pourquoi le marathon d'octobre relance l'équation économique du PSG",
+      "category": "Économie du PSG",
+      "angle": "Stade, billetterie et modèle économique",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/parc-des-princes-octobre-2026-economie-stade-psg/",
+      "summary": "Le Mans, Barcelone puis Lyon vont remplir l'agenda du Parc en octobre. Cette concentration rappelle que le stade n'est pas seulement un décor historique : il conditionne les recettes, l'expérience et une partie de l'avenir du PSG.",
+      "keywords": [
+        "Parc des Princes PSG",
+        "stade PSG",
+        "économie PSG",
+        "billetterie PSG",
+        "PSG Barcelone"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates des rencontres d'octobre au Parc des Princes."
+        },
+        {
+          "name": "Conseil de Paris - vœu 2026 V.22",
+          "url": "https://a06-v7.apps.paris.fr/a06/jsp/site/plugins/solr/modules/ods/DoDownload.jsp?id_document=184739&items_per_page=20",
+          "note": "Document public sur le maintien du PSG au Parc, les négociations et les ordres de grandeur des travaux."
+        },
+        {
+          "name": "Parisien 90 - dossier futur stade",
+          "url": "/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/",
+          "note": "Contexte éditorial complémentaire sur les différents scénarios."
+        }
+      ]
+    },
+    {
       "title": "Michael Olise au PSG : pourquoi le dossier est séduisant, mais pas ouvert",
       "category": "Mercato PSG",
       "angle": "Rumeur, contrat et cohérence économique",
@@ -2531,105 +2627,19 @@
           "note": "Feuille de match officielle et changements lors de la victoire à Marseille."
         }
       ]
-    },
-    {
-      "title": "OM-PSG 1-2 : comment Ferran et Akliouche ont déplacé le centre de gravité du match",
-      "category": "Tactique PSG",
-      "angle": "Après-match structurel",
-      "dateTime": "2026-09-25T14:15:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/om-psg-1-2-ferran-akliouche-bascule-tactique/",
-      "summary": "Paris avait le ballon et les tirs, Marseille avait l'avantage. Les changements de Luis Enrique ont rendu la domination plus dangereuse : Ferran a attaqué la zone décisive, Akliouche a rapproché les lignes, puis Marquinhos a fait basculer le Classique.",
-      "keywords": [
-        "OM PSG 1-2",
-        "tactique PSG",
-        "Ferran Torres PSG",
-        "Akliouche PSG",
-        "composition PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - feuille de match OM-PSG",
-          "url": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-          "note": "Score, compositions, remplacements et chronologie officiels."
-        },
-        {
-          "name": "PSG.fr - statistiques et faits du Classique",
-          "url": "https://www.psg.fr/content/stats-facts-olympique-de-marseille-paris-saint-germain-le-classique-ligue-1-2026-2027",
-          "note": "Données officielles sur la possession, les tirs et le contexte historique."
-        },
-        {
-          "name": "CulturePSG - performances individuelles",
-          "url": "https://www.culturepsg.com/news/match/om-psg-1-2-les-performances-individuelles/60857",
-          "note": "Lecture complémentaire des performances parisiennes."
-        }
-      ]
-    },
-    {
-      "title": "Luis Enrique au PSG jusqu'en 2030 : sa rotation permanente peut-elle devenir la nouvelle norme ?",
-      "category": "Entraîneurs PSG",
-      "angle": "Méthode et management",
-      "dateTime": "2026-09-24T14:53:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/luis-enrique-psg-2030-rotation-methode/",
-      "summary": "Sept matches, sept onze différents : le PSG ne cache plus sa révolution interne. Derrière la rotation, Luis Enrique cherche moins à brouiller les pistes qu'à empêcher son équipe de s'installer dans le confort.",
-      "keywords": [
-        "Luis Enrique PSG",
-        "entraîneur PSG",
-        "rotation PSG",
-        "composition PSG",
-        "staff PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - prolongations et continuité",
-          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
-          "note": "Annonce officielle du contrat de Luis Enrique jusqu'en 2030 et des prolongations de joueurs."
-        },
-        {
-          "name": "CulturePSG - la rotation de Luis Enrique",
-          "url": "https://www.culturepsg.com/fr/news/match/luis-enrique-a-hausse-un-curseur-pour-sa-4eme-saison-au-psg/60840",
-          "note": "Données de compositions et contexte sportif au 20 septembre 2026."
-        },
-        {
-          "name": "PSG.fr - calendrier officiel",
-          "url": "https://www.psg.fr/football-masculin/calendrier",
-          "note": "Résultats et contexte des rencontres officielles."
-        }
-      ]
-    },
-    {
-      "title": "Effectif PSG : 19 internationaux dispersés, le vrai test commence au retour de la trêve",
-      "category": "Joueurs PSG",
-      "angle": "Forme et disponibilité",
-      "dateTime": "2026-09-24T14:53:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/effectif-psg-19-internationaux-treve-septembre-2026/",
-      "summary": "De la France au Brésil, du Portugal à l'Équateur, presque tout le vestiaire parisien part en sélection. Le prestige est immense, mais le retour au Campus sera une course contre la fatigue et les décalages horaires.",
-      "keywords": [
-        "effectif PSG",
-        "joueurs PSG",
-        "internationaux PSG",
-        "Dembélé PSG",
-        "João Neves PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - programme des internationaux",
-          "url": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
-          "note": "Liste officielle des dix-neuf joueurs et calendrier des sélections."
-        },
-        {
-          "name": "PSG.fr - effectif masculin 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Référence officielle pour les joueurs de l'équipe première."
-        },
-        {
-          "name": "Parisien 90 - calendrier PSG",
-          "url": "/calendrier-psg/",
-          "note": "Contexte des rencontres avant et après la trêve."
-        }
-      ]
     }
   ],
   "brazilNews": [
+    {
+      "title": "Outubro do PSG: City, Barcelona e seis jogos para testar todo o elenco",
+      "category": "Calendário",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-octobre-2026-calendrier-city-barcelone-rotation/",
+      "frenchUrl": "https://parisien90.com/news/psg-octobre-2026-calendrier-city-barcelone-rotation/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+      "reliability": "Oficial"
+    },
     {
       "title": "PSG-OH Leuven: Paris recebe a campeã belga em noite europeia no Campus",
       "category": "Féminines",
@@ -2684,7 +2694,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-09-30T12:00:00+02:00",
+    "updatedAt": "2026-10-02T20:30:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
@@ -2694,9 +2704,9 @@
         "competition": "Ligue 1",
         "home": "Paris Saint-Germain",
         "away": "Le Mans FC",
-        "status": "Horaire à confirmer",
-        "source": null,
-        "sourceUrl": null
+        "status": "Programmé",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
       },
       {
         "date": "2026-10-14",
@@ -2712,9 +2722,9 @@
         "competition": "Ligue 1",
         "home": "RC Strasbourg",
         "away": "Paris Saint-Germain",
-        "status": "Horaire à confirmer",
-        "source": null,
-        "sourceUrl": null
+        "status": "Programmé",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
       },
       {
         "date": "2026-10-20",
@@ -2735,13 +2745,13 @@
         "sourceUrl": null
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-10-30",
         "competition": "Ligue 1",
         "home": "Le Havre AC",
         "away": "Paris Saint-Germain",
-        "status": "Horaire à confirmer",
-        "source": null,
-        "sourceUrl": null
+        "status": "Programmé",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
       },
       {
         "date": "2026-11-03",

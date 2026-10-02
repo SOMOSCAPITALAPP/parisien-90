@@ -1388,6 +1388,69 @@ const brReliabilityLabel = (value) =>
 
 const brStoryTranslations = [
   {
+    id: "psg-octobre-2026-calendrier-city-barcelone-rotation",
+    title: "Outubro do PSG: City, Barcelona e seis jogos para testar todo o elenco",
+    summary: "O calendário oficial marca seis partidas entre 10 e 30 de outubro: Le Mans, Manchester City, Strasbourg, Barcelona, Lyon e Le Havre. A sequência mistura quatro rodadas da Ligue 1 e duas noites de Liga dos Campeões, exigindo rotação sem perda de identidade.",
+    sections: [
+      {
+        title: "Seis jogos em vinte dias mudam o ritmo da temporada",
+        paragraphs: [
+          "O PSG volta da pausa internacional para uma sequência que vale mais do que uma simples soma de partidas. Entre 10 e 30 de outubro, Paris enfrenta Le Mans, Manchester City, Strasbourg, Barcelona, Lyon e Le Havre. O calendário oficial do clube confirma quatro compromissos pela Ligue 1 e dois pela Liga dos Campeões. É o primeiro bloco da temporada em que Luis Enrique precisará alternar preparação curta, viagens, recuperação e decisões de escalação quase sem espaço para corrigir erros no treinamento.",
+          "A densidade não é igual em todos os momentos. Há quatro dias entre Le Mans e City, apenas três até Strasbourg e mais três até o Barcelona. Depois, o elenco ganha cinco dias antes do Lyon e outros cinco até Le Havre. Isso significa que o trecho central, entre 10 e 20 de outubro, concentra o maior risco físico. O PSG não poderá tratar os jogos nacionais como intervalo da Europa, porque pontos perdidos agora aumentariam a pressão sobre novembro e dezembro."
+        ]
+      },
+      {
+        title: "Le Mans é o começo, não um aquecimento descartável",
+        paragraphs: [
+          "A partida contra o Le Mans, no Parc des Princes, abre o mês competitivo do PSG. No papel, o favoritismo parisiense é evidente. Na prática, o jogo chega logo depois de uma janela de seleções que espalhou muitos atletas pelo mundo. Alguns voltam com minutos acumulados, outros com viagens longas, e poucos terão uma semana completa de trabalho coletivo. Esse contexto transforma uma estreia aparentemente confortável em teste de concentração e de profundidade do elenco.",
+          "Luis Enrique pode usar a partida para distribuir minutos, mas rotação não deve significar improvisação. O time precisa manter pressão coordenada, boa ocupação dos corredores e proteção contra contra-ataques. Uma vitória controlada permitiria chegar a Manchester com confiança e pernas mais frescas. Uma atuação desorganizada obrigaria os titulares a jogar mais do que o previsto e criaria dúvidas antes da primeira grande viagem europeia do mês."
+        ]
+      },
+      {
+        title: "Manchester City mede a capacidade de sobreviver sem abandonar a bola",
+        paragraphs: [
+          "O duelo no Etihad Stadium, em 14 de outubro, é a primeira prova mundial da sequência. Contra o Manchester City, o PSG será pressionado na saída, terá menos tempo para decidir e precisará escolher os momentos de acelerar. Não basta defender perto da própria área. A equipe parisiense foi construída para disputar o controle do jogo, e esse princípio será colocado sob tensão por um adversário acostumado a recuperar a bola rapidamente e atacar com muitos jogadores.",
+          "O ponto central será a qualidade do meio-campo. Vitinha e João Neves precisam oferecer linhas de passe, enquanto os laterais devem equilibrar coragem e proteção. Perder a bola por dentro pode abrir transições perigosas; recuar cedo demais pode deixar Paris preso. A partida também testará o ataque sem espaço. Dembélé, Doué, Kvaratskhelia e os demais jogadores ofensivos terão de transformar poucas situações em oportunidades reais, não apenas em conduções bonitas longe do gol."
+        ]
+      },
+      {
+        title: "Strasbourg é a armadilha colocada entre duas noites europeias",
+        paragraphs: [
+          "Três dias depois de City, o PSG visita o Strasbourg na Meinau. Esse tipo de partida costuma revelar a maturidade de um elenco. A intensidade emocional da Liga dos Campeões já passou, mas a recuperação ainda não terminou e o Barcelona aparece no horizonte. Se a cabeça viajar antes do corpo, Paris pode perder duelos, chegar atrasado às segundas bolas e oferecer ao adversário a sensação de que o jogo está aberto.",
+          "A rotação será necessária, porém deve preservar uma espinha dorsal. Trocar oito ou nove jogadores pode reduzir os automatismos; insistir no mesmo onze aumenta o risco físico. O equilíbrio passa por combinar titulares descansados, atletas que precisam de ritmo e jovens preparados para funções claras. Strasbourg não deve servir como laboratório sem consequência. Cada ponto na Ligue 1 conta, e uma equipe campeã precisa ganhar também quando o calendário parece pedir apenas sobrevivência."
+        ]
+      },
+      {
+        title: "Barcelona no Parc é a noite de maior exposição",
+        paragraphs: [
+          "Em 20 de outubro, o Barcelona chega ao Parc des Princes. É uma partida que mobiliza públicos muito além da França e da Espanha, inclusive no Brasil. A história recente entre os clubes, a quantidade de estrelas que passaram pelos dois lados e o peso da Liga dos Campeões transformam a noite em evento global. Para o PSG, a exposição aumenta a importância do resultado, mas também a necessidade de não jogar apenas com emoção.",
+          "Paris terá de controlar as zonas interiores e impedir que o Barcelona encontre recepções livres entre meio-campo e defesa. Com a bola, a equipe precisa atrair a pressão sem entregar perdas fáceis. A amplitude de Nuno Mendes e Hakimi pode ser decisiva, desde que a cobertura esteja organizada. No ataque, a eficiência terá peso enorme. Jogos desse tamanho raramente oferecem dez chances claras; aproveitar duas pode valer mais do que dominar a posse sem ferir o adversário."
+        ]
+      },
+      {
+        title: "Lyon e Le Havre decidem se a Europa terá custo no campeonato",
+        paragraphs: [
+          "Depois do Barcelona, o PSG recebe o Lyon em 25 de outubro e visita o Le Havre no dia 30. O intervalo maior reduz a desculpa da fadiga imediata, mas não elimina o desgaste acumulado. A comissão técnica terá dados de carga, avaliações médicas e sinais do treinamento para decidir quem continua. O objetivo é simples: impedir que uma grande noite europeia seja seguida por perda de foco na competição nacional.",
+          "O Lyon exige atenção pela qualidade e pela rivalidade esportiva. O Le Havre apresenta outro desafio: manter intensidade diante de um adversário que pode proteger espaços e esperar um erro. Esses jogos mostram por que profundidade não é apenas ter nomes no banco. Profundidade significa poder trocar jogadores sem perder pressão, circulação, presença na área e segurança defensiva. Outubro dirá se o elenco parisiense possui essa continuidade ou se ainda depende demais de poucos titulares."
+        ]
+      },
+      {
+        title: "Os jogadores brasileiros também entram no centro da gestão",
+        paragraphs: [
+          "Para o público brasileiro, Marquinhos e Lucas Beraldo oferecem uma leitura particular da sequência. Marquinhos carrega liderança, experiência e responsabilidade na organização da linha defensiva. Beraldo representa uma alternativa técnica que pode ganhar minutos quando o calendário exige mudança. A utilização dos dois ajudará a entender se Luis Enrique pretende preservar o capitão em partidas específicas ou manter sua presença como ponto de estabilidade.",
+          "A análise não deve transformar toda ausência em crise. Um jogador pode ficar no banco por gestão física, escolha tática ou adaptação ao adversário. O que importa é observar a sequência: minutos, função, parceiro de defesa e comportamento com a bola. Parisien 90 Brasil acompanhará esses sinais conectando as notícias às fichas dos jogadores, ao calendário completo e à história dos brasileiros no PSG, sempre com a fonte original identificada."
+        ]
+      },
+      {
+        title: "A leitura final: outubro não permite separar titulares e reservas",
+        paragraphs: [
+          "O PSG entra em outubro com um elenco forte, mas a força só existe se puder ser repetida. Manchester City e Barcelona medirão o teto competitivo; Le Mans, Strasbourg, Lyon e Le Havre avaliarão a consistência. Vencer apenas os jogos mais visíveis não basta para uma equipe que disputa todos os títulos. O mês exige a mesma seriedade em contextos diferentes, do Parc lotado em noite europeia ao trabalho paciente contra um bloco baixo.",
+          "Nossa leitura é que Luis Enrique precisa administrar funções, não apenas minutos. Cada substituto deve saber como pressionar, onde receber e que espaço proteger. Se a rotação conservar essas referências, Paris sairá de outubro mais confiável e menos dependente. Se cada troca mudar completamente o comportamento coletivo, o mercado de janeiro voltará ao debate. A resposta será dada no campo, partida por partida, com o calendário oficial como guia e sem transformar expectativa em informação confirmada."
+        ]
+      }
+    ]
+  },
+  {
     id: "psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026",
     title: "PSG-OH Leuven: Paris recebe a campeã belga em noite europeia no Campus",
     summary: "O PSG feminino enfrenta o OH Leuven nesta quinta-feira, às 21h, pela segunda rodada da Liga dos Campeões. Depois do empate no campo do Real Madrid, Paris tenta transformar o primeiro ponto europeu em impulso diante da torcida, no Campus PSG.",

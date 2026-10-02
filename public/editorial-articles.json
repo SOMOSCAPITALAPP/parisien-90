@@ -1,11 +1,119 @@
 {
-  "updatedAt": "2026-10-01T07:30:00+02:00",
-  "displayDate": "1er octobre 2026",
-  "displayTime": "07h30",
+  "updatedAt": "2026-10-02T20:30:00+02:00",
+  "displayDate": "2 octobre 2026",
+  "displayTime": "20h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 36,
+  "count": 39,
   "items": [
+    {
+      "id": "mercato-psg-janvier-2027-attaquant-priorite-rumeurs",
+      "category": "Mercato PSG",
+      "angle": "Analyse des besoins et niveau de fiabilité",
+      "date": "2026-10-02",
+      "dateLabel": "2 octobre 2026",
+      "time": "20:30",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "headline": "Mercato PSG janvier 2027 : Paris a-t-il vraiment besoin d'un nouvel attaquant ?",
+      "summary": "Le marché d'hiver n'est pas encore ouvert, mais les noms circulent déjà. Avant de transformer chaque piste en feuilleton, il faut poser la seule question utile : quel problème précis le PSG chercherait-il à résoudre ?",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-attaquant-priorite-rumeurs/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif",
+          "note": "Composition officielle du groupe et profils offensifs disponibles."
+        },
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence d'octobre utilisée pour évaluer la profondeur du groupe."
+        },
+        {
+          "name": "L'Équipe - un attaquant supplémentaire envisagé",
+          "url": "https://www.lequipe.fr/Football/Article/Mercato-malgre-ses-tentatives-de-derniere-minute-le-psg-devra-attendre-l-hiver-pour-s-offrir-un-attaquant-de-plus/1715316",
+          "note": "Signal de presse du 2 septembre sur une réflexion reportée à l'hiver, sans officialisation."
+        }
+      ],
+      "keywords": [
+        "mercato PSG janvier 2027",
+        "transfert PSG",
+        "attaquant PSG",
+        "rumeur PSG",
+        "effectif PSG"
+      ]
+    },
+    {
+      "id": "neymar-santos-2026-bilan-heritage-psg",
+      "category": "Anciens joueurs PSG",
+      "angle": "Que devient Neymar ?",
+      "date": "2026-10-02",
+      "dateLabel": "2 octobre 2026",
+      "time": "20:30",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "headline": "Neymar en 2026 : ce que son retour à Santos change dans l'héritage laissé au PSG",
+      "summary": "À 34 ans, Neymar a choisi de prolonger avec Santos jusqu'à la fin de 2026. Sa trajectoire actuelle ne réécrit pas ses années parisiennes, mais elle aide à mieux comprendre ce que le PSG a gagné, perdu et conservé de son passage.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/neymar-santos-2026-bilan-heritage-psg/",
+      "sources": [
+        {
+          "name": "Santos FC - prolongation de Neymar",
+          "url": "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/",
+          "note": "Communiqué officiel du 6 janvier 2026 sur le contrat et le projet sportif."
+        },
+        {
+          "name": "CBF - fiche Neymar 2026",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
+          "note": "Club actuel et repères statistiques publics affichés pour 2026."
+        },
+        {
+          "name": "Parisien 90 - fiche Neymar PSG",
+          "url": "/anciens-joueurs-psg/neymar/",
+          "note": "Repères parisiens et liens vers l'histoire des Brésiliens du club."
+        }
+      ],
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "ancien joueur PSG",
+        "Neymar aujourd'hui",
+        "Brésiliens PSG"
+      ]
+    },
+    {
+      "id": "parc-des-princes-octobre-2026-economie-stade-psg",
+      "category": "Économie du PSG",
+      "angle": "Stade, billetterie et modèle économique",
+      "date": "2026-10-02",
+      "dateLabel": "2 octobre 2026",
+      "time": "20:30",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "headline": "Parc des Princes : pourquoi le marathon d'octobre relance l'équation économique du PSG",
+      "summary": "Le Mans, Barcelone puis Lyon vont remplir l'agenda du Parc en octobre. Cette concentration rappelle que le stade n'est pas seulement un décor historique : il conditionne les recettes, l'expérience et une partie de l'avenir du PSG.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/parc-des-princes-octobre-2026-economie-stade-psg/",
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates des rencontres d'octobre au Parc des Princes."
+        },
+        {
+          "name": "Conseil de Paris - vœu 2026 V.22",
+          "url": "https://a06-v7.apps.paris.fr/a06/jsp/site/plugins/solr/modules/ods/DoDownload.jsp?id_document=184739&items_per_page=20",
+          "note": "Document public sur le maintien du PSG au Parc, les négociations et les ordres de grandeur des travaux."
+        },
+        {
+          "name": "Parisien 90 - dossier futur stade",
+          "url": "/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/",
+          "note": "Contexte éditorial complémentaire sur les différents scénarios."
+        }
+      ],
+      "keywords": [
+        "Parc des Princes PSG",
+        "stade PSG",
+        "économie PSG",
+        "billetterie PSG",
+        "PSG Barcelone"
+      ]
+    },
     {
       "id": "michael-olise-psg-rumeur-mercato-contrat-bayern",
       "category": "Mercato PSG",
