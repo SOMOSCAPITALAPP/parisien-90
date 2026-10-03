@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-10-03T06:30:00+02:00",
-    "freshnessNote": "Fil PSG du 3 octobre 2026. Fil public : 134 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 42 articles de fond sous /dossiers-psg/. À suivre : Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes ; Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne ; PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0 ; PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus ; Hakimi reprend avec le Maroc : entrée et victoire au Lesotho. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 3 octobre 2026. Fil public : 135 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 42 articles de fond sous /dossiers-psg/. À suivre : Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes ; Belgique-Turquie : Godts impliqué, les Diables déroulent avant les Bleus ; Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne ; PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0 ; PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -209,6 +209,15 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
       "reliability": "Analyse"
+    },
+    {
+      "title": "Belgique-Turquie : Godts impliqué, les Diables déroulent avant les Bleus",
+      "category": "Sélections",
+      "dateTime": "2026-10-02T23:15:00+02:00",
+      "url": "https://parisien90.com/news/belgique-turquie-godts-victoire-nations-league-octobre-2026/",
+      "source": "RBFA / UEFA",
+      "sourceUrl": "https://www.rbfa.be/fr/nouvelles/de-bruyne-guide-les-diables-rouges-vers-une-victoire-convaincante-contre-la-turquie",
+      "reliability": "Officiel — résultat UEFA, action confirmée par la fédération belge"
     },
     {
       "title": "Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne",
@@ -461,15 +470,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Égalité professionnelle : la pénalité de 2,7 M€ infligée au PSG est confirmée",
-      "category": "Club",
-      "dateTime": "2026-09-09T00:23:00+02:00",
-      "url": "https://parisien90.com/news/psg-penalite-index-egalite-professionnelle-confirmee-septembre-2026/",
-      "source": "L'Équipe / AFP",
-      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/La-sanction-du-psg-pour-non-respect-de-l-index-d-egalite-professionnelle-entre-les-femmes-et-les-hommes-confirmee-en-appel/1717273",
-      "reliability": "Fort — jugement rapporté par AFP"
     }
   ],
   "people": [
