@@ -1388,6 +1388,62 @@ const brReliabilityLabel = (value) =>
 
 const brStoryTranslations = [
   {
+    id: "jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026",
+    title: "Jovens do PSG: Doué, Zaïre-Emery, Mayulu e Dro terão minutos suficientes?",
+    summary: "O elenco oficial reúne quatro jovens que já estão perto do time titular, mas vivem etapas diferentes. A maratona de outubro precisa oferecer funções claras e minutos de qualidade, não apenas participações dispersas.",
+    sections: [
+      {
+        title: "Quatro jovens, quatro caminhos diferentes",
+        paragraphs: [
+          "Désiré Doué, Warren Zaïre-Emery, Senny Mayulu e Dro Fernández costumam aparecer juntos quando se fala da juventude do PSG. A etiqueta, porém, esconde situações muito diferentes. Doué já decide ações em jogos grandes. Zaïre-Emery deixou de ser apenas uma promessa da base. Mayulu tenta transformar entradas em responsabilidade contínua. Dro ainda aprende a velocidade e o risco exigidos de um meio-campista em Paris.",
+          "A lista oficial do elenco confirma que todos fazem parte do grupo principal em 2026-2027. Isso não garante desenvolvimento automático. Um jovem evolui quando entende onde deve receber, qual espaço precisa proteger e como sua função muda com o adversário. Entrar vinte minutos em uma posição diferente a cada rodada pode ajudar o time, mas nem sempre constrói uma identidade. Luis Enrique precisa usar a versatilidade sem transformar talento em improviso permanente."
+        ]
+      },
+      {
+        title: "Doué precisa transformar liberdade em influência constante",
+        paragraphs: [
+          "Doué oferece a variedade mais ofensiva do grupo. Ele conduz em espaço curto, muda de ritmo, recebe entre as linhas e cria perto da área. Por isso, disputa minutos tanto com pontas quanto com meio-campistas ofensivos. A multiplicidade abre portas, mas também pode impedir que ele domine uma zona específica. O próximo passo é ser reconhecido por uma ou duas funções que o time realmente não queira perder.",
+          "Nos jogos europeus, sua resistência à pressão e a capacidade de eliminar um marcador podem ser decisivas. Contra blocos baixos na Ligue 1, o desafio muda: atacar a área, repetir movimentos sem bola e reagir imediatamente depois da perda. A evolução não aparece apenas em dribles bonitos. Ela se confirma quando o jogador controla o ritmo e mantém impacto mesmo em partidas menos abertas, com pouco espaço e sem a energia emocional de uma grande noite."
+        ]
+      },
+      {
+        title: "Zaïre-Emery já compete como jogador pronto",
+        paragraphs: [
+          "Warren Zaïre-Emery não pode mais ser avaliado somente como símbolo da formação parisiense. Sua concorrência inclui Vitinha, João Neves, Fabián Ruiz e outros jogadores de alto nível. A força para percorrer grandes espaços, proteger corredores e chegar à frente continua valiosa. Ao mesmo tempo, o meio-campo do PSG exige decisões rápidas, orientação corporal correta e segurança para receber de costas diante de pressão intensa.",
+          "Seus minutos precisam nascer de uma vantagem tática real, não de um gesto institucional com a base. Contra equipes rápidas, sua potência pode fechar transições. Diante de uma defesa baixa, as infiltrações e a presença na área ganham peso. Essa capacidade de responder a cenários diferentes pode recolocá-lo no centro do projeto. Para isso, o papel deve permanecer compreensível, sem mudanças tão frequentes que apaguem seus melhores automatismos."
+        ]
+      },
+      {
+        title: "Mayulu precisa de sequências longas, não só de entradas",
+        paragraphs: [
+          "O PSG anunciou oficialmente a renovação de Senny Mayulu até 2031. O contrato representa confiança e protege o futuro do jogador, mas não resolve a questão mais importante: como transformar potencial em experiência. Um jovem pode acumular muitas entradas curtas sem aprender a administrar uma partida inteira, atravessar um período ruim, reagir a uma mudança tática do adversário ou manter concentração depois de cometer um erro.",
+          "A sequência de outubro oferece oportunidades. Le Mans, Strasbourg e Le Havre não devem ser tratados como presentes, e sim como responsabilidades. Uma titularidade cercada por jogadores experientes pode valer mais do que várias aparições sem estrutura. Mayulu também precisa de alguma estabilidade posicional. Ser capaz de ocupar diferentes zonas ajuda Luis Enrique, mas a formação do atleta pede referências repetidas, parceiros conhecidos e volume de bola suficiente para que ele participe de todas as fases do jogo."
+        ]
+      },
+      {
+        title: "Dro deve ser protegido sem ficar escondido",
+        paragraphs: [
+          "A escalação de Dro contra o Slovan Bratislava mostrou que a comissão técnica já o considera capaz de começar uma noite de Liga dos Campeões. É um sinal importante, mas não uma conclusão definitiva. Um jovem meio-campista precisa aprender a receber com um adversário nas costas, fechar linhas de passe e escolher até onde pode arriscar. Contra Manchester City ou Barcelona, cada detalhe mal executado pode virar uma oportunidade clara do outro lado.",
+          "Proteger Dro não significa reservá-lo apenas a partidas simples. Significa colocá-lo em um ambiente funcional, com uma estrutura estável, instruções objetivas e companheiros disponíveis para a saída de bola. Escondê-lo atrasaria o aprendizado; expô-lo sem apoio transformaria cada erro em debate público. O caminho equilibrado alterna treino exigente, titularidades preparadas e entradas em contextos nos quais ele possa competir sem carregar sozinho o peso do resultado."
+        ]
+      },
+      {
+        title: "Outubro abre espaço, mas exige planejamento",
+        paragraphs: [
+          "O PSG disputará seis jogos entre 10 e 30 de outubro. A quantidade cria minutos, mas não garante minutos de qualidade. Se os quatro jovens forem utilizados sempre juntos, o time pode perder referências e a avaliação de cada um ficará injusta. A melhor solução é distribuí-los ao redor de uma base experiente: Doué com um meio-campo organizado, Mayulu com um atacante que fixe a defesa, Dro protegido por Vitinha e Zaïre-Emery ao lado de alguém que controle o ritmo.",
+          "A volta das seleções acrescenta outra variável. Alguns titulares chegarão com viagens longas e jogos completos, o que pode abrir espaço já contra o Le Mans. Luis Enrique precisa antecipar essas janelas, e não apenas reagir ao cansaço. Uma política de formação verdadeira define etapas: quem se prepara para City, quem começa em Strasbourg e quem pode terminar contra o Barcelona. Sem um plano, a rotação vira acaso e a concorrência produz frustração em vez de progresso."
+        ]
+      },
+      {
+        title: "A leitura do Parisien 90 Brasil",
+        paragraphs: [
+          "Contar minutos é necessário, mas insuficiente. Doué precisa aumentar sua influência ofensiva. Zaïre-Emery busca continuidade em uma função exigente. Mayulu necessita de períodos mais longos em campo. Dro precisa de exposições controladas. O mesmo total de minutos pode, portanto, esconder quatro experiências completamente distintas. O PSG deve desenvolver jogadores que resolvam problemas reais, e não apenas exibir jovens na súmula.",
+          "Nossa leitura é positiva: o calendário oferece espaço para todos sem sacrificar os resultados. O risco seria guardar os jovens para partidas menos prestigiadas e fechar completamente a hierarquia nas grandes noites. Eles precisam atuar ao lado dos titulares, enfrentar adversários fortes e ter o direito de corrigir erros. É assim que o elenco ganha profundidade verdadeira para a primavera europeia. Para o torcedor brasileiro, acompanhar função, contexto e parceiro de cada jovem será mais útil do que olhar apenas a quantidade bruta de aparições."
+        ]
+      }
+    ]
+  },
+  {
     id: "psg-octobre-2026-calendrier-city-barcelone-rotation",
     title: "Outubro do PSG: City, Barcelona e seis jogos para testar todo o elenco",
     summary: "O calendário oficial marca seis partidas entre 10 e 30 de outubro: Le Mans, Manchester City, Strasbourg, Barcelona, Lyon e Le Havre. A sequência mistura quatro rodadas da Ligue 1 e duas noites de Liga dos Campeões, exigindo rotação sem perda de identidade.",

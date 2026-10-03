@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-02T20:30:00+02:00",
-  edition: "Fil PSG du 2 octobre 2026",
-  displayDate: "2 octobre 2026",
-  displayTime: "20h30",
+  updatedAt: "2026-10-03T06:30:00+02:00",
+  edition: "Fil PSG du 3 octobre 2026",
+  displayDate: "3 octobre 2026",
+  displayTime: "06h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-03", "3 octobre 2026", [
+  { id: "jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026", time: "06:30", category: "Joueurs", title: "Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes", summary: "L'effectif officiel réunit quatre jeunes profils déjà proches du onze, mais leurs besoins diffèrent. Le calendrier d'octobre doit permettre à Luis Enrique de leur donner des rôles clairs, pas seulement des apparitions dispersées.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Analyse", viral: 91 },
+  ]),
   ...withNewsDate("2026-10-02", "2 octobre 2026", [
   { id: "psg-octobre-2026-calendrier-city-barcelone-rotation", time: "20:30", category: "Calendrier", title: "Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne", summary: "Le calendrier officiel programme six rencontres du 10 au 30 octobre : Le Mans, Manchester City, Strasbourg, Barcelone, Lyon puis Le Havre. Deux chocs européens encadrent quatre journées de Ligue 1. Paris devra relancer son rythme après la trêve, gérer les voyages et faire tourner sans casser ses automatismes.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", reliability: "Officiel", viral: 94 },
   ]),

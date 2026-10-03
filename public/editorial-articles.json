@@ -1,11 +1,129 @@
 {
-  "updatedAt": "2026-10-02T20:30:00+02:00",
-  "displayDate": "2 octobre 2026",
-  "displayTime": "20h30",
+  "updatedAt": "2026-10-03T06:30:00+02:00",
+  "displayDate": "3 octobre 2026",
+  "displayTime": "06h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 39,
+  "count": 42,
   "items": [
+    {
+      "id": "luis-enrique-psg-onze-slovan-rotation-octobre-2026",
+      "category": "Entraîneurs PSG",
+      "angle": "Méthode, hiérarchie et rotation",
+      "date": "2026-10-03",
+      "dateLabel": "3 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-03T06:30:00+02:00",
+      "headline": "Luis Enrique et le PSG : ce que le onze du Slovan révèle avant le marathon d'octobre",
+      "summary": "Safonov, Dro, Ferran Torres et Akliouche titulaires ; Chevalier, Marquinhos, João Neves, Doué ou Kvaratskhelia sur le banc. Ce choix européen n'était pas une parenthèse : il annonce la gestion du PSG en octobre.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/luis-enrique-psg-onze-slovan-rotation-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - onze contre le Slovan Bratislava",
+          "url": "https://www.psg.fr/content/onze-de-depart-paris-saint-germain-sk-slovan-bratislava-ucl-2026-2027",
+          "note": "Composition et remplaçants officiellement publiés."
+        },
+        {
+          "name": "PSG.fr - conférence de Luis Enrique avant le Classique",
+          "url": "https://www.psg.fr/content/luis-enrique-toujours-beaucoup-de-motivation-avant-un-classique-psg-conference-de-presse-classique-om-paris-saint-germain-marseille-ligue-1-2026-2027",
+          "note": "Propos officiels sur la préparation, le rythme et le contrôle des émotions."
+        },
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates de la séquence d'octobre."
+        }
+      ],
+      "keywords": [
+        "Luis Enrique PSG",
+        "composition PSG",
+        "rotation PSG",
+        "PSG Manchester City",
+        "PSG Barcelone"
+      ]
+    },
+    {
+      "id": "jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026",
+      "category": "Joueurs PSG",
+      "angle": "Développement, rôles et temps de jeu",
+      "date": "2026-10-03",
+      "dateLabel": "3 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-03T06:30:00+02:00",
+      "headline": "Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro auront-ils assez de minutes ?",
+      "summary": "Le talent ne manque pas. Le temps de jeu, lui, reste limité. Avec un calendrier bientôt saturé, Luis Enrique doit transformer la concurrence entre Doué, Zaïre-Emery, Mayulu et Dro en progression plutôt qu'en attente.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle des joueurs et positions affichées."
+        },
+        {
+          "name": "PSG.fr - onze contre le Slovan Bratislava",
+          "url": "https://www.psg.fr/content/onze-de-depart-paris-saint-germain-sk-slovan-bratislava-ucl-2026-2027",
+          "note": "Titularisation de Dro et composition officielle."
+        },
+        {
+          "name": "PSG.fr - prolongations et continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Prolongation de Mayulu jusqu'en 2031 et présentation officielle du projet."
+        },
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence de six matches en octobre."
+        }
+      ],
+      "keywords": [
+        "jeunes PSG",
+        "Désiré Doué PSG",
+        "Warren Zaïre-Emery PSG",
+        "Senny Mayulu PSG",
+        "Dro Fernández PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-janvier-2027-departs-prets-concurrence",
+      "category": "Mercato PSG",
+      "angle": "Départs, prêts et gestion d'effectif",
+      "date": "2026-10-03",
+      "dateLabel": "3 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-03T06:30:00+02:00",
+      "headline": "Mercato PSG janvier 2027 : les départs compteront-ils plus que les arrivées ?",
+      "summary": "L'effectif est riche, les contrats sont longs et plusieurs jeunes réclament du terrain. Le prochain mercato parisien pourrait se jouer moins sur un grand nom que sur la capacité à organiser les sorties utiles.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-departs-prets-concurrence/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle utilisée pour mesurer la densité du groupe."
+        },
+        {
+          "name": "PSG.fr - prolongations et continuité",
+          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
+          "note": "Durées de contrat annoncées pour l'entraîneur et cinq joueurs."
+        },
+        {
+          "name": "PSG.fr - arrivée de Ferran Torres",
+          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
+          "note": "Contrat jusqu'en 2031 et rôle offensif officiel."
+        },
+        {
+          "name": "PSG.fr - calendrier 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence utilisée pour observer la répartition des minutes."
+        }
+      ],
+      "keywords": [
+        "mercato PSG janvier 2027",
+        "départ PSG",
+        "prêt PSG",
+        "transfert PSG",
+        "effectif PSG"
+      ]
+    },
     {
       "id": "mercato-psg-janvier-2027-attaquant-priorite-rumeurs",
       "category": "Mercato PSG",

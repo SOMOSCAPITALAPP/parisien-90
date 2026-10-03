@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "checkedAt": "2026-10-02T18:26:46.602Z",
+  "checkedAt": "2026-10-03T04:31:13.743Z",
   "policy": "Veille de signaux uniquement. Ne pas copier les articles, images, posts ou bases de donnees tiers. Respecter robots.txt, conditions d'utilisation, API officielles et limites raisonnables.",
   "summary": {
     "OK": 4,
@@ -17,7 +17,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "PSG.FR | Official site of Paris Saint-Germain",
-      "latencyMs": 2254,
+      "latencyMs": 2285,
       "note": "Source primaire pour officialisations, groupe, calendrier et communiques."
     },
     {
@@ -29,7 +29,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "Mercato | CulturePSG",
-      "latencyMs": 1520,
+      "latencyMs": 1624,
       "note": "Source specialisee PSG. Utiliser les liens, statuts et montants comme signaux a citer, pas comme texte a reprendre."
     },
     {
@@ -41,7 +41,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "Mercato - Canal Supporters PSG 24-7",
-      "latencyMs": 1369,
+      "latencyMs": 1338,
       "note": "Veille mercato et reactions. A recouper avant publication."
     },
     {
@@ -51,7 +51,7 @@
       "priority": "medium",
       "state": "SOURCE_A_VERIFIER",
       "error": "TimeoutError",
-      "latencyMs": 12003,
+      "latencyMs": 12010,
       "note": "Suivi quotidien PSG. A recouper avec sources primaires ou medias signes."
     },
     {
@@ -63,7 +63,7 @@
       "status": 403,
       "state": "SOURCE_A_VERIFIER",
       "pageTitle": "Access Denied",
-      "latencyMs": 895,
+      "latencyMs": 907,
       "note": "Media generaliste de reference. Respect strict des droits et du paywall."
     },
     {
@@ -75,7 +75,7 @@
       "status": 200,
       "state": "OK",
       "pageTitle": "PSG : Toute l&#x27;actualité du Paris Saint-Germain - Le Parisien",
-      "latencyMs": 1478,
+      "latencyMs": 1442,
       "note": "Media local fort sur le PSG. Ne jamais reprendre les contenus payants."
     },
     {

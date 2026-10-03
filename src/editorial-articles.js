@@ -1,12 +1,202 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-10-02T20:30:00+02:00",
-  displayDate: "2 octobre 2026",
-  displayTime: "20h30",
+  updatedAt: "2026-10-03T06:30:00+02:00",
+  displayDate: "3 octobre 2026",
+  displayTime: "06h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "luis-enrique-psg-onze-slovan-rotation-octobre-2026",
+    title: "Luis Enrique et le PSG : ce que le onze du Slovan révèle avant le marathon d'octobre",
+    description: "Le onze choisi contre le Slovan et un banc rempli de titulaires potentiels éclairent la méthode de Luis Enrique avant six matches en vingt jours.",
+    deck: "Safonov, Dro, Ferran Torres et Akliouche titulaires ; Chevalier, Marquinhos, João Neves, Doué ou Kvaratskhelia sur le banc. Ce choix européen n'était pas une parenthèse : il annonce la gestion du PSG en octobre.",
+    category: "Entraîneurs PSG",
+    angle: "Méthode, hiérarchie et rotation",
+    date: "2026-10-03",
+    dateLabel: "3 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Le Parc des Princes pour une analyse de la rotation de Luis Enrique au PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Luis Enrique PSG", "composition PSG", "rotation PSG", "PSG Manchester City", "PSG Barcelone"],
+    sections: [
+      { heading: "Un onze européen qui refuse l'idée d'une équipe B", paragraphs: [
+        "Face au Slovan Bratislava, Luis Enrique a aligné Safonov, Hakimi, Zabarnyi, Pacho, Nuno Mendes, Dro Fernández, Vitinha, Fabián Ruiz, Ferran Torres, Ousmane Dembélé et Maghnes Akliouche. La feuille officielle est précieuse parce qu'elle montre une rotation qui ne renonce ni aux cadres ni aux principes. Quatre joueurs très exposés médiatiquement changeaient de statut, mais l'ossature restait assez forte pour contrôler une soirée de Ligue des champions.",
+        "Le banc disait presque autant que le onze. Chevalier, Marquinhos, João Neves, Warren Zaïre-Emery, Désiré Doué, Kvaratskhelia, Mayulu ou Godts pouvaient entrer sans faire baisser l'ambition. Le message n'est pas qu'il existe deux équipes étanches. Luis Enrique cherche plutôt vingt joueurs capables de remplir des fonctions identiques avec des qualités différentes. Cette nuance sera centrale quand Paris enchaînera six rencontres entre le 10 et le 30 octobre."
+      ] },
+      { heading: "La hiérarchie devient mobile, mais elle ne disparaît pas", paragraphs: [
+        "La rotation est parfois présentée comme une démocratie où tous les joueurs auraient le même statut. Ce n'est pas ainsi que fonctionne le très haut niveau. Vitinha demeure un organisateur majeur, Hakimi porte une responsabilité offensive immense et Dembélé reste capable de déséquilibrer n'importe quel bloc. Autour d'eux, la hiérarchie bouge selon la forme, l'adversaire, la fatigue et la qualité des associations. La concurrence existe, mais elle s'appuie sur des repères solides.",
+        "Cette mobilité protège le vestiaire à une condition : les critères doivent rester compréhensibles. Un joueur accepte plus facilement le banc s'il sait quelle fonction lui manque et à quel moment il peut revenir. Le danger apparaît lorsque chaque choix semble imprévisible ou politique. Jusqu'ici, Luis Enrique assume publiquement la performance collective comme standard. Octobre dira si cette ligne reste lisible quand les grandes affiches obligeront l'entraîneur à décevoir plusieurs joueurs de premier plan."
+      ] },
+      { heading: "Manchester City imposera une rotation de profils, pas seulement de jambes", paragraphs: [
+        "Le déplacement à Manchester City ne demandera pas les mêmes réponses que la réception du Mans quatre jours plus tôt. Au Etihad, sortir de la pression et protéger l'axe deviendront prioritaires. Un milieu capable de jouer sous pression peut être préféré à un joueur plus direct, même si ce dernier vient de réussir en championnat. La sélection du onze ne sera donc pas un classement absolu des talents, mais une réponse aux espaces que City autorise ou ferme.",
+        "Luis Enrique connaît également le prix des pertes de balle intérieures. Le PSG devra attirer la pression sans offrir de transitions gratuites. Cela donne une valeur particulière à Vitinha, João Neves et Fabián Ruiz, mais aussi à la capacité des attaquants à conserver le ballon. Ferran peut fixer plus haut ; Doué peut résister par la conduite ; Akliouche peut connecter les lignes. Le choix dépendra de l'équilibre recherché, pas d'une simple addition des joueurs les plus célèbres."
+      ] },
+      { heading: "Barcelone au Parc exigera une autre forme de courage", paragraphs: [
+        "Six jours après City, le Barcelona se présentera au Parc des Princes. Le contexte émotionnel sera plus lourd, l'exposition mondiale plus forte et l'attente du public immédiate. Paris devra éviter de confondre courage et précipitation. Presser sans coordination ouvrirait des passes dans le dos du milieu ; reculer par respect abandonnerait l'identité construite par l'entraîneur. La bonne réponse se trouve dans un bloc compact capable d'attaquer dès la récupération.",
+        "La gestion des latéraux sera décisive. Hakimi et Nuno Mendes donnent une largeur et une vitesse que peu d'équipes possèdent, mais leurs montées doivent être couvertes. Marquinhos, Pacho, Zabarnyi, Beraldo et Lucas Hernández offrent plusieurs combinaisons pour sécuriser cette ambition. Là encore, la rotation n'est pas cosmétique. Elle permet d'associer un défenseur agressif à un partenaire plus organisateur, puis de modifier la hauteur de la ligne selon le déroulement du match."
+      ] },
+      { heading: "Le vrai test se jouera entre les affiches", paragraphs: [
+        "Strasbourg trois jours après City, puis Lyon et Le Havre après Barcelone, mesureront la profondeur réelle du projet. Il est plus simple de mobiliser un vestiaire pour une nuit européenne que pour un déplacement placé entre deux sommets. Luis Enrique devra conserver assez de cadres pour stabiliser l'équipe tout en donnant des minutes aux joueurs frais. Changer trop peu augmente le risque physique ; changer trop brutalement peut détruire les automatismes.",
+        "Le Mans ouvre la séquence après la trêve internationale. Ce match offrira des informations sur les retours de sélection, la fraîcheur et la capacité des jeunes à prendre des responsabilités. Paris ne peut pas considérer la Ligue 1 comme un terrain d'entraînement. Chaque point perdu transforme les futures semaines européennes en pression supplémentaire. La méthode doit donc produire une équipe reconnaissable, quel que soit le nom inscrit sur la feuille."
+      ] },
+      { heading: "Notre lecture : Luis Enrique construit une responsabilité partagée", paragraphs: [
+        "Le onze du Slovan révèle moins une révolution qu'une doctrine. Le PSG veut pouvoir modifier quatre ou cinq joueurs sans modifier son langage : relance courte quand elle est possible, pression immédiate après la perte, occupation rationnelle de la largeur et présence de plusieurs solutions entre les lignes. Le joueur qui maîtrise ces règles gagne des minutes. Celui qui dépend uniquement de son talent individuel devient plus difficile à intégrer, même s'il possède un statut important.",
+        "Cette méthode comporte un risque humain, car vingt joueurs de haut niveau ne peuvent pas tous disputer les grands matches. Mais elle offre aussi la meilleure protection contre les blessures et la fatigue. Notre verdict est clair : la rotation sera une force si les fonctions restent stables et si les choix sont expliqués par le terrain. Si elle devient une suite d'expériences sans continuité, octobre l'exposera immédiatement face à City, Barcelone et Lyon."
+      ] }
+    ],
+    faq: [
+      { question: "Pourquoi Luis Enrique fait-il autant tourner le PSG ?", answer: "Pour maintenir l'intensité, limiter la fatigue et adapter les profils aux adversaires sans abandonner les principes collectifs." },
+      { question: "Le PSG possède-t-il une équipe type ?", answer: "Une ossature existe, mais plusieurs postes restent ouverts selon la forme, le calendrier et les exigences tactiques du match." },
+      { question: "Quels matches testeront le plus cette méthode en octobre ?", answer: "Manchester City et Barcelone testeront le niveau maximal, tandis que Strasbourg et Le Havre mesureront la continuité entre les grandes affiches." }
+    ],
+    sources: [
+      { name: "PSG.fr - onze contre le Slovan Bratislava", url: "https://www.psg.fr/content/onze-de-depart-paris-saint-germain-sk-slovan-bratislava-ucl-2026-2027", note: "Composition et remplaçants officiellement publiés." },
+      { name: "PSG.fr - conférence de Luis Enrique avant le Classique", url: "https://www.psg.fr/content/luis-enrique-toujours-beaucoup-de-motivation-avant-un-classique-psg-conference-de-presse-classique-om-paris-saint-germain-marseille-ligue-1-2026-2027", note: "Propos officiels sur la préparation, le rythme et le contrôle des émotions." },
+      { name: "PSG.fr - calendrier 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Dates de la séquence d'octobre." }
+    ],
+    internalLinks: [
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Luis Enrique", url: "/staff-psg/luis-enrique/" },
+      { label: "Ousmane Dembélé", url: "/joueurs-psg/ousmane-dembele/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026",
+    title: "Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro auront-ils assez de minutes ?",
+    description: "Le PSG possède quatre jeunes milieux et attaquants déjà proches du onze. Rôles, concurrence et calendrier : comment distribuer leurs minutes sans freiner leur progression.",
+    deck: "Le talent ne manque pas. Le temps de jeu, lui, reste limité. Avec un calendrier bientôt saturé, Luis Enrique doit transformer la concurrence entre Doué, Zaïre-Emery, Mayulu et Dro en progression plutôt qu'en attente.",
+    category: "Joueurs PSG",
+    angle: "Développement, rôles et temps de jeu",
+    date: "2026-10-03",
+    dateLabel: "3 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Ambiance du Parc des Princes pour un dossier sur les jeunes joueurs du PSG",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["jeunes PSG", "Désiré Doué PSG", "Warren Zaïre-Emery PSG", "Senny Mayulu PSG", "Dro Fernández PSG"],
+    sections: [
+      { heading: "Quatre jeunes, mais quatre trajectoires très différentes", paragraphs: [
+        "Désiré Doué, Warren Zaïre-Emery, Senny Mayulu et Dro Fernández sont souvent réunis sous l'étiquette commode des jeunes du PSG. Pourtant, leurs situations ne se confondent pas. Doué est déjà un créateur capable de peser dans les grands matches. Zaïre-Emery possède plusieurs saisons au plus haut niveau. Mayulu avance entre rôle de rotation et responsabilités croissantes. Dro découvre encore les exigences d'un milieu parisien exposé à chaque perte de balle.",
+        "L'effectif officiel les place tous dans le groupe 2026-2027, mais une liste ne garantit rien. Le développement dépend de la qualité des minutes, du poste occupé et de la continuité. Jouer vingt minutes à droite, puis dix comme faux neuf et disparaître deux rencontres peut aider l'équipe sans faire progresser une identité. Le défi de Luis Enrique consiste à utiliser leur polyvalence sans les transformer en solutions de secours permanentes."
+      ] },
+      { heading: "Doué doit convertir la liberté en influence régulière", paragraphs: [
+        "Doué possède la palette la plus offensive du groupe : conduite courte, changement de rythme, capacité à recevoir entre les lignes et créativité près de la surface. Sa concurrence se situe donc autant avec les ailiers qu'avec les milieux offensifs. Cette richesse lui ouvre plusieurs portes, mais peut aussi l'empêcher de fixer un territoire. Pour franchir un palier, il doit devenir indispensable dans une ou deux fonctions clairement identifiées.",
+        "Les grandes affiches lui offrent un cadre idéal lorsque Paris cherche un joueur capable de conserver sous pression et de casser une ligne. Les matches de Ligue 1 lui demandent autre chose : répéter les appels, attaquer la surface et défendre après la perte face à un bloc plus bas. La progression ne se mesure pas seulement aux dribbles réussis. Elle se voit dans sa capacité à influencer le rythme même quand l'espace et l'émotion manquent."
+      ] },
+      { heading: "Zaïre-Emery n'est plus seulement un symbole de formation", paragraphs: [
+        "Warren Zaïre-Emery a dépassé le stade de la promesse locale. Son statut se juge désormais face à Vitinha, João Neves, Fabián Ruiz et aux besoins du système. Sa puissance de course, sa capacité à défendre de grands espaces et ses projections restent précieuses. Mais la concurrence exige davantage de constance dans l'orientation du jeu et dans les décisions prises dos à la pression.",
+        "Son temps de jeu ne doit pas être présenté comme un cadeau fait au centre de formation. Il doit venir d'un avantage tactique réel. Contre une équipe qui attaque vite, sa capacité à fermer un couloir peut peser. Face à un bloc bas, ses appels sans ballon et sa présence dans la surface deviennent plus importants. Cette diversité peut lui rendre une place majeure, à condition que son rôle ne change pas au point de brouiller ses repères."
+      ] },
+      { heading: "Mayulu a besoin de séquences, pas seulement d'entrées", paragraphs: [
+        "La prolongation de Senny Mayulu jusqu'en 2031, annoncée officiellement par le club, représente un engagement fort. Elle sécurise son avenir contractuel, mais ne règle pas la question sportive. Un jeune peut accumuler des entrées sans apprendre à gérer un match complet : choisir quand accélérer, traverser une période faible, s'adapter à un changement adverse et conserver sa concentration après une erreur.",
+        "Le calendrier d'octobre peut lui offrir ces séquences. Le Mans, Strasbourg ou Le Havre ne doivent pas être considérés comme des cadeaux, mais comme des responsabilités. Une titularisation entourée de cadres vaut souvent plus que cinq fins de match sans structure. Mayulu doit aussi être évalué sur une position cohérente. Sa capacité à jouer plusieurs rôles est utile au PSG ; sa progression réclame néanmoins des automatismes et un volume de ballons comparable d'une rencontre à l'autre."
+      ] },
+      { heading: "Dro doit être protégé sans être caché", paragraphs: [
+        "La titularisation de Dro contre le Slovan Bratislava montre que le staff le considère déjà capable d'entrer dans une soirée européenne. Ce signal officiel est important, mais il ne faut pas le transformer en verdict définitif. Un jeune milieu doit apprendre à recevoir avec un adversaire dans le dos, à fermer les bonnes lignes et à perdre le ballon au bon endroit. Ces détails deviennent impitoyables face à City ou Barcelone.",
+        "Le protéger ne signifie pas le réserver aux matches faciles. Cela signifie choisir un environnement où ses qualités peuvent apparaître : une structure stable autour de lui, des consignes limitées et des partenaires disponibles. Le cacher entièrement ralentirait l'apprentissage ; l'exposer sans filet pourrait transformer chaque erreur en débat public. La bonne progression alterne entraînement exigeant, titularisations préparées et entrées dans des contextes où le résultat n'est pas déjà désespéré."
+      ] },
+      { heading: "Le calendrier crée enfin assez de place, si Paris planifie", paragraphs: [
+        "Six matches en vingt jours produisent mécaniquement des minutes, mais pas automatiquement de bonnes minutes. Si les quatre jeunes entrent toujours ensemble, l'équipe peut perdre ses repères et leur évaluation devient injuste. La meilleure stratégie consiste à les répartir autour d'une ossature : Doué avec un milieu expérimenté, Mayulu avec un attaquant capable de fixer, Dro protégé par Vitinha, Zaïre-Emery associé à un joueur qui contrôle le tempo.",
+        "La récupération après les sélections ajoutera une variable. Certains cadres reviendront avec des voyages ou des matches complets, ouvrant des fenêtres dès Le Mans. Luis Enrique doit les anticiper plutôt que réagir à la fatigue. Une vraie politique de développement annonce les étapes : quel joueur prépare City, lequel commence Strasbourg, lequel termine Barcelone si le scénario le permet. Sans plan, la rotation devient aléatoire et la concurrence nourrit surtout la frustration."
+      ] },
+      { heading: "Notre verdict : la qualité des rôles comptera plus que le total brut", paragraphs: [
+        "Il est tentant de mesurer la confiance au nombre de minutes. Ce chiffre compte, mais il reste incomplet. Doué a besoin d'influence offensive, Zaïre-Emery de continuité dans un rôle exigeant, Mayulu de séquences longues et Dro d'expositions maîtrisées. Un même total peut donc raconter quatre progressions différentes. Le PSG doit publier des performances, pas seulement cocher la présence de jeunes sur une feuille de match.",
+        "Notre lecture est optimiste : le calendrier offre assez d'espace pour faire grandir les quatre sans sacrifier les résultats. Le danger viendrait d'une hiérarchie figée lors des grands rendez-vous et d'une rotation massive uniquement contre les adversaires moins prestigieux. Les jeunes doivent jouer avec les cadres, parfois contre les meilleurs, et recevoir le droit de corriger leurs erreurs. C'est ainsi que l'effectif devient plus profond au printemps, lorsque les titres se décident."
+      ] }
+    ],
+    faq: [
+      { question: "Quels jeunes joueurs peuvent gagner du temps de jeu au PSG ?", answer: "Désiré Doué, Warren Zaïre-Emery, Senny Mayulu et Dro Fernández disposent tous d'une voie, mais leurs rôles et leur niveau d'expérience diffèrent." },
+      { question: "Pourquoi le mois d'octobre est-il important ?", answer: "Six matches en vingt jours obligeront Luis Enrique à répartir les minutes et à tester la profondeur réelle du groupe." },
+      { question: "Mayulu est-il sous contrat longue durée ?", answer: "Oui. Le PSG a annoncé en septembre 2026 sa prolongation jusqu'en 2031." }
+    ],
+    sources: [
+      { name: "PSG.fr - effectif 2026-2027", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", note: "Liste officielle des joueurs et positions affichées." },
+      { name: "PSG.fr - onze contre le Slovan Bratislava", url: "https://www.psg.fr/content/onze-de-depart-paris-saint-germain-sk-slovan-bratislava-ucl-2026-2027", note: "Titularisation de Dro et composition officielle." },
+      { name: "PSG.fr - prolongations et continuité", url: "https://www.psg.fr/en/content/pr-choosing-continuity", note: "Prolongation de Mayulu jusqu'en 2031 et présentation officielle du projet." },
+      { name: "PSG.fr - calendrier 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Séquence de six matches en octobre." }
+    ],
+    internalLinks: [
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Désiré Doué", url: "/joueurs-psg/desire-doue/" },
+      { label: "Warren Zaïre-Emery", url: "/joueurs-psg/warren-zaire-emery/" },
+      { label: "Senny Mayulu", url: "/joueurs-psg/senny-mayulu/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" }
+    ]
+  },
+  {
+    id: "mercato-psg-janvier-2027-departs-prets-concurrence",
+    title: "Mercato PSG janvier 2027 : les départs compteront-ils plus que les arrivées ?",
+    description: "Avant de chercher une recrue, le PSG devra mesurer les minutes, les blocages et les besoins de prêt. Les dossiers de sortie qui peuvent structurer janvier.",
+    deck: "L'effectif est riche, les contrats sont longs et plusieurs jeunes réclament du terrain. Le prochain mercato parisien pourrait se jouer moins sur un grand nom que sur la capacité à organiser les sorties utiles.",
+    category: "Mercato PSG",
+    angle: "Départs, prêts et gestion d'effectif",
+    date: "2026-10-03",
+    dateLabel: "3 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Le Parc des Princes pour une analyse des départs du mercato PSG de janvier 2027",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG janvier 2027", "départ PSG", "prêt PSG", "transfert PSG", "effectif PSG"],
+    sections: [
+      { heading: "Le marché d'hiver commence par un diagnostic des minutes", paragraphs: [
+        "Le réflexe du mercato consiste à chercher une arrivée. Pourtant, l'effectif officiel du PSG réunit déjà des titulaires, des internationaux confirmés et plusieurs jeunes capables d'occuper les mêmes zones. Avant janvier, la direction doit donc établir une cartographie précise : qui joue les grandes affiches, qui entre régulièrement, qui n'apparaît qu'en fin de match et qui ne possède aucune trajectoire claire. Sans ce diagnostic, une recrue supplémentaire peut seulement déplacer le problème.",
+        "Les six rencontres d'octobre fourniront un premier échantillon sérieux. Un joueur peu utilisé malgré l'enchaînement contre Le Mans, City, Strasbourg, Barcelone, Lyon et Le Havre recevra un signal difficile à ignorer. À l'inverse, une rotation active peut fermer plusieurs dossiers de départ. Le marché de janvier ne doit donc pas être écrit à l'avance. Il dépendra de la manière dont Luis Enrique répartira les rôles dans la première vraie séquence dense de la saison."
+      ] },
+      { heading: "Un prêt utile doit offrir un rôle, pas seulement une adresse", paragraphs: [
+        "Pour un jeune, partir six mois n'a de sens que si le club d'accueil propose un besoin identifiable. Le niveau du championnat compte, mais le projet de jeu, la concurrence au poste et la stabilité de l'entraîneur comptent davantage. Un prêt dans un club prestigieux sans minutes peut être moins formateur qu'une place de titulaire dans une équipe qui exige des responsabilités chaque semaine. Paris doit négocier le contexte, pas seulement le nom du club.",
+        "La durée courte du mercato hivernal augmente le risque. Le joueur arrive dans un vestiaire déjà formé, avec peu de préparation et une pression immédiate sur les résultats. Une option de retour anticipé, des échanges réguliers avec le staff parisien et une définition claire du poste peuvent limiter ce danger. Le prêt ne doit jamais servir à déplacer silencieusement un problème de hiérarchie. Il doit répondre à une étape précise du développement."
+      ] },
+      { heading: "Les contrats longs donnent de la sécurité, mais réduisent l'urgence", paragraphs: [
+        "Le PSG a récemment prolongé Luis Enrique, Beraldo, Mayulu, João Neves, Pacho et Fabián Ruiz, avec plusieurs engagements allant jusqu'en 2031. Cette continuité protège la valeur sportive et donne au club une forte position de négociation. Elle évite qu'un joueur essentiel entre trop vite dans sa dernière année de contrat. Mais elle rend aussi plus complexe la gestion de ceux qui perdent leur place : aucune échéance courte n'impose naturellement une décision.",
+        "Un contrat long ne garantit pas un rôle long. La direction doit séparer la valeur patrimoniale du besoin sportif. Conserver un joueur uniquement parce qu'il est protégé contractuellement peut bloquer un jeune et immobiliser une masse salariale importante. Le vendre trop vite après une baisse de minutes peut au contraire détruire de la valeur. Janvier exigera donc des choix patients, fondés sur la fonction dans l'équipe et non sur la seule durée inscrite dans le contrat."
+      ] },
+      { heading: "L'attaque concentre la concurrence la plus visible", paragraphs: [
+        "L'arrivée officielle de Ferran Torres jusqu'en 2031 a ajouté un numéro 9 polyvalent à une ligne déjà riche. Dembélé, Kvaratskhelia, Doué, Akliouche, Godts et d'autres profils peuvent occuper plusieurs positions autour de lui. Cette abondance donne à Luis Enrique des réponses différentes, mais elle réduit mécaniquement les minutes. Un attaquant peut traverser octobre sans démériter et se retrouver pourtant derrière trois concurrents adaptés à d'autres scénarios.",
+        "C'est ici que les rumeurs peuvent devenir trompeuses. Une absence de deux matches n'annonce pas automatiquement un départ ; une titularisation ne ferme pas non plus le dossier. Il faut observer les entrées dans les rencontres serrées, les positions utilisées et la confiance dans les grandes affiches. Si un joueur reste en dehors de ces trois catégories, une discussion de janvier devient logique. Elle ne doit toutefois être présentée comme active qu'après un signal attribué et vérifiable."
+      ] },
+      { heading: "Vendre en janvier peut coûter plus qu'attendre", paragraphs: [
+        "Le marché hivernal favorise souvent l'acheteur qui cherche une solution immédiate, mais il peut défavoriser le vendeur pressé de réduire son groupe. Les clubs savent lorsqu'un joueur manque de minutes et utilisent cette situation pour négocier un prêt, une option ou un prix inférieur. Le PSG doit éviter d'afficher une urgence. Une sortie n'est utile que si elle libère réellement un rôle, améliore la trajectoire du joueur ou finance une priorité sportive claire.",
+        "Attendre l'été offre plus de prétendants et davantage de temps pour remplacer. Mais patienter six mois peut aussi dégrader la valeur si le joueur ne joue presque jamais. La décision dépend donc de trois variables : le nombre de minutes probables au printemps, le marché disponible en janvier et le coût d'une place occupée sans usage. Aucun de ces éléments ne se résume à un montant publié par un site de rumeurs."
+      ] },
+      { heading: "Les arrivées doivent rester conditionnées à une sortie ou à un manque réel", paragraphs: [
+        "Paris peut évidemment saisir une occasion exceptionnelle. Une blessure longue, une faiblesse répétée contre certains blocs ou un joueur rare rendu disponible peuvent modifier la stratégie. Mais en situation normale, ajouter un profil sans dégager d'espace risquerait d'aggraver la concurrence. Le recrutement pertinent doit répondre à une compétence absente, pas simplement à une envie de renouveler l'attention médiatique autour du club.",
+        "La règle la plus saine serait simple : aucune arrivée de rotation sans scénario de minutes crédible. Si le joueur recruté doit attendre derrière quatre concurrents, le club achète un problème futur. Si une sortie crée une fonction vacante ou si octobre révèle une dépendance excessive à un titulaire, l'opération devient plus cohérente. Cette discipline protège aussi les jeunes, qui doivent voir une voie réelle entre le Campus et l'équipe première."
+      ] },
+      { heading: "Notre verdict : janvier doit clarifier avant de renforcer", paragraphs: [
+        "Le prochain mercato du PSG ne sera réussi ni par le nombre d'annonces ni par la taille du nom recruté. Il le sera si l'effectif de février devient plus lisible : des titulaires assumés, une rotation impliquée, des jeunes placés dans de bons parcours et aucun joueur conservé sans perspective. Les sorties peuvent donc peser plus lourd que les arrivées, même si elles produisent moins d'enthousiasme immédiat.",
+        "Au 3 octobre, aucune liste de départs ne peut être présentée comme certaine. Le travail sérieux consiste à suivre les minutes, les groupes, les postes et les déclarations publiques. Notre classement est celui d'une analyse de structure, pas d'une information de négociation. Octobre et novembre construiront les faits ; décembre permettra de distinguer une frustration passagère d'un véritable besoin de transfert ou de prêt."
+      ] }
+    ],
+    faq: [
+      { question: "Pourquoi le PSG pourrait-il privilégier les départs en janvier 2027 ?", answer: "Parce que l'effectif est déjà dense et que plusieurs joueurs se disputent les mêmes minutes, notamment au milieu et en attaque." },
+      { question: "Quels critères rendent un prêt utile ?", answer: "Un rôle clair, une concurrence raisonnable, un projet de jeu compatible et un suivi régulier par le PSG." },
+      { question: "Des départs sont-ils déjà confirmés ?", answer: "Non. Cet article analyse la structure de l'effectif ; aucune négociation de sortie n'est présentée comme établie au 3 octobre." }
+    ],
+    sources: [
+      { name: "PSG.fr - effectif 2026-2027", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", note: "Liste officielle utilisée pour mesurer la densité du groupe." },
+      { name: "PSG.fr - prolongations et continuité", url: "https://www.psg.fr/en/content/pr-choosing-continuity", note: "Durées de contrat annoncées pour l'entraîneur et cinq joueurs." },
+      { name: "PSG.fr - arrivée de Ferran Torres", url: "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027", note: "Contrat jusqu'en 2031 et rôle offensif officiel." },
+      { name: "PSG.fr - calendrier 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Séquence utilisée pour observer la répartition des minutes." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Joueurs PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Ferran Torres", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "mercato-psg-janvier-2027-attaquant-priorite-rumeurs",
     title: "Mercato PSG janvier 2027 : Paris a-t-il vraiment besoin d'un nouvel attaquant ?",
