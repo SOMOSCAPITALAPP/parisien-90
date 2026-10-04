@@ -1,11 +1,119 @@
 {
-  "updatedAt": "2026-10-03T06:30:00+02:00",
-  "displayDate": "3 octobre 2026",
-  "displayTime": "06h30",
+  "updatedAt": "2026-10-04T10:45:00+02:00",
+  "displayDate": "4 octobre 2026",
+  "displayTime": "10h45",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 42,
+  "count": 45,
   "items": [
+    {
+      "id": "mercato-psg-octobre-audit-effectif-avant-janvier-2027",
+      "category": "Mercato PSG",
+      "angle": "Audit de l'effectif avant le mercato d'hiver",
+      "date": "2026-10-04",
+      "dateLabel": "4 octobre 2026",
+      "time": "10:45",
+      "dateTime": "2026-10-04T10:45:00+02:00",
+      "headline": "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier",
+      "summary": "City et Barcelone testeront le plafond du groupe, Le Mans, Strasbourg, Lyon et Le Havre sa continuité. Cette séquence doit servir d'audit sportif avant toute décision de janvier.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-octobre-audit-effectif-avant-janvier-2027/",
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates et adversaires de la séquence d'octobre."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Composition publique de l'effectif et postes officiels."
+        },
+        {
+          "name": "UEFA - matches du PSG en Ligue des champions",
+          "url": "https://fr.uefa.com/uefachampionsleague/clubs/52747--paris/matches/",
+          "note": "Calendrier européen officiel de Paris."
+        }
+      ],
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG",
+        "mercato PSG janvier 2027",
+        "effectif PSG",
+        "recrutement PSG"
+      ]
+    },
+    {
+      "id": "internationaux-psg-retours-octobre-dembele-doue-zaire-emery",
+      "category": "Joueurs PSG",
+      "angle": "Forme, charge internationale et hiérarchie",
+      "date": "2026-10-04",
+      "dateLabel": "4 octobre 2026",
+      "time": "10:45",
+      "dateTime": "2026-10-04T10:45:00+02:00",
+      "headline": "Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG",
+      "summary": "La sélection donne du rythme, de la confiance et parfois de la fatigue. Pour Luis Enrique, la question n'est pas seulement de savoir qui a joué, mais dans quel rôle et avec quel coût physique.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/internationaux-psg-retours-octobre-dembele-doue-zaire-emery/",
+      "sources": [
+        {
+          "name": "PSG.fr - trois Parisiens avec la France",
+          "url": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
+          "note": "Convocations et calendrier officiel des joueurs français."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Postes et présence des joueurs dans le groupe officiel."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates du Mans et de la séquence d'octobre."
+        }
+      ],
+      "keywords": [
+        "Dembélé PSG",
+        "Désiré Doué PSG",
+        "Zaïre-Emery PSG",
+        "internationaux PSG",
+        "effectif PSG"
+      ]
+    },
+    {
+      "id": "composition-psg-le-mans-repetition-manchester-city-octobre-2026",
+      "category": "Tactique PSG",
+      "angle": "Composition et principes avant Manchester City",
+      "date": "2026-10-04",
+      "dateLabel": "4 octobre 2026",
+      "time": "10:45",
+      "dateTime": "2026-10-04T10:45:00+02:00",
+      "headline": "PSG-Le Mans : la répétition tactique idéale avant Manchester City ?",
+      "summary": "Le premier rendez-vous après la trêve doit réinstaller les principes parisiens. La composition donnera des indices, mais le comportement collectif comptera davantage que les noms.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/composition-psg-le-mans-repetition-manchester-city-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Dates officielles de PSG-Le Mans et de la séquence d'octobre."
+        },
+        {
+          "name": "UEFA - Manchester City contre Paris",
+          "url": "https://fr.uefa.com/uefachampionsleague/clubs/52747--paris/matches/",
+          "note": "Programmation officielle de la Ligue des champions."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Effectif public utilisé pour présenter les options sans annoncer un onze certain."
+        }
+      ],
+      "keywords": [
+        "composition PSG",
+        "PSG Le Mans",
+        "Manchester City PSG",
+        "tactique PSG",
+        "Luis Enrique PSG"
+      ]
+    },
     {
       "id": "luis-enrique-psg-onze-slovan-rotation-octobre-2026",
       "category": "Entraîneurs PSG",

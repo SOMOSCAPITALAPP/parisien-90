@@ -323,16 +323,21 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-03T06:30:00+02:00",
-  edition: "Fil PSG du 3 octobre 2026",
-  displayDate: "3 octobre 2026",
-  displayTime: "06h30",
+  updatedAt: "2026-10-04T10:45:00+02:00",
+  edition: "Fil PSG du 4 octobre 2026",
+  displayDate: "4 octobre 2026",
+  displayTime: "10h45",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-04", "4 octobre 2026", [
+  { id: "mercato-psg-octobre-audit-effectif-avant-janvier-2027", time: "10:45", category: "Mercato", title: "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier", summary: "Six matches en vingt jours doivent permettre au PSG d'évaluer sa profondeur réelle avant le mercato d'hiver. Défense, milieu, surface, jeunes et disponibilité : le terrain doit désormais remplacer les impressions.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", reliability: "Analyse", viral: 93 },
+  { id: "internationaux-psg-retours-octobre-dembele-doue-zaire-emery", time: "10:45", category: "Joueurs", title: "Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG", summary: "Les internationaux reviennent avec des minutes, des voyages et des rôles différents. Luis Enrique devra reconstruire une équipe cohérente contre Le Mans avant de choisir ses armes pour Manchester City.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027", reliability: "Analyse", viral: 91 },
+  { id: "composition-psg-le-mans-repetition-manchester-city-octobre-2026", time: "10:45", category: "Tactique", title: "PSG-Le Mans : la répétition tactique idéale avant Manchester City ?", summary: "Quatre jours avant City, Paris doit réinstaller sa sortie de balle, son pressing et la couverture de ses latéraux. Le Mans sera un vrai match de Ligue 1, mais aussi le premier révélateur tactique d'octobre.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", reliability: "Analyse", viral: 92 },
+  ]),
   ...withNewsDate("2026-10-03", "3 octobre 2026", [
   { id: "jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026", time: "06:30", category: "Joueurs", title: "Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes", summary: "L'effectif officiel réunit quatre jeunes profils déjà proches du onze, mais leurs besoins diffèrent. Le calendrier d'octobre doit permettre à Luis Enrique de leur donner des rôles clairs, pas seulement des apparitions dispersées.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Analyse", viral: 91 },
   ]),

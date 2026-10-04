@@ -1388,6 +1388,69 @@ const brReliabilityLabel = (value) =>
 
 const brStoryTranslations = [
   {
+    id: "composition-psg-le-mans-repetition-manchester-city-octobre-2026",
+    title: "PSG x Le Mans: o ensaio tático ideal antes do Manchester City?",
+    summary: "Quatro dias antes de enfrentar o City, o PSG precisa recuperar a saída de bola, a pressão coordenada e a proteção dos laterais. O Le Mans será um jogo real de Ligue 1 e o primeiro teste tático de outubro.",
+    sections: [
+      {
+        title: "O calendário traz dois jogos, não um jogo e um treino",
+        paragraphs: [
+          "O Paris Saint-Germain recebe o Le Mans em 10 de outubro e visita o Manchester City no dia 14. A proximidade entre as partidas convida a tratar a primeira como uma preparação para a segunda, mas esse seria o erro inicial. Paris volta de uma Data Fifa, reencontra atletas em momentos diferentes e precisa recuperar seus automatismos diante da própria torcida. Os pontos da Ligue 1 têm valor completo, assim como a qualidade da atuação.",
+          "Luis Enrique pode, ao mesmo tempo, usar o encontro para reconstruir princípios que serão necessários na Inglaterra: oferecer três linhas de passe na saída, fechar o corredor central depois de perder a bola e conservar amplitude para esticar a primeira pressão. Os nomes e a intensidade do adversário serão diferentes, mas as distâncias entre os parisienses devem permanecer reconhecíveis. A melhor preparação para o City será uma atuação séria, e não uma escalação montada apenas para enviar sinais."
+        ]
+      },
+      {
+        title: "A saída de bola precisa responder a dois cenários",
+        paragraphs: [
+          "Diante do Le Mans, o PSG pode encontrar um bloco médio que escolhe quando avançar. O Manchester City tende a perseguir a primeira construção com mais agressividade e a transformar um passe ruim perto da área em finalização. Paris precisa responder aos dois cenários com uma estrutura comum: zagueiros abertos, um meio-campista disponível atrás da primeira linha rival e o goleiro integrado como opção real. Circular devagar, sem provocar nenhum movimento, não basta.",
+          "A posição do volante mais recuado será decisiva. Quando ele desce entre os zagueiros, a equipe protege a primeira fase, mas pode perder uma solução mais alta. Quando permanece por dentro, atrai um marcador e libera um defensor, aceitando um controle mais arriscado. O duelo com o Le Mans oferece repetições para essa escolha. Contra o City, qualquer hesitação pode ser punida, porque a pressão transforma uma orientação corporal ruim em chance clara em poucos segundos."
+        ]
+      },
+      {
+        title: "Os laterais precisam atacar sem abrir duas avenidas",
+        paragraphs: [
+          "Achraf Hakimi e Nuno Mendes dão ao PSG uma potência rara pelos lados. Suas projeções podem empurrar o Le Mans para trás e criar superioridade perto da área. O problema aparece quando os dois avançam ao mesmo tempo e a bola é perdida no centro. A proteção precisa existir antes do passe ofensivo: um meio-campista cobre, um zagueiro antecipa e o ponta do lado oposto fica pronto para atrasar a transição.",
+          "Contra o Manchester City, essa disciplina será ainda mais importante. O adversário procura o espaço abandonado com jogadores capazes de conduzir ou acertar uma inversão longa. Paris não precisa retirar a ambição de seus laterais. Precisa decidir quem avança, quem equilibra e como o desenho muda atrás da jogada. O jogo de 10 de outubro pode transformar essas coberturas em hábitos, para que elas não dependam de uma ordem gritada quando a velocidade aumentar."
+        ]
+      },
+      {
+        title: "A escalação deve misturar ritmo e recuperação",
+        paragraphs: [
+          "A volta dos convocados impede que exista, desde já, um onze indiscutível. Os jogadores que atuaram na Europa, na América do Sul e na África não terão as mesmas viagens nem a mesma carga. Uma equipe formada apenas por quem está descansado pode perder entrosamento. Um time repleto de titulares cansados prepararia mal a semana. Luis Enrique terá de misturar os dois grupos, manter uma coluna vertebral e entregar responsabilidades verdadeiras às opções de rotação.",
+          "O banco também terá função tática. Alguns titulares podem entrar durante meia hora para recuperar referências coletivas. Jovens podem começar e terminar cercados por experiência. A ordem das substituições deve responder ao placar, e não a um roteiro imutável. Se o PSG estiver na frente, será possível testar o controle sem recuar. Se o jogo permanecer fechado, os reservas precisarão aumentar o ritmo sem transformar a equipe em uma soma desorganizada de atacantes."
+        ]
+      },
+      {
+        title: "Pressionar o Le Mans como Paris deseja pressionar o City",
+        paragraphs: [
+          "A pressão não depende do tamanho do adversário. Ela nasce de sinais reconhecidos por todos: passe para um jogador de costas, domínio orientado para a lateral ou bola alta difícil de controlar. Contra o Le Mans, o PSG precisa recuperar essa coordenação desde os primeiros minutos. Um atacante correndo sozinho abre uma saída simples nas suas costas. Três jogadores avançando juntos encurtam o campo e permitem que a defesa permaneça perto do meio.",
+          "O City oferecerá menos gatilhos evidentes e possui mais atletas capazes de escapar do primeiro duelo. Por isso, a repetição deve avaliar a reação coletiva, não apenas o número de recuperações. Onde fica o meio-campista do lado oposto? Quem bloqueia o passe interior? Até que altura a defesa acompanha? Essas respostas definem se a pressão parisiense será uma arma ou um convite para o rival atacar o espaço vazio."
+        ]
+      },
+      {
+        title: "A posse precisa terminar com presença na área",
+        paragraphs: [
+          "O PSG pode dominar a bola e produzir pouco se todos os atacantes vierem recebê-la no pé. Contra uma defesa baixa, a amplitude só cria perigo quando alguém ataca a zona de finalização. Movimentos cruzados, presença no segundo poste e chegada de um meio-campista devem acompanhar os dribles. A ocupação da área será um indicador mais útil do que a contagem bruta de chutes contra o Le Mans.",
+          "O mesmo princípio prepara o jogo na Inglaterra. Paris provavelmente terá menos posses e precisará valorizar cada ataque instalado no campo rival. Uma linha ofensiva distribuída em alturas diferentes pode conservar a bola, sofrer uma falta ou concluir a jogada. Se todos ocuparem a mesma faixa, a pressão fica mais simples. A comissão técnica deve buscar uma divisão clara: um jogador fixa, outro conecta e um terceiro ataca o espaço."
+        ]
+      },
+      {
+        title: "Uma escalação de princípios, não uma previsão fechada",
+        paragraphs: [
+          "Sem os dados físicos da comissão técnica e antes do encerramento completo da janela internacional, apresentar uma escalação como certeza seria artificial. A lógica sugere um time misto: goleiro participando da construção, zagueiros complementares, pelo menos um lateral oferecendo amplitude, um organizador no meio, um jogador de corrida e um ataque capaz de combinar criação com ocupação da área. Os nomes dependerão da recuperação observada no Campus PSG.",
+          "Nossa leitura é que o Le Mans deve ser o ensaio dos comportamentos, nunca uma cópia antecipada dos onze titulares. Paris ganhará tempo se reservas e titulares falarem o mesmo idioma tático. Saída sob pressão, cobertura dos laterais e pressão coordenada são os três pontos para acompanhar. Se eles aparecerem em 10 de outubro, o PSG chegará a Manchester não apenas descansado, mas novamente conectado como equipe."
+        ]
+      },
+      {
+        title: "O que o torcedor brasileiro deve observar",
+        paragraphs: [
+          "O primeiro sinal estará nos cinco minutos depois de cada perda de bola. Se o PSG recuperar rapidamente ou obrigar o adversário a jogar longo, a estrutura estará funcionando. O segundo será a posição dos laterais quando a jogada acontece no lado oposto. O terceiro será a quantidade de jogadores que entram na área sem abandonar a proteção. Esses detalhes ajudam a ler a partida para além do placar.",
+          "Também será importante separar fato de projeção. O calendário de Le Mans e Manchester City está confirmado pelas fontes oficiais; a escalação ainda não. Qualquer discussão sobre titulares deve permanecer como análise até a publicação do grupo e do onze. Essa prudência não enfraquece o debate. Ela permite discutir tática com profundidade sem transformar uma hipótese em notícia."
+        ]
+      }
+    ]
+  },
+  {
     id: "jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026",
     title: "Jovens do PSG: Doué, Zaïre-Emery, Mayulu e Dro terão minutos suficientes?",
     summary: "O elenco oficial reúne quatro jovens que já estão perto do time titular, mas vivem etapas diferentes. A maratona de outubro precisa oferecer funções claras e minutos de qualidade, não apenas participações dispersas.",
