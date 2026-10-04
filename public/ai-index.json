@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-03T06:30:00+02:00",
-    "freshnessNote": "Fil PSG du 3 octobre 2026. Fil public : 135 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 42 articles de fond sous /dossiers-psg/. À suivre : Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes ; Belgique-Turquie : Godts impliqué, les Diables déroulent avant les Bleus ; Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne ; PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0 ; PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-04T13:30:00+02:00",
+    "freshnessNote": "Fil PSG du 3 octobre 2026. Fil public : 136 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 42 articles de fond sous /dossiers-psg/. À suivre : Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes ; Ferran Torres quitte la Roja : la cheville gauche sous surveillance ; Belgique-Turquie : Godts impliqué, les Diables déroulent avant les Bleus ; Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne ; PSG-OH Louvain : Feller régale, Paris écrase les Belges 5-0. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -209,6 +209,15 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
       "reliability": "Analyse"
+    },
+    {
+      "title": "Ferran Torres quitte la Roja : la cheville gauche sous surveillance",
+      "category": "Santé",
+      "dateTime": "2026-10-02T15:00:00+02:00",
+      "url": "https://parisien90.com/news/ferran-torres-retour-espagne-cheville-gauche-octobre-2026/",
+      "source": "RFEF",
+      "sourceUrl": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
+      "reliability": "Officiel — gêne confirmée, bilan à attendre"
     },
     {
       "title": "Belgique-Turquie : Godts impliqué, les Diables déroulent avant les Bleus",
@@ -460,15 +469,6 @@
       "url": "https://parisien90.com/news/marquinhos-bresil-selection-australie-inde-septembre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/marquinhos-appele-avec-le-bresil-psg-selection-amicaux-treve-septembre-octobre-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Ballon d'Or 2026 : le PSG place dix joueurs parmi les nommés, un record",
-      "category": "Club",
-      "dateTime": "2026-09-09T11:35:00+02:00",
-      "url": "https://parisien90.com/news/psg-ballon-or-dix-nommes-record-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/ballon-d-or-2026-le-paris-saint-germain-etablit-un-nouveau-record-avec-dix-nommes-psg-club-news-2026-2027/",
       "reliability": "Officiel"
     }
   ],
@@ -2714,7 +2714,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-03T06:30:00+02:00",
+    "updatedAt": "2026-10-04T13:30:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
