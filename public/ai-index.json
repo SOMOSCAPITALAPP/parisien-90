@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-10-04T10:45:00+02:00",
-    "freshnessNote": "Fil PSG du 4 octobre 2026. Fil public : 137 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 45 articles de fond sous /dossiers-psg/. À suivre : Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier ; Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG ; PSG-Le Mans : la répétition tactique idéale avant Manchester City ? ; Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes ; Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 4 octobre 2026. Fil public : 139 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 45 articles de fond sous /dossiers-psg/. À suivre : Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier ; Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG ; PSG-Le Mans : la répétition tactique idéale avant Manchester City ? ; Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes ; Ferran Torres quitte la Roja : la cheville gauche sous surveillance. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -238,6 +238,24 @@
       "reliability": "Analyse"
     },
     {
+      "title": "Ferran Torres quitte la Roja : la cheville gauche sous surveillance",
+      "category": "Santé",
+      "dateTime": "2026-10-02T15:00:00+02:00",
+      "url": "https://parisien90.com/news/ferran-torres-retour-espagne-cheville-gauche-octobre-2026/",
+      "source": "RFEF",
+      "sourceUrl": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
+      "reliability": "Officiel — gêne confirmée, bilan à attendre"
+    },
+    {
+      "title": "Belgique-Turquie : Godts impliqué, les Diables déroulent avant les Bleus",
+      "category": "Sélections",
+      "dateTime": "2026-10-02T23:15:00+02:00",
+      "url": "https://parisien90.com/news/belgique-turquie-godts-victoire-nations-league-octobre-2026/",
+      "source": "RBFA / UEFA",
+      "sourceUrl": "https://www.rbfa.be/fr/nouvelles/de-bruyne-guide-les-diables-rouges-vers-une-victoire-convaincante-contre-la-turquie",
+      "reliability": "Officiel — résultat UEFA, action confirmée par la fédération belge"
+    },
+    {
       "title": "Octobre du PSG : City, Barcelone et six matches pour tester toute la profondeur parisienne",
       "category": "Calendrier",
       "dateTime": "2026-10-02T20:30:00+02:00",
@@ -452,24 +470,6 @@
       "source": "Planète PSG / conférence de Luis Enrique",
       "sourceUrl": "https://www.planetepsg.com/news-125408-club-on_a_besoin_de_points_luis_enrique_fixe_le_cap_pour_les_deux_prochains_matchs_avant_la_treve.html",
       "reliability": "Fort — conférence rapportée"
-    },
-    {
-      "title": "Ferran Torres, joueur de la semaine UEFA : le triplé contre le Slovan a déjà marqué l'Europe",
-      "category": "Europe",
-      "dateTime": "2026-09-11T18:21:00+02:00",
-      "url": "https://parisien90.com/news/ferran-torres-joueur-semaine-equipe-type-uefa-septembre-2026/",
-      "source": "UEFA",
-      "sourceUrl": "https://fr.uefa.com/uefachampionsleague/news/02a9-2191228a4324-39a961a366d2-1000--champions-league-equipe-de-la-semaine-j1/",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Slovan : Paris frappe six fois, Dembélé et Ferran Torres font exploser le Parc",
-      "category": "Europe",
-      "dateTime": "2026-09-10T00:41:00+02:00",
-      "url": "https://parisien90.com/news/psg-slovan-victoire-dembele-ferran-torres-triple-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-slovan-2026-09-09",
-      "reliability": "Officiel"
     }
   ],
   "people": [
