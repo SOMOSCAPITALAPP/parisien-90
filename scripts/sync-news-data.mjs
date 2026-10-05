@@ -198,21 +198,31 @@ const syncCalendarQuickAnswer = async () => {
 
   const dayLabel = `${nextFixture.day.charAt(0).toUpperCase()}${nextFixture.day.slice(1)}`;
   const timeLabel = nextFixture.time === "À confirmer" ? "horaire à confirmer" : `${nextFixture.time}`;
+  const shortTeamName = (team) => team === "Paris Saint-Germain" ? "PSG" : team;
+  const matchLabel = `${shortTeamName(nextFixture.home)} - ${shortTeamName(nextFixture.away)}`;
+  const calendarTitle = `Calendrier PSG : prochain match ${matchLabel} le ${nextFixture.dateLabel}`;
+  const calendarDescription = `Prochain match du PSG : ${matchLabel}, ${nextFixture.day} ${nextFixture.dateLabel} à ${timeLabel}. Calendrier complet 2026-2027, résultats, Ligue 1, Champions et Coupe de France.`;
+  const startDate = `${nextFixture.isoDate}T${nextFixture.time === "À confirmer" ? "00:00" : nextFixture.time}:00+02:00`;
   const block = `<!-- CALENDAR_QUICK_ANSWER:START -->
-      <section class="calendar-quick-answer" aria-labelledby="next-psg-match-title">
+      <section class="calendar-quick-answer" aria-labelledby="next-psg-match-title" itemscope itemtype="https://schema.org/SportsEvent">
         <div>
           <span class="section-kicker">Prochain match du PSG</span>
-          <h2 id="next-psg-match-title">${escapeHTML(nextFixture.home)} - ${escapeHTML(nextFixture.away)}</h2>
-          <p><strong>${escapeHTML(dayLabel)} ${escapeHTML(nextFixture.dateLabel)}</strong> · ${escapeHTML(timeLabel)} · ${escapeHTML(nextFixture.competition)} · ${escapeHTML(nextFixture.venue)}</p>
+          <h2 id="next-psg-match-title" itemprop="name">${escapeHTML(matchLabel)}</h2>
+          <p><strong><time itemprop="startDate" datetime="${escapeHTML(startDate)}">${escapeHTML(dayLabel)} ${escapeHTML(nextFixture.dateLabel)} · ${escapeHTML(timeLabel)}</time></strong> · <span itemprop="description">${escapeHTML(nextFixture.competition)}</span> · <span itemprop="location">${escapeHTML(nextFixture.venue)}</span></p>
         </div>
         <a class="primary-action compact-action" href="#calendrier-complet">Voir tous les matchs</a>
       </section>
       <!-- CALENDAR_QUICK_ANSWER:END -->`;
   const calendarPage = await readFile(calendarPagePath, "utf8");
-  const updatedPage = calendarPage.replace(
-    /<!-- CALENDAR_QUICK_ANSWER:START -->[\s\S]*?<!-- CALENDAR_QUICK_ANSWER:END -->/,
-    block
-  );
+  const updatedPage = calendarPage
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHTML(calendarTitle)}</title>`)
+    .replace(/<meta\s+name="description"\s+content="[\s\S]*?"\s*\/>/, `<meta name="description" content="${escapeHTML(calendarDescription)}" />`)
+    .replace(/<meta property="og:title" content="[\s\S]*?"\s*\/>/, `<meta property="og:title" content="${escapeHTML(calendarTitle)}" />`)
+    .replace(/<meta property="og:description" content="[\s\S]*?"\s*\/>/, `<meta property="og:description" content="${escapeHTML(calendarDescription)}" />`)
+    .replace(
+      /<!-- CALENDAR_QUICK_ANSWER:START -->[\s\S]*?<!-- CALENDAR_QUICK_ANSWER:END -->/,
+      block
+    );
   await writeFile(calendarPagePath, updatedPage, "utf8");
 };
 
@@ -773,8 +783,8 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
   const profileImage = profile.image ? assetUrl(profile.image.url) : heroImage;
   const ronaldinhoSeo = isLegend && profile.id === "ronaldinho"
     ? {
-        title: "Ronaldinho au PSG : histoire, années 2001-2003 et héritage",
-        description: "Ronaldinho au PSG de 2001 à 2003 : son arrivée à Paris, ses moments marquants, son style, son départ et l'héritage d'une future légende mondiale."
+        title: "Ronaldinho PSG : années 2001-2003, histoire et héritage",
+        description: "Ronaldinho au PSG de 2001 à 2003 : deux saisons de magie à Paris, ses moments marquants, son style, son départ et l'héritage d'une future légende mondiale."
       }
     : null;
   const title = ronaldinhoSeo?.title || (isPlayer
