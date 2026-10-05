@@ -428,8 +428,7 @@ const makeArticlePage = (item) => {
             <h2>Articles liés</h2>
           </div>
         </div>
-        <div class="hot-grid">
-          ${related
+        <div class="hot-grid">${related
             .map(
               (candidate) => `<article class="news-card" data-share-title="${escapeHTML(candidate.title)}" data-share-url="${escapeHTML(itemPath(candidate))}">
             <time class="news-date" datetime="${escapeHTML(itemDateTimeISO(candidate))}">${escapeHTML(candidate.dateLabel || newsMeta.displayDate)} · ${escapeHTML(candidate.time)}</time>
@@ -439,8 +438,7 @@ const makeArticlePage = (item) => {
             <a href="${escapeHTML(itemPath(candidate))}">Lire l'article</a>
           </article>`
             )
-            .join("")}
-        </div>
+            .join("")}</div>
       </section>
     </main>
     <footer class="site-footer">
@@ -1352,6 +1350,10 @@ const brStatusLabel = (value) =>
 
 const brCompetitionLabel = (value) =>
   String(value || "")
+    .replace("Joueurs", "Jogadores")
+    .replace("Tactique", "Tática")
+    .replace("Économie", "Economia")
+    .replace("Rumeurs", "Rumores")
     .replace("Groupe", "Grupo")
     .replace("Match", "Jogo")
     .replace("Europe", "Europa")
@@ -1376,6 +1378,10 @@ const brPlaceLabel = (value) =>
 
 const brReliabilityLabel = (value) =>
   String(value || "")
+    .replace("Chiffres officiels et estimations externes attribuées", "Números oficiais e estimativas externas atribuídas")
+    .replace("Sources officielles CBF, Santos et PSG", "Fontes oficiais da CBF, do Santos e do PSG")
+    .replace("Fait officiel, analyse prudente", "Fato oficial, análise prudente")
+    .replace("Analyse", "Análise")
     .replace("Officiel", "Oficial")
     .replace("officiel", "oficial")
     .replace("conférence", "coletiva")
@@ -1386,7 +1392,76 @@ const brReliabilityLabel = (value) =>
     .replace("attendue", "esperada")
     .replace("attendu", "esperado");
 
+const brSourceLabel = (value) =>
+  String(value || "")
+    .replace("Parisien 90 — analyse économique sourcée", "Parisien 90 — análise econômica com fontes")
+    .replace("Parisien 90 — analyse sourcée", "Parisien 90 — análise com fontes")
+    .replace("Parisien 90 — dossier sourcé", "Parisien 90 — dossiê com fontes");
+
 const brStoryTranslations = [
+  {
+    id: "valorisation-psg-marque-entreprise-chiffre-affaires-2026",
+    title: "Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede",
+    summary: "A Brand Finance avalia a marca PSG em 1,5 bilhão de euros, a Forbes estima a empresa em cerca de 5 bilhões e o clube anuncia receita de 837 milhões. Os três indicadores respondem a perguntas diferentes.",
+    sections: [
+      {
+        title: "Três números que não medem a mesma coisa",
+        paragraphs: [
+          "O debate sobre o valor do PSG costuma colocar 837 milhões de euros, 1,5 bilhão de euros e aproximadamente 5 bilhões de euros lado a lado, como se fossem estimativas concorrentes. Não são. Os 837 milhões correspondem à receita anunciada pelo clube para a temporada 2024-2025. O 1,5 bilhão mede o valor de marca estimado pela Brand Finance em 2026. Os cerca de 5 bilhões representam a avaliação empresarial publicada pela Forbes.",
+          "O primeiro indicador mostra quanto a atividade gerou durante um período. O segundo tenta isolar a força econômica ligada ao nome, à reputação e à capacidade comercial da marca. O terceiro estima o conjunto esportivo e empresarial segundo uma metodologia externa. Somar esses valores não faria sentido. Compará-los só é útil quando definição, data e fonte permanecem claramente identificadas."
+        ]
+      },
+      {
+        title: "837 milhões de euros: a receita gerada pelo clube",
+        paragraphs: [
+          "O PSG anunciou receita recorde de 837 milhões de euros para 2024-2025. O comunicado detalha 367 milhões em receitas comerciais e 175 milhões provenientes dos dias de jogo. Também destaca que o faturamento cresceu mais de oito vezes desde 2011, quando estava em 99 milhões de euros. Esse número mede a atividade anual e não o preço pelo qual o clube poderia ser vendido.",
+          "O clube informa ainda que a folha salarial ficou abaixo de 65% da receita. A proporção ajuda a observar o peso dos salários na operação, mas não resume a rentabilidade. Para avaliar toda a saúde financeira, seria necessário conhecer despesas, amortizações, resultado líquido e fluxo de caixa. O comunicado oficial é uma fonte sólida sobre os números divulgados pelo PSG, mas não substitui demonstrações financeiras completas."
+        ]
+      },
+      {
+        title: "1,5 bilhão de euros: o valor da marca PSG",
+        paragraphs: [
+          "A Brand Finance estima a marca Paris Saint-Germain em 1,5 bilhão de euros em 2026, uma alta de 10%, e coloca o clube na quinta posição mundial entre as marcas do futebol. A consultoria avalia um ativo intangível: a capacidade do nome PSG de sustentar receitas, patrocínios, preferência do público e visibilidade internacional. Estádio, contratos dos atletas e caixa não são sinônimos desse valor.",
+          "O indicador ajuda a entender por que os resultados em campo são apenas parte da equação. Audiência global, distribuição de produtos, parceiros e relevância cultural fortalecem a marca. A Brand Finance também aponta uma vantagem muito grande do PSG sobre os demais clubes franceses. Ainda assim, trata-se de uma modelagem dependente de premissas. Não é um preço garantido nem uma proposta de compra."
+        ]
+      },
+      {
+        title: "Cerca de 5 bilhões de euros: a estimativa empresarial",
+        paragraphs: [
+          "A Forbes classificou o PSG como o quinto clube mais valioso do mundo em 2026, com avaliação de 5,8 bilhões de dólares, aproximadamente 5 bilhões de euros na conversão apresentada. O veículo associa essa estimativa a uma receita de 837 milhões de euros e a um resultado operacional estimado em 73 milhões. Aqui, o objetivo é medir o conjunto da empresa esportiva, e não somente a marca.",
+          "Uma avaliação empresarial pode considerar força das receitas, perspectivas, propriedade intelectual, ativos e ambiente competitivo, além da dívida conforme a metodologia. A Forbes menciona uma relação dívida-valor de 1%. Como em qualquer ranking externo, o termo correto é estimativa. Somente uma negociação real, com condições e perímetro definidos, produziria um preço efetivamente pago."
+        ]
+      },
+      {
+        title: "Por que a força comercial pesa tanto",
+        paragraphs: [
+          "Os 367 milhões de euros em receitas comerciais anunciados pelo PSG formam uma base decisiva. Patrocínios, licenciamento, lojas e ações internacionais reduzem a dependência exclusiva dos direitos de transmissão. Essa diversificação ajuda a explicar como um clube francês se aproxima das maiores potências econômicas europeias, apesar de atuar em um mercado doméstico menos remunerador do que a Premier League.",
+          "A força comercial precisa continuar ligada à credibilidade esportiva. Grandes campanhas europeias ampliam exposição, bilheteria e interesse de patrocinadores. Uma temporada decepcionante pode enfraquecer o crescimento se a marca não preservar sua atração. O modelo parisiense tenta transformar resultados em uma relação duradoura com os torcedores, e não em um pico de visibilidade limitado a algumas semanas."
+        ]
+      },
+      {
+        title: "Parc des Princes e a receita dos dias de jogo",
+        paragraphs: [
+          "O clube anuncia 175 milhões de euros em receitas de dias de jogo e uma longa sequência de partidas com ingressos esgotados. O desempenho mostra a força da demanda em torno do PSG, mas também expõe uma limitação estrutural: capacidade e exploração do estádio determinam o número de bilhetes, áreas de hospitalidade e serviços disponíveis. O debate sobre infraestrutura é, portanto, diretamente econômico.",
+          "Aumentar receitas não significa apenas elevar preços. Experiência, recepção, tempo de permanência e ofertas corporativas também contam. Qualquer evolução precisa preservar acesso e identidade popular. Um estádio mais rentável, mas distante de sua torcida, poderia enfraquecer justamente a marca que pretende valorizar. O desafio é desenvolver o ativo sem transformar o torcedor apenas em uma linha de faturamento."
+        ]
+      },
+      {
+        title: "A leitura do Parisien 90 Brasil",
+        paragraphs: [
+          "Os três indicadores concordam em um ponto: o PSG pertence ao primeiro grupo econômico do futebol mundial. Eles não permitem afirmar que o clube possui 837 milhões de euros em caixa, que sua marca poderia ser vendida isoladamente por 1,5 bilhão ou que um comprador pagaria automaticamente 5 bilhões. Cada número segue uma metodologia e deve permanecer ligado à sua fonte.",
+          "A melhor maneira de acompanhar a economia parisiense é observar tendências: evolução da receita, participação comercial, folha salarial, bilheteria e avaliações externas ao longo de vários anos. Uma alta isolada chama atenção; crescimento contínuo demonstra um modelo. Em 2026, Paris possui marca global e receita recorde. O próximo teste será transformar essa escala em estabilidade financeira e esportiva sem perder o vínculo com sua cidade e sua torcida."
+        ]
+      },
+      {
+        title: "Fontes e caminhos para continuar a leitura",
+        paragraphs: [
+          "Os dados de receita, receitas comerciais, dias de jogo e folha salarial vêm do comunicado econômico oficial do Paris Saint-Germain, disponível também em português. A avaliação de marca pertence à Brand Finance. A estimativa empresarial é da Forbes. São fontes diferentes, com objetivos diferentes, e essa atribuição precisa acompanhar qualquer reprodução dos números.",
+          "Para entender como a economia se conecta ao projeto esportivo, o leitor pode consultar o mercado do PSG, o calendário completo, o elenco atual e a história do clube na edição brasileira. Esses caminhos ajudam a relacionar investimento, desempenho e construção de marca sem confundir rumor, opinião e informação confirmada."
+        ]
+      }
+    ]
+  },
   {
     id: "composition-psg-le-mans-repetition-manchester-city-octobre-2026",
     title: "PSG x Le Mans: o ensaio tático ideal antes do Manchester City?",
@@ -2065,11 +2140,14 @@ const makeBrNewsArticlePage = (story) => {
   const frPath = itemPath(item);
   const dateTime = itemDateTimeISO(item);
   const angle = getBrArticleAngle(item);
+  const categoryLabel = brCompetitionLabel(item.category);
+  const reliabilityLabel = brReliabilityLabel(item.reliability);
+  const sourceLabel = brSourceLabel(item.source);
   const related = getBrLatestStories()
     .filter((candidate) => candidate.item.id !== item.id)
     .slice(0, 3);
   const title = `${story.title} | Parisien 90 Brasil`;
-  const description = `${story.summary} Fonte: ${item.source}.`;
+  const description = `${story.summary} Fonte: ${sourceLabel}.`;
   const storySections = Array.isArray(story.sections)
     ? story.sections
         .map((section) => `<h2>${escapeHTML(section.title)}</h2>\n            ${section.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("\n            ")}`)
@@ -2093,13 +2171,13 @@ const makeBrNewsArticlePage = (story) => {
         datePublished: dateTime,
         dateModified: newsMeta.updatedAt,
         inLanguage: "pt-BR",
-        articleSection: brCompetitionLabel(item.category),
+        articleSection: categoryLabel,
         keywords: ["PSG", "Paris Saint-Germain", "notícias PSG", "mercado PSG", "transferências PSG", "jogadores PSG", "Brasil PSG"],
         isAccessibleForFree: true,
         author: { "@type": "Organization", name: "Parisien 90 Brasil", url: `${siteUrl}/br/` },
         publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl },
         copyrightHolder: { "@type": "Organization", name: "Parisien 90" },
-        isBasedOn: { "@type": "CreativeWork", name: item.source, url: sourceUrl(item) },
+        isBasedOn: { "@type": "CreativeWork", name: sourceLabel, url: sourceUrl(item) },
         about: { "@type": "SportsTeam", name: "Paris Saint-Germain" }
       },
       {
@@ -2124,10 +2202,10 @@ const makeBrNewsArticlePage = (story) => {
           </article>`
     )
     .join("\n");
-  const body = `<nav class="breadcrumb" aria-label="Trilha de navegação"><a href="/br/">Início</a><span>/</span><a href="/br/noticias-psg/">Notícias PSG</a><span>/</span><span>${escapeHTML(brCompetitionLabel(item.category))}</span></nav>
+  const body = `<nav class="breadcrumb" aria-label="Trilha de navegação"><a href="/br/">Início</a><span>/</span><a href="/br/noticias-psg/">Notícias PSG</a><span>/</span><span>${escapeHTML(categoryLabel)}</span></nav>
       <article class="article-page" data-share-title="${escapeHTML(story.title)}" data-share-url="${escapeHTML(path)}">
         <div class="article-hero">
-          <div class="item-tags"><span>${escapeHTML(brCompetitionLabel(item.category))}</span><span>${escapeHTML(brReliabilityLabel(item.reliability))}</span><span>Viral ${escapeHTML(item.viral)}</span></div>
+          <div class="item-tags"><span>${escapeHTML(categoryLabel)}</span><span>${escapeHTML(reliabilityLabel)}</span><span>Viral ${escapeHTML(item.viral)}</span></div>
           <time datetime="${escapeHTML(dateTime)}">${escapeHTML(brDateLabel(item.dateLabel || newsMeta.displayDate))} · ${escapeHTML(item.time)}</time>
           <h1>${escapeHTML(story.title)}</h1>
           <p>${escapeHTML(story.summary)}</p>
@@ -2136,11 +2214,11 @@ const makeBrNewsArticlePage = (story) => {
           <div class="article-body">
             <h2>O que está confirmado</h2>
             <p>${escapeHTML(story.summary)}</p>
-            <p>O sinal foi publicado em ${escapeHTML(brDateLabel(item.dateLabel || newsMeta.displayDate))}, às ${escapeHTML(item.time)}, e classificado como <strong>${escapeHTML(brReliabilityLabel(item.reliability))}</strong>. A fonte citada é <strong>${escapeHTML(item.source)}</strong>.</p>
+            <p>O sinal foi publicado em ${escapeHTML(brDateLabel(item.dateLabel || newsMeta.displayDate))}, às ${escapeHTML(item.time)}, e classificado como <strong>${escapeHTML(reliabilityLabel)}</strong>. A fonte citada é <strong>${escapeHTML(sourceLabel)}</strong>.</p>
             ${storySections}
             <h2>Fonte, direitos e método</h2>
             <p>Este artigo é uma síntese original em português do Brasil. Ele não reproduz a publicação de origem: cita a fonte, resume o fato com redação própria e orienta o leitor para verificar o sinal inicial.</p>
-            <div class="source-box"><span>Fonte citada</span><a href="${escapeHTML(sourceUrl(item))}" rel="noopener noreferrer">${escapeHTML(item.source)}</a></div>
+            <div class="source-box"><span>Fonte citada</span><a href="${escapeHTML(sourceUrl(item))}" rel="noopener noreferrer">${escapeHTML(sourceLabel)}</a></div>
           </div>
           <aside class="article-sidebar">
             <span class="section-kicker">Continuar no Brasil</span>

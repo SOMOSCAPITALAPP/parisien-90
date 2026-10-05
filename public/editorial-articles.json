@@ -1,11 +1,124 @@
 {
-  "updatedAt": "2026-10-04T10:45:00+02:00",
-  "displayDate": "4 octobre 2026",
-  "displayTime": "10h45",
+  "updatedAt": "2026-10-05T06:30:00+02:00",
+  "displayDate": "5 octobre 2026",
+  "displayTime": "6h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 45,
+  "count": 48,
   "items": [
+    {
+      "id": "rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence",
+      "category": "Rumeurs PSG",
+      "angle": "Vérification d'un signal mercato après une alerte médicale",
+      "date": "2026-10-05",
+      "dateLabel": "5 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "headline": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
+      "summary": "Le départ de l'Espagnol de sa sélection alimente déjà les projections. Paris doit d'abord établir la gravité, la durée et l'effet collectif avant d'envisager janvier.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence/",
+      "sources": [
+        {
+          "name": "RFEF - Ferran Torres quitte le rassemblement",
+          "url": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
+          "note": "Nature de la gêne, suivi coordonné et départ de la sélection."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence officielle d'octobre utilisée pour l'analyse sportive."
+        },
+        {
+          "name": "PSG.fr - arrivée de Ferran Torres",
+          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
+          "note": "Poste, contrat et statut officiel du joueur au PSG."
+        }
+      ],
+      "keywords": [
+        "rumeur PSG",
+        "Ferran Torres PSG",
+        "mercato PSG janvier 2027",
+        "blessure PSG",
+        "transfert PSG"
+      ]
+    },
+    {
+      "id": "neymar-santos-2026-heritage-psg-bilan",
+      "category": "Anciens joueurs PSG",
+      "angle": "Que devient Neymar et comment relire son héritage parisien",
+      "date": "2026-10-05",
+      "dateLabel": "5 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "headline": "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG",
+      "summary": "À 34 ans, Neymar écrit un nouveau chapitre dans son club formateur. À Paris, ses 118 buts, ses 70 passes et ses 13 trophées laissent une trace immense, mais traversée de blessures et d'attentes européennes.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/neymar-santos-2026-heritage-psg-bilan/",
+      "sources": [
+        {
+          "name": "CBF - fiche Neymar 2026",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791",
+          "note": "Club actuel, matches et buts dans le Brasileirão 2026."
+        },
+        {
+          "name": "PSG.fr - souvenirs éternels de Neymar",
+          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+          "note": "Bilan officiel : matches, buts, passes et trophées à Paris."
+        },
+        {
+          "name": "PSG.fr - le club remercie Neymar",
+          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
+          "note": "Parcours, première saison et rang historique au départ."
+        },
+        {
+          "name": "Santos FC - victoire dans le classique",
+          "url": "https://www.santosfc.com.br/santos-fc-vence-o-classico-no-morumbis-e-iguala-recorde-no-campeonato-brasileiro/",
+          "note": "Contexte sportif récent du club de Neymar."
+        }
+      ],
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "ancien joueur PSG",
+        "Neymar buts PSG",
+        "Brésiliens PSG"
+      ]
+    },
+    {
+      "id": "valorisation-psg-marque-entreprise-chiffre-affaires-2026",
+      "category": "Économie PSG",
+      "angle": "Lecture rigoureuse de la valeur du club, de la marque et des revenus",
+      "date": "2026-10-05",
+      "dateLabel": "5 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "headline": "Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ? Le vrai sens des chiffres",
+      "summary": "La puissance économique du PSG est réelle, mais les chiffres souvent rapprochés dans le débat public répondent à trois questions différentes. Les distinguer évite les comparaisons trompeuses.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - saison financière record",
+          "url": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
+          "note": "Chiffre d'affaires, revenus commerciaux, matchday et ratio salarial annoncés par le club."
+        },
+        {
+          "name": "Brand Finance - valeur de marque PSG 2026",
+          "url": "https://brandfinance.com/press-releases/un-ecart-de-valeur-de-marque-se-chiffrant-en-milliards-deuros-met-la-ligue-1-au-defi-alors-que-le-paris-saint-germain-demeure-la-marque-de-club-de-football-francais-la-plus-valorisee",
+          "note": "Estimation de marque, progression et rang mondial."
+        },
+        {
+          "name": "Forbes - Paris Saint-Germain valuation 2026",
+          "url": "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations",
+          "note": "Estimation externe de valeur d'entreprise, revenus et résultat opérationnel."
+        }
+      ],
+      "keywords": [
+        "valorisation PSG",
+        "valeur PSG 2026",
+        "chiffre d'affaires PSG",
+        "économie PSG",
+        "marque PSG"
+      ]
+    },
     {
       "id": "mercato-psg-octobre-audit-effectif-avant-janvier-2027",
       "category": "Mercato PSG",

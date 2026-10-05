@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-04T10:45:00+02:00",
-    "freshnessNote": "Fil PSG du 4 octobre 2026. Fil public : 139 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 45 articles de fond sous /dossiers-psg/. À suivre : Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier ; Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG ; PSG-Le Mans : la répétition tactique idéale avant Manchester City ? ; Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes ; Ferran Torres quitte la Roja : la cheville gauche sous surveillance. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-05T06:30:00+02:00",
+    "freshnessNote": "Fil PSG du 5 octobre 2026. Fil public : 142 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 48 articles de fond sous /dossiers-psg/. À suivre : Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ? ; Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG ; Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ? ; Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier ; Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
+      "category": "Rumeurs",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/news/rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
+      "reliability": "Fait officiel, analyse prudente"
+    },
+    {
+      "title": "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG",
+      "category": "Anciens",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/news/neymar-santos-2026-heritage-psg-bilan/",
+      "source": "Parisien 90 — dossier sourcé",
+      "sourceUrl": "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791",
+      "reliability": "Sources officielles CBF, Santos et PSG"
+    },
+    {
+      "title": "Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ?",
+      "category": "Économie",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/news/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
+      "source": "Parisien 90 — analyse économique sourcée",
+      "sourceUrl": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
+      "reliability": "Chiffres officiels et estimations externes attribuées"
+    },
     {
       "title": "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier",
       "category": "Mercato",
@@ -443,33 +470,6 @@
       "source": "Fédération royale marocaine de football / PSG.fr",
       "sourceUrl": "https://frmf.ma/fr/articles/m-mohamed-ouahbi-annonce-une-liste-de-29-joueurs-en-prevision-des-matchs-face-au-gabon-au-lesotho-et-au-ghana",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Hakimi : légère lésion à la cuisse droite, le PSG temporise",
-      "category": "Groupe",
-      "dateTime": "2026-09-14T16:02:00+02:00",
-      "url": "https://parisien90.com/news/achraf-hakimi-legere-lesion-cuisse-droite-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/communique-medical-achraf-hakimi-psg-news-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Brest-PSG : Ferran libère Paris, Safonov ferme la porte",
-      "category": "Match",
-      "dateTime": "2026-09-13T22:42:00+02:00",
-      "url": "https://parisien90.com/news/brest-psg-victoire-ferran-torres-safonov-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/brest-vs-paris-2026-09-13",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Brest-PSG : Luis Enrique réclame des points et garde Dro dans le jeu",
-      "category": "Match",
-      "dateTime": "2026-09-12T14:00:00+02:00",
-      "url": "https://parisien90.com/news/luis-enrique-brest-points-dro-conference-septembre-2026/",
-      "source": "Planète PSG / conférence de Luis Enrique",
-      "sourceUrl": "https://www.planetepsg.com/news-125408-club-on_a_besoin_de_points_luis_enrique_fixe_le_cap_pour_les_deux_prochains_matchs_avant_la_treve.html",
-      "reliability": "Fort — conférence rapportée"
     }
   ],
   "people": [
@@ -1934,6 +1934,107 @@
   },
   "editorialArticles": [
     {
+      "title": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
+      "category": "Rumeurs PSG",
+      "angle": "Vérification d'un signal mercato après une alerte médicale",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence/",
+      "summary": "Le départ de l'Espagnol de sa sélection alimente déjà les projections. Paris doit d'abord établir la gravité, la durée et l'effet collectif avant d'envisager janvier.",
+      "keywords": [
+        "rumeur PSG",
+        "Ferran Torres PSG",
+        "mercato PSG janvier 2027",
+        "blessure PSG",
+        "transfert PSG"
+      ],
+      "sources": [
+        {
+          "name": "RFEF - Ferran Torres quitte le rassemblement",
+          "url": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
+          "note": "Nature de la gêne, suivi coordonné et départ de la sélection."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence officielle d'octobre utilisée pour l'analyse sportive."
+        },
+        {
+          "name": "PSG.fr - arrivée de Ferran Torres",
+          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
+          "note": "Poste, contrat et statut officiel du joueur au PSG."
+        }
+      ]
+    },
+    {
+      "title": "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG",
+      "category": "Anciens joueurs PSG",
+      "angle": "Que devient Neymar et comment relire son héritage parisien",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/neymar-santos-2026-heritage-psg-bilan/",
+      "summary": "À 34 ans, Neymar écrit un nouveau chapitre dans son club formateur. À Paris, ses 118 buts, ses 70 passes et ses 13 trophées laissent une trace immense, mais traversée de blessures et d'attentes européennes.",
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "ancien joueur PSG",
+        "Neymar buts PSG",
+        "Brésiliens PSG"
+      ],
+      "sources": [
+        {
+          "name": "CBF - fiche Neymar 2026",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791",
+          "note": "Club actuel, matches et buts dans le Brasileirão 2026."
+        },
+        {
+          "name": "PSG.fr - souvenirs éternels de Neymar",
+          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+          "note": "Bilan officiel : matches, buts, passes et trophées à Paris."
+        },
+        {
+          "name": "PSG.fr - le club remercie Neymar",
+          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
+          "note": "Parcours, première saison et rang historique au départ."
+        },
+        {
+          "name": "Santos FC - victoire dans le classique",
+          "url": "https://www.santosfc.com.br/santos-fc-vence-o-classico-no-morumbis-e-iguala-recorde-no-campeonato-brasileiro/",
+          "note": "Contexte sportif récent du club de Neymar."
+        }
+      ]
+    },
+    {
+      "title": "Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ? Le vrai sens des chiffres",
+      "category": "Économie PSG",
+      "angle": "Lecture rigoureuse de la valeur du club, de la marque et des revenus",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
+      "summary": "La puissance économique du PSG est réelle, mais les chiffres souvent rapprochés dans le débat public répondent à trois questions différentes. Les distinguer évite les comparaisons trompeuses.",
+      "keywords": [
+        "valorisation PSG",
+        "valeur PSG 2026",
+        "chiffre d'affaires PSG",
+        "économie PSG",
+        "marque PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - saison financière record",
+          "url": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
+          "note": "Chiffre d'affaires, revenus commerciaux, matchday et ratio salarial annoncés par le club."
+        },
+        {
+          "name": "Brand Finance - valeur de marque PSG 2026",
+          "url": "https://brandfinance.com/press-releases/un-ecart-de-valeur-de-marque-se-chiffrant-en-milliards-deuros-met-la-ligue-1-au-defi-alors-que-le-paris-saint-germain-demeure-la-marque-de-club-de-football-francais-la-plus-valorisee",
+          "note": "Estimation de marque, progression et rang mondial."
+        },
+        {
+          "name": "Forbes - Paris Saint-Germain valuation 2026",
+          "url": "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations",
+          "note": "Estimation externe de valeur d'entreprise, revenus et résultat opérationnel."
+        }
+      ]
+    },
+    {
       "title": "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier",
       "category": "Mercato PSG",
       "angle": "Audit de l'effectif avant le mercato d'hiver",
@@ -2516,144 +2617,38 @@
           "note": "Fin de carrière internationale après la Coupe du monde 2026."
         }
       ]
-    },
-    {
-      "title": "Futur stade du PSG : Parc des Princes, Massy ou Poissy, l'équation qui engage les vingt prochaines années",
-      "category": "Économie du PSG",
-      "angle": "Stade, revenus et valorisation",
-      "dateTime": "2026-09-29T07:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/",
-      "summary": "Le Parc est revenu dans le périmètre des études aux côtés de Massy et Poissy. Pour un club valorisé autour de 5 milliards d'euros, la décision doit concilier croissance économique et ancrage parisien.",
-      "keywords": [
-        "futur stade PSG",
-        "Parc des Princes PSG",
-        "Massy PSG",
-        "Poissy PSG",
-        "valorisation PSG"
-      ],
-      "sources": [
-        {
-          "name": "Ville de Paris - comité de pilotage du Parc",
-          "url": "https://pressev2.paris.fr/communiques/la-ville-de-paris-et-le-paris-saint-germain-lancent-les-travaux-du-comite-de-pilotage-consacre-au-site-du-parc-des-princes-et-de-la-porte-de-saint-cloud",
-          "note": "Périmètre des études et calendrier annoncé."
-        },
-        {
-          "name": "PSG.fr - études à Massy et Poissy",
-          "url": "https://en.news.psg.fr/press-releases/club/paris-saint-germain-advances-feasibility-studies-in-massy-and-poissy-for-future-stadium-project",
-          "note": "Position officielle du club sur les deux sites étudiés."
-        },
-        {
-          "name": "PSG.fr - saison économique record",
-          "url": "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026",
-          "note": "Chiffre d'affaires et ventilation des revenus 2024-2025."
-        },
-        {
-          "name": "Forbes - valorisation du PSG",
-          "url": "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations",
-          "note": "Estimation de valeur, revenus et méthodologie en mai 2026."
-        },
-        {
-          "name": "Ville de Paris - le Parc des Princes",
-          "url": "https://www.paris.fr/pages/les-grands-stades-2410",
-          "note": "Capacité, propriété et histoire du stade."
-        }
-      ]
-    },
-    {
-      "title": "Mercato PSG : 19 internationaux, 24 joueurs… la profondeur parisienne passe son vrai test avant janvier",
-      "category": "Mercato PSG",
-      "angle": "Profondeur de l'effectif et besoins de janvier",
-      "dateTime": "2026-09-28T16:55:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-profondeur-19-internationaux-janvier-2027/",
-      "summary": "Les noms et les contrats dessinent un groupe riche. La trêve, les voyages puis l'enchaînement Le Mans-Manchester City-Barcelone diront si chaque fonction possède vraiment un relais fiable.",
-      "keywords": [
-        "mercato PSG",
-        "PSG mercato janvier 2027",
-        "effectif PSG",
-        "transfert PSG",
-        "recrutement PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - effectif masculin 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Liste officielle des vingt-quatre joueurs et de leurs postes."
-        },
-        {
-          "name": "PSG.fr - programme des internationaux",
-          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
-          "note": "Liste officielle des dix-neuf joueurs convoqués et de leurs rencontres."
-        },
-        {
-          "name": "PSG.fr - calendrier 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Dates et résultats officiels du PSG."
-        },
-        {
-          "name": "UEFA - calendrier européen du PSG",
-          "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-218385b1b53b-a29130f33611-1000--paris-saint-germain-en-ligue-des-champions-2026-27-calendr/",
-          "note": "Calendrier et statut européen officiels."
-        }
-      ]
-    },
-    {
-      "title": "Dembélé, Doué, Vitinha, Hakimi : les 19 internationaux du PSG sous surveillance avant octobre",
-      "category": "Joueurs PSG",
-      "angle": "Forme, charge et retours de sélection",
-      "dateTime": "2026-09-28T16:55:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/internationaux-psg-septembre-2026-charge-retours/",
-      "summary": "La convocation est une récompense, mais le retour au Campus sera une opération de précision. Tous les internationaux ne rentreront ni le même jour, ni avec la même charge, ni avec le même besoin de récupération.",
-      "keywords": [
-        "internationaux PSG",
-        "Dembélé PSG",
-        "Désiré Doué PSG",
-        "Vitinha PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - programme des internationaux",
-          "url": "https://www.psg.fr/en/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
-          "note": "Sélections et calendrier annoncés par le club."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Composition officielle du groupe 2026-2027."
-        },
-        {
-          "name": "PSG.fr - calendrier et résultats",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Dates officielles des prochains matches."
-        },
-        {
-          "name": "UEFA - matches du PSG en Champions League",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
-          "note": "Calendrier officiel de la phase de ligue."
-        }
-      ]
     }
   ],
   "brazilNews": [
     {
+      "title": "Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede",
+      "category": "Economia",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
+      "frenchUrl": "https://parisien90.com/news/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
+      "source": "Parisien 90 — analyse économique sourcée",
+      "sourceUrl": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
+      "reliability": "Números oficiais e estimativas externas atribuídas"
+    },
+    {
       "title": "PSG x Le Mans: o ensaio tático ideal antes do Manchester City?",
-      "category": "Tactique",
+      "category": "Tática",
       "dateTime": "2026-10-04T10:45:00+02:00",
       "url": "https://parisien90.com/br/noticias-psg/composition-psg-le-mans-repetition-manchester-city-octobre-2026/",
       "frenchUrl": "https://parisien90.com/news/composition-psg-le-mans-repetition-manchester-city-octobre-2026/",
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-      "reliability": "Analyse"
+      "reliability": "Análise"
     },
     {
       "title": "Jovens do PSG: Doué, Zaïre-Emery, Mayulu e Dro terão minutos suficientes?",
-      "category": "Jogadors",
+      "category": "Jogadores",
       "dateTime": "2026-10-03T06:30:00+02:00",
       "url": "https://parisien90.com/br/noticias-psg/jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026/",
       "frenchUrl": "https://parisien90.com/news/jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026/",
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-      "reliability": "Analyse"
+      "reliability": "Análise"
     },
     {
       "title": "Outubro do PSG: City, Barcelona e seis jogos para testar todo o elenco",
@@ -2719,7 +2714,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-04T10:45:00+02:00",
+    "updatedAt": "2026-10-05T06:30:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

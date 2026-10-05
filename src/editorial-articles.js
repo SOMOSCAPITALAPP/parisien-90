@@ -1,12 +1,202 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-10-04T10:45:00+02:00",
-  displayDate: "4 octobre 2026",
-  displayTime: "10h45",
+  updatedAt: "2026-10-05T06:30:00+02:00",
+  displayDate: "5 octobre 2026",
+  displayTime: "6h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence",
+    title: "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
+    description: "La cheville gauche de Ferran Torres est surveillée, mais aucun diagnostic ni délai n'a été annoncé. Voici ce que ce fait permet de dire, et ce qu'il interdit encore de transformer en rumeur mercato.",
+    deck: "Le départ de l'Espagnol de sa sélection alimente déjà les projections. Paris doit d'abord établir la gravité, la durée et l'effet collectif avant d'envisager janvier.",
+    category: "Rumeurs PSG",
+    angle: "Vérification d'un signal mercato après une alerte médicale",
+    date: "2026-10-05",
+    dateLabel: "5 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Le Parc des Princes et le débat autour des rumeurs PSG après la blessure de Ferran Torres",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["rumeur PSG", "Ferran Torres PSG", "mercato PSG janvier 2027", "blessure PSG", "transfert PSG"],
+    sections: [
+      { heading: "Le fait confirmé : une gêne persistante à la cheville gauche", paragraphs: [
+        "La Fédération espagnole a annoncé le 2 octobre que Ferran Torres quittait le rassemblement en raison de douleurs persistantes à la cheville gauche. Le communiqué précise que cette gêne ne l'avait d'abord empêché ni de s'entraîner ni de jouer. Il ajoute que les médecins de la sélection ont travaillé en contact permanent avec les services médicaux du PSG. Carlos Espí a été appelé pour le remplacer avec l'Espagne.",
+        "C'est la totalité du socle officiel disponible. Aucun diagnostic précis, aucune durée d'indisponibilité et aucune rechute ne sont mentionnés. Le retour anticipé à Paris vise à favoriser la récupération, pas à annoncer une absence longue. Toute affirmation plus catégorique doit donc être traitée comme une hypothèse. Une rumeur PSG sérieuse commence par cette frontière : le fait médical appartient aux sources officielles, le scénario mercato reste une projection à démontrer."
+      ] },
+      { heading: "Pourquoi le mot mercato arrive pourtant si vite", paragraphs: [
+        "Une alerte concernant un attaquant produit immédiatement deux raccourcis. Le premier consiste à additionner le calendrier dense, la concurrence européenne et le risque de manquer des buts. Le second transforme cette inquiétude en recherche d'un remplaçant dès janvier. Ce mécanisme est compréhensible, car Ferran Torres offre plusieurs fonctions : profondeur, présence dans la surface, mobilité entre l'axe et les côtés, et capacité à entrer sans désorganiser l'attaque.",
+        "Mais une équipe ne recrute pas sérieusement pour calmer quarante-huit heures de bruit. Elle recrute quand une fonction essentielle devient durablement indisponible ou quand l'effectif montre, sur plusieurs matches, qu'il ne possède pas de solution interne. Paris doit donc résister au calendrier médiatique. Avant de parler d'un nom, le club doit connaître la durée réelle de l'absence, observer la réponse des autres attaquants et déterminer si le problème dépasse un seul joueur."
+      ] },
+      { heading: "Les trois informations qui manquent encore", paragraphs: [
+        "La première information est le diagnostic. Une douleur persistante peut correspondre à plusieurs situations, de la simple précaution à une lésion exigeant un arrêt plus long. La deuxième est le calendrier de reprise : soins, travail individuel, entraînement collectif puis disponibilité en match. La troisième est la tolérance à la charge. Un joueur peut revenir dans le groupe sans être immédiatement prêt à enchaîner Manchester City, Strasbourg et Barcelone.",
+        "Ces éléments appartiennent au suivi médical et sportif du club. Le public pourra s'appuyer sur des indices vérifiables : présence au Campus, participation à l'entraînement, convocation et minutes accordées. Une photo isolée ou une phrase imprécise ne suffit pas. Tant que ces repères manquent, l'expression correcte est simple : cheville sous surveillance. Parler d'opération, de longue absence ou de recrutement d'urgence sans source serait fabriquer une information."
+      ] },
+      { heading: "Paris possède d'abord des réponses internes", paragraphs: [
+        "Le PSG peut modifier son attaque sans reproduire exactement le profil de Ferran. Ousmane Dembélé apporte la création et l'accélération, Désiré Doué peut éliminer entre les lignes, Khvicha Kvaratskhelia étire un côté et d'autres joueurs peuvent attaquer la surface. Luis Enrique peut aussi déplacer le point de fixation, utiliser davantage les arrivées des milieux ou demander à un ailier opposé de finir les actions au second poteau.",
+        "Cette souplesse ne signifie pas que l'absence serait neutre. Elle évite simplement de confondre remplacement individuel et réponse collective. Les matches d'octobre montreront si Paris conserve ses courses dans la profondeur, sa présence devant le but et son pressing depuis la première ligne. Si ces fonctions survivent, le besoin de janvier baisse. Si elles disparaissent malgré plusieurs combinaisons, la direction disposera enfin d'un diagnostic sportif crédible."
+      ] },
+      { heading: "À quoi ressemblerait un signal mercato crédible ?", paragraphs: [
+        "Un véritable signal ne serait pas une liste de joueurs publiée sans origine. Il prendrait la forme d'informations convergentes : indisponibilité longue confirmée, observation d'un poste précis, contacts identifiés par plusieurs sources fiables ou déclaration publique cohérente d'un dirigeant. Le profil recherché devrait aussi répondre à une fonction claire. Un attaquant de surface, un joueur de côté ou un créateur ne résolvent pas le même problème.",
+        "Le prix, la disponibilité en janvier et l'inscription dans le projet compteraient autant que le talent. Paris a construit un effectif où chaque recrue doit presser, permuter et accepter la concurrence. Une opportunité spectaculaire mais mal adaptée pourrait réduire l'équilibre au lieu de le renforcer. Sans ces paramètres, un nom associé au PSG reste une rumeur faible, même s'il circule beaucoup. La répétition n'est pas une preuve."
+      ] },
+      { heading: "Le calendrier d'octobre servira de test grandeur nature", paragraphs: [
+        "Le PSG doit affronter Le Mans, Manchester City, Strasbourg, Barcelone, Lyon et Le Havre entre le 10 et le 30 octobre. La série mélange blocs bas, pression haute, déplacements et récupération courte. Elle permettra de mesurer l'attaque dans des contextes opposés. Face à City, la capacité à sortir vite et à menacer l'espace sera centrale. Contre une défense regroupée, la présence dans la surface et les déplacements sans ballon deviendront prioritaires.",
+        "Si Ferran revient rapidement, la séquence renseignera sur sa capacité à reprendre sans surcharge. S'il reste indisponible, elle évaluera la profondeur réelle. Dans les deux cas, les conclusions devront porter sur des comportements répétés, pas sur un résultat unique. Un but tardif ne prouve pas que tout va bien ; une soirée maladroite ne justifie pas davantage un transfert. L'analyse doit suivre les occasions créées, les zones occupées et la qualité du pressing."
+      ] },
+      { heading: "Notre verdict : information médicale, pas encore rumeur de transfert", paragraphs: [
+        "Au 5 octobre, il existe une information officielle sur Ferran Torres et aucune base suffisante pour annoncer un dossier mercato. Le PSG récupère son joueur plus tôt afin de traiter une douleur persistante à la cheville gauche. Le choix responsable consiste à attendre le prochain point médical et les étapes visibles de la reprise. Tout autre degré de certitude doit être attribué, daté et clairement présenté comme hypothèse.",
+        "Cela n'empêche pas la direction de surveiller le marché, activité normale pour un grand club. Mais la veille permanente ne signifie pas qu'une négociation est ouverte. Notre classement est donc net : fait confirmé sur la santé, conséquences sportives à observer, rumeur de transfert non établie. Cette distinction protège la confiance du lecteur et permet de suivre le mercato PSG sans transformer chaque alerte en feuilleton artificiel."
+      ] }
+    ],
+    faq: [
+      { question: "Quelle est la blessure de Ferran Torres ?", answer: "La RFEF confirme des douleurs persistantes à la cheville gauche, sans communiquer de diagnostic précis ni de durée d'absence." },
+      { question: "Le PSG cherche-t-il déjà un remplaçant ?", answer: "Aucune source officielle ou convergence fiable ne permet de l'affirmer au 5 octobre 2026." },
+      { question: "Quand en saura-t-on davantage ?", answer: "Les prochains repères fiables seront un point médical du PSG, le retour à l'entraînement collectif et une éventuelle convocation." }
+    ],
+    sources: [
+      { name: "RFEF - Ferran Torres quitte le rassemblement", url: "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi", note: "Nature de la gêne, suivi coordonné et départ de la sélection." },
+      { name: "PSG.fr - calendrier masculin 2026-2027", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", note: "Séquence officielle d'octobre utilisée pour l'analyse sportive." },
+      { name: "PSG.fr - arrivée de Ferran Torres", url: "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027", note: "Poste, contrat et statut officiel du joueur au PSG." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Ferran Torres au PSG", url: "/joueurs-psg/ferran-torres/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Actualités PSG", url: "/actualites-psg/" }
+    ]
+  },
+  {
+    id: "neymar-santos-2026-heritage-psg-bilan",
+    title: "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG",
+    description: "Neymar évolue à Santos et compte 17 matches et 6 buts dans le Brasileirão 2026 selon la CBF. Son présent brésilien invite à relire sans caricature ses six saisons au PSG.",
+    deck: "À 34 ans, Neymar écrit un nouveau chapitre dans son club formateur. À Paris, ses 118 buts, ses 70 passes et ses 13 trophées laissent une trace immense, mais traversée de blessures et d'attentes européennes.",
+    category: "Anciens joueurs PSG",
+    angle: "Que devient Neymar et comment relire son héritage parisien",
+    date: "2026-10-05",
+    dateLabel: "5 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Neymar, Santos et l'héritage de ses années au Paris Saint-Germain",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Neymar PSG", "Neymar Santos 2026", "ancien joueur PSG", "Neymar buts PSG", "Brésiliens PSG"],
+    sections: [
+      { heading: "Le présent : Neymar porte de nouveau le maillot de Santos", paragraphs: [
+        "La fiche officielle de la Confédération brésilienne indique que Neymar évolue à Santos en 2026. Au moment de sa consultation, elle lui attribue 17 matches et 6 buts dans le championnat brésilien. Ces chiffres donnent un repère précis, mais ils ne résument pas sa saison : ils doivent être lus avec les rencontres, la disponibilité, le rôle et le rythme d'un joueur de 34 ans qui retrouve l'environnement où sa carrière professionnelle a commencé.",
+        "Santos a annoncé le 2 octobre une victoire 2-1 dans le classique contre São Paulo, cinquième succès extérieur consécutif du club en championnat et nouveau record de la période. Le compte rendu officiel ne permet pas d'attribuer à Neymar un rôle précis dans ce match, et nous ne le faisons donc pas. Il situe toutefois son club actuel dans une dynamique positive, à la septième place, avant la réception de Flamengo annoncée pour le 8 octobre."
+      ] },
+      { heading: "Paris : 173 matches et une efficacité hors norme", paragraphs: [
+        "Le PSG a dressé lui-même le bilan de ses six saisons parisiennes : 173 matches, 118 buts et 70 passes décisives. Neymar a donc été directement impliqué sur 188 buts avec le maillot rouge et bleu. Le club le plaçait alors au quatrième rang de ses meilleurs buteurs historiques. Rapportée au nombre de rencontres, cette production confirme ce que les images suggéraient : lorsqu'il jouait, le Brésilien pesait presque constamment sur le score.",
+        "Sa première saison donne la mesure de l'impact immédiat : 30 apparitions, 28 buts, 16 passes et trois trophées selon le communiqué de départ du PSG. Neymar ne fut pas seulement un dribbleur spectaculaire. Il organisait, attirait plusieurs adversaires, déclenchait la dernière passe et pouvait terminer lui-même. Cette concentration de responsabilités explique pourquoi chacune de ses absences modifiait autant la structure offensive et le débat autour de l'équipe."
+      ] },
+      { heading: "Treize trophées, mais la Ligue des champions comme juge permanent", paragraphs: [
+        "Le palmarès parisien recensé par le club comprend cinq titres de Ligue 1, trois Coupes de France, deux Coupes de la Ligue et trois Trophées des champions. Treize trophées constituent un héritage majeur. Pourtant, l'évaluation publique de Neymar s'est souvent réduite à une seule question : a-t-il offert au PSG la Ligue des champions ? Paris a atteint la finale en 2020, avec un Neymar central dans le parcours, sans soulever le trophée.",
+        "Cette exigence était liée au montant et au symbole de son arrivée en 2017. Il devait faire gagner, mais aussi faire changer le PSG de dimension. Le club lui-même souligne l'attention mondiale créée par sa signature. Sur ce terrain, l'effet est incontestable : exposition internationale, nouvelles audiences et statut renforcé. Sportivement, la finale de Lisbonne reste le sommet collectif, tandis que l'absence du titre européen nourrit une impression d'inachevé qui ne doit pas effacer tout le reste."
+      ] },
+      { heading: "Les blessures ont fragmenté le récit", paragraphs: [
+        "Le total de 173 matches en six saisons rappelle aussi la discontinuité. Neymar a connu plusieurs périodes où les blessures l'ont éloigné des rendez-vous les plus attendus. Il serait injuste de réduire son passage à ces absences, mais tout aussi trompeur de les évacuer. La construction d'une équipe autour d'un joueur exige de la disponibilité ; lorsque celle-ci se brise, les automatismes, la hiérarchie et la planification européenne sont affectés.",
+        "Cette fragmentation a produit deux Neymar dans la mémoire collective. Le premier est celui des séquences irrésistibles, des passes impossibles et des grands soirs où Paris pouvait battre n'importe qui. Le second est celui que le public attendait au printemps et ne voyait pas toujours. Les deux sont réels. Une biographie sérieuse doit les tenir ensemble, sans procès moral sur la blessure et sans nostalgie sélective."
+      ] },
+      { heading: "Le lien entre le PSG et le Brésil s'est élargi", paragraphs: [
+        "Avant Neymar, Paris possédait déjà une histoire brésilienne profonde avec Raí, Valdo, Ricardo, Ronaldinho, Maxwell, Thiago Silva, Marquinhos et bien d'autres. Neymar n'a pas créé cette relation, mais il l'a projetée dans une époque numérique et mondiale. Son arrivée a rapproché une nouvelle génération de supporters brésiliens du PSG et donné au club une présence immédiate dans les conversations sportives bien au-delà de la France.",
+        "Ce lien dépasse la popularité individuelle. Il invite à raconter les différences entre les époques, les fonctions et les trajectoires. Raí incarne le capitaine bâtisseur, Ronaldinho l'éclair précoce, Thiago Silva la continuité défensive, Marquinhos la longévité, Neymar l'ambition globale. Comparer leurs statistiques sans contexte serait pauvre. Les relier permet de comprendre comment le PSG a construit son identité internationale avec une influence brésilienne constante."
+      ] },
+      { heading: "À Santos, la question n'est plus la même", paragraphs: [
+        "En 2026, Neymar n'a plus à justifier le projet économique de 2017. À Santos, le défi concerne la disponibilité, la transmission et l'influence dans un championnat exigeant. Six buts en 17 matches montrent qu'il peut encore produire. La suite dépendra de la continuité et de la capacité du club à utiliser sa créativité sans lui demander de résoudre seul chaque attaque. Son nom attire toujours l'attention, mais le terrain doit rester le premier critère.",
+        "Son retour au Brésil modifie aussi la manière de regarder ses années européennes. La carrière forme désormais un arc : Santos, Barcelone, Paris, Al-Hilal puis Santos. Paris occupe la partie la plus longue de son passage en Europe après Barcelone et celle où il a accumulé le plus de responsabilités individuelles. Le chapitre n'a pas livré le trophée rêvé, mais il contient une densité de buts, de titres et de moments que peu de joueurs atteignent."
+      ] },
+      { heading: "Notre bilan : une légende parisienne au récit imparfait", paragraphs: [
+        "Le mot légende peut provoquer parce qu'il suppose parfois une histoire sans faille. Le PSG l'a employé dans son communiqué de départ, avec des chiffres capables de soutenir ce choix. Neymar est le quatrième meilleur buteur cité par le club au moment de son départ, possède treize trophées parisiens et a participé à la première finale de Ligue des champions de l'histoire du PSG. Ces faits lui donnent une place durable.",
+        "Cette place n'oblige pas à nier les blessures, les frustrations ou les attentes non satisfaites. Elle permet au contraire de les intégrer à un bilan adulte. Neymar à Paris fut brillant, décisif, souvent interrompu et toujours discuté. Son actualité à Santos offre l'occasion de suivre l'homme et le joueur sans réécrire le passé. La trace parisienne demeure : 173 matches suffisamment intenses pour continuer à diviser, émerveiller et intéresser."
+      ] }
+    ],
+    faq: [
+      { question: "Où joue Neymar en 2026 ?", answer: "La CBF le répertorie comme joueur de Santos FC en 2026." },
+      { question: "Combien de buts Neymar a-t-il marqués avec le PSG ?", answer: "Le PSG recense 118 buts et 70 passes décisives en 173 matches." },
+      { question: "Combien de trophées Neymar a-t-il gagnés à Paris ?", answer: "Le club lui attribue 13 trophées : cinq Ligue 1, trois Coupes de France, deux Coupes de la Ligue et trois Trophées des champions." }
+    ],
+    sources: [
+      { name: "CBF - fiche Neymar 2026", url: "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791", note: "Club actuel, matches et buts dans le Brasileirão 2026." },
+      { name: "PSG.fr - souvenirs éternels de Neymar", url: "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories", note: "Bilan officiel : matches, buts, passes et trophées à Paris." },
+      { name: "PSG.fr - le club remercie Neymar", url: "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club", note: "Parcours, première saison et rang historique au départ." },
+      { name: "Santos FC - victoire dans le classique", url: "https://www.santosfc.com.br/santos-fc-vence-o-classico-no-morumbis-e-iguala-recorde-no-campeonato-brasileiro/", note: "Contexte sportif récent du club de Neymar." }
+    ],
+    internalLinks: [
+      { label: "Fiche Neymar au PSG", url: "/anciens-joueurs-psg/neymar/" },
+      { label: "Histoire du PSG", url: "/histoire-psg/" },
+      { label: "Brésiliens du PSG", url: "/anciens-joueurs-psg/?nationalite=Bresil" },
+      { label: "Records du PSG", url: "/records-psg/" }
+    ]
+  },
+  {
+    id: "valorisation-psg-marque-entreprise-chiffre-affaires-2026",
+    title: "Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ? Le vrai sens des chiffres",
+    description: "Brand Finance valorise la marque PSG à 1,5 milliard d'euros, Forbes estime l'entreprise autour de 5 milliards et le club annonce 837 millions de chiffre d'affaires. Ces indicateurs ne mesurent pas la même chose.",
+    deck: "La puissance économique du PSG est réelle, mais les chiffres souvent rapprochés dans le débat public répondent à trois questions différentes. Les distinguer évite les comparaisons trompeuses.",
+    category: "Économie PSG",
+    angle: "Lecture rigoureuse de la valeur du club, de la marque et des revenus",
+    date: "2026-10-05",
+    dateLabel: "5 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "12 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Le Parc des Princes et les indicateurs économiques de valorisation du PSG en 2026",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["valorisation PSG", "valeur PSG 2026", "chiffre d'affaires PSG", "économie PSG", "marque PSG"],
+    sections: [
+      { heading: "Trois chiffres, trois objets différents", paragraphs: [
+        "Le débat sur la valeur du PSG rapproche souvent 837 millions d'euros, 1,5 milliard d'euros et environ 5 milliards d'euros comme s'il s'agissait de trois estimations concurrentes. Ce n'est pas le cas. Les 837 millions correspondent au chiffre d'affaires annoncé par le club pour l'exercice 2024-2025. Les 1,5 milliard mesurent la valeur de marque estimée par Brand Finance en 2026. Les 5 milliards environ correspondent à l'estimation de valeur d'entreprise publiée par Forbes.",
+        "Le premier indicateur mesure des revenus sur une période. Le deuxième cherche à isoler la force économique attachée au nom, à la réputation et à la capacité commerciale de la marque. Le troisième estime ce que vaut l'ensemble sportif et économique selon une méthodologie externe. Additionner ces valeurs n'aurait aucun sens. Les comparer devient utile seulement si l'on explique leur définition, leur date et leur source."
+      ] },
+      { heading: "837 millions d'euros : ce que le club a généré", paragraphs: [
+        "Le PSG annonce un chiffre d'affaires record de 837 millions d'euros pour la saison 2024-2025. Le communiqué détaille 367 millions de revenus commerciaux et 175 millions de recettes de jour de match. Il souligne également une multiplication par plus de huit depuis 2011, lorsque les revenus s'établissaient à 99 millions. Ce chiffre mesure l'activité annuelle, pas le prix auquel le club pourrait être vendu.",
+        "Le club indique aussi que la masse salariale reste inférieure à 65 % du chiffre d'affaires. Ce ratio permet d'observer le poids des rémunérations dans l'économie courante, mais il ne résume pas la rentabilité. Pour juger la santé financière, il faudrait disposer de l'ensemble des charges, amortissements, résultats et flux de trésorerie. Le communiqué officiel constitue donc une source solide sur les revenus annoncés, pas un audit complet accessible au public."
+      ] },
+      { heading: "1,5 milliard d'euros : la valeur de la marque", paragraphs: [
+        "Brand Finance estime la marque Paris Saint-Germain à 1,5 milliard d'euros en 2026, en hausse de 10 %, et la classe cinquième marque de club de football au monde. L'organisation mesure un actif immatériel : la capacité du nom PSG à soutenir des revenus, des partenariats, une préférence des consommateurs et une visibilité internationale. Le stade, les contrats des joueurs ou la trésorerie ne se confondent pas avec cette valeur de marque.",
+        "Cet indicateur aide à comprendre pourquoi les résultats sportifs ne sont qu'une partie de l'équation. Une audience mondiale, la distribution des produits, les partenaires et l'attractivité culturelle renforcent la marque. Brand Finance compare également Paris au reste du football français et estime son avance très importante. Il s'agit toutefois d'une modélisation, dépendante d'hypothèses. Elle n'est ni un prix garanti ni une offre d'achat."
+      ] },
+      { heading: "Environ 5 milliards d'euros : l'estimation de l'entreprise", paragraphs: [
+        "Forbes classe le PSG cinquième parmi les clubs les plus valorisés en 2026, avec une estimation de 5,8 milliards de dollars, soit environ 5 milliards d'euros selon la conversion présentée. Le média associe cette valeur à des revenus de 837 millions d'euros et à un résultat opérationnel estimé de 73 millions d'euros. L'indicateur vise l'ensemble de l'entreprise sportive, et non la seule marque.",
+        "Une valeur d'entreprise peut intégrer la puissance des revenus, les perspectives, la propriété intellectuelle, les actifs et l'environnement concurrentiel, tout en tenant compte de la dette selon la méthodologie choisie. Forbes mentionne un ratio dette-valeur de 1 %. Comme pour tout classement externe, il faut parler d'estimation. Seule une transaction réelle, avec ses conditions et son périmètre, produirait un prix effectivement payé."
+      ] },
+      { heading: "Pourquoi la puissance commerciale compte autant", paragraphs: [
+        "Les 367 millions d'euros de revenus commerciaux annoncés par le PSG représentent une base déterminante. Les partenariats, licences, boutiques et activations internationales réduisent la dépendance aux seuls droits télévisés. Cette diversification explique qu'un club français puisse se rapprocher des plus grandes puissances économiques européennes malgré un marché domestique moins rémunérateur que la Premier League.",
+        "La force commerciale doit néanmoins rester liée à la crédibilité sportive. Les grandes campagnes européennes augmentent l'exposition, les recettes de billetterie et l'intérêt des partenaires. À l'inverse, une saison décevante peut fragiliser la croissance si la marque ne conserve pas son attractivité. Le modèle parisien cherche donc à transformer les résultats en relation durable avec les supporters, plutôt qu'en pic de visibilité limité à quelques semaines."
+      ] },
+      { heading: "Le Parc des Princes et le jour de match", paragraphs: [
+        "Le club annonce 175 millions d'euros de recettes liées aux jours de match et une très longue série de rencontres à guichets fermés. Cette performance montre la valeur de la demande autour du PSG. Elle révèle aussi une contrainte structurelle : la capacité et l'exploitation du stade déterminent le nombre de billets, d'espaces hospitalité et de services commercialisables. Le débat sur l'infrastructure est donc directement économique.",
+        "Augmenter les recettes ne signifie pas seulement augmenter les prix. L'expérience, l'accueil, la durée passée sur le site et les offres aux entreprises comptent. Toute évolution doit aussi préserver l'accessibilité et l'identité populaire du club. Un stade plus rentable mais déconnecté de son public pourrait affaiblir la marque qu'il cherche à valoriser. L'enjeu consiste à faire progresser l'actif sans réduire le supporter à une ligne de revenu."
+      ] },
+      { heading: "Notre lecture : une puissance réelle, à mesurer avec discipline", paragraphs: [
+        "Les trois indicateurs convergent sur un point : le PSG appartient au premier cercle économique du football mondial. Ils ne permettent pourtant pas d'affirmer qu'il possède 837 millions en caisse, que sa marque pourrait être vendue seule pour 1,5 milliard ou qu'un acheteur paierait automatiquement 5 milliards. Chaque chiffre répond à une méthode différente et doit rester attaché à sa source.",
+        "La meilleure manière de suivre l'économie du PSG sera d'observer les séries : évolution du chiffre d'affaires, part commerciale, masse salariale, recettes de match et classements externes sur plusieurs années. Une hausse isolée attire l'attention ; une progression durable démontre un modèle. En 2026, Paris dispose d'une marque mondiale et de revenus records. Le prochain test sera de transformer cette échelle en stabilité financière et sportive sans perdre le lien avec son territoire."
+      ] }
+    ],
+    faq: [
+      { question: "Combien vaut le PSG en 2026 ?", answer: "Forbes estime l'entreprise à 5,8 milliards de dollars, environ 5 milliards d'euros, tandis que Brand Finance estime la seule marque à 1,5 milliard d'euros." },
+      { question: "Quel est le chiffre d'affaires du PSG ?", answer: "Le club annonce 837 millions d'euros pour la saison 2024-2025." },
+      { question: "Pourquoi les chiffres sont-ils différents ?", answer: "Le chiffre d'affaires mesure des revenus annuels, la valeur de marque un actif immatériel et la valeur d'entreprise l'ensemble économique estimé du club." }
+    ],
+    sources: [
+      { name: "PSG.fr - saison financière record", url: "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026", note: "Chiffre d'affaires, revenus commerciaux, matchday et ratio salarial annoncés par le club." },
+      { name: "Brand Finance - valeur de marque PSG 2026", url: "https://brandfinance.com/press-releases/un-ecart-de-valeur-de-marque-se-chiffrant-en-milliards-deuros-met-la-ligue-1-au-defi-alors-que-le-paris-saint-germain-demeure-la-marque-de-club-de-football-francais-la-plus-valorisee", note: "Estimation de marque, progression et rang mondial." },
+      { name: "Forbes - Paris Saint-Germain valuation 2026", url: "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations", note: "Estimation externe de valeur d'entreprise, revenus et résultat opérationnel." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Histoire du PSG", url: "/histoire-psg/" },
+      { label: "Records du PSG", url: "/records-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
   {
     id: "mercato-psg-octobre-audit-effectif-avant-janvier-2027",
     title: "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier",

@@ -323,16 +323,21 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-04T10:45:00+02:00",
-  edition: "Fil PSG du 4 octobre 2026",
-  displayDate: "4 octobre 2026",
-  displayTime: "10h45",
+  updatedAt: "2026-10-05T06:30:00+02:00",
+  edition: "Fil PSG du 5 octobre 2026",
+  displayDate: "5 octobre 2026",
+  displayTime: "6h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-05", "5 octobre 2026", [
+  { id: "rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence", time: "06:30", category: "Rumeurs", title: "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?", summary: "La cheville gauche de Ferran est officiellement sous surveillance, mais aucun diagnostic ni délai n'est annoncé. Parisien 90 sépare le fait médical, les conséquences sportives à observer et le scénario mercato qui, à ce stade, n'est pas établi.", source: "Parisien 90 — analyse sourcée", url: "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi", reliability: "Fait officiel, analyse prudente", viral: 94 },
+  { id: "neymar-santos-2026-heritage-psg-bilan", time: "06:30", category: "Anciens", title: "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG", summary: "La CBF recense 17 matches et 6 buts de Neymar dans le Brasileirão 2026. Son présent à Santos permet de relire ses 173 matches, 118 buts, 70 passes et 13 trophées au PSG sans oublier les blessures ni l'attente européenne.", source: "Parisien 90 — dossier sourcé", url: "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791", reliability: "Sources officielles CBF, Santos et PSG", viral: 96 },
+  { id: "valorisation-psg-marque-entreprise-chiffre-affaires-2026", time: "06:30", category: "Économie", title: "Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ?", summary: "Le chiffre d'affaires record, la valeur de marque et la valeur d'entreprise sont trois indicateurs différents. Notre dossier explique ce que mesurent réellement les estimations du PSG, de Brand Finance et de Forbes.", source: "Parisien 90 — analyse économique sourcée", url: "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026", reliability: "Chiffres officiels et estimations externes attribuées", viral: 92 },
+  ]),
   ...withNewsDate("2026-10-04", "4 octobre 2026", [
   { id: "mercato-psg-octobre-audit-effectif-avant-janvier-2027", time: "10:45", category: "Mercato", title: "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier", summary: "Six matches en vingt jours doivent permettre au PSG d'évaluer sa profondeur réelle avant le mercato d'hiver. Défense, milieu, surface, jeunes et disponibilité : le terrain doit désormais remplacer les impressions.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27", reliability: "Analyse", viral: 93 },
   { id: "internationaux-psg-retours-octobre-dembele-doue-zaire-emery", time: "10:45", category: "Joueurs", title: "Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG", summary: "Les internationaux reviennent avec des minutes, des voyages et des rôles différents. Luis Enrique devra reconstruire une équipe cohérente contre Le Mans avant de choisir ses armes pour Manchester City.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027", reliability: "Analyse", viral: 91 },
