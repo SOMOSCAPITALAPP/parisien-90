@@ -1,0 +1,50 @@
+# Parisien 90 Brasil
+
+Parisien 90 Brasil é a edição em português do Brasil do Parisien 90, mídia independente dedicada ao Paris Saint-Germain. A cobertura reúne notícias, mercado, calendário, jogadores, brasileiros no PSG, história e dossiês originais. Não existe afiliação oficial com o Paris Saint-Germain.
+
+Atualizado em 5 de outubro de 2026, 6h30 (horário de Paris). 9 notícias recentes em português do Brasil e 52 jogos ou marcos no calendário.
+
+## Páginas principais
+
+- [PSG Brasil: notícias, mercado, jogos e brasileiros](https://parisien90.com/br/) — Portal em português do Brasil sobre o Paris Saint-Germain.
+- [Notícias do PSG em português do Brasil](https://parisien90.com/br/noticias-psg/) — Atualidade do PSG com data, hora, fonte e contexto.
+- [Mercado PSG: rumores, chegadas e saídas](https://parisien90.com/br/mercado-psg/) — Mercado e transferências do PSG com diferença clara entre oficial, informação e análise.
+- [Calendário PSG 2026-2027 e próximo jogo](https://parisien90.com/br/calendario-psg/) — Jogos do PSG na Ligue 1, Liga dos Campeões, Copa da França e amistosos.
+- [Jogadores do PSG: elenco e fichas](https://parisien90.com/br/jogadores-psg/) — Elenco atual, funções, brasileiros e perfis individuais.
+- [Brasileiros no PSG](https://parisien90.com/br/brasileiros-no-psg/) — Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e a história brasileira em Paris.
+- [História do PSG em português](https://parisien90.com/br/historia-psg/) — Eras, títulos, ídolos, brasileiros e grandes noites do Paris Saint-Germain.
+- [Dossiês PSG em português do Brasil](https://parisien90.com/br/dossies-psg/) — Reportagens e análises originais para entender o clube além do placar.
+
+## Referências editoriais
+
+- Idioma: português do Brasil (pt-BR).
+- Tema principal: Paris Saint-Germain e sua relação com o público brasileiro.
+- Notícias: cada página informa data, hora, fonte e nível de confirmação.
+- Mercado: fatos oficiais, informações atribuídas e análises aparecem separados.
+- Direitos: fontes são citadas e vinculadas; nenhum artigo de terceiros é reproduzido.
+
+## Arquivos úteis
+
+- Índice estruturado: https://parisien90.com/br/ai-index.json
+- Versão detalhada: https://parisien90.com/br/llms-full.txt
+- Sitemap: https://parisien90.com/sitemap.xml
+
+## Notícias recentes
+
+- [Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede](https://parisien90.com/br/noticias-psg/valorisation-psg-marque-entreprise-chiffre-affaires-2026/) — 5 de outubro de 2026, 06:30. Fonte: Parisien 90 — análise econômica com fontes.
+- [PSG x Le Mans: o ensaio tático ideal antes do Manchester City?](https://parisien90.com/br/noticias-psg/composition-psg-le-mans-repetition-manchester-city-octobre-2026/) — 4 de outubro de 2026, 10:45. Fonte: Parisien 90 — análise com fontes.
+- [Jovens do PSG: Doué, Zaïre-Emery, Mayulu e Dro terão minutos suficientes?](https://parisien90.com/br/noticias-psg/jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026/) — 3 de outubro de 2026, 06:30. Fonte: Parisien 90 — análise com fontes.
+- [Outubro do PSG: City, Barcelona e seis jogos para testar todo o elenco](https://parisien90.com/br/noticias-psg/psg-octobre-2026-calendrier-city-barcelone-rotation/) — 2 de outubro de 2026, 20:30. Fonte: PSG.fr.
+- [PSG-OH Leuven: Paris recebe a campeã belga em noite europeia no Campus](https://parisien90.com/br/noticias-psg/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/) — 1er outubro 2026, 12:00. Fonte: PSG.fr.
+- [PSG-Monaco: Paris cai no Parc e acende o primeiro alerta](https://parisien90.com/br/noticias-psg/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/) — 4 de setembro de 2026, 23:07. Fonte: PSG.fr.
+- [Dembélé e João Neves voltam, Lucas Digne fica fora do grupo](https://parisien90.com/br/noticias-psg/psg-monaco-groupe-dembele-neves-digne-septembre-2026/) — 4 de setembro de 2026, 16:15. Fonte: PSG.fr.
+- [Liga dos Campeões: o caminho do PSG está definido, e promete faísca](https://parisien90.com/br/noticias-psg/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/) — 4 de setembro de 2026, 12:05. Fonte: UEFA.
+- [Luis Enrique fecha o mercado: Paris assume um verão de força](https://parisien90.com/br/noticias-psg/luis-enrique-mercato-exceptionnel-psg-monaco-2026/) — 4 de setembro de 2026, 13:20. Fonte: PSG.fr.
+
+## Entidades e temas cobertos
+
+Paris Saint-Germain, PSG, Ligue 1, Liga dos Campeões, Copa da França, mercado PSG, jogadores do PSG, Raí, Ronaldinho Gaúcho, Neymar, Thiago Silva, Marquinhos, Lucas Beraldo e a presença brasileira na história do clube.
+
+## Método e atribuição
+
+Parisien 90 Brasil produz sínteses e análises originais a partir de fontes públicas identificadas. Rumores são apresentados como rumores, opiniões como opiniões e comunicados oficiais como confirmações. Para qualquer reutilização, atribua Parisien 90 Brasil e mantenha o link da página consultada. Imagens e conteúdos incorporados conservam seus créditos e licenças próprios.

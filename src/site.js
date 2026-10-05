@@ -361,26 +361,46 @@ const setShareStatus = (wrapper, message) => {
 
 const buildShareActions = (article, title, url) => {
   const wrapper = document.createElement("div");
+  const isBrazilianEdition = document.documentElement.lang === "pt-BR";
+  const labels = isBrazilianEdition
+    ? {
+        group: "Compartilhar",
+        networkPreposition: "no",
+        native: "Compartilhar este conteúdo com os aplicativos disponíveis",
+        copy: "Copiar o link e o texto",
+        more: "Mais redes",
+        byEmail: "Compartilhar por e-mail",
+        copied: "Publicação copiada"
+      }
+    : {
+        group: "Partager",
+        networkPreposition: "sur",
+        native: "Partager cet article avec les apps disponibles",
+        copy: "Copier le lien et l'accroche",
+        more: "Afficher plus de réseaux",
+        byEmail: "Partager par e-mail",
+        copied: "Post copié"
+      };
   wrapper.className = "share-actions";
-  wrapper.setAttribute("aria-label", `Partager : ${title}`);
+  wrapper.setAttribute("aria-label", `${labels.group} : ${title}`);
   const caption = getShareCaption(article, title);
 
   wrapper.innerHTML = `
-    <span class="share-label">Partager</span>
-    <button class="share-button share-native" type="button" aria-label="Partager cet article avec les apps disponibles">App</button>
-    <button class="share-button share-copy" type="button" aria-label="Copier le lien et l'accroche">Copier</button>
-    <a class="share-link" data-share-channel="x" target="_blank" rel="noopener noreferrer" aria-label="Partager sur X">X</a>
-    <a class="share-link" data-share-channel="fb" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Facebook">FB</a>
-    <a class="share-link share-whatsapp" data-share-channel="wa" target="_blank" rel="noopener noreferrer" aria-label="Partager sur WhatsApp">WA</a>
+    <span class="share-label">${labels.group}</span>
+    <button class="share-button share-native" type="button" aria-label="${labels.native}">App</button>
+    <button class="share-button share-copy" type="button" aria-label="${labels.copy}">${isBrazilianEdition ? "Copiar" : "Copier"}</button>
+    <a class="share-link" data-share-channel="x" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} X">X</a>
+    <a class="share-link" data-share-channel="fb" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} Facebook">FB</a>
+    <a class="share-link share-whatsapp" data-share-channel="wa" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} WhatsApp">WA</a>
     <details class="share-more">
-      <summary aria-label="Afficher plus de réseaux">Plus</summary>
+      <summary aria-label="${labels.more}">${isBrazilianEdition ? "Mais" : "Plus"}</summary>
       <div class="share-more-panel">
-        <a class="share-link" data-share-channel="tg" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Telegram">TG</a>
-        <a class="share-link" data-share-channel="in" target="_blank" rel="noopener noreferrer" aria-label="Partager sur LinkedIn">in</a>
-        <a class="share-link" data-share-channel="th" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Threads">TH</a>
-        <a class="share-link" data-share-channel="bs" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Bluesky">BS</a>
-        <a class="share-link" data-share-channel="rd" target="_blank" rel="noopener noreferrer" aria-label="Partager sur Reddit">RD</a>
-        <a class="share-link" data-share-channel="mail" aria-label="Partager par e-mail">Mail</a>
+        <a class="share-link" data-share-channel="tg" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} Telegram">TG</a>
+        <a class="share-link" data-share-channel="in" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} LinkedIn">in</a>
+        <a class="share-link" data-share-channel="th" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} Threads">TH</a>
+        <a class="share-link" data-share-channel="bs" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} Bluesky">BS</a>
+        <a class="share-link" data-share-channel="rd" target="_blank" rel="noopener noreferrer" aria-label="${labels.group} ${labels.networkPreposition} Reddit">RD</a>
+        <a class="share-link" data-share-channel="mail" aria-label="${labels.byEmail}">Mail</a>
       </div>
     </details>
     <span class="share-status" aria-live="polite"></span>
@@ -406,7 +426,7 @@ const buildShareActions = (article, title, url) => {
       path: new URL(url).pathname,
       title: title.slice(0, 120)
     });
-    setShareStatus(wrapper, "Post copié");
+    setShareStatus(wrapper, labels.copied);
   });
 
   wrapper.querySelector(".share-native")?.addEventListener("click", async () => {
@@ -425,7 +445,7 @@ const buildShareActions = (article, title, url) => {
     }
 
     await copyToClipboard(`${caption}\n${trackedUrl}`);
-    setShareStatus(wrapper, "Post copié");
+    setShareStatus(wrapper, labels.copied);
   });
 
   article.append(wrapper);
@@ -977,14 +997,14 @@ const initCalendarApp = () => {
     <article class="watch-card">
       <div>
         <strong>${escapeHTML(translateCalendarValue(item.competition, locale))}</strong>
-        <span>${escapeHTML(translateCalendarWatch(item.status, locale))}</span>
+        <span>${escapeHTML(translateCalendarValue(item.status, locale))}</span>
       </div>
       <p>${escapeHTML(translateCalendarWatch(item.nextAction, locale))}</p>
       <div class="watch-links">
         <a href="${escapeHTML(item.url)}" rel="noopener noreferrer">${escapeHTML(item.source)}</a>
         ${item.backupUrl ? `<a href="${escapeHTML(item.backupUrl)}" rel="noopener noreferrer">${labels.secondarySource}</a>` : ""}
       </div>
-      <small>${labels.checked} ${escapeHTML(item.updatedAt)}</small>
+      <small>${labels.checked} ${escapeHTML(translateDateLabel(item.updatedAt, locale))}</small>
     </article>
   `).join("");
 
@@ -1320,19 +1340,22 @@ focusHashTarget();
 const initAppInstall = () => {
   if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
 
+  const isBrazilianEdition = document.documentElement.lang === "pt-BR";
   let installEvent;
   const installer = document.createElement("button");
   installer.className = "app-install-button";
   installer.type = "button";
   installer.hidden = true;
-  installer.title = "Installer l'application";
-  installer.innerHTML = '<span aria-hidden="true">&#8595;</span><span class="app-install-label">Installer</span>';
+  installer.title = isBrazilianEdition ? "Instalar o aplicativo" : "Installer l'application";
+  installer.innerHTML = `<span aria-hidden="true">&#8595;</span><span class="app-install-label">${isBrazilianEdition ? "Instalar" : "Installer"}</span>`;
 
   const showIosInstructions = () => {
     const notice = document.createElement("aside");
     notice.className = "app-install-notice";
     notice.setAttribute("role", "status");
-    notice.innerHTML = '<strong>Installer Parisien 90</strong><p>Dans Safari, ouvrez Partager puis choisissez « Sur l\'écran d\'accueil ».</p><button type="button" aria-label="Fermer">Fermer</button>';
+    notice.innerHTML = isBrazilianEdition
+      ? '<strong>Instalar Parisien 90</strong><p>No Safari, abra Compartilhar e escolha “Adicionar à Tela de Início”.</p><button type="button" aria-label="Fechar">Fechar</button>'
+      : '<strong>Installer Parisien 90</strong><p>Dans Safari, ouvrez Partager puis choisissez « Sur l\'écran d\'accueil ».</p><button type="button" aria-label="Fermer">Fermer</button>';
     notice.querySelector("button")?.addEventListener("click", () => notice.remove());
     document.body.append(notice);
   };

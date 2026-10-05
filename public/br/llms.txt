@@ -1,0 +1,30 @@
+# Parisien 90 Brasil
+
+Parisien 90 Brasil é a edição em português do Brasil do Parisien 90, mídia independente dedicada ao Paris Saint-Germain. A cobertura reúne notícias, mercado, calendário, jogadores, brasileiros no PSG, história e dossiês originais. Não existe afiliação oficial com o Paris Saint-Germain.
+
+Atualizado em 5 de outubro de 2026, 6h30 (horário de Paris). 9 notícias recentes em português do Brasil e 52 jogos ou marcos no calendário.
+
+## Páginas principais
+
+- [PSG Brasil: notícias, mercado, jogos e brasileiros](https://parisien90.com/br/) — Portal em português do Brasil sobre o Paris Saint-Germain.
+- [Notícias do PSG em português do Brasil](https://parisien90.com/br/noticias-psg/) — Atualidade do PSG com data, hora, fonte e contexto.
+- [Mercado PSG: rumores, chegadas e saídas](https://parisien90.com/br/mercado-psg/) — Mercado e transferências do PSG com diferença clara entre oficial, informação e análise.
+- [Calendário PSG 2026-2027 e próximo jogo](https://parisien90.com/br/calendario-psg/) — Jogos do PSG na Ligue 1, Liga dos Campeões, Copa da França e amistosos.
+- [Jogadores do PSG: elenco e fichas](https://parisien90.com/br/jogadores-psg/) — Elenco atual, funções, brasileiros e perfis individuais.
+- [Brasileiros no PSG](https://parisien90.com/br/brasileiros-no-psg/) — Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e a história brasileira em Paris.
+- [História do PSG em português](https://parisien90.com/br/historia-psg/) — Eras, títulos, ídolos, brasileiros e grandes noites do Paris Saint-Germain.
+- [Dossiês PSG em português do Brasil](https://parisien90.com/br/dossies-psg/) — Reportagens e análises originais para entender o clube além do placar.
+
+## Referências editoriais
+
+- Idioma: português do Brasil (pt-BR).
+- Tema principal: Paris Saint-Germain e sua relação com o público brasileiro.
+- Notícias: cada página informa data, hora, fonte e nível de confirmação.
+- Mercado: fatos oficiais, informações atribuídas e análises aparecem separados.
+- Direitos: fontes são citadas e vinculadas; nenhum artigo de terceiros é reproduzido.
+
+## Arquivos úteis
+
+- Índice estruturado: https://parisien90.com/br/ai-index.json
+- Versão detalhada: https://parisien90.com/br/llms-full.txt
+- Sitemap: https://parisien90.com/sitemap.xml

@@ -1,0 +1,406 @@
+{
+  "site": {
+    "name": "Parisien 90 Brasil",
+    "parentBrand": "Parisien 90",
+    "url": "https://parisien90.com/br/",
+    "language": "pt-BR",
+    "country": "BR",
+    "topic": "Paris Saint-Germain",
+    "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
+    "lastVerifiedAt": "2026-10-05T06:30:00+02:00",
+    "editorialPolicy": "https://parisien90.com/charte-editoriale/",
+    "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
+    "contact": "https://parisien90.com/contact-retrait/"
+  },
+  "entities": [
+    "Paris Saint-Germain",
+    "PSG",
+    "Parisien 90 Brasil",
+    "Ligue 1",
+    "Liga dos Campeões",
+    "Mercado PSG",
+    "Raí",
+    "Ronaldinho Gaúcho",
+    "Neymar",
+    "Thiago Silva",
+    "Marquinhos"
+  ],
+  "primaryTopics": [
+    "notícias PSG",
+    "PSG Brasil",
+    "mercado PSG",
+    "transferências PSG",
+    "calendário PSG",
+    "próximo jogo PSG",
+    "jogadores PSG",
+    "brasileiros no PSG",
+    "Ronaldinho PSG",
+    "Neymar PSG",
+    "história PSG"
+  ],
+  "priorityPages": [
+    {
+      "url": "https://parisien90.com/br/",
+      "title": "PSG Brasil: notícias, mercado, jogos e brasileiros",
+      "description": "Portal em português do Brasil sobre o Paris Saint-Germain."
+    },
+    {
+      "url": "https://parisien90.com/br/noticias-psg/",
+      "title": "Notícias do PSG em português do Brasil",
+      "description": "Atualidade do PSG com data, hora, fonte e contexto."
+    },
+    {
+      "url": "https://parisien90.com/br/mercado-psg/",
+      "title": "Mercado PSG: rumores, chegadas e saídas",
+      "description": "Mercado e transferências do PSG com diferença clara entre oficial, informação e análise."
+    },
+    {
+      "url": "https://parisien90.com/br/calendario-psg/",
+      "title": "Calendário PSG 2026-2027 e próximo jogo",
+      "description": "Jogos do PSG na Ligue 1, Liga dos Campeões, Copa da França e amistosos."
+    },
+    {
+      "url": "https://parisien90.com/br/jogadores-psg/",
+      "title": "Jogadores do PSG: elenco e fichas",
+      "description": "Elenco atual, funções, brasileiros e perfis individuais."
+    },
+    {
+      "url": "https://parisien90.com/br/brasileiros-no-psg/",
+      "title": "Brasileiros no PSG",
+      "description": "Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e a história brasileira em Paris."
+    },
+    {
+      "url": "https://parisien90.com/br/historia-psg/",
+      "title": "História do PSG em português",
+      "description": "Eras, títulos, ídolos, brasileiros e grandes noites do Paris Saint-Germain."
+    },
+    {
+      "url": "https://parisien90.com/br/dossies-psg/",
+      "title": "Dossiês PSG em português do Brasil",
+      "description": "Reportagens e análises originais para entender o clube além do placar."
+    }
+  ],
+  "latestNews": [
+    {
+      "title": "Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede",
+      "summary": "A Brand Finance avalia a marca PSG em 1,5 bilhão de euros, a Forbes estima a empresa em cerca de 5 bilhões e o clube anuncia receita de 837 milhões. Os três indicadores respondem a perguntas diferentes.",
+      "category": "Economia",
+      "dateTime": "2026-10-05T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
+      "source": "Parisien 90 — análise econômica com fontes",
+      "sourceUrl": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
+      "reliability": "Números oficiais e estimativas externas atribuídas"
+    },
+    {
+      "title": "PSG x Le Mans: o ensaio tático ideal antes do Manchester City?",
+      "summary": "Quatro dias antes de enfrentar o City, o PSG precisa recuperar a saída de bola, a pressão coordenada e a proteção dos laterais. O Le Mans será um jogo real de Ligue 1 e o primeiro teste tático de outubro.",
+      "category": "Tática",
+      "dateTime": "2026-10-04T10:45:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/composition-psg-le-mans-repetition-manchester-city-octobre-2026/",
+      "source": "Parisien 90 — análise com fontes",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+      "reliability": "Análise"
+    },
+    {
+      "title": "Jovens do PSG: Doué, Zaïre-Emery, Mayulu e Dro terão minutos suficientes?",
+      "summary": "O elenco oficial reúne quatro jovens que já estão perto do time titular, mas vivem etapas diferentes. A maratona de outubro precisa oferecer funções claras e minutos de qualidade, não apenas participações dispersas.",
+      "category": "Jogadores",
+      "dateTime": "2026-10-03T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026/",
+      "source": "Parisien 90 — análise com fontes",
+      "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+      "reliability": "Análise"
+    },
+    {
+      "title": "Outubro do PSG: City, Barcelona e seis jogos para testar todo o elenco",
+      "summary": "O calendário oficial marca seis partidas entre 10 e 30 de outubro: Le Mans, Manchester City, Strasbourg, Barcelona, Lyon e Le Havre. A sequência mistura quatro rodadas da Ligue 1 e duas noites de Liga dos Campeões, exigindo rotação sem perda de identidade.",
+      "category": "Calendário",
+      "dateTime": "2026-10-02T20:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-octobre-2026-calendrier-city-barcelone-rotation/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "PSG-OH Leuven: Paris recebe a campeã belga em noite europeia no Campus",
+      "summary": "O PSG feminino enfrenta o OH Leuven nesta quinta-feira, às 21h, pela segunda rodada da Liga dos Campeões. Depois do empate no campo do Real Madrid, Paris tenta transformar o primeiro ponto europeu em impulso diante da torcida, no Campus PSG.",
+      "category": "Féminines",
+      "dateTime": "2026-10-01T12:00:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-programme-de-la-2e-journee-de-luefa-womens-champions-league-paris-saint-germain-oh-louvain-feminines-20262027",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "PSG-Monaco: Paris cai no Parc e acende o primeiro alerta",
+      "summary": "O PSG abriu o placar com Marquinhos, mas levou a virada do Monaco. Para o torcedor brasileiro, é o tipo de derrota que coloca lupa na defesa, na rotação e no apetite do time.",
+      "category": "Jogo",
+      "dateTime": "2026-09-04T23:07:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-monaco-defaite-marquinhos-nazinho-idumbo-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-monaco-2026-09-04",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "Dembélé e João Neves voltam, Lucas Digne fica fora do grupo",
+      "summary": "Luis Enrique ganha dois retornos fortes, mas a ausência de Digne muda a leitura do corredor esquerdo. É notícia de grupo, mas com cheiro de recado esportivo.",
+      "category": "Grupo",
+      "dateTime": "2026-09-04T16:15:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-monaco-groupe-dembele-neves-digne-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-monaco-psg-ligue-1-journee-3-parc-des-princes-2026-2027/",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "Liga dos Campeões: o caminho do PSG está definido, e promete faísca",
+      "summary": "O calendário europeu coloca Paris diante de noites grandes logo cedo. Barcelona, City e Roma dão ao PSG uma temporada com cara de prova mundial.",
+      "category": "Europa",
+      "dateTime": "2026-09-04T12:05:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/",
+      "source": "UEFA",
+      "sourceUrl": "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/",
+      "reliability": "Oficial"
+    },
+    {
+      "title": "Luis Enrique fecha o mercado: Paris assume um verão de força",
+      "summary": "O treinador coloca ponto final no mercado e assume a ambição do elenco. A pergunta que fica: o PSG comprou equilíbrio ou criou uma briga por minutos?",
+      "category": "Mercado",
+      "dateTime": "2026-09-04T13:20:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/luis-enrique-mercato-exceptionnel-psg-monaco-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-vrai-plaisir-de-retrouver-nos-supporters-psg-ligue-1-conf-de-presse-monaco-3e-journee-2026-2027",
+      "reliability": "Oficial — coletiva"
+    }
+  ],
+  "calendar": {
+    "url": "https://parisien90.com/br/calendario-psg/",
+    "updatedAt": "2026-10-05T06:30:00+02:00",
+    "totalFixtures": 52,
+    "nextFixtures": [
+      {
+        "date": "2026-10-10",
+        "time": "20:45",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "Le Mans FC",
+        "venue": "Parc des Princes",
+        "status": "Marcado",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
+      },
+      {
+        "date": "2026-10-14",
+        "time": "21:00",
+        "competition": "Liga dos Campeões",
+        "home": "Manchester City",
+        "away": "Paris Saint-Germain",
+        "venue": "Etihad Stadium",
+        "status": "Marcado",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-10-17",
+        "time": "17:15",
+        "competition": "Ligue 1",
+        "home": "RC Strasbourg",
+        "away": "Paris Saint-Germain",
+        "venue": "Stade de la Meinau",
+        "status": "Marcado",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
+      },
+      {
+        "date": "2026-10-20",
+        "time": "21:00",
+        "competition": "Liga dos Campeões",
+        "home": "Paris Saint-Germain",
+        "away": "FC Barcelone",
+        "venue": "Parc des Princes",
+        "status": "Marcado",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-10-25",
+        "time": "19:45",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "Olympique Lyonnais",
+        "venue": "Parc des Princes",
+        "status": "Marcado",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-10-30",
+        "time": "19:00",
+        "competition": "Ligue 1",
+        "home": "Le Havre AC",
+        "away": "Paris Saint-Germain",
+        "venue": "Stade Océane",
+        "status": "Marcado",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
+      },
+      {
+        "date": "2026-11-03",
+        "time": "21:00",
+        "competition": "Liga dos Campeões",
+        "home": "Villarreal CF",
+        "away": "Paris Saint-Germain",
+        "venue": "Estadio de la Cerámica",
+        "status": "Marcado",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-11-07",
+        "time": "A confirmar",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "ESTAC Troyes",
+        "venue": "Parc des Princes",
+        "status": "Horário a confirmar",
+        "source": null,
+        "sourceUrl": null
+      }
+    ]
+  },
+  "featuredPeople": [
+    {
+      "name": "Lucas Beraldo",
+      "role": "Défenseur",
+      "url": "https://parisien90.com/br/jogadores-psg/lucas-beraldo/"
+    },
+    {
+      "name": "Marquinhos",
+      "role": "Défenseur",
+      "url": "https://parisien90.com/br/jogadores-psg/marquinhos/"
+    },
+    {
+      "name": "Vitinha",
+      "role": "Milieu de terrain",
+      "url": "https://parisien90.com/br/jogadores-psg/vitinha/"
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "role": "Milieu de terrain",
+      "url": "https://parisien90.com/br/jogadores-psg/warren-zaire-emery/"
+    },
+    {
+      "name": "João Neves",
+      "role": "Milieu de terrain",
+      "url": "https://parisien90.com/br/jogadores-psg/joao-neves/"
+    },
+    {
+      "name": "Khvicha Kvaratskhelia",
+      "role": "Attaquant",
+      "url": "https://parisien90.com/br/jogadores-psg/khvicha-kvaratskhelia/"
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "role": "Attaquant",
+      "url": "https://parisien90.com/br/jogadores-psg/ousmane-dembele/"
+    },
+    {
+      "name": "Désiré Doué",
+      "role": "Attaquant",
+      "url": "https://parisien90.com/br/jogadores-psg/desire-doue/"
+    },
+    {
+      "name": "Raí",
+      "role": "Meneur de jeu",
+      "psgPeriod": "1993-1998",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/rai/"
+    },
+    {
+      "name": "Ronaldinho Gaúcho",
+      "role": "Meneur offensif",
+      "psgPeriod": "2001-2003",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/ronaldinho/"
+    },
+    {
+      "name": "Kylian Mbappé",
+      "role": "Attaquant",
+      "psgPeriod": "2017-2024",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/kylian-mbappe/"
+    },
+    {
+      "name": "Marquinhos",
+      "role": "Défenseur",
+      "psgPeriod": "2013-",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/marquinhos/"
+    },
+    {
+      "name": "Thiago Silva",
+      "role": "Défenseur central",
+      "psgPeriod": "2012-2020",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/thiago-silva/"
+    },
+    {
+      "name": "Neymar",
+      "role": "Attaquant créateur",
+      "psgPeriod": "2017-2023",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/neymar/"
+    },
+    {
+      "name": "Lionel Messi",
+      "role": "Attaquant créateur",
+      "psgPeriod": "2021-2023",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/lionel-messi/"
+    },
+    {
+      "name": "Dani Alves",
+      "role": "Latéral droit",
+      "psgPeriod": "2017-2019",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/dani-alves/"
+    },
+    {
+      "name": "Lucas Moura",
+      "role": "Ailier",
+      "psgPeriod": "2013-2018",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/lucas-moura/"
+    },
+    {
+      "name": "Maxwell",
+      "role": "Latéral gauche",
+      "psgPeriod": "2012-2017",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/maxwell/"
+    },
+    {
+      "name": "David Luiz",
+      "role": "Défenseur central",
+      "psgPeriod": "2014-2016",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/david-luiz/"
+    },
+    {
+      "name": "Alex",
+      "role": "Défenseur central",
+      "psgPeriod": "2012-2014",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/alex/"
+    },
+    {
+      "name": "Leonardo",
+      "role": "Milieu offensif",
+      "psgPeriod": "1996-1997, puis dirigeant",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/leonardo/"
+    },
+    {
+      "name": "Valdo",
+      "role": "Milieu offensif",
+      "psgPeriod": "1991-1995",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/valdo/"
+    },
+    {
+      "name": "Nenê",
+      "role": "Milieu offensif",
+      "psgPeriod": "2010-2013",
+      "url": "https://parisien90.com/br/antigos-jogadores-psg/nene/"
+    }
+  ],
+  "usage": {
+    "summary": "Sínteses originais podem ser citadas com atribuição e link. Textos, fotos e vídeos de terceiros não são reproduzidos.",
+    "sourceMethod": "Cada notícia identifica a fonte factual e distingue confirmação, informação atribuída e análise editorial."
+  }
+}

@@ -50,6 +50,9 @@ const staticPages = [
   { path: "/br/brasileiros-no-psg/", changefreq: "weekly", priority: "0.8" },
   { path: "/br/dossies-psg/", changefreq: "weekly", priority: "0.76" },
   { path: "/br/dossies-psg/brasileiros-psg-alma-mundial-paris/", changefreq: "monthly", priority: "0.78" },
+  { path: "/br/llms.txt", changefreq: "daily", priority: "0.5" },
+  { path: "/br/llms-full.txt", changefreq: "daily", priority: "0.5" },
+  { path: "/br/ai-index.json", changefreq: "daily", priority: "0.5" },
   { path: "/llms.txt", changefreq: "weekly", priority: "0.5" },
   { path: "/llms-full.txt", changefreq: "weekly", priority: "0.5" }
 ];
@@ -2074,11 +2077,15 @@ const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd }) 
     <link rel="alternate" hreflang="pt-BR" href="${escapeHTML(url)}" />
     <link rel="alternate" hreflang="fr-FR" href="${escapeHTML(frUrl)}" />
     <link rel="alternate" hreflang="x-default" href="${escapeHTML(frUrl)}" />
+    <link rel="alternate" type="text/plain" href="/br/llms.txt" title="Parisien 90 Brasil para assistentes de IA" />
+    <link rel="alternate" type="application/json" href="/br/ai-index.json" title="Índice estruturado Parisien 90 Brasil" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
     <meta name="theme-color" content="#071426" />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Parisien 90 Brasil" />
     <meta property="og:title" content="${escapeHTML(title)}" />
     <meta property="og:description" content="${escapeHTML(description)}" />
     <meta property="og:url" content="${escapeHTML(url)}" />
@@ -2516,6 +2523,14 @@ const makeBrazilPages = (allTimePlayerIndex) => {
   const upcomingFixtures = psgSchedule2627
     .filter((fixture) => fixture.isoDate >= currentDate)
     .slice(0, 5);
+  const nextFixture = upcomingFixtures[0];
+  const brShortTeamName = (team) => team === "Paris Saint-Germain" ? "PSG" : team;
+  const nextMatchLabel = nextFixture
+    ? `${brShortTeamName(nextFixture.home)} x ${brShortTeamName(nextFixture.away)}`
+    : "próximo jogo do PSG";
+  const nextMatchDateTime = nextFixture
+    ? `${nextFixture.isoDate}T${nextFixture.time === "À confirmer" ? "00:00" : nextFixture.time}:00`
+    : null;
   const playerIds = ["marquinhos", "lucas-beraldo", "ousmane-dembele", "vitinha", "joao-neves", "desire-doue", "khvicha-kvaratskhelia", "warren-zaire-emery"];
   const currentPlayers = playerIds
     .map((id) => currentPlayerProfiles.find((profile) => profile.id === id))
@@ -2674,10 +2689,13 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Parisien 90 Brasil",
+    alternateName: ["Parisien90 Brasil", "PSG Brasil - Parisien 90"],
     url: `${siteUrl}/br/`,
     inLanguage: "pt-BR",
+    description: "Notícias do PSG em português do Brasil, mercado, calendário, jogadores, brasileiros no clube, história e análises originais.",
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website`, name: "Parisien 90", url: siteUrl },
     about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
-    publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
+    publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", alternateName: "Parisien 90 Brasil", url: siteUrl }
   };
   const brCalendarJsonLd = {
     "@context": "https://schema.org",
@@ -2692,6 +2710,18 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
         publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl }
       },
+      ...(nextFixture ? [{
+        "@type": "SportsEvent",
+        "@id": `${siteUrl}/br/calendario-psg/#proximo-jogo`,
+        name: `${nextMatchLabel} - ${brCompetitionLabel(nextFixture.competition)}`,
+        startDate: nextMatchDateTime,
+        eventStatus: "https://schema.org/EventScheduled",
+        location: { "@type": "Place", name: nextFixture.venue },
+        homeTeam: { "@type": "SportsTeam", name: nextFixture.home },
+        awayTeam: { "@type": "SportsTeam", name: nextFixture.away },
+        url: `${siteUrl}/br/calendario-psg/`,
+        inLanguage: "pt-BR"
+      }] : []),
       {
         "@type": "BreadcrumbList",
         "@id": `${siteUrl}/br/calendario-psg/#breadcrumb`,
@@ -2728,8 +2758,8 @@ const makeBrazilPages = (allTimePlayerIndex) => {
   const pages = [
     {
       path: "/br/",
-      title: "PSG em português do Brasil: notícias, mercado e história | Parisien 90",
-      description: "Parisien 90 Brasil acompanha o PSG em português: notícias, transferências, jogadores, brasileiros no clube, história e calendário.",
+      title: "PSG Brasil: notícias, mercado, jogos e brasileiros | Parisien 90",
+      description: "Notícias do PSG em português do Brasil: mercado, calendário de jogos, jogadores, brasileiros no clube, história e análises originais.",
       active: "home",
       frPath: "/",
       jsonLd: homeJsonLd,
@@ -2796,6 +2826,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       frPath: "/calendrier-psg/",
       jsonLd: brCalendarJsonLd,
       body: `<section class="page-hero"><span class="section-kicker">Calendário PSG</span><h1>Calendário PSG 2026-2027 em português do Brasil</h1><p>Todos os jogos de Paris na temporada: Ligue 1, Liga dos Campeões, amistosos, Supercopa, Trophée des Champions e Copa da França com status claro, filtros e fontes.</p></section>
+      ${nextFixture ? `<section class="content-section next-match-answer" itemscope itemtype="https://schema.org/SportsEvent"><span class="section-kicker">Próximo jogo do PSG</span><h2 itemprop="name">${escapeHTML(nextMatchLabel)}</h2><p><strong><time itemprop="startDate" datetime="${escapeHTML(nextMatchDateTime)}">${escapeHTML(brDateLabel(nextFixture.dateLabel))} · ${escapeHTML(brStatusLabel(nextFixture.time))}</time></strong> · <span itemprop="description">${escapeHTML(brCompetitionLabel(nextFixture.competition))}</span> · <span itemprop="location">${escapeHTML(nextFixture.venue)}</span></p><p>${escapeHTML(brPlaceLabel(nextFixture.place))}. Horário e programação sujeitos à confirmação das autoridades esportivas e dos clubes.</p></section>` : ""}
       <section class="signal-strip" aria-label="Resumo calendário PSG Brasil"><article class="signal-card"><span>Total de jogos</span><strong>${escapeHTML(psgSchedule2627.length)}</strong></article><article class="signal-card tone-red"><span>Liga dos Campeões</span><strong>${escapeHTML(championsLeagueFixtures.length)}</strong></article><article class="signal-card tone-green"><span>Copa da França</span><strong>${escapeHTML(frenchCupFixtures.length)}</strong></article><article class="signal-card"><span>No Parc</span><strong>${escapeHTML(homeFixtures.length)}</strong></article></section>
       <section class="content-section"><span class="section-kicker">Guia do torcedor</span><h2>O calendário do PSG muda a leitura da temporada</h2><p>Para quem acompanha o PSG do Brasil, a agenda não é uma tabela fria. Ela mostra quando Paris precisa rodar o elenco, quando a Champions aperta, quando os brasileiros do grupo entram em noites grandes e quando uma sequência pode transformar uma vitória em obrigação.</p><p>A página separa amistosos, Ligue 1, Liga dos Campeões e Copa da França. Quando uma data ainda depende de sorteio, qualificação ou confirmação de horário, o status aparece com prudência para evitar confusão.</p><div class="topic-grid"><a class="topic-card" href="/br/noticias-psg/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/"><span>Europa</span><h3>Liga dos Campeões PSG</h3><p>O caminho europeu de Paris com City, Barcelona, Roma, Aston Villa e Galatasaray.</p></a><a class="topic-card" href="/br/jogadores-psg/marquinhos/"><span>Brasil</span><h3>Marquinhos PSG</h3><p>O capitão brasileiro como termômetro das grandes noites de Paris.</p></a><a class="topic-card" href="/br/mercado-psg/"><span>Elenco</span><h3>Mercado e rotação</h3><p>A agenda explica por que profundidade e concorrência importam tanto.</p></a></div></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Interativo</span><h2>Filtrar jogos por mês, competição e local</h2></div><span class="freshness">Atualizado em ${escapeHTML(brDateLabel(newsMeta.displayDate))} · ${escapeHTML(newsMeta.displayTime)}</span></div><div data-calendar-app data-calendar-locale="pt-BR"></div></section>
@@ -3213,6 +3244,186 @@ aiIndex.allTimePsgPlayers = {
   }))
 };
 await writeFile(aiIndexPath, `${JSON.stringify(aiIndex, null, 2)}\n`, "utf8");
+
+const brPublicDir = new URL("br/", publicDir);
+await mkdir(brPublicDir, { recursive: true });
+
+const brPriorityPages = [
+  {
+    url: `${siteUrl}/br/`,
+    title: "PSG Brasil: notícias, mercado, jogos e brasileiros",
+    description: "Portal em português do Brasil sobre o Paris Saint-Germain."
+  },
+  {
+    url: `${siteUrl}/br/noticias-psg/`,
+    title: "Notícias do PSG em português do Brasil",
+    description: "Atualidade do PSG com data, hora, fonte e contexto."
+  },
+  {
+    url: `${siteUrl}/br/mercado-psg/`,
+    title: "Mercado PSG: rumores, chegadas e saídas",
+    description: "Mercado e transferências do PSG com diferença clara entre oficial, informação e análise."
+  },
+  {
+    url: `${siteUrl}/br/calendario-psg/`,
+    title: "Calendário PSG 2026-2027 e próximo jogo",
+    description: "Jogos do PSG na Ligue 1, Liga dos Campeões, Copa da França e amistosos."
+  },
+  {
+    url: `${siteUrl}/br/jogadores-psg/`,
+    title: "Jogadores do PSG: elenco e fichas",
+    description: "Elenco atual, funções, brasileiros e perfis individuais."
+  },
+  {
+    url: `${siteUrl}/br/brasileiros-no-psg/`,
+    title: "Brasileiros no PSG",
+    description: "Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e a história brasileira em Paris."
+  },
+  {
+    url: `${siteUrl}/br/historia-psg/`,
+    title: "História do PSG em português",
+    description: "Eras, títulos, ídolos, brasileiros e grandes noites do Paris Saint-Germain."
+  },
+  {
+    url: `${siteUrl}/br/dossies-psg/`,
+    title: "Dossiês PSG em português do Brasil",
+    description: "Reportagens e análises originais para entender o clube além do placar."
+  }
+];
+
+const brLatestStories = getBrLatestStories();
+const brAiIndex = {
+  site: {
+    name: "Parisien 90 Brasil",
+    parentBrand: "Parisien 90",
+    url: `${siteUrl}/br/`,
+    language: "pt-BR",
+    country: "BR",
+    topic: "Paris Saint-Germain",
+    description: "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
+    lastVerifiedAt: newsMeta.updatedAt,
+    editorialPolicy: `${siteUrl}/charte-editoriale/`,
+    rightsPolicy: `${siteUrl}/droits-disclaimer/`,
+    contact: `${siteUrl}/contact-retrait/`
+  },
+  entities: [
+    "Paris Saint-Germain",
+    "PSG",
+    "Parisien 90 Brasil",
+    "Ligue 1",
+    "Liga dos Campeões",
+    "Mercado PSG",
+    "Raí",
+    "Ronaldinho Gaúcho",
+    "Neymar",
+    "Thiago Silva",
+    "Marquinhos"
+  ],
+  primaryTopics: [
+    "notícias PSG",
+    "PSG Brasil",
+    "mercado PSG",
+    "transferências PSG",
+    "calendário PSG",
+    "próximo jogo PSG",
+    "jogadores PSG",
+    "brasileiros no PSG",
+    "Ronaldinho PSG",
+    "Neymar PSG",
+    "história PSG"
+  ],
+  priorityPages: brPriorityPages,
+  latestNews: brLatestStories.map((story) => ({
+    title: story.title,
+    summary: story.summary,
+    category: brCompetitionLabel(story.item.category),
+    dateTime: itemDateTimeISO(story.item),
+    url: brItemUrl(story.item),
+    source: brSourceLabel(story.item.source),
+    sourceUrl: sourceUrl(story.item),
+    reliability: brReliabilityLabel(story.item.reliability)
+  })),
+  calendar: {
+    url: `${siteUrl}/br/calendario-psg/`,
+    updatedAt: newsMeta.updatedAt,
+    totalFixtures: psgSchedule2627.length,
+    nextFixtures: psgSchedule2627
+      .filter((fixture) => fixture.isoDate >= currentDate)
+      .slice(0, 8)
+      .map((fixture) => ({
+        date: fixture.isoDate,
+        time: brStatusLabel(fixture.time),
+        competition: brCompetitionLabel(fixture.competition),
+        home: fixture.home,
+        away: fixture.away,
+        venue: fixture.venue,
+        status: brStatusLabel(fixture.status),
+        source: fixture.source || null,
+        sourceUrl: fixture.sourceUrl || null
+      }))
+  },
+  featuredPeople: [
+    ...currentPlayerProfiles
+      .filter((profile) => brCurrentProfileIds.has(profile.id))
+      .map((profile) => ({ name: profile.name, role: profile.position, url: `${siteUrl}${brCurrentPlayerPath(profile)}` })),
+    ...legendProfiles
+      .filter((profile) => brLegendProfileIds.has(profile.id))
+      .map((profile) => ({ name: profile.name, role: profile.role || profile.position, psgPeriod: profile.psgPeriod, url: `${siteUrl}${brLegendProfilePath(profile)}` }))
+  ],
+  usage: {
+    summary: "Sínteses originais podem ser citadas com atribuição e link. Textos, fotos e vídeos de terceiros não são reproduzidos.",
+    sourceMethod: "Cada notícia identifica a fonte factual e distingue confirmação, informação atribuída e análise editorial."
+  }
+};
+
+await writeFile(new URL("ai-index.json", brPublicDir), `${JSON.stringify(brAiIndex, null, 2)}\n`, "utf8");
+
+const brFreshness = `Atualizado em ${brDateLabel(newsMeta.displayDate)}, ${newsMeta.displayTime} (horário de Paris). ${brLatestStories.length} notícias recentes em português do Brasil e ${psgSchedule2627.length} jogos ou marcos no calendário.`;
+const brPageList = brPriorityPages.map((page) => `- [${page.title}](${page.url}) — ${page.description}`).join("\n");
+const brNewsList = brLatestStories.slice(0, 12).map((story) => `- [${story.title}](${brItemUrl(story.item)}) — ${brDateLabel(story.item.dateLabel || newsMeta.displayDate)}, ${story.item.time}. Fonte: ${brSourceLabel(story.item.source)}.`).join("\n");
+const brLlms = `# Parisien 90 Brasil
+
+Parisien 90 Brasil é a edição em português do Brasil do Parisien 90, mídia independente dedicada ao Paris Saint-Germain. A cobertura reúne notícias, mercado, calendário, jogadores, brasileiros no PSG, história e dossiês originais. Não existe afiliação oficial com o Paris Saint-Germain.
+
+${brFreshness}
+
+## Páginas principais
+
+${brPageList}
+
+## Referências editoriais
+
+- Idioma: português do Brasil (pt-BR).
+- Tema principal: Paris Saint-Germain e sua relação com o público brasileiro.
+- Notícias: cada página informa data, hora, fonte e nível de confirmação.
+- Mercado: fatos oficiais, informações atribuídas e análises aparecem separados.
+- Direitos: fontes são citadas e vinculadas; nenhum artigo de terceiros é reproduzido.
+
+## Arquivos úteis
+
+- Índice estruturado: ${siteUrl}/br/ai-index.json
+- Versão detalhada: ${siteUrl}/br/llms-full.txt
+- Sitemap: ${siteUrl}/sitemap.xml
+`;
+
+const brLlmsFull = `${brLlms}
+## Notícias recentes
+
+${brNewsList || "- Consulte a página de notícias para a edição mais recente."}
+
+## Entidades e temas cobertos
+
+Paris Saint-Germain, PSG, Ligue 1, Liga dos Campeões, Copa da França, mercado PSG, jogadores do PSG, Raí, Ronaldinho Gaúcho, Neymar, Thiago Silva, Marquinhos, Lucas Beraldo e a presença brasileira na história do clube.
+
+## Método e atribuição
+
+Parisien 90 Brasil produz sínteses e análises originais a partir de fontes públicas identificadas. Rumores são apresentados como rumores, opiniões como opiniões e comunicados oficiais como confirmações. Para qualquer reutilização, atribua Parisien 90 Brasil e mantenha o link da página consultada. Imagens e conteúdos incorporados conservam seus créditos e licenças próprios.
+`;
+
+await Promise.all([
+  writeFile(new URL("llms.txt", brPublicDir), brLlms, "utf8"),
+  writeFile(new URL("llms-full.txt", brPublicDir), brLlmsFull, "utf8")
+]);
 
 const freshnessLine = `Repère éditorial : ${newsMeta.displayDate}, ${newsMeta.displayTime} (Europe/Paris). ${newsMeta.edition}. Fil public : ${publishedNewsFeed.length} vraies infos PSG. Dossiers originaux : ${editorialArticles.length} articles de fond sous /dossiers-psg/, avec sources factuelles citées, angle Parisien 90, FAQ et liens internes utiles. Chaque news importante dispose d'une page individuelle sous /news/ avec date, heure et source citée. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : ${freshnessSummary}. Les sources sont citées et liées ; aucun article tiers n'est reproduit.`;
 
