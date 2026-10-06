@@ -10,8 +10,13 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
+<<<<<<< HEAD
     "lastVerifiedAt": "2026-10-06T06:30:00+02:00",
     "freshnessNote": "Fil PSG du 6 octobre 2026. Fil public : 145 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 51 articles de fond sous /dossiers-psg/. À suivre : Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City ; Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre ; Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier ; Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ? ; Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG. Synthèses originales, sourcées et liées.",
+=======
+    "lastVerifiedAt": "2026-10-05T06:30:00+02:00",
+    "freshnessNote": "Fil PSG du 5 octobre 2026. Fil public : 143 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 48 articles de fond sous /dossiers-psg/. À suivre : France-Belgique : Doué déclenche la remontée, Paris brille dans le final bleu ; Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ? ; Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG ; Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ? ; Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier. Synthèses originales, sourcées et liées.",
+>>>>>>> origin/main
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -202,6 +207,7 @@
   ],
   "news": [
     {
+<<<<<<< HEAD
       "title": "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
       "category": "Entraîneurs",
       "dateTime": "2026-10-06T06:30:00+02:00",
@@ -227,6 +233,15 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
       "reliability": "Analyse, aucune négociation affirmée"
+=======
+      "title": "France-Belgique : Doué déclenche la remontée, Paris brille dans le final bleu",
+      "category": "Sélections",
+      "dateTime": "2026-10-05T23:05:00+02:00",
+      "url": "https://parisien90.com/news/france-belgique-victoire-doue-dembele-akliouche-godts-octobre-2026/",
+      "source": "PSG.fr / UEFA",
+      "sourceUrl": "https://www.psg.fr/content/victoire-contre-la-belgique-de-mika-godts-pour-la-france-de-maghnes-akliouche-ousmane-dembele-et-desire-doue-paris-saint-germain-2026-2027",
+      "reliability": "Officiel — résultat et temps de jeu confirmés"
+>>>>>>> origin/main
     },
     {
       "title": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
@@ -470,6 +485,27 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/luis-enrique-toujours-beaucoup-de-motivation-avant-un-classique-psg-conference-de-presse-classique-om-paris-saint-germain-marseille-ligue-1-2026-2027",
       "reliability": "Officiel — conférence"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "title": "Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt",
+      "category": "Féminines",
+      "dateTime": "2026-09-17T20:17:00+02:00",
+      "url": "https://parisien90.com/news/ornella-graziani-pret-juventus-septembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/ornella-graziani-rejoint-la-juventus-en-pret-paris-saint-germain-feminin-2026-2027",
+      "reliability": "Officiel"
+    },
+    {
+      "title": "Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG",
+      "category": "Sélections",
+      "dateTime": "2026-09-17T16:00:00+02:00",
+      "url": "https://parisien90.com/news/dro-fernandez-espagne-u19-convocation-marbella-septembre-2026/",
+      "source": "RFEF",
+      "sourceUrl": "https://rfef.es/es/noticias/paco-gallardo-da-una-lista-de-26-jugadores-para-los-entrenamientos-de-marbella",
+      "reliability": "Officiel"
+>>>>>>> origin/main
     }
   ],
   "people": [
