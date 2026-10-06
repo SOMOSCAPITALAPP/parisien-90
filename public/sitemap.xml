@@ -2208,4 +2208,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.78</priority>
   </url>
+  <url>
+    <loc>https://parisien90.com/br/dossies-psg/que-horas-joga-psg-brasil-horario-brasilia/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/dossies-psg/por-que-psg-tem-tantos-torcedores-no-brasil/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parisien90.com/br/dossies-psg/quantos-brasileiros-jogaram-psg-lista-geracoes/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

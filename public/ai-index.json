@@ -2787,5 +2787,116 @@
         "sourceUrl": null
       }
     ]
-  }
+  },
+  "brazilEditorial": [
+    {
+      "title": "Que horas joga o PSG no Brasil? Guia de horário de Brasília",
+      "category": "Guia do torcedor",
+      "angle": "Horários do PSG no Brasil",
+      "dateTime": "2026-10-06T16:30:00+02:00",
+      "language": "pt-BR",
+      "url": "https://parisien90.com/br/dossies-psg/que-horas-joga-psg-brasil-horario-brasilia/",
+      "summary": "O calendário europeu informa o horário local da partida. Para o torcedor brasileiro, a diferença para Brasília muda ao longo da temporada. Este guia evita perder o início do jogo.",
+      "keywords": [
+        "que horas joga o PSG",
+        "horário PSG hoje",
+        "PSG horário de Brasília",
+        "jogo do PSG hoje",
+        "calendário PSG Brasil"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - calendário oficial 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Datas, adversários e horários publicados pelo clube."
+        },
+        {
+          "name": "PSG.fr - calendário europeu do PSG",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Programação oficial da fase de liga europeia."
+        },
+        {
+          "name": "PSG.fr em português - referência ao horário de Brasília",
+          "url": "https://www.psg.fr/pt/content/marquinhos-os-jogadores-dao-tudo-pela-equipe",
+          "note": "Exemplo de comunicação oficial localizada para o público brasileiro."
+        }
+      ]
+    },
+    {
+      "title": "Por que o PSG tem tantos torcedores no Brasil?",
+      "category": "PSG e Brasil",
+      "angle": "Cultura de torcida",
+      "dateTime": "2026-10-06T16:45:00+02:00",
+      "language": "pt-BR",
+      "url": "https://parisien90.com/br/dossies-psg/por-que-psg-tem-tantos-torcedores-no-brasil/",
+      "summary": "A relação não nasceu em uma campanha publicitária. Ela foi construída por gerações de brasileiros, grandes jogos, ídolos contraditórios e uma identificação que atravessa o Atlântico.",
+      "keywords": [
+        "torcedores do PSG no Brasil",
+        "PSG Brasil",
+        "por que brasileiros torcem para o PSG",
+        "brasileiros no PSG",
+        "PSG torcida brasileira"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr em português - a comunidade parisiense do Rio",
+          "url": "https://pt.psg.fr/clube/content/cristiano-le-plus-parisien-des-cariocas-club-paris-saint-germain-2024-2025",
+          "note": "Relato oficial sobre a ligação dos torcedores cariocas com os brasileiros do PSG."
+        },
+        {
+          "name": "PSG.fr em português - MyParis Brasil",
+          "url": "https://pt.psg.fr/equipes/equipe-principal/content/seja-um-socio-torcedor-myparis-brasil",
+          "note": "Contexto histórico da presença do clube e de seus jogadores brasileiros no país."
+        },
+        {
+          "name": "PSG.fr - perfil oficial de Marquinhos",
+          "url": "https://www.psg.fr/pt/jogadores/marquinhos",
+          "note": "Chegada, capitania e recorde de partidas oficiais."
+        },
+        {
+          "name": "PSG.fr - Ronaldinho no Parc des Princes",
+          "url": "https://en.psg.fr/teams/club/content/ronaldinho-at-the-parc-des-princes-paris-saint-germain-rb-leipzig-uefa-champions-league-2021-2022",
+          "note": "Balanço oficial de 77 jogos e 25 gols pelo clube."
+        }
+      ]
+    },
+    {
+      "title": "Quantos brasileiros já jogaram no PSG? Lista por gerações",
+      "category": "Brasileiros no PSG",
+      "angle": "Lista histórica por gerações",
+      "dateTime": "2026-10-06T17:00:00+02:00",
+      "language": "pt-BR",
+      "url": "https://parisien90.com/br/dossies-psg/quantos-brasileiros-jogaram-psg-lista-geracoes/",
+      "summary": "O inventário do Parisien 90 identifica atualmente 45 jogadores brasileiros ligados à equipe principal do PSG. O número é acompanhado por nome, período e fonte aberta.",
+      "keywords": [
+        "quantos brasileiros jogaram no PSG",
+        "lista brasileiros PSG",
+        "jogadores brasileiros do PSG",
+        "brasileiros que passaram pelo PSG",
+        "PSG brasileiros história"
+      ],
+      "sources": [
+        {
+          "name": "Wikidata - base estruturada aberta",
+          "url": "https://www.wikidata.org/",
+          "note": "Nomes, nacionalidades e vínculos esportivos sob licença CC0, revisados e enriquecidos editorialmente."
+        },
+        {
+          "name": "PSG.fr - perfil oficial de Marquinhos",
+          "url": "https://www.psg.fr/pt/jogadores/marquinhos",
+          "note": "Chegada em 2013, capitania e recorde de partidas oficiais."
+        },
+        {
+          "name": "PSG.fr - Ronaldinho no Parc des Princes",
+          "url": "https://en.psg.fr/teams/club/content/ronaldinho-at-the-parc-des-princes-paris-saint-germain-rb-leipzig-uefa-champions-league-2021-2022",
+          "note": "Número oficial de jogos e gols de Ronaldinho pelo PSG."
+        },
+        {
+          "name": "PSG.fr em português - a ligação do clube com o Brasil",
+          "url": "https://pt.psg.fr/equipes/equipe-principal/content/seja-um-socio-torcedor-myparis-brasil",
+          "note": "Jogadores históricos e desenvolvimento da presença parisiense no país."
+        }
+      ]
+    }
+  ]
 }

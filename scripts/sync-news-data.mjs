@@ -1,5 +1,6 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { allTimePsgPlayers, allTimePsgPlayersMeta } from "../src/all-time-psg-players.js";
+import { brEditorialArticles, brEditorialArticlesMeta } from "../src/br-editorial-articles.js";
 import { editorialArticles, editorialArticlesMeta } from "../src/editorial-articles.js";
 import { calendarWatchSources, currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, staffProfiles } from "../src/site-data.js";
 
@@ -104,6 +105,8 @@ const brItemPath = (item) => `/br/noticias-psg/${slugify(item.id)}/`;
 const brItemUrl = (item) => `${siteUrl}${brItemPath(item)}`;
 const editorialPath = (item) => `/dossiers-psg/${slugify(item.id)}/`;
 const editorialUrl = (item) => `${siteUrl}${editorialPath(item)}`;
+const brEditorialPath = (item) => `/br/dossies-psg/${slugify(item.id)}/`;
+const brEditorialUrl = (item) => `${siteUrl}${brEditorialPath(item)}`;
 const sourceUrl = (item) => new URL(item.url, siteUrl).href;
 const currentPlayerPath = (profile) => `/joueurs-psg/${slugify(profile.id)}/`;
 const currentPlayerUrl = (profile) => `${siteUrl}${currentPlayerPath(profile)}`;
@@ -2150,7 +2153,7 @@ const makeBrHeader = (active) => {
     </header>`;
 };
 
-const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd }) => {
+const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd, ogType = "website", articleMeta = null }) => {
   const url = `${siteUrl}${path}`;
   const frUrl = `${siteUrl}${frPath || "/"}`;
 
@@ -2171,13 +2174,16 @@ const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd }) 
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
     <meta name="theme-color" content="#071426" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="${escapeHTML(ogType)}" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:site_name" content="Parisien 90 Brasil" />
     <meta property="og:title" content="${escapeHTML(title)}" />
     <meta property="og:description" content="${escapeHTML(description)}" />
     <meta property="og:url" content="${escapeHTML(url)}" />
-    <meta property="og:image" content="${escapeHTML(heroImage)}" />
+    <meta property="og:image" content="${escapeHTML(heroImage)}" />${articleMeta ? `
+    <meta property="article:published_time" content="${escapeHTML(articleMeta.publishedTime)}" />
+    <meta property="article:modified_time" content="${escapeHTML(articleMeta.modifiedTime)}" />
+    <meta property="article:section" content="${escapeHTML(articleMeta.section)}" />` : ""}
     <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
     <link rel="stylesheet" href="/src/styles.css" />
@@ -2198,6 +2204,144 @@ const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd }) 
   </body>
 </html>`;
 };
+
+const fillBrEditorialTokens = (value, context) =>
+  String(value ?? "").replaceAll("{{BRAZILIAN_COUNT}}", String(context.brazilianCount));
+
+const hydrateBrEditorialArticle = (item, context) => ({
+  ...item,
+  title: fillBrEditorialTokens(item.title, context),
+  description: fillBrEditorialTokens(item.description, context),
+  deck: fillBrEditorialTokens(item.deck, context),
+  sections: (item.sections || []).map((section) => ({
+    ...section,
+    heading: fillBrEditorialTokens(section.heading, context),
+    paragraphs: section.paragraphs.map((paragraph) => fillBrEditorialTokens(paragraph, context))
+  })),
+  faq: (item.faq || []).map((entry) => ({
+    question: fillBrEditorialTokens(entry.question, context),
+    answer: fillBrEditorialTokens(entry.answer, context)
+  }))
+});
+
+const makeBrEditorialCard = (rawItem, context) => {
+  const item = hydrateBrEditorialArticle(rawItem, context);
+  const path = brEditorialPath(item);
+  return `<article class="news-card" data-share-title="${escapeHTML(item.title)}" data-share-url="${escapeHTML(path)}">
+          <time class="news-date" datetime="${escapeHTML(`${item.date}T${item.time}:00+02:00`)}">${escapeHTML(item.dateLabel)} · ${escapeHTML(item.time)}</time>
+          <div class="news-topline"><span>${escapeHTML(item.category)}</span><strong>${escapeHTML(item.angle)}</strong></div>
+          <h3><a href="${escapeHTML(path)}">${escapeHTML(item.title)}</a></h3>
+          <p>${escapeHTML(item.deck)}</p>
+          <a href="${escapeHTML(path)}">Ler o dossiê</a>
+        </article>`;
+};
+
+const makeBrEditorialArticlePage = (rawItem, context) => {
+  const item = hydrateBrEditorialArticle(rawItem, context);
+  const path = brEditorialPath(item);
+  const url = brEditorialUrl(item);
+  const dateTime = `${item.date}T${item.time}:00+02:00`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `${url}#article`,
+        mainEntityOfPage: { "@type": "WebPage", "@id": url },
+        headline: item.title,
+        description: item.description,
+        datePublished: dateTime,
+        dateModified: brEditorialArticlesMeta.updatedAt,
+        inLanguage: "pt-BR",
+        articleSection: item.category,
+        keywords: item.keywords,
+        author: { "@type": "Organization", name: "Redação Parisien 90 Brasil", url: `${siteUrl}/br/` },
+        publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90 Brasil", url: `${siteUrl}/br/` },
+        image: [heroImage],
+        isAccessibleForFree: true,
+        copyrightHolder: { "@type": "Organization", name: "Parisien 90" },
+        about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
+        isBasedOn: (item.sources || []).map((source) => ({
+          "@type": "CreativeWork",
+          name: source.name,
+          url: new URL(source.url, siteUrl).href
+        }))
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Início", item: `${siteUrl}/br/` },
+          { "@type": "ListItem", position: 2, name: "Dossiês PSG", item: `${siteUrl}/br/dossies-psg/` },
+          { "@type": "ListItem", position: 3, name: item.title, item: url }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        inLanguage: "pt-BR",
+        mainEntity: item.faq.map((entry) => ({
+          "@type": "Question",
+          name: entry.question,
+          acceptedAnswer: { "@type": "Answer", text: entry.answer }
+        }))
+      }
+    ]
+  };
+  const sections = item.sections
+    .map((section) => `<section class="records-section"><h2>${escapeHTML(section.heading)}</h2>${section.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("")}</section>`)
+    .join("");
+  const faq = item.faq
+    .map((entry, index) => `<details${index === 0 ? " open" : ""}><summary>${escapeHTML(entry.question)}</summary><p>${escapeHTML(entry.answer)}</p></details>`)
+    .join("");
+  const sources = item.sources
+    .map((source) => `<li><a href="${escapeHTML(new URL(source.url, siteUrl).href)}" rel="noopener noreferrer">${escapeHTML(source.name)}</a><span>${escapeHTML(source.note)}</span></li>`)
+    .join("");
+  const internalLinks = item.internalLinks
+    .map((link) => `<a href="${escapeHTML(link.url)}">${escapeHTML(link.label)}</a>`)
+    .join("");
+  const body = `<nav class="breadcrumb" aria-label="Trilha de navegação"><a href="/br/">Início</a><span>/</span><a href="/br/dossies-psg/">Dossiês PSG</a><span>/</span><span>${escapeHTML(item.category)}</span></nav>
+      <article class="article-page records-page" data-share-title="${escapeHTML(item.title)}" data-share-url="${escapeHTML(path)}">
+        <div class="article-hero">
+          <div class="item-tags"><span>${escapeHTML(item.category)}</span><span>${escapeHTML(item.angle)}</span><span>${escapeHTML(item.readingTime)}</span></div>
+          <time datetime="${escapeHTML(dateTime)}">${escapeHTML(item.dateLabel)} · ${escapeHTML(item.time)}</time>
+          <h1>${escapeHTML(item.title)}</h1>
+          <p>${escapeHTML(item.deck)}</p>
+        </div>
+        <div class="article-layout">
+          <div class="article-body">
+            ${sections}
+            <section class="records-section"><h2>Perguntas frequentes</h2><div class="faq-list">${faq}</div></section>
+            <section class="source-box"><span>Fontes e método</span><p>${escapeHTML(brEditorialArticlesMeta.rightsNote)}</p><ul class="source-credit-list">${sources}</ul></section>
+          </div>
+          <aside class="article-sidebar"><span class="section-kicker">Continuar</span>${internalLinks}<a href="/br/dossies-psg/">Todos os dossiês</a><a href="/droits-disclaimer/">Direitos e aviso legal</a></aside>
+        </div>
+      </article>`;
+
+  return {
+    path,
+    url,
+    type: "br-editorial",
+    html: makeBrPage({
+      path,
+      title: `${item.title} | Parisien 90 Brasil`,
+      description: item.description,
+      active: "dossies",
+      frPath: "/dossiers-psg/",
+      body,
+      jsonLd,
+      ogType: "article",
+      articleMeta: {
+        publishedTime: dateTime,
+        modifiedTime: brEditorialArticlesMeta.updatedAt,
+        section: item.category
+      }
+    })
+  };
+};
+
+const makeBrEditorialPages = (context) =>
+  brEditorialArticles.map((item) => makeBrEditorialArticlePage(item, context));
 
 const getBrArticleAngle = (item) => {
   const category = normalizeKey(item.category);
@@ -2641,6 +2785,10 @@ const makeBrazilPages = (allTimePlayerIndex) => {
   });
   const brazilianCount = countryCounts.get(countryKey("Brésil")) || brazilianLegends.length;
   const argentinianCount = countryCounts.get(countryKey("Argentine")) || 0;
+  const brEditorialContext = { brazilianCount };
+  const brLongTailCards = brEditorialArticles
+    .map((item) => makeBrEditorialCard(item, brEditorialContext))
+    .join("\n");
 
   const newsCards = brLatest
     .map(
@@ -2912,6 +3060,10 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         <div class="hot-grid">${brDossierCard}</div>
       </section>
       <section class="content-section">
+        <div class="section-heading"><div><span class="section-kicker">Feito para o Brasil</span><h2>Guias e histórias para o torcedor brasileiro</h2></div><a class="primary-action compact-action" href="/br/dossies-psg/">Ver todos</a></div>
+        <div class="hot-grid">${brLongTailCards}</div>
+      </section>
+      <section class="content-section">
         <div class="section-heading"><div><span class="section-kicker">Calendário</span><h2>Próximos jogos do PSG</h2></div><a class="primary-action compact-action" href="/br/calendario-psg/">Ver calendário completo</a></div>
         <div class="hot-grid">${fixtureCards}</div>
       </section>
@@ -2931,6 +3083,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       ${nextFixture ? `<section class="content-section next-match-answer" itemscope itemtype="https://schema.org/SportsEvent"><span class="section-kicker">Próximo jogo do PSG</span><h2 itemprop="name">${escapeHTML(nextMatchLabel)}</h2><p><strong><time itemprop="startDate" datetime="${escapeHTML(nextMatchDateTime)}">${escapeHTML(brDateLabel(nextFixture.dateLabel))} · ${escapeHTML(brStatusLabel(nextFixture.time))}</time></strong> · <span itemprop="description">${escapeHTML(brCompetitionLabel(nextFixture.competition))}</span> · <span itemprop="location">${escapeHTML(nextFixture.venue)}</span></p><p>${escapeHTML(brPlaceLabel(nextFixture.place))}. Horário e programação sujeitos à confirmação das autoridades esportivas e dos clubes.</p></section>` : ""}
       <section class="signal-strip" aria-label="Resumo calendário PSG Brasil"><article class="signal-card"><span>Total de jogos</span><strong>${escapeHTML(psgSchedule2627.length)}</strong></article><article class="signal-card tone-red"><span>Liga dos Campeões</span><strong>${escapeHTML(championsLeagueFixtures.length)}</strong></article><article class="signal-card tone-green"><span>Copa da França</span><strong>${escapeHTML(frenchCupFixtures.length)}</strong></article><article class="signal-card"><span>No Parc</span><strong>${escapeHTML(homeFixtures.length)}</strong></article></section>
       <section class="content-section"><span class="section-kicker">Guia do torcedor</span><h2>O calendário do PSG muda a leitura da temporada</h2><p>Para quem acompanha o PSG do Brasil, a agenda não é uma tabela fria. Ela mostra quando Paris precisa rodar o elenco, quando a Champions aperta, quando os brasileiros do grupo entram em noites grandes e quando uma sequência pode transformar uma vitória em obrigação.</p><p>A página separa amistosos, Ligue 1, Liga dos Campeões e Copa da França. Quando uma data ainda depende de sorteio, qualificação ou confirmação de horário, o status aparece com prudência para evitar confusão.</p><div class="topic-grid"><a class="topic-card" href="/br/noticias-psg/psg-ligue-champions-calendrier-phase-ligue-uefa-2026/"><span>Europa</span><h3>Liga dos Campeões PSG</h3><p>O caminho europeu de Paris com City, Barcelona, Roma, Aston Villa e Galatasaray.</p></a><a class="topic-card" href="/br/jogadores-psg/marquinhos/"><span>Brasil</span><h3>Marquinhos PSG</h3><p>O capitão brasileiro como termômetro das grandes noites de Paris.</p></a><a class="topic-card" href="/br/mercado-psg/"><span>Elenco</span><h3>Mercado e rotação</h3><p>A agenda explica por que profundidade e concorrência importam tanto.</p></a></div></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Horário de Brasília</span><h2>Que horas joga o PSG no Brasil?</h2></div><a class="primary-action compact-action" href="/br/dossies-psg/que-horas-joga-psg-brasil-horario-brasilia/">Abrir o guia</a></div><p>Paris e Brasília não mantêm a mesma diferença durante toda a temporada. O guia explica a conversão, os fusos brasileiros e o cuidado necessário com horários ainda sujeitos a confirmação.</p></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Interativo</span><h2>Filtrar jogos por mês, competição e local</h2></div><span class="freshness">Atualizado em ${escapeHTML(brDateLabel(newsMeta.displayDate))} · ${escapeHTML(newsMeta.displayTime)}</span></div><div data-calendar-app data-calendar-locale="pt-BR"></div></section>
       <section class="content-section"><h2>O que já está fixado</h2><div class="method-list"><article><strong>Liga dos Campeões</strong><p>Os oito jogos da fase de liga estão datados. Paris tem jogos grandes contra Manchester City, Barcelona, Roma, Aston Villa, Como e Galatasaray.</p></article><article><strong>Copa da França</strong><p>Os marcos oficiais aparecem como etapas condicionais: a página será detalhada quando adversário, local e horário forem confirmados.</p></article><article><strong>Ligue 1</strong><p>Os adversários e rodadas são listados; alguns horários ficam em aberto até programação da LFP ou comunicação do PSG.</p></article></div></section>
       <section class="content-section"><h2>Fontes acompanhadas</h2><div class="calendar-watch">${brCalendarWatchCards}</div></section>
@@ -2944,7 +3097,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       frPath: "/dossiers-psg/",
       jsonLd: { ...homeJsonLd, name: "Dossiês PSG Brasil", url: `${siteUrl}/br/dossies-psg/` },
       body: `<section class="page-hero"><span class="section-kicker">Dossiês PSG</span><h1>Histórias do PSG para ler com calma</h1><p>Textos originais em português do Brasil para entender o Paris Saint-Germain além do placar: memória, jogadores, mercado, rivalidades e grandes debates.</p></section>
-      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Hoje</span><h2>Dossiês em destaque</h2></div><span class="freshness">Atualizado em 6 de setembro de 2026</span></div><div class="hot-grid">${brDossierCard}</div></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Leituras em português</span><h2>Dossiês em destaque</h2></div><span class="freshness">Atualizado em ${escapeHTML(brEditorialArticlesMeta.displayDate)}</span></div><div class="hot-grid">${brLongTailCards}${brDossierCard}</div></section>
       <section class="content-section"><h2>Continuar a leitura</h2><div class="topic-grid"><a class="topic-card" href="/br/brasileiros-no-psg/"><span>Brasil</span><h3>Brasileiros no PSG</h3><p>A lista e as fichas dos brasileiros que passaram por Paris.</p></a><a class="topic-card" href="/br/antigos-jogadores-psg/"><span>Ídolos</span><h3>Grandes nomes do PSG</h3><p>Neymar, Ronaldinho, Messi, Mbappé, Raí, Thiago Silva e outros.</p></a><a class="topic-card" href="/br/mercado-psg/"><span>Mercado</span><h3>Mercado PSG</h3><p>Rumores e decisões com fonte e contexto.</p></a></div></section>`
     },
     {
@@ -3022,6 +3175,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       <section class="signal-strip" aria-label="Brasileiros e sul-americanos no PSG"><article class="signal-card tone-green"><span>Brasileiros mapeados</span><strong>${escapeHTML(brazilianCount)}</strong></article><article class="signal-card"><span>Argentinos mapeados</span><strong>${escapeHTML(argentinianCount)}</strong></article><article class="signal-card tone-red"><span>Fichas em destaque</span><strong>${escapeHTML(brazilianLegends.length)}</strong></article></section>
       <section class="content-section"><h2>Por que essa lista importa</h2><p>O PSG tem uma relação rara com o futebol brasileiro. Não é só contratação de craque: é estética, liderança, marketing, memória e identidade. De Raí a Marquinhos, o Brasil aparece nos momentos em que Paris tenta se definir para além da França.</p><p>As fichas abaixo usam dados públicos e fontes citadas. As fotos só aparecem quando existe licença aberta ou autorização clara.</p></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Dossiê recomendado</span><h2>Por que o Brasil moldou Paris</h2></div><a class="primary-action compact-action" href="${escapeHTML(brDossierPath)}">Ler o dossiê</a></div><div class="hot-grid">${brDossierCard}</div></section>
+      <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Perguntas do Brasil</span><h2>Torcida, gerações e memória brasileira</h2></div><a class="primary-action compact-action" href="/br/dossies-psg/">Todos os dossiês</a></div><div class="hot-grid">${brEditorialArticles.slice(1).map((item) => makeBrEditorialCard(item, brEditorialContext)).join("\n")}</div></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Galeria editorial</span><h2>Grandes brasileiros do PSG</h2></div><a class="primary-action compact-action" href="/br/antigos-jogadores-psg/">Ver ídolos</a></div><div class="topic-grid">${legendCards}</div></section>
       <section class="content-section"><h2>Próximos jogos que o Brasil deve olhar</h2><div class="hot-grid">${fixtureCards}</div></section>`
     }
@@ -3133,6 +3287,10 @@ const profilePages = [
   }))
 ];
 const allTimePlayerIndex = buildAllTimePlayerIndex(profilePages);
+const allTimeBrazilianCount = allTimePlayerIndex.reduce((count, player) => {
+  const isBrazilian = splitCountries(player.countries).some((country) => countryKey(country) === countryKey("Brésil"));
+  return count + (isBrazilian ? 1 : 0);
+}, 0);
 
 await Promise.all(
   profilePages.map(async (page) => {
@@ -3146,7 +3304,8 @@ await writeFile(new URL("index.html", legendsDir), makeAllTimePlayersPage(allTim
 
 const brazilProfilePages = makeBrazilProfilePages();
 const brazilNewsPages = makeBrNewsPages();
-const brazilPages = [...makeBrazilPages(allTimePlayerIndex), ...brazilProfilePages, ...brazilNewsPages];
+const brazilEditorialPages = makeBrEditorialPages({ brazilianCount: allTimeBrazilianCount });
+const brazilPages = [...makeBrazilPages(allTimePlayerIndex), ...brazilProfilePages, ...brazilNewsPages, ...brazilEditorialPages];
 await rm(brDir, { recursive: true, force: true });
 await mkdir(brDir, { recursive: true });
 await Promise.all(
@@ -3258,6 +3417,20 @@ aiIndex.brazilNews = getBrLatestStories().map((story) => ({
   sourceUrl: sourceUrl(story.item),
   reliability: brReliabilityLabel(story.item.reliability)
 }));
+aiIndex.brazilEditorial = brEditorialArticles.map((rawItem) => {
+  const item = hydrateBrEditorialArticle(rawItem, { brazilianCount: allTimeBrazilianCount });
+  return {
+    title: item.title,
+    category: item.category,
+    angle: item.angle,
+    dateTime: `${item.date}T${item.time}:00+02:00`,
+    language: "pt-BR",
+    url: brEditorialUrl(item),
+    summary: item.deck,
+    keywords: item.keywords,
+    sources: item.sources
+  };
+});
 aiIndex.brazilCalendar = {
   url: `${siteUrl}/br/calendario-psg/`,
   frenchUrl: `${siteUrl}/calendrier-psg/`,
@@ -3445,6 +3618,18 @@ const brAiIndex = {
     sourceUrl: sourceUrl(story.item),
     reliability: brReliabilityLabel(story.item.reliability)
   })),
+  longReads: brEditorialArticles.map((rawItem) => {
+    const item = hydrateBrEditorialArticle(rawItem, { brazilianCount: allTimeBrazilianCount });
+    return {
+      title: item.title,
+      summary: item.deck,
+      category: item.category,
+      dateTime: `${item.date}T${item.time}:00+02:00`,
+      url: brEditorialUrl(item),
+      topics: item.keywords,
+      sources: item.sources
+    };
+  }),
   calendar: {
     url: `${siteUrl}/br/calendario-psg/`,
     updatedAt: newsMeta.updatedAt,
@@ -3480,9 +3665,13 @@ const brAiIndex = {
 
 await writeFile(new URL("ai-index.json", brPublicDir), `${JSON.stringify(brAiIndex, null, 2)}\n`, "utf8");
 
-const brFreshness = `Atualizado em ${brDateLabel(newsMeta.displayDate)}, ${newsMeta.displayTime} (horário de Paris). ${brLatestStories.length} notícias recentes em português do Brasil e ${psgSchedule2627.length} jogos ou marcos no calendário.`;
+const brFreshness = `Atualizado em ${brDateLabel(newsMeta.displayDate)}, ${newsMeta.displayTime} (horário de Paris). ${brLatestStories.length} notícias recentes, ${brEditorialArticles.length} novos dossiês locais em português do Brasil e ${psgSchedule2627.length} jogos ou marcos no calendário.`;
 const brPageList = brPriorityPages.map((page) => `- [${page.title}](${page.url}) — ${page.description}`).join("\n");
 const brNewsList = brLatestStories.slice(0, 12).map((story) => `- [${story.title}](${brItemUrl(story.item)}) — ${brDateLabel(story.item.dateLabel || newsMeta.displayDate)}, ${story.item.time}. Fonte: ${brSourceLabel(story.item.source)}.`).join("\n");
+const brEditorialList = brEditorialArticles.map((rawItem) => {
+  const item = hydrateBrEditorialArticle(rawItem, { brazilianCount: allTimeBrazilianCount });
+  return `- [${item.title}](${brEditorialUrl(item)}) — ${item.deck}`;
+}).join("\n");
 const brLlms = `# Parisien 90 Brasil
 
 Parisien 90 Brasil é a edição em português do Brasil do Parisien 90, mídia independente dedicada ao Paris Saint-Germain. A cobertura reúne notícias, mercado, calendário, jogadores, brasileiros no PSG, história e dossiês originais. Não existe afiliação oficial com o Paris Saint-Germain.
@@ -3509,6 +3698,10 @@ ${brPageList}
 `;
 
 const brLlmsFull = `${brLlms}
+## Dossiês locais em português do Brasil
+
+${brEditorialList}
+
 ## Notícias recentes
 
 ${brNewsList || "- Consulte a página de notícias para a edição mais recente."}
@@ -3586,6 +3779,12 @@ const sitemapUrls = [
     lastmod: currentDate,
     changefreq: "weekly",
     priority: "0.78"
+  })),
+  ...brazilEditorialPages.map((page) => ({
+    loc: page.url,
+    lastmod: currentDate,
+    changefreq: "monthly",
+    priority: "0.8"
   }))
 ];
 
