@@ -199,7 +199,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
     <loc>https://parisien90.com/news/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -214,10 +213,12 @@
   <url>
     <loc>https://parisien90.com/news/mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027/</loc>
     <lastmod>2026-10-06</lastmod>
-=======
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://parisien90.com/news/france-belgique-victoire-doue-dembele-akliouche-godts-octobre-2026/</loc>
     <lastmod>2026-10-05</lastmod>
->>>>>>> origin/main
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
