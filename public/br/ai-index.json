@@ -41,8 +41,8 @@
   "priorityPages": [
     {
       "url": "https://parisien90.com/br/",
-      "title": "PSG Brasil: notícias, mercado, jogos e brasileiros",
-      "description": "Portal em português do Brasil sobre o Paris Saint-Germain."
+      "title": "Notícias do PSG hoje: jogos, mercado e brasileiros",
+      "description": "Notícias do PSG hoje, próximo jogo, mercado da bola, elenco e brasileiros em Paris."
     },
     {
       "url": "https://parisien90.com/br/noticias-psg/",
@@ -51,18 +51,18 @@
     },
     {
       "url": "https://parisien90.com/br/mercado-psg/",
-      "title": "Mercado PSG: rumores, chegadas e saídas",
-      "description": "Mercado e transferências do PSG com diferença clara entre oficial, informação e análise."
+      "title": "Mercado da bola PSG: contratações, saídas e rumores",
+      "description": "Contratações, saídas, negociações e rumores do PSG com fonte e nível de confiança."
     },
     {
       "url": "https://parisien90.com/br/calendario-psg/",
-      "title": "Calendário PSG 2026-2027 e próximo jogo",
-      "description": "Jogos do PSG na Ligue 1, Liga dos Campeões, Copa da França e amistosos."
+      "title": "Próximo jogo do PSG e calendário 2026-2027",
+      "description": "Datas, horários e resultados do PSG na Ligue 1, Champions League, Copa da França e amistosos."
     },
     {
       "url": "https://parisien90.com/br/jogadores-psg/",
-      "title": "Jogadores do PSG: elenco e fichas",
-      "description": "Elenco atual, funções, brasileiros e perfis individuais."
+      "title": "Elenco do PSG 2026-2027: jogadores e brasileiros",
+      "description": "Lista de jogadores, números, posições, brasileiros e fichas individuais do PSG."
     },
     {
       "url": "https://parisien90.com/br/brasileiros-no-psg/",
@@ -84,12 +84,12 @@
     {
       "title": "Luis Enrique diante da semana-armadilha: preparar o Le Mans sem jogar antes contra o Manchester City",
       "summary": "Três treinos fechados, coletiva na sexta-feira e dois jogos em quatro dias: o PSG precisa reconstruir seu coletivo depois da Data Fifa sem tratar a Ligue 1 como simples preparação europeia.",
-      "category": "Entraîneurs",
+      "category": "Treinadores",
       "dateTime": "2026-10-06T06:30:00+02:00",
       "url": "https://parisien90.com/br/noticias-psg/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
       "source": "Parisien 90 — análise com fontes",
       "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
-      "reliability": "Programme oficial, analyse"
+      "reliability": "Programação oficial, análise"
     },
     {
       "title": "Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede",
@@ -134,7 +134,7 @@
     {
       "title": "PSG-OH Leuven: Paris recebe a campeã belga em noite europeia no Campus",
       "summary": "O PSG feminino enfrenta o OH Leuven nesta quinta-feira, às 21h, pela segunda rodada da Liga dos Campeões. Depois do empate no campo do Real Madrid, Paris tenta transformar o primeiro ponto europeu em impulso diante da torcida, no Campus PSG.",
-      "category": "Féminines",
+      "category": "Feminino",
       "dateTime": "2026-10-01T12:00:00+02:00",
       "url": "https://parisien90.com/br/noticias-psg/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/",
       "source": "PSG.fr",

@@ -203,8 +203,8 @@ const syncCalendarQuickAnswer = async () => {
   const timeLabel = nextFixture.time === "À confirmer" ? "horaire à confirmer" : `${nextFixture.time}`;
   const shortTeamName = (team) => team === "Paris Saint-Germain" ? "PSG" : team;
   const matchLabel = `${shortTeamName(nextFixture.home)} - ${shortTeamName(nextFixture.away)}`;
-  const calendarTitle = `Calendrier PSG : prochain match ${matchLabel} le ${nextFixture.dateLabel}`;
-  const calendarDescription = `Prochain match du PSG : ${matchLabel}, ${nextFixture.day} ${nextFixture.dateLabel} à ${timeLabel}. Calendrier complet 2026-2027, résultats, Ligue 1, Champions et Coupe de France.`;
+  const calendarTitle = "Calendrier PSG 2026-2027 : prochain match et résultats";
+  const calendarDescription = `Calendrier PSG 2026-2027 : prochain match ${matchLabel}, ${nextFixture.day} ${nextFixture.dateLabel} à ${timeLabel}. Horaires et résultats en Ligue 1, Champions et Coupe de France.`;
   const startDate = `${nextFixture.isoDate}T${nextFixture.time === "À confirmer" ? "00:00" : nextFixture.time}:00+02:00`;
   const block = `<!-- CALENDAR_QUICK_ANSWER:START -->
       <section class="calendar-quick-answer" aria-labelledby="next-psg-match-title" itemscope itemtype="https://schema.org/SportsEvent">
@@ -786,8 +786,9 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
   const profileImage = profile.image ? assetUrl(profile.image.url) : heroImage;
   const ronaldinhoSeo = isLegend && profile.id === "ronaldinho"
     ? {
-        title: "Ronaldinho PSG : années 2001-2003, histoire et héritage",
-        description: "Ronaldinho au PSG de 2001 à 2003 : deux saisons de magie à Paris, ses moments marquants, son style, son départ et l'héritage d'une future légende mondiale."
+        title: "Ronaldinho PSG : parcours, matchs cultes et héritage",
+        heading: "Ronaldinho au PSG : parcours, matchs cultes et héritage",
+        description: "Ronaldinho au PSG de 2001 à 2003 : son parcours à Paris, ses matchs marquants, son style, son départ et l'héritage d'une future légende mondiale."
       }
     : null;
   const title = ronaldinhoSeo?.title || (isPlayer
@@ -939,7 +940,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
         <div class="article-hero">
           <div class="item-tags">${tags.map((tag) => `<span>${escapeHTML(tag)}</span>`).join("")}</div>
           <time datetime="${escapeHTML(newsMeta.updatedAt)}">Mis à jour le ${escapeHTML(profile.updatedAt || newsMeta.displayDate)}</time>
-          <h1>${escapeHTML(profile.name)}</h1>
+          <h1>${escapeHTML(ronaldinhoSeo?.heading || profile.name)}</h1>
           <p>${escapeHTML(profile.profile || profile.whyMatters || description)}</p>
         </div>
         <div class="article-layout">
@@ -950,7 +951,8 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             </dl>
             <h2>Pourquoi cette fiche compte</h2>
             <p>${escapeHTML(profile.whyMatters || profile.watch || "Cette fiche sert de repère stable pour suivre le rôle public de ce profil dans l'écosystème du Paris Saint-Germain.")}</p>
-            <p>Parisien 90 maintient cette page comme une fiche évolutive : elle peut être enrichie par les sources officielles, les communiqués de club, les archives publiques et les informations recoupées.</p>
+            <p>Parisien 90 maintient cette page comme une fiche évolutive : elle peut être enrichie par les sources officielles, les communiqués de club, les archives publiques et les informations recoupées.</p>${ronaldinhoSeo ? `
+            <section class="profile-answer" aria-labelledby="ronaldinho-reponse"><span class="section-kicker">Réponse rapide</span><h2 id="ronaldinho-reponse">Quand Ronaldinho a-t-il joué au PSG ?</h2><p><strong>Ronaldinho a porté le maillot du PSG de 2001 à 2003.</strong> Paris a accueilli le meneur brésilien avant sa consécration mondiale. Retrouvez aussi <a href="/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/">le dossier sur ses années parisiennes</a>, <a href="/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/">l'histoire des Brésiliens du PSG</a> et <a href="/br/antigos-jogadores-psg/ronaldinho/" hreflang="pt-BR">la fiche en portugais du Brésil</a>.</p></section>` : ""}
             ${editorialFocusMarkup}
             ${faqMarkup}
             <h2>Méthode et prudence</h2>
@@ -1212,8 +1214,8 @@ const makeAllTimePlayersPage = (players) => {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anciens joueurs PSG : liste complète, Messi, Neymar, Mbappé | Parisien 90</title>
-    <meta name="description" content="Liste complète des anciens joueurs PSG et grands noms passés par Paris : Messi, Neymar, Mbappé, Ronaldinho, Zlatan, Beckham, Raí, Pauleta et toutes les fiches disponibles." />
+    <title>Anciens joueurs PSG : liste complète et fiches des légendes</title>
+    <meta name="description" content="Recherchez plus de 500 anciens joueurs du PSG et consultez les fiches de Ronaldinho, Messi, Neymar, Mbappé, Zlatan, Beckham, Raí et Pauleta." />
     <link rel="canonical" href="${siteUrl}/anciens-joueurs-psg/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -1338,6 +1340,7 @@ ${rows}
 
 const brDateLabel = (label) =>
   String(label || "")
+    .replace(/^1er\s+/, "1 ")
     .replace("janvier", "janeiro")
     .replace("février", "fevereiro")
     .replace("mars", "março")
@@ -1363,6 +1366,18 @@ const brStatusLabel = (value) =>
 
 const brCompetitionLabel = (value) =>
   String(value || "")
+    .replace("Entraîneurs", "Treinadores")
+    .replace("Féminines", "Feminino")
+    .replace("Sélections", "Seleções")
+    .replace("Transferts", "Transferências")
+    .replace("Vérification", "Verificação")
+    .replace("Formation", "Base")
+    .replace("Supporters", "Torcedores")
+    .replace("Histoire", "História")
+    .replace("Jeunes", "Jovens")
+    .replace("Santé", "Saúde")
+    .replace("Anciens", "Ídolos")
+    .replace("Analyse", "Análise")
     .replace("Joueurs", "Jogadores")
     .replace("Tactique", "Tática")
     .replace("Économie", "Economia")
@@ -1394,6 +1409,16 @@ const brReliabilityLabel = (value) =>
     .replace("Chiffres officiels et estimations externes attribuées", "Números oficiais e estimativas externas atribuídas")
     .replace("Sources officielles CBF, Santos et PSG", "Fontes oficiais da CBF, do Santos e do PSG")
     .replace("Fait officiel, analyse prudente", "Fato oficial, análise prudente")
+    .replace("Programme officiel, analyse", "Programação oficial, análise")
+    .replace("Effectif officiel, analyse", "Elenco oficial, análise")
+    .replace("Correction datée", "Correção datada")
+    .replace("Analyse externe — source citée", "Análise externa — fonte citada")
+    .replace("Analyse, aucune négociation affirmée", "Análise, nenhuma negociação afirmada")
+    .replace("Tableau de suivi — statuts à vérifier dossier par dossier", "Painel de acompanhamento — status verificado caso a caso")
+    .replace("Très fort", "Muito forte")
+    .replace("Rumeur recoupée", "Rumor verificado")
+    .replace("À suivre", "Acompanhar")
+    .replace("À vérifier", "Verificar")
     .replace("Analyse", "Análise")
     .replace("Officiel", "Oficial")
     .replace("officiel", "oficial")
@@ -2367,10 +2392,14 @@ const makeBrProfilePage = ({ profile, type }) => {
   const frPath = isCurrent ? currentPlayerPath(profile) : legendPath(profile);
   const title = isCurrent
     ? `${profile.name} PSG: ficha, função e contexto | Parisien 90 Brasil`
-    : `${profile.name} PSG: história, passagem e legado | Parisien 90 Brasil`;
+    : profile.id === "ronaldinho"
+      ? "Ronaldinho no PSG: história, passagem e legado em Paris"
+      : `${profile.name} PSG: história, passagem e legado | Parisien 90 Brasil`;
   const description = isCurrent
     ? `${profile.name} no PSG em português: ficha do jogador, função, status, pontos de atenção e fontes públicas.`
-    : `${profile.name} no PSG em português: período em Paris, papel, legado, situação pública e leitura editorial.`;
+    : profile.id === "ronaldinho"
+      ? "Ronaldinho no PSG de 2001 a 2003: trajetória em Paris, jogos marcantes, estilo, saída e legado antes da consagração mundial."
+      : `${profile.name} no PSG em português: período em Paris, papel, legado, situação pública e leitura editorial.`;
   const profileImage = profile.image ? assetUrl(profile.image.url) : heroImage;
   const tags = [
     detail.kicker,
@@ -2821,8 +2850,8 @@ const makeBrazilPages = (allTimePlayerIndex) => {
   const pages = [
     {
       path: "/br/",
-      title: "PSG Brasil: notícias, mercado, jogos e brasileiros | Parisien 90",
-      description: "Notícias do PSG em português do Brasil: mercado, calendário de jogos, jogadores, brasileiros no clube, história e análises originais.",
+      title: "Notícias do PSG hoje: jogos, mercado e brasileiros | Parisien 90",
+      description: "Notícias do PSG hoje em português: próximo jogo, mercado da bola, contratações, elenco, brasileiros no clube e análises do Paris Saint-Germain.",
       active: "home",
       frPath: "/",
       jsonLd: homeJsonLd,
@@ -2869,6 +2898,16 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         </div>
       </section>
       <section class="content-section">
+        <span class="section-kicker">Respostas rápidas</span>
+        <h2>O que o torcedor brasileiro quer saber sobre o PSG hoje?</h2>
+        <div class="faq-list">
+          <details open><summary>Qual é o próximo jogo do PSG?</summary><p>O próximo compromisso confirmado aparece no <a href="/br/calendario-psg/">calendário do PSG</a>, com data, horário de Paris, competição, estádio e status da programação.</p></details>
+          <details><summary>Quais são as últimas notícias do PSG hoje?</summary><p>A página de <a href="/br/noticias-psg/">notícias do PSG</a> reúne textos completos em português do Brasil, com data, hora, fonte e contexto.</p></details>
+          <details><summary>Quem o PSG vai contratar?</summary><p>O <a href="/br/mercado-psg/">mercado da bola do PSG</a> separa contratação oficial, negociação reportada, rumor e análise de necessidade do elenco.</p></details>
+          <details><summary>Quais brasileiros jogaram no PSG?</summary><p>A página <a href="/br/brasileiros-no-psg/">Brasileiros no PSG</a> reúne Raí, Ronaldinho, Neymar, Thiago Silva, Marquinhos e dezenas de outros nomes ligados a Paris.</p></details>
+        </div>
+      </section>
+      <section class="content-section">
         <div class="section-heading"><div><span class="section-kicker">Novo dossiê</span><h2>Brasil e PSG, uma história que prende</h2></div><a class="primary-action compact-action" href="${escapeHTML(brDossierPath)}">Ler</a></div>
         <div class="hot-grid">${brDossierCard}</div>
       </section>
@@ -2883,8 +2922,8 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     },
     {
       path: "/br/calendario-psg/",
-      title: "Calendário PSG 2026-2027: jogos, Champions e Copa da França | Parisien 90 Brasil",
-      description: "Calendário do PSG em português do Brasil: jogos 2026-2027, Ligue 1, Liga dos Campeões, amistosos, Supercopa, Copa da França, horários e fontes oficiais.",
+      title: "Próximo jogo do PSG: calendário 2026-2027 e horários",
+      description: "Veja o próximo jogo do PSG e o calendário 2026-2027: datas, horários, resultados, Ligue 1, Champions League, Copa da França e amistosos.",
       active: "calendario",
       frPath: "/calendrier-psg/",
       jsonLd: brCalendarJsonLd,
@@ -2939,20 +2978,20 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     },
     {
       path: "/br/mercado-psg/",
-      title: "Mercado PSG em português: rumores e bastidores | Parisien 90 Brasil",
-      description: "Mercado do PSG para leitores brasileiros: rumores, bastidores, confiabilidade das fontes e análise do elenco parisiense.",
+      title: "Mercado da bola PSG: contratações, saídas e rumores",
+      description: "Mercado da bola do PSG: últimas contratações, saídas, negociações e rumores, com fontes, nível de confiança e impacto no elenco parisiense.",
       active: "mercado",
       frPath: "/mercato-psg/",
       jsonLd: { ...homeJsonLd, name: "Mercado PSG Brasil", url: `${siteUrl}/br/mercado-psg/` },
-      body: `<section class="page-hero"><span class="section-kicker">Mercado PSG</span><h1>Mercado PSG: rumor só vale quando tem contexto</h1><p>Paris é gigante, então todo agente quer colocar um nome perto do PSG. A versão Brasil vai direto ao ponto: quem disse, o que existe, o que falta e por que isso importa.</p></section>
+      body: `<section class="page-hero"><span class="section-kicker">Mercado da bola PSG</span><h1>Mercado da bola PSG: contratações, saídas e rumores</h1><p>Paris é gigante, então todo agente quer colocar um nome perto do PSG. A versão Brasil vai direto ao ponto: quem disse, o que existe, o que falta e por que isso importa.</p></section>
       <section class="content-section"><h2>O radar do torcedor brasileiro</h2><p>O mercado do PSG interessa no Brasil porque mistura craques mundiais, brasileiros históricos, dinheiro, Liga dos Campeões e decisões que mudam a hierarquia do elenco. O leitor não precisa de barulho: precisa saber se a informação é oficial, forte, frágil ou apenas debate.</p><div class="method-list"><article><strong>Oficial</strong><p>Comunicado de clube, liga, federação ou competição.</p></article><article><strong>Forte</strong><p>Informação atribuída, recortada e ainda dependente de assinatura ou exame médico.</p></article><article><strong>Debate</strong><p>Leitura editorial sobre impacto técnico, sem vender hipótese como fato.</p></article></div></section>
-      <section class="content-section"><span class="section-kicker">Leitura de mercado</span><h2>Mercado e transferências PSG: nomes, funções e noites grandes</h2><p>O PSG não entra no mercado apenas para empilhar estrelas. Cada movimento precisa responder a uma pergunta de campo: falta profundidade na defesa? O meio tem intensidade suficiente? O ataque tem finalização, drible e disciplina? E, acima de tudo, o elenco aguenta a sequência de Liga dos Campeões?</p><p>Para acompanhar sem se perder, abra também <a href="/br/calendario-psg/">Calendário PSG</a>, <a href="/br/noticias-psg/">Notícias PSG</a>, <a href="/br/jogadores-psg/">Jogadores do PSG</a>, <a href="/br/antigos-jogadores-psg/neymar/">Neymar PSG</a> e <a href="/br/antigos-jogadores-psg/lionel-messi/">Messi PSG</a>. As fichas ajudam a comparar o presente com os grandes ciclos do clube.</p><div class="faq-list"><details open><summary>Como saber se uma notícia de mercado do PSG é confiável?</summary><p>Ela deve ter fonte identificada, data, contexto e distância clara entre fato confirmado e hipótese. Parisien 90 Brasil sempre aponta essa diferença.</p></details><details><summary>O hub inclui mercado e transferências do PSG?</summary><p>Sim. A página reúne rumores, necessidades, saídas, entradas, negociações e movimentos confirmados em um único percurso.</p></details><details><summary>Por que o mercado do PSG importa para o Brasil?</summary><p>Porque muitos brasileiros marcaram Paris e porque o clube continua sendo um palco mundial para jogadores, técnicos, agentes e torcedores brasileiros.</p></details></div></section>
+      <section class="content-section"><span class="section-kicker">Leitura de mercado</span><h2>Últimas contratações do PSG: nomes, funções e noites grandes</h2><p>O PSG não entra no mercado apenas para empilhar estrelas. Cada movimento precisa responder a uma pergunta de campo: falta profundidade na defesa? O meio tem intensidade suficiente? O ataque tem finalização, drible e disciplina? E, acima de tudo, o elenco aguenta a sequência de Liga dos Campeões?</p><p>Para acompanhar sem se perder, abra também <a href="/br/calendario-psg/">Calendário PSG</a>, <a href="/br/noticias-psg/">Notícias PSG</a>, <a href="/br/jogadores-psg/">Jogadores do PSG</a>, <a href="/br/antigos-jogadores-psg/neymar/">Neymar PSG</a> e <a href="/br/antigos-jogadores-psg/lionel-messi/">Messi PSG</a>. As fichas ajudam a comparar o presente com os grandes ciclos do clube.</p><div class="faq-list"><details open><summary>Quais são as últimas contratações do PSG?</summary><p>Os movimentos confirmados aparecem com fonte oficial; negociações e rumores ficam identificados separadamente para não transformar possibilidade em contratação.</p></details><details><summary>Quem pode sair do PSG?</summary><p>Saídas, empréstimos e interesses reportados entram no acompanhamento somente com fonte identificada e indicação clara do estágio da informação.</p></details><details><summary>Como saber se uma notícia de mercado do PSG é confiável?</summary><p>Ela deve ter fonte identificada, data, contexto e distância clara entre fato confirmado e hipótese. Parisien 90 Brasil sempre aponta essa diferença.</p></details><details><summary>O hub inclui mercado e transferências do PSG?</summary><p>Sim. A página reúne rumores, necessidades, saídas, entradas, negociações e movimentos confirmados em um único percurso.</p></details></div></section>
       <section class="content-section"><div class="section-heading"><div><span class="section-kicker">Agora</span><h2>Notícias de mercado</h2></div></div><div class="hot-grid">${newsCards}</div></section>`
     },
     {
       path: "/br/jogadores-psg/",
-      title: "Jogadores do PSG: elenco, craques e brasileiros | Parisien 90 Brasil",
-      description: "Elenco do PSG em português do Brasil: jogadores atuais, funções, brasileiros, jovens e nomes decisivos do time de Luis Enrique.",
+      title: "Elenco do PSG 2026-2027: jogadores, números e brasileiros",
+      description: "Elenco do PSG 2026-2027: lista de jogadores, números, posições, brasileiros, jovens e fichas atualizadas do time de Luis Enrique.",
       active: "jogadores",
       frPath: "/joueurs-psg/",
       jsonLd: { ...homeJsonLd, name: "Jogadores do PSG", url: `${siteUrl}/br/jogadores-psg/` },
@@ -2962,8 +3001,8 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     },
     {
       path: "/br/historia-psg/",
-      title: "História do PSG: títulos, ídolos e eras do clube | Parisien 90 Brasil",
-      description: "História do Paris Saint-Germain em português: nascimento do clube, grandes eras, ídolos, títulos, brasileiros e noites europeias.",
+      title: "História do PSG: títulos, ídolos, brasileiros e grandes eras",
+      description: "Conheça a história do PSG: fundação, títulos, Champions League, grandes eras e ídolos como Raí, Ronaldinho, Neymar, Messi e Mbappé.",
       active: "historia",
       frPath: "/histoire-psg/",
       jsonLd: { ...homeJsonLd, name: "História do PSG", url: `${siteUrl}/br/historia-psg/` },
@@ -3215,7 +3254,7 @@ aiIndex.brazilNews = getBrLatestStories().map((story) => ({
   dateTime: itemDateTimeISO(story.item),
   url: brItemUrl(story.item),
   frenchUrl: itemUrl(story.item),
-  source: story.item.source,
+  source: brSourceLabel(story.item.source),
   sourceUrl: sourceUrl(story.item),
   reliability: brReliabilityLabel(story.item.reliability)
 }));
@@ -3314,8 +3353,8 @@ await mkdir(brPublicDir, { recursive: true });
 const brPriorityPages = [
   {
     url: `${siteUrl}/br/`,
-    title: "PSG Brasil: notícias, mercado, jogos e brasileiros",
-    description: "Portal em português do Brasil sobre o Paris Saint-Germain."
+    title: "Notícias do PSG hoje: jogos, mercado e brasileiros",
+    description: "Notícias do PSG hoje, próximo jogo, mercado da bola, elenco e brasileiros em Paris."
   },
   {
     url: `${siteUrl}/br/noticias-psg/`,
@@ -3324,18 +3363,18 @@ const brPriorityPages = [
   },
   {
     url: `${siteUrl}/br/mercado-psg/`,
-    title: "Mercado PSG: rumores, chegadas e saídas",
-    description: "Mercado e transferências do PSG com diferença clara entre oficial, informação e análise."
+    title: "Mercado da bola PSG: contratações, saídas e rumores",
+    description: "Contratações, saídas, negociações e rumores do PSG com fonte e nível de confiança."
   },
   {
     url: `${siteUrl}/br/calendario-psg/`,
-    title: "Calendário PSG 2026-2027 e próximo jogo",
-    description: "Jogos do PSG na Ligue 1, Liga dos Campeões, Copa da França e amistosos."
+    title: "Próximo jogo do PSG e calendário 2026-2027",
+    description: "Datas, horários e resultados do PSG na Ligue 1, Champions League, Copa da França e amistosos."
   },
   {
     url: `${siteUrl}/br/jogadores-psg/`,
-    title: "Jogadores do PSG: elenco e fichas",
-    description: "Elenco atual, funções, brasileiros e perfis individuais."
+    title: "Elenco do PSG 2026-2027: jogadores e brasileiros",
+    description: "Lista de jogadores, números, posições, brasileiros e fichas individuais do PSG."
   },
   {
     url: `${siteUrl}/br/brasileiros-no-psg/`,
