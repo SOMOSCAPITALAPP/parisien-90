@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-05T06:30:00+02:00",
-    "freshnessNote": "Fil PSG du 5 octobre 2026. Fil public : 142 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 48 articles de fond sous /dossiers-psg/. À suivre : Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ? ; Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG ; Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ? ; Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier ; Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-06T06:30:00+02:00",
+    "freshnessNote": "Fil PSG du 6 octobre 2026. Fil public : 145 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 51 articles de fond sous /dossiers-psg/. À suivre : Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City ; Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre ; Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier ; Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ? ; Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
+      "category": "Entraîneurs",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+      "reliability": "Programme officiel, analyse"
+    },
+    {
+      "title": "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre",
+      "category": "Joueurs",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/news/effectif-psg-24-joueurs-retour-selections-octobre-2026/",
+      "source": "Parisien 90 — dossier sourcé",
+      "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+      "reliability": "Effectif officiel, analyse"
+    },
+    {
+      "title": "Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier",
+      "category": "Mercato",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/news/mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
+      "reliability": "Analyse, aucune négociation affirmée"
+    },
     {
       "title": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
       "category": "Rumeurs",
@@ -443,33 +470,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/luis-enrique-toujours-beaucoup-de-motivation-avant-un-classique-psg-conference-de-presse-classique-om-paris-saint-germain-marseille-ligue-1-2026-2027",
       "reliability": "Officiel — conférence"
-    },
-    {
-      "title": "Ornella Graziani part grandir à la Juventus : le PSG officialise son prêt",
-      "category": "Féminines",
-      "dateTime": "2026-09-17T20:17:00+02:00",
-      "url": "https://parisien90.com/news/ornella-graziani-pret-juventus-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/ornella-graziani-rejoint-la-juventus-en-pret-paris-saint-germain-feminin-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Dro Fernández appelé avec l'Espagne U19 : Marbella avant le retour au PSG",
-      "category": "Sélections",
-      "dateTime": "2026-09-17T16:00:00+02:00",
-      "url": "https://parisien90.com/news/dro-fernandez-espagne-u19-convocation-marbella-septembre-2026/",
-      "source": "RFEF",
-      "sourceUrl": "https://rfef.es/es/noticias/paco-gallardo-da-una-lista-de-26-jugadores-para-los-entrenamientos-de-marbella",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Hakimi convoqué par le Maroc, mais suspendu pour le premier match",
-      "category": "Sélections",
-      "dateTime": "2026-09-17T14:22:00+02:00",
-      "url": "https://parisien90.com/news/achraf-hakimi-maroc-convocation-gabon-lesotho-ghana-septembre-2026/",
-      "source": "Fédération royale marocaine de football / PSG.fr",
-      "sourceUrl": "https://frmf.ma/fr/articles/m-mohamed-ouahbi-annonce-une-liste-de-29-joueurs-en-prevision-des-matchs-face-au-gabon-au-lesotho-et-au-ghana",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -1934,6 +1934,102 @@
   },
   "editorialArticles": [
     {
+      "title": "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
+      "category": "Entraîneurs PSG",
+      "angle": "La méthode de Luis Enrique pour relancer le PSG après la trêve",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
+      "summary": "Trois entraînements à huis clos, une conférence vendredi puis deux matches en quatre jours : la reprise parisienne sera d'abord un exercice de gestion et de clarté.",
+      "keywords": [
+        "Luis Enrique PSG",
+        "PSG Le Mans",
+        "Manchester City PSG",
+        "entraîneur PSG",
+        "calendrier PSG octobre 2026"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Horaires des entraînements, de la conférence et du match."
+        },
+        {
+          "name": "PSG.fr - Paris-Le Mans le 10 octobre",
+          "url": "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027",
+          "note": "Date, heure et contexte officiel de la 6e journée."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Programmation de Manchester City-PSG."
+        }
+      ]
+    },
+    {
+      "title": "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre",
+      "category": "Joueurs PSG",
+      "angle": "Cartographie de l'effectif parisien et des rôles à clarifier",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/effectif-psg-24-joueurs-retour-selections-octobre-2026/",
+      "summary": "La profondeur parisienne existe sur le papier. Le mois d'octobre dira si chaque ligne possède des réponses compatibles avec le jeu de Luis Enrique.",
+      "keywords": [
+        "effectif PSG",
+        "joueurs PSG 2026 2027",
+        "composition PSG",
+        "Dembélé PSG",
+        "Marquinhos PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle des joueurs utilisée pour la cartographie."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
+          "note": "Ordre des rencontres d'octobre."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates de Manchester City et Barcelone."
+        }
+      ]
+    },
+    {
+      "title": "Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier",
+      "category": "Mercato PSG",
+      "angle": "Audit fonctionnel de l'effectif avant le marché d'hiver",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027/",
+      "summary": "Octobre ne décidera pas seul du mercato d'hiver, mais il peut révéler les fonctions rares, la profondeur réelle et la capacité des jeunes à répondre.",
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG",
+        "mercato PSG janvier 2027",
+        "rumeur PSG",
+        "effectif PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
+          "note": "Séquence officielle des matches d'octobre."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Composition officielle de l'effectif analysé."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates de City et Barcelone."
+        }
+      ]
+    },
+    {
       "title": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
       "category": "Rumeurs PSG",
       "angle": "Vérification d'un signal mercato après une alerte médicale",
@@ -2506,120 +2602,19 @@
           "note": "Postes et présence officielle des joueurs dans le groupe parisien."
         }
       ]
-    },
-    {
-      "title": "Mercato PSG : après un été de grands mouvements, la nouvelle hiérarchie offensive se dessine",
-      "category": "Mercato PSG",
-      "angle": "Impact des transferts sur l'effectif",
-      "dateTime": "2026-09-30T12:20:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-hierarchie-offensive-apres-ete-2026/",
-      "summary": "Akliouche, Ferran Torres et Mika Godts ont rejoint un secteur où Dembélé et Doué restent centraux. L'enjeu n'est plus d'empiler les noms, mais de couvrir toutes les fonctions sans déséquilibrer le collectif.",
-      "keywords": [
-        "mercato PSG",
-        "transfert PSG 2026",
-        "attaque PSG",
-        "recrues PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "CulturePSG - tableau du mercato été 2026",
-          "url": "https://www.culturepsg.com/fr/news/mercato/le-tableau-mercato-du-psg-ete-2026/59647",
-          "note": "Récapitulatif des arrivées, départs et estimations de marché."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Composition officielle de l'effectif 2026-2027."
-        },
-        {
-          "name": "CulturePSG - progression demandée à Mika Godts",
-          "url": "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731",
-          "note": "Éléments sur son intégration sportive et les attentes du staff."
-        },
-        {
-          "name": "UEFA - calendrier de Ligue des champions",
-          "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/",
-          "note": "Calendrier officiel des prochains rendez-vous européens du PSG."
-        }
-      ]
-    },
-    {
-      "title": "Fabián Ruiz recruté par le PSG pour contrarier le Real Madrid ? Ce que vaut vraiment cette histoire",
-      "category": "Rumeurs PSG",
-      "angle": "Décryptage et niveau de fiabilité",
-      "dateTime": "2026-09-29T07:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/fabian-ruiz-psg-real-madrid-rumeur-transfert-decryptee/",
-      "summary": "Le récit est spectaculaire, mais il repose sur une interprétation extérieure aux négociations. Quatre ans après le transfert, la trajectoire sportive de Fabián Ruiz apporte une réponse plus solide que la théorie de la vengeance.",
-      "keywords": [
-        "Fabián Ruiz PSG",
-        "rumeur PSG",
-        "Real Madrid PSG",
-        "transfert Fabián Ruiz",
-        "mercato PSG"
-      ],
-      "sources": [
-        {
-          "name": "CulturePSG - le récit de Faouzi Ghoulam",
-          "url": "https://www.culturepsg.com/en/news/mercato/un-cadre-du-psg-recrute-pour-embeter-le-real/60948",
-          "note": "Témoignage, contexte et rappel du temps de jeu de Fabián Ruiz."
-        },
-        {
-          "name": "PSG.fr - le choix de la continuité",
-          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027",
-          "note": "Parcours et statut officiels de Fabián Ruiz dans le projet parisien."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Présence et poste officiels du joueur dans l'effectif 2026-2027."
-        }
-      ]
-    },
-    {
-      "title": "Neymar en 2026 : ce que sa vie à Santos change dans le regard porté sur ses années PSG",
-      "category": "Anciens joueurs PSG",
-      "angle": "Que devient Neymar et quel héritage à Paris ?",
-      "dateTime": "2026-09-29T07:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/neymar-psg-santos-2026-heritage-chiffres/",
-      "summary": "Son retour au Brésil, ses blessures et la fin de sa carrière internationale invitent à relire ses six saisons parisiennes sans caricature : une production immense, des sommets européens et une frustration durable.",
-      "keywords": [
-        "Neymar PSG",
-        "Neymar Santos 2026",
-        "Neymar Paris",
-        "anciens joueurs PSG",
-        "buts Neymar PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - hommage officiel à Neymar",
-          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
-          "note": "Bilan officiel de ses six saisons, matches, buts et titres."
-        },
-        {
-          "name": "Santos FC - prolongation de Neymar",
-          "url": "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/",
-          "note": "Contrat et rôle annoncés officiellement par Santos."
-        },
-        {
-          "name": "CBF - fiche 2026 de Neymar",
-          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
-          "note": "Club actuel et bilan national affiché par la fédération brésilienne."
-        },
-        {
-          "name": "CONMEBOL - parcours 2026 de Santos",
-          "url": "https://gol.conmebol.com/sudamericana/en/news/santos-2026-conmebol-sudamericana-results-squad-and-schedule",
-          "note": "Parcours continental et absence sur blessure lors du quart de finale décisif."
-        },
-        {
-          "name": "FIFA - carrière internationale de Neymar",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/stars-retiring-neymar-neuer-ochoa-deschamps",
-          "note": "Fin de carrière internationale après la Coupe du monde 2026."
-        }
-      ]
     }
   ],
   "brazilNews": [
+    {
+      "title": "Luis Enrique diante da semana-armadilha: preparar o Le Mans sem jogar antes contra o Manchester City",
+      "category": "Entraîneurs",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
+      "frenchUrl": "https://parisien90.com/news/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+      "reliability": "Programme oficial, analyse"
+    },
     {
       "title": "Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede",
       "category": "Economia",
@@ -2714,7 +2709,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-05T06:30:00+02:00",
+    "updatedAt": "2026-10-06T06:30:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

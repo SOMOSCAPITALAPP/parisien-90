@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-05T06:30:00+02:00",
+    "lastVerifiedAt": "2026-10-06T06:30:00+02:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -81,6 +81,16 @@
     }
   ],
   "latestNews": [
+    {
+      "title": "Luis Enrique diante da semana-armadilha: preparar o Le Mans sem jogar antes contra o Manchester City",
+      "summary": "Três treinos fechados, coletiva na sexta-feira e dois jogos em quatro dias: o PSG precisa reconstruir seu coletivo depois da Data Fifa sem tratar a Ligue 1 como simples preparação europeia.",
+      "category": "Entraîneurs",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
+      "source": "Parisien 90 — análise com fontes",
+      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+      "reliability": "Programme oficial, analyse"
+    },
     {
       "title": "Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede",
       "summary": "A Brand Finance avalia a marca PSG em 1,5 bilhão de euros, a Forbes estima a empresa em cerca de 5 bilhões e o clube anuncia receita de 837 milhões. Os três indicadores respondem a perguntas diferentes.",
@@ -174,7 +184,7 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-05T06:30:00+02:00",
+    "updatedAt": "2026-10-06T06:30:00+02:00",
     "totalFixtures": 52,
     "nextFixtures": [
       {

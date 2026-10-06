@@ -1413,6 +1413,69 @@ const brSourceLabel = (value) =>
 
 const brStoryTranslations = [
   {
+    id: "luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026",
+    title: "Luis Enrique diante da semana-armadilha: preparar o Le Mans sem jogar antes contra o Manchester City",
+    summary: "Três treinos fechados, coletiva na sexta-feira e dois jogos em quatro dias: o PSG precisa reconstruir seu coletivo depois da Data Fifa sem tratar a Ligue 1 como simples preparação europeia.",
+    sections: [
+      {
+        title: "Uma retomada organizada longe do barulho",
+        paragraphs: [
+          "A programação oficial do Paris Saint-Germain estabelece três treinos fechados nos dias 6, 7 e 8 de outubro. Luis Enrique falará na sexta-feira, 9 de outubro, às 13h, antes de uma atividade com os primeiros quinze minutos abertos à imprensa às 17h. No sábado, dia 10, o PSG receberá o Le Mans às 20h45 no Parc des Princes. O desenho da semana é claro: primeiro trabalhar, depois comunicar e, por fim, voltar à competição diante da torcida.",
+          "Não é necessário transformar cada sessão fechada em um segredo tático. Treinos sem acesso público são comuns no futebol de alto nível. Nesta semana, o ponto principal é reunir um elenco espalhado pelas seleções. Os atletas retornam com diferentes cargas de minutos, viagens, fusos e níveis de recuperação. Antes de escolher a escalação, a comissão precisa avaliar cada jogador, reconstruir relações em campo e entender quem está pronto para começar, entrar durante o jogo ou apenas avançar no processo de recuperação."
+        ]
+      },
+      {
+        title: "Le Mans vale três pontos, não é um treino para a Champions",
+        paragraphs: [
+          "O Manchester City aparece no calendário apenas quatro dias depois do Le Mans. Mesmo assim, os pontos da Ligue 1 não perdem valor porque uma grande noite europeia está próxima. O PSG retorna de uma pausa internacional e precisa recuperar ritmo no Parc diante de um adversário que pode explorar qualquer distração. Luis Enrique terá de alcançar intensidade competitiva sem exigir que todos os titulares atuem como se o jogo de sábado já fosse uma decisão de Liga dos Campeões.",
+          "A melhor preparação para a Inglaterra é uma atuação nacional séria. Paris deve circular a bola com velocidade, pressionar em bloco e proteger as perdas sem deixar o campo aberto. Esses princípios podem ser levados para Manchester, mesmo que o adversário, a pressão e a velocidade sejam diferentes. Se o PSG depender apenas de uma jogada individual para vencer o Le Mans, o placar poderá esconder problemas. O desempenho mostrará se as distâncias coletivas sobreviveram à Data Fifa."
+        ]
+      },
+      {
+        title: "Como montar um time com retornos desiguais",
+        paragraphs: [
+          "Um jogador que volta de uma longa viagem pode estar liberado pelo departamento médico sem ter a condição ideal para iniciar. Outro, que permaneceu no Campus PSG, pode apresentar mais frescor físico, mas menos ritmo de jogo. A gestão não consiste em separar titulares cansados e reservas descansados. Ela precisa combinar diferentes níveis de disponibilidade e preservar uma base capaz de sustentar a equipe: goleiro, defesa central e meio-campo podem garantir continuidade ao redor de peças utilizadas por períodos diferentes.",
+          "Luis Enrique também pode dividir responsabilidades. Um titular pode atuar por uma hora, um jovem pode começar cercado de experiência e um atacante pode entrar quando os espaços aumentarem. Essa flexibilidade não deve virar rotação automática. O placar, a qualidade da pressão e a capacidade de controlar o jogo precisam orientar as substituições. A gestão mais inteligente responde ao que acontece no gramado, em vez de obedecer a um roteiro fechado elaborado vários dias antes."
+        ]
+      },
+      {
+        title: "A primeira escolha será o ritmo da partida",
+        paragraphs: [
+          "Paris terá de decidir se pressiona alto desde o início ou se reconstrói o controle progressivamente por meio da posse. As duas ideias podem coexistir, desde que todos reconheçam os mesmos sinais. Uma corrida isolada do centroavante não forma uma pressão eficiente; ela apenas abre uma linha de passe atrás dele. Quando o ataque sobe junto, apoiado pelos meio-campistas e por uma defesa compacta, o time encurta o campo, recupera mais perto do gol e reduz o desgaste provocado por perseguições longas.",
+          "A posse também precisa ter objetivo. Trocar passes diante de um bloco parado não prepara ninguém para enfrentar o City. O PSG deve atrair um marcador, fixar uma linha e encontrar o jogador entre setores ou liberar o lateral no momento certo. Contra o Le Mans, será possível observar a velocidade das decisões e a ocupação da área. Esses detalhes parecem menos espetaculares do que uma mudança de esquema, mas formam a base do trabalho cotidiano de Luis Enrique."
+        ]
+      },
+      {
+        title: "O City obriga Paris a pensar antes de perder a bola",
+        paragraphs: [
+          "A visita a Manchester em 14 de outubro exigirá uma proteção muito forte das próprias jogadas ofensivas. O City tem qualidade para escapar de uma pressão incompleta e atacar o espaço deixado pelos laterais. Por isso, o PSG precisa organizar a cobertura já contra o Le Mans. Quando um lado avança, o meio-campista oposto e os zagueiros devem estar posicionados para atrasar uma transição. Essa prevenção não reduz a ambição ofensiva; ela permite atacar com mais segurança e repetir movimentos sem medo.",
+          "O erro seria alterar todo o plano de sábado para tentar imitar o jogo da Champions. Le Mans e Manchester City apresentarão contextos diferentes, e nenhum adversário pode ser reproduzido. Luis Enrique pode, porém, cobrar os mesmos hábitos: reação imediata à perda, fechamento do corredor central, comunicação entre lateral e ponta e saída limpa quando houver pressão. O treinador não prepara somente uma escalação para a Europa. Ele prepara respostas coletivas que precisam funcionar contra vários estilos."
+        ]
+      },
+      {
+        title: "A coletiva de sexta dará referências, não a escalação",
+        paragraphs: [
+          "A entrevista de 9 de outubro poderá esclarecer o estado de espírito do elenco e talvez oferecer informações sobre a disponibilidade dos jogadores. Ela não deve ser tratada como exercício de adivinhação. Luis Enrique costuma proteger suas escolhas, e os dados médicos pertencem primeiro ao clube. Uma observação genérica sobre cansaço ou concorrência não confirma presença entre os titulares. As referências definitivas serão a lista de relacionados e, depois, a escalação oficial.",
+          "O discurso ainda será importante para entender a prioridade da semana. O treinador pode lembrar que o Le Mans tem peso completo na tabela, destacar a energia da volta ao Parc ou abordar a recuperação dos atletas convocados. Esses temas ajudam a compreender sua preparação mental. Qualquer declaração precisa ser apresentada com palavras e contexto corretos, sem transformar uma resposta prudente em anúncio de uma decisão que ele não tomou publicamente."
+        ]
+      },
+      {
+        title: "O que observar em campo contra o Le Mans",
+        paragraphs: [
+          "Mais do que procurar pistas sobre o onze de Manchester, vale observar comportamentos. O PSG consegue pressionar com três linhas próximas? Os laterais sobem ao mesmo tempo ou alternam? Quem protege o centro quando Vitinha ou João Neves avança? Quantos jogadores chegam à área quando a bola entra pelo lado? Essas perguntas revelam o funcionamento do time. Uma resposta repetida durante noventa minutos vale mais do que um lance bonito isolado ou uma formação registrada apenas no início.",
+          "Também será necessário analisar a reação às dificuldades. Se o Le Mans escapar da primeira pressão, Paris recompõe ou continua perseguindo individualmente? Se o adversário fechar o centro, o time acelera pelos lados ou cruza sem preparação? Se o gol demora, os jogadores preservam a estrutura ou ocupam todos a mesma zona? A maturidade de um grande clube aparece quando o plano enfrenta resistência e continua produzindo soluções sem virar ansiedade."
+        ]
+      },
+      {
+        title: "A leitura do Parisien 90 Brasil",
+        paragraphs: [
+          "O debate público se concentrará nos jogadores poupados e nos titulares escolhidos. O trabalho de Luis Enrique deve ser avaliado de maneira mais ampla. O PSG precisa vencer o Le Mans, recuperar seus automatismos e chegar a Manchester com energia suficiente para defender sua identidade. Cumprir apenas um desses objetivos deixaria um problema: ganhar sem jogar bem mantém dúvidas; pensar no City e negligenciar a Ligue 1 seria um erro; preservar todos poderia retirar o ritmo necessário para a Champions.",
+          "A semana oferece um teste direto do método parisiense. A comissão possui vários dias no Campus, um elenco numeroso e uma partida em casa antes da viagem à Inglaterra. A questão não é escolher entre Le Mans e City, mas construir continuidade entre os dois compromissos. Se Paris mostrar organização no sábado e conseguir elevar a intensidade na quarta-feira, a retomada terá alcançado o equilíbrio esperado de um clube que disputa todas as competições para vencer."
+        ]
+      }
+    ]
+  },
+  {
     id: "valorisation-psg-marque-entreprise-chiffre-affaires-2026",
     title: "Valor do PSG: 1,5 bilhão, 5 bilhões ou 837 milhões? O que cada número realmente mede",
     summary: "A Brand Finance avalia a marca PSG em 1,5 bilhão de euros, a Forbes estima a empresa em cerca de 5 bilhões e o clube anuncia receita de 837 milhões. Os três indicadores respondem a perguntas diferentes.",

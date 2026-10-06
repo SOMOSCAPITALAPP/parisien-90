@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-05T06:30:00+02:00",
-  edition: "Fil PSG du 5 octobre 2026",
-  displayDate: "5 octobre 2026",
+  updatedAt: "2026-10-06T06:30:00+02:00",
+  edition: "Fil PSG du 6 octobre 2026",
+  displayDate: "6 octobre 2026",
   displayTime: "6h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,11 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-06", "6 octobre 2026", [
+  { id: "luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026", time: "06:30", category: "Entraîneurs", title: "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City", summary: "Trois séances à huis clos, une conférence vendredi puis Le Mans et City en quatre jours : Luis Enrique doit reconstruire le collectif parisien sans sacrifier la Ligue 1 à l'Europe.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026", reliability: "Programme officiel, analyse", viral: 95 },
+  { id: "effectif-psg-24-joueurs-retour-selections-octobre-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre", summary: "La liste officielle réunit 24 joueurs. Gardiens, défense, milieu, attaque et jeunes : notre cartographie analyse les fonctions que la série Le Mans-City-Strasbourg-Barcelone doit clarifier.", source: "Parisien 90 — dossier sourcé", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Effectif officiel, analyse", viral: 92 },
+  { id: "mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027", time: "06:30", category: "Mercato", title: "Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier", summary: "Avant janvier, Paris doit tester la relance, les transitions, la présence dans la surface, la valeur du banc et la disponibilité. Le terrain doit produire un cahier des charges avant toute liste de noms.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023", reliability: "Analyse, aucune négociation affirmée", viral: 94 },
+  ]),
   ...withNewsDate("2026-10-05", "5 octobre 2026", [
   { id: "rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence", time: "06:30", category: "Rumeurs", title: "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?", summary: "La cheville gauche de Ferran est officiellement sous surveillance, mais aucun diagnostic ni délai n'est annoncé. Parisien 90 sépare le fait médical, les conséquences sportives à observer et le scénario mercato qui, à ce stade, n'est pas établi.", source: "Parisien 90 — analyse sourcée", url: "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi", reliability: "Fait officiel, analyse prudente", viral: 94 },
   { id: "neymar-santos-2026-heritage-psg-bilan", time: "06:30", category: "Anciens", title: "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG", summary: "La CBF recense 17 matches et 6 buts de Neymar dans le Brasileirão 2026. Son présent à Santos permet de relire ses 173 matches, 118 buts, 70 passes et 13 trophées au PSG sans oublier les blessures ni l'attente européenne.", source: "Parisien 90 — dossier sourcé", url: "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791", reliability: "Sources officielles CBF, Santos et PSG", viral: 96 },

@@ -1,12 +1,205 @@
 export const editorialArticlesMeta = {
-  updatedAt: "2026-10-05T06:30:00+02:00",
-  displayDate: "5 octobre 2026",
+  updatedAt: "2026-10-06T06:30:00+02:00",
+  displayDate: "6 octobre 2026",
   displayTime: "6h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  {
+    id: "luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026",
+    title: "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
+    description: "Le PSG reprend contre Le Mans le 10 octobre avant de défier Manchester City quatre jours plus tard. Luis Enrique doit reconstruire un collectif sans sacrifier la Ligue 1 à l'Europe.",
+    deck: "Trois entraînements à huis clos, une conférence vendredi puis deux matches en quatre jours : la reprise parisienne sera d'abord un exercice de gestion et de clarté.",
+    category: "Entraîneurs PSG",
+    angle: "La méthode de Luis Enrique pour relancer le PSG après la trêve",
+    date: "2026-10-06",
+    dateLabel: "6 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Luis Enrique prépare la reprise du PSG entre Le Mans et Manchester City",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["Luis Enrique PSG", "PSG Le Mans", "Manchester City PSG", "entraîneur PSG", "calendrier PSG octobre 2026"],
+    sections: [
+      { heading: "Une reprise organisée loin du bruit", paragraphs: [
+        "Le programme officiel du Paris Saint-Germain fixe trois séances à huis clos les 6, 7 et 8 octobre. Luis Enrique prendra ensuite la parole vendredi 9 octobre à 13 heures, avant une séance dont les quinze premières minutes seront ouvertes aux médias à 17 heures. Le samedi 10, Paris recevra Le Mans à 20h45 au Parc des Princes. Ce découpage donne une première indication : le staff veut travailler avant de commenter, puis présenter un groupe préparé au retour de la compétition.",
+        "Il faut résister à la tentation d'interpréter chaque porte fermée comme un secret tactique. Les entraînements sans public sont ordinaires au plus haut niveau. Leur intérêt, cette semaine, tient surtout au temps disponible pour réassembler un groupe dispersé par les sélections. Les joueurs ne reviennent ni avec la même fatigue, ni avec les mêmes voyages, ni avec le même nombre de minutes. Le premier travail de l'entraîneur consiste donc à établir un état précis de chacun avant de dessiner son onze."
+      ] },
+      { heading: "Le Mans n'est pas une répétition sans enjeu", paragraphs: [
+        "Le calendrier place Manchester City quatre jours après Le Mans, mais les trois points de Ligue 1 ne valent pas moins parce qu'une affiche européenne approche. Le PSG sort d'une coupure internationale et doit retrouver son rythme au Parc face à un adversaire capable de profiter d'une équipe distraite. Luis Enrique devra installer une intensité suffisante sans demander à tous ses cadres de jouer comme s'il s'agissait déjà d'une soirée de Ligue des champions.",
+        "La meilleure préparation européenne reste une rencontre nationale maîtrisée dans son intention. Paris doit faire circuler vite, presser ensemble et défendre les pertes de balle sans laisser le match s'étirer. Si ces principes apparaissent contre Le Mans, ils seront transportables à Manchester. Si le PSG se contente d'attendre un exploit individuel, le résultat pourra masquer un problème. Le contenu compte donc autant que la composition, car il dira si le collectif a retrouvé ses distances après la trêve."
+      ] },
+      { heading: "Reconstruire une équipe avec des retours inégaux", paragraphs: [
+        "Un international revenu d'un long déplacement peut être apte sans être prêt à démarrer. Un joueur resté au Campus peut avoir davantage travaillé physiquement, mais manquer de rythme compétitif. La gestion ne se réduit pas à opposer titulaires et remplaçants. Elle consiste à combiner des niveaux de fraîcheur différents tout en conservant une colonne vertébrale. Le gardien, l'axe défensif et le milieu de contrôle peuvent offrir cette continuité autour de joueurs utilisés sur des durées variables.",
+        "Luis Enrique possède aussi la possibilité de répartir les responsabilités. Un cadre peut commencer puis sortir après une heure ; un jeune peut démarrer entouré de joueurs expérimentés ; un attaquant peut entrer quand les espaces s'ouvrent. Cette flexibilité ne doit toutefois pas devenir une rotation automatique. Le score, le comportement du bloc et la qualité du pressing doivent guider les changements. La gestion la plus intelligente reste celle qui répond au match réellement joué, pas à un scénario écrit plusieurs jours plus tôt."
+      ] },
+      { heading: "Le premier choix sera celui du rythme", paragraphs: [
+        "Paris devra décider s'il veut imposer immédiatement une pression haute ou reconstruire progressivement sa maîtrise par la possession. Les deux options peuvent coexister, à condition que les joueurs partagent les mêmes déclencheurs. Une course isolée de l'avant-centre ne crée pas un pressing ; elle ouvre une passe derrière lui. Une montée coordonnée de la ligne offensive, soutenue par les milieux et une défense compacte, peut au contraire enfermer Le Mans et raccourcir les séquences défensives.",
+        "La possession devra également avoir une intention. Multiplier les passes devant un bloc installé ne suffit pas à préparer City. Il faut attirer, fixer puis trouver un joueur entre les lignes ou lancer un latéral dans le bon tempo. Le Mans permettra de vérifier la vitesse de décision et l'occupation de la surface. Ces détails sont moins spectaculaires qu'un changement de système, mais ils constituent la matière quotidienne du travail de Luis Enrique et la base d'une équipe capable de dominer plusieurs types d'adversaires."
+      ] },
+      { heading: "Manchester City impose de penser à la perte de balle", paragraphs: [
+        "Le déplacement du 14 octobre exigera une protection exceptionnelle des attaques parisiennes. City possède les qualités techniques pour traverser un pressing incomplet et exploiter l'espace laissé par des latéraux très hauts. Dès samedi, Paris devra donc soigner son équilibre derrière le ballon. Lorsqu'un côté attaque, le milieu opposé et les défenseurs doivent déjà se placer pour ralentir une transition. Cette vigilance ne retire rien à l'ambition offensive ; elle lui donne une assurance.",
+        "Le piège serait de modifier tout le plan contre Le Mans pour simuler City. Les contextes seront différents et aucun adversaire ne se copie. Luis Enrique peut en revanche exiger les mêmes habitudes : réaction immédiate à la perte, fermeture de l'axe, communication entre le latéral et son ailier, sortie propre sous pression. L'entraîneur ne prépare pas seulement une composition européenne. Il prépare des réponses collectives qui doivent rester valables quel que soit le nom inscrit sur le maillot adverse."
+      ] },
+      { heading: "La conférence de vendredi donnera des repères, pas le onze", paragraphs: [
+        "La prise de parole du 9 octobre permettra de connaître l'état d'esprit du groupe et, peut-être, d'obtenir des indications sur les disponibilités. Elle ne doit pas être transformée en séance de divination. Luis Enrique protège régulièrement ses choix et les informations médicales appartiennent d'abord au club. Une phrase sur la fatigue ou la concurrence ne vaut pas confirmation d'une titularisation. Les seuls repères définitifs seront le groupe convoqué puis la feuille de match.",
+        "Le discours sera néanmoins utile pour comprendre la priorité donnée à la semaine. L'entraîneur peut rappeler que Le Mans compte autant dans le classement que n'importe quelle journée, insister sur l'énergie du retour au Parc ou évoquer la nécessité de récupérer les internationaux. Ces thèmes préciseront son cadre mental. Ils devront être rapportés avec leurs mots exacts et leur contexte, sans leur faire annoncer une décision que le technicien n'aurait pas formulée."
+      ] },
+      { heading: "Notre lecture : la semaine jugera la méthode avant les noms", paragraphs: [
+        "Le débat public se concentrera sur les titulaires ménagés et ceux qui enchaîneront. La réussite de Luis Enrique se mesurera plus largement. Son PSG doit battre Le Mans, retrouver des automatismes et arriver à Manchester avec assez de fraîcheur pour défendre son identité. Obtenir seulement l'un de ces trois résultats créerait un déséquilibre : gagner sans convaincre laisserait des doutes, préparer City en négligeant le championnat serait une faute, tout miser sur la fraîcheur pourrait casser le rythme.",
+        "Cette semaine-piège offre donc un test très lisible de la méthode parisienne. Le staff dispose de plusieurs jours au Campus, d'un effectif officiellement riche et d'un premier match à domicile avant le voyage en Angleterre. Il ne s'agit pas de choisir entre Le Mans et City, mais de construire une continuité entre les deux. Si Paris paraît organisé samedi puis capable d'élever son intensité mercredi, la reprise aura produit exactement ce qu'attend un grand club."
+      ] }
+    ],
+    faq: [
+      { question: "Quand Luis Enrique parlera-t-il avant PSG-Le Mans ?", answer: "Le programme média officiel annonce sa conférence de presse le vendredi 9 octobre 2026 à 13 heures." },
+      { question: "Quand auront lieu PSG-Le Mans et Manchester City-PSG ?", answer: "PSG-Le Mans est programmé le 10 octobre à 20h45, puis Manchester City-PSG le 14 octobre à 21 heures." },
+      { question: "Le PSG doit-il faire tourner contre Le Mans ?", answer: "La rotation dépendra des retours de sélection et des disponibilités. L'analyse recommande une équipe équilibrée, sans présenter un onze comme confirmé." }
+    ],
+    sources: [
+      { name: "PSG.fr - programme média du 5 au 11 octobre", url: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026", note: "Horaires des entraînements, de la conférence et du match." },
+      { name: "PSG.fr - Paris-Le Mans le 10 octobre", url: "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027", note: "Date, heure et contexte officiel de la 6e journée." },
+      { name: "PSG.fr - calendrier européen", url: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027", note: "Programmation de Manchester City-PSG." }
+    ],
+    internalLinks: [
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Effectif et joueurs du PSG", url: "/joueurs-psg/" },
+      { label: "Actualités PSG", url: "/actualites-psg/" },
+      { label: "Dossiers PSG", url: "/dossiers-psg/" }
+    ]
+  },
+  {
+    id: "effectif-psg-24-joueurs-retour-selections-octobre-2026",
+    title: "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre",
+    description: "L'effectif officiel du PSG réunit 24 joueurs avant une série dense contre Le Mans, Manchester City, Strasbourg et Barcelone. Analyse des rôles et des équilibres.",
+    deck: "La profondeur parisienne existe sur le papier. Le mois d'octobre dira si chaque ligne possède des réponses compatibles avec le jeu de Luis Enrique.",
+    category: "Joueurs PSG",
+    angle: "Cartographie de l'effectif parisien et des rôles à clarifier",
+    date: "2026-10-06",
+    dateLabel: "6 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "L'effectif du PSG prépare la série de matches d'octobre 2026",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["effectif PSG", "joueurs PSG 2026 2027", "composition PSG", "Dembélé PSG", "Marquinhos PSG"],
+    sections: [
+      { heading: "Vingt-quatre noms, mais surtout des fonctions", paragraphs: [
+        "La page officielle de l'effectif 2026-2027 réunit vingt-quatre joueurs : Lucas Chevalier, Matvey Safonov et Renato Marin dans les buts ; Achraf Hakimi, Lucas Beraldo, Marquinhos, Illia Zabarnyi, Lucas Hernandez, Nuno Mendes et Willian Pacho en défense ; puis un ensemble de milieux et d'attaquants comprenant notamment Vitinha, João Neves, Fabián Ruiz, Warren Zaïre-Emery, Ousmane Dembélé, Désiré Doué, Khvicha Kvaratskhelia, Bradley Barcola et Gonçalo Ramos.",
+        "Une liste ne constitue pourtant pas une équipe. La vraie profondeur se mesure à la capacité de remplacer une fonction sans déformer tout le collectif. Un latéral offensif, un défenseur de couverture, un milieu sous pression et un attaquant de surface n'apportent pas la même chose. Octobre doit permettre à Luis Enrique de préciser qui contrôle, qui accélère, qui protège et qui termine, plutôt que de distribuer des étiquettes figées de titulaires et remplaçants."
+      ] },
+      { heading: "Deux gardiens et une construction qui commence très bas", paragraphs: [
+        "Lucas Chevalier et Matvey Safonov donnent au staff deux options expérimentées, tandis que Renato Marin complète le groupe. Dans le jeu parisien, le gardien n'est pas seulement évalué sur les arrêts. Il doit offrir une passe supplémentaire, attirer la première pression et choisir quand jouer court ou allonger. Cette responsabilité augmente face à Manchester City, qui cherchera à enfermer la relance et à récupérer près de la surface.",
+        "La hiérarchie peut être claire sans supprimer la concurrence. Le titulaire a besoin de continuité pour automatiser ses relations avec les défenseurs ; le second doit conserver du rythme et une compréhension complète du plan. Le match contre Le Mans peut fournir un contexte de décision, mais il ne faut pas annoncer une rotation sans source. L'essentiel sera d'observer si la première passe parisienne crée un avantage ou transmet simplement la pression au partenaire suivant."
+      ] },
+      { heading: "Une défense riche, avec des profils très différents", paragraphs: [
+        "Marquinhos apporte la lecture et la communication, Pacho la puissance dans les duels, Zabarnyi la défense vers l'avant, Beraldo une qualité de passe du pied gauche et Lucas Hernandez une agressivité capable d'exister dans l'axe comme sur le côté. Cette diversité offre plusieurs associations. Elle oblige aussi à stabiliser des repères : hauteur de ligne, couverture du latéral, défense de la profondeur et responsabilité sur les sorties de balle.",
+        "Hakimi et Nuno Mendes changent la géométrie de l'équipe par leur vitesse et leurs courses. Quand ils montent ensemble, Paris gagne deux menaces mais doit conserver au moins trois joueurs en sécurité derrière l'action. Lorsqu'un seul avance, le côté opposé peut former une base plus prudente. La série City-Barcelone révélera la capacité du PSG à choisir le bon équilibre sans renoncer à ce qui rend ses latéraux si dangereux."
+      ] },
+      { heading: "Le milieu doit combiner contrôle et percussion", paragraphs: [
+        "Vitinha, João Neves et Fabián Ruiz savent conserver le ballon sous pression et orienter le jeu, mais leurs qualités ne se superposent pas. Warren Zaïre-Emery ajoute des courses, de la puissance et une capacité à défendre de grands espaces. Senny Mayulu et Dro Fernández représentent des options plus jeunes, dont la progression dépend de rôles précis. Une entrée de dix minutes sans mission claire apprend moins qu'une titularisation préparée dans une structure stable.",
+        "La question centrale concerne l'équilibre entre contrôle et attaque de la surface. Trois milieux très organisateurs peuvent sécuriser la possession mais laisser les attaquants isolés. Ajouter un joueur qui se projette augmente la menace, au prix d'un risque à la perte. Luis Enrique devra adapter cette combinaison à chaque adversaire. Le Mans peut fermer l'axe ; City peut presser ; Barcelone peut confisquer le ballon. Le même trio ne répondra pas forcément à toutes les situations."
+      ] },
+      { heading: "Devant, la concurrence doit devenir complémentarité", paragraphs: [
+        "Dembélé, Doué, Kvaratskhelia, Barcola, Kang-In Lee, Gonçalo Ramos et les jeunes options offensives offrent de la création, de la profondeur et de la présence dans la surface. Leur coexistence dépend moins d'un classement individuel que de la répartition des zones. Si tous viennent demander le ballon entre les lignes, personne n'étire la défense. Si tous attaquent la profondeur, Paris peut perdre le joueur capable de connecter le milieu à l'attaque.",
+        "Gonçalo Ramos donne un point de fixation plus naturel. Dembélé peut créer depuis plusieurs zones, Doué éliminer dans les petits espaces, Kvaratskhelia provoquer depuis la gauche et Barcola attaquer le dos d'une ligne. Kang-In Lee offre une passe et un contrôle différents. Le défi consiste à réunir trois profils qui se complètent, puis à conserver sur le banc une solution capable de changer le scénario. La profondeur n'a de valeur que si elle produit un choix tactique identifiable."
+      ] },
+      { heading: "Les jeunes ont besoin d'un chemin, pas d'un slogan", paragraphs: [
+        "Ibrahim Mbaye, Quentin Ndjantou, Senny Mayulu et Dro Fernández apparaissent dans l'effectif officiel. Leur présence confirme qu'ils appartiennent au projet professionnel, mais elle ne garantit ni un temps de jeu régulier ni une progression automatique. Un jeune doit savoir ce que l'entraîneur attend : tenir un côté, presser un défenseur, sécuriser une fin de match ou créer entre les lignes. Plus la mission est claire, plus l'évaluation est juste.",
+        "Le calendrier dense crée des occasions, mais aussi le risque de les exposer dans une équipe entièrement remaniée. Entourer un jeune de cadres lui permet de jouer dans le modèle habituel. En aligner plusieurs ensemble peut être pertinent si les automatismes existent, pas simplement pour reposer le reste du groupe. Octobre doit montrer si le PSG sait intégrer ses talents sans les traiter comme une catégorie séparée du projet sportif."
+      ] },
+      { heading: "Notre lecture : octobre doit transformer la liste en hiérarchie mobile", paragraphs: [
+        "Le PSG dispose d'un effectif capable de proposer plusieurs réponses. Le danger serait de confondre abondance et équilibre. Certaines fonctions restent rares : défendre un grand espace, résister à une pression très haute, occuper la surface ou changer le rythme depuis le banc. Les six matches annoncés entre le 10 et le 30 octobre fourniront des contextes assez variés pour tester ces fonctions sans tirer de conclusion définitive après une seule rencontre.",
+        "Une hiérarchie moderne n'est pas une photographie. Elle conserve des cadres, récompense la forme et adapte les complémentarités. Le retour de sélection remet temporairement les compteurs physiques à des niveaux différents ; la série qui arrive doit ensuite clarifier les rôles. Si chaque joueur comprend ce qu'il apporte et avec quels partenaires il fonctionne, les vingt-quatre noms formeront une équipe profonde. Dans le cas contraire, la quantité restera un argument théorique."
+      ] }
+    ],
+    faq: [
+      { question: "Combien de joueurs figurent dans l'effectif officiel du PSG ?", answer: "La page officielle consultée pour la saison 2026-2027 présente 24 joueurs." },
+      { question: "Qui sont les gardiens du PSG ?", answer: "Lucas Chevalier, Matvey Safonov et Renato Marin figurent dans l'effectif officiel." },
+      { question: "Quels jeunes figurent dans le groupe professionnel ?", answer: "La liste officielle comprend notamment Senny Mayulu, Dro Fernández, Ibrahim Mbaye et Quentin Ndjantou." }
+    ],
+    sources: [
+      { name: "PSG.fr - effectif masculin 2026-2027", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", note: "Liste officielle des joueurs utilisée pour la cartographie." },
+      { name: "PSG.fr - calendrier masculin", url: "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023", note: "Ordre des rencontres d'octobre." },
+      { name: "PSG.fr - calendrier européen", url: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027", note: "Dates de Manchester City et Barcelone." }
+    ],
+    internalLinks: [
+      { label: "Joueurs du PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Histoire du PSG", url: "/histoire-psg/" }
+    ]
+  },
+  {
+    id: "mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027",
+    title: "Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier",
+    description: "Avant le mercato de janvier 2027, le PSG doit tester son effectif contre Le Mans, Manchester City et Barcelone. Les besoins doivent partir des fonctions, pas des rumeurs de noms.",
+    deck: "Octobre ne décidera pas seul du mercato d'hiver, mais il peut révéler les fonctions rares, la profondeur réelle et la capacité des jeunes à répondre.",
+    category: "Mercato PSG",
+    angle: "Audit fonctionnel de l'effectif avant le marché d'hiver",
+    date: "2026-10-06",
+    dateLabel: "6 octobre 2026",
+    time: "06:30",
+    author: "Rédaction Parisien 90",
+    readingTime: "11 min",
+    image: "/hero-stadium.png",
+    imageAlt: "Le PSG analyse ses besoins avant le mercato de janvier 2027",
+    imageCredit: "Image éditoriale Parisien 90",
+    keywords: ["mercato PSG", "transfert PSG", "mercato PSG janvier 2027", "rumeur PSG", "effectif PSG"],
+    sections: [
+      { heading: "Le terrain doit précéder la liste de noms", paragraphs: [
+        "À trois mois de janvier, associer un joueur connu au PSG est facile. Démontrer un besoin réel l'est beaucoup moins. La direction doit d'abord observer quelles fonctions résistent lorsque le niveau monte ou que les matches s'enchaînent. Le calendrier officiel propose un laboratoire utile : Le Mans le 10 octobre, Manchester City le 14, Strasbourg le 17, Barcelone le 20, Lyon le 25 puis Le Havre le 30. Les contextes seront suffisamment variés pour éviter une conclusion fondée sur une seule soirée.",
+        "Une politique de recrutement sérieuse ne cherche pas un poste abstrait mais une réponse compatible avec le modèle. Un défenseur peut être excellent sans aimer défendre loin de son but. Un milieu peut accumuler les passes sans casser une pression. Un attaquant peut marquer sans participer au pressing. Paris doit donc partir de ses séquences de jeu, mesurer ce qui manque, puis seulement étudier des profils disponibles et financièrement cohérents."
+      ] },
+      { heading: "Premier test : la relance sous pression", paragraphs: [
+        "Manchester City et Barcelone examineront la capacité parisienne à sortir proprement lorsque chaque solution courte est suivie. Le PSG possède des défenseurs et des milieux techniques, mais la profondeur se vérifiera quand un titulaire manque ou fatigue. Si le remplaçant oblige toute l'équipe à reculer, le besoin n'est pas seulement individuel : il révèle une fonction insuffisamment doublée. La vidéo devra distinguer erreur ponctuelle, problème de placement et limite répétée.",
+        "Recruter un nouveau relanceur ne serait pourtant pas la réponse automatique. Le staff peut modifier la hauteur du milieu, intégrer davantage le gardien ou offrir une solution longue mieux préparée. Le marché devient pertinent lorsque plusieurs ajustements internes échouent et que le même blocage réapparaît. Cette méthode évite d'acheter un joueur pour corriger un problème d'organisation et protège le club contre les décisions prises sous l'effet d'une défaite spectaculaire."
+      ] },
+      { heading: "Deuxième test : protéger les couloirs sans brider les latéraux", paragraphs: [
+        "Hakimi et Nuno Mendes donnent au PSG une supériorité athlétique et offensive majeure. Leur activité oblige néanmoins les milieux et les défenseurs à couvrir de grands espaces. Face à City ou Barcelone, une perte dans l'axe peut exposer immédiatement les côtés. Octobre dira si l'effectif possède assez de joueurs capables de défendre ces transitions, de gagner le premier duel et de ralentir l'action jusqu'au retour du bloc.",
+        "Si cette protection dépend toujours du même milieu ou du même défenseur, la direction pourra identifier une fragilité de profondeur. Mais le profil recherché devra savoir jouer au PSG : défendre vers l'avant, recevoir sous pression et accepter de couvrir plusieurs zones. Ajouter seulement un spécialiste défensif pourrait sécuriser une phase tout en réduisant la qualité de possession. Le recrutement doit résoudre plus de problèmes qu'il n'en crée."
+      ] },
+      { heading: "Troisième test : occuper la surface dans les matches fermés", paragraphs: [
+        "Le Mans et certains adversaires de Ligue 1 peuvent défendre bas, réduire l'espace intérieur et obliger Paris à attaquer autour du bloc. Dans ce contexte, la qualité des centres ne suffit pas si personne n'occupe les zones de finition. Gonçalo Ramos offre une présence naturelle, tandis que d'autres attaquants peuvent arriver lancés. Le staff doit déterminer si cette variété produit assez d'occasions nettes ou si l'équipe dépend trop d'un seul profil.",
+        "Le débat ne doit pas devenir une chasse à un avant-centre célèbre. Un buteur supplémentaire exige du temps de jeu, modifie la répartition des minutes et peut limiter la progression d'autres joueurs. Paris doit mesurer la fréquence du problème : manque-t-il une présence dans la surface, une dernière passe, une course au second poteau ou simplement une meilleure vitesse de circulation ? Le diagnostic précis évite de recruter le mauvais remède."
+      ] },
+      { heading: "Quatrième test : la valeur réelle du banc", paragraphs: [
+        "Six matches en vingt jours forceront Luis Enrique à utiliser son groupe. C'est une occasion d'évaluer les remplaçants dans des situations significatives, pas seulement lors de fins de rencontre déjà décidées. Un joueur qui entre à 0-0 contre un bloc compact ou qui doit préserver un avantage européen révèle sa capacité à assumer une responsabilité. Les jeunes doivent également recevoir des missions lisibles, entourés de cadres et intégrés au système habituel.",
+        "Si le niveau collectif s'effondre à chaque rotation, deux explications sont possibles : certains profils ne répondent pas encore, ou la rotation change trop de repères à la fois. Le recrutement ne doit intervenir qu'après avoir séparé ces causes. Une équipe peut sembler courte parce que neuf joueurs sont remplacés simultanément. À l'inverse, une solution interne peut s'imposer lorsqu'elle est testée avec une structure stable. Janvier doit récompenser l'observation, pas l'impatience."
+      ] },
+      { heading: "Cinquième test : la disponibilité sur la durée", paragraphs: [
+        "La meilleure composition théorique ne vaut rien si certaines fonctions restent trop souvent indisponibles. Paris doit suivre les charges, les retours de sélection et la capacité à enchaîner sans multiplier les alertes. Il serait irresponsable de transformer une gêne isolée en transfert d'urgence. En revanche, une accumulation documentée sur plusieurs postes peut justifier l'arrivée d'un joueur polyvalent capable d'absorber des minutes dans plusieurs contextes.",
+        "La disponibilité ne se lit pas uniquement dans le nombre de matches manqués. Elle concerne aussi la capacité à jouer avec intensité, à répéter les courses et à récupérer entre deux affiches. Les données internes du club seront plus fines que les impressions publiques. Pour le lecteur, les repères fiables restent les points médicaux officiels, les séances collectives, les convocations et les minutes. Tout le reste doit être présenté comme une hypothèse, jamais comme un diagnostic."
+      ] },
+      { heading: "Janvier impose aussi une discipline économique", paragraphs: [
+        "Même lorsqu'un besoin sportif existe, le marché d'hiver offre peu de joueurs immédiatement disponibles et les clubs vendeurs peuvent demander une prime élevée. Le PSG doit comparer le coût d'une arrivée, son salaire, son temps d'adaptation et son effet sur l'effectif. Un prêt ciblé, une promotion interne ou une attente jusqu'à l'été peuvent être plus rationnels qu'un transfert définitif conclu dans l'urgence.",
+        "La compatibilité contractuelle et humaine compte également. Une recrue de janvier arrive au milieu d'un projet, avec peu de séances pour apprendre les principes et une concurrence déjà installée. Elle doit accepter un rôle réaliste sans déséquilibrer le vestiaire. Le nom le plus viral n'est pas nécessairement la meilleure opération. La valeur d'un recrutement se mesure à l'amélioration du collectif, pas au volume de réactions lors de son annonce."
+      ] },
+      { heading: "Notre verdict : octobre doit produire un cahier des charges", paragraphs: [
+        "Le Mans, City et Barcelone ne décideront pas à eux seuls du mercato PSG. Ils peuvent toutefois transformer des intuitions en questions mesurables : la relance résiste-t-elle à une pression haute ? Les transitions sont-elles protégées ? La surface est-elle occupée ? Le banc maintient-il le niveau ? Les joueurs restent-ils disponibles ? À la fin du mois, le club devrait disposer d'un cahier des charges hiérarchisé plutôt que d'une collection de noms.",
+        "Notre ligne restera la même : un intérêt de marché exige une source identifiable et une information recoupée ; une analyse de besoin doit être annoncée comme telle. À ce jour, ce dossier ne prétend révéler aucune négociation. Il décrit les tests qui peuvent guider janvier. Cette prudence n'affaiblit pas le mercato, elle le rend plus utile. Elle permet de comprendre pourquoi Paris recruterait avant de débattre de qui pourrait arriver."
+      ] }
+    ],
+    faq: [
+      { question: "Le PSG a-t-il déjà ouvert un dossier pour janvier 2027 ?", answer: "Aucune négociation précise n'est affirmée ici. L'article analyse les besoins que les matches d'octobre peuvent révéler." },
+      { question: "Quels matches serviront de tests au PSG ?", answer: "Le Mans, Manchester City, Strasbourg, Barcelone, Lyon et Le Havre sont programmés entre le 10 et le 30 octobre." },
+      { question: "Quelle différence entre une rumeur et une analyse mercato ?", answer: "Une rumeur attribuée repose sur une source identifiable ; une analyse évalue les besoins à partir de faits et doit rester présentée comme une opinion argumentée." }
+    ],
+    sources: [
+      { name: "PSG.fr - calendrier masculin", url: "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023", note: "Séquence officielle des matches d'octobre." },
+      { name: "PSG.fr - effectif masculin", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", note: "Composition officielle de l'effectif analysé." },
+      { name: "PSG.fr - calendrier européen", url: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027", note: "Dates de City et Barcelone." }
+    ],
+    internalLinks: [
+      { label: "Mercato PSG", url: "/mercato-psg/" },
+      { label: "Joueurs du PSG", url: "/joueurs-psg/" },
+      { label: "Calendrier PSG", url: "/calendrier-psg/" },
+      { label: "Rumeurs PSG", url: "/actualites-psg/" }
+    ]
+  },
   {
     id: "rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence",
     title: "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",

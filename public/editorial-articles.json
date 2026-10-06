@@ -1,11 +1,119 @@
 {
-  "updatedAt": "2026-10-05T06:30:00+02:00",
-  "displayDate": "5 octobre 2026",
+  "updatedAt": "2026-10-06T06:30:00+02:00",
+  "displayDate": "6 octobre 2026",
   "displayTime": "6h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 48,
+  "count": 51,
   "items": [
+    {
+      "id": "luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026",
+      "category": "Entraîneurs PSG",
+      "angle": "La méthode de Luis Enrique pour relancer le PSG après la trêve",
+      "date": "2026-10-06",
+      "dateLabel": "6 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "headline": "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
+      "summary": "Trois entraînements à huis clos, une conférence vendredi puis deux matches en quatre jours : la reprise parisienne sera d'abord un exercice de gestion et de clarté.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Horaires des entraînements, de la conférence et du match."
+        },
+        {
+          "name": "PSG.fr - Paris-Le Mans le 10 octobre",
+          "url": "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027",
+          "note": "Date, heure et contexte officiel de la 6e journée."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Programmation de Manchester City-PSG."
+        }
+      ],
+      "keywords": [
+        "Luis Enrique PSG",
+        "PSG Le Mans",
+        "Manchester City PSG",
+        "entraîneur PSG",
+        "calendrier PSG octobre 2026"
+      ]
+    },
+    {
+      "id": "effectif-psg-24-joueurs-retour-selections-octobre-2026",
+      "category": "Joueurs PSG",
+      "angle": "Cartographie de l'effectif parisien et des rôles à clarifier",
+      "date": "2026-10-06",
+      "dateLabel": "6 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "headline": "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre",
+      "summary": "La profondeur parisienne existe sur le papier. Le mois d'octobre dira si chaque ligne possède des réponses compatibles avec le jeu de Luis Enrique.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/effectif-psg-24-joueurs-retour-selections-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle des joueurs utilisée pour la cartographie."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
+          "note": "Ordre des rencontres d'octobre."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates de Manchester City et Barcelone."
+        }
+      ],
+      "keywords": [
+        "effectif PSG",
+        "joueurs PSG 2026 2027",
+        "composition PSG",
+        "Dembélé PSG",
+        "Marquinhos PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027",
+      "category": "Mercato PSG",
+      "angle": "Audit fonctionnel de l'effectif avant le marché d'hiver",
+      "date": "2026-10-06",
+      "dateLabel": "6 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-06T06:30:00+02:00",
+      "headline": "Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier",
+      "summary": "Octobre ne décidera pas seul du mercato d'hiver, mais il peut révéler les fonctions rares, la profondeur réelle et la capacité des jeunes à répondre.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027/",
+      "sources": [
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
+          "note": "Séquence officielle des matches d'octobre."
+        },
+        {
+          "name": "PSG.fr - effectif masculin",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Composition officielle de l'effectif analysé."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates de City et Barcelone."
+        }
+      ],
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG",
+        "mercato PSG janvier 2027",
+        "rumeur PSG",
+        "effectif PSG"
+      ]
+    },
     {
       "id": "rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence",
       "category": "Rumeurs PSG",
