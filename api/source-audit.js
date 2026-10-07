@@ -8,6 +8,17 @@ const isPublishedNews = (item) =>
 
 const normalizeUrl = (url) => new URL(url, SITE_URL).href;
 
+const isParisEditorialRun = (date = new Date()) => {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/Paris",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23"
+  }).formatToParts(date);
+  const time = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+  return `${time.hour}:${time.minute}` === "06:30" || `${time.hour}:${time.minute}` === "12:00";
+};
+
 const classify = ({ status, redirected, error }) => {
   if (error) return "SOURCE_A_VERIFIER";
   if (status >= 200 && status < 300 && redirected) return "REDIRECTION";
@@ -72,6 +83,11 @@ export default async function handler(request, response) {
 
   if (!isPublicView && (!secret || request.headers.authorization !== `Bearer ${secret}`)) {
     response.status(401).json({ ok: false, error: "Unauthorized" });
+    return;
+  }
+
+  if (String(request.headers["user-agent"] || "").includes("vercel-cron") && !isParisEditorialRun()) {
+    response.status(204).end();
     return;
   }
 

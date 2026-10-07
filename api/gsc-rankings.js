@@ -133,6 +133,17 @@ const queryGsc = async (accessToken, site, startDate, endDate) => {
 const normalizeQuery = (text) =>
   text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
+const isParisEditorialRun = (date = new Date()) => {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/Paris",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23"
+  }).formatToParts(date);
+  const time = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+  return `${time.hour}:${time.minute}` === "06:30" || `${time.hour}:${time.minute}` === "12:00";
+};
+
 const scoreTargets = (rows, targetQueries) => {
   const best = new Map(
     targetQueries.map((query) => [query, { query, impressions: 0, clicks: 0, ctr: 0, position: null, page: null }])
@@ -233,6 +244,11 @@ export default async function handler(request, response) {
 
   if (!isPublic && !hasSecret) {
     response.status(401).json({ ok: false, error: "Unauthorized" });
+    return;
+  }
+
+  if (String(request.headers["user-agent"] || "").includes("vercel-cron") && !isParisEditorialRun()) {
+    response.status(204).end();
     return;
   }
 
