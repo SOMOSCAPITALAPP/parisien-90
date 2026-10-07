@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-06T06:30:00+02:00",
+    "lastVerifiedAt": "2026-10-07T06:30:00+02:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -81,6 +81,16 @@
     }
   ],
   "latestNews": [
+    {
+      "title": "PSG x Le Mans: como atacar um bloco baixo sem abrir a estrada para o City",
+      "summary": "Paris precisa recuperar ritmo, amplitude e presença na área diante do Le Mans, protegendo cada perda de bola. Um ensaio útil antes do Manchester City, sem confundir os dois adversários.",
+      "category": "Tática",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
+      "source": "Parisien 90 — análise com fontes",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+      "reliability": "Programação oficial, análise"
+    },
     {
       "title": "Luis Enrique diante da semana-armadilha: preparar o Le Mans sem jogar antes contra o Manchester City",
       "summary": "Três treinos fechados, coletiva na sexta-feira e dois jogos em quatro dias: o PSG precisa reconstruir seu coletivo depois da Data Fifa sem tratar a Ligue 1 como simples preparação europeia.",
@@ -289,7 +299,7 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-06T06:30:00+02:00",
+    "updatedAt": "2026-10-07T06:30:00+02:00",
     "totalFixtures": 52,
     "nextFixtures": [
       {

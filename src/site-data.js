@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-06T06:30:00+02:00",
-  edition: "Fil PSG du 6 octobre 2026",
-  displayDate: "6 octobre 2026",
+  updatedAt: "2026-10-07T06:30:00+02:00",
+  edition: "Fil PSG du 7 octobre 2026",
+  displayDate: "7 octobre 2026",
   displayTime: "6h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,11 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-07", "7 octobre 2026", [
+  { id: "mercato-psg-janvier-2027-effectif-24-joueurs-postes-priorites", time: "06:30", category: "Mercato", title: "Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier", summary: "L'effectif officiel compte 24 joueurs avant une séquence dense. Plutôt qu'une liste de noms, Paris doit tester la couverture défensive, la création et la profondeur offensive pour construire son mercato d'hiver.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Analyse, aucune négociation affirmée", viral: 94 },
+  { id: "effectif-psg-24-joueurs-hierarchie-retour-le-mans-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : qui peut gagner sa place au retour de la trêve ?", summary: "Le groupe officiel réunit 24 joueurs, mais les internationaux reviennent avec des charges différentes. Le Mans doit clarifier la hiérarchie avant Manchester City sans transformer la rotation en sanction.", source: "Parisien 90 — dossier sourcé", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Effectif officiel, analyse", viral: 92 },
+  { id: "psg-le-mans-attaquer-bloc-bas-transition-city-2026", time: "06:30", category: "Tactique", title: "PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City", summary: "Paris doit retrouver rythme, largeur et présence dans la surface face au Mans, tout en protégeant chaque perte de balle. Une répétition utile avant Manchester City, sans confondre les deux adversaires.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10", reliability: "Programme officiel, analyse", viral: 95 },
+  ]),
   ...withNewsDate("2026-10-06", "6 octobre 2026", [
   { id: "luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026", time: "06:30", category: "Entraîneurs", title: "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City", summary: "Trois séances à huis clos, une conférence vendredi puis Le Mans et City en quatre jours : Luis Enrique doit reconstruire le collectif parisien sans sacrifier la Ligue 1 à l'Europe.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026", reliability: "Programme officiel, analyse", viral: 95 },
   { id: "effectif-psg-24-joueurs-retour-selections-octobre-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre", summary: "La liste officielle réunit 24 joueurs. Gardiens, défense, milieu, attaque et jeunes : notre cartographie analyse les fonctions que la série Le Mans-City-Strasbourg-Barcelone doit clarifier.", source: "Parisien 90 — dossier sourcé", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Effectif officiel, analyse", viral: 92 },

@@ -1,11 +1,119 @@
 {
-  "updatedAt": "2026-10-06T06:30:00+02:00",
-  "displayDate": "6 octobre 2026",
+  "updatedAt": "2026-10-07T06:30:00+02:00",
+  "displayDate": "7 octobre 2026",
   "displayTime": "6h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 51,
+  "count": 54,
   "items": [
+    {
+      "id": "mercato-psg-janvier-2027-effectif-24-joueurs-postes-priorites",
+      "category": "Mercato PSG",
+      "angle": "Bilan chiffré et besoins de l'effectif",
+      "date": "2026-10-07",
+      "dateLabel": "7 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "headline": "Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier",
+      "summary": "Paris n'a pas besoin d'une nouvelle collection de rumeurs. Il lui faut un diagnostic de terrain : quels postes résistent à l'enchaînement et lesquels obligent Luis Enrique à bricoler ?",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-effectif-24-joueurs-postes-priorites/",
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle des joueurs et répartition par ligne."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence officielle des matches d'octobre."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates des rencontres contre Manchester City et Barcelone."
+        }
+      ],
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG janvier 2027",
+        "effectif PSG",
+        "recrue PSG",
+        "priorités mercato PSG"
+      ]
+    },
+    {
+      "id": "effectif-psg-24-joueurs-hierarchie-retour-le-mans-2026",
+      "category": "Joueurs PSG",
+      "angle": "Hiérarchie et forme du moment",
+      "date": "2026-10-07",
+      "dateLabel": "7 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "headline": "Effectif PSG : qui peut gagner sa place au retour de la trêve ?",
+      "summary": "Tous les joueurs ne reviennent pas avec la même fatigue ni le même rythme. Le match contre Le Mans doit clarifier les rôles sans transformer chaque rotation en sanction.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/effectif-psg-24-joueurs-hierarchie-retour-le-mans-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Entraînements, conférence et horaire de PSG-Le Mans."
+        },
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle des 24 joueurs."
+        },
+        {
+          "name": "PSG.fr - Paris-Le Mans",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+          "note": "Date, heure, stade et compétition."
+        }
+      ],
+      "keywords": [
+        "effectif PSG",
+        "joueurs PSG 2026 2027",
+        "composition PSG Le Mans",
+        "retour internationaux PSG",
+        "Luis Enrique PSG"
+      ]
+    },
+    {
+      "id": "psg-le-mans-attaquer-bloc-bas-transition-city-2026",
+      "category": "Tactique PSG",
+      "angle": "Avant-match structurel",
+      "date": "2026-10-07",
+      "dateLabel": "7 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "headline": "PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City",
+      "summary": "Paris doit retrouver du rythme face au Mans sans perdre son équilibre. Le vrai test sera de créer beaucoup tout en restant prêt à défendre la première passe adverse.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - page officielle PSG-Le Mans",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+          "note": "Date, horaire, stade et compétition."
+        },
+        {
+          "name": "PSG.fr - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Organisation de la semaine et conférence de Luis Enrique."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Programmation officielle de Manchester City-PSG."
+        }
+      ],
+      "keywords": [
+        "PSG Le Mans composition",
+        "PSG Le Mans tactique",
+        "composition PSG",
+        "Luis Enrique PSG",
+        "Manchester City PSG"
+      ]
+    },
     {
       "id": "luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026",
       "category": "Entraîneurs PSG",

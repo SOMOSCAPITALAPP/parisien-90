@@ -1,0 +1,32 @@
+{
+  "preparedAt": "2026-10-07T16:20:00+02:00",
+  "status": "prepared_not_contacted",
+  "policy": "Nenhum contato ou envio sem confirmação explícita do responsável pelo Parisien 90.",
+  "article": "https://parisien90.com/br/noticias-psg/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
+  "opportunities": [
+    {
+      "name": "PSG Supporters Club Rio de Janeiro",
+      "type": "supporters-club",
+      "verification": "Apresentado pelo site oficial do Paris Saint-Germain em 23 de março de 2025.",
+      "referenceUrl": "https://pt.psg.fr/clube/content/cristiano-le-plus-parisien-des-cariocas-club-paris-saint-germain-2024-2025",
+      "suggestedAngle": "Guia em português para acompanhar PSG x Le Mans e preparar a semana de Manchester City.",
+      "contactStatus": "not_contacted"
+    },
+    {
+      "name": "PSG Supporters Club São Paulo",
+      "type": "supporters-club",
+      "verification": "Listado na página oficial de Supporters Clubs do Paris Saint-Germain.",
+      "referenceUrl": "https://www.psg.fr/pt/fas/supporters-clubs",
+      "suggestedAngle": "Conteúdo de serviço sobre horário, calendário e leitura tática para torcedores brasileiros.",
+      "contactStatus": "not_contacted"
+    },
+    {
+      "name": "Paris SG Brasil",
+      "type": "community-media",
+      "verification": "A página institucional pública informa reconhecimento como fan club oficial em 2015.",
+      "referenceUrl": "https://parissgbrasil.wordpress.com/sobre/",
+      "suggestedAngle": "Troca editorial ou menção do artigo completo, sem reprodução de texto ou imagem.",
+      "contactStatus": "not_contacted"
+    }
+  ]
+}

@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-06T06:30:00+02:00",
-    "freshnessNote": "Fil PSG du 6 octobre 2026. Fil public : 146 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 51 articles de fond sous /dossiers-psg/. À suivre : Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City ; Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre ; Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier ; France-Belgique : Doué déclenche la remontée, Paris brille dans le final bleu ; Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-07T06:30:00+02:00",
+    "freshnessNote": "Fil PSG du 7 octobre 2026. Fil public : 149 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 54 articles de fond sous /dossiers-psg/. À suivre : Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier ; Effectif PSG : qui peut gagner sa place au retour de la trêve ? ; PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City ; Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City ; Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier",
+      "category": "Mercato",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/news/mercato-psg-janvier-2027-effectif-24-joueurs-postes-priorites/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+      "reliability": "Analyse, aucune négociation affirmée"
+    },
+    {
+      "title": "Effectif PSG : qui peut gagner sa place au retour de la trêve ?",
+      "category": "Joueurs",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/news/effectif-psg-24-joueurs-hierarchie-retour-le-mans-2026/",
+      "source": "Parisien 90 — dossier sourcé",
+      "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+      "reliability": "Effectif officiel, analyse"
+    },
+    {
+      "title": "PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City",
+      "category": "Tactique",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/news/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+      "reliability": "Programme officiel, analyse"
+    },
     {
       "title": "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
       "category": "Entraîneurs",
@@ -443,33 +470,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/les-supporters-au-campus-avant-le-classique-psg-ligue-1-marseille-paris-saint-germain-2026-2027/",
       "reliability": "Officiel"
-    },
-    {
-      "title": "PSG-Nantes : Kanjinga arrache la victoire à neuf contre onze",
-      "category": "Féminines",
-      "dateTime": "2026-09-18T22:59:00+02:00",
-      "url": "https://parisien90.com/news/psg-feminin-nantes-victoire-kanjinga-temps-additionnel-septembre-2026/",
-      "source": "PSG.fr / CulturePSG",
-      "sourceUrl": "https://www.psg.fr/football-feminin/calendrier",
-      "reliability": "Officiel — résultat, feuille de match recoupée"
-    },
-    {
-      "title": "Dembélé, Doué et Zaïre-Emery dans la première liste de Zidane",
-      "category": "Sélections",
-      "dateTime": "2026-09-18T19:10:00+02:00",
-      "url": "https://parisien90.com/news/france-dembele-doue-zaire-emery-nations-league-septembre-2026/",
-      "source": "PSG.fr / FFF",
-      "sourceUrl": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Hakimi a repris un travail individuel : un signe, pas encore un feu vert pour le Classique",
-      "category": "Groupe",
-      "dateTime": "2026-09-18T15:00:00+02:00",
-      "url": "https://parisien90.com/news/achraf-hakimi-reprise-individuelle-classique-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/point-medical-concernant-achraf-hakimi-psg-news-2026-2027",
-      "reliability": "Officiel — reprise individuelle"
     }
   ],
   "people": [
@@ -1934,6 +1934,102 @@
   },
   "editorialArticles": [
     {
+      "title": "Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier",
+      "category": "Mercato PSG",
+      "angle": "Bilan chiffré et besoins de l'effectif",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-effectif-24-joueurs-postes-priorites/",
+      "summary": "Paris n'a pas besoin d'une nouvelle collection de rumeurs. Il lui faut un diagnostic de terrain : quels postes résistent à l'enchaînement et lesquels obligent Luis Enrique à bricoler ?",
+      "keywords": [
+        "mercato PSG",
+        "transfert PSG janvier 2027",
+        "effectif PSG",
+        "recrue PSG",
+        "priorités mercato PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle des joueurs et répartition par ligne."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
+          "note": "Séquence officielle des matches d'octobre."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Dates des rencontres contre Manchester City et Barcelone."
+        }
+      ]
+    },
+    {
+      "title": "Effectif PSG : qui peut gagner sa place au retour de la trêve ?",
+      "category": "Joueurs PSG",
+      "angle": "Hiérarchie et forme du moment",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/effectif-psg-24-joueurs-hierarchie-retour-le-mans-2026/",
+      "summary": "Tous les joueurs ne reviennent pas avec la même fatigue ni le même rythme. Le match contre Le Mans doit clarifier les rôles sans transformer chaque rotation en sanction.",
+      "keywords": [
+        "effectif PSG",
+        "joueurs PSG 2026 2027",
+        "composition PSG Le Mans",
+        "retour internationaux PSG",
+        "Luis Enrique PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Entraînements, conférence et horaire de PSG-Le Mans."
+        },
+        {
+          "name": "PSG.fr - effectif masculin 2026-2027",
+          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
+          "note": "Liste officielle des 24 joueurs."
+        },
+        {
+          "name": "PSG.fr - Paris-Le Mans",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+          "note": "Date, heure, stade et compétition."
+        }
+      ]
+    },
+    {
+      "title": "PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City",
+      "category": "Tactique PSG",
+      "angle": "Avant-match structurel",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
+      "summary": "Paris doit retrouver du rythme face au Mans sans perdre son équilibre. Le vrai test sera de créer beaucoup tout en restant prêt à défendre la première passe adverse.",
+      "keywords": [
+        "PSG Le Mans composition",
+        "PSG Le Mans tactique",
+        "composition PSG",
+        "Luis Enrique PSG",
+        "Manchester City PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - page officielle PSG-Le Mans",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+          "note": "Date, horaire, stade et compétition."
+        },
+        {
+          "name": "PSG.fr - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Organisation de la semaine et conférence de Luis Enrique."
+        },
+        {
+          "name": "PSG.fr - calendrier européen",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Programmation officielle de Manchester City-PSG."
+        }
+      ]
+    },
+    {
       "title": "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
       "category": "Entraîneurs PSG",
       "angle": "La méthode de Luis Enrique pour relancer le PSG après la trêve",
@@ -2501,110 +2597,19 @@
           "note": "Place de Mayulu et composition actuelle du milieu parisien."
         }
       ]
-    },
-    {
-      "title": "Fabián Ruiz, 57 minutes et une victoire 4-1 : le rôle discret que le PSG doit préserver",
-      "category": "Tactique PSG",
-      "angle": "Après-match structurel et rôle du milieu gauche",
-      "dateTime": "2026-10-01T07:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/fabian-ruiz-espagne-croatie-role-tactique-psg/",
-      "summary": "Il n'a ni marqué ni terminé la rencontre, mais sa présence dans l'entrejeu espagnol rappelle une vérité tactique : les joueurs qui relient les lignes rendent possibles les actions les plus visibles.",
-      "keywords": [
-        "Fabián Ruiz PSG",
-        "tactique PSG",
-        "milieu PSG",
-        "Espagne Croatie",
-        "composition PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - Espagne 4-1 Croatie",
-          "url": "https://www.psg.fr/content/lespagne-de-ruiz-et-ferran-torres-large-vainqueur-de-la-croatie-paris-saint-germain-selections-20262027",
-          "note": "Score, composition, temps de jeu et buteurs officiels."
-        },
-        {
-          "name": "PSG.fr - Ruiz et Ferran avec l'Espagne",
-          "url": "https://www.psg.fr/content/fabian-ruiz-et-ferran-torres-avec-lespagne-paris-saint-germain-2026-2027",
-          "note": "Programme complet de la sélection espagnole."
-        },
-        {
-          "name": "PSG.fr - le choix de la continuité",
-          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/",
-          "note": "Statut de Fabián Ruiz dans le projet parisien."
-        },
-        {
-          "name": "PSG.fr - calendrier masculin",
-          "url": "https://www.psg.fr/football-masculin/calendrier",
-          "note": "Enchaînement officiel des rencontres parisiennes d'octobre."
-        }
-      ]
-    },
-    {
-      "title": "Luis Enrique, Mika Godts et le détail qui peut ouvrir la porte du onze du PSG",
-      "category": "Entraîneurs PSG",
-      "angle": "Méthode de Luis Enrique et progression individuelle",
-      "dateTime": "2026-09-30T12:20:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/luis-enrique-mika-godts-travail-sans-ballon-psg/",
-      "summary": "Le jeune Belge vient de jouer tout un Belgique-France face à trois partenaires parisiens. Cette expérience éclaire le chantier fixé par le staff : transformer un ailier spectaculaire en joueur complet du collectif.",
-      "keywords": [
-        "Luis Enrique PSG",
-        "Mika Godts PSG",
-        "titulaire PSG",
-        "ailier PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - Belgique 0-1 France",
-          "url": "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027",
-          "note": "Score, buteur et temps de jeu des quatre Parisiens."
-        },
-        {
-          "name": "CulturePSG - les axes de progression de Godts",
-          "url": "https://www.culturepsg.com/bg/news/club/luis-enrique-a-fixe-les-axes-de-progression-de-mika-godts-au-psg/60731",
-          "note": "Informations sur le travail demandé par le staff et son utilisation en début de saison."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Effectif officiel du PSG pour la saison 2026-2027."
-        }
-      ]
-    },
-    {
-      "title": "Godts, Doué, Akliouche, Dembélé : ce que leur duel Belgique-France révèle au PSG",
-      "category": "Joueurs PSG",
-      "angle": "Forme, rôles et concurrence offensive",
-      "dateTime": "2026-09-30T12:20:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/godts-doue-akliouche-dembele-belgique-france-psg/",
-      "summary": "Deux titulaires, un entrant, quatre profils différents et un but à la 88e minute : ce rendez-vous international offre un laboratoire utile pour comprendre les choix qui attendent Luis Enrique.",
-      "keywords": [
-        "Dembélé PSG",
-        "Désiré Doué PSG",
-        "Maghnes Akliouche PSG",
-        "Mika Godts PSG",
-        "Belgique France PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - les Bleus s'imposent face à la Belgique",
-          "url": "https://www.psg.fr/content/avec-ousmane-dembele-desire-doue-et-maghnes-akliouche-les-bleus-simposent-sur-le-fil-contre-la-belgique-de-mika-godts-paris-saint-germain-selections-20262027",
-          "note": "Compte rendu officiel, score et participation des joueurs parisiens."
-        },
-        {
-          "name": "PSG.fr - calendrier des internationaux français",
-          "url": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
-          "note": "Convocations et programme de la France pendant la trêve."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Postes et présence officielle des joueurs dans le groupe parisien."
-        }
-      ]
     }
   ],
   "brazilNews": [
+    {
+      "title": "PSG x Le Mans: como atacar um bloco baixo sem abrir a estrada para o City",
+      "category": "Tática",
+      "dateTime": "2026-10-07T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
+      "frenchUrl": "https://parisien90.com/news/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
+      "source": "Parisien 90 — análise com fontes",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+      "reliability": "Programação oficial, análise"
+    },
     {
       "title": "Luis Enrique diante da semana-armadilha: preparar o Le Mans sem jogar antes contra o Manchester City",
       "category": "Treinadores",
@@ -2709,7 +2714,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-06T06:30:00+02:00",
+    "updatedAt": "2026-10-07T06:30:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

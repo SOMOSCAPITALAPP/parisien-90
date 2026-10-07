@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site couvre clairement les grands sujets PSG : transfert PSG, mercato PSG, actualité PSG, viral PSG, buzz PSG, débat PSG, vidéos PSG, YouTube PSG, chaînes PSG, calendrier PSG, calendrier PSG 2026-2027, joueurs PSG, effectif PSG, fiches joueurs, anciens joueurs PSG, histoire PSG, records PSG, meilleur buteur PSG, joueur le plus capé PSG, Brésiliens PSG et Argentins PSG.
 
-## Repère éditorial — 6 octobre 2026, 6h30 (Europe/Paris)
+## Repère éditorial — 7 octobre 2026, 6h30 (Europe/Paris)
 
-Fil PSG du 6 octobre 2026. Fil public : 146 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 51 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City ; Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre ; Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier ; France-Belgique : Doué déclenche la remontée, Paris brille dans le final bleu ; Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Fil PSG du 7 octobre 2026. Fil public : 149 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 54 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier ; Effectif PSG : qui peut gagner sa place au retour de la trêve ? ; PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City ; Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City ; Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en grandes rubriques, avec titres explicites, descriptions, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et page vidéos PSG/YouTube.
 
