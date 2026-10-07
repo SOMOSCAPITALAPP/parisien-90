@@ -15,7 +15,11 @@ const TARGET_QUERIES = [
   "ronaldinho psg",
   "transferencias psg",
   "mercado psg",
-  "calendario psg"
+  "calendario psg",
+  "noticias do psg",
+  "mercado da bola psg",
+  "proximo jogo psg",
+  "brasileiros no psg"
 ];
 
 const GOOGLE_TOKEN_URL = "https://oauth2.googleapis.com/token";

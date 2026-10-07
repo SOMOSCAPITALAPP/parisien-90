@@ -276,8 +276,8 @@ const getArticleAngle = (item) => {
   return {
     label: "Actualité PSG",
     pillar: "/actualite-psg/",
-    stakes: "Une info PSG circule vite, mais elle ne vaut que si elle est datée, sourcée et replacée dans le contexte sportif du club. L'objectif est de rendre le signal lisible sans reprendre le contenu original.",
-    watch: "Parisien 90 distingue l'information établie, la rumeur, l'analyse et l'opinion afin de garder un ton vivant sans brouiller la frontière entre fait et commentaire."
+    stakes: "Une information PSG peut modifier la lecture d'un match, d'une hiérarchie ou d'un dossier de mercato. Le contexte sportif permet de mesurer ce qui change vraiment pour Paris.",
+    watch: "Les prochaines annonces du club, les groupes retenus et les décisions des compétitions permettront de confirmer ou de faire évoluer ce dossier."
   };
 };
 
@@ -294,17 +294,16 @@ const makeArticleSections = (item) => {
             <h2>Pourquoi cette info compte pour le PSG</h2>
             <p>${escapeHTML(angle.stakes)}</p>
             <p>Pour les supporters, ${title} n'est donc pas une simple ligne de fil d'actualité. C'est une pièce du récit parisien : effectif, rythme de saison, rapport de force du mercato, statut des cadres ou crédibilité sportive du projet.</p>
-            <h2>La lecture Parisien 90</h2>
-            <p>Notre angle est volontairement direct : donner l'information utile, la rendre lisible et pointer ce qui peut faire débat sans transformer une hypothèse en certitude. Quand une formulation est polémique, elle doit rester identifiable comme une lecture éditoriale, pas comme un fait nouveau.</p>
+            <h2>Le débat parisien</h2>
+            <p>Le fait du jour ouvre une question sportive concrète : comment le PSG ajuste-t-il son effectif, sa rotation ou ses ambitions après cette séquence ? Les réponses se construiront sur le terrain et dans les prochaines annonces officielles.</p>
             <p>${escapeHTML(angle.watch)}</p>
             <h2>Ce que les supporters doivent surveiller</h2>
             <p>La suite dépendra souvent d'un détail concret : une nouvelle convocation, un communiqué, une programmation, une évolution de prix, une image d'entraînement, un changement de groupe ou une confirmation d'instance. C'est précisément ce type de signal que Parisien 90 relie au fil live et aux dossiers de fond.</p>
-            <p>Cette approche permet de garder une page utile après la première vague de partage : le lecteur peut revenir, retrouver l'heure de publication, vérifier la source et comprendre pourquoi l'information a été classée dans ce dossier PSG.</p>
             <h2>À lire ensuite sur Parisien 90</h2>
             <p>Pour prolonger cette info, le plus utile est de passer du signal chaud aux grands repères du site : marché, mouvements, calendrier et mémoire chiffrée du club.</p>
             ${makePriorityReadingGrid(angle.pillar)}
-            <h2>Source, droits et méthode</h2>
-            <p>Cette page ne reproduit pas l'article d'origine. Elle propose une synthèse originale et renvoie vers <strong>${source}</strong>, afin que le lecteur puisse vérifier le signal de départ. Les faits bruts, dates, scores, mouvements et informations publiques sont reformulés ; les contenus tiers protégés ne sont pas recopiés.</p>`;
+            <h2>Source</h2>
+            <p>Information vérifiable : <strong>${source}</strong>. Parisien 90 publie une synthèse originale et renvoie vers la source citée.</p>`;
 };
 
 const makeArticlePage = (item) => {
@@ -609,7 +608,7 @@ const makeEditorialArticlePage = (item) => {
               </div>
             </section>
             <section class="source-box">
-              <span>Sources utilisées et méthode</span>
+              <span>Sources</span>
               <p>${escapeHTML(editorialArticlesMeta.rightsNote)}</p>
               <ul class="source-credit-list">
                 ${sourceLinks}
@@ -959,8 +958,8 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             <section class="profile-answer" aria-labelledby="ronaldinho-reponse"><span class="section-kicker">Réponse rapide</span><h2 id="ronaldinho-reponse">Quand Ronaldinho a-t-il joué au PSG ?</h2><p><strong>Ronaldinho a porté le maillot du PSG de 2001 à 2003.</strong> Paris a accueilli le meneur brésilien avant sa consécration mondiale. Retrouvez aussi <a href="/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/">le dossier sur ses années parisiennes</a>, <a href="/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/">l'histoire des Brésiliens du PSG</a> et <a href="/br/antigos-jogadores-psg/ronaldinho/" hreflang="pt-BR">la fiche en portugais du Brésil</a>.</p></section>` : ""}
             ${editorialFocusMarkup}
             ${faqMarkup}
-            <h2>Méthode et prudence</h2>
-            <p>Les informations personnelles sensibles ne sont pas utilisées. Les données affichées restent limitées à l'intérêt sportif, historique ou éditorial : poste, rôle, période PSG, statut public et source de vérification.</p>
+            <h2>Sources et mise à jour</h2>
+            <p>Cette fiche est actualisée à partir de sources publiques et d'archives vérifiables. Elle se limite aux éléments utiles pour comprendre le parcours du joueur ou du membre du staff au PSG.</p>
           </div>
           <aside class="article-sidebar">
             ${photoMarkup}

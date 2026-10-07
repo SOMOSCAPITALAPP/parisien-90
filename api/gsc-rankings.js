@@ -17,7 +17,11 @@ const TARGET_QUERIES = [
   "transferencias psg",
   "mercado psg",
   "calendario psg",
-  "ronaldinho paris saint germain"
+  "ronaldinho paris saint germain",
+  "noticias do psg",
+  "mercado da bola psg",
+  "proximo jogo psg",
+  "brasileiros no psg"
 ];
 
 const encodeBase64Url = (value) =>
