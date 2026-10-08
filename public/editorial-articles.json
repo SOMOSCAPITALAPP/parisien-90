@@ -1,11 +1,109 @@
 {
-  "updatedAt": "2026-10-07T06:30:00+02:00",
-  "displayDate": "7 octobre 2026",
+  "updatedAt": "2026-10-08T06:30:00+02:00",
+  "displayDate": "8 octobre 2026",
   "displayTime": "6h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 54,
+  "count": 57,
   "items": [
+    {
+      "id": "rumeur-psg-janvier-2027-besoin-recrue-prudence",
+      "category": "Rumeurs PSG",
+      "angle": "Ce que le calendrier et l'effectif permettent vraiment d'anticiper avant janvier",
+      "date": "2026-10-08",
+      "dateLabel": "8 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "headline": "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?",
+      "summary": "L'effectif et les prochaines échéances donnent des repères concrets. Ils ne suffisent pas à annoncer une arrivée : le marché d'hiver ne commence pas par une liste de noms.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/rumeur-psg-janvier-2027-besoin-recrue-prudence/",
+      "sources": [
+        {
+          "name": "PSG - effectif masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+          "note": "Référence pour le groupe publié par le club."
+        },
+        {
+          "name": "PSG - calendrier masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/calendrier",
+          "note": "Référence pour les échéances officiellement programmées."
+        }
+      ],
+      "keywords": [
+        "rumeur PSG",
+        "mercato PSG janvier 2027",
+        "recrue PSG",
+        "effectif PSG",
+        "calendrier PSG"
+      ]
+    },
+    {
+      "id": "neymar-psg-173-matches-heritage-records",
+      "category": "Anciens joueurs PSG",
+      "angle": "Les records et les nuances d'un passage qui a changé l'échelle du PSG",
+      "date": "2026-10-08",
+      "dateLabel": "8 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "headline": "Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens",
+      "summary": "Le passage de Neymar à Paris reste fait de sommets européens, de gestes devenus iconiques et de frustrations. Les chiffres donnent une base claire pour relire cette période sans la simplifier.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/neymar-psg-173-matches-heritage-records/",
+      "sources": [
+        {
+          "name": "PSG - Neymar Jr, eternal memories",
+          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+          "note": "Bilan officiel du club sur les matches, buts, passes et moments marquants."
+        },
+        {
+          "name": "Fiche Neymar PSG",
+          "url": "https://en.psg.fr/teams/first-team/squad/neymar-jr",
+          "note": "Repère biographique du passage parisien."
+        }
+      ],
+      "keywords": [
+        "Neymar PSG",
+        "Neymar statistiques PSG",
+        "Neymar 173 matchs PSG",
+        "Neymar buts PSG",
+        "anciens joueurs PSG"
+      ]
+    },
+    {
+      "id": "psg-837-millions-revenus-mercato-regle-uefa",
+      "category": "Économie PSG",
+      "angle": "Ce que les règles UEFA permettent de comprendre derrière le chiffre d'affaires record du PSG",
+      "date": "2026-10-08",
+      "dateLabel": "8 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "headline": "PSG : 837 M€ de revenus ne sont pas une enveloppe mercato",
+      "summary": "Le chiffre record impressionne. Pour comprendre ce qu'il change réellement, il faut séparer recettes, masse salariale, amortissement des transferts et contrôle des coûts d'effectif.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-837-millions-revenus-mercato-regle-uefa/",
+      "sources": [
+        {
+          "name": "PSG - saison économique record",
+          "url": "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026",
+          "note": "Chiffre d'affaires, revenus commerciaux, jours de match et masse salariale annoncés par le club."
+        },
+        {
+          "name": "UEFA - viabilité financière",
+          "url": "https://www.uefa.com/running-competitions/integrity/financial-sustainability/",
+          "note": "Présentation du cadre et du ratio de coûts d'effectif."
+        },
+        {
+          "name": "UEFA - article 93",
+          "url": "https://documents.uefa.com/r/Reglement-de-l-UEFA-sur-l-octroi-de-licence-aux-clubs-et-la-viabilite-financiere-2026/Article-93-Calcul-du-ratio-des-frais-lies-a-l-equipe-Online",
+          "note": "Définition réglementaire du calcul du ratio."
+        }
+      ],
+      "keywords": [
+        "PSG 837 millions",
+        "revenus PSG",
+        "mercato PSG finances",
+        "règles UEFA PSG",
+        "masse salariale PSG"
+      ]
+    },
     {
       "id": "mercato-psg-janvier-2027-effectif-24-joueurs-postes-priorites",
       "category": "Mercato PSG",

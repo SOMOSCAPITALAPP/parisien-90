@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-07T06:30:00+02:00",
-  edition: "Fil PSG du 7 octobre 2026",
-  displayDate: "7 octobre 2026",
+  updatedAt: "2026-10-08T06:30:00+02:00",
+  edition: "Fil PSG du 8 octobre 2026",
+  displayDate: "8 octobre 2026",
   displayTime: "6h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,11 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-08", "8 octobre 2026", [
+  { id: "rumeur-psg-janvier-2027-besoin-recrue-prudence", time: "06:30", category: "Rumeurs", title: "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?", summary: "Aucun dossier n'est confirmé par le PSG. Calendrier, effectif et répétition des besoins doivent compter davantage que les listes de noms avant le mercato d'hiver.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Analyse, aucune négociation affirmée", viral: 90 },
+  { id: "neymar-psg-173-matches-heritage-records", time: "06:30", category: "Anciens", title: "Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens", summary: "Avec 118 buts et 70 passes décisives, Neymar a profondément marqué Paris. Son héritage se relit entre nuits européennes, production exceptionnelle et continuité contrariée.", source: "PSG.fr / Parisien 90", url: "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories", reliability: "Bilan officiel du club, analyse", viral: 94 },
+  { id: "psg-837-millions-revenus-mercato-regle-uefa", time: "06:30", category: "Économie", title: "PSG : 837 M€ de revenus ne sont pas une enveloppe mercato", summary: "Le chiffre d'affaires record annoncé par Paris renforce ses moyens, mais revenu, trésorerie et capacité de recrutement restent trois réalités différentes sous le contrôle UEFA.", source: "PSG.fr / UEFA", url: "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026", reliability: "Chiffres officiels et cadre réglementaire", viral: 92 },
+  ]),
   ...withNewsDate("2026-10-07", "7 octobre 2026", [
   { id: "mercato-psg-janvier-2027-effectif-24-joueurs-postes-priorites", time: "06:30", category: "Mercato", title: "Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier", summary: "L'effectif officiel compte 24 joueurs avant une séquence dense. Plutôt qu'une liste de noms, Paris doit tester la couverture défensive, la création et la profondeur offensive pour construire son mercato d'hiver.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Analyse, aucune négociation affirmée", viral: 94 },
   { id: "effectif-psg-24-joueurs-hierarchie-retour-le-mans-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : qui peut gagner sa place au retour de la trêve ?", summary: "Le groupe officiel réunit 24 joueurs, mais les internationaux reviennent avec des charges différentes. Le Mans doit clarifier la hiérarchie avant Manchester City sans transformer la rotation en sanction.", source: "Parisien 90 — dossier sourcé", url: "https://www.psg.fr/football-masculin/effectif/season/2025-26", reliability: "Effectif officiel, analyse", viral: 92 },

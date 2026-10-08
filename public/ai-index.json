@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-07T06:30:00+02:00",
-    "freshnessNote": "Fil PSG du 7 octobre 2026. Fil public : 149 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 54 articles de fond sous /dossiers-psg/. À suivre : Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier ; Effectif PSG : qui peut gagner sa place au retour de la trêve ? ; PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City ; Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City ; Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-08T06:30:00+02:00",
+    "freshnessNote": "Fil PSG du 8 octobre 2026. Fil public : 152 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 57 articles de fond sous /dossiers-psg/. À suivre : Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ? ; Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens ; PSG : 837 M€ de revenus ne sont pas une enveloppe mercato ; Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier ; Effectif PSG : qui peut gagner sa place au retour de la trêve ?. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?",
+      "category": "Rumeurs",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "url": "https://parisien90.com/news/rumeur-psg-janvier-2027-besoin-recrue-prudence/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+      "reliability": "Analyse, aucune négociation affirmée"
+    },
+    {
+      "title": "Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens",
+      "category": "Anciens",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "url": "https://parisien90.com/news/neymar-psg-173-matches-heritage-records/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+      "reliability": "Bilan officiel du club, analyse"
+    },
+    {
+      "title": "PSG : 837 M€ de revenus ne sont pas une enveloppe mercato",
+      "category": "Économie",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "url": "https://parisien90.com/news/psg-837-millions-revenus-mercato-regle-uefa/",
+      "source": "PSG.fr / UEFA",
+      "sourceUrl": "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026",
+      "reliability": "Chiffres officiels et cadre réglementaire"
+    },
     {
       "title": "Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier",
       "category": "Mercato",
@@ -443,33 +470,6 @@
       "source": "L'Équipe / FFF",
       "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Blesse-a-un-adducteur-warren-zaire-emery-forfait-avec-l-equipe-de-france-et-remplace-par-maghnes-akliouche/1720298",
       "reliability": "Fort — forfait confirmé"
-    },
-    {
-      "title": "OM-PSG : Torres et Marquinhos offrent le Classique à Paris",
-      "category": "Match",
-      "dateTime": "2026-09-20T22:50:00+02:00",
-      "url": "https://parisien90.com/news/om-psg-victoire-torres-marquinhos-classique-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/marseille-vs-paris-2026-09-20",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "OM-PSG : Hakimi absent, Adam Mouak dans le groupe pour le Classique",
-      "category": "Groupe",
-      "dateTime": "2026-09-20T12:00:00+02:00",
-      "url": "https://parisien90.com/news/groupe-psg-marseille-classique-hakimi-mouak-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/en/content/paris-squad-for-le-classique-against-marseille-psg-om-ligue-1-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Avant OM-PSG, le Campus a donné de la voix à Paris",
-      "category": "Supporters",
-      "dateTime": "2026-09-19T11:34:00+02:00",
-      "url": "https://parisien90.com/news/supporters-campus-dernier-entrainement-om-psg-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/les-supporters-au-campus-avant-le-classique-psg-ligue-1-marseille-paris-saint-germain-2026-2027/",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -1934,6 +1934,92 @@
   },
   "editorialArticles": [
     {
+      "title": "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?",
+      "category": "Rumeurs PSG",
+      "angle": "Ce que le calendrier et l'effectif permettent vraiment d'anticiper avant janvier",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/rumeur-psg-janvier-2027-besoin-recrue-prudence/",
+      "summary": "L'effectif et les prochaines échéances donnent des repères concrets. Ils ne suffisent pas à annoncer une arrivée : le marché d'hiver ne commence pas par une liste de noms.",
+      "keywords": [
+        "rumeur PSG",
+        "mercato PSG janvier 2027",
+        "recrue PSG",
+        "effectif PSG",
+        "calendrier PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG - effectif masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+          "note": "Référence pour le groupe publié par le club."
+        },
+        {
+          "name": "PSG - calendrier masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/calendrier",
+          "note": "Référence pour les échéances officiellement programmées."
+        }
+      ]
+    },
+    {
+      "title": "Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens",
+      "category": "Anciens joueurs PSG",
+      "angle": "Les records et les nuances d'un passage qui a changé l'échelle du PSG",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/neymar-psg-173-matches-heritage-records/",
+      "summary": "Le passage de Neymar à Paris reste fait de sommets européens, de gestes devenus iconiques et de frustrations. Les chiffres donnent une base claire pour relire cette période sans la simplifier.",
+      "keywords": [
+        "Neymar PSG",
+        "Neymar statistiques PSG",
+        "Neymar 173 matchs PSG",
+        "Neymar buts PSG",
+        "anciens joueurs PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG - Neymar Jr, eternal memories",
+          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+          "note": "Bilan officiel du club sur les matches, buts, passes et moments marquants."
+        },
+        {
+          "name": "Fiche Neymar PSG",
+          "url": "https://en.psg.fr/teams/first-team/squad/neymar-jr",
+          "note": "Repère biographique du passage parisien."
+        }
+      ]
+    },
+    {
+      "title": "PSG : 837 M€ de revenus ne sont pas une enveloppe mercato",
+      "category": "Économie PSG",
+      "angle": "Ce que les règles UEFA permettent de comprendre derrière le chiffre d'affaires record du PSG",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-837-millions-revenus-mercato-regle-uefa/",
+      "summary": "Le chiffre record impressionne. Pour comprendre ce qu'il change réellement, il faut séparer recettes, masse salariale, amortissement des transferts et contrôle des coûts d'effectif.",
+      "keywords": [
+        "PSG 837 millions",
+        "revenus PSG",
+        "mercato PSG finances",
+        "règles UEFA PSG",
+        "masse salariale PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG - saison économique record",
+          "url": "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026",
+          "note": "Chiffre d'affaires, revenus commerciaux, jours de match et masse salariale annoncés par le club."
+        },
+        {
+          "name": "UEFA - viabilité financière",
+          "url": "https://www.uefa.com/running-competitions/integrity/financial-sustainability/",
+          "note": "Présentation du cadre et du ratio de coûts d'effectif."
+        },
+        {
+          "name": "UEFA - article 93",
+          "url": "https://documents.uefa.com/r/Reglement-de-l-UEFA-sur-l-octroi-de-licence-aux-clubs-et-la-viabilite-financiere-2026/Article-93-Calcul-du-ratio-des-frais-lies-a-l-equipe-Online",
+          "note": "Définition réglementaire du calcul du ratio."
+        }
+      ]
+    },
+    {
       "title": "Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier",
       "category": "Mercato PSG",
       "angle": "Bilan chiffré et besoins de l'effectif",
@@ -2491,115 +2577,19 @@
           "note": "Repères parisiens et liens vers l'histoire des Brésiliens du club."
         }
       ]
-    },
-    {
-      "title": "Parc des Princes : pourquoi le marathon d'octobre relance l'équation économique du PSG",
-      "category": "Économie du PSG",
-      "angle": "Stade, billetterie et modèle économique",
-      "dateTime": "2026-10-02T20:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/parc-des-princes-octobre-2026-economie-stade-psg/",
-      "summary": "Le Mans, Barcelone puis Lyon vont remplir l'agenda du Parc en octobre. Cette concentration rappelle que le stade n'est pas seulement un décor historique : il conditionne les recettes, l'expérience et une partie de l'avenir du PSG.",
-      "keywords": [
-        "Parc des Princes PSG",
-        "stade PSG",
-        "économie PSG",
-        "billetterie PSG",
-        "PSG Barcelone"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - calendrier 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Dates des rencontres d'octobre au Parc des Princes."
-        },
-        {
-          "name": "Conseil de Paris - vœu 2026 V.22",
-          "url": "https://a06-v7.apps.paris.fr/a06/jsp/site/plugins/solr/modules/ods/DoDownload.jsp?id_document=184739&items_per_page=20",
-          "note": "Document public sur le maintien du PSG au Parc, les négociations et les ordres de grandeur des travaux."
-        },
-        {
-          "name": "Parisien 90 - dossier futur stade",
-          "url": "/dossiers-psg/futur-stade-psg-parc-massy-poissy-equation-economique/",
-          "note": "Contexte éditorial complémentaire sur les différents scénarios."
-        }
-      ]
-    },
-    {
-      "title": "Michael Olise au PSG : pourquoi le dossier est séduisant, mais pas ouvert",
-      "category": "Mercato PSG",
-      "angle": "Rumeur, contrat et cohérence économique",
-      "dateTime": "2026-10-01T07:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/michael-olise-psg-rumeur-mercato-contrat-bayern/",
-      "summary": "Son but contre la Belgique a relancé les projections. Les faits disponibles racontent pourtant un joueur sous contrat jusqu'en 2029, central au Bayern, et un PSG qui possède déjà plusieurs créateurs dans les mêmes zones.",
-      "keywords": [
-        "Michael Olise PSG",
-        "mercato PSG",
-        "transfert Olise",
-        "rumeur PSG",
-        "Bayern Munich Olise"
-      ],
-      "sources": [
-        {
-          "name": "Bayern Munich - profil officiel de Michael Olise",
-          "url": "https://fcbayern.com/en/teams/first-team/michael-olise",
-          "note": "Durée de contrat, poste, parcours et rôle dans l'effectif bavarois."
-        },
-        {
-          "name": "CulturePSG - le PSG hors du dossier Olise ?",
-          "url": "https://www.culturepsg.com/ru/news/mercato/le-psg-hors-du-dossier-olise/60968",
-          "note": "État de la rumeur, projet de prolongation et clubs cités par la presse allemande."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Composition officielle du secteur offensif parisien."
-        },
-        {
-          "name": "UEFA - profil 2026-2027 d'Olise",
-          "url": "https://www.uefa.com/uefachampionsleague/clubs/players/250171184--michael-olise/",
-          "note": "Position et statistiques européennes officielles de la saison."
-        }
-      ]
-    },
-    {
-      "title": "Senny Mayulu sorti avant la pause : ce que le PSG sait, et ce qu'il faut éviter d'inventer",
-      "category": "Joueurs PSG",
-      "angle": "Temps de jeu, disponibilité et prudence médicale",
-      "dateTime": "2026-10-01T07:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/senny-mayulu-estonie-france-espoirs-sortie-psg/",
-      "summary": "Le remplacement précoce attire immédiatement l'attention, mais aucun diagnostic officiel ne permet de parler d'une blessure précise. Paris doit désormais évaluer un milieu devenu important dans sa rotation.",
-      "keywords": [
-        "Senny Mayulu PSG",
-        "blessure Mayulu",
-        "effectif PSG",
-        "France Espoirs Mayulu",
-        "milieu PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - Estonie 0-2 France Espoirs",
-          "url": "https://www.psg.fr/content/avec-mayulu-les-bleuets-simposent-en-estonie-paris-saint-germain-selections-20262027",
-          "note": "Titularisation, remplacement à la 42e minute et score officiel."
-        },
-        {
-          "name": "PSG.fr - le choix de la continuité",
-          "url": "https://www.psg.fr/content/le-choix-de-la-continuite-paris-saint-germain-20262027/",
-          "note": "Prolongation, parcours, matches, buts et description officielle du profil."
-        },
-        {
-          "name": "PSG.fr - calendrier masculin",
-          "url": "https://www.psg.fr/football-masculin/calendrier",
-          "note": "Dates officielles des rencontres d'octobre."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Place de Mayulu et composition actuelle du milieu parisien."
-        }
-      ]
     }
   ],
   "brazilNews": [
+    {
+      "title": "Neymar no PSG: o que seus 173 jogos por Paris realmente contam",
+      "category": "Ídolos",
+      "dateTime": "2026-10-08T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/neymar-psg-173-matches-heritage-records/",
+      "frenchUrl": "https://parisien90.com/news/neymar-psg-173-matches-heritage-records/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+      "reliability": "Bilan oficial du club, analyse"
+    },
     {
       "title": "PSG x Le Mans: como atacar um bloco baixo sem abrir a estrada para o City",
       "category": "Tática",
@@ -2714,7 +2704,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-07T06:30:00+02:00",
+    "updatedAt": "2026-10-08T06:30:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

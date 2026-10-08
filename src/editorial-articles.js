@@ -1,14 +1,16 @@
+import { editorialArticles20261008 } from "./editorial-articles-2026-10-08.js";
 import { editorialArticles20261007 } from "./editorial-articles-2026-10-07.js";
 
 export const editorialArticlesMeta = {
-  updatedAt: "2026-10-07T06:30:00+02:00",
-  displayDate: "7 octobre 2026",
+  updatedAt: "2026-10-08T06:30:00+02:00",
+  displayDate: "8 octobre 2026",
   displayTime: "6h30",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  ...editorialArticles20261008,
   ...editorialArticles20261007,
   {
     id: "luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026",

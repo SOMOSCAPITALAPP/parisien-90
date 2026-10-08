@@ -1,0 +1,24 @@
+{
+  "preparedAt": "2026-10-08T06:30:00+02:00",
+  "status": "prepared_not_contacted",
+  "policy": "Nenhum contato ou envio sem confirmação explícita do responsável pelo Parisien 90.",
+  "article": "https://parisien90.com/br/noticias-psg/neymar-psg-173-matches-heritage-records/",
+  "opportunities": [
+    {
+      "name": "PSG Supporters Club Rio de Janeiro",
+      "type": "supporters-club",
+      "verification": "Apresentado pelo site oficial do Paris Saint-Germain em 23 de março de 2025.",
+      "referenceUrl": "https://pt.psg.fr/clube/content/cristiano-le-plus-parisien-des-cariocas-club-paris-saint-germain-2024-2025",
+      "suggestedAngle": "Dossiê em português sobre a passagem de Neymar pelo PSG, com números atribuídos ao clube.",
+      "contactStatus": "not_contacted"
+    },
+    {
+      "name": "PSG Supporters Club São Paulo",
+      "type": "supporters-club",
+      "verification": "Listado na página oficial de Supporters Clubs do Paris Saint-Germain.",
+      "referenceUrl": "https://www.psg.fr/pt/fas/supporters-clubs",
+      "suggestedAngle": "Leitura histórica sobre Neymar e a ligação entre Paris e o futebol brasileiro.",
+      "contactStatus": "not_contacted"
+    }
+  ]
+}
