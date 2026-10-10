@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-09T06:30:00+02:00",
+    "lastVerifiedAt": "2026-10-10T06:30:00+02:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -81,6 +81,16 @@
     }
   ],
   "latestNews": [
+    {
+      "title": "PSG x Le Mans: por que a escalação só vale na hora oficial",
+      "summary": "O PSG enfrenta o Le Mans às 20h45. O match center oficial informa que as escalações saem uma hora antes do jogo; qualquer time divulgado antes é apenas projeção.",
+      "category": "Tática",
+      "dateTime": "2026-10-10T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-le-mans-composition-heure-avant-coup-envoi-2026/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+      "reliability": "Programação oficial, análise"
+    },
     {
       "title": "Elenco do PSG: antes do Le Mans, as funções valem mais que os nomes",
       "summary": "O PSG volta da Data Fifa contra o Le Mans. Mais do que listar opções, Paris precisa recuperar conexões entre defesa, meio e ataque antes de uma sequência pesada.",
@@ -319,7 +329,7 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-09T06:30:00+02:00",
+    "updatedAt": "2026-10-10T06:30:00+02:00",
     "totalFixtures": 52,
     "nextFixtures": [
       {

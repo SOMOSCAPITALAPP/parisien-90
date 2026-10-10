@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site couvre clairement les grands sujets PSG : transfert PSG, mercato PSG, actualité PSG, viral PSG, buzz PSG, débat PSG, vidéos PSG, YouTube PSG, chaînes PSG, calendrier PSG, calendrier PSG 2026-2027, joueurs PSG, effectif PSG, fiches joueurs, anciens joueurs PSG, histoire PSG, records PSG, meilleur buteur PSG, joueur le plus capé PSG, Brésiliens PSG et Argentins PSG.
 
-## Repère éditorial — 9 octobre 2026, 6h30 (Europe/Paris)
+## Repère éditorial — 10 octobre 2026, 6h30 (Europe/Paris)
 
-Fil PSG du 9 octobre 2026. Fil public : 155 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 60 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze ; Effectif PSG : avant Le Mans, les rôles comptent plus que les noms ; Mercato PSG : en janvier, la meilleure recrue sera-t-elle déjà dans l'effectif ? ; Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ? ; Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Fil PSG du 10 octobre 2026. Fil public : 158 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes ; Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze ; Effectif PSG : avant Le Mans, les rôles comptent plus que les noms. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en grandes rubriques, avec titres explicites, descriptions, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et page vidéos PSG/YouTube.
 

@@ -1,6 +1,7 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { allTimePsgPlayers, allTimePsgPlayersMeta } from "../src/all-time-psg-players.js";
 import { brEditorialArticles, brEditorialArticlesMeta } from "../src/br-editorial-articles.js";
+import { brNewsTranslations20261010 } from "../src/br-news-translations-2026-10-10.js";
 import { brNewsTranslations20261009 } from "../src/br-news-translations-2026-10-09.js";
 import { brNewsTranslations20261008 } from "../src/br-news-translations-2026-10-08.js";
 import { brNewsTranslations20261007 } from "../src/br-news-translations-2026-10-07.js";
@@ -1442,6 +1443,7 @@ const brSourceLabel = (value) =>
     .replace("Parisien 90 — dossier sourcé", "Parisien 90 — dossiê com fontes");
 
 const brStoryTranslations = [
+  ...brNewsTranslations20261010,
   ...brNewsTranslations20261009,
   ...brNewsTranslations20261008,
   ...brNewsTranslations20261007,

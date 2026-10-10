@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-09T06:30:00+02:00",
-  edition: "Fil PSG du 9 octobre 2026",
-  displayDate: "9 octobre 2026",
+  updatedAt: "2026-10-10T06:30:00+02:00",
+  edition: "Fil PSG du 10 octobre 2026",
+  displayDate: "10 octobre 2026",
   displayTime: "6h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,11 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-10", "10 octobre 2026", [
+  { id: "psg-le-mans-composition-heure-avant-coup-envoi-2026", time: "06:30", category: "Tactique", title: "PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle", summary: "Les compositions sortent une heure avant le coup d'envoi. Avant cela, il faut séparer les projections de l'information confirmée.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10", reliability: "Programme officiel, analyse", viral: 91 },
+  { id: "effectif-psg-veille-le-mans-continuites-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : les cinq continuités à protéger avant Le Mans", summary: "Relance, couvertures, rythme et entrées de banc : le PSG doit retrouver ses liens collectifs au retour de trêve.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Effectif officiel, analyse", viral: 90 },
+  { id: "mercato-psg-bilan-ete-2026-temps-de-jeu-janvier", time: "06:30", category: "Mercato", title: "Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes", summary: "Les choix estivaux doivent désormais être jugés par les rôles, les minutes et la continuité de jeu, pas seulement par les annonces.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Analyse, aucune négociation affirmée", viral: 89 },
+  ]),
   ...withNewsDate("2026-10-09", "9 octobre 2026", [
   { id: "luis-enrique-psg-conference-le-mans-questions-octobre-2026", time: "06:30", category: "Entraîneurs", title: "Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze", summary: "La conférence précède la réception de Le Mans. Elle peut éclairer les retours et la gestion de la reprise, sans remplacer le groupe ni la composition officielle.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026", reliability: "Programme officiel, analyse", viral: 92 },
   { id: "effectif-psg-le-mans-retour-treve-roles-octobre-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : avant Le Mans, les rôles comptent plus que les noms", summary: "Paris reprend après la trêve : défense, milieu et attaque doivent retrouver leurs connexions avant une séquence qui enchaîne Ligue 1 et Europe.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Effectif officiel, analyse", viral: 91 },
