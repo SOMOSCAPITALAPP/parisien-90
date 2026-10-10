@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-10-10T06:30:00+02:00",
-    "freshnessNote": "Fil PSG du 10 octobre 2026. Fil public : 158 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes ; Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze ; Effectif PSG : avant Le Mans, les rôles comptent plus que les noms. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 10 octobre 2026. Fil public : 158 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes ; Luis Enrique prévient : Le Mans est un vrai test à ne pas sous-estimer ; Effectif PSG : avant Le Mans, les rôles comptent plus que les noms. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -229,13 +229,13 @@
       "reliability": "Analyse, aucune négociation affirmée"
     },
     {
-      "title": "Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze",
+      "title": "Luis Enrique prévient : Le Mans est un vrai test à ne pas sous-estimer",
       "category": "Entraîneurs",
-      "dateTime": "2026-10-09T06:30:00+02:00",
+      "dateTime": "2026-10-09T13:00:00+02:00",
       "url": "https://parisien90.com/news/luis-enrique-psg-conference-le-mans-questions-octobre-2026/",
-      "source": "PSG.fr / Parisien 90",
-      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
-      "reliability": "Programme officiel, analyse"
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-nous-voulons-monter-au-classement-paris-saint-germain-le-mans-fc-conference-de-presse-ligue-1-20262027",
+      "reliability": "Officiel — conférence de presse"
     },
     {
       "title": "Effectif PSG : avant Le Mans, les rôles comptent plus que les noms",
