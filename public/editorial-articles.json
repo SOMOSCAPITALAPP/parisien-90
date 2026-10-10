@@ -1,11 +1,104 @@
 {
-  "updatedAt": "2026-10-08T06:30:00+02:00",
-  "displayDate": "8 octobre 2026",
+  "updatedAt": "2026-10-09T06:30:00+02:00",
+  "displayDate": "9 octobre 2026",
   "displayTime": "6h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 57,
+  "count": 60,
   "items": [
+    {
+      "id": "luis-enrique-psg-conference-le-mans-questions-octobre-2026",
+      "category": "Entraîneurs PSG",
+      "angle": "La prise de parole de Luis Enrique avant la reprise",
+      "date": "2026-10-09",
+      "dateLabel": "9 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "headline": "Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze",
+      "summary": "La conférence ne livrera pas forcément une composition. Elle peut éclairer les retours de sélection, la gestion des minutes et la priorité donnée à un match de Ligue 1 coincé avant Manchester City.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/luis-enrique-psg-conference-le-mans-questions-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Horaires de conférence, entraînement et match."
+        },
+        {
+          "name": "PSG - la semaine du club",
+          "url": "https://www.psg.fr/content/semaine-du-paris-saint-germain-le-mans-celje-toulouse-caen-orleans-ligue-1-starligue-ehf-champions-league-centre-de-formation-2026-2027",
+          "note": "Contexte officiel du retour à la compétition."
+        }
+      ],
+      "keywords": [
+        "Luis Enrique PSG",
+        "conférence Luis Enrique",
+        "PSG Le Mans",
+        "composition PSG",
+        "entraîneur PSG"
+      ]
+    },
+    {
+      "id": "effectif-psg-le-mans-retour-treve-roles-octobre-2026",
+      "category": "Joueurs PSG",
+      "angle": "Les fonctions à stabiliser au retour de la trêve",
+      "date": "2026-10-09",
+      "dateLabel": "9 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "headline": "Effectif PSG : avant Le Mans, les rôles comptent plus que les noms",
+      "summary": "Dans un effectif ambitieux, la profondeur se juge dans la complémentarité, la fraîcheur et la capacité à conserver une structure. Le retour au Parc apportera les premières réponses.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/effectif-psg-le-mans-retour-treve-roles-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG - effectif masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+          "note": "Groupe publié par le club."
+        },
+        {
+          "name": "PSG - programme média",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Cadre officiel de la semaine."
+        }
+      ],
+      "keywords": [
+        "effectif PSG",
+        "joueurs PSG",
+        "PSG Le Mans",
+        "composition PSG",
+        "retour trêve PSG"
+      ]
+    },
+    {
+      "id": "mercato-psg-janvier-2027-contrats-roles-patience",
+      "category": "Mercato PSG",
+      "angle": "Le marché d'hiver vu par les besoins de jeu et la place disponible",
+      "date": "2026-10-09",
+      "dateLabel": "9 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "headline": "Mercato PSG : en janvier, la meilleure recrue sera-t-elle déjà dans l'effectif ?",
+      "summary": "Le marché d'hiver peut corriger une faille, mais il ne remplace pas un diagnostic. Calendrier, contrats, hiérarchie et progression interne doivent guider la décision parisienne.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-contrats-roles-patience/",
+      "sources": [
+        {
+          "name": "PSG - effectif masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+          "note": "Point de départ officiel pour le groupe disponible."
+        },
+        {
+          "name": "PSG - calendrier masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/calendrier",
+          "note": "Échéances qui permettent d'évaluer les rôles."
+        }
+      ],
+      "keywords": [
+        "PSG mercato",
+        "mercato PSG janvier 2027",
+        "transfert PSG",
+        "effectif PSG",
+        "recrue PSG"
+      ]
+    },
     {
       "id": "rumeur-psg-janvier-2027-besoin-recrue-prudence",
       "category": "Rumeurs PSG",

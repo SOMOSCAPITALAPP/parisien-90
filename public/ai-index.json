@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-08T06:30:00+02:00",
-    "freshnessNote": "Fil PSG du 8 octobre 2026. Fil public : 152 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 57 articles de fond sous /dossiers-psg/. À suivre : Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ? ; Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens ; PSG : 837 M€ de revenus ne sont pas une enveloppe mercato ; Mercato PSG : les 24 joueurs qui doivent décider les priorités de janvier ; Effectif PSG : qui peut gagner sa place au retour de la trêve ?. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-09T06:30:00+02:00",
+    "freshnessNote": "Fil PSG du 9 octobre 2026. Fil public : 155 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 60 articles de fond sous /dossiers-psg/. À suivre : Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze ; Effectif PSG : avant Le Mans, les rôles comptent plus que les noms ; Mercato PSG : en janvier, la meilleure recrue sera-t-elle déjà dans l'effectif ? ; Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ? ; Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze",
+      "category": "Entraîneurs",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-psg-conference-le-mans-questions-octobre-2026/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+      "reliability": "Programme officiel, analyse"
+    },
+    {
+      "title": "Effectif PSG : avant Le Mans, les rôles comptent plus que les noms",
+      "category": "Joueurs",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/news/effectif-psg-le-mans-retour-treve-roles-octobre-2026/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+      "reliability": "Effectif officiel, analyse"
+    },
+    {
+      "title": "Mercato PSG : en janvier, la meilleure recrue sera-t-elle déjà dans l'effectif ?",
+      "category": "Mercato",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/news/mercato-psg-janvier-2027-contrats-roles-patience/",
+      "source": "Parisien 90 — analyse sourcée",
+      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+      "reliability": "Analyse, aucune négociation affirmée"
+    },
     {
       "title": "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?",
       "category": "Rumeurs",
@@ -443,33 +470,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/les-bleus-secure-the-win-in-tuerkiye-as-dembele-starts-for-france-uefa-nations-league-psg-international-2026",
       "reliability": "Officiel"
-    },
-    {
-      "title": "Trêve internationale : 19 Parisiens sur les routes, Dembélé et Doué avec les Bleus",
-      "category": "Sélections",
-      "dateTime": "2026-09-24T12:00:00+02:00",
-      "url": "https://parisien90.com/news/psg-programme-19-internationaux-treve-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-septembre-paris-saint-germain-selections-20262027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Real Madrid-PSG féminin : Karchaoui répond, Paris ramène un point de caractère",
-      "category": "Féminines",
-      "dateTime": "2026-09-22T23:00:00+02:00",
-      "url": "https://parisien90.com/news/real-madrid-psg-feminin-nul-karchaoui-uwcl-septembre-2026/",
-      "source": "PSG.fr / UEFA",
-      "sourceUrl": "https://www.psg.fr/content/compte-rendu-real-madrid-cf-paris-saint-germain-feminin-uefa-womens-champions-league-2026-2027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Zaïre-Emery forfait avec les Bleus : Paris surveille son adducteur",
-      "category": "Sélections",
-      "dateTime": "2026-09-21T14:13:00+02:00",
-      "url": "https://parisien90.com/news/warren-zaire-emery-forfait-bleus-adducteur-septembre-2026/",
-      "source": "L'Équipe / FFF",
-      "sourceUrl": "https://www.lequipe.fr/Football/Actualites/Blesse-a-un-adducteur-warren-zaire-emery-forfait-avec-l-equipe-de-france-et-remplace-par-maghnes-akliouche/1720298",
-      "reliability": "Fort — forfait confirmé"
     }
   ],
   "people": [
@@ -1934,6 +1934,87 @@
   },
   "editorialArticles": [
     {
+      "title": "Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze",
+      "category": "Entraîneurs PSG",
+      "angle": "La prise de parole de Luis Enrique avant la reprise",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/luis-enrique-psg-conference-le-mans-questions-octobre-2026/",
+      "summary": "La conférence ne livrera pas forcément une composition. Elle peut éclairer les retours de sélection, la gestion des minutes et la priorité donnée à un match de Ligue 1 coincé avant Manchester City.",
+      "keywords": [
+        "Luis Enrique PSG",
+        "conférence Luis Enrique",
+        "PSG Le Mans",
+        "composition PSG",
+        "entraîneur PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG - programme média du 5 au 11 octobre",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Horaires de conférence, entraînement et match."
+        },
+        {
+          "name": "PSG - la semaine du club",
+          "url": "https://www.psg.fr/content/semaine-du-paris-saint-germain-le-mans-celje-toulouse-caen-orleans-ligue-1-starligue-ehf-champions-league-centre-de-formation-2026-2027",
+          "note": "Contexte officiel du retour à la compétition."
+        }
+      ]
+    },
+    {
+      "title": "Effectif PSG : avant Le Mans, les rôles comptent plus que les noms",
+      "category": "Joueurs PSG",
+      "angle": "Les fonctions à stabiliser au retour de la trêve",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/effectif-psg-le-mans-retour-treve-roles-octobre-2026/",
+      "summary": "Dans un effectif ambitieux, la profondeur se juge dans la complémentarité, la fraîcheur et la capacité à conserver une structure. Le retour au Parc apportera les premières réponses.",
+      "keywords": [
+        "effectif PSG",
+        "joueurs PSG",
+        "PSG Le Mans",
+        "composition PSG",
+        "retour trêve PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG - effectif masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+          "note": "Groupe publié par le club."
+        },
+        {
+          "name": "PSG - programme média",
+          "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
+          "note": "Cadre officiel de la semaine."
+        }
+      ]
+    },
+    {
+      "title": "Mercato PSG : en janvier, la meilleure recrue sera-t-elle déjà dans l'effectif ?",
+      "category": "Mercato PSG",
+      "angle": "Le marché d'hiver vu par les besoins de jeu et la place disponible",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-contrats-roles-patience/",
+      "summary": "Le marché d'hiver peut corriger une faille, mais il ne remplace pas un diagnostic. Calendrier, contrats, hiérarchie et progression interne doivent guider la décision parisienne.",
+      "keywords": [
+        "PSG mercato",
+        "mercato PSG janvier 2027",
+        "transfert PSG",
+        "effectif PSG",
+        "recrue PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG - effectif masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+          "note": "Point de départ officiel pour le groupe disponible."
+        },
+        {
+          "name": "PSG - calendrier masculin",
+          "url": "https://www.psg.fr/equipes/equipe-premiere/calendrier",
+          "note": "Échéances qui permettent d'évaluer les rôles."
+        }
+      ]
+    },
+    {
       "title": "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?",
       "category": "Rumeurs PSG",
       "angle": "Ce que le calendrier et l'effectif permettent vraiment d'anticiper avant janvier",
@@ -2476,110 +2557,19 @@
           "note": "Séquence de six matches en octobre."
         }
       ]
-    },
-    {
-      "title": "Mercato PSG janvier 2027 : les départs compteront-ils plus que les arrivées ?",
-      "category": "Mercato PSG",
-      "angle": "Départs, prêts et gestion d'effectif",
-      "dateTime": "2026-10-03T06:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-departs-prets-concurrence/",
-      "summary": "L'effectif est riche, les contrats sont longs et plusieurs jeunes réclament du terrain. Le prochain mercato parisien pourrait se jouer moins sur un grand nom que sur la capacité à organiser les sorties utiles.",
-      "keywords": [
-        "mercato PSG janvier 2027",
-        "départ PSG",
-        "prêt PSG",
-        "transfert PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - effectif 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-          "note": "Liste officielle utilisée pour mesurer la densité du groupe."
-        },
-        {
-          "name": "PSG.fr - prolongations et continuité",
-          "url": "https://www.psg.fr/en/content/pr-choosing-continuity",
-          "note": "Durées de contrat annoncées pour l'entraîneur et cinq joueurs."
-        },
-        {
-          "name": "PSG.fr - arrivée de Ferran Torres",
-          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
-          "note": "Contrat jusqu'en 2031 et rôle offensif officiel."
-        },
-        {
-          "name": "PSG.fr - calendrier 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Séquence utilisée pour observer la répartition des minutes."
-        }
-      ]
-    },
-    {
-      "title": "Mercato PSG janvier 2027 : Paris a-t-il vraiment besoin d'un nouvel attaquant ?",
-      "category": "Mercato PSG",
-      "angle": "Analyse des besoins et niveau de fiabilité",
-      "dateTime": "2026-10-02T20:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-janvier-2027-attaquant-priorite-rumeurs/",
-      "summary": "Le marché d'hiver n'est pas encore ouvert, mais les noms circulent déjà. Avant de transformer chaque piste en feuilleton, il faut poser la seule question utile : quel problème précis le PSG chercherait-il à résoudre ?",
-      "keywords": [
-        "mercato PSG janvier 2027",
-        "transfert PSG",
-        "attaquant PSG",
-        "rumeur PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif",
-          "note": "Composition officielle du groupe et profils offensifs disponibles."
-        },
-        {
-          "name": "PSG.fr - calendrier 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Séquence d'octobre utilisée pour évaluer la profondeur du groupe."
-        },
-        {
-          "name": "L'Équipe - un attaquant supplémentaire envisagé",
-          "url": "https://www.lequipe.fr/Football/Article/Mercato-malgre-ses-tentatives-de-derniere-minute-le-psg-devra-attendre-l-hiver-pour-s-offrir-un-attaquant-de-plus/1715316",
-          "note": "Signal de presse du 2 septembre sur une réflexion reportée à l'hiver, sans officialisation."
-        }
-      ]
-    },
-    {
-      "title": "Neymar en 2026 : ce que son retour à Santos change dans l'héritage laissé au PSG",
-      "category": "Anciens joueurs PSG",
-      "angle": "Que devient Neymar ?",
-      "dateTime": "2026-10-02T20:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/neymar-santos-2026-bilan-heritage-psg/",
-      "summary": "À 34 ans, Neymar a choisi de prolonger avec Santos jusqu'à la fin de 2026. Sa trajectoire actuelle ne réécrit pas ses années parisiennes, mais elle aide à mieux comprendre ce que le PSG a gagné, perdu et conservé de son passage.",
-      "keywords": [
-        "Neymar PSG",
-        "Neymar Santos 2026",
-        "ancien joueur PSG",
-        "Neymar aujourd'hui",
-        "Brésiliens PSG"
-      ],
-      "sources": [
-        {
-          "name": "Santos FC - prolongation de Neymar",
-          "url": "https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/",
-          "note": "Communiqué officiel du 6 janvier 2026 sur le contrat et le projet sportif."
-        },
-        {
-          "name": "CBF - fiche Neymar 2026",
-          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
-          "note": "Club actuel et repères statistiques publics affichés pour 2026."
-        },
-        {
-          "name": "Parisien 90 - fiche Neymar PSG",
-          "url": "/anciens-joueurs-psg/neymar/",
-          "note": "Repères parisiens et liens vers l'histoire des Brésiliens du club."
-        }
-      ]
     }
   ],
   "brazilNews": [
+    {
+      "title": "Elenco do PSG: antes do Le Mans, as funções valem mais que os nomes",
+      "category": "Jogadores",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/effectif-psg-le-mans-retour-treve-roles-octobre-2026/",
+      "frenchUrl": "https://parisien90.com/news/effectif-psg-le-mans-retour-treve-roles-octobre-2026/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+      "reliability": "Elenco oficial, análise"
+    },
     {
       "title": "Neymar no PSG: o que seus 173 jogos por Paris realmente contam",
       "category": "Ídolos",
@@ -2704,7 +2694,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-08T06:30:00+02:00",
+    "updatedAt": "2026-10-09T06:30:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

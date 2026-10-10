@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-08T06:30:00+02:00",
+    "lastVerifiedAt": "2026-10-09T06:30:00+02:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -81,6 +81,16 @@
     }
   ],
   "latestNews": [
+    {
+      "title": "Elenco do PSG: antes do Le Mans, as funções valem mais que os nomes",
+      "summary": "O PSG volta da Data Fifa contra o Le Mans. Mais do que listar opções, Paris precisa recuperar conexões entre defesa, meio e ataque antes de uma sequência pesada.",
+      "category": "Jogadores",
+      "dateTime": "2026-10-09T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/effectif-psg-le-mans-retour-treve-roles-octobre-2026/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
+      "reliability": "Elenco oficial, análise"
+    },
     {
       "title": "Neymar no PSG: o que seus 173 jogos por Paris realmente contam",
       "summary": "Com 118 gols e 70 assistências, Neymar deixou uma marca estatística e cultural enorme no PSG. O retrato completo inclui noites europeias memoráveis, lesões e uma ligação duradoura entre Paris e o Brasil.",
@@ -309,7 +319,7 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-08T06:30:00+02:00",
+    "updatedAt": "2026-10-09T06:30:00+02:00",
     "totalFixtures": 52,
     "nextFixtures": [
       {

@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-08T06:30:00+02:00",
-  edition: "Fil PSG du 8 octobre 2026",
-  displayDate: "8 octobre 2026",
+  updatedAt: "2026-10-09T06:30:00+02:00",
+  edition: "Fil PSG du 9 octobre 2026",
+  displayDate: "9 octobre 2026",
   displayTime: "6h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,11 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-09", "9 octobre 2026", [
+  { id: "luis-enrique-psg-conference-le-mans-questions-octobre-2026", time: "06:30", category: "Entraîneurs", title: "Luis Enrique avant Le Mans : les trois réponses que Paris attend sans deviner le onze", summary: "La conférence précède la réception de Le Mans. Elle peut éclairer les retours et la gestion de la reprise, sans remplacer le groupe ni la composition officielle.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026", reliability: "Programme officiel, analyse", viral: 92 },
+  { id: "effectif-psg-le-mans-retour-treve-roles-octobre-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : avant Le Mans, les rôles comptent plus que les noms", summary: "Paris reprend après la trêve : défense, milieu et attaque doivent retrouver leurs connexions avant une séquence qui enchaîne Ligue 1 et Europe.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Effectif officiel, analyse", viral: 91 },
+  { id: "mercato-psg-janvier-2027-contrats-roles-patience", time: "06:30", category: "Mercato", title: "Mercato PSG : en janvier, la meilleure recrue sera-t-elle déjà dans l'effectif ?", summary: "Aucune arrivée n'est confirmée. Avant de recruter, Paris doit identifier les rôles à couvrir, les minutes disponibles et les réponses qui peuvent venir de l'intérieur.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Analyse, aucune négociation affirmée", viral: 90 },
+  ]),
   ...withNewsDate("2026-10-08", "8 octobre 2026", [
   { id: "rumeur-psg-janvier-2027-besoin-recrue-prudence", time: "06:30", category: "Rumeurs", title: "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?", summary: "Aucun dossier n'est confirmé par le PSG. Calendrier, effectif et répétition des besoins doivent compter davantage que les listes de noms avant le mercato d'hiver.", source: "Parisien 90 — analyse sourcée", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Analyse, aucune négociation affirmée", viral: 90 },
   { id: "neymar-psg-173-matches-heritage-records", time: "06:30", category: "Anciens", title: "Neymar au PSG : ce que racontent vraiment ses 173 matches parisiens", summary: "Avec 118 buts et 70 passes décisives, Neymar a profondément marqué Paris. Son héritage se relit entre nuits européennes, production exceptionnelle et continuité contrariée.", source: "PSG.fr / Parisien 90", url: "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories", reliability: "Bilan officiel du club, analyse", viral: 94 },
