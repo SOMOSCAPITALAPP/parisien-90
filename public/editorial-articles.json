@@ -1,11 +1,92 @@
 {
-  "updatedAt": "2026-10-10T06:30:00+02:00",
-  "displayDate": "10 octobre 2026",
+  "updatedAt": "2026-10-11T06:30:00+02:00",
+  "displayDate": "11 octobre 2026",
   "displayTime": "6h30",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 63,
+  "count": 66,
   "items": [
+    {
+      "id": "psg-le-mans-3-1-akliouche-kvaratskhelia-beraldo-analyse",
+      "category": "Tactique PSG",
+      "angle": "Lecture du succès parisien avant Manchester City",
+      "date": "2026-10-11",
+      "dateLabel": "11 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-11T06:30:00+02:00",
+      "headline": "PSG-Le Mans 3-1 : Paris gagne, mais surtout retrouve ses réponses",
+      "summary": "Le score compte, mais la séquence entre l'égalisation mancelle et les deux buts parisiens révèle une équipe qui a su reprendre le contrôle.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-le-mans-3-1-akliouche-kvaratskhelia-beraldo-analyse/",
+      "sources": [
+        {
+          "name": "PSG - match center Paris-Le Mans",
+          "url": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+          "note": "Score, buteurs et déroulé officiel."
+        }
+      ],
+      "keywords": [
+        "PSG Le Mans",
+        "PSG 3-1 Le Mans",
+        "Akliouche PSG",
+        "Kvaratskhelia PSG",
+        "tactique PSG"
+      ]
+    },
+    {
+      "id": "neymar-santos-2026-cbf-retour-actuel",
+      "category": "Anciens joueurs PSG",
+      "angle": "Neymar entre Santos et mémoire parisienne",
+      "date": "2026-10-11",
+      "dateLabel": "11 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-11T06:30:00+02:00",
+      "headline": "Neymar en 2026 : ce que son présent à Santos rappelle au PSG",
+      "summary": "Le présent de Neymar ne change pas ses 173 matches avec Paris, mais il remet en lumière le lien entre le PSG, Santos et une génération de supporters brésiliens.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/neymar-santos-2026-cbf-retour-actuel/",
+      "sources": [
+        {
+          "name": "CBF - fiche Neymar",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791",
+          "note": "Club actuel et résultats 2026."
+        },
+        {
+          "name": "PSG - Neymar Jr, eternal memories",
+          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
+          "note": "Bilan parisien officiel."
+        }
+      ],
+      "keywords": [
+        "Neymar PSG",
+        "Neymar Santos 2026",
+        "Neymar statistiques PSG",
+        "anciens joueurs PSG"
+      ]
+    },
+    {
+      "id": "psg-837-millions-revenus-marque-monde-2026",
+      "category": "Économie PSG",
+      "angle": "Lire le record de revenus au-delà du mercato",
+      "date": "2026-10-11",
+      "dateLabel": "11 octobre 2026",
+      "time": "06:30",
+      "dateTime": "2026-10-11T06:30:00+02:00",
+      "headline": "PSG : ce que 837 M€ de revenus changent vraiment à l'échelle mondiale",
+      "summary": "Boutiques, clubs de supporters, académies et matchday : le chiffre d'affaires raconte une marque mondiale, dont l'ambition doit rester reliée au terrain.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-837-millions-revenus-marque-monde-2026/",
+      "sources": [
+        {
+          "name": "PSG - saison économique record",
+          "url": "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026",
+          "note": "Revenus et développement international annoncés par le club."
+        }
+      ],
+      "keywords": [
+        "valorisation PSG",
+        "PSG 837 millions",
+        "revenus PSG",
+        "marque PSG"
+      ]
+    },
     {
       "id": "psg-le-mans-composition-heure-avant-coup-envoi-2026",
       "category": "Tactique PSG",

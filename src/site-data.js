@@ -323,9 +323,9 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-10T06:30:00+02:00",
-  edition: "Fil PSG du 10 octobre 2026",
-  displayDate: "10 octobre 2026",
+  updatedAt: "2026-10-11T06:30:00+02:00",
+  edition: "Fil PSG du 11 octobre 2026",
+  displayDate: "11 octobre 2026",
   displayTime: "6h30",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
@@ -333,6 +333,11 @@ export const newsMeta = {
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-11", "11 octobre 2026", [
+  { id: "psg-le-mans-3-1-akliouche-kvaratskhelia-beraldo-analyse", time: "06:30", category: "Tactique", title: "PSG-Le Mans 3-1 : Paris gagne, mais surtout retrouve ses réponses", summary: "Beraldo, Kvaratskhelia et Akliouche ont marqué. La réaction parisienne après l'égalisation donne une base avant Manchester City.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10", reliability: "Résultat officiel, analyse", viral: 94 },
+  { id: "neymar-santos-2026-cbf-retour-actuel", time: "06:30", category: "Anciens", title: "Neymar en 2026 : ce que son présent à Santos rappelle au PSG", summary: "La CBF présente Neymar comme joueur de Santos. Son présent brésilien permet de relire avec nuance l'héritage laissé à Paris.", source: "CBF / PSG.fr", url: "https://www.cbf.com.br/futebol-brasileiro/atletas/copa-do-brasil/masculino/2026/292791", reliability: "Sources institutionnelles, analyse", viral: 93 },
+  { id: "psg-837-millions-revenus-marque-monde-2026", time: "06:30", category: "Économie", title: "PSG : ce que 837 M€ de revenus changent vraiment à l'échelle mondiale", summary: "Le record de revenus confirme une marque mondiale, sans constituer une enveloppe automatique de transferts ou une garantie de résultats.", source: "PSG.fr", url: "https://www.psg.fr/content/le-paris-saint-germain-signe-une-saison-record-sur-le-plan-economique-et-confirme-son-modele-de-croissance-20252026", reliability: "Chiffres officiels, analyse", viral: 91 },
+  ]),
   ...withNewsDate("2026-10-10", "10 octobre 2026", [
   { id: "psg-le-mans-composition-heure-avant-coup-envoi-2026", time: "06:30", category: "Tactique", title: "PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle", summary: "Les compositions sortent une heure avant le coup d'envoi. Avant cela, il faut séparer les projections de l'information confirmée.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10", reliability: "Programme officiel, analyse", viral: 91 },
   { id: "effectif-psg-veille-le-mans-continuites-2026", time: "06:30", category: "Joueurs", title: "Effectif PSG : les cinq continuités à protéger avant Le Mans", summary: "Relance, couvertures, rythme et entrées de banc : le PSG doit retrouver ses liens collectifs au retour de trêve.", source: "PSG.fr / Parisien 90", url: "https://www.psg.fr/equipes/equipe-premiere/effectif", reliability: "Effectif officiel, analyse", viral: 90 },

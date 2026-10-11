@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-10T06:30:00+02:00",
+    "lastVerifiedAt": "2026-10-11T06:30:00+02:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -81,6 +81,16 @@
     }
   ],
   "latestNews": [
+    {
+      "title": "PSG 3 x 1 Le Mans: Paris reage e encontra respostas antes do City",
+      "summary": "Beraldo, Kvaratskhelia e Akliouche marcaram na vitória do PSG. A reação após o empate do Le Mans dá uma base útil para a viagem a Manchester.",
+      "category": "Tática",
+      "dateTime": "2026-10-11T06:30:00+02:00",
+      "url": "https://parisien90.com/br/noticias-psg/psg-le-mans-3-1-akliouche-kvaratskhelia-beraldo-analyse/",
+      "source": "PSG.fr / Parisien 90",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
+      "reliability": "Résultat oficial, analyse"
+    },
     {
       "title": "PSG x Le Mans: por que a escalação só vale na hora oficial",
       "summary": "O PSG enfrenta o Le Mans às 20h45. O match center oficial informa que as escalações saem uma hora antes do jogo; qualquer time divulgado antes é apenas projeção.",
@@ -329,20 +339,9 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-10T06:30:00+02:00",
+    "updatedAt": "2026-10-11T06:30:00+02:00",
     "totalFixtures": 52,
     "nextFixtures": [
-      {
-        "date": "2026-10-10",
-        "time": "20:45",
-        "competition": "Ligue 1",
-        "home": "Paris Saint-Germain",
-        "away": "Le Mans FC",
-        "venue": "Parc des Princes",
-        "status": "Marcado",
-        "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
-      },
       {
         "date": "2026-10-14",
         "time": "21:00",
@@ -416,6 +415,17 @@
         "home": "Paris Saint-Germain",
         "away": "ESTAC Troyes",
         "venue": "Parc des Princes",
+        "status": "Horário a confirmar",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-11-21",
+        "time": "A confirmar",
+        "competition": "Ligue 1",
+        "home": "OGC Nice",
+        "away": "Paris Saint-Germain",
+        "venue": "Allianz Riviera",
         "status": "Horário a confirmar",
         "source": null,
         "sourceUrl": null
