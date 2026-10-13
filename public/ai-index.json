@@ -11,7 +11,7 @@
       "lecteurs en recherche de synthèse"
     ],
     "lastVerifiedAt": "2026-10-11T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 10 octobre 2026. Fil public : 159 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche ; PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes ; Luis Enrique prévient : Le Mans est un vrai test à ne pas sous-estimer. Synthèses originales, sourcées et liées.",
+    "freshnessNote": "Fil PSG du 10 octobre 2026. Fil public : 160 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents ; PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche ; PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents",
+      "category": "Groupe",
+      "dateTime": "2026-10-13T11:24:00+02:00",
+      "url": "https://parisien90.com/news/groupe-psg-manchester-city-mayulu-longoni-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-le-deplacement-a-manchester-city-ucl-psg-2026-2027",
+      "reliability": "Officiel — groupe et absences confirmés"
+    },
     {
       "title": "PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche",
       "category": "Match",
@@ -460,15 +469,6 @@
       "url": "https://parisien90.com/news/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/",
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/le-programme-de-la-2e-journee-de-luefa-womens-champions-league-paris-saint-germain-oh-louvain-feminines-20262027",
-      "reliability": "Officiel"
-    },
-    {
-      "title": "Hakimi reprend avec le Maroc : entrée et victoire au Lesotho",
-      "category": "Sélections",
-      "dateTime": "2026-09-29T23:00:00+02:00",
-      "url": "https://parisien90.com/news/hakimi-maroc-victoire-lesotho-can-septembre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/achraf-hakimi-et-le-maroc-lemportent-face-au-lesotho-paris-saint-germain-selections-20262027",
       "reliability": "Officiel"
     }
   ],
