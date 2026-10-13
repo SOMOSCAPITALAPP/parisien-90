@@ -792,9 +792,9 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
   const profileImage = profile.image ? assetUrl(profile.image.url) : heroImage;
   const ronaldinhoSeo = isLegend && profile.id === "ronaldinho"
     ? {
-        title: "Ronaldinho PSG : parcours, matchs cultes et héritage",
-        heading: "Ronaldinho au PSG : parcours, matchs cultes et héritage",
-        description: "Ronaldinho au PSG de 2001 à 2003 : son parcours à Paris, ses matchs marquants, son style, son départ et l'héritage d'une future légende mondiale."
+        title: "Ronaldinho PSG : 77 matchs, 25 buts et son histoire à Paris",
+        heading: "Ronaldinho au PSG : 77 matchs, 25 buts et une trace immense",
+        description: "Ronaldinho au PSG de 2001 à 2003 : 77 matchs, 25 buts, ses moments marquants, son départ au Barça et l'héritage d'une icône mondiale."
       }
     : null;
   const title = ronaldinhoSeo?.title || (isPlayer
@@ -958,7 +958,7 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
             <h2>Pourquoi cette fiche compte</h2>
             <p>${escapeHTML(profile.whyMatters || profile.watch || "Cette fiche sert de repère stable pour suivre le rôle public de ce profil dans l'écosystème du Paris Saint-Germain.")}</p>
             <p>Parisien 90 maintient cette page comme une fiche évolutive : elle peut être enrichie par les sources officielles, les communiqués de club, les archives publiques et les informations recoupées.</p>${ronaldinhoSeo ? `
-            <section class="profile-answer" aria-labelledby="ronaldinho-reponse"><span class="section-kicker">Réponse rapide</span><h2 id="ronaldinho-reponse">Quand Ronaldinho a-t-il joué au PSG ?</h2><p><strong>Ronaldinho a porté le maillot du PSG de 2001 à 2003.</strong> Paris a accueilli le meneur brésilien avant sa consécration mondiale. Retrouvez aussi <a href="/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/">le dossier sur ses années parisiennes</a>, <a href="/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/">l'histoire des Brésiliens du PSG</a> et <a href="/br/antigos-jogadores-psg/ronaldinho/" hreflang="pt-BR">la fiche en portugais du Brésil</a>.</p></section>` : ""}
+            <section class="profile-answer" aria-labelledby="ronaldinho-reponse"><span class="section-kicker">Repère essentiel</span><h2 id="ronaldinho-reponse">Combien de matches Ronaldinho a-t-il joués au PSG ?</h2><p><strong>Ronaldinho a porté le maillot du PSG de 2001 à 2003, pour 77 matches et 25 buts selon les archives du club.</strong> Paris a accueilli le meneur brésilien avant sa consécration mondiale. Consultez <a href="https://en.psg.fr/teams/club/content/ronaldinho-at-the-parc-des-princes-paris-saint-germain-rb-leipzig-uefa-champions-league-2021-2022" rel="noopener noreferrer">le repère publié par le PSG</a>, <a href="/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/">le dossier sur ses années parisiennes</a>, <a href="/dossiers-psg/bresiliens-psg-rai-ronaldinho-neymar-marquinhos/">l'histoire des Brésiliens du PSG</a> et <a href="/br/antigos-jogadores-psg/ronaldinho/" hreflang="pt-BR">la fiche en portugais du Brésil</a>.</p></section>` : ""}
             ${editorialFocusMarkup}
             ${faqMarkup}
             <h2>Sources et mise à jour</h2>
@@ -1823,7 +1823,7 @@ const brProfileCopy = {
 
 const brLegendCopy = {
   rai: "O capitão eterno da Recopa europeia de 1996 e um dos maiores pontes afetivas entre Paris e Brasil.",
-  ronaldinho: "Dois anos de magia antes do estouro mundial: o PSG teve Ronaldinho quando o planeta ainda descobria o gênio.",
+  ronaldinho: "Em 77 jogos e 25 gols, dois anos de magia antes do estouro mundial: o PSG teve Ronaldinho quando o planeta ainda descobria o gênio.",
   neymar: "O jogador que mudou a escala midiática do clube, entre brilho absoluto, lesões e debate permanente.",
   marquinhos: "Brasileiro de longa duração, capitão, símbolo de fidelidade e recordista do clube.",
   "thiago-silva": "O Monstro deu autoridade europeia ao PSG moderno e marcou uma geração de torcedores.",
@@ -1902,7 +1902,7 @@ const brProfileDetails = {
     kicker: "Fantasia pura",
     intro: "Ronaldinho Gaúcho no PSG é o capítulo perfeito para quem ama futebol antes da planilha: Paris teve o gênio quando o planeta ainda descobria o tamanho dele.",
     paragraphs: [
-      "Entre 2001 e 2003, Ronaldinho ofereceu ao Parc des Princes uma amostra do jogador que depois encantaria o mundo. Dribles, improviso, sorriso, pausa e explosão: tudo já estava ali.",
+      "Entre 2001 e 2003, Ronaldinho disputou 77 jogos e marcou 25 gols pelo PSG, segundo os arquivos do clube. Ele ofereceu ao Parc des Princes uma amostra do jogador que depois encantaria o mundo. Dribles, improviso, sorriso, pausa e explosão: tudo já estava ali.",
       "O PSG não teve Ronaldinho por muito tempo, mas teve Ronaldinho em estado de descoberta. Isso dá ao clube uma história rara: Paris foi palco de formação pública de uma lenda global.",
       "Para o leitor brasileiro, é uma ficha emocional. Ronaldinho não é apenas um antigo jogador do PSG; é a prova de que o clube já falava a língua do futebol arte antes de se tornar potência mundial."
     ],
@@ -1910,6 +1910,7 @@ const brProfileDetails = {
     focus: "Porque une nostalgia, Brasil, futebol espetáculo e a sensação de ter visto uma obra-prima antes do reconhecimento universal.",
     faq: [
       ["Quando Ronaldinho jogou no PSG?", "Ronaldinho Gaúcho jogou no Paris Saint-Germain entre 2001 e 2003."],
+      ["Quantos jogos e gols Ronaldinho teve pelo PSG?", "Os arquivos do PSG registram 77 jogos e 25 gols de Ronaldinho com a camisa parisiense."],
       ["Existe foto utilizável de Ronaldinho?", "Esta ficha usa somente imagem com licença aberta já creditada, quando disponível no banco do site."],
       ["Ronaldinho virou estrela mundial depois do PSG?", "Sim. Seu período parisiense antecede a consagração global que viria depois, especialmente no futebol espanhol e na seleção brasileira."]
     ]

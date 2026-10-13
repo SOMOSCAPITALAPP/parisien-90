@@ -2360,6 +2360,11 @@
       "internalUrl": "https://parisien90.com/dossiers-psg/ronaldinho-psg-genie-trop-tot-arrive/",
       "sources": [
         {
+          "name": "PSG.fr - Ronaldinho au Parc des Princes",
+          "url": "https://en.psg.fr/teams/club/content/ronaldinho-at-the-parc-des-princes-paris-saint-germain-rb-leipzig-uefa-champions-league-2021-2022",
+          "note": "Archive du club, notamment pour le total de 77 matches et 25 buts."
+        },
+        {
           "name": "Wikipedia - Ronaldinho",
           "url": "https://fr.wikipedia.org/wiki/Ronaldinho",
           "note": "Repères biographiques et chronologie publique, sans reprise de texte."

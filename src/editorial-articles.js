@@ -3352,7 +3352,7 @@ export const editorialArticles = [
         heading: "Le paradoxe Ronaldinho : Paris l'a eu avant le monde entier",
         paragraphs: [
           "Ronaldinho au PSG, c'est une histoire presque trop belle pour être rangée dans une simple fiche ancien joueur. Paris n'a pas seulement recruté un meneur offensif brésilien : le club a eu entre les mains un futur symbole mondial du football spectacle, encore brut, encore imprévisible, déjà impossible à regarder froidement.",
-          "Le passage parisien entre 2001 et 2003 n'est pas celui des statistiques écrasantes ou des titres qui ferment les débats. C'est plutôt celui de l'empreinte. Un crochet, une accélération, un sourire, une manière de transformer une action ordinaire en moment de mémoire. Pour l'identité du club, cette histoire reste précieuse : elle relie le PSG aux grandes stars mondiales passées par Paris."
+          "Le passage parisien entre 2001 et 2003 n'est pas celui des statistiques écrasantes ou des titres qui ferment les débats. Les archives du PSG comptabilisent néanmoins 77 matches et 25 buts. C'est surtout une histoire d'empreinte : un crochet, une accélération, un sourire, une manière de transformer une action ordinaire en moment de mémoire. Pour l'identité du club, cette histoire reste précieuse : elle relie le PSG aux grandes stars mondiales passées par Paris."
         ]
       },
       {
@@ -3392,6 +3392,7 @@ export const editorialArticles = [
       }
     ],
     sources: [
+      { name: "PSG.fr - Ronaldinho au Parc des Princes", url: "https://en.psg.fr/teams/club/content/ronaldinho-at-the-parc-des-princes-paris-saint-germain-rb-leipzig-uefa-champions-league-2021-2022", note: "Archive du club, notamment pour le total de 77 matches et 25 buts." },
       { name: "Wikipedia - Ronaldinho", url: "https://fr.wikipedia.org/wiki/Ronaldinho", note: "Repères biographiques et chronologie publique, sans reprise de texte." },
       { name: "Wikidata - Ronaldinho", url: "https://www.wikidata.org/wiki/Q39444", note: "Données structurées ouvertes et identifiants publics." },
       { name: "Wikimedia Commons - photo Ronaldinho", url: "https://commons.wikimedia.org/wiki/File:Ronaldinho061115.jpg", note: "Image sous licence ouverte avec attribution visible." },
