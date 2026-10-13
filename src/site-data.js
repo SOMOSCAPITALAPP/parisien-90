@@ -323,10 +323,10 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-11T12:00:00+02:00",
-  edition: "Fil PSG du 10 octobre 2026",
-  displayDate: "10 octobre 2026",
-  displayTime: "6h30",
+  updatedAt: "2026-10-13T12:00:00+02:00",
+  edition: "Fil PSG du 13 octobre 2026",
+  displayDate: "13 octobre 2026",
+  displayTime: "12h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
