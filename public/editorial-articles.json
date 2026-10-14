@@ -1,11 +1,73 @@
 {
-  "updatedAt": "2026-10-10T06:30:00+02:00",
-  "displayDate": "10 octobre 2026",
-  "displayTime": "6h30",
+  "updatedAt": "2026-10-14T15:00:00+02:00",
+  "displayDate": "14 octobre 2026",
+  "displayTime": "15h00",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 63,
+  "count": 65,
   "items": [
+    {
+      "id": "rumeurs-psg-manchester-city-mercato-thermometre-octobre-2026",
+      "category": "Rumeurs PSG",
+      "angle": "Thermomètre des sources",
+      "date": "2026-10-14",
+      "dateLabel": "14 octobre 2026",
+      "time": "13:45",
+      "dateTime": "2026-10-14T13:45:00+02:00",
+      "headline": "Rumeurs PSG : à Manchester, le terrain reprend la main sur le mercato",
+      "summary": "Le groupe officiel pour Manchester City est connu. Pour le reste, l'heure n'est pas aux certitudes fabriquées : une grande soirée européenne peut éclairer les besoins du PSG sans déclencher un mercato imaginaire.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/rumeurs-psg-manchester-city-mercato-thermometre-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - le groupe parisien pour Manchester City",
+          "url": "https://www.psg.fr/content/le-groupe-parisien-pour-le-deplacement-a-manchester-city-ucl-psg-2026-2027",
+          "note": "Groupe et contexte officiel du match."
+        },
+        {
+          "name": "PSG.fr - chiffres clés de Manchester City-Paris",
+          "url": "https://www.psg.fr/content/chiffres-cles-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027",
+          "note": "Horaire, lieu et historique des confrontations."
+        }
+      ],
+      "keywords": [
+        "rumeur PSG",
+        "mercato PSG",
+        "Manchester City PSG",
+        "groupe PSG",
+        "transfert PSG"
+      ]
+    },
+    {
+      "id": "psg-837-millions-revenus-deloitte-lecture-economie-octobre-2026",
+      "category": "Economie PSG",
+      "angle": "Lecture business",
+      "date": "2026-10-14",
+      "dateLabel": "14 octobre 2026",
+      "time": "14:15",
+      "dateTime": "2026-10-14T14:15:00+02:00",
+      "headline": "PSG : ce que racontent vraiment les 837 M€ de revenus annoncés par Deloitte",
+      "summary": "Le PSG fait partie des quatre clubs les plus puissants en revenus selon la Football Money League 2026. Le chiffre frappe ; son interprétation exige davantage de méthode qu'un simple classement.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-837-millions-revenus-deloitte-lecture-economie-octobre-2026/",
+      "sources": [
+        {
+          "name": "Deloitte - Football Money League 2026",
+          "url": "https://www.deloitte.com/uk/en/services/financial-advisory/analysis/deloitte-football-money-league.html",
+          "note": "Classement et méthode de référence pour les revenus des clubs."
+        },
+        {
+          "name": "PSG.fr - calendrier européen 2026-2027",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Contexte des rendez-vous européens de la saison."
+        }
+      ],
+      "keywords": [
+        "revenus PSG",
+        "finances PSG",
+        "valorisation PSG",
+        "Deloitte PSG",
+        "budget PSG"
+      ]
+    },
     {
       "id": "psg-le-mans-composition-heure-avant-coup-envoi-2026",
       "category": "Tactique PSG",

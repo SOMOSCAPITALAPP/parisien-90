@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-11T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 10 octobre 2026. Fil public : 160 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents ; PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche ; PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-13T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 13 octobre 2026. Fil public : 160 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 65 articles de fond sous /dossiers-psg/. À suivre : Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents ; PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche ; PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -1934,6 +1934,60 @@
   },
   "editorialArticles": [
     {
+      "title": "Rumeurs PSG : à Manchester, le terrain reprend la main sur le mercato",
+      "category": "Rumeurs PSG",
+      "angle": "Thermomètre des sources",
+      "dateTime": "2026-10-14T13:45:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/rumeurs-psg-manchester-city-mercato-thermometre-octobre-2026/",
+      "summary": "Le groupe officiel pour Manchester City est connu. Pour le reste, l'heure n'est pas aux certitudes fabriquées : une grande soirée européenne peut éclairer les besoins du PSG sans déclencher un mercato imaginaire.",
+      "keywords": [
+        "rumeur PSG",
+        "mercato PSG",
+        "Manchester City PSG",
+        "groupe PSG",
+        "transfert PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - le groupe parisien pour Manchester City",
+          "url": "https://www.psg.fr/content/le-groupe-parisien-pour-le-deplacement-a-manchester-city-ucl-psg-2026-2027",
+          "note": "Groupe et contexte officiel du match."
+        },
+        {
+          "name": "PSG.fr - chiffres clés de Manchester City-Paris",
+          "url": "https://www.psg.fr/content/chiffres-cles-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027",
+          "note": "Horaire, lieu et historique des confrontations."
+        }
+      ]
+    },
+    {
+      "title": "PSG : ce que racontent vraiment les 837 M€ de revenus annoncés par Deloitte",
+      "category": "Economie PSG",
+      "angle": "Lecture business",
+      "dateTime": "2026-10-14T14:15:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-837-millions-revenus-deloitte-lecture-economie-octobre-2026/",
+      "summary": "Le PSG fait partie des quatre clubs les plus puissants en revenus selon la Football Money League 2026. Le chiffre frappe ; son interprétation exige davantage de méthode qu'un simple classement.",
+      "keywords": [
+        "revenus PSG",
+        "finances PSG",
+        "valorisation PSG",
+        "Deloitte PSG",
+        "budget PSG"
+      ],
+      "sources": [
+        {
+          "name": "Deloitte - Football Money League 2026",
+          "url": "https://www.deloitte.com/uk/en/services/financial-advisory/analysis/deloitte-football-money-league.html",
+          "note": "Classement et méthode de référence pour les revenus des clubs."
+        },
+        {
+          "name": "PSG.fr - calendrier européen 2026-2027",
+          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
+          "note": "Contexte des rendez-vous européens de la saison."
+        }
+      ]
+    },
+    {
       "title": "PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle",
       "category": "Tactique PSG",
       "angle": "Préparer PSG-Le Mans sans inventer la composition",
@@ -2473,70 +2527,6 @@
           "note": "Estimation externe de valeur d'entreprise, revenus et résultat opérationnel."
         }
       ]
-    },
-    {
-      "title": "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier",
-      "category": "Mercato PSG",
-      "angle": "Audit de l'effectif avant le mercato d'hiver",
-      "dateTime": "2026-10-04T10:45:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-octobre-audit-effectif-avant-janvier-2027/",
-      "summary": "City et Barcelone testeront le plafond du groupe, Le Mans, Strasbourg, Lyon et Le Havre sa continuité. Cette séquence doit servir d'audit sportif avant toute décision de janvier.",
-      "keywords": [
-        "mercato PSG",
-        "transfert PSG",
-        "mercato PSG janvier 2027",
-        "effectif PSG",
-        "recrutement PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - calendrier masculin 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Dates et adversaires de la séquence d'octobre."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-          "note": "Composition publique de l'effectif et postes officiels."
-        },
-        {
-          "name": "UEFA - matches du PSG en Ligue des champions",
-          "url": "https://fr.uefa.com/uefachampionsleague/clubs/52747--paris/matches/",
-          "note": "Calendrier européen officiel de Paris."
-        }
-      ]
-    },
-    {
-      "title": "Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG",
-      "category": "Joueurs PSG",
-      "angle": "Forme, charge internationale et hiérarchie",
-      "dateTime": "2026-10-04T10:45:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/internationaux-psg-retours-octobre-dembele-doue-zaire-emery/",
-      "summary": "La sélection donne du rythme, de la confiance et parfois de la fatigue. Pour Luis Enrique, la question n'est pas seulement de savoir qui a joué, mais dans quel rôle et avec quel coût physique.",
-      "keywords": [
-        "Dembélé PSG",
-        "Désiré Doué PSG",
-        "Zaïre-Emery PSG",
-        "internationaux PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - trois Parisiens avec la France",
-          "url": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
-          "note": "Convocations et calendrier officiel des joueurs français."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-          "note": "Postes et présence des joueurs dans le groupe officiel."
-        },
-        {
-          "name": "PSG.fr - calendrier masculin",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Dates du Mans et de la séquence d'octobre."
-        }
-      ]
     }
   ],
   "brazilNews": [
@@ -2684,7 +2674,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-11T12:00:00+02:00",
+    "updatedAt": "2026-10-13T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
@@ -2764,6 +2754,39 @@
     ]
   },
   "brazilEditorial": [
+    {
+      "title": "Neymar no PSG: por que sua passagem ainda move o debate no Brasil",
+      "category": "História do PSG",
+      "angle": "Legado e memória brasileira",
+      "dateTime": "2026-10-14T15:00:00+02:00",
+      "language": "pt-BR",
+      "url": "https://parisien90.com/br/dossies-psg/neymar-psg-legado-brasil-historia-paris-2026/",
+      "summary": "Neymar não foi apenas uma estrela do PSG. Para o torcedor brasileiro, ele transformou Paris em assunto diário e deixou uma memória que não cabe em uma tabela de números.",
+      "keywords": [
+        "Neymar PSG",
+        "Neymar no PSG",
+        "história Neymar PSG",
+        "PSG Brasil",
+        "brasileiros no PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - Neymar Jr.",
+          "url": "https://en.psg.fr/teams/first-team/squad/neymar-jr",
+          "note": "Perfil oficial e referências de sua passagem pelo clube."
+        },
+        {
+          "name": "PSG.fr - brasileiros no clube",
+          "url": "https://pt.psg.fr/equipes/equipe-principal/content/seja-um-socio-torcedor-myparis-brasil",
+          "note": "Contexto oficial da relação do PSG com o Brasil."
+        },
+        {
+          "name": "Parisien 90 Brasil - brasileiros no PSG",
+          "url": "/br/brasileiros-no-psg/",
+          "note": "Inventário e fichas históricas relacionadas."
+        }
+      ]
+    },
     {
       "title": "Que horas joga o PSG no Brasil? Guia de horário de Brasília",
       "category": "Guia do torcedor",
