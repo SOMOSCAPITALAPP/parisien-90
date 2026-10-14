@@ -323,7 +323,7 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-11T12:00:00+02:00",
+  updatedAt: "2026-10-14T12:00:00+02:00",
   edition: "Fil PSG du 10 octobre 2026",
   displayDate: "10 octobre 2026",
   displayTime: "6h30",
@@ -334,6 +334,7 @@ const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, da
 
 export const newsFeed = [
   ...withNewsDate("2026-10-13", "13 octobre 2026", [
+  { id: "luis-enrique-dembele-manchester-city-defi-octobre-2026", time: "20:00", category: "Europe", title: "Manchester City-PSG : Luis Enrique assume le défi, Dembélé vise déjà le top 8", summary: "À la veille du choc à l’Etihad, Luis Enrique présente Manchester City comme l’un des grands défis de ce début de saison et assure que Paris restera fidèle à son jeu offensif. Ousmane Dembélé, lui, promet un grand match et fixe le cap européen : gagner à Manchester puis viser le top 8 de la phase de ligue. Les deux Parisiens saluent aussi Donnarumma, attendu face à son ancien club.", source: "PSG.fr", url: "https://www.psg.fr/content/luis-enrique-un-veritable-defi-conference-de-presse-manchester-city-fc-paris-saint-germain-uefa-champions-league-20262027", reliability: "Officiel — conférence de presse", viral: 96 },
   { id: "groupe-psg-manchester-city-mayulu-longoni-octobre-2026", time: "11:24", category: "Groupe", title: "Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents", summary: "Le PSG a dévoilé un groupe de 23 joueurs pour le déplacement à Manchester City, mercredi à 21h en Ligue des champions. Hakimi, Dembélé, Nuno Mendes, Doué et les autres cadres sont bien du voyage ; les jeunes Adam Mouak et Quentin Ndjantou complètent la liste. Senny Mayulu et Alessandro Longoni, blessés, sont les deux absents confirmés. À la veille du premier grand test européen d'octobre, Paris se présente donc avec un effectif presque complet.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-parisien-pour-le-deplacement-a-manchester-city-ucl-psg-2026-2027", reliability: "Officiel — groupe et absences confirmés", viral: 95 },
   ]),
   ...withNewsDate("2026-10-10", "10 octobre 2026", [

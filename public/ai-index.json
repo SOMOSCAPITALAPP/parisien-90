@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-11T12:00:00+02:00",
-    "freshnessNote": "Fil PSG du 10 octobre 2026. Fil public : 160 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents ; PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche ; PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans ; Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-14T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 10 octobre 2026. Fil public : 161 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Manchester City-PSG : Luis Enrique assume le défi, Dembélé vise déjà le top 8 ; Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents ; PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche ; PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle ; Effectif PSG : les cinq continuités à protéger avant Le Mans. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Manchester City-PSG : Luis Enrique assume le défi, Dembélé vise déjà le top 8",
+      "category": "Europe",
+      "dateTime": "2026-10-13T20:00:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-dembele-manchester-city-defi-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-veritable-defi-conference-de-presse-manchester-city-fc-paris-saint-germain-uefa-champions-league-20262027",
+      "reliability": "Officiel — conférence de presse"
+    },
     {
       "title": "Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents",
       "category": "Groupe",
@@ -461,15 +470,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/en/content/feller-stars-as-paris-trounce-ohl-match-report-paris-saint-germain-oh-louvain-uefa-womens-champions-league-ligue-2026-2027",
       "reliability": "Officiel — compte rendu"
-    },
-    {
-      "title": "PSG-OH Louvain : les Parisiennes ouvrent leur soirée européenne au Campus",
-      "category": "Féminines",
-      "dateTime": "2026-10-01T12:00:00+02:00",
-      "url": "https://parisien90.com/news/psg-oh-louvain-campus-ligue-champions-feminine-octobre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/le-programme-de-la-2e-journee-de-luefa-womens-champions-league-paris-saint-germain-oh-louvain-feminines-20262027",
-      "reliability": "Officiel"
     }
   ],
   "people": [
@@ -2684,7 +2684,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-11T12:00:00+02:00",
+    "updatedAt": "2026-10-14T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
