@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-16T12:30:00+02:00",
-  edition: "Fil PSG du 16 octobre 2026",
-  displayDate: "16 octobre 2026",
-  displayTime: "12h30",
+  updatedAt: "2026-10-17T13:16:00+02:00",
+  edition: "Fil PSG du 17 octobre 2026",
+  displayDate: "17 octobre 2026",
+  displayTime: "13h16",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-17", "17 octobre 2026", [
+  { id: "groupe-psg-strasbourg-hakimi-dembele-octobre-2026", time: "13:16", category: "Groupe", title: "Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs", summary: "Le PSG a communiqué le groupe retenu pour le déplacement à Strasbourg, ce samedi à 17h15. Achraf Hakimi, Ousmane Dembélé, Désiré Doué, Vitinha, João Neves, Nuno Mendes et Maghnes Akliouche figurent parmi les 21 joueurs appelés par Luis Enrique. Lucas Chevalier et Matvey Safonov sont les deux gardiens convoqués, tandis qu'Adam Mouak et Dro Fernández prolongent la présence des jeunes dans la rotation. Une liste qui donne au coach des options sur toutes les lignes avant le rendez-vous de la Meinau.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-parisien-pour-le-deplacement-a-strasbourg-ligue-1-psg-2026-2027", reliability: "Officiel — groupe confirmé", viral: 92 },
+  ]),
   ...withNewsDate("2026-10-16", "16 octobre 2026", [
   { id: "luis-enrique-strasbourg-dynamique-akliouche-zaire-emery-octobre-2026", time: "12:30", category: "Ligue 1", title: "Strasbourg-PSG : Luis Enrique veut garder l'élan et confirme ses repères", summary: "À la veille du déplacement à Strasbourg, Luis Enrique rappelle que Paris doit gérer une séquence resserrée sans perdre son exigence : bien jouer, créer des occasions et prendre les trois points pour se rapprocher du haut du classement. Le coach souligne les qualités d'une équipe strasbourgeoise jeune, insiste sur l'adaptation de Maghnes Akliouche et considère Warren Zaïre-Emery comme un titulaire en puissance. La rotation sera décidée selon l'état de chaque joueur, avec un seul cap : gagner à la Meinau.", source: "PSG.fr", url: "https://www.psg.fr/content/luis-enrique-poursuivre-la-dynamique-psg-conf-de-presse-medias-ligue-1-strasbourg-campus-psg-2026-2027", reliability: "Officiel — conférence de presse", viral: 93 },
   ]),

@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-16T12:30:00+02:00",
-    "freshnessNote": "Fil PSG du 16 octobre 2026. Fil public : 163 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Strasbourg-PSG : Luis Enrique veut garder l'élan et confirme ses repères ; Manchester City-PSG : Paris frappe un grand coup avec un 4-2 spectaculaire ; Manchester City-PSG : Luis Enrique assume le défi, Dembélé vise déjà le top 8 ; Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents ; PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-17T13:16:00+02:00",
+    "freshnessNote": "Fil PSG du 17 octobre 2026. Fil public : 164 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs ; Strasbourg-PSG : Luis Enrique veut garder l'élan et confirme ses repères ; Manchester City-PSG : Paris frappe un grand coup avec un 4-2 spectaculaire ; Manchester City-PSG : Luis Enrique assume le défi, Dembélé vise déjà le top 8 ; Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs",
+      "category": "Groupe",
+      "dateTime": "2026-10-17T13:16:00+02:00",
+      "url": "https://parisien90.com/news/groupe-psg-strasbourg-hakimi-dembele-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-le-deplacement-a-strasbourg-ligue-1-psg-2026-2027",
+      "reliability": "Officiel — groupe confirmé"
+    },
     {
       "title": "Strasbourg-PSG : Luis Enrique veut garder l'élan et confirme ses repères",
       "category": "Ligue 1",
@@ -461,15 +470,6 @@
       "source": "RFEF",
       "sourceUrl": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
       "reliability": "Officiel — gêne confirmée, bilan à attendre"
-    },
-    {
-      "title": "Belgique-Turquie : Godts impliqué, les Diables déroulent avant les Bleus",
-      "category": "Sélections",
-      "dateTime": "2026-10-02T23:15:00+02:00",
-      "url": "https://parisien90.com/news/belgique-turquie-godts-victoire-nations-league-octobre-2026/",
-      "source": "RBFA / UEFA",
-      "sourceUrl": "https://www.rbfa.be/fr/nouvelles/de-bruyne-guide-les-diables-rouges-vers-une-victoire-convaincante-contre-la-turquie",
-      "reliability": "Officiel — résultat UEFA, action confirmée par la fédération belge"
     }
   ],
   "people": [
@@ -2684,7 +2684,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-16T12:30:00+02:00",
+    "updatedAt": "2026-10-17T13:16:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
