@@ -1,13 +1,15 @@
 import { brEditorialArticles20261014 } from "./br-editorial-articles-2026-10-14.js";
 import { brEditorialArticles20261016 } from "./br-editorial-articles-2026-10-16.js";
+import { brEditorialArticles20261017 } from "./br-editorial-articles-2026-10-17.js";
 
 export const brEditorialArticlesMeta = {
-  updatedAt: "2026-10-16T17:30:00+02:00",
-  displayDate: "16 de outubro de 2026",
+  updatedAt: "2026-10-17T17:30:00+02:00",
+  displayDate: "17 de outubro de 2026",
   rightsNote: "Conteúdo original Parisien 90 Brasil. As fontes factuais são identificadas e vinculadas; nenhum texto de terceiros é reproduzido."
 };
 
 export const brEditorialArticles = [
+  ...brEditorialArticles20261017,
   ...brEditorialArticles20261016,
   ...brEditorialArticles20261014,
   {
