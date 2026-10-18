@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-17T13:16:00+02:00",
-    "freshnessNote": "Fil PSG du 17 octobre 2026. Fil public : 164 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs ; Strasbourg-PSG : Luis Enrique veut garder l'élan et confirme ses repères ; Manchester City-PSG : Paris frappe un grand coup avec un 4-2 spectaculaire ; Manchester City-PSG : Luis Enrique assume le défi, Dembélé vise déjà le top 8 ; Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-18T12:00:00+02:00",
+    "freshnessNote": "Fil PSG du 18 octobre 2026. Fil public : 166 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence ; Strasbourg-PSG : mené à la pause, Paris renverse tout avec Zabarnyi, Dembélé et Doué ; Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs ; Strasbourg-PSG : Luis Enrique veut garder l'élan et confirme ses repères ; Manchester City-PSG : Paris frappe un grand coup avec un 4-2 spectaculaire. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,24 @@
     }
   ],
   "news": [
+    {
+      "title": "Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence",
+      "category": "Infirmerie",
+      "dateTime": "2026-10-18T12:00:00+02:00",
+      "url": "https://parisien90.com/news/nuno-mendes-lesion-cuisse-indisponible-plusieurs-semaines-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/point-medical-concernant-nuno-mendes-rc-strasbourg-alsace-paris-saint-germain-ligue-1-2026-2027",
+      "reliability": "Officiel — point médical"
+    },
+    {
+      "title": "Strasbourg-PSG : mené à la pause, Paris renverse tout avec Zabarnyi, Dembélé et Doué",
+      "category": "Match",
+      "dateTime": "2026-10-17T19:15:00+02:00",
+      "url": "https://parisien90.com/news/strasbourg-psg-victoire-zabarnyi-dembele-doue-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/renversant-a-strasbourg-paris-poursuit-sa-marche-en-avant-compte-rendu-rc-strasbourg-alsace-paris-saint-germain-ligue-1-journee-7-2026-2027",
+      "reliability": "Officiel — compte rendu et feuille de match"
+    },
     {
       "title": "Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs",
       "category": "Groupe",
@@ -452,24 +470,6 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
       "reliability": "Analyse"
-    },
-    {
-      "title": "Jeunes du PSG : Doué, Zaïre-Emery, Mayulu et Dro face à la bataille des minutes",
-      "category": "Joueurs",
-      "dateTime": "2026-10-03T06:30:00+02:00",
-      "url": "https://parisien90.com/news/jeunes-psg-doue-zaire-emery-mayulu-dro-minutes-2026/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-      "reliability": "Analyse"
-    },
-    {
-      "title": "Ferran Torres quitte la Roja : la cheville gauche sous surveillance",
-      "category": "Santé",
-      "dateTime": "2026-10-02T15:00:00+02:00",
-      "url": "https://parisien90.com/news/ferran-torres-retour-espagne-cheville-gauche-octobre-2026/",
-      "source": "RFEF",
-      "sourceUrl": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
-      "reliability": "Officiel — gêne confirmée, bilan à attendre"
     }
   ],
   "people": [
@@ -566,10 +566,10 @@
       "aliases": [],
       "type": "player",
       "role": "Latéral gauche explosif",
-      "status": "Titulaire majeur",
+      "status": "Indisponible ces prochaines semaines — cuisse gauche",
       "url": "https://parisien90.com/joueurs-psg/nuno-mendes/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "18 octobre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
@@ -2684,20 +2684,11 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-17T13:16:00+02:00",
+    "updatedAt": "2026-10-18T12:00:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
     "nextFixtures": [
-      {
-        "date": "2026-10-17",
-        "competition": "Ligue 1",
-        "home": "RC Strasbourg",
-        "away": "Paris Saint-Germain",
-        "status": "Programmé",
-        "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
-      },
       {
         "date": "2026-10-20",
         "competition": "Liga dos Campeões",
@@ -2760,6 +2751,15 @@
         "status": "Programmé",
         "source": "PSG.fr / UEFA",
         "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-11-28",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "FC Lorient",
+        "status": "Horaire à confirmer",
+        "source": null,
+        "sourceUrl": null
       }
     ]
   },
