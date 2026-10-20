@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-18T12:00:00+02:00",
-  edition: "Fil PSG du 18 octobre 2026",
-  displayDate: "18 octobre 2026",
-  displayTime: "12h00",
+  updatedAt: "2026-10-19T14:27:00+02:00",
+  edition: "Fil PSG du 19 octobre 2026",
+  displayDate: "19 octobre 2026",
+  displayTime: "14h27",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-19", "19 octobre 2026", [
+  { id: "luis-enrique-psg-barcelone-identite-jeu-octobre-2026", time: "14:27", category: "Europe", title: "PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure", summary: "À la veille de recevoir le FC Barcelone, Luis Enrique rapproche les deux équipes par leur identité de jeu, sans présenter l'affiche comme une finale avant l'heure. Le coach parisien reconnaît la qualité du Barça de Hansi Flick, rappelle l'absence de Nuno Mendes et annonce une ligne claire : le PSG restera fidèle à ses principes pour tenter de s'imposer au Parc. Une conférence à la hauteur du choc, mais sans promesse de composition ni de scénario.", source: "PSG.fr / Le Parisien", url: "https://podcasts.psg.fr/paris-saint-germain-la-conf/202610191257-ligue-des-champions-phase-de-ligue-match-3-paris-saint-germa", reliability: "Officiel — conférence, propos recoupés", viral: 96 },
+  ]),
   ...withNewsDate("2026-10-18", "18 octobre 2026", [
   { id: "nuno-mendes-lesion-cuisse-indisponible-plusieurs-semaines-octobre-2026", time: "12:00", category: "Infirmerie", title: "Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence", summary: "Sorti en fin de match à Strasbourg, Nuno Mendes souffre d'une lésion à la cuisse gauche. Le PSG annonce une indisponibilité de plusieurs semaines, sans calendrier de retour plus précis. Un coup dur pour Paris avant la réception de Barcelone : Lucas Digne devient la solution naturelle à gauche, mais la suite dépendra de la réponse du groupe.", source: "PSG.fr", url: "https://www.psg.fr/content/point-medical-concernant-nuno-mendes-rc-strasbourg-alsace-paris-saint-germain-ligue-1-2026-2027", reliability: "Officiel — point médical", viral: 98 },
   ]),
