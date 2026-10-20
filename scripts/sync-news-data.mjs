@@ -17,7 +17,12 @@ const legendsDir = new URL("../anciens-joueurs-psg/", import.meta.url);
 const staffDir = new URL("../staff-psg/", import.meta.url);
 const brDir = new URL("../br/", import.meta.url);
 const calendarPagePath = new URL("../calendrier-psg/index.html", import.meta.url);
-const currentDate = newsMeta.updatedAt.slice(0, 10);
+const currentDate = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Europe/Paris",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(new Date());
 const heroImage = `${siteUrl}/hero-stadium.png`;
 
 const isPublishedNews = (item) =>
@@ -154,20 +159,26 @@ const priorityReadingLinks = [
   {
     path: "/mercato-psg/",
     kicker: "Marché",
-    title: "Mercato PSG",
-    text: "Rumeurs, confirmations et degrés de fiabilité pour suivre Paris sans confondre bruit et information."
+    title: "Mercato PSG et transferts",
+    text: "Recrues, départs, prêts, rumeurs et transferts PSG : les faits confirmés et les dossiers à suivre."
   },
   {
     path: "/calendrier-psg/",
     kicker: "Agenda",
-    title: "Calendrier PSG",
-    text: "Ligue 1, Europe, amicaux et coupes avec dates, statuts et lecture de la rotation."
+    title: "Calendrier PSG : prochains matchs",
+    text: "Dates, horaires, résultats et statut des matchs de Ligue 1, Champions League, Coupe de France et amicaux."
   },
   {
     path: "/records-psg/",
     kicker: "Histoire",
     title: "Records PSG",
     text: "Buteurs, passeurs, joueurs les plus capés, grands scores et repères chiffrés du club."
+  },
+  {
+    path: "/anciens-joueurs-psg/ronaldinho/",
+    kicker: "Légende",
+    title: "Ronaldinho au PSG",
+    text: "Parcours parisien, matchs cultes et héritage de Ronaldinho entre 2001 et 2003."
   }
 ];
 
@@ -210,7 +221,7 @@ const syncCalendarQuickAnswer = async () => {
   const timeLabel = nextFixture.time === "À confirmer" ? "horaire à confirmer" : `${nextFixture.time}`;
   const shortTeamName = (team) => team === "Paris Saint-Germain" ? "PSG" : team;
   const matchLabel = `${shortTeamName(nextFixture.home)} - ${shortTeamName(nextFixture.away)}`;
-  const calendarTitle = "Calendrier PSG 2026-2027 : prochain match et résultats";
+  const calendarTitle = "Calendrier PSG : prochain match, résultats et dates 2026-2027";
   const calendarDescription = `Calendrier PSG 2026-2027 : prochain match ${matchLabel}, ${nextFixture.day} ${nextFixture.dateLabel} à ${timeLabel}. Horaires et résultats en Ligue 1, Champions et Coupe de France.`;
   const startDate = `${nextFixture.isoDate}T${nextFixture.time === "À confirmer" ? "00:00" : nextFixture.time}:00+02:00`;
   const block = `<!-- CALENDAR_QUICK_ANSWER:START -->
