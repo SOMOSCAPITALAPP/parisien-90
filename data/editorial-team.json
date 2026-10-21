@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-09-20T17:25:00+02:00",
-  "dailyMinimumArticles": 3,
+  "updatedAt": "2026-10-21T17:15:00+02:00",
+  "dailyMinimumArticles": 6,
+  "requiredDailyCoverage": [
+    {
+      "id": "joueur-psg",
+      "label": "Un joueur du PSG",
+      "journalistId": "joueurs-psg",
+      "brief": "Choisir un joueur de l'effectif et traiter sa forme, son rôle, ses repères chiffrés ou son actualité confirmée."
+    },
+    {
+      "id": "prochain-match",
+      "label": "Le prochain match du PSG",
+      "journalistId": "tactique-psg",
+      "brief": "Présenter le prochain rendez-vous confirmé, son contexte, les enjeux et les clés de jeu sans inventer de composition."
+    },
+    {
+      "id": "dernier-match",
+      "label": "Le dernier match du PSG",
+      "journalistId": "tactique-psg",
+      "brief": "Analyser le dernier match ou, en l'absence de match récent, le dernier rendez-vous officiel avec faits, tournants et enseignements."
+    },
+    {
+      "id": "ligue-1",
+      "label": "Le PSG en Ligue 1",
+      "journalistId": "entraineurs-psg",
+      "brief": "Situer le PSG dans le championnat : calendrier, dynamique, concurrence ou choix de management, à partir de données vérifiées."
+    },
+    {
+      "id": "ligue-des-champions",
+      "label": "Le PSG en Ligue des champions",
+      "journalistId": "tactique-psg",
+      "brief": "Traiter la campagne européenne, le classement, l'adversaire ou les enjeux de qualification à partir des sources UEFA et du club."
+    },
+    {
+      "id": "tactique-philosophie",
+      "label": "Tactique ou philosophie de jeu",
+      "journalistId": "tactique-psg",
+      "brief": "Proposer une analyse de fond distincte sur les principes de jeu, les rôles, le pressing, la possession ou les transitions."
+    }
+  ],
   "languagePolicy": {
     "fr": "Les contenus France sont rediges en francais media, sans mention publique de strategie SEO.",
     "ptBR": "Les contenus destines au Bresil sont rediges integralement en portugais du Bresil."
