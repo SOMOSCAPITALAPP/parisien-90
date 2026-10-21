@@ -8,6 +8,7 @@ import { editorialArticles20261017 } from "./editorial-articles-2026-10-17.js";
 import { editorialArticles20261018 } from "./editorial-articles-2026-10-18.js";
 import { editorialArticles20261019 } from "./editorial-articles-2026-10-19.js";
 import { editorialArticles20261021 } from "./editorial-articles-2026-10-21.js";
+import { editorialArticles20261021Suite } from "./editorial-articles-2026-10-21-suite.js";
 
 export const editorialArticlesMeta = {
   updatedAt: "2026-10-21T08:00:00+02:00",
@@ -18,6 +19,7 @@ export const editorialArticlesMeta = {
 };
 
 export const editorialArticles = [
+  ...editorialArticles20261021Suite,
   ...editorialArticles20261021,
   ...editorialArticles20261019,
   ...editorialArticles20261018,
