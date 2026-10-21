@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-19T14:27:00+02:00",
-    "freshnessNote": "Fil PSG du 19 octobre 2026. Fil public : 167 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure ; Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence ; Strasbourg-PSG : mené à la pause, Paris renverse tout avec Zabarnyi, Dembélé et Doué ; Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs ; Strasbourg-PSG : Luis Enrique veut garder l'élan et confirme ses repères. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-20T23:04:00+02:00",
+    "freshnessNote": "Fil PSG du 20 octobre 2026. Fil public : 168 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc ; PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure ; Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence ; Strasbourg-PSG : mené à la pause, Paris renverse tout avec Zabarnyi, Dembélé et Doué ; Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc",
+      "category": "Europe",
+      "dateTime": "2026-10-20T23:04:00+02:00",
+      "url": "https://parisien90.com/news/psg-barcelone-victoire-doue-hernandez-vitinha-fabian-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-barcelona-2026-10-20",
+      "reliability": "Officiel — résultat, buteurs et distinction UEFA confirmés"
+    },
     {
       "title": "PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure",
       "category": "Europe",
@@ -460,15 +469,6 @@
       "url": "https://parisien90.com/news/mercato-psg-octobre-audit-effectif-avant-janvier-2027/",
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-      "reliability": "Analyse"
-    },
-    {
-      "title": "Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG",
-      "category": "Joueurs",
-      "dateTime": "2026-10-04T10:45:00+02:00",
-      "url": "https://parisien90.com/news/internationaux-psg-retours-octobre-dembele-doue-zaire-emery/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
       "reliability": "Analyse"
     }
   ],
@@ -2684,7 +2684,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-19T14:27:00+02:00",
+    "updatedAt": "2026-10-20T23:04:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
@@ -2694,9 +2694,9 @@
         "competition": "Liga dos Campeões",
         "home": "Paris Saint-Germain",
         "away": "FC Barcelone",
-        "status": "Programmé",
-        "source": "PSG.fr / UEFA",
-        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+        "status": "Terminé 4-2",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-barcelona-2026-10-20"
       },
       {
         "date": "2026-10-25",
