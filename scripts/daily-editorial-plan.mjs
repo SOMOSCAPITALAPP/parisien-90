@@ -15,20 +15,24 @@ const parisDate = new Intl.DateTimeFormat("fr-CA", {
   month: "2-digit",
   day: "2-digit"
 }).format(now);
-const dayIndex = Math.floor(now.getTime() / 86400000) % team.dailyRotation.length;
-const todayDeskIds = team.dailyRotation[dayIndex];
 const journalists = new Map(team.journalists.map((journalist) => [journalist.id, journalist]));
 const highPrioritySources = rumorSources.sources
   .filter((source) => source.priority === "high")
   .map((source) => ({ name: source.name, url: source.url, crawlMode: source.crawlMode }));
 
-const assignments = todayDeskIds.map((id, index) => {
-  const journalist = journalists.get(id);
+const assignments = team.requiredDailyCoverage.map((coverage, index) => {
+  const journalist = journalists.get(coverage.journalistId);
+  if (!journalist) {
+    throw new Error(`Journalist introuvable pour la couverture quotidienne: ${coverage.id}`);
+  }
   const primaryQuery = journalist.priorityQueries[index % journalist.priorityQueries.length];
   const articleType = journalist.articleTypes[index % journalist.articleTypes.length];
 
   return {
     order: index + 1,
+    coverageId: coverage.id,
+    coverage: coverage.label,
+    brief: coverage.brief,
     journalistId: journalist.id,
     journalistName: journalist.name,
     beat: journalist.beat,
@@ -55,6 +59,7 @@ const plan = {
   generatedAt: now.toISOString(),
   editorialDate: parisDate,
   dailyMinimumArticles: team.dailyMinimumArticles,
+  requiredDailyCoverage: team.requiredDailyCoverage.map(({ id, label }) => ({ id, label })),
   status: "ready_for_editorial_run",
   publicReminder: "Ne pas publier de mention de strategie SEO, d'automatisation ou de fonctionnement interne.",
   languages: team.languagePolicy,
