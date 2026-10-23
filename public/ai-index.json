@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-20T23:04:00+02:00",
-    "freshnessNote": "Fil PSG du 20 octobre 2026. Fil public : 168 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc ; PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure ; Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence ; Strasbourg-PSG : mené à la pause, Paris renverse tout avec Zabarnyi, Dembélé et Doué ; Strasbourg-PSG : Hakimi et Dembélé bien du voyage, Luis Enrique retient 21 joueurs. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-23T14:15:00+02:00",
+    "freshnessNote": "Fil PSG du 23 octobre 2026. Fil public : 169 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc ; PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc ; PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure ; Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence ; Strasbourg-PSG : mené à la pause, Paris renverse tout avec Zabarnyi, Dembélé et Doué. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc",
+      "category": "Calendrier",
+      "dateTime": "2026-10-23T14:15:00+02:00",
+      "url": "https://parisien90.com/news/psg-lyon-reporte-lundi-26-octobre-2026/",
+      "source": "LFP",
+      "sourceUrl": "https://ligue1.fr/",
+      "reliability": "Officiel — décision de programmation"
+    },
     {
       "title": "PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc",
       "category": "Europe",
@@ -461,15 +470,6 @@
       "source": "Parisien 90 — analyse économique sourcée",
       "sourceUrl": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
       "reliability": "Chiffres officiels et estimations externes attribuées"
-    },
-    {
-      "title": "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier",
-      "category": "Mercato",
-      "dateTime": "2026-10-04T10:45:00+02:00",
-      "url": "https://parisien90.com/news/mercato-psg-octobre-audit-effectif-avant-janvier-2027/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-      "reliability": "Analyse"
     }
   ],
   "people": [
@@ -2684,28 +2684,19 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-20T23:04:00+02:00",
+    "updatedAt": "2026-10-23T14:15:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
     "nextFixtures": [
       {
-        "date": "2026-10-20",
-        "competition": "Liga dos Campeões",
-        "home": "Paris Saint-Germain",
-        "away": "FC Barcelone",
-        "status": "Terminé 4-2",
-        "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-barcelona-2026-10-20"
-      },
-      {
-        "date": "2026-10-25",
+        "date": "2026-10-26",
         "competition": "Ligue 1",
         "home": "Paris Saint-Germain",
         "away": "Olympique Lyonnais",
         "status": "Programmé",
-        "source": null,
-        "sourceUrl": null
+        "source": "LFP",
+        "sourceUrl": "https://ligue1.fr/"
       },
       {
         "date": "2026-10-30",
@@ -2757,6 +2748,15 @@
         "competition": "Ligue 1",
         "home": "Paris Saint-Germain",
         "away": "FC Lorient",
+        "status": "Horaire à confirmer",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-12-05",
+        "competition": "Ligue 1",
+        "home": "Toulouse FC",
+        "away": "Paris Saint-Germain",
         "status": "Horaire à confirmer",
         "source": null,
         "sourceUrl": null

@@ -13,7 +13,7 @@ export const psgSchedule2627 = [
   { round: 2, roundLabel: "C1 J2", isoDate: "2026-10-14", day: "mercredi", dateLabel: "14 octobre 2026", month: "2026-10", competition: "Ligue des champions", home: "Manchester City", away: "Paris Saint-Germain", opponent: "Manchester City", venue: "Etihad Stadium", place: "Extérieur", time: "21:00", status: "Terminé 2-4", note: "Paris a frappé très fort à l'Etihad : Doué, Dembélé, Vitinha et Akliouche ont construit une victoire européenne spectaculaire.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/man-city-vs-paris-2026-10-14" },
   { round: 7, isoDate: "2026-10-17", day: "samedi", dateLabel: "17 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "RC Strasbourg", away: "Paris Saint-Germain", opponent: "RC Strasbourg", venue: "Stade de la Meinau", place: "Extérieur", time: "17:15", status: "Terminé 1-3", note: "Mené à la pause, Paris a renversé Strasbourg grâce à Zabarnyi, Dembélé et Doué.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/content/renversant-a-strasbourg-paris-poursuit-sa-marche-en-avant-compte-rendu-rc-strasbourg-alsace-paris-saint-germain-ligue-1-journee-7-2026-2027" },
   { round: 3, roundLabel: "C1 J3", isoDate: "2026-10-20", day: "mardi", dateLabel: "20 octobre 2026", month: "2026-10", competition: "Ligue des champions", home: "Paris Saint-Germain", away: "FC Barcelone", opponent: "FC Barcelone", venue: "Parc des Princes", place: "Domicile", time: "21:00", status: "Terminé 4-2", note: "Doué, Lucas Hernandez, Vitinha et Fabián Ruiz ont offert au PSG une victoire spectaculaire face au Barça, malgré les égalisations de Xavi Espart puis Yamal.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-barcelona-2026-10-20" },
-  { round: 8, isoDate: "2026-10-25", day: "dimanche", dateLabel: "25 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Olympique Lyonnais", opponent: "Olympique Lyonnais", venue: "Parc des Princes", place: "Domicile", time: "19:45", status: "Programmé", note: "Choc historique du championnat.", highlight: true },
+  { round: 8, isoDate: "2026-10-26", day: "lundi", dateLabel: "26 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Olympique Lyonnais", opponent: "Olympique Lyonnais", venue: "Parc des Princes", place: "Domicile", time: "20:30", status: "Programmé", note: "Le choc a été décalé au lundi par la LFP à la demande de la préfecture de Police.", highlight: true, source: "LFP", sourceUrl: "https://ligue1.fr/" },
   { round: 9, isoDate: "2026-10-30", day: "vendredi", dateLabel: "30 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Le Havre AC", away: "Paris Saint-Germain", opponent: "Le Havre AC", venue: "Stade Océane", place: "Extérieur", time: "19:00", status: "Programmé", note: "Match à gérer sans tomber dans le confort.", highlight: false, source: "PSG.fr", sourceUrl: "https://www.psg.fr/football-masculin/calendrier/season/2026-27" },
   { round: 4, roundLabel: "C1 J4", isoDate: "2026-11-03", day: "mardi", dateLabel: "3 novembre 2026", month: "2026-11", competition: "Ligue des champions", home: "Villarreal CF", away: "Paris Saint-Germain", opponent: "Villarreal CF", venue: "Estadio de la Cerámica", place: "Extérieur", time: "21:00", status: "Programmé", note: "Déplacement européen piégeux, typiquement le genre de match où le PSG doit gagner en patron.", highlight: true, source: "PSG.fr / UEFA", sourceUrl: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027" },
   { round: 10, isoDate: "2026-11-07", day: "samedi", dateLabel: "7 novembre 2026", month: "2026-11", competition: "Ligue 1", home: "Paris Saint-Germain", away: "ESTAC Troyes", opponent: "ESTAC Troyes", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Paris doit imposer son tempo.", highlight: false },
@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-20T23:04:00+02:00",
-  edition: "Fil PSG du 20 octobre 2026",
-  displayDate: "20 octobre 2026",
-  displayTime: "23h04",
+  updatedAt: "2026-10-23T14:15:00+02:00",
+  edition: "Fil PSG du 23 octobre 2026",
+  displayDate: "23 octobre 2026",
+  displayTime: "14h15",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-23", "23 octobre 2026", [
+  { id: "psg-lyon-reporte-lundi-26-octobre-2026", time: "14:15", category: "Calendrier", title: "PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc", summary: "La LFP a reporté PSG-Lyon, initialement programmé dimanche, au lundi 26 octobre à 20h30 au Parc des Princes. La décision fait suite à l'arrêté de la préfecture de Police interdisant l'organisation de l'affiche le 25 octobre ; la rencontre sera diffusée sur Ligue 1+.", source: "LFP", url: "https://ligue1.fr/", reliability: "Officiel — décision de programmation", viral: 92 },
+  ]),
   ...withNewsDate("2026-10-20", "20 octobre 2026", [
   { id: "psg-barcelone-victoire-doue-hernandez-vitinha-fabian-octobre-2026", time: "23:04", category: "Europe", title: "PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc", summary: "Le PSG a battu le FC Barcelone 4-2 au Parc des Princes pour signer un troisième succès en trois journées de Ligue des champions. Désiré Doué a ouvert le score avant les réponses de Xavi Espart et Lamine Yamal ; Lucas Hernandez, Vitinha et Fabián Ruiz ont ensuite fait basculer une soirée spectaculaire. Doué, buteur et passeur, a été élu homme du match par l'UEFA. Paris reste en tête de la phase de ligue grâce à sa différence de buts.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-barcelona-2026-10-20", reliability: "Officiel — résultat, buteurs et distinction UEFA confirmés", viral: 99 },
   ]),
