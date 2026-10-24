@@ -1,11 +1,101 @@
 {
-  "updatedAt": "2026-10-10T06:30:00+02:00",
-  "displayDate": "10 octobre 2026",
-  "displayTime": "6h30",
+  "updatedAt": "2026-10-21T12:00:00+02:00",
+  "displayDate": "21 octobre 2026",
+  "displayTime": "12h00",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 63,
+  "count": 66,
   "items": [
+    {
+      "id": "desire-doue-psg-barcelone-joueur-match-octobre-2026",
+      "category": "Joueurs PSG",
+      "angle": "Le joueur du jour",
+      "date": "2026-10-21",
+      "dateLabel": "21 octobre 2026",
+      "time": "10:00",
+      "dateTime": "2026-10-21T10:00:00+02:00",
+      "headline": "Désiré Doué, la soirée qui confirme son poids dans le PSG",
+      "summary": "Contre Barcelone, Désiré Doué n'a pas seulement marqué. Il a offert au PSG une première prise dans le match, puis l'exemple d'un joueur capable de décider sans sortir du collectif.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/desire-doue-psg-barcelone-joueur-match-octobre-2026/",
+      "sources": [
+        {
+          "name": "UEFA - PSG 4-2 Barcelone",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21e00a3e5c92-5f791084f24b-1000--champions-league-highlights-and-round-up-paris-saint-ger/",
+          "note": "Score, but de Doué et distinction du joueur du match."
+        },
+        {
+          "name": "PSG.fr - Stats & Facts",
+          "url": "https://www.psg.fr/content/stats-facts-paris-saint-germain-fc-barcelone-uefa-champions-league-2026-2027",
+          "note": "Contexte du succès parisien."
+        }
+      ],
+      "keywords": [
+        "Désiré Doué PSG",
+        "Doué Barcelone",
+        "joueur du match PSG",
+        "PSG Champions League"
+      ]
+    },
+    {
+      "id": "psg-lyon-ligue-1-apres-barcelone-octobre-2026",
+      "category": "Ligue 1",
+      "angle": "Le PSG dans le championnat",
+      "date": "2026-10-21",
+      "dateLabel": "21 octobre 2026",
+      "time": "11:00",
+      "dateTime": "2026-10-21T11:00:00+02:00",
+      "headline": "PSG-Lyon : après Barcelone, le championnat remet Paris face à une autre exigence",
+      "summary": "Une grande nuit européenne peut créer un élan ou un faux confort. Contre Lyon, le PSG devra retrouver la précision du championnat, où chaque point compte autant que le prestige.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-lyon-ligue-1-apres-barcelone-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - Paris-Lyon le 25 octobre",
+          "url": "https://www.psg.fr/content/paris-lyon-le-2510-a-20h45-psg-ligue-1-programmation-calendrier-programme-8e-journee-2026-2027",
+          "note": "Programmation officielle."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier?competition=French_Ligue_1",
+          "note": "Calendrier et résultats de Ligue 1."
+        }
+      ],
+      "keywords": [
+        "PSG Lyon",
+        "Ligue 1 PSG",
+        "calendrier PSG",
+        "PSG championnat"
+      ]
+    },
+    {
+      "id": "psg-barcelone-principes-jeu-pression-transitions-octobre-2026",
+      "category": "Tactique PSG",
+      "angle": "Philosophie de jeu",
+      "date": "2026-10-21",
+      "dateLabel": "21 octobre 2026",
+      "time": "12:00",
+      "dateTime": "2026-10-21T12:00:00+02:00",
+      "headline": "PSG-Barcelone : ce que le 4-2 raconte de la philosophie de jeu parisienne",
+      "summary": "Le score ne suffit pas à décrire PSG-Barcelone. La rencontre a surtout montré une équipe qui veut attaquer, mais qui apprend aussi à survivre à ses périodes de déséquilibre.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-barcelone-principes-jeu-pression-transitions-octobre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - réaction de Luis Enrique",
+          "url": "https://www.psg.fr/content/luis-enrique-il-faut-continuer-reactions-paris-saint-germain-fc-barcelone-uefa-champions-league-2026-2027",
+          "note": "Analyse de l'entraîneur après le match."
+        },
+        {
+          "name": "UEFA - PSG 4-2 Barcelone",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21e00a3e5c92-5f791084f24b-1000--champions-league-highlights-and-round-up-paris-saint-ger/",
+          "note": "Déroulé et buteurs du match."
+        }
+      ],
+      "keywords": [
+        "tactique PSG",
+        "Luis Enrique philosophie de jeu",
+        "PSG Barcelone analyse",
+        "pressing PSG"
+      ]
+    },
     {
       "id": "psg-le-mans-composition-heure-avant-coup-envoi-2026",
       "category": "Tactique PSG",

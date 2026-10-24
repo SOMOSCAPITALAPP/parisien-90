@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-16T12:30:00+02:00",
+    "lastVerifiedAt": "2026-10-24T16:08:00+02:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -329,41 +329,19 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-16T12:30:00+02:00",
+    "updatedAt": "2026-10-24T16:08:00+02:00",
     "totalFixtures": 52,
     "nextFixtures": [
       {
-        "date": "2026-10-17",
-        "time": "17:15",
-        "competition": "Ligue 1",
-        "home": "RC Strasbourg",
-        "away": "Paris Saint-Germain",
-        "venue": "Stade de la Meinau",
-        "status": "Marcado",
-        "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
-      },
-      {
-        "date": "2026-10-20",
-        "time": "21:00",
-        "competition": "Liga dos Campeões",
-        "home": "Paris Saint-Germain",
-        "away": "FC Barcelone",
-        "venue": "Parc des Princes",
-        "status": "Marcado",
-        "source": "PSG.fr / UEFA",
-        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
-      },
-      {
-        "date": "2026-10-25",
-        "time": "19:45",
+        "date": "2026-10-26",
+        "time": "20:30",
         "competition": "Ligue 1",
         "home": "Paris Saint-Germain",
         "away": "Olympique Lyonnais",
         "venue": "Parc des Princes",
         "status": "Marcado",
-        "source": null,
-        "sourceUrl": null
+        "source": "LFP",
+        "sourceUrl": "https://ligue1.fr/"
       },
       {
         "date": "2026-10-30",
@@ -419,6 +397,28 @@
         "status": "Marcado",
         "source": "PSG.fr / UEFA",
         "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-11-28",
+        "time": "A confirmar",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "FC Lorient",
+        "venue": "Parc des Princes",
+        "status": "Horário a confirmar",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-12-05",
+        "time": "A confirmar",
+        "competition": "Ligue 1",
+        "home": "Toulouse FC",
+        "away": "Paris Saint-Germain",
+        "venue": "Stadium de Toulouse",
+        "status": "Horário a confirmar",
+        "source": null,
+        "sourceUrl": null
       }
     ]
   },

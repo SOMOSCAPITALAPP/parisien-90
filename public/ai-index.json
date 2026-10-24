@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-23T14:15:00+02:00",
-    "freshnessNote": "Fil PSG du 23 octobre 2026. Fil public : 169 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 63 articles de fond sous /dossiers-psg/. À suivre : PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc ; PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc ; PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure ; Nuno Mendes : le PSG confirme une lésion à la cuisse gauche, plusieurs semaines d'absence ; Strasbourg-PSG : mené à la pause, Paris renverse tout avec Zabarnyi, Dembélé et Doué. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-24T16:08:00+02:00",
+    "freshnessNote": "Fil PSG du 24 octobre 2026. Fil public : 171 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif ; PSG-Montpellier : Dudek relance les Parisiennes d'un but de patronne ; PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc ; PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc ; PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,24 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif",
+      "category": "Groupe",
+      "dateTime": "2026-10-24T16:08:00+02:00",
+      "url": "https://parisien90.com/news/luis-enrique-psg-lyon-collectif-kvaratskhelia-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-affronter-l-ol-cest-une-motivation-supplementaire-paris-saint-germain-olympique-lyonnais-conference-de-presse-ligue-1-20262027",
+      "reliability": "Officiel — conférence de presse"
+    },
+    {
+      "title": "PSG-Montpellier : Dudek relance les Parisiennes d'un but de patronne",
+      "category": "Féminines",
+      "dateTime": "2026-10-23T23:00:00+02:00",
+      "url": "https://parisien90.com/news/psg-feminin-montpellier-victoire-dudek-octobre-2026/",
+      "source": "PSG.fr / Stats Footofeminin",
+      "sourceUrl": "https://www.psg.fr/en/content/les-parisiennes-get-back-to-winning-ways-match-report-paris-saint-germain-montpellier-fc-arkema-premiere-ligue-2026-2027",
+      "reliability": "Officiel — résultat et feuille de match recoupée"
+    },
     {
       "title": "PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc",
       "category": "Calendrier",
@@ -452,24 +470,6 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
       "reliability": "Fait officiel, analyse prudente"
-    },
-    {
-      "title": "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG",
-      "category": "Anciens",
-      "dateTime": "2026-10-05T06:30:00+02:00",
-      "url": "https://parisien90.com/news/neymar-santos-2026-heritage-psg-bilan/",
-      "source": "Parisien 90 — dossier sourcé",
-      "sourceUrl": "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791",
-      "reliability": "Sources officielles CBF, Santos et PSG"
-    },
-    {
-      "title": "Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ?",
-      "category": "Économie",
-      "dateTime": "2026-10-05T06:30:00+02:00",
-      "url": "https://parisien90.com/news/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
-      "source": "Parisien 90 — analyse économique sourcée",
-      "sourceUrl": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
-      "reliability": "Chiffres officiels et estimations externes attribuées"
     }
   ],
   "people": [
@@ -1934,6 +1934,84 @@
   },
   "editorialArticles": [
     {
+      "title": "Désiré Doué, la soirée qui confirme son poids dans le PSG",
+      "category": "Joueurs PSG",
+      "angle": "Le joueur du jour",
+      "dateTime": "2026-10-21T10:00:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/desire-doue-psg-barcelone-joueur-match-octobre-2026/",
+      "summary": "Contre Barcelone, Désiré Doué n'a pas seulement marqué. Il a offert au PSG une première prise dans le match, puis l'exemple d'un joueur capable de décider sans sortir du collectif.",
+      "keywords": [
+        "Désiré Doué PSG",
+        "Doué Barcelone",
+        "joueur du match PSG",
+        "PSG Champions League"
+      ],
+      "sources": [
+        {
+          "name": "UEFA - PSG 4-2 Barcelone",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21e00a3e5c92-5f791084f24b-1000--champions-league-highlights-and-round-up-paris-saint-ger/",
+          "note": "Score, but de Doué et distinction du joueur du match."
+        },
+        {
+          "name": "PSG.fr - Stats & Facts",
+          "url": "https://www.psg.fr/content/stats-facts-paris-saint-germain-fc-barcelone-uefa-champions-league-2026-2027",
+          "note": "Contexte du succès parisien."
+        }
+      ]
+    },
+    {
+      "title": "PSG-Lyon : après Barcelone, le championnat remet Paris face à une autre exigence",
+      "category": "Ligue 1",
+      "angle": "Le PSG dans le championnat",
+      "dateTime": "2026-10-21T11:00:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-lyon-ligue-1-apres-barcelone-octobre-2026/",
+      "summary": "Une grande nuit européenne peut créer un élan ou un faux confort. Contre Lyon, le PSG devra retrouver la précision du championnat, où chaque point compte autant que le prestige.",
+      "keywords": [
+        "PSG Lyon",
+        "Ligue 1 PSG",
+        "calendrier PSG",
+        "PSG championnat"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - Paris-Lyon le 25 octobre",
+          "url": "https://www.psg.fr/content/paris-lyon-le-2510-a-20h45-psg-ligue-1-programmation-calendrier-programme-8e-journee-2026-2027",
+          "note": "Programmation officielle."
+        },
+        {
+          "name": "PSG.fr - calendrier masculin",
+          "url": "https://www.psg.fr/football-masculin/calendrier?competition=French_Ligue_1",
+          "note": "Calendrier et résultats de Ligue 1."
+        }
+      ]
+    },
+    {
+      "title": "PSG-Barcelone : ce que le 4-2 raconte de la philosophie de jeu parisienne",
+      "category": "Tactique PSG",
+      "angle": "Philosophie de jeu",
+      "dateTime": "2026-10-21T12:00:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-barcelone-principes-jeu-pression-transitions-octobre-2026/",
+      "summary": "Le score ne suffit pas à décrire PSG-Barcelone. La rencontre a surtout montré une équipe qui veut attaquer, mais qui apprend aussi à survivre à ses périodes de déséquilibre.",
+      "keywords": [
+        "tactique PSG",
+        "Luis Enrique philosophie de jeu",
+        "PSG Barcelone analyse",
+        "pressing PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - réaction de Luis Enrique",
+          "url": "https://www.psg.fr/content/luis-enrique-il-faut-continuer-reactions-paris-saint-germain-fc-barcelone-uefa-champions-league-2026-2027",
+          "note": "Analyse de l'entraîneur après le match."
+        },
+        {
+          "name": "UEFA - PSG 4-2 Barcelone",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21e00a3e5c92-5f791084f24b-1000--champions-league-highlights-and-round-up-paris-saint-ger/",
+          "note": "Déroulé et buteurs du match."
+        }
+      ]
+    },
+    {
       "title": "PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle",
       "category": "Tactique PSG",
       "angle": "Préparer PSG-Le Mans sans inventer la composition",
@@ -2441,102 +2519,6 @@
           "note": "Contexte sportif récent du club de Neymar."
         }
       ]
-    },
-    {
-      "title": "Valorisation du PSG : 1,5 milliard, 5 milliards ou 837 millions ? Le vrai sens des chiffres",
-      "category": "Économie PSG",
-      "angle": "Lecture rigoureuse de la valeur du club, de la marque et des revenus",
-      "dateTime": "2026-10-05T06:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/valorisation-psg-marque-entreprise-chiffre-affaires-2026/",
-      "summary": "La puissance économique du PSG est réelle, mais les chiffres souvent rapprochés dans le débat public répondent à trois questions différentes. Les distinguer évite les comparaisons trompeuses.",
-      "keywords": [
-        "valorisation PSG",
-        "valeur PSG 2026",
-        "chiffre d'affaires PSG",
-        "économie PSG",
-        "marque PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - saison financière record",
-          "url": "https://www.psg.fr/en/content/paris-saint-germain-posts-record-breaking-financial-season-and-reinforces-growth-strategy-20252026",
-          "note": "Chiffre d'affaires, revenus commerciaux, matchday et ratio salarial annoncés par le club."
-        },
-        {
-          "name": "Brand Finance - valeur de marque PSG 2026",
-          "url": "https://brandfinance.com/press-releases/un-ecart-de-valeur-de-marque-se-chiffrant-en-milliards-deuros-met-la-ligue-1-au-defi-alors-que-le-paris-saint-germain-demeure-la-marque-de-club-de-football-francais-la-plus-valorisee",
-          "note": "Estimation de marque, progression et rang mondial."
-        },
-        {
-          "name": "Forbes - Paris Saint-Germain valuation 2026",
-          "url": "https://www.forbes.com/teams/paris-saint-germain/?list=soccer-valuations",
-          "note": "Estimation externe de valeur d'entreprise, revenus et résultat opérationnel."
-        }
-      ]
-    },
-    {
-      "title": "Mercato PSG : les cinq réponses qu'octobre doit donner avant janvier",
-      "category": "Mercato PSG",
-      "angle": "Audit de l'effectif avant le mercato d'hiver",
-      "dateTime": "2026-10-04T10:45:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-octobre-audit-effectif-avant-janvier-2027/",
-      "summary": "City et Barcelone testeront le plafond du groupe, Le Mans, Strasbourg, Lyon et Le Havre sa continuité. Cette séquence doit servir d'audit sportif avant toute décision de janvier.",
-      "keywords": [
-        "mercato PSG",
-        "transfert PSG",
-        "mercato PSG janvier 2027",
-        "effectif PSG",
-        "recrutement PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - calendrier masculin 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Dates et adversaires de la séquence d'octobre."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-          "note": "Composition publique de l'effectif et postes officiels."
-        },
-        {
-          "name": "UEFA - matches du PSG en Ligue des champions",
-          "url": "https://fr.uefa.com/uefachampionsleague/clubs/52747--paris/matches/",
-          "note": "Calendrier européen officiel de Paris."
-        }
-      ]
-    },
-    {
-      "title": "Dembélé, Doué, Zaïre-Emery : comment la trêve peut rebattre les cartes au PSG",
-      "category": "Joueurs PSG",
-      "angle": "Forme, charge internationale et hiérarchie",
-      "dateTime": "2026-10-04T10:45:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/internationaux-psg-retours-octobre-dembele-doue-zaire-emery/",
-      "summary": "La sélection donne du rythme, de la confiance et parfois de la fatigue. Pour Luis Enrique, la question n'est pas seulement de savoir qui a joué, mais dans quel rôle et avec quel coût physique.",
-      "keywords": [
-        "Dembélé PSG",
-        "Désiré Doué PSG",
-        "Zaïre-Emery PSG",
-        "internationaux PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - trois Parisiens avec la France",
-          "url": "https://www.psg.fr/content/warren-zaire-emery-ousmane-dembele-et-desire-doue-avec-la-france-paris-saint-germain-2026-2027",
-          "note": "Convocations et calendrier officiel des joueurs français."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-          "note": "Postes et présence des joueurs dans le groupe officiel."
-        },
-        {
-          "name": "PSG.fr - calendrier masculin",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Dates du Mans et de la séquence d'octobre."
-        }
-      ]
     }
   ],
   "brazilNews": [
@@ -2684,7 +2666,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-23T14:15:00+02:00",
+    "updatedAt": "2026-10-24T16:08:00+02:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

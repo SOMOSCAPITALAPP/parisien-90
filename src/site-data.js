@@ -323,17 +323,21 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-23T14:15:00+02:00",
-  edition: "Fil PSG du 23 octobre 2026",
-  displayDate: "23 octobre 2026",
-  displayTime: "14h15",
+  updatedAt: "2026-10-24T16:08:00+02:00",
+  edition: "Fil PSG du 24 octobre 2026",
+  displayDate: "24 octobre 2026",
+  displayTime: "16h08",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-24", "24 octobre 2026", [
+  { id: "luis-enrique-psg-lyon-collectif-kvaratskhelia-octobre-2026", time: "16:08", category: "Groupe", title: "PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif", summary: "Avant Lyon lundi, Luis Enrique a confirmé la gravité de la blessure de Khvicha Kvaratskhelia, tout en refusant d'en faire un déclencheur automatique de recrutement. Le coach s'appuie sur la réponse collective aperçue contre Barcelone, malgré les sorties de Marquinhos et Kvaratskhelia et l'absence de Dembélé, et voit dans l'affiche face à l'OL une occasion de prendre la tête. Illia Zabarnyi, lui, reçoit un soutien appuyé : Paris compte sur la profondeur de son groupe.", source: "PSG.fr", url: "https://www.psg.fr/content/luis-enrique-affronter-l-ol-cest-une-motivation-supplementaire-paris-saint-germain-olympique-lyonnais-conference-de-presse-ligue-1-20262027", reliability: "Officiel — conférence de presse", viral: 95 },
+  ]),
   ...withNewsDate("2026-10-23", "23 octobre 2026", [
+  { id: "psg-feminin-montpellier-victoire-dudek-octobre-2026", time: "23:00", category: "Féminines", title: "PSG-Montpellier : Dudek relance les Parisiennes d'un but de patronne", summary: "Le PSG féminin a retrouvé la victoire en dominant Montpellier 1-0 au Campus PSG, en 6e journée de Première Ligue. Paulina Dudek a inscrit l'unique but à la 22e minute, un avantage que les joueuses de Paulo César ont conservé après la lourde défaite subie contre l'OL Lyonnes. Le calendrier officiel du club confirme le résultat ; la feuille de match recoupée crédite la défenseure polonaise.", source: "PSG.fr / Stats Footofeminin", url: "https://www.psg.fr/en/content/les-parisiennes-get-back-to-winning-ways-match-report-paris-saint-germain-montpellier-fc-arkema-premiere-ligue-2026-2027", reliability: "Officiel — résultat et feuille de match recoupée", viral: 90 },
   { id: "psg-lyon-reporte-lundi-26-octobre-2026", time: "14:15", category: "Calendrier", title: "PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc", summary: "La LFP a reporté PSG-Lyon, initialement programmé dimanche, au lundi 26 octobre à 20h30 au Parc des Princes. La décision fait suite à l'arrêté de la préfecture de Police interdisant l'organisation de l'affiche le 25 octobre ; la rencontre sera diffusée sur Ligue 1+.", source: "LFP", url: "https://ligue1.fr/", reliability: "Officiel — décision de programmation", viral: 92 },
   ]),
   ...withNewsDate("2026-10-20", "20 octobre 2026", [
