@@ -78,10 +78,9 @@ const uniqueSourceItems = () => {
 
 export default async function handler(request, response) {
   const requestUrl = new URL(request.url || "/", SITE_URL);
-  const isPublicView = requestUrl.searchParams.get("public") === "1";
   const secret = process.env.CRON_SECRET;
 
-  if (!isPublicView && (!secret || request.headers.authorization !== `Bearer ${secret}`)) {
+  if (!secret || request.headers.authorization !== `Bearer ${secret}`) {
     response.status(401).json({ ok: false, error: "Unauthorized" });
     return;
   }
@@ -91,7 +90,7 @@ export default async function handler(request, response) {
     return;
   }
 
-  const limit = Math.min(Number(requestUrl.searchParams.get("limit") || (isPublicView ? 40 : 120)), isPublicView ? 60 : 160);
+  const limit = Math.min(Number(requestUrl.searchParams.get("limit") || 120), 160);
   const sources = uniqueSourceItems().slice(0, limit);
   const results = [];
 

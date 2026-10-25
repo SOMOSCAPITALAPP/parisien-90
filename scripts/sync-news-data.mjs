@@ -19,6 +19,7 @@ const brDir = new URL("../br/", import.meta.url);
 const calendarPagePath = new URL("../calendrier-psg/index.html", import.meta.url);
 const currentDate = newsMeta.updatedAt.slice(0, 10);
 const heroImage = `${siteUrl}/hero-stadium.png`;
+const editorialShareImage = `${siteUrl}/social/parisien90-editorial-share.png`;
 
 const isPublishedNews = (item) =>
   !String(item.reliability || "").toLowerCase().includes("archive") &&
@@ -41,6 +42,8 @@ const staticPages = [
   { path: "/confidentialite/", changefreq: "monthly", priority: "0.5" },
   { path: "/cookies/", changefreq: "monthly", priority: "0.5" },
   { path: "/contact-retrait/", changefreq: "monthly", priority: "0.5" },
+  { path: "/a-propos/", changefreq: "monthly", priority: "0.6" },
+  { path: "/redaction/", changefreq: "monthly", priority: "0.6" },
   { path: "/sources-psg/", changefreq: "weekly", priority: "0.7" },
   { path: "/histoire-psg/", changefreq: "weekly", priority: "0.85" },
   { path: "/anciens-joueurs-psg/", changefreq: "weekly", priority: "0.84" },
@@ -374,14 +377,14 @@ const makeArticlePage = (item) => {
     <meta property="og:title" content="${escapeHTML(item.title)}" />
     <meta property="og:description" content="${escapeHTML(item.summary)}" />
     <meta property="og:url" content="${escapeHTML(url)}" />
-    <meta property="og:image" content="${escapeHTML(heroImage)}" />
+    <meta property="og:image" content="${escapeHTML(editorialShareImage)}" />
     <meta property="article:published_time" content="${escapeHTML(dateTime)}" />
     <meta property="article:modified_time" content="${escapeHTML(newsMeta.updatedAt)}" />
     <meta property="article:section" content="${escapeHTML(item.category)}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${escapeHTML(item.title)}" />
     <meta name="twitter:description" content="${escapeHTML(item.summary)}" />
-    <meta name="twitter:image" content="${escapeHTML(heroImage)}" />
+    <meta name="twitter:image" content="${escapeHTML(editorialShareImage)}" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
@@ -476,6 +479,7 @@ const makeEditorialArticlePage = (item) => {
   const path = editorialPath(item);
   const url = editorialUrl(item);
   const dateTime = `${item.date}T${String(item.time || "09:00").padStart(5, "0")}:00+02:00`;
+  const socialImage = new URL(item.image || "/social/parisien90-editorial-share.png", siteUrl).href;
   const sourceItems = (item.sources || []).map((source) => ({
     "@type": "CreativeWork",
     name: source.name,
@@ -490,7 +494,7 @@ const makeEditorialArticlePage = (item) => {
         mainEntityOfPage: { "@type": "WebPage", "@id": url },
         headline: item.title,
         description: item.description,
-        image: [new URL(item.image || "/hero-stadium.png", siteUrl).href],
+        image: [socialImage],
         datePublished: dateTime,
         dateModified: editorialArticlesMeta.updatedAt,
         inLanguage: "fr-FR",
@@ -565,11 +569,16 @@ const makeEditorialArticlePage = (item) => {
     <meta property="og:title" content="${escapeHTML(item.title)}" />
     <meta property="og:description" content="${escapeHTML(item.description)}" />
     <meta property="og:url" content="${escapeHTML(url)}" />
-    <meta property="og:image" content="${escapeHTML(new URL(item.image || "/hero-stadium.png", siteUrl).href)}" />
+    <meta property="og:site_name" content="Parisien 90" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:image" content="${escapeHTML(socialImage)}" />
     <meta property="article:published_time" content="${escapeHTML(dateTime)}" />
     <meta property="article:modified_time" content="${escapeHTML(editorialArticlesMeta.updatedAt)}" />
     <meta property="article:section" content="${escapeHTML(item.category)}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${escapeHTML(item.title)}" />
+    <meta name="twitter:description" content="${escapeHTML(item.description)}" />
+    <meta name="twitter:image" content="${escapeHTML(socialImage)}" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
@@ -700,8 +709,14 @@ const makeEditorialIndexPage = () => {
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Dossiers PSG : analyses, histoire, joueurs et grands débats" />
     <meta property="og:description" content="Portraits, histoire, matchs, mercato et grands débats autour du PSG." />
-    <meta property="og:image" content="https://parisien90.com/hero-stadium.png" />
+    <meta property="og:url" content="https://parisien90.com/dossiers-psg/" />
+    <meta property="og:site_name" content="Parisien 90" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:image" content="${editorialShareImage}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dossiers PSG : analyses, histoire, joueurs et grands débats" />
+    <meta name="twitter:description" content="Portraits, histoire, matchs, mercato et grands débats autour du PSG." />
+    <meta name="twitter:image" content="${editorialShareImage}" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
