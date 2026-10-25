@@ -210,8 +210,8 @@ const syncCalendarQuickAnswer = async () => {
   const timeLabel = nextFixture.time === "À confirmer" ? "horaire à confirmer" : `${nextFixture.time}`;
   const shortTeamName = (team) => team === "Paris Saint-Germain" ? "PSG" : team;
   const matchLabel = `${shortTeamName(nextFixture.home)} - ${shortTeamName(nextFixture.away)}`;
-  const calendarTitle = "Calendrier PSG 2026-2027 : prochain match et résultats";
-  const calendarDescription = `Calendrier PSG 2026-2027 : prochain match ${matchLabel}, ${nextFixture.day} ${nextFixture.dateLabel} à ${timeLabel}. Horaires et résultats en Ligue 1, Champions et Coupe de France.`;
+  const calendarTitle = "Calendrier PSG 2026-2027 : prochain match, résultats et horaires";
+  const calendarDescription = `Prochain match du PSG : ${matchLabel}, ${nextFixture.day} ${nextFixture.dateLabel} à ${timeLabel}. Calendrier, résultats et horaires en Ligue 1, Ligue des champions et Coupe de France.`;
   const startDate = `${nextFixture.isoDate}T${nextFixture.time === "À confirmer" ? "00:00" : nextFixture.time}:00+02:00`;
   const block = `<!-- CALENDAR_QUICK_ANSWER:START -->
       <section class="calendar-quick-answer" aria-labelledby="next-psg-match-title" itemscope itemtype="https://schema.org/SportsEvent">
@@ -690,16 +690,16 @@ const makeEditorialIndexPage = () => {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dossiers PSG : analyses originales, histoire et joueurs | Parisien 90</title>
-    <meta name="description" content="Dossiers PSG originaux : articles de fond sur les anciens joueurs, l'effectif, le mercato, l'histoire du Paris Saint-Germain et les débats du club." />
+    <title>Dossiers PSG : analyses, histoire, joueurs et grands débats</title>
+    <meta name="description" content="Les dossiers Parisien 90 sur le PSG : portraits de joueurs, histoire du club, analyses de matchs, mercato et grands débats parisiens." />
     <link rel="canonical" href="https://parisien90.com/dossiers-psg/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/parisien-90-app-icon.svg" />
     <meta name="theme-color" content="#071426" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Dossiers PSG : analyses originales, histoire et joueurs | Parisien 90" />
-    <meta property="og:description" content="Articles de fond PSG : histoire, joueurs, mercato, débats et mémoire du club." />
+    <meta property="og:title" content="Dossiers PSG : analyses, histoire, joueurs et grands débats" />
+    <meta property="og:description" content="Portraits, histoire, matchs, mercato et grands débats autour du PSG." />
     <meta property="og:image" content="https://parisien90.com/hero-stadium.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
@@ -792,9 +792,9 @@ const makeProfilePage = ({ profile, type, path, url, parentPath, parentName }) =
   const profileImage = profile.image ? assetUrl(profile.image.url) : heroImage;
   const ronaldinhoSeo = isLegend && profile.id === "ronaldinho"
     ? {
-        title: "Ronaldinho PSG : parcours, matchs cultes et héritage",
-        heading: "Ronaldinho au PSG : parcours, matchs cultes et héritage",
-        description: "Ronaldinho au PSG de 2001 à 2003 : son parcours à Paris, ses matchs marquants, son style, son départ et l'héritage d'une future légende mondiale."
+        title: "Ronaldinho PSG (2001-2003) : parcours, matchs et héritage",
+        heading: "Ronaldinho au PSG : 2001-2003, matchs et héritage",
+        description: "Ronaldinho au PSG de 2001 à 2003 : ses années parisiennes, ses matchs marquants, son style et l'héritage d'une future légende mondiale."
       }
     : null;
   const title = ronaldinhoSeo?.title || (isPlayer
@@ -3081,8 +3081,8 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     },
     {
       path: "/br/calendario-psg/",
-      title: "Próximo jogo do PSG: calendário 2026-2027 e horários",
-      description: "Veja o próximo jogo do PSG e o calendário 2026-2027: datas, horários, resultados, Ligue 1, Champions League, Copa da França e amistosos.",
+      title: "Calendário PSG 2026-2027: próximo jogo, resultados e horários",
+      description: "Calendário completo do PSG: próximo jogo, resultados, horários, Ligue 1, Champions League, Copa da França e amistosos.",
       active: "calendario",
       frPath: "/calendrier-psg/",
       jsonLd: brCalendarJsonLd,
@@ -3138,8 +3138,8 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     },
     {
       path: "/br/mercado-psg/",
-      title: "Mercado da bola PSG: contratações, saídas e rumores",
-      description: "Mercado da bola do PSG: últimas contratações, saídas, negociações e rumores, com fontes, nível de confiança e impacto no elenco parisiense.",
+      title: "Mercado do PSG: transferências, rumores, chegadas e saídas",
+      description: "Mercado da bola do PSG: contratações, saídas, negociações e rumores acompanhados, com contexto claro para entender o elenco parisiense.",
       active: "mercado",
       frPath: "/mercato-psg/",
       jsonLd: { ...homeJsonLd, name: "Mercado PSG Brasil", url: `${siteUrl}/br/mercado-psg/` },
@@ -3150,8 +3150,8 @@ const makeBrazilPages = (allTimePlayerIndex) => {
     },
     {
       path: "/br/jogadores-psg/",
-      title: "Elenco do PSG 2026-2027: jogadores, números e brasileiros",
-      description: "Elenco do PSG 2026-2027: lista de jogadores, números, posições, brasileiros, jovens e fichas atualizadas do time de Luis Enrique.",
+      title: "Jogadores do PSG 2026-2027: elenco, posições e perfis",
+      description: "Elenco do PSG 2026-2027: jogadores, números, posições, brasileiros, jovens e perfis atualizados do time de Luis Enrique.",
       active: "jogadores",
       frPath: "/joueurs-psg/",
       jsonLd: { ...homeJsonLd, name: "Jogadores do PSG", url: `${siteUrl}/br/jogadores-psg/` },
