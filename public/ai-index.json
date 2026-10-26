@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-24T16:08:00+02:00",
-    "freshnessNote": "Fil PSG du 24 octobre 2026. Fil public : 171 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif ; PSG-Montpellier : Dudek relance les Parisiennes d'un but de patronne ; PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc ; PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc ; PSG-Barcelone : Luis Enrique voit un miroir, pas une finale avant l'heure. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-26T11:00:00+01:00",
+    "freshnessNote": "Fil PSG du 26 octobre 2026. Fil public : 172 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique ; PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif ; PSG-Montpellier : Dudek relance les Parisiennes d'un but de patronne ; PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc ; PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique",
+      "category": "Groupe",
+      "dateTime": "2026-10-26T11:00:00+01:00",
+      "url": "https://parisien90.com/news/psg-groupe-lyon-boly-ndjantou-bar-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-lyon-paris-saint-germain-ligue-1-2026-2027",
+      "reliability": "Officiel — groupe de 21 joueurs"
+    },
     {
       "title": "PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif",
       "category": "Groupe",
@@ -461,15 +470,6 @@
       "source": "PSG.fr / UEFA",
       "sourceUrl": "https://www.psg.fr/content/victoire-contre-la-belgique-de-mika-godts-pour-la-france-de-maghnes-akliouche-ousmane-dembele-et-desire-doue-paris-saint-germain-2026-2027",
       "reliability": "Officiel — résultat et temps de jeu confirmés"
-    },
-    {
-      "title": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
-      "category": "Rumeurs",
-      "dateTime": "2026-10-05T06:30:00+02:00",
-      "url": "https://parisien90.com/news/rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
-      "reliability": "Fait officiel, analyse prudente"
     }
   ],
   "people": [
@@ -2666,7 +2666,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-24T16:08:00+02:00",
+    "updatedAt": "2026-10-26T11:00:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

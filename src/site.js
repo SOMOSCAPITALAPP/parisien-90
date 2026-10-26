@@ -269,10 +269,20 @@ const initNewsFreshness = () => {
   });
 };
 
+const getParisOffset = (date, time = "00:00") => {
+  const [hour = "00", minute = "00"] = String(time).split(":");
+  const reference = new Date(`${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00Z`);
+  const offset = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Europe/Paris",
+    timeZoneName: "longOffset"
+  }).formatToParts(reference).find((part) => part.type === "timeZoneName")?.value;
+  return offset?.replace("GMT", "") || "+00:00";
+};
+
 const getNewsDateTimeISO = (item) => {
   const date = item.date || newsMeta.updatedAt.slice(0, 10);
   const [hour = "00", minute = "00"] = String(item.time || "00:00").split(":");
-  return `${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00+02:00`;
+  return `${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00${getParisOffset(date, item.time)}`;
 };
 
 const getNewsDateTimeLabel = (item) => `${item.dateLabel || newsMeta.displayDate} · ${item.time}`;

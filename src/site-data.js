@@ -323,16 +323,19 @@ export const seasonSquads = [
 ];
 
 export const newsMeta = {
-  updatedAt: "2026-10-24T16:08:00+02:00",
-  edition: "Fil PSG du 24 octobre 2026",
-  displayDate: "24 octobre 2026",
-  displayTime: "16h08",
+  updatedAt: "2026-10-26T11:00:00+01:00",
+  edition: "Fil PSG du 26 octobre 2026",
+  displayDate: "26 octobre 2026",
+  displayTime: "11h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-26", "26 octobre 2026", [
+  { id: "psg-groupe-lyon-boly-ndjantou-bar-octobre-2026", time: "11:00", category: "Groupe", title: "PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique", summary: "Le PSG a publié un groupe de 21 joueurs pour recevoir Lyon ce lundi à 20h30. David Boly, Quentin Ndjantou et Noah Bar y figurent aux côtés de Chevalier, Safonov, Hakimi, Vitinha, João Neves, Doué et Ferran. Marquinhos, Kvaratskhelia, Dembélé et Nuno Mendes n'apparaissent pas dans cette liste : Luis Enrique s'appuie donc sur trois jeunes du club pour le choc de la 8e journée.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-lyon-paris-saint-germain-ligue-1-2026-2027", reliability: "Officiel — groupe de 21 joueurs", viral: 93 },
+  ]),
   ...withNewsDate("2026-10-24", "24 octobre 2026", [
   { id: "luis-enrique-psg-lyon-collectif-kvaratskhelia-octobre-2026", time: "16:08", category: "Groupe", title: "PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif", summary: "Avant Lyon lundi, Luis Enrique a confirmé la gravité de la blessure de Khvicha Kvaratskhelia, tout en refusant d'en faire un déclencheur automatique de recrutement. Le coach s'appuie sur la réponse collective aperçue contre Barcelone, malgré les sorties de Marquinhos et Kvaratskhelia et l'absence de Dembélé, et voit dans l'affiche face à l'OL une occasion de prendre la tête. Illia Zabarnyi, lui, reçoit un soutien appuyé : Paris compte sur la profondeur de son groupe.", source: "PSG.fr", url: "https://www.psg.fr/content/luis-enrique-affronter-l-ol-cest-une-motivation-supplementaire-paris-saint-germain-olympique-lyonnais-conference-de-presse-ligue-1-20262027", reliability: "Officiel — conférence de presse", viral: 95 },
   ]),

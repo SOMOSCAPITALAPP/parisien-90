@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-24T16:08:00+02:00",
+    "lastVerifiedAt": "2026-10-26T11:00:00+01:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -329,7 +329,7 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-24T16:08:00+02:00",
+    "updatedAt": "2026-10-26T11:00:00+01:00",
     "totalFixtures": 52,
     "nextFixtures": [
       {

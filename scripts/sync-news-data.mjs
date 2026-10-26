@@ -94,16 +94,26 @@ const slugify = (value) => {
   return slug || "article-psg";
 };
 
+const parisOffset = (date, time = "00:00") => {
+  const [hour = "00", minute = "00"] = String(time).split(":");
+  const reference = new Date(`${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00Z`);
+  const offset = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Europe/Paris",
+    timeZoneName: "longOffset"
+  }).formatToParts(reference).find((part) => part.type === "timeZoneName")?.value;
+  return offset?.replace("GMT", "") || "+00:00";
+};
+
 const itemDate = (item) => {
   const date = item.date || currentDate;
   const [hour = "00", minute = "00"] = String(item.time).split(":");
-  return new Date(`${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00+02:00`);
+  return new Date(`${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00${parisOffset(date, item.time)}`);
 };
 
 const itemDateTimeISO = (item) => {
   const date = item.date || currentDate;
   const [hour = "00", minute = "00"] = String(item.time).split(":");
-  return `${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00+02:00`;
+  return `${date}T${hour.padStart(2, "0")}:${minute.padStart(2, "0")}:00${parisOffset(date, item.time)}`;
 };
 
 const itemPath = (item) => `/news/${slugify(item.id)}/`;
@@ -215,7 +225,8 @@ const syncCalendarQuickAnswer = async () => {
   const matchLabel = `${shortTeamName(nextFixture.home)} - ${shortTeamName(nextFixture.away)}`;
   const calendarTitle = "Calendrier PSG 2026-2027 : prochain match, résultats et horaires";
   const calendarDescription = `Prochain match du PSG : ${matchLabel}, ${nextFixture.day} ${nextFixture.dateLabel} à ${timeLabel}. Calendrier, résultats et horaires en Ligue 1, Ligue des champions et Coupe de France.`;
-  const startDate = `${nextFixture.isoDate}T${nextFixture.time === "À confirmer" ? "00:00" : nextFixture.time}:00+02:00`;
+  const fixtureTime = nextFixture.time === "À confirmer" ? "00:00" : nextFixture.time;
+  const startDate = `${nextFixture.isoDate}T${fixtureTime}:00${parisOffset(nextFixture.isoDate, fixtureTime)}`;
   const block = `<!-- CALENDAR_QUICK_ANSWER:START -->
       <section class="calendar-quick-answer" aria-labelledby="next-psg-match-title" itemscope itemtype="https://schema.org/SportsEvent">
         <div>
