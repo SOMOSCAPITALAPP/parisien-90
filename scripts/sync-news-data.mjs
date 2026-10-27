@@ -5,6 +5,7 @@ import { brNewsTranslations20261010 } from "../src/br-news-translations-2026-10-
 import { brNewsTranslations20261009 } from "../src/br-news-translations-2026-10-09.js";
 import { brNewsTranslations20261008 } from "../src/br-news-translations-2026-10-08.js";
 import { brNewsTranslations20261007 } from "../src/br-news-translations-2026-10-07.js";
+import { generatedBrStoryTranslations } from "../src/generated-br-story-translations.js";
 import { editorialArticles, editorialArticlesMeta } from "../src/editorial-articles.js";
 import { calendarWatchSources, currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, staffProfiles } from "../src/site-data.js";
 
@@ -1469,6 +1470,7 @@ const brSourceLabel = (value) =>
     .replace("Parisien 90 — dossier sourcé", "Parisien 90 — dossiê com fontes");
 
 const brStoryTranslations = [
+  ...generatedBrStoryTranslations,
   ...brNewsTranslations20261010,
   ...brNewsTranslations20261009,
   ...brNewsTranslations20261008,

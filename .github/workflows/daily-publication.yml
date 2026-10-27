@@ -1,0 +1,74 @@
+name: Publish daily PSG edition
+
+on:
+  schedule:
+    # Europe/Paris switches between UTC+1 and UTC+2. The script publishes only at 06:30 Paris time.
+    - cron: "30 4 * * *"
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish outside the two scheduled Paris windows"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: parisien90-daily-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check the Paris publishing window
+        id: window
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          paris_time="$(TZ=Europe/Paris date +%H:%M)"
+          if [ "$FORCE" = "true" ] || [ "$paris_time" = "06:30" ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            echo "No publication due at $paris_time Europe/Paris."
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.publish == 'true'
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        if: steps.window.outputs.publish == 'true'
+        with:
+          node-version: 24
+          cache: npm
+
+      - if: steps.window.outputs.publish == 'true'
+        run: npm ci
+      - if: steps.window.outputs.publish == 'true'
+        run: npm run watch:rumors
+      - if: steps.window.outputs.publish == 'true'
+        run: npm run editorial:plan
+      - if: steps.window.outputs.publish == 'true'
+        run: npm run editorial:publish -- ${{ inputs.force && '--force' || '' }}
+      - if: steps.window.outputs.publish == 'true'
+        run: npm run build
+
+      - name: Commit and publish the validated edition
+        if: steps.window.outputs.publish == 'true'
+        run: |
+          if git diff --quiet; then
+            echo "No edition was due in this UTC window."
+            exit 0
+          fi
+          git config user.name "Parisien 90 Editorial"
+          git config user.email "editorial-bot@parisien90.com"
+          git add -A
+          git commit -m "Publie l'edition PSG quotidienne"
+          git push origin HEAD:main

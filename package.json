@@ -11,6 +11,7 @@
     "sync:players": "node scripts/update-all-time-players.mjs",
     "watch:rumors": "node scripts/crawl-rumor-watch.mjs",
     "editorial:plan": "node scripts/daily-editorial-plan.mjs",
+    "editorial:publish": "node scripts/publish-daily-edition.mjs",
     "seo:gsc": "node scripts/fetch-gsc-report.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },

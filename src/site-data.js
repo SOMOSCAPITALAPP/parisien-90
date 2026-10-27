@@ -1,3 +1,5 @@
+import { generatedDailyNews, generatedDailyNewsMeta } from "./generated-daily-news.js";
+
 export const psgSchedule2627 = [
   { round: 0, roundLabel: "A1", isoDate: "2026-08-05", day: "mercredi", dateLabel: "5 août 2026", month: "2026-08", competition: "Amical", home: "Real Club Deportivo Mallorca", away: "Paris Saint-Germain", opponent: "RCD Majorque", venue: "Estadi Mallorca Son Moix", place: "Extérieur", time: "21:00", status: "Terminé 3-0", note: "Premier match de préparation, utile pour remettre le groupe en route malgré un score sec.", highlight: false },
   { round: 0, roundLabel: "A2", isoDate: "2026-08-08", day: "samedi", dateLabel: "8 août 2026", month: "2026-08", competition: "Amical", home: "Paris Saint-Germain", away: "Manchester United FC", opponent: "Manchester United", venue: "Nya Ullevi, Göteborg", place: "Neutre", time: "17:00", status: "Terminé 1-1", note: "Deuxième test de préparation, Mbaye buteur et Safonov très sollicité avant Aston Villa.", highlight: true },
@@ -13,7 +15,7 @@ export const psgSchedule2627 = [
   { round: 2, roundLabel: "C1 J2", isoDate: "2026-10-14", day: "mercredi", dateLabel: "14 octobre 2026", month: "2026-10", competition: "Ligue des champions", home: "Manchester City", away: "Paris Saint-Germain", opponent: "Manchester City", venue: "Etihad Stadium", place: "Extérieur", time: "21:00", status: "Terminé 2-4", note: "Paris a frappé très fort à l'Etihad : Doué, Dembélé, Vitinha et Akliouche ont construit une victoire européenne spectaculaire.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/man-city-vs-paris-2026-10-14" },
   { round: 7, isoDate: "2026-10-17", day: "samedi", dateLabel: "17 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "RC Strasbourg", away: "Paris Saint-Germain", opponent: "RC Strasbourg", venue: "Stade de la Meinau", place: "Extérieur", time: "17:15", status: "Terminé 1-3", note: "Mené à la pause, Paris a renversé Strasbourg grâce à Zabarnyi, Dembélé et Doué.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/content/renversant-a-strasbourg-paris-poursuit-sa-marche-en-avant-compte-rendu-rc-strasbourg-alsace-paris-saint-germain-ligue-1-journee-7-2026-2027" },
   { round: 3, roundLabel: "C1 J3", isoDate: "2026-10-20", day: "mardi", dateLabel: "20 octobre 2026", month: "2026-10", competition: "Ligue des champions", home: "Paris Saint-Germain", away: "FC Barcelone", opponent: "FC Barcelone", venue: "Parc des Princes", place: "Domicile", time: "21:00", status: "Terminé 4-2", note: "Doué, Lucas Hernandez, Vitinha et Fabián Ruiz ont offert au PSG une victoire spectaculaire face au Barça, malgré les égalisations de Xavi Espart puis Yamal.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-barcelona-2026-10-20" },
-  { round: 8, isoDate: "2026-10-26", day: "lundi", dateLabel: "26 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Olympique Lyonnais", opponent: "Olympique Lyonnais", venue: "Parc des Princes", place: "Domicile", time: "20:30", status: "Programmé", note: "Le choc a été décalé au lundi par la LFP à la demande de la préfecture de Police.", highlight: true, source: "LFP", sourceUrl: "https://ligue1.fr/" },
+  { round: 8, isoDate: "2026-10-26", day: "lundi", dateLabel: "26 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Olympique Lyonnais", opponent: "Olympique Lyonnais", venue: "Parc des Princes", place: "Domicile", time: "20:30", status: "Terminé 2-0", note: "Le PSG s'est imposé 2-0 face à Lyon au Parc des Princes et a pris la tête de la Ligue 1.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/content/resultats-de-la-8e-journee-de-ligue-1-2026-2027-paris-saint-germain-olympique-lyonnais" },
   { round: 9, isoDate: "2026-10-30", day: "vendredi", dateLabel: "30 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Le Havre AC", away: "Paris Saint-Germain", opponent: "Le Havre AC", venue: "Stade Océane", place: "Extérieur", time: "19:00", status: "Programmé", note: "Match à gérer sans tomber dans le confort.", highlight: false, source: "PSG.fr", sourceUrl: "https://www.psg.fr/football-masculin/calendrier/season/2026-27" },
   { round: 4, roundLabel: "C1 J4", isoDate: "2026-11-03", day: "mardi", dateLabel: "3 novembre 2026", month: "2026-11", competition: "Ligue des champions", home: "Villarreal CF", away: "Paris Saint-Germain", opponent: "Villarreal CF", venue: "Estadio de la Cerámica", place: "Extérieur", time: "21:00", status: "Programmé", note: "Déplacement européen piégeux, typiquement le genre de match où le PSG doit gagner en patron.", highlight: true, source: "PSG.fr / UEFA", sourceUrl: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027" },
   { round: 10, isoDate: "2026-11-07", day: "samedi", dateLabel: "7 novembre 2026", month: "2026-11", competition: "Ligue 1", home: "Paris Saint-Germain", away: "ESTAC Troyes", opponent: "ESTAC Troyes", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Paris doit imposer son tempo.", highlight: false },
@@ -322,7 +324,7 @@ export const seasonSquads = [
   }
 ];
 
-export const newsMeta = {
+const defaultNewsMeta = {
   updatedAt: "2026-10-26T11:00:00+01:00",
   edition: "Fil PSG du 26 octobre 2026",
   displayDate: "26 octobre 2026",
@@ -330,9 +332,12 @@ export const newsMeta = {
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
+export const newsMeta = generatedDailyNewsMeta.updatedAt ? { ...defaultNewsMeta, ...generatedDailyNewsMeta } : defaultNewsMeta;
+
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...generatedDailyNews,
   ...withNewsDate("2026-10-26", "26 octobre 2026", [
   { id: "psg-groupe-lyon-boly-ndjantou-bar-octobre-2026", time: "11:00", category: "Groupe", title: "PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique", summary: "Le PSG a publié un groupe de 21 joueurs pour recevoir Lyon ce lundi à 20h30. David Boly, Quentin Ndjantou et Noah Bar y figurent aux côtés de Chevalier, Safonov, Hakimi, Vitinha, João Neves, Doué et Ferran. Marquinhos, Kvaratskhelia, Dembélé et Nuno Mendes n'apparaissent pas dans cette liste : Luis Enrique s'appuie donc sur trois jeunes du club pour le choc de la 8e journée.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-lyon-paris-saint-germain-ligue-1-2026-2027", reliability: "Officiel — groupe de 21 joueurs", viral: 93 },
   ]),
