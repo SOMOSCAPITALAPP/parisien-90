@@ -1,5 +1,6 @@
 import { inject, track } from "@vercel/analytics";
 import { injectSpeedInsights } from "@vercel/speed-insights";
+import { initGoogleAnalytics, trackGoogleAnalyticsEvent } from "./google-analytics.js";
 import { calendarWatchSources, currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, seasonSquads } from "./site-data.js";
 
 inject({ framework: "vite" });
@@ -335,6 +336,7 @@ const withShareTracking = (url, channel, title) => {
 const trackInteraction = (name, properties = {}) => {
   try {
     track(name, properties);
+    trackGoogleAnalyticsEvent(name, properties);
   } catch {
     // Vercel custom events can depend on the active plan; tracking must never block UX.
   }
@@ -1330,6 +1332,7 @@ const initHomeNews = () => {
 };
 
 normalizeLegacyMarketLinks();
+initGoogleAnalytics();
 initNewsFreshness();
 initPrimaryNavigation();
 initHomeNews();
