@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-26T11:00:00+01:00",
+    "lastVerifiedAt": "2026-10-27T15:55:00+01:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -329,20 +329,9 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-26T11:00:00+01:00",
+    "updatedAt": "2026-10-27T15:55:00+01:00",
     "totalFixtures": 52,
     "nextFixtures": [
-      {
-        "date": "2026-10-26",
-        "time": "20:30",
-        "competition": "Ligue 1",
-        "home": "Paris Saint-Germain",
-        "away": "Olympique Lyonnais",
-        "venue": "Parc des Princes",
-        "status": "Marcado",
-        "source": "LFP",
-        "sourceUrl": "https://ligue1.fr/"
-      },
       {
         "date": "2026-10-30",
         "time": "19:00",
@@ -419,6 +408,17 @@
         "status": "Horário a confirmar",
         "source": null,
         "sourceUrl": null
+      },
+      {
+        "date": "2026-12-08",
+        "time": "21:00",
+        "competition": "Liga dos Campeões",
+        "home": "Aston Villa FC",
+        "away": "Paris Saint-Germain",
+        "venue": "Villa Park",
+        "status": "Marcado",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
       }
     ]
   },

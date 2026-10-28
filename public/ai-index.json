@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-26T11:00:00+01:00",
-    "freshnessNote": "Fil PSG du 26 octobre 2026. Fil public : 172 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique ; PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif ; PSG-Montpellier : Dudek relance les Parisiennes d'un but de patronne ; PSG-Lyon décalé au lundi 26 octobre : rendez-vous à 20h30 au Parc ; PSG-Barcelone : Paris fait tomber le Barça dans une nuit folle au Parc. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-27T15:55:00+01:00",
+    "freshnessNote": "Fil PSG du 27 octobre 2026. Fil public : 175 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation ; Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison ; PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête ; PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique ; PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,33 @@
     }
   ],
   "news": [
+    {
+      "title": "Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation",
+      "category": "Santé",
+      "dateTime": "2026-10-27T15:55:00+01:00",
+      "url": "https://parisien90.com/news/kvaratskhelia-operation-ligament-croise-genou-droit-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/point-medical-concernant-khvicha-kvaratskhelia-paris-saint-germain-2026-2027",
+      "reliability": "Officiel — point médical"
+    },
+    {
+      "title": "Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison",
+      "category": "Club",
+      "dateTime": "2026-10-27T01:05:00+01:00",
+      "url": "https://parisien90.com/news/psg-club-saison-ballon-or-2026-deuxieme-annee/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/ballon-dor-2026-le-paris-saint-germain-elu-club-masculin-de-la-saison-pour-la-deuxieme-annee-consecutive",
+      "reliability": "Officiel — palmarès Ballon d'Or"
+    },
+    {
+      "title": "PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête",
+      "category": "Match",
+      "dateTime": "2026-10-26T22:30:00+01:00",
+      "url": "https://parisien90.com/news/psg-lyon-victoire-mayulu-godts-ligue-1-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-lyon-2026-10-25",
+      "reliability": "Officiel — match center"
+    },
     {
       "title": "PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique",
       "category": "Groupe",
@@ -443,33 +470,6 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
       "reliability": "Programme officiel, analyse"
-    },
-    {
-      "title": "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre",
-      "category": "Joueurs",
-      "dateTime": "2026-10-06T06:30:00+02:00",
-      "url": "https://parisien90.com/news/effectif-psg-24-joueurs-retour-selections-octobre-2026/",
-      "source": "Parisien 90 — dossier sourcé",
-      "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-      "reliability": "Effectif officiel, analyse"
-    },
-    {
-      "title": "Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier",
-      "category": "Mercato",
-      "dateTime": "2026-10-06T06:30:00+02:00",
-      "url": "https://parisien90.com/news/mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
-      "reliability": "Analyse, aucune négociation affirmée"
-    },
-    {
-      "title": "France-Belgique : Doué déclenche la remontée, Paris brille dans le final bleu",
-      "category": "Sélections",
-      "dateTime": "2026-10-05T23:05:00+02:00",
-      "url": "https://parisien90.com/news/france-belgique-victoire-doue-dembele-akliouche-godts-octobre-2026/",
-      "source": "PSG.fr / UEFA",
-      "sourceUrl": "https://www.psg.fr/content/victoire-contre-la-belgique-de-mika-godts-pour-la-france-de-maghnes-akliouche-ousmane-dembele-et-desire-doue-paris-saint-germain-2026-2027",
-      "reliability": "Officiel — résultat et temps de jeu confirmés"
     }
   ],
   "people": [
@@ -621,9 +621,9 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu polyvalent",
-      "status": "Prolongé jusqu'en 2031",
+      "status": "Buteur décisif face à Lyon",
       "url": "https://parisien90.com/joueurs-psg/senny-mayulu/",
-      "updatedAt": "4 septembre 2026",
+      "updatedAt": "26 octobre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -665,10 +665,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier gauche",
-      "status": "Menace offensive majeure",
+      "status": "Opéré du ligament croisé du genou droit",
       "url": "https://parisien90.com/joueurs-psg/khvicha-kvaratskhelia/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "27 octobre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
@@ -709,9 +709,9 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier",
-      "status": "Recrue officielle 2026",
+      "status": "Premier but avec le PSG",
       "url": "https://parisien90.com/joueurs-psg/mika-godts/",
-      "updatedAt": "16 août 2026",
+      "updatedAt": "26 octobre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -742,9 +742,9 @@
       "aliases": [],
       "type": "staff",
       "role": "Entraîneur principal",
-      "status": "Prolongé jusqu'en 2030",
+      "status": "126 victoires, record du club rejoint",
       "url": "https://parisien90.com/staff-psg/luis-enrique/",
-      "updatedAt": "4 septembre 2026",
+      "updatedAt": "26 octobre 2026",
       "source": "PSG.fr",
       "image": null
     },
@@ -2666,20 +2666,11 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-26T11:00:00+01:00",
+    "updatedAt": "2026-10-27T15:55:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
     "nextFixtures": [
-      {
-        "date": "2026-10-26",
-        "competition": "Ligue 1",
-        "home": "Paris Saint-Germain",
-        "away": "Olympique Lyonnais",
-        "status": "Programmé",
-        "source": "LFP",
-        "sourceUrl": "https://ligue1.fr/"
-      },
       {
         "date": "2026-10-30",
         "competition": "Ligue 1",
@@ -2742,6 +2733,15 @@
         "status": "Horaire à confirmer",
         "source": null,
         "sourceUrl": null
+      },
+      {
+        "date": "2026-12-08",
+        "competition": "Liga dos Campeões",
+        "home": "Aston Villa FC",
+        "away": "Paris Saint-Germain",
+        "status": "Programmé",
+        "source": "PSG.fr / UEFA",
+        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
       }
     ]
   },
