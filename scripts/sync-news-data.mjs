@@ -1439,6 +1439,12 @@ const brPlaceLabel = (value) =>
 
 const brReliabilityLabel = (value) =>
   String(value || "")
+    .replace("Analyse Parisien 90 — calendrier officiel", "Análise Parisien 90 — calendário oficial")
+    .replace("Analyse Parisien 90 — source officielle", "Análise Parisien 90 — fonte oficial")
+    .replace("Officiel — calendrier Ligue 1", "Oficial — calendário da Ligue 1")
+    .replace("Officiel — calendrier européen", "Oficial — calendário europeu")
+    .replace("Officiel — calendrier", "Oficial — calendário")
+    .replace("Officiel — résultat", "Oficial — resultado")
     .replace("Chiffres officiels et estimations externes attribuées", "Números oficiais e estimativas externas atribuídas")
     .replace("Sources officielles CBF, Santos et PSG", "Fontes oficiais da CBF, do Santos e do PSG")
     .replace("Fait officiel, analyse prudente", "Fato oficial, análise prudente")
