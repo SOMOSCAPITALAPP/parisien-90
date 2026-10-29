@@ -1,5 +1,3 @@
-import { generatedDailyNews, generatedDailyNewsMeta } from "./generated-daily-news.js";
-
 export const psgSchedule2627 = [
   { round: 0, roundLabel: "A1", isoDate: "2026-08-05", day: "mercredi", dateLabel: "5 août 2026", month: "2026-08", competition: "Amical", home: "Real Club Deportivo Mallorca", away: "Paris Saint-Germain", opponent: "RCD Majorque", venue: "Estadi Mallorca Son Moix", place: "Extérieur", time: "21:00", status: "Terminé 3-0", note: "Premier match de préparation, utile pour remettre le groupe en route malgré un score sec.", highlight: false },
   { round: 0, roundLabel: "A2", isoDate: "2026-08-08", day: "samedi", dateLabel: "8 août 2026", month: "2026-08", competition: "Amical", home: "Paris Saint-Germain", away: "Manchester United FC", opponent: "Manchester United", venue: "Nya Ullevi, Göteborg", place: "Neutre", time: "17:00", status: "Terminé 1-1", note: "Deuxième test de préparation, Mbaye buteur et Safonov très sollicité avant Aston Villa.", highlight: true },
@@ -332,7 +330,7 @@ const defaultNewsMeta = {
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
-export const newsMeta = generatedDailyNewsMeta.updatedAt ? { ...defaultNewsMeta, ...generatedDailyNewsMeta } : defaultNewsMeta;
+export const newsMeta = defaultNewsMeta;
 
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
@@ -344,7 +342,6 @@ export const newsFeed = [
   ...withNewsDate("2026-10-26", "26 octobre 2026", [
   { id: "psg-lyon-victoire-mayulu-godts-ligue-1-octobre-2026", time: "22:30", category: "Match", title: "PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête", summary: "Le PSG a battu Lyon 2-0 au Parc des Princes. Senny Mayulu, entré à la 65e minute, a ouvert le score à la 72e sur une passe de Mika Godts ; le Belge, servi par Quentin Ndjantou, a ensuite inscrit son premier but parisien à la 84e. Ce huitième succès consécutif toutes compétitions confondues place les Parisiens en tête de la Ligue 1 avec 17 points.", source: "PSG.fr", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-lyon-2026-10-25", reliability: "Officiel — match center", viral: 99 },
   ]),
-  ...generatedDailyNews,
   ...withNewsDate("2026-10-26", "26 octobre 2026", [
   { id: "psg-groupe-lyon-boly-ndjantou-bar-octobre-2026", time: "11:00", category: "Groupe", title: "PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique", summary: "Le PSG a publié un groupe de 21 joueurs pour recevoir Lyon ce lundi à 20h30. David Boly, Quentin Ndjantou et Noah Bar y figurent aux côtés de Chevalier, Safonov, Hakimi, Vitinha, João Neves, Doué et Ferran. Marquinhos, Kvaratskhelia, Dembélé et Nuno Mendes n'apparaissent pas dans cette liste : Luis Enrique s'appuie donc sur trois jeunes du club pour le choc de la 8e journée.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-lyon-paris-saint-germain-ligue-1-2026-2027", reliability: "Officiel — groupe de 21 joueurs", viral: 93 },
   ]),
@@ -672,7 +669,7 @@ export const newsFeed = [
   { id: "ligue1-sans-semaine", time: "10:44", category: "Calendrier", title: "Ligue 1 sans journée en semaine : bonne nouvelle pour le PSG européen", summary: "Le calendrier général annonce aucune journée de Ligue 1 en semaine. Pour un PSG qui vise tout, c'est une donnée clé dans la gestion de la fatigue.", source: "PSG.fr / LFP", url: "https://www.psg.fr/content/le-calendrier-general-des-competitions-2026-2027-devoile-psg-ligue-1-lfp-2025-2026", reliability: "Officiel", viral: 64 },
   { id: "lens-reprise", time: "10:18", category: "Calendrier", title: "Reprise à Lens le 3 janvier : pas exactement une promenade digestive", summary: "Bollaert juste après la coupure, c'est le genre de rendez-vous où un champion peut perdre trois points et beaucoup de tranquillité.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 71 },
   { id: "lyon-mai", time: "09:52", category: "Calendrier", title: "Lyon-PSG en mai : un piège tardif dans le sprint final", summary: "Le déplacement au Groupama Stadium tombe à la 31e journée. S'il y a course au titre, cette date peut peser lourd.", source: "PSG.fr", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-27?competition=Ligue_1", reliability: "Officiel", viral: 73 },
-  { id: "histoire-cycle", time: "09:26", category: "Histoire", title: "Le PSG 2026 ne se raconte plus comme le PSG d'avant", summary: "Double champion d'Europe dans notre ligne éditoriale actuelle, Paris change de catégorie narrative : il ne cherche plus la validation, il défend un trône.", source: "Analyse Parisien 90", url: "/histoire-psg/", reliability: "Analyse", viral: 86 },
+  { id: "histoire-cycle", time: "09:26", category: "Histoire", title: "Le PSG 2026 ne se raconte plus comme le PSG d'avant", summary: "Double champion d'Europe dans notre ligne éditoriale actuelle, Paris change de catégorie narrative : il ne cherche plus la validation, il défend un trône.", source: "Analyse Parisien 90", url: "https://parisien90.com/histoire-psg/", reliability: "Analyse", viral: 86 },
   ]),
   ...withNewsDate("2025-09-06", "6 septembre 2025", [
   { id: "ousmane-dembele-desire-doue-point-medical-septembre-2025", time: "12:00", category: "Vérification", title: "Dembélé et Doué blessés contre l'Ukraine : le match datait du 5 septembre 2025", summary: "Vérification : le point médical du PSG du 6 septembre 2025 concernait Ukraine-France, disputé la veille, vendredi 5 septembre 2025, à la Tarczyński Arena de Wrocław. La France s'était imposée 2-0. Désiré Doué était sorti à la pause, remplacé par Ousmane Dembélé, lui-même remplacé à la 81e minute. PSG.fr avait ensuite annoncé une lésion sévère de l'ischio-jambier droit pour Dembélé et une blessure au mollet droit pour Doué.", source: "FFF / PSG.fr", url: "https://www.fff.fr/selection/matchs/3611-ukraine-france.html", reliability: "Correction datée", viral: 58 },
