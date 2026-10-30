@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-27T15:55:00+01:00",
-    "freshnessNote": "Fil PSG du 27 octobre 2026. Fil public : 175 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation ; Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison ; PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête ; PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique ; PSG-Lyon : Luis Enrique refuse le réflexe mercato et mise sur le collectif. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-29T11:45:00+01:00",
+    "freshnessNote": "Fil PSG du 29 octobre 2026. Fil public : 176 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Avant Le Havre, le PSG confirme que Marquinhos, Mendes et Dembélé restent en soins ; Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation ; Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison ; PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête ; PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Avant Le Havre, le PSG confirme que Marquinhos, Mendes et Dembélé restent en soins",
+      "category": "Infirmerie",
+      "dateTime": "2026-10-29T11:45:00+01:00",
+      "url": "https://parisien90.com/news/psg-point-medical-marquinhos-mendes-dembele-soins-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/point-medical-avant-havre-ac-paris-saint-germain-ligue-1-2026-2027",
+      "reliability": "Officiel — point médical"
+    },
     {
       "title": "Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation",
       "category": "Santé",
@@ -461,15 +470,6 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
       "reliability": "Programme officiel, analyse"
-    },
-    {
-      "title": "Luis Enrique face à la semaine-piège : préparer Le Mans sans jouer déjà Manchester City",
-      "category": "Entraîneurs",
-      "dateTime": "2026-10-06T06:30:00+02:00",
-      "url": "https://parisien90.com/news/luis-enrique-psg-semaine-le-mans-city-gestion-reprise-octobre-2026/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-5-au-11-octobre-2026",
-      "reliability": "Programme officiel, analyse"
     }
   ],
   "people": [
@@ -533,10 +533,10 @@
       "aliases": [],
       "type": "player",
       "role": "Défenseur central, leader de vestiaire",
-      "status": "Capitaine et recordman",
+      "status": "En soins — disponibilité à confirmer",
       "url": "https://parisien90.com/joueurs-psg/marquinhos/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "29 octobre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
@@ -568,8 +568,8 @@
       "role": "Latéral gauche explosif",
       "status": "Indisponible ces prochaines semaines — cuisse gauche",
       "url": "https://parisien90.com/joueurs-psg/nuno-mendes/",
-      "updatedAt": "18 octobre 2026",
-      "source": "PSG.fr — point médical",
+      "updatedAt": "29 octobre 2026",
+      "source": "PSG.fr — points médicaux",
       "image": null
     },
     {
@@ -676,10 +676,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier créateur",
-      "status": "Suivi physique à vérifier via les points officiels",
+      "status": "En soins — disponibilité à confirmer",
       "url": "https://parisien90.com/joueurs-psg/ousmane-dembele/",
-      "updatedAt": "11 septembre 2026",
-      "source": "PSG.fr / FFF / archives publiques",
+      "updatedAt": "29 octobre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
@@ -2666,7 +2666,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-27T15:55:00+01:00",
+    "updatedAt": "2026-10-29T11:45:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
