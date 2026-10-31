@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site couvre clairement les grands sujets PSG : transfert PSG, mercato PSG, actualité PSG, viral PSG, buzz PSG, débat PSG, vidéos PSG, YouTube PSG, chaînes PSG, calendrier PSG, calendrier PSG 2026-2027, joueurs PSG, effectif PSG, fiches joueurs, anciens joueurs PSG, histoire PSG, records PSG, meilleur buteur PSG, joueur le plus capé PSG, Brésiliens PSG et Argentins PSG.
 
-## Repère éditorial — 29 octobre 2026, 11h45 (Europe/Paris)
+## Repère éditorial — 30 octobre 2026, 23h20 (Europe/Paris)
 
-Fil PSG du 29 octobre 2026. Fil public : 176 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Avant Le Havre, le PSG confirme que Marquinhos, Mendes et Dembélé restent en soins ; Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation ; Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison ; PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête ; PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Fil PSG du 30 octobre 2026. Fil public : 177 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Le Havre-PSG : Hakimi en feu, Paris renverse tout et s'impose 5-1 ; Avant Le Havre, le PSG confirme que Marquinhos, Mendes et Dembélé restent en soins ; Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation ; Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison ; PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en grandes rubriques, avec titres explicites, descriptions, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et page vidéos PSG/YouTube.
 

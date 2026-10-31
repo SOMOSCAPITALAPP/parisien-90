@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-10-29T11:45:00+01:00",
-    "freshnessNote": "Fil PSG du 29 octobre 2026. Fil public : 176 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Avant Le Havre, le PSG confirme que Marquinhos, Mendes et Dembélé restent en soins ; Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation ; Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison ; PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête ; PSG-Lyon : Boly, Ndjantou et Bar dans le groupe de Luis Enrique. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-10-30T23:20:00+01:00",
+    "freshnessNote": "Fil PSG du 30 octobre 2026. Fil public : 177 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Le Havre-PSG : Hakimi en feu, Paris renverse tout et s'impose 5-1 ; Avant Le Havre, le PSG confirme que Marquinhos, Mendes et Dembélé restent en soins ; Kvaratskhelia opéré avec succès : le PSG confirme le début de sa rééducation ; Ballon d'Or 2026 : le PSG conserve le trophée de club masculin de la saison ; PSG-Lyon : les entrants Mayulu et Godts propulsent Paris en tête. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Le Havre-PSG : Hakimi en feu, Paris renverse tout et s'impose 5-1",
+      "category": "Match",
+      "dateTime": "2026-10-30T23:20:00+01:00",
+      "url": "https://parisien90.com/news/psg-le-havre-victoire-hakimi-triple-octobre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/stats-facts-retour-sur-la-victoire-au-havre-paris-saint-germain-ligue-1-2026-2027",
+      "reliability": "Officiel — compte rendu et statistiques"
+    },
     {
       "title": "Avant Le Havre, le PSG confirme que Marquinhos, Mendes et Dembélé restent en soins",
       "category": "Infirmerie",
@@ -461,15 +470,6 @@
       "source": "Parisien 90 — dossier sourcé",
       "sourceUrl": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
       "reliability": "Effectif officiel, analyse"
-    },
-    {
-      "title": "PSG-Le Mans : comment attaquer un bloc bas sans ouvrir la route à City",
-      "category": "Tactique",
-      "dateTime": "2026-10-07T06:30:00+02:00",
-      "url": "https://parisien90.com/news/psg-le-mans-attaquer-bloc-bas-transition-city-2026/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
-      "reliability": "Programme officiel, analyse"
     }
   ],
   "people": [
@@ -511,10 +511,10 @@
       "aliases": [],
       "type": "player",
       "role": "Latéral droit offensif",
-      "status": "Reprise individuelle sur le terrain — cuisse droite",
+      "status": "Capitaine, auteur d'un triplé au Havre",
       "url": "https://parisien90.com/joueurs-psg/achraf-hakimi/",
-      "updatedAt": "18 septembre 2026",
-      "source": "PSG.fr / Fédération royale marocaine de football",
+      "updatedAt": "30 octobre 2026",
+      "source": "PSG.fr — Le Havre-PSG",
       "image": null
     },
     {
@@ -621,10 +621,10 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu polyvalent",
-      "status": "Buteur décisif face à Lyon",
+      "status": "Buteur au Havre après son but décisif contre Lyon",
       "url": "https://parisien90.com/joueurs-psg/senny-mayulu/",
-      "updatedAt": "26 octobre 2026",
-      "source": "PSG.fr",
+      "updatedAt": "30 octobre 2026",
+      "source": "PSG.fr — Le Havre-PSG",
       "image": null
     },
     {
@@ -709,10 +709,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier",
-      "status": "Premier but avec le PSG",
+      "status": "Buteur lors de deux matchs consécutifs",
       "url": "https://parisien90.com/joueurs-psg/mika-godts/",
-      "updatedAt": "26 octobre 2026",
-      "source": "PSG.fr",
+      "updatedAt": "30 octobre 2026",
+      "source": "PSG.fr — Le Havre-PSG",
       "image": null
     },
     {
@@ -742,10 +742,10 @@
       "aliases": [],
       "type": "staff",
       "role": "Entraîneur principal",
-      "status": "126 victoires, record du club rejoint",
+      "status": "127 victoires, entraîneur le plus victorieux du PSG",
       "url": "https://parisien90.com/staff-psg/luis-enrique/",
-      "updatedAt": "26 octobre 2026",
-      "source": "PSG.fr",
+      "updatedAt": "30 octobre 2026",
+      "source": "PSG.fr — Stats & Facts",
       "image": null
     },
     {
@@ -2666,7 +2666,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-10-29T11:45:00+01:00",
+    "updatedAt": "2026-10-30T23:20:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
@@ -2676,9 +2676,9 @@
         "competition": "Ligue 1",
         "home": "Le Havre AC",
         "away": "Paris Saint-Germain",
-        "status": "Programmé",
+        "status": "Terminé 1-5",
         "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
+        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/le-havre-vs-paris-2026-10-30"
       },
       {
         "date": "2026-11-03",
