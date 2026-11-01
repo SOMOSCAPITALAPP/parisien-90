@@ -16,7 +16,7 @@ export const psgSchedule2627 = [
   { round: 8, isoDate: "2026-10-26", day: "lundi", dateLabel: "26 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Paris Saint-Germain", away: "Olympique Lyonnais", opponent: "Olympique Lyonnais", venue: "Parc des Princes", place: "Domicile", time: "20:30", status: "Terminé 2-0", note: "Mayulu et Godts, tous deux entrés en jeu, ont offert au PSG un succès 2-0 contre Lyon et la première place de Ligue 1.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-lyon-2026-10-25" },
   { round: 9, isoDate: "2026-10-30", day: "vendredi", dateLabel: "30 octobre 2026", month: "2026-10", competition: "Ligue 1", home: "Le Havre AC", away: "Paris Saint-Germain", opponent: "Le Havre AC", venue: "Stade CMA CGM Océane", place: "Extérieur", time: "19:00", status: "Terminé 1-5", note: "Mené au score, le PSG a renversé Le Havre grâce à Godts, au triplé d'Hakimi et à Mayulu.", highlight: true, source: "PSG.fr", sourceUrl: "https://www.psg.fr/matchs/football-masculin/20262027/le-havre-vs-paris-2026-10-30" },
   { round: 4, roundLabel: "C1 J4", isoDate: "2026-11-03", day: "mardi", dateLabel: "3 novembre 2026", month: "2026-11", competition: "Ligue des champions", home: "Villarreal CF", away: "Paris Saint-Germain", opponent: "Villarreal CF", venue: "Estadio de la Cerámica", place: "Extérieur", time: "21:00", status: "Programmé", note: "Déplacement européen piégeux, typiquement le genre de match où le PSG doit gagner en patron.", highlight: true, source: "PSG.fr / UEFA", sourceUrl: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027" },
-  { round: 10, isoDate: "2026-11-07", day: "samedi", dateLabel: "7 novembre 2026", month: "2026-11", competition: "Ligue 1", home: "Paris Saint-Germain", away: "ESTAC Troyes", opponent: "ESTAC Troyes", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Paris doit imposer son tempo.", highlight: false },
+  { round: 10, isoDate: "2026-11-07", day: "samedi", dateLabel: "7 novembre 2026", month: "2026-11", competition: "Ligue 1", home: "Paris Saint-Germain", away: "ESTAC Troyes", opponent: "ESTAC Troyes", venue: "Parc des Princes", place: "Domicile", time: "20:45", status: "Programmé", note: "Paris doit imposer son tempo.", highlight: false, source: "PSG.fr", sourceUrl: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-2-au-8-novembre-2026" },
   { round: 11, isoDate: "2026-11-21", day: "samedi", dateLabel: "21 novembre 2026", month: "2026-11", competition: "Ligue 1", home: "OGC Nice", away: "Paris Saint-Germain", opponent: "OGC Nice", venue: "Allianz Riviera", place: "Extérieur", time: "À confirmer", status: "Horaire à confirmer", note: "Duel tactique contre un adversaire souvent pénible.", highlight: true },
   { round: 5, roundLabel: "C1 J5", isoDate: "2026-11-25", day: "mercredi", dateLabel: "25 novembre 2026", month: "2026-11", competition: "Ligue des champions", home: "Paris Saint-Germain", away: "AS Roma", opponent: "AS Roma", venue: "Parc des Princes", place: "Domicile", time: "21:00", status: "Programmé", note: "La Roma au Parc, match de prestige et rendez-vous charnière pour rester dans le haut de la phase de ligue.", highlight: true, source: "PSG.fr / UEFA", sourceUrl: "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027" },
   { round: 12, isoDate: "2026-11-28", day: "samedi", dateLabel: "28 novembre 2026", month: "2026-11", competition: "Ligue 1", home: "Paris Saint-Germain", away: "FC Lorient", opponent: "FC Lorient", venue: "Parc des Princes", place: "Domicile", time: "À confirmer", status: "Horaire à confirmer", note: "Match de contrôle attendu au Parc.", highlight: false },
@@ -323,10 +323,10 @@ export const seasonSquads = [
 ];
 
 const defaultNewsMeta = {
-  updatedAt: "2026-10-30T23:20:00+01:00",
-  edition: "Fil PSG du 30 octobre 2026",
-  displayDate: "30 octobre 2026",
-  displayTime: "23h20",
+  updatedAt: "2026-10-31T10:42:00+01:00",
+  edition: "Fil PSG du 31 octobre 2026",
+  displayDate: "31 octobre 2026",
+  displayTime: "10h42",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -335,6 +335,9 @@ export const newsMeta = defaultNewsMeta;
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-10-31", "31 octobre 2026", [
+  { id: "hakimi-psg-prolongation-discussions-octobre-2026", time: "10:42", category: "Mercato", title: "Hakimi : le PSG voudrait rouvrir le dossier d'une prolongation", summary: "Sous contrat jusqu'en 2029, Achraf Hakimi ferait l'objet de premiers échanges pour une nouvelle prolongation, selon L'Équipe, information relayée par CulturePSG. Rien n'est signé ni même daté à ce stade : le dossier reste donc au stade d'une intention du club, à surveiller sans le présenter comme acquis.", source: "CulturePSG / L'Équipe", url: "https://www.culturepsg.com/news/club/le-psg-voudrait-prolonger-hakimi-une-deuxieme-fois/61389", reliability: "Rumeur solide — information attribuée à L'Équipe", viral: 92 },
+  ]),
   ...withNewsDate("2026-10-30", "30 octobre 2026", [
   { id: "psg-le-havre-victoire-hakimi-triple-octobre-2026", time: "23:20", category: "Match", title: "Le Havre-PSG : Hakimi en feu, Paris renverse tout et s'impose 5-1", summary: "Mené après 18 minutes, le PSG a vite repris la main au Stade Océane : Mika Godts a égalisé, Achraf Hakimi a signé le premier triplé de sa carrière parisienne et Senny Mayulu a participé au festival. Le capitaine a aussi délivré deux passes décisives. Ce neuvième succès consécutif toutes compétitions confondues offre à Luis Enrique sa 127e victoire, un record dans l'histoire du club.", source: "PSG.fr", url: "https://www.psg.fr/content/stats-facts-retour-sur-la-victoire-au-havre-paris-saint-germain-ligue-1-2026-2027", reliability: "Officiel — compte rendu et statistiques", viral: 98 },
   ]),
