@@ -323,10 +323,10 @@ export const seasonSquads = [
 ];
 
 const defaultNewsMeta = {
-  updatedAt: "2026-10-31T10:42:00+01:00",
-  edition: "Fil PSG du 31 octobre 2026",
-  displayDate: "31 octobre 2026",
-  displayTime: "10h42",
+  updatedAt: "2026-11-02T12:22:00+01:00",
+  edition: "Fil PSG du 2 novembre 2026",
+  displayDate: "2 novembre 2026",
+  displayTime: "12h22",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -335,6 +335,13 @@ export const newsMeta = defaultNewsMeta;
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-11-02", "2 novembre 2026", [
+  { id: "psg-groupe-villarreal-21-joueurs-novembre-2026", time: "11:30", category: "Groupe", title: "Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent", summary: "Le PSG a convoqué 21 joueurs pour la 4e journée de Ligue des champions, mardi à 21h à l'Estadio de la Cerámica. David Boly et Quentin Ndjantou accompagnent notamment Hakimi, Vitinha, João Neves, Désiré Doué, Ferran, Akliouche et Lucas Digne. Marquinhos, Nuno Mendes, Ousmane Dembélé et Khvicha Kvaratskhelia ne figurent pas dans la liste officielle : Paris se déplace avec une profondeur réduite, mais une vraie place laissée aux jeunes.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-pour-villarreal-cf-paris-saint-germain-uefa-champions-league-20262027", reliability: "Officiel — groupe de 21 joueurs", viral: 94 },
+  ]),
+  ...withNewsDate("2026-11-01", "1er novembre 2026", [
+  { id: "psg-feminin-paris-fc-nul-morissaint-novembre-2026", time: "17:30", category: "Féminines", title: "Paris FC-PSG féminin : Morissaint provoque l'égalisation, le derby reste indécis", summary: "Rapidement menées après l'ouverture du score de Clara Mateo, les Parisiennes ont égalisé avant la pause sur un centre de Léa Morissaint mal négocié par la gardienne du PFC. Le PSG féminin a ensuite poussé, sans trouver la faille malgré plusieurs occasions de Groenen, Kanjinga et Yayá : 1-1 à Charléty pour la 7e journée de Première Ligue.", source: "PSG.fr", url: "https://www.psg.fr/content/statu-quo-dans-le-derby-face-au-pfc-compte-rendu-paris-fc-paris-saint-germain-feminines-arkema-premiere-ligue-2026-2027", reliability: "Officiel — compte rendu", viral: 86 },
+  { id: "psg-u17-versailles-victoire-zeghadi-double-novembre-2026", time: "18:00", category: "Formation", title: "Les U17 du PSG s'imposent 4-2 à Versailles et gardent la tête", summary: "Les Titis ont signé une nouvelle victoire à Versailles en National U17. Souleyman Zeghadi a marqué deux fois, Abde Chahid El Mezouari puis Nathan Mboumba ont creusé l'écart avant deux réductions tardives. Avec 25 points en neuf journées, les Parisiens confortent leur première place.", source: "PSG.fr", url: "https://www.psg.fr/content/compte-rendu-fc-versailles-78-paris-saint-germain-championnat-national-u17-2026-2027", reliability: "Officiel — compte rendu", viral: 76 },
+  ]),
   ...withNewsDate("2026-10-31", "31 octobre 2026", [
   { id: "hakimi-psg-prolongation-discussions-octobre-2026", time: "10:42", category: "Mercato", title: "Hakimi : le PSG voudrait rouvrir le dossier d'une prolongation", summary: "Sous contrat jusqu'en 2029, Achraf Hakimi ferait l'objet de premiers échanges pour une nouvelle prolongation, selon L'Équipe, information relayée par CulturePSG. Rien n'est signé ni même daté à ce stade : le dossier reste donc au stade d'une intention du club, à surveiller sans le présenter comme acquis.", source: "CulturePSG / L'Équipe", url: "https://www.culturepsg.com/news/club/le-psg-voudrait-prolonger-hakimi-une-deuxieme-fois/61389", reliability: "Rumeur solide — information attribuée à L'Équipe", viral: 92 },
   ]),
