@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-11-02T12:22:00+01:00",
-    "freshnessNote": "Fil PSG du 2 novembre 2026. Fil public : 181 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent ; Paris FC-PSG féminin : Morissaint provoque l'égalisation, le derby reste indécis ; Les U17 du PSG s'imposent 4-2 à Versailles et gardent la tête ; Hakimi : le PSG voudrait rouvrir le dossier d'une prolongation ; Le Havre-PSG : Hakimi en feu, Paris renverse tout et s'impose 5-1. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-11-03T22:53:00+01:00",
+    "freshnessNote": "Fil PSG du 3 novembre 2026. Fil public : 182 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Villarreal-PSG : six buts, un récital et David Boly pour finir le travail ; Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent ; Paris FC-PSG féminin : Morissaint provoque l'égalisation, le derby reste indécis ; Les U17 du PSG s'imposent 4-2 à Versailles et gardent la tête ; Hakimi : le PSG voudrait rouvrir le dossier d'une prolongation. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "Villarreal-PSG : six buts, un récital et David Boly pour finir le travail",
+      "category": "Europe",
+      "dateTime": "2026-11-03T22:53:00+01:00",
+      "url": "https://parisien90.com/news/villarreal-psg-victoire-ruiz-double-boly-novembre-2026/",
+      "source": "PSG.fr / UEFA",
+      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/villarreal-vs-paris-2026-11-03",
+      "reliability": "Officiel — match center et UEFA"
+    },
     {
       "title": "Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent",
       "category": "Groupe",
@@ -461,15 +470,6 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
       "reliability": "Analyse, aucune négociation affirmée"
-    },
-    {
-      "title": "Rumeur PSG : Paris a-t-il vraiment besoin d'une recrue dès janvier ?",
-      "category": "Rumeurs",
-      "dateTime": "2026-10-08T06:30:00+02:00",
-      "url": "https://parisien90.com/news/rumeur-psg-janvier-2027-besoin-recrue-prudence/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
-      "reliability": "Analyse, aucune négociation affirmée"
     }
   ],
   "people": [
@@ -595,14 +595,25 @@
       "image": null
     },
     {
+      "name": "David Boly",
+      "aliases": [],
+      "type": "player",
+      "role": "Défenseur de développement",
+      "status": "Premier but en Ligue des champions",
+      "url": "https://parisien90.com/joueurs-psg/david-boly/",
+      "updatedAt": "3 novembre 2026",
+      "source": "PSG.fr / UEFA",
+      "image": null
+    },
+    {
       "name": "Fabián Ruiz",
       "aliases": [],
       "type": "player",
       "role": "Milieu relayeur",
-      "status": "Prolongé jusqu'en 2028 (+1 an en option)",
+      "status": "Doublé et homme du match à Villarreal",
       "url": "https://parisien90.com/joueurs-psg/fabian-ruiz/",
-      "updatedAt": "4 septembre 2026",
-      "source": "PSG.fr",
+      "updatedAt": "3 novembre 2026",
+      "source": "PSG.fr / UEFA",
       "image": null
     },
     {
@@ -621,10 +632,10 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu polyvalent",
-      "status": "Buteur au Havre après son but décisif contre Lyon",
+      "status": "Buteur lors de trois matchs consécutifs",
       "url": "https://parisien90.com/joueurs-psg/senny-mayulu/",
-      "updatedAt": "30 octobre 2026",
-      "source": "PSG.fr — Le Havre-PSG",
+      "updatedAt": "3 novembre 2026",
+      "source": "PSG.fr / UEFA",
       "image": null
     },
     {
@@ -654,10 +665,10 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu intense et organisateur",
-      "status": "Prolongé jusqu'en 2031",
+      "status": "Buteur dans le festival de Villarreal",
       "url": "https://parisien90.com/joueurs-psg/joao-neves/",
-      "updatedAt": "4 septembre 2026",
-      "source": "PSG.fr",
+      "updatedAt": "3 novembre 2026",
+      "source": "PSG.fr / UEFA",
       "image": null
     },
     {
@@ -720,10 +731,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier ou milieu offensif",
-      "status": "Indisponible environ quatre semaines",
+      "status": "Buteur à Villarreal",
       "url": "https://parisien90.com/joueurs-psg/desire-doue/",
-      "updatedAt": "6 septembre 2026",
-      "source": "PSG.fr — point médical",
+      "updatedAt": "3 novembre 2026",
+      "source": "PSG.fr / UEFA",
       "image": null
     },
     {
@@ -1494,20 +1505,6 @@
       "updatedAt": "29 août 2026",
       "source": "PSG.fr / archives publiques",
       "image": null
-    },
-    {
-      "name": "Guillaume Hoarau",
-      "aliases": [
-        "Hoarau PSG",
-        "Guillaume Hoarau Paris"
-      ],
-      "type": "legend",
-      "role": "Avant-centre",
-      "status": "Vivant",
-      "url": "https://parisien90.com/anciens-joueurs-psg/guillaume-hoarau/",
-      "updatedAt": "29 août 2026",
-      "source": "PSG.fr / archives publiques",
-      "image": null
     }
   ],
   "allTimePsgPlayers": {
@@ -1669,6 +1666,10 @@
       {
         "name": "David Beckham",
         "url": "https://parisien90.com/anciens-joueurs-psg/david-beckham/"
+      },
+      {
+        "name": "David Boly",
+        "url": "https://parisien90.com/joueurs-psg/david-boly/"
       },
       {
         "name": "David Ginola",
@@ -1925,10 +1926,6 @@
       {
         "name": "Salvatore Sirigu",
         "url": "https://parisien90.com/anciens-joueurs-psg/salvatore-sirigu/"
-      },
-      {
-        "name": "Senny Mayulu",
-        "url": "https://parisien90.com/joueurs-psg/senny-mayulu/"
       }
     ]
   },
@@ -2666,7 +2663,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-11-02T12:22:00+01:00",
+    "updatedAt": "2026-11-03T22:53:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
@@ -2676,9 +2673,9 @@
         "competition": "Liga dos Campeões",
         "home": "Villarreal CF",
         "away": "Paris Saint-Germain",
-        "status": "Programmé",
+        "status": "Terminé 0-6",
         "source": "PSG.fr / UEFA",
-        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/villarreal-vs-paris-2026-11-03"
       },
       {
         "date": "2026-11-07",
