@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-11-03T22:53:00+01:00",
-    "freshnessNote": "Fil PSG du 3 novembre 2026. Fil public : 182 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : Villarreal-PSG : six buts, un récital et David Boly pour finir le travail ; Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent ; Paris FC-PSG féminin : Morissaint provoque l'égalisation, le derby reste indécis ; Les U17 du PSG s'imposent 4-2 à Versailles et gardent la tête ; Hakimi : le PSG voudrait rouvrir le dossier d'une prolongation. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-11-06T14:00:33+01:00",
+    "freshnessNote": "Fil PSG du 6 novembre 2026. Fil public : 185 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée ; PSG-Troyes : Akliouche en soins, Marquinhos, Mendes et Dembélé reprennent individuellement ; Hakimi au repos jusqu'à la trêve : le PSG choisit la gestion, pas l'alerte ; Villarreal-PSG : six buts, un récital et David Boly pour finir le travail ; Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,33 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée",
+      "category": "Ligue 1",
+      "dateTime": "2026-11-06T14:00:00+01:00",
+      "url": "https://parisien90.com/news/luis-enrique-psg-troyes-concentration-present-novembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-rester-concentres-sur-le-moment-present-conference-de-presse-paris-saint-germain-estac-troyes-ligue-1-2026-2027",
+      "reliability": "Officiel — conférence de presse"
+    },
+    {
+      "title": "PSG-Troyes : Akliouche en soins, Marquinhos, Mendes et Dembélé reprennent individuellement",
+      "category": "Infirmerie",
+      "dateTime": "2026-11-06T12:00:00+01:00",
+      "url": "https://parisien90.com/news/psg-point-medical-akliouche-marquinhos-mendes-dembele-novembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/point-medical-avant-paris-saint-germain-estac-troyes-ligue-1-2026-2027",
+      "reliability": "Officiel — point médical"
+    },
+    {
+      "title": "Hakimi au repos jusqu'à la trêve : le PSG choisit la gestion, pas l'alerte",
+      "category": "Groupe",
+      "dateTime": "2026-11-06T12:00:00+01:00",
+      "url": "https://parisien90.com/news/achraf-hakimi-repos-treve-internationale-novembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/communique-concernant-achraf-hakimi-paris-saint-germain-20262027",
+      "reliability": "Officiel — communiqué du club"
+    },
     {
       "title": "Villarreal-PSG : six buts, un récital et David Boly pour finir le travail",
       "category": "Europe",
@@ -443,33 +470,6 @@
       "source": "Parisien 90 — analyse sourcée",
       "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
       "reliability": "Analyse, aucune négociation affirmée"
-    },
-    {
-      "title": "Luis Enrique prévient : Le Mans est un vrai test à ne pas sous-estimer",
-      "category": "Entraîneurs",
-      "dateTime": "2026-10-09T13:00:00+02:00",
-      "url": "https://parisien90.com/news/luis-enrique-psg-conference-le-mans-questions-octobre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/luis-enrique-nous-voulons-monter-au-classement-paris-saint-germain-le-mans-fc-conference-de-presse-ligue-1-20262027",
-      "reliability": "Officiel — conférence de presse"
-    },
-    {
-      "title": "Effectif PSG : avant Le Mans, les rôles comptent plus que les noms",
-      "category": "Joueurs",
-      "dateTime": "2026-10-09T06:30:00+02:00",
-      "url": "https://parisien90.com/news/effectif-psg-le-mans-retour-treve-roles-octobre-2026/",
-      "source": "PSG.fr / Parisien 90",
-      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
-      "reliability": "Effectif officiel, analyse"
-    },
-    {
-      "title": "Mercato PSG : en janvier, la meilleure recrue sera-t-elle déjà dans l'effectif ?",
-      "category": "Mercato",
-      "dateTime": "2026-10-09T06:30:00+02:00",
-      "url": "https://parisien90.com/news/mercato-psg-janvier-2027-contrats-roles-patience/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
-      "reliability": "Analyse, aucune négociation affirmée"
     }
   ],
   "people": [
@@ -511,10 +511,10 @@
       "aliases": [],
       "type": "player",
       "role": "Latéral droit offensif",
-      "status": "Capitaine, auteur d'un triplé au Havre",
+      "status": "Au repos jusqu'au début de la trêve internationale",
       "url": "https://parisien90.com/joueurs-psg/achraf-hakimi/",
-      "updatedAt": "30 octobre 2026",
-      "source": "PSG.fr — Le Havre-PSG",
+      "updatedAt": "6 novembre 2026",
+      "source": "PSG.fr — communiqué concernant Achraf Hakimi",
       "image": null
     },
     {
@@ -533,9 +533,9 @@
       "aliases": [],
       "type": "player",
       "role": "Défenseur central, leader de vestiaire",
-      "status": "En soins — disponibilité à confirmer",
+      "status": "Reprise de l'entraînement individuel",
       "url": "https://parisien90.com/joueurs-psg/marquinhos/",
-      "updatedAt": "29 octobre 2026",
+      "updatedAt": "6 novembre 2026",
       "source": "PSG.fr — point médical",
       "image": null
     },
@@ -566,10 +566,10 @@
       "aliases": [],
       "type": "player",
       "role": "Latéral gauche explosif",
-      "status": "Indisponible ces prochaines semaines — cuisse gauche",
+      "status": "Reprise de l'entraînement individuel",
       "url": "https://parisien90.com/joueurs-psg/nuno-mendes/",
-      "updatedAt": "29 octobre 2026",
-      "source": "PSG.fr — points médicaux",
+      "updatedAt": "6 novembre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
@@ -676,10 +676,10 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier gauche",
-      "status": "Opéré du ligament croisé du genou droit",
+      "status": "Poursuit son protocole de soins",
       "url": "https://parisien90.com/joueurs-psg/khvicha-kvaratskhelia/",
-      "updatedAt": "27 octobre 2026",
-      "source": "PSG.fr — point médical",
+      "updatedAt": "6 novembre 2026",
+      "source": "PSG.fr — points médicaux",
       "image": null
     },
     {
@@ -687,9 +687,9 @@
       "aliases": [],
       "type": "player",
       "role": "Ailier créateur",
-      "status": "En soins — disponibilité à confirmer",
+      "status": "Reprise de l'entraînement individuel",
       "url": "https://parisien90.com/joueurs-psg/ousmane-dembele/",
-      "updatedAt": "29 octobre 2026",
+      "updatedAt": "6 novembre 2026",
       "source": "PSG.fr — point médical",
       "image": null
     },
@@ -709,10 +709,10 @@
       "aliases": [],
       "type": "player",
       "role": "Créateur intérieur ou ailier droit",
-      "status": "Recrue officielle 2026",
+      "status": "En soins ces prochains jours — mollet",
       "url": "https://parisien90.com/joueurs-psg/maghnes-akliouche/",
-      "updatedAt": "9 août 2026",
-      "source": "CulturePSG / Le Parisien",
+      "updatedAt": "6 novembre 2026",
+      "source": "PSG.fr — point médical",
       "image": null
     },
     {
@@ -755,8 +755,8 @@
       "role": "Entraîneur principal",
       "status": "127 victoires, entraîneur le plus victorieux du PSG",
       "url": "https://parisien90.com/staff-psg/luis-enrique/",
-      "updatedAt": "30 octobre 2026",
-      "source": "PSG.fr — Stats & Facts",
+      "updatedAt": "6 novembre 2026",
+      "source": "PSG.fr — conférence de presse",
       "image": null
     },
     {
@@ -2663,20 +2663,11 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-11-03T22:53:00+01:00",
+    "updatedAt": "2026-11-06T14:00:33+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
     "nextFixtures": [
-      {
-        "date": "2026-11-03",
-        "competition": "Liga dos Campeões",
-        "home": "Villarreal CF",
-        "away": "Paris Saint-Germain",
-        "status": "Terminé 0-6",
-        "source": "PSG.fr / UEFA",
-        "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/villarreal-vs-paris-2026-11-03"
-      },
       {
         "date": "2026-11-07",
         "competition": "Ligue 1",
@@ -2739,6 +2730,15 @@
         "status": "Horaire à confirmer",
         "source": null,
         "sourceUrl": null
+      },
+      {
+        "date": "2026-12-20",
+        "competition": "Copa da França",
+        "home": "Adversaire à déterminer",
+        "away": "Paris Saint-Germain",
+        "status": "Tirage à venir",
+        "source": "FFF",
+        "sourceUrl": "https://www.fff.fr/article/15924-le-calendrier-general-2026-2027-officialise.html"
       }
     ]
   },

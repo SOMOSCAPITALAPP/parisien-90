@@ -4,9 +4,9 @@
 
 Parisien 90 est un média éditorial consacré au Paris Saint-Germain. Le site couvre clairement les grands sujets PSG : transfert PSG, mercato PSG, actualité PSG, viral PSG, buzz PSG, débat PSG, vidéos PSG, YouTube PSG, chaînes PSG, calendrier PSG, calendrier PSG 2026-2027, joueurs PSG, effectif PSG, fiches joueurs, anciens joueurs PSG, histoire PSG, records PSG, meilleur buteur PSG, joueur le plus capé PSG, Brésiliens PSG et Argentins PSG.
 
-## Repère éditorial — 3 novembre 2026, 22h53 (Europe/Paris)
+## Repère éditorial — 6 novembre 2026, 14h00 (Europe/Paris)
 
-Fil PSG du 3 novembre 2026. Fil public : 182 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : Villarreal-PSG : six buts, un récital et David Boly pour finir le travail ; Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent ; Paris FC-PSG féminin : Morissaint provoque l'égalisation, le derby reste indécis ; Les U17 du PSG s'imposent 4-2 à Versailles et gardent la tête ; Hakimi : le PSG voudrait rouvrir le dossier d'une prolongation. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
+Fil PSG du 6 novembre 2026. Fil public : 185 vraies infos PSG, enrichies en pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/ avec sources citées, angle éditorial, FAQ et liens internes utiles. Le fil public ne contient que des contenus éditoriaux sourcés. À suivre : PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée ; PSG-Troyes : Akliouche en soins, Marquinhos, Mendes et Dembélé reprennent individuellement ; Hakimi au repos jusqu'à la trêve : le PSG choisit la gestion, pas l'alerte ; Villarreal-PSG : six buts, un récital et David Boly pour finir le travail ; Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent. Les informations sont réécrites, sourcées, catégorisées et partageables sans reproduire les articles tiers.
 
 Le contenu est organisé en grandes rubriques, avec titres explicites, descriptions, FAQ, données structurées schema.org, sitemap XML, RSS, fichiers JSON publics et page vidéos PSG/YouTube.
 
