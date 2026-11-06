@@ -324,6 +324,10 @@ const makeArticleSections = (item) => {
   return `<h2>Ce qui est établi</h2>
             <p>${summary}</p>
             <p>Le point important, ici, est la nature du signal : il est daté du ${escapeHTML(item.dateLabel || newsMeta.displayDate)} à ${escapeHTML(item.time)} et classé <strong>${reliability}</strong>. Cette qualification permet de ne pas mettre sur le même plan une annonce officielle, une rumeur de marché, une analyse maison ou une reprise à confirmer.</p>
+            <figure class="article-visual article-visual--inline">
+              <img src="${escapeHTML(articleVisualPath(item))}" alt="Illustration éditoriale : ${title}" loading="lazy" decoding="async" />
+              <figcaption>Une image originale pour accompagner le rythme du sujet.</figcaption>
+            </figure>
             <h2>Pourquoi cette info compte pour le PSG</h2>
             <p>${escapeHTML(angle.stakes)}</p>
             <p>Pour les supporters, ${title} n'est donc pas une simple ligne de fil d'actualité. C'est une pièce du récit parisien : effectif, rythme de saison, rapport de force du mercato, statut des cadres ou crédibilité sportive du projet.</p>
@@ -450,10 +454,6 @@ const makeArticlePage = (item) => {
           <h1>${escapeHTML(item.title)}</h1>
           <p>${escapeHTML(item.summary)}</p>
         </div>
-        <figure class="article-visual">
-          <img src="${escapeHTML(articleVisualPath(item))}" alt="Illustration éditoriale : ${escapeHTML(item.title)}" loading="eager" decoding="async" />
-          <figcaption>Illustration éditoriale originale Parisien 90.</figcaption>
-        </figure>
         <div class="article-layout">
           <div class="article-body">
             ${makeArticleSections(item)}
@@ -566,10 +566,10 @@ const makeEditorialArticlePage = (item) => {
   };
   const sections = (item.sections || [])
     .map(
-      (section) => `<section class="records-section">
+      (section, index) => `<section class="records-section">
               <h2>${escapeHTML(section.heading)}</h2>
               ${section.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("\n              ")}
-            </section>`
+            </section>${index === 0 ? `<figure class="article-visual article-visual--inline"><img src="${escapeHTML(articleVisualPath(item))}" alt="Illustration éditoriale : ${escapeHTML(item.title)}" loading="lazy" decoding="async" /><figcaption>Illustration éditoriale originale Parisien 90.</figcaption></figure>` : ""}`
     )
     .join("\n");
   const sourceLinks = (item.sources || [])
@@ -643,10 +643,6 @@ const makeEditorialArticlePage = (item) => {
           <h1>${escapeHTML(item.title)}</h1>
           <p>${escapeHTML(item.deck)}</p>
         </div>
-        <figure class="article-visual">
-          <img src="${escapeHTML(articleVisualPath(item))}" alt="Illustration éditoriale : ${escapeHTML(item.title)}" loading="eager" decoding="async" />
-          <figcaption>Illustration éditoriale originale Parisien 90.</figcaption>
-        </figure>
         <div class="article-layout">
           <div class="article-body">
             ${sections}
@@ -2357,7 +2353,7 @@ const makeBrEditorialArticlePage = (rawItem, context) => {
     ]
   };
   const sections = item.sections
-    .map((section) => `<section class="records-section"><h2>${escapeHTML(section.heading)}</h2>${section.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("")}</section>`)
+    .map((section, index) => `<section class="records-section"><h2>${escapeHTML(section.heading)}</h2>${section.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("")}</section>${index === 0 ? `<figure class="article-visual article-visual--inline"><img src="${escapeHTML(articleVisualPath(item))}" alt="Ilustração editorial: ${escapeHTML(item.title)}" loading="lazy" decoding="async" /><figcaption>Ilustração editorial original Parisien 90.</figcaption></figure>` : ""}`)
     .join("");
   const faq = item.faq
     .map((entry, index) => `<details${index === 0 ? " open" : ""}><summary>${escapeHTML(entry.question)}</summary><p>${escapeHTML(entry.answer)}</p></details>`)
@@ -2376,10 +2372,6 @@ const makeBrEditorialArticlePage = (rawItem, context) => {
           <h1>${escapeHTML(item.title)}</h1>
           <p>${escapeHTML(item.deck)}</p>
         </div>
-        <figure class="article-visual">
-          <img src="${escapeHTML(articleVisualPath(item))}" alt="Ilustração editorial: ${escapeHTML(item.title)}" loading="eager" decoding="async" />
-          <figcaption>Ilustração editorial original Parisien 90.</figcaption>
-        </figure>
         <div class="article-layout">
           <div class="article-body">
             ${sections}
@@ -2541,6 +2533,7 @@ const makeBrNewsArticlePage = (story) => {
             <h2>O que está confirmado</h2>
             <p>${escapeHTML(story.summary)}</p>
             <p>O sinal foi publicado em ${escapeHTML(brDateLabel(item.dateLabel || newsMeta.displayDate))}, às ${escapeHTML(item.time)}, e classificado como <strong>${escapeHTML(reliabilityLabel)}</strong>. A fonte citada é <strong>${escapeHTML(sourceLabel)}</strong>.</p>
+            <figure class="article-visual article-visual--inline"><img src="${escapeHTML(articleVisualPath(item))}" alt="Ilustração editorial: ${escapeHTML(story.title)}" loading="lazy" decoding="async" /><figcaption>Ilustração editorial original Parisien 90.</figcaption></figure>
             ${storySections}
             <h2>Fonte, direitos e método</h2>
             <p>Este artigo é uma síntese original em português do Brasil. Ele não reproduz a publicação de origem: cita a fonte, resume o fato com redação própria e orienta o leitor para verificar o sinal inicial.</p>
