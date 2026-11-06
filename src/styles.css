@@ -3157,6 +3157,26 @@ span.squad-player {
   line-height: 1.55;
 }
 
+.article-visual {
+  margin: 0;
+  border-bottom: 1px solid var(--line);
+  background: #071426;
+}
+
+.article-visual img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.article-visual figcaption {
+  padding: 8px 18px 10px;
+  color: #c9d6e5;
+  font-size: 12px;
+  font-weight: 750;
+}
+
 .article-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 280px;

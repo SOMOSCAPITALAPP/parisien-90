@@ -450,6 +450,10 @@ const makeArticlePage = (item) => {
           <h1>${escapeHTML(item.title)}</h1>
           <p>${escapeHTML(item.summary)}</p>
         </div>
+        <figure class="article-visual">
+          <img src="${escapeHTML(articleVisualPath(item))}" alt="Illustration éditoriale : ${escapeHTML(item.title)}" loading="eager" decoding="async" />
+          <figcaption>Illustration éditoriale originale Parisien 90.</figcaption>
+        </figure>
         <div class="article-layout">
           <div class="article-body">
             ${makeArticleSections(item)}
@@ -639,6 +643,10 @@ const makeEditorialArticlePage = (item) => {
           <h1>${escapeHTML(item.title)}</h1>
           <p>${escapeHTML(item.deck)}</p>
         </div>
+        <figure class="article-visual">
+          <img src="${escapeHTML(articleVisualPath(item))}" alt="Illustration éditoriale : ${escapeHTML(item.title)}" loading="eager" decoding="async" />
+          <figcaption>Illustration éditoriale originale Parisien 90.</figcaption>
+        </figure>
         <div class="article-layout">
           <div class="article-body">
             ${sections}
@@ -2368,6 +2376,10 @@ const makeBrEditorialArticlePage = (rawItem, context) => {
           <h1>${escapeHTML(item.title)}</h1>
           <p>${escapeHTML(item.deck)}</p>
         </div>
+        <figure class="article-visual">
+          <img src="${escapeHTML(articleVisualPath(item))}" alt="Ilustração editorial: ${escapeHTML(item.title)}" loading="eager" decoding="async" />
+          <figcaption>Ilustração editorial original Parisien 90.</figcaption>
+        </figure>
         <div class="article-layout">
           <div class="article-body">
             ${sections}
@@ -2520,6 +2532,10 @@ const makeBrNewsArticlePage = (story) => {
           <h1>${escapeHTML(story.title)}</h1>
           <p>${escapeHTML(story.summary)}</p>
         </div>
+        <figure class="article-visual">
+          <img src="${escapeHTML(articleVisualPath(item))}" alt="Ilustração editorial: ${escapeHTML(story.title)}" loading="eager" decoding="async" />
+          <figcaption>Ilustração editorial original Parisien 90.</figcaption>
+        </figure>
         <div class="article-layout">
           <div class="article-body">
             <h2>O que está confirmado</h2>
