@@ -8,9 +8,11 @@ import { brNewsTranslations20261007 } from "../src/br-news-translations-2026-10-
 import { generatedBrStoryTranslations } from "../src/generated-br-story-translations.js";
 import { editorialArticles, editorialArticlesMeta } from "../src/editorial-articles.js";
 import { calendarWatchSources, currentPlayerProfiles, legendProfiles, newsFeed, newsMeta, psgSchedule2627, staffProfiles } from "../src/site-data.js";
+import { articleVisualPath, generateEditorialVisuals } from "./generate-editorial-visuals.mjs";
 
 const siteUrl = "https://parisien90.com";
 const publicDir = new URL("../public/", import.meta.url);
+const articleVisualDir = new URL("images/articles/", publicDir);
 const newsDir = new URL("../news/", import.meta.url);
 const dossiersDir = new URL("../dossiers-psg/", import.meta.url);
 const playersDir = new URL("../joueurs-psg/", import.meta.url);
@@ -27,6 +29,19 @@ const isPublishedNews = (item) =>
   !String(item.title || "").toLowerCase().startsWith("édition du");
 
 const publishedNewsFeed = newsFeed.filter(isPublishedNews);
+const articleImage = (item) => new URL(articleVisualPath(item), siteUrl).href;
+const brazilHistoryDossierVisual = {
+  id: "brasileiros-psg-alma-mundial-paris",
+  category: "Histoire PSG",
+  title: "Brasileiros no PSG: Raí, Ronaldinho, Neymar e Marquinhos",
+  date: "2026-09-06",
+  dateLabel: "6 de setembro de 2026"
+};
+
+await generateEditorialVisuals({
+  outputDir: articleVisualDir,
+  articles: [...publishedNewsFeed, ...editorialArticles, ...brEditorialArticles, brazilHistoryDossierVisual]
+});
 
 const staticPages = [
   { path: "/", changefreq: "hourly", priority: "1.0" },
@@ -342,7 +357,7 @@ const makeArticlePage = (item) => {
         mainEntityOfPage: { "@type": "WebPage", "@id": url },
         headline: item.title,
         description: item.summary,
-        image: [heroImage],
+        image: [articleImage(item)],
         datePublished: dateTime,
         dateModified: newsMeta.updatedAt,
         inLanguage: "fr-FR",
@@ -380,6 +395,7 @@ const makeArticlePage = (item) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${escapeHTML(title)}</title>
     <meta name="description" content="${escapeHTML(description)}" />
+    <meta name="robots" content="max-image-preview:large" />
     <link rel="canonical" href="${escapeHTML(url)}" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -389,14 +405,14 @@ const makeArticlePage = (item) => {
     <meta property="og:title" content="${escapeHTML(item.title)}" />
     <meta property="og:description" content="${escapeHTML(item.summary)}" />
     <meta property="og:url" content="${escapeHTML(url)}" />
-    <meta property="og:image" content="${escapeHTML(editorialShareImage)}" />
+    <meta property="og:image" content="${escapeHTML(articleImage(item))}" />
     <meta property="article:published_time" content="${escapeHTML(dateTime)}" />
     <meta property="article:modified_time" content="${escapeHTML(newsMeta.updatedAt)}" />
     <meta property="article:section" content="${escapeHTML(item.category)}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${escapeHTML(item.title)}" />
     <meta name="twitter:description" content="${escapeHTML(item.summary)}" />
-    <meta name="twitter:image" content="${escapeHTML(editorialShareImage)}" />
+    <meta name="twitter:image" content="${escapeHTML(articleImage(item))}" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
@@ -491,7 +507,7 @@ const makeEditorialArticlePage = (item) => {
   const path = editorialPath(item);
   const url = editorialUrl(item);
   const dateTime = `${item.date}T${String(item.time || "09:00").padStart(5, "0")}:00+02:00`;
-  const socialImage = new URL(item.image || "/social/parisien90-editorial-share.png", siteUrl).href;
+  const socialImage = articleImage(item);
   const sourceItems = (item.sources || []).map((source) => ({
     "@type": "CreativeWork",
     name: source.name,
@@ -572,6 +588,7 @@ const makeEditorialArticlePage = (item) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${escapeHTML(item.title)} | Parisien 90</title>
     <meta name="description" content="${escapeHTML(item.description)}" />
+    <meta name="robots" content="max-image-preview:large" />
     <link rel="canonical" href="${escapeHTML(url)}" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -641,8 +658,8 @@ const makeEditorialArticlePage = (item) => {
           </div>
           <aside class="article-sidebar">
             <figure class="profile-photo-card">
-              <img src="${escapeHTML(item.image || "/hero-stadium.png")}" alt="${escapeHTML(item.imageAlt || item.title)}" loading="eager" decoding="async" />
-              <figcaption>${escapeHTML(item.imageCredit || "Image éditoriale Parisien 90")}${item.imageLicenseUrl ? ` - <a href="${escapeHTML(item.imageLicenseUrl)}" rel="noopener noreferrer">licence</a>` : ""}. Usage éditorial, aucune affiliation suggérée.</figcaption>
+              <img src="${escapeHTML(articleVisualPath(item))}" alt="Illustration éditoriale abstraite : ${escapeHTML(item.title)}" loading="eager" decoding="async" />
+              <figcaption>Illustration éditoriale originale Parisien 90, sans portrait ni signe de club.</figcaption>
             </figure>
             <span class="section-kicker">À lire aussi</span>
             ${internalLinks}
@@ -2194,7 +2211,7 @@ const makeBrHeader = (active) => {
     </header>`;
 };
 
-const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd, ogType = "website", articleMeta = null }) => {
+const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd, ogType = "website", articleMeta = null, socialImage = heroImage }) => {
   const url = `${siteUrl}${path}`;
   const frUrl = `${siteUrl}${frPath || "/"}`;
 
@@ -2205,6 +2222,7 @@ const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd, og
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${escapeHTML(title)}</title>
     <meta name="description" content="${escapeHTML(description)}" />
+    <meta name="robots" content="max-image-preview:large" />
     <link rel="canonical" href="${escapeHTML(url)}" />
     <link rel="alternate" hreflang="pt-BR" href="${escapeHTML(url)}" />
     <link rel="alternate" hreflang="fr-FR" href="${escapeHTML(frUrl)}" />
@@ -2221,11 +2239,12 @@ const makeBrPage = ({ path, title, description, active, frPath, body, jsonLd, og
     <meta property="og:title" content="${escapeHTML(title)}" />
     <meta property="og:description" content="${escapeHTML(description)}" />
     <meta property="og:url" content="${escapeHTML(url)}" />
-    <meta property="og:image" content="${escapeHTML(heroImage)}" />${articleMeta ? `
+    <meta property="og:image" content="${escapeHTML(socialImage)}" />${articleMeta ? `
     <meta property="article:published_time" content="${escapeHTML(articleMeta.publishedTime)}" />
     <meta property="article:modified_time" content="${escapeHTML(articleMeta.modifiedTime)}" />
     <meta property="article:section" content="${escapeHTML(articleMeta.section)}" />` : ""}
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="${escapeHTML(socialImage)}" />
     <script type="application/ld+json">${safeJson(jsonLd)}</script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
@@ -2298,7 +2317,7 @@ const makeBrEditorialArticlePage = (rawItem, context) => {
         keywords: item.keywords,
         author: { "@type": "Organization", name: "Redação Parisien 90 Brasil", url: `${siteUrl}/br/` },
         publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90 Brasil", url: `${siteUrl}/br/` },
-        image: [heroImage],
+        image: [articleImage(item)],
         isAccessibleForFree: true,
         copyrightHolder: { "@type": "Organization", name: "Parisien 90" },
         about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
@@ -2372,6 +2391,7 @@ const makeBrEditorialArticlePage = (rawItem, context) => {
       body,
       jsonLd,
       ogType: "article",
+      socialImage: articleImage(item),
       articleMeta: {
         publishedTime: dateTime,
         modifiedTime: brEditorialArticlesMeta.updatedAt,
@@ -2457,7 +2477,7 @@ const makeBrNewsArticlePage = (story) => {
         mainEntityOfPage: { "@type": "WebPage", "@id": url },
         headline: story.title,
         description: story.summary,
-        image: [heroImage],
+        image: [articleImage(item)],
         datePublished: dateTime,
         dateModified: newsMeta.updatedAt,
         inLanguage: "pt-BR",
@@ -2523,7 +2543,7 @@ const makeBrNewsArticlePage = (story) => {
       </article>
       ${relatedCards ? `<section class="content-section"><div class="section-heading"><div><span class="section-kicker">Também em português</span><h2>Outras notícias PSG</h2></div></div><div class="hot-grid">${relatedCards}</div></section>` : ""}`;
 
-  return makeBrPage({ path, title, description, active: "noticias", frPath, body, jsonLd });
+  return makeBrPage({ path, title, description, active: "noticias", frPath, body, jsonLd, socialImage: articleImage(item) });
 };
 
 const makeBrNewsIndexPage = (stories) => {
@@ -2933,7 +2953,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
         inLanguage: "pt-BR",
         author: { "@type": "Organization", name: "Parisien 90", url: siteUrl },
         publisher: { "@type": "NewsMediaOrganization", name: "Parisien 90", url: siteUrl },
-        image: [heroImage],
+        image: [articleImage(brazilHistoryDossierVisual)],
         about: { "@type": "SportsTeam", name: "Paris Saint-Germain" },
         mentions: ["Raí", "Ronaldinho", "Neymar", "Thiago Silva", "Marquinhos", "Paris Saint-Germain"]
       },
@@ -3148,6 +3168,7 @@ const makeBrazilPages = (allTimePlayerIndex) => {
       active: "dossies",
       frPath: frBrazilDossierPath,
       jsonLd: brDossierJsonLd,
+      socialImage: articleImage(brazilHistoryDossierVisual),
       body: `<nav class="breadcrumb" aria-label="Trilha de navegação"><a href="/br/">Início</a><span>/</span><a href="/br/dossies-psg/">Dossiês PSG</a><span>/</span><span>Brasileiros no PSG</span></nav>
       <article class="article-page records-page" data-share-title="${escapeHTML(brDossierTitle)}" data-share-url="${escapeHTML(brDossierPath)}">
         <div class="article-hero">
