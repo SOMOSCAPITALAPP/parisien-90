@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-11-06T14:00:33+01:00",
-    "freshnessNote": "Fil PSG du 6 novembre 2026. Fil public : 185 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée ; PSG-Troyes : Akliouche en soins, Marquinhos, Mendes et Dembélé reprennent individuellement ; Hakimi au repos jusqu'à la trêve : le PSG choisit la gestion, pas l'alerte ; Villarreal-PSG : six buts, un récital et David Boly pour finir le travail ; Villarreal-PSG : Luis Enrique part avec 21 joueurs, Boly et Ndjantou embarquent. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-11-07T11:00:00+01:00",
+    "freshnessNote": "Fil PSG du 7 novembre 2026. Fil public : 186 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Troyes : Idder découvre le groupe, Boly et Ndjantou prolongent l'élan des Titis ; PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée ; PSG-Troyes : Akliouche en soins, Marquinhos, Mendes et Dembélé reprennent individuellement ; Hakimi au repos jusqu'à la trêve : le PSG choisit la gestion, pas l'alerte ; Villarreal-PSG : six buts, un récital et David Boly pour finir le travail. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Troyes : Idder découvre le groupe, Boly et Ndjantou prolongent l'élan des Titis",
+      "category": "Groupe",
+      "dateTime": "2026-11-07T11:00:00+01:00",
+      "url": "https://parisien90.com/news/psg-groupe-troyes-idder-boly-ndjantou-novembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-troyes-paris-saint-germain-ligue-1-journee-10-2026-2027",
+      "reliability": "Officiel — groupe de 20 joueurs"
+    },
     {
       "title": "PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée",
       "category": "Ligue 1",
@@ -461,15 +470,6 @@
       "source": "PSG.fr / Parisien 90",
       "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
       "reliability": "Effectif officiel, analyse"
-    },
-    {
-      "title": "Mercato PSG : le vrai bilan de l'été se jouera maintenant sur les minutes",
-      "category": "Mercato",
-      "dateTime": "2026-10-10T06:30:00+02:00",
-      "url": "https://parisien90.com/news/mercato-psg-bilan-ete-2026-temps-de-jeu-janvier/",
-      "source": "Parisien 90 — analyse sourcée",
-      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
-      "reliability": "Analyse, aucune négociation affirmée"
     }
   ],
   "people": [
@@ -2663,7 +2663,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-11-06T14:00:33+01:00",
+    "updatedAt": "2026-11-07T11:00:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

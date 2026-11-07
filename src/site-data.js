@@ -324,10 +324,10 @@ export const seasonSquads = [
 ];
 
 const defaultNewsMeta = {
-  updatedAt: "2026-11-06T14:00:33+01:00",
-  edition: "Fil PSG du 6 novembre 2026",
-  displayDate: "6 novembre 2026",
-  displayTime: "14h00",
+  updatedAt: "2026-11-07T11:00:00+01:00",
+  edition: "Fil PSG du 7 novembre 2026",
+  displayDate: "7 novembre 2026",
+  displayTime: "11h00",
   rightsNote: "Synthèses originales Parisien 90. Les sources sont citées et liées ; aucun article tiers n'est reproduit."
 };
 
@@ -336,6 +336,9 @@ export const newsMeta = defaultNewsMeta;
 const withNewsDate = (date, dateLabel, items) => items.map((item) => ({ date, dateLabel, ...item }));
 
 export const newsFeed = [
+  ...withNewsDate("2026-11-07", "7 novembre 2026", [
+  { id: "psg-groupe-troyes-idder-boly-ndjantou-novembre-2026", time: "11:00", category: "Groupe", title: "PSG-Troyes : Idder découvre le groupe, Boly et Ndjantou prolongent l'élan des Titis", summary: "Luis Enrique a retenu 20 joueurs pour recevoir Troyes samedi à 21h05. Younes Idder, 18 ans, connaît sa première convocation pour un match officiel ; David Boly et Quentin Ndjantou sont de nouveau appelés. Le groupe confirme les absences de Marquinhos, Nuno Mendes, Ousmane Dembélé, Maghnes Akliouche et Khvicha Kvaratskhelia, tandis qu'Achraf Hakimi est laissé au repos. Une liste resserrée, mais une vraie fenêtre pour la formation parisienne avant la trêve.", source: "PSG.fr", url: "https://www.psg.fr/content/le-groupe-parisien-pour-la-reception-de-troyes-paris-saint-germain-ligue-1-journee-10-2026-2027", reliability: "Officiel — groupe de 20 joueurs", viral: 92 },
+  ]),
   ...withNewsDate("2026-11-06", "6 novembre 2026", [
   { id: "luis-enrique-psg-troyes-concentration-present-novembre-2026", time: "14:00", category: "Ligue 1", title: "PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée", summary: "Après le 6-0 à Villarreal, Luis Enrique refuse de traiter Troyes comme une formalité. L'entraîneur insiste sur l'intensité et la concentration, rappelant qu'une victoire samedi offrirait au PSG une séquence parfaite entre deux trêves internationales. Son message reste celui d'un collectif qui doit jouer à fond, sans se laisser distraire par le résultat européen ni les attentes autour du score.", source: "PSG.fr", url: "https://www.psg.fr/content/luis-enrique-rester-concentres-sur-le-moment-present-conference-de-presse-paris-saint-germain-estac-troyes-ligue-1-2026-2027", reliability: "Officiel — conférence de presse", viral: 89 },
   { id: "psg-point-medical-akliouche-marquinhos-mendes-dembele-novembre-2026", time: "12:00", category: "Infirmerie", title: "PSG-Troyes : Akliouche en soins, Marquinhos, Mendes et Dembélé reprennent individuellement", summary: "Touché au mollet contre Villarreal, Maghnes Akliouche restera en soins ces prochains jours. Le PSG annonce en parallèle que Marquinhos, Nuno Mendes et Ousmane Dembélé ont repris l'entraînement individuellement. Aucun retour collectif ni calendrier de match n'est communiqué : il faut donc voir ces reprises comme une étape, pas comme un feu vert pour Troyes. Khvicha Kvaratskhelia poursuit son protocole de soins.", source: "PSG.fr", url: "https://www.psg.fr/content/point-medical-avant-paris-saint-germain-estac-troyes-ligue-1-2026-2027", reliability: "Officiel — point médical", viral: 93 },
