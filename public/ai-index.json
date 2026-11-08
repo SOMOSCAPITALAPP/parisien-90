@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-11-07T11:00:00+01:00",
-    "freshnessNote": "Fil PSG du 7 novembre 2026. Fil public : 186 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 66 articles de fond sous /dossiers-psg/. À suivre : PSG-Troyes : Idder découvre le groupe, Boly et Ndjantou prolongent l'élan des Titis ; PSG-Troyes : Luis Enrique calme l'euphorie et réclame une équipe concentrée ; PSG-Troyes : Akliouche en soins, Marquinhos, Mendes et Dembélé reprennent individuellement ; Hakimi au repos jusqu'à la trêve : le PSG choisit la gestion, pas l'alerte ; Villarreal-PSG : six buts, un récital et David Boly pour finir le travail. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-11-08T11:00:00+01:00",
+    "freshnessNote": "Fil PSG du 8 novembre 2026. Fil public : 191 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 70 articles de fond sous /dossiers-psg/. À suivre : Octobre Rose : le PSG annonce plus de 90 000 euros collectés pour l'AP-HP ; PSG-Troyes : Zabarnyi donne la victoire à Paris au terme d'un match fermé ; Zabarnyi, buteur et vigilant : le défenseur qui a fait basculer PSG-Troyes ; PSG-Troyes : le corner de Zabarnyi, récompense d'une pression enfin convertie ; PSG-Troyes : Paris enchaîne une onzième victoire de rang, sans la facilité de Villarreal. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,51 @@
     }
   ],
   "news": [
+    {
+      "title": "Octobre Rose : le PSG annonce plus de 90 000 euros collectés pour l'AP-HP",
+      "category": "Le Club",
+      "dateTime": "2026-11-08T11:30:00+01:00",
+      "url": "https://parisien90.com/news/psg-octobre-rose-collecte-ap-hp-novembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/octobre-rose-le-paris-saint-germain-collecte-90-000-euros-pour-la-lutte-contre-le-cancer-du-sein-psg-club-news-2026-2027",
+      "reliability": "Officiel — communiqué du club"
+    },
+    {
+      "title": "PSG-Troyes : Zabarnyi donne la victoire à Paris au terme d'un match fermé",
+      "category": "Match",
+      "dateTime": "2026-11-08T08:15:00+01:00",
+      "url": "https://parisien90.com/news/psg-troyes-1-0-zabarnyi-victoire-novembre-2026/",
+      "source": "PSG.fr / Ouest-France",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+      "reliability": "Officiel — résultat recoupé"
+    },
+    {
+      "title": "Zabarnyi, buteur et vigilant : le défenseur qui a fait basculer PSG-Troyes",
+      "category": "Joueurs PSG",
+      "dateTime": "2026-11-08T09:05:00+01:00",
+      "url": "https://parisien90.com/news/illia-zabarnyi-buteur-psg-troyes-novembre-2026/",
+      "source": "PSG.fr / Sofascore",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+      "reliability": "Officiel — but et déroulé recoupés"
+    },
+    {
+      "title": "PSG-Troyes : le corner de Zabarnyi, récompense d'une pression enfin convertie",
+      "category": "Tactique PSG",
+      "dateTime": "2026-11-08T10:00:00+01:00",
+      "url": "https://parisien90.com/news/psg-troyes-corner-zabarnyi-analyse-novembre-2026/",
+      "source": "Ouest-France / Sofascore",
+      "sourceUrl": "https://www.sofascore.com/fr/news/psg-1-0-troyes-la-tete-de-zabarnyi-decide-du-sort-du-match-de-ligue-1",
+      "reliability": "Analyse — données de match citées"
+    },
+    {
+      "title": "PSG-Troyes : Paris enchaîne une onzième victoire de rang, sans la facilité de Villarreal",
+      "category": "Ligue 1",
+      "dateTime": "2026-11-08T11:00:00+01:00",
+      "url": "https://parisien90.com/news/psg-onze-victoires-consecutives-troyes-novembre-2026/",
+      "source": "PSG.fr / Le Parisien",
+      "sourceUrl": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+      "reliability": "Résultat officiel — série recoupée"
+    },
     {
       "title": "PSG-Troyes : Idder découvre le groupe, Boly et Ndjantou prolongent l'élan des Titis",
       "category": "Groupe",
@@ -425,51 +470,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/a-couper-le-souffle-compte-rendu-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027",
       "reliability": "Officiel — compte rendu et feuille de match"
-    },
-    {
-      "title": "Manchester City-PSG : Luis Enrique assume le défi, Dembélé vise déjà le top 8",
-      "category": "Europe",
-      "dateTime": "2026-10-13T20:00:00+02:00",
-      "url": "https://parisien90.com/news/luis-enrique-dembele-manchester-city-defi-octobre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/luis-enrique-un-veritable-defi-conference-de-presse-manchester-city-fc-paris-saint-germain-uefa-champions-league-20262027",
-      "reliability": "Officiel — conférence de presse"
-    },
-    {
-      "title": "Manchester City-PSG : Luis Enrique part avec 23 joueurs, Mayulu et Longoni absents",
-      "category": "Groupe",
-      "dateTime": "2026-10-13T11:24:00+02:00",
-      "url": "https://parisien90.com/news/groupe-psg-manchester-city-mayulu-longoni-octobre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/le-groupe-parisien-pour-le-deplacement-a-manchester-city-ucl-psg-2026-2027",
-      "reliability": "Officiel — groupe et absences confirmés"
-    },
-    {
-      "title": "PSG-Le Mans : Paris reprend sa marche avec Beraldo, Kvaratskhelia et Akliouche",
-      "category": "Match",
-      "dateTime": "2026-10-10T23:00:00+02:00",
-      "url": "https://parisien90.com/news/psg-le-mans-victoire-beraldo-kvaratskhelia-akliouche-octobre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
-      "reliability": "Officiel — résultat, buteurs et distinction confirmés"
-    },
-    {
-      "title": "PSG-Le Mans : pourquoi la composition doit attendre l'heure officielle",
-      "category": "Tactique",
-      "dateTime": "2026-10-10T06:30:00+02:00",
-      "url": "https://parisien90.com/news/psg-le-mans-composition-heure-avant-coup-envoi-2026/",
-      "source": "PSG.fr / Parisien 90",
-      "sourceUrl": "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-le-mans-2026-10-10",
-      "reliability": "Programme officiel, analyse"
-    },
-    {
-      "title": "Effectif PSG : les cinq continuités à protéger avant Le Mans",
-      "category": "Joueurs",
-      "dateTime": "2026-10-10T06:30:00+02:00",
-      "url": "https://parisien90.com/news/effectif-psg-veille-le-mans-continuites-2026/",
-      "source": "PSG.fr / Parisien 90",
-      "sourceUrl": "https://www.psg.fr/equipes/equipe-premiere/effectif",
-      "reliability": "Effectif officiel, analyse"
     }
   ],
   "people": [
@@ -1931,6 +1931,110 @@
   },
   "editorialArticles": [
     {
+      "title": "PSG-Troyes : Zabarnyi délivre Paris, qui gagne sans se raconter d'histoire",
+      "category": "Match",
+      "angle": "Le dernier match",
+      "dateTime": "2026-11-08T08:15:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-troyes-victoire-zabarnyi-ligue-1-novembre-2026/",
+      "summary": "Après le festival de Villarreal, Paris a changé de décor et de rythme. Face au bloc troyen, la victoire s'est dessinée sur un corner, puis s'est protégée jusqu'au bout.",
+      "keywords": [
+        "PSG Troyes 1-0",
+        "Zabarnyi but Troyes",
+        "résumé PSG Troyes",
+        "Ligue 1 PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - réactions après PSG-Troyes",
+          "url": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+          "note": "Résultat officiel et réactions de Luis Enrique, Zabarnyi et Beraldo."
+        },
+        {
+          "name": "Ouest-France - feuille de match",
+          "url": "https://www.ouest-france.fr/sport/football/resultats-matchs/match-psg-troyes-1296-2016/",
+          "note": "Chronologie, but et compositions."
+        }
+      ]
+    },
+    {
+      "title": "Illia Zabarnyi, buteur puis patron : la soirée complète du défenseur du PSG",
+      "category": "Joueurs PSG",
+      "angle": "Le joueur du match",
+      "dateTime": "2026-11-08T09:05:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/illia-zabarnyi-psg-troyes-buteur-defenseur-novembre-2026/",
+      "summary": "Un corner, un timing parfait et un match à finir proprement : Zabarnyi a concentré l'essentiel de PSG-Troyes dans une prestation de défenseur décisif.",
+      "keywords": [
+        "Illia Zabarnyi PSG",
+        "Zabarnyi Troyes",
+        "buteur PSG Troyes",
+        "défenseur PSG"
+      ],
+      "sources": [
+        {
+          "name": "PSG.fr - réactions après PSG-Troyes",
+          "url": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+          "note": "Le club identifie Zabarnyi parmi les intervenants après la victoire."
+        },
+        {
+          "name": "Sofascore - PSG 1-0 Troyes",
+          "url": "https://www.sofascore.com/fr/news/psg-1-0-troyes-la-tete-de-zabarnyi-decide-du-sort-du-match-de-ligue-1",
+          "note": "Données de match et contexte de la prestation."
+        }
+      ]
+    },
+    {
+      "title": "PSG-Troyes : pourquoi le corner de Zabarnyi a fini par faire sauter le verrou",
+      "category": "Tactique PSG",
+      "angle": "Analyse tactique",
+      "dateTime": "2026-11-08T10:00:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-troyes-analyse-tactique-corner-bloc-bas-novembre-2026/",
+      "summary": "Le PSG a eu le territoire, Troyes a tenu le bloc. La rencontre s'est décidée sur coup de pied arrêté, sans masquer le défi posé par la densité troyenne.",
+      "keywords": [
+        "PSG Troyes analyse tactique",
+        "tactique PSG",
+        "Zabarnyi corner",
+        "bloc bas Ligue 1"
+      ],
+      "sources": [
+        {
+          "name": "Ouest-France - PSG-Troyes",
+          "url": "https://www.ouest-france.fr/sport/football/resultats-matchs/match-psg-troyes-1296-2016/",
+          "note": "Chronologie du but, compositions et actions."
+        },
+        {
+          "name": "Sofascore - PSG 1-0 Troyes",
+          "url": "https://www.sofascore.com/fr/news/psg-1-0-troyes-la-tete-de-zabarnyi-decide-du-sort-du-match-de-ligue-1",
+          "note": "Statistiques territoriales et données de match."
+        }
+      ]
+    },
+    {
+      "title": "PSG-Troyes : onze victoires de rang, mais Paris sait ce que ce 1-0 lui réclame",
+      "category": "Ligue 1",
+      "angle": "Le PSG dans le championnat",
+      "dateTime": "2026-11-08T11:00:00+02:00",
+      "url": "https://parisien90.com/dossiers-psg/psg-troyes-onzieme-victoire-consecutive-ligue-1-novembre-2026/",
+      "summary": "Le PSG continue de gagner, y compris les soirs moins flamboyants. Le succès contre Troyes consolide une série, mais met aussi la finition parisienne sous la loupe.",
+      "keywords": [
+        "PSG onze victoires consécutives",
+        "PSG Troyes Ligue 1",
+        "classement Ligue 1 PSG",
+        "série PSG"
+      ],
+      "sources": [
+        {
+          "name": "Le Parisien - PSG 1-0 Troyes",
+          "url": "https://www.leparisien.fr/sports/football/ligue-1/psg-troyes-1-0-paris-acheve-son-festival-par-une-victoire-a-tarif-reduit-07-11-2026-QZKBVTTKKNCBNBNHI2DXWAZAFM.php",
+          "note": "Contexte de la série parisienne et de la rencontre."
+        },
+        {
+          "name": "PSG.fr - réactions après PSG-Troyes",
+          "url": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+          "note": "Résultat officiel et parole des acteurs."
+        }
+      ]
+    },
+    {
       "title": "Désiré Doué, la soirée qui confirme son poids dans le PSG",
       "category": "Joueurs PSG",
       "angle": "Le joueur du jour",
@@ -2383,139 +2487,6 @@
           "note": "Programmation de Manchester City-PSG."
         }
       ]
-    },
-    {
-      "title": "Effectif PSG : 24 joueurs et une hiérarchie à reconstruire en octobre",
-      "category": "Joueurs PSG",
-      "angle": "Cartographie de l'effectif parisien et des rôles à clarifier",
-      "dateTime": "2026-10-06T06:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/effectif-psg-24-joueurs-retour-selections-octobre-2026/",
-      "summary": "La profondeur parisienne existe sur le papier. Le mois d'octobre dira si chaque ligne possède des réponses compatibles avec le jeu de Luis Enrique.",
-      "keywords": [
-        "effectif PSG",
-        "joueurs PSG 2026 2027",
-        "composition PSG",
-        "Dembélé PSG",
-        "Marquinhos PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - effectif masculin 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-          "note": "Liste officielle des joueurs utilisée pour la cartographie."
-        },
-        {
-          "name": "PSG.fr - calendrier masculin",
-          "url": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
-          "note": "Ordre des rencontres d'octobre."
-        },
-        {
-          "name": "PSG.fr - calendrier européen",
-          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
-          "note": "Dates de Manchester City et Barcelone."
-        }
-      ]
-    },
-    {
-      "title": "Mercato PSG : pourquoi Le Mans, City et Barcelone vont peser sur janvier",
-      "category": "Mercato PSG",
-      "angle": "Audit fonctionnel de l'effectif avant le marché d'hiver",
-      "dateTime": "2026-10-06T06:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/mercato-psg-octobre-le-mans-city-barcelone-besoins-janvier-2027/",
-      "summary": "Octobre ne décidera pas seul du mercato d'hiver, mais il peut révéler les fonctions rares, la profondeur réelle et la capacité des jeunes à répondre.",
-      "keywords": [
-        "mercato PSG",
-        "transfert PSG",
-        "mercato PSG janvier 2027",
-        "rumeur PSG",
-        "effectif PSG"
-      ],
-      "sources": [
-        {
-          "name": "PSG.fr - calendrier masculin",
-          "url": "https://www.psg.fr/football-masculin/calendrier?competitionId=0&seasonId=2023",
-          "note": "Séquence officielle des matches d'octobre."
-        },
-        {
-          "name": "PSG.fr - effectif masculin",
-          "url": "https://www.psg.fr/football-masculin/effectif/season/2025-26",
-          "note": "Composition officielle de l'effectif analysé."
-        },
-        {
-          "name": "PSG.fr - calendrier européen",
-          "url": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027",
-          "note": "Dates de City et Barcelone."
-        }
-      ]
-    },
-    {
-      "title": "Rumeur PSG : la blessure de Ferran Torres ouvre-t-elle vraiment un dossier mercato ?",
-      "category": "Rumeurs PSG",
-      "angle": "Vérification d'un signal mercato après une alerte médicale",
-      "dateTime": "2026-10-05T06:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/rumeur-psg-ferran-torres-blessure-mercato-janvier-prudence/",
-      "summary": "Le départ de l'Espagnol de sa sélection alimente déjà les projections. Paris doit d'abord établir la gravité, la durée et l'effet collectif avant d'envisager janvier.",
-      "keywords": [
-        "rumeur PSG",
-        "Ferran Torres PSG",
-        "mercato PSG janvier 2027",
-        "blessure PSG",
-        "transfert PSG"
-      ],
-      "sources": [
-        {
-          "name": "RFEF - Ferran Torres quitte le rassemblement",
-          "url": "https://rfef.es/es/noticias/ferran-torres-causa-baja-en-concentracion-y-se-incorpora-carlos-espi",
-          "note": "Nature de la gêne, suivi coordonné et départ de la sélection."
-        },
-        {
-          "name": "PSG.fr - calendrier masculin 2026-2027",
-          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27",
-          "note": "Séquence officielle d'octobre utilisée pour l'analyse sportive."
-        },
-        {
-          "name": "PSG.fr - arrivée de Ferran Torres",
-          "url": "https://www.psg.fr/content/ferran-torres-rejoint-le-paris-saint-germain-psg-news-2026-2027",
-          "note": "Poste, contrat et statut officiel du joueur au PSG."
-        }
-      ]
-    },
-    {
-      "title": "Neymar en 2026 : ce que son retour à Santos raconte encore de ses années PSG",
-      "category": "Anciens joueurs PSG",
-      "angle": "Que devient Neymar et comment relire son héritage parisien",
-      "dateTime": "2026-10-05T06:30:00+02:00",
-      "url": "https://parisien90.com/dossiers-psg/neymar-santos-2026-heritage-psg-bilan/",
-      "summary": "À 34 ans, Neymar écrit un nouveau chapitre dans son club formateur. À Paris, ses 118 buts, ses 70 passes et ses 13 trophées laissent une trace immense, mais traversée de blessures et d'attentes européennes.",
-      "keywords": [
-        "Neymar PSG",
-        "Neymar Santos 2026",
-        "ancien joueur PSG",
-        "Neymar buts PSG",
-        "Brésiliens PSG"
-      ],
-      "sources": [
-        {
-          "name": "CBF - fiche Neymar 2026",
-          "url": "https://www.cbf.com.br/futebol-brasileiro/atletas/campeonato-brasileiro/serie-a/2026/292791",
-          "note": "Club actuel, matches et buts dans le Brasileirão 2026."
-        },
-        {
-          "name": "PSG.fr - souvenirs éternels de Neymar",
-          "url": "https://en.psg.fr/teams/first-team/content/neymar-jr-eternal-memories",
-          "note": "Bilan officiel : matches, buts, passes et trophées à Paris."
-        },
-        {
-          "name": "PSG.fr - le club remercie Neymar",
-          "url": "https://news.psg.fr/communiques-de-presse/equipe-premiere/le-paris-saint-germain-remercie-neymar-jr-une-legende-du-club",
-          "note": "Parcours, première saison et rang historique au départ."
-        },
-        {
-          "name": "Santos FC - victoire dans le classique",
-          "url": "https://www.santosfc.com.br/santos-fc-vence-o-classico-no-morumbis-e-iguala-recorde-no-campeonato-brasileiro/",
-          "note": "Contexte sportif récent du club de Neymar."
-        }
-      ]
     }
   ],
   "brazilNews": [
@@ -2663,20 +2634,11 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-11-07T11:00:00+01:00",
+    "updatedAt": "2026-11-08T11:00:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,
     "nextFixtures": [
-      {
-        "date": "2026-11-07",
-        "competition": "Ligue 1",
-        "home": "Paris Saint-Germain",
-        "away": "ESTAC Troyes",
-        "status": "Programmé",
-        "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier"
-      },
       {
         "date": "2026-11-21",
         "competition": "Ligue 1",
@@ -2739,6 +2701,15 @@
         "status": "Tirage à venir",
         "source": "FFF",
         "sourceUrl": "https://www.fff.fr/article/15924-le-calendrier-general-2026-2027-officialise.html"
+      },
+      {
+        "date": "2027-01-03",
+        "competition": "Ligue 1",
+        "home": "Racing Club de Lens",
+        "away": "Paris Saint-Germain",
+        "status": "Programmé",
+        "source": null,
+        "sourceUrl": null
       }
     ]
   },
