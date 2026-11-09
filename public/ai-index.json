@@ -2644,9 +2644,9 @@
         "competition": "Ligue 1",
         "home": "OGC Nice",
         "away": "Paris Saint-Germain",
-        "status": "Horaire à confirmer",
-        "source": null,
-        "sourceUrl": null
+        "status": "Programmé",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/content/nice-paris-le-2111-a-17h15-psg-programmation-calendrier-ligue-1-2026-2027"
       },
       {
         "date": "2026-11-25",
