@@ -1,11 +1,131 @@
 {
-  "updatedAt": "2026-10-21T12:00:00+02:00",
-  "displayDate": "21 octobre 2026",
-  "displayTime": "12h00",
+  "updatedAt": "2026-11-08T11:00:00+01:00",
+  "displayDate": "8 novembre 2026",
+  "displayTime": "11h00",
   "cadence": "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   "rightsNote": "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris.",
-  "count": 66,
+  "count": 70,
   "items": [
+    {
+      "id": "psg-troyes-victoire-zabarnyi-ligue-1-novembre-2026",
+      "category": "Match",
+      "angle": "Le dernier match",
+      "date": "2026-11-08",
+      "dateLabel": "8 novembre 2026",
+      "time": "08:15",
+      "dateTime": "2026-11-08T08:15:00+02:00",
+      "headline": "PSG-Troyes : Zabarnyi délivre Paris, qui gagne sans se raconter d'histoire",
+      "summary": "Après le festival de Villarreal, Paris a changé de décor et de rythme. Face au bloc troyen, la victoire s'est dessinée sur un corner, puis s'est protégée jusqu'au bout.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-troyes-victoire-zabarnyi-ligue-1-novembre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - réactions après PSG-Troyes",
+          "url": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+          "note": "Résultat officiel et réactions de Luis Enrique, Zabarnyi et Beraldo."
+        },
+        {
+          "name": "Ouest-France - feuille de match",
+          "url": "https://www.ouest-france.fr/sport/football/resultats-matchs/match-psg-troyes-1296-2016/",
+          "note": "Chronologie, but et compositions."
+        }
+      ],
+      "keywords": [
+        "PSG Troyes 1-0",
+        "Zabarnyi but Troyes",
+        "résumé PSG Troyes",
+        "Ligue 1 PSG"
+      ]
+    },
+    {
+      "id": "illia-zabarnyi-psg-troyes-buteur-defenseur-novembre-2026",
+      "category": "Joueurs PSG",
+      "angle": "Le joueur du match",
+      "date": "2026-11-08",
+      "dateLabel": "8 novembre 2026",
+      "time": "09:05",
+      "dateTime": "2026-11-08T09:05:00+02:00",
+      "headline": "Illia Zabarnyi, buteur puis patron : la soirée complète du défenseur du PSG",
+      "summary": "Un corner, un timing parfait et un match à finir proprement : Zabarnyi a concentré l'essentiel de PSG-Troyes dans une prestation de défenseur décisif.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/illia-zabarnyi-psg-troyes-buteur-defenseur-novembre-2026/",
+      "sources": [
+        {
+          "name": "PSG.fr - réactions après PSG-Troyes",
+          "url": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+          "note": "Le club identifie Zabarnyi parmi les intervenants après la victoire."
+        },
+        {
+          "name": "Sofascore - PSG 1-0 Troyes",
+          "url": "https://www.sofascore.com/fr/news/psg-1-0-troyes-la-tete-de-zabarnyi-decide-du-sort-du-match-de-ligue-1",
+          "note": "Données de match et contexte de la prestation."
+        }
+      ],
+      "keywords": [
+        "Illia Zabarnyi PSG",
+        "Zabarnyi Troyes",
+        "buteur PSG Troyes",
+        "défenseur PSG"
+      ]
+    },
+    {
+      "id": "psg-troyes-analyse-tactique-corner-bloc-bas-novembre-2026",
+      "category": "Tactique PSG",
+      "angle": "Analyse tactique",
+      "date": "2026-11-08",
+      "dateLabel": "8 novembre 2026",
+      "time": "10:00",
+      "dateTime": "2026-11-08T10:00:00+02:00",
+      "headline": "PSG-Troyes : pourquoi le corner de Zabarnyi a fini par faire sauter le verrou",
+      "summary": "Le PSG a eu le territoire, Troyes a tenu le bloc. La rencontre s'est décidée sur coup de pied arrêté, sans masquer le défi posé par la densité troyenne.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-troyes-analyse-tactique-corner-bloc-bas-novembre-2026/",
+      "sources": [
+        {
+          "name": "Ouest-France - PSG-Troyes",
+          "url": "https://www.ouest-france.fr/sport/football/resultats-matchs/match-psg-troyes-1296-2016/",
+          "note": "Chronologie du but, compositions et actions."
+        },
+        {
+          "name": "Sofascore - PSG 1-0 Troyes",
+          "url": "https://www.sofascore.com/fr/news/psg-1-0-troyes-la-tete-de-zabarnyi-decide-du-sort-du-match-de-ligue-1",
+          "note": "Statistiques territoriales et données de match."
+        }
+      ],
+      "keywords": [
+        "PSG Troyes analyse tactique",
+        "tactique PSG",
+        "Zabarnyi corner",
+        "bloc bas Ligue 1"
+      ]
+    },
+    {
+      "id": "psg-troyes-onzieme-victoire-consecutive-ligue-1-novembre-2026",
+      "category": "Ligue 1",
+      "angle": "Le PSG dans le championnat",
+      "date": "2026-11-08",
+      "dateLabel": "8 novembre 2026",
+      "time": "11:00",
+      "dateTime": "2026-11-08T11:00:00+02:00",
+      "headline": "PSG-Troyes : onze victoires de rang, mais Paris sait ce que ce 1-0 lui réclame",
+      "summary": "Le PSG continue de gagner, y compris les soirs moins flamboyants. Le succès contre Troyes consolide une série, mais met aussi la finition parisienne sous la loupe.",
+      "internalUrl": "https://parisien90.com/dossiers-psg/psg-troyes-onzieme-victoire-consecutive-ligue-1-novembre-2026/",
+      "sources": [
+        {
+          "name": "Le Parisien - PSG 1-0 Troyes",
+          "url": "https://www.leparisien.fr/sports/football/ligue-1/psg-troyes-1-0-paris-acheve-son-festival-par-une-victoire-a-tarif-reduit-07-11-2026-QZKBVTTKKNCBNBNHI2DXWAZAFM.php",
+          "note": "Contexte de la série parisienne et de la rencontre."
+        },
+        {
+          "name": "PSG.fr - réactions après PSG-Troyes",
+          "url": "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027",
+          "note": "Résultat officiel et parole des acteurs."
+        }
+      ],
+      "keywords": [
+        "PSG onze victoires consécutives",
+        "PSG Troyes Ligue 1",
+        "classement Ligue 1 PSG",
+        "série PSG"
+      ]
+    },
     {
       "id": "desire-doue-psg-barcelone-joueur-match-octobre-2026",
       "category": "Joueurs PSG",

@@ -10,8 +10,8 @@
       "journalistes sportifs",
       "lecteurs en recherche de synthèse"
     ],
-    "lastVerifiedAt": "2026-11-08T11:00:00+01:00",
-    "freshnessNote": "Fil PSG du 8 novembre 2026. Fil public : 191 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 70 articles de fond sous /dossiers-psg/. À suivre : Octobre Rose : le PSG annonce plus de 90 000 euros collectés pour l'AP-HP ; PSG-Troyes : Zabarnyi donne la victoire à Paris au terme d'un match fermé ; Zabarnyi, buteur et vigilant : le défenseur qui a fait basculer PSG-Troyes ; PSG-Troyes : le corner de Zabarnyi, récompense d'une pression enfin convertie ; PSG-Troyes : Paris enchaîne une onzième victoire de rang, sans la facilité de Villarreal. Synthèses originales, sourcées et liées.",
+    "lastVerifiedAt": "2026-11-09T12:00:00+01:00",
+    "freshnessNote": "Fil PSG du 9 novembre 2026. Fil public : 192 vraies infos PSG, avec pages individuelles sous /news/. Dossiers originaux : 70 articles de fond sous /dossiers-psg/. À suivre : PSG-Troyes : onze victoires, quinze buts sur phases arrêtées et Mayulu en pleine accélération ; Octobre Rose : le PSG annonce plus de 90 000 euros collectés pour l'AP-HP ; PSG-Troyes : Zabarnyi donne la victoire à Paris au terme d'un match fermé ; Zabarnyi, buteur et vigilant : le défenseur qui a fait basculer PSG-Troyes ; PSG-Troyes : le corner de Zabarnyi, récompense d'une pression enfin convertie. Synthèses originales, sourcées et liées.",
     "primaryTopics": [
       "transfert PSG",
       "mercato PSG",
@@ -201,6 +201,15 @@
     }
   ],
   "news": [
+    {
+      "title": "PSG-Troyes : onze victoires, quinze buts sur phases arrêtées et Mayulu en pleine accélération",
+      "category": "Ligue 1",
+      "dateTime": "2026-11-09T12:00:00+01:00",
+      "url": "https://parisien90.com/news/psg-statistiques-troyes-serie-mayulu-zabarnyi-novembre-2026/",
+      "source": "PSG.fr",
+      "sourceUrl": "https://www.psg.fr/content/stats-facts-paris-forte-tete-psg-troyes-statistiques-opta-ligue-1-2026-2027",
+      "reliability": "Officiel — statistiques du club"
+    },
     {
       "title": "Octobre Rose : le PSG annonce plus de 90 000 euros collectés pour l'AP-HP",
       "category": "Le Club",
@@ -461,15 +470,6 @@
       "source": "PSG.fr",
       "sourceUrl": "https://www.psg.fr/content/luis-enrique-poursuivre-la-dynamique-psg-conf-de-presse-medias-ligue-1-strasbourg-campus-psg-2026-2027",
       "reliability": "Officiel — conférence de presse"
-    },
-    {
-      "title": "Manchester City-PSG : Paris frappe un grand coup avec un 4-2 spectaculaire",
-      "category": "Europe",
-      "dateTime": "2026-10-14T23:00:00+02:00",
-      "url": "https://parisien90.com/news/manchester-city-psg-victoire-doue-dembele-vitinha-akliouche-octobre-2026/",
-      "source": "PSG.fr",
-      "sourceUrl": "https://www.psg.fr/content/a-couper-le-souffle-compte-rendu-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027",
-      "reliability": "Officiel — compte rendu et feuille de match"
     }
   ],
   "people": [
@@ -524,8 +524,8 @@
       "role": "Défenseur central gaucher",
       "status": "Prolongé jusqu'en 2031",
       "url": "https://parisien90.com/joueurs-psg/lucas-beraldo/",
-      "updatedAt": "4 septembre 2026",
-      "source": "PSG.fr",
+      "updatedAt": "9 novembre 2026",
+      "source": "PSG.fr — Stats & Facts PSG-Troyes",
       "image": null
     },
     {
@@ -544,10 +544,10 @@
       "aliases": [],
       "type": "player",
       "role": "Défenseur central",
-      "status": "Effectif provisoire PSG 2026-2027",
+      "status": "Deux buts en cinq matches de Ligue 1",
       "url": "https://parisien90.com/joueurs-psg/illia-zabarnyi/",
-      "updatedAt": "15 juillet 2026",
-      "source": "PSG.fr",
+      "updatedAt": "9 novembre 2026",
+      "source": "PSG.fr — Stats & Facts PSG-Troyes",
       "image": null
     },
     {
@@ -632,10 +632,10 @@
       "aliases": [],
       "type": "player",
       "role": "Milieu polyvalent",
-      "status": "Buteur lors de trois matchs consécutifs",
+      "status": "Cinq buts ou passes décisives sur ses quatre derniers matches",
       "url": "https://parisien90.com/joueurs-psg/senny-mayulu/",
-      "updatedAt": "3 novembre 2026",
-      "source": "PSG.fr / UEFA",
+      "updatedAt": "9 novembre 2026",
+      "source": "PSG.fr — Stats & Facts PSG-Troyes",
       "image": null
     },
     {
@@ -2634,7 +2634,7 @@
   "brazilCalendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
     "frenchUrl": "https://parisien90.com/calendrier-psg/",
-    "updatedAt": "2026-11-08T11:00:00+01:00",
+    "updatedAt": "2026-11-09T12:00:00+01:00",
     "totalFixtures": 52,
     "championsLeagueFixtures": 8,
     "frenchCupMilestones": 6,

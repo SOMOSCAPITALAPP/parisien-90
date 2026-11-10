@@ -7,7 +7,7 @@
     "country": "BR",
     "topic": "Paris Saint-Germain",
     "description": "Mídia independente sobre o PSG para leitores do Brasil, sem afiliação oficial ao clube.",
-    "lastVerifiedAt": "2026-10-27T15:55:00+01:00",
+    "lastVerifiedAt": "2026-11-09T12:00:00+01:00",
     "editorialPolicy": "https://parisien90.com/charte-editoriale/",
     "rightsPolicy": "https://parisien90.com/droits-disclaimer/",
     "contact": "https://parisien90.com/contact-retrait/"
@@ -329,52 +329,19 @@
   ],
   "calendar": {
     "url": "https://parisien90.com/br/calendario-psg/",
-    "updatedAt": "2026-10-27T15:55:00+01:00",
+    "updatedAt": "2026-11-09T12:00:00+01:00",
     "totalFixtures": 52,
     "nextFixtures": [
       {
-        "date": "2026-10-30",
-        "time": "19:00",
-        "competition": "Ligue 1",
-        "home": "Le Havre AC",
-        "away": "Paris Saint-Germain",
-        "venue": "Stade Océane",
-        "status": "Marcado",
-        "source": "PSG.fr",
-        "sourceUrl": "https://www.psg.fr/football-masculin/calendrier/season/2026-27"
-      },
-      {
-        "date": "2026-11-03",
-        "time": "21:00",
-        "competition": "Liga dos Campeões",
-        "home": "Villarreal CF",
-        "away": "Paris Saint-Germain",
-        "venue": "Estadio de la Cerámica",
-        "status": "Marcado",
-        "source": "PSG.fr / UEFA",
-        "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
-      },
-      {
-        "date": "2026-11-07",
-        "time": "A confirmar",
-        "competition": "Ligue 1",
-        "home": "Paris Saint-Germain",
-        "away": "ESTAC Troyes",
-        "venue": "Parc des Princes",
-        "status": "Horário a confirmar",
-        "source": null,
-        "sourceUrl": null
-      },
-      {
         "date": "2026-11-21",
-        "time": "A confirmar",
+        "time": "17:15",
         "competition": "Ligue 1",
         "home": "OGC Nice",
         "away": "Paris Saint-Germain",
         "venue": "Allianz Riviera",
-        "status": "Horário a confirmar",
-        "source": null,
-        "sourceUrl": null
+        "status": "Marcado",
+        "source": "PSG.fr",
+        "sourceUrl": "https://www.psg.fr/content/nice-paris-le-2111-a-17h15-psg-programmation-calendrier-ligue-1-2026-2027"
       },
       {
         "date": "2026-11-25",
@@ -419,6 +386,39 @@
         "status": "Marcado",
         "source": "PSG.fr / UEFA",
         "sourceUrl": "https://www.psg.fr/content/le-calendrier-europeen-des-parisiens-est-connu-psg-paris-saint-germain-ucl-champions-league-programmation-2026-2027"
+      },
+      {
+        "date": "2026-12-12",
+        "time": "A confirmar",
+        "competition": "Ligue 1",
+        "home": "Paris Saint-Germain",
+        "away": "Paris FC",
+        "venue": "Parc des Princes",
+        "status": "Horário a confirmar",
+        "source": null,
+        "sourceUrl": null
+      },
+      {
+        "date": "2026-12-20",
+        "time": "A confirmar",
+        "competition": "Copa da França",
+        "home": "Adversaire à déterminer",
+        "away": "Paris Saint-Germain",
+        "venue": "Lieu à confirmer",
+        "status": "Sorteio a definir",
+        "source": "FFF",
+        "sourceUrl": "https://www.fff.fr/article/15924-le-calendrier-general-2026-2027-officialise.html"
+      },
+      {
+        "date": "2027-01-03",
+        "time": "19:45",
+        "competition": "Ligue 1",
+        "home": "Racing Club de Lens",
+        "away": "Paris Saint-Germain",
+        "venue": "Stade Bollaert-Delelis",
+        "status": "Marcado",
+        "source": null,
+        "sourceUrl": null
       }
     ]
   },
