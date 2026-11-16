@@ -1,0 +1,103 @@
+const officialSources = [
+  { name: "PSG.fr - calendrier et résultats", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-2027?competition=UEFA_Champions_League", note: "Calendrier officiel, résultats européens et prochaines affiches." },
+  { name: "PSG.fr - programme média du 9 au 22 novembre", url: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-9-au-22-novembre-2026", note: "Programme officiel de reprise et rendez-vous à Nice." }
+];
+
+export const editorialArticles20261116 = [
+  {
+    id: "illia-zabarnyi-psg-treve-internationale-novembre-2026",
+    title: "Zabarnyi, le buteur inattendu qui repart en sélection avec un nouveau statut au PSG",
+    description: "Après son but décisif contre Troyes, Illia Zabarnyi rejoint l'Ukraine avec un repère fort : il est devenu une solution dans les deux surfaces du PSG.",
+    deck: "Le défenseur a débloqué PSG-Troyes de la tête. Son actualité internationale arrive alors que Paris prépare le retour de la Ligue 1.",
+    category: "Joueurs PSG", angle: "Le joueur du jour", date: "2026-11-16", dateLabel: "16 novembre 2026", time: "06:30", author: "Rédaction Parisien 90", readingTime: "6 min",
+    keywords: ["Illia Zabarnyi PSG", "Zabarnyi Ukraine", "joueur PSG", "PSG Troyes"],
+    sections: [
+      { heading: "Le fait : un défenseur décisif", paragraphs: ["Le PSG a battu Troyes 1-0 le 7 novembre au Parc des Princes grâce à une tête d'Illia Zabarnyi à la 39e minute. Le compte rendu officiel du club confirme que Senny Mayulu a servi le défenseur ukrainien sur corner.", "Ce but ne résume pas son métier, mais il éclaire une ressource utile : lorsqu'un bloc adverse ferme le jeu, la présence d'un défenseur central dans la surface peut déplacer une rencontre. Zabarnyi a aussi aidé Paris à conserver son avantage jusqu'au terme."] },
+      { heading: "Une trêve avec l'Ukraine", paragraphs: ["Le PSG a annoncé la convocation de Zabarnyi pour les rendez-vous de novembre de la sélection ukrainienne : l'Irlande du Nord le 14 novembre puis la Géorgie le 17 novembre à Košice. Cette séquence ne doit pas être lue comme une parenthèse sans lien avec Paris : elle conditionne la récupération de plusieurs titulaires avant Nice.", "Le club n'a pas communiqué de projection de composition pour le déplacement à l'Allianz Riviera. Il serait donc prématuré d'annoncer son retour dans un onze. Le repère solide est ailleurs : le défenseur rentrera dans une période où le PSG devra concilier reprise, déplacement de Ligue 1 et réception de la Roma."] },
+      { heading: "L'analyse : la valeur d'un axe qui marque", paragraphs: ["Un défenseur qui marque sur phase arrêtée ne devient pas automatiquement une arme permanente. Il impose cependant une préparation supplémentaire à l'adversaire. Marquage, zone, seconde balle : chaque corner parisien peut désormais offrir une lecture offensive supplémentaire.", "Notre lecture : Zabarnyi ne doit pas porter seul l'attente du PSG dans la surface adverse. En revanche, son timing contre Troyes rappelle que les matches serrés se gagnent aussi grâce à des contributions moins attendues. C'est une donnée à garder en tête avant la reprise."] }
+    ],
+    faq: [{ question: "Qui a marqué contre Troyes ?", answer: "Illia Zabarnyi a inscrit le seul but du PSG, de la tête à la 39e minute." }, { question: "Quand l'Ukraine joue-t-elle pendant la trêve ?", answer: "Selon le programme publié par le PSG, l'Ukraine joue l'Irlande du Nord le 14 novembre puis la Géorgie le 17 novembre 2026." }],
+    sources: [...officialSources, { name: "PSG.fr - PSG-Troyes", url: "https://www.psg.fr/content/paris-vient-a-bout-de-troyes-et-abordera-la-treve-en-leader-compte-rendu-paris-saint-germain-estac-troyes-ligue-1-2026-2027", note: "Score, buteur et scénario officiel du dernier match." }, { name: "PSG.fr - internationaux", url: "https://www.psg.fr/content/le-programme-des-parisiens-pour-la-treve-internationale-de-novembre-psg-selection-2026-2027", note: "Convocation de Zabarnyi avec l'Ukraine." }],
+    internalLinks: [{ label: "Fiche Illia Zabarnyi", url: "/joueurs-psg/illia-zabarnyi/" }, { label: "Joueurs PSG", url: "/joueurs-psg/" }, { label: "Calendrier PSG", url: "/calendrier-psg/" }]
+  },
+  {
+    id: "nice-psg-21-novembre-2026-reprise-enjeu",
+    title: "Nice-PSG : cinq jours pour retrouver le rythme avant le premier vrai piège de la reprise",
+    description: "Le PSG se déplace à Nice le samedi 21 novembre à 17h15. Après la trêve, l'enjeu est d'abord de reconstruire un collectif avant la Roma.",
+    deck: "L'Allianz Riviera ouvre une semaine à deux rendez-vous. Paris devra gérer les retours internationaux sans traiter Nice comme une simple étape.",
+    category: "Match", angle: "Le prochain match", date: "2026-11-16", dateLabel: "16 novembre 2026", time: "06:45", author: "Rédaction Parisien 90", readingTime: "6 min",
+    keywords: ["Nice PSG", "OGC Nice PSG 21 novembre 2026", "prochain match PSG", "calendrier PSG"],
+    sections: [
+      { heading: "Le rendez-vous confirmé", paragraphs: ["Le Paris Saint-Germain se déplace à l'OGC Nice samedi 21 novembre 2026. Le PSG indique un coup d'envoi à 17h15 à l'Allianz Riviera, pour la 11e journée de Ligue 1.", "L'heure est désormais officielle. Elle compte pour les supporters, mais aussi pour le staff : la rencontre arrive après la trêve internationale, puis quatre jours avant Paris-Roma en Ligue des champions. Le calendrier ne permet pas une reprise approximative."] },
+      { heading: "Ce que la trêve change", paragraphs: ["Le programme média publié par le club prévoit une reprise des entraînements collectifs à huis clos mardi 17 novembre, mercredi 18 et jeudi 19. Luis Enrique prendra la parole vendredi, à la veille du déplacement. Ces jalons donnent le cadre, pas la composition.", "Les internationaux ne reviendront ni avec le même trajet ni avec le même volume de jeu. Le choix des minutes et des associations devra donc répondre à l'état réel du groupe. Prétendre connaître le onze plusieurs jours en avance serait confondre attente et information."] },
+      { heading: "L'analyse : ne pas préparer Rome trop tôt", paragraphs: ["La Roma se présentera au Parc le 25 novembre, mais Nice ouvre la séquence. Un match de championnat mal maîtrisé peut consommer beaucoup plus d'énergie qu'une rotation décidée d'avance. Paris doit d'abord retrouver ses distances, son pressing et sa rigueur dans les transitions.", "Notre lecture : le meilleur moyen de préparer l'Europe est de jouer pleinement la Ligue 1. La gestion devient utile lorsqu'elle conserve une colonne vertébrale, pas lorsqu'elle retire au collectif ses repères essentiels."] }
+    ],
+    faq: [{ question: "Quand a lieu Nice-PSG ?", answer: "Nice-PSG se joue le samedi 21 novembre 2026 à 17h15, selon le PSG." }, { question: "Où se joue le match ?", answer: "À l'Allianz Riviera, à Nice." }],
+    sources: [...officialSources, { name: "PSG.fr - programmation de Nice-Paris", url: "https://www.psg.fr/content/nice-paris-le-2111-a-17h15-psg-programmation-calendrier-ligue-1-2026-2027", note: "Date, horaire, lieu et compétition." }],
+    internalLinks: [{ label: "Calendrier PSG", url: "/calendrier-psg/" }, { label: "Ligue 1 PSG", url: "/actualite-psg/" }, { label: "PSG-Roma", url: "/calendrier-psg/" }]
+  },
+  {
+    id: "psg-troyes-1-0-lecons-apres-match-novembre-2026",
+    title: "PSG-Troyes : ce que le 1-0 raconte vraiment du dernier match parisien",
+    description: "Paris a gagné 1-0 contre Troyes, mais le dernier match avant la trêve a surtout posé une question de maîtrise : comment rendre un avantage plus tranquille ?",
+    deck: "Un corner de Mayulu, une tête de Zabarnyi, puis une fin de match tenue. Le PSG a pris les points et laissé matière à réflexion.",
+    category: "Match", angle: "Le dernier match", date: "2026-11-16", dateLabel: "16 novembre 2026", time: "07:00", author: "Rédaction Parisien 90", readingTime: "6 min",
+    keywords: ["PSG Troyes 1-0", "résumé PSG Troyes", "analyse PSG Troyes", "Zabarnyi PSG"],
+    sections: [
+      { heading: "Le fait : trois points, un seul but", paragraphs: ["Le PSG s'est imposé 1-0 face à Troyes lors de la 10e journée de Ligue 1. Zabarnyi a marqué à la 39e minute sur une phase arrêtée et le score n'a plus évolué.", "Le club souligne qu'il s'agissait de sa onzième victoire consécutive toutes compétitions confondues. La série est un fait notable, mais elle ne dispense pas de regarder le contenu d'un match resté vivant jusqu'à la dernière séquence."] },
+      { heading: "Ce qui a été maîtrisé", paragraphs: ["Paris a installé Troyes dans une longue phase défensive et s'est créé des situations avant et après le but. Le corner décisif est venu au terme d'une pression territoriale qui a fini par produire une ouverture.", "Le PSG a aussi résisté lorsque Troyes a tenté de se découvrir davantage. Protéger une avance courte fait partie des compétences nécessaires sur une saison longue, particulièrement dans un match de championnat placé entre deux échéances européennes."] },
+      { heading: "Ce qui reste à améliorer", paragraphs: ["Le deuxième but n'est jamais un détail. Il évite que la fin de match se transforme en exercice de survie et il permet parfois de distribuer les efforts autrement. Contre Troyes, Paris a eu des occasions mais n'a pas trouvé cette marge.", "Notre lecture : ce 1-0 n'appelle pas au procès, mais à l'exigence. La réussite sur coup de pied arrêté est une force ; la conversion des temps forts dans le jeu doit rester le prochain levier pour rendre les victoires plus nettes."] }
+    ],
+    faq: [{ question: "Quel a été le score de PSG-Troyes ?", answer: "Le PSG a gagné 1-0 le 7 novembre 2026." }, { question: "Quel Parisien a marqué ?", answer: "Illia Zabarnyi a marqué de la tête à la 39e minute." }],
+    sources: [{ name: "PSG.fr - fiche du match", url: "https://www.psg.fr/matchs/football-masculin/20262027/paris-vs-troyes-2026-11-07", note: "Score, date et buteur officiels." }, { name: "PSG.fr - compte rendu", url: "https://www.psg.fr/content/paris-vient-a-bout-de-troyes-et-abordera-la-treve-en-leader-compte-rendu-paris-saint-germain-estac-troyes-ligue-1-2026-2027", note: "Scénario et série de victoires." }],
+    internalLinks: [{ label: "Fil PSG", url: "/fil-actualite-psg/" }, { label: "Calendrier PSG", url: "/calendrier-psg/" }, { label: "Dossiers PSG", url: "/dossiers-psg/" }]
+  },
+  {
+    id: "psg-ligue-1-leader-apres-troyes-novembre-2026",
+    title: "PSG en Ligue 1 : leader à la trêve, mais déjà attendu sur sa capacité à repartir",
+    description: "Le PSG a abordé la trêve internationale en tête après le succès contre Troyes. Le déplacement à Nice dira si la dynamique survit au changement de rythme.",
+    deck: "Paris a gagné son dernier match avant la pause. La suite se joue sur la continuité, pas sur les souvenirs de la série.",
+    category: "Ligue 1", angle: "Le PSG dans le championnat", date: "2026-11-16", dateLabel: "16 novembre 2026", time: "07:15", author: "Rédaction Parisien 90", readingTime: "6 min",
+    keywords: ["PSG Ligue 1", "PSG leader Ligue 1", "classement PSG", "Nice PSG"],
+    sections: [
+      { heading: "Le fait : Paris est en tête", paragraphs: ["Le PSG a abordé la trêve internationale en leader de Ligue 1 après sa victoire 1-0 contre Troyes. Le club a également mis en avant une onzième victoire de rang toutes compétitions confondues.", "Une première place en novembre ne distribue pas de trophée. Elle donne en revanche une obligation : faire durer les repères au retour des sélections, alors que le calendrier remet immédiatement Paris dans une rencontre de haut niveau à Nice."] },
+      { heading: "Le championnat, test de régularité", paragraphs: ["La Ligue 1 ne demande pas au PSG de rejouer chaque semaine un grand soir européen. Elle exige de gagner des matches différents : ouverts, fermés, nerveux, dominés ou inconfortables. Troyes a rappelé qu'un bloc compact peut maintenir l'incertitude malgré la possession parisienne.", "La série actuelle repose autant sur la capacité à préserver un résultat que sur les écarts vus à Villarreal. C'est une nuance utile : l'intensité du championnat mesure la profondeur et la maturité du groupe sur la durée."] },
+      { heading: "L'analyse : Nice comme premier contrôle", paragraphs: ["Le déplacement du 21 novembre est le premier match après la coupure. L'adversaire importe, mais l'enjeu principal est aussi intérieur : retrouver les automatismes en quelques séances avec des joueurs revenus de sélections différentes.", "Notre lecture : Paris doit viser une reprise fiable avant de viser une reprise brillante. Une équipe qui veut rester devant sait accepter un match moins spectaculaire, à condition de conserver ses principes et de ne pas laisser la transition dicter son rythme."] }
+    ],
+    faq: [{ question: "Le PSG est-il leader après Troyes ?", answer: "Oui, le PSG a abordé la trêve internationale en tête selon le compte rendu officiel du club." }, { question: "Quel est le prochain match de Ligue 1 ?", answer: "Le PSG se déplace à Nice le 21 novembre 2026 à 17h15." }],
+    sources: [{ name: "PSG.fr - PSG-Troyes", url: "https://www.psg.fr/content/paris-vient-a-bout-de-troyes-et-abordera-la-treve-en-leader-compte-rendu-paris-saint-germain-estac-troyes-ligue-1-2026-2027", note: "Contexte de leader et série de victoires." }, { name: "PSG.fr - Nice-Paris", url: "https://www.psg.fr/content/nice-paris-le-2111-a-17h15-psg-programmation-calendrier-ligue-1-2026-2027", note: "Prochain rendez-vous de championnat." }],
+    internalLinks: [{ label: "Calendrier Ligue 1 PSG", url: "/calendrier-psg/" }, { label: "Actualité PSG", url: "/actualite-psg/" }, { label: "Records PSG", url: "/records-psg/" }]
+  },
+  {
+    id: "psg-roma-ligue-des-champions-25-novembre-2026",
+    title: "PSG-Roma : le Parc retrouve l'Europe, et Paris doit déjà préparer son prochain rendez-vous",
+    description: "Le PSG reçoit l'AS Roma le 25 novembre à 21h pour la 5e journée de Ligue des champions. Date, contexte et enjeux d'un rendez-vous confirmé.",
+    deck: "Après quatre matches européens très offensifs, Paris retrouve le Parc pour une affiche qui comptera dans la phase de ligue.",
+    category: "Ligue des champions", angle: "Le prochain défi européen", date: "2026-11-16", dateLabel: "16 novembre 2026", time: "07:30", author: "Rédaction Parisien 90", readingTime: "6 min",
+    keywords: ["PSG Roma", "PSG Roma 25 novembre 2026", "Ligue des champions PSG", "calendrier PSG Europe"],
+    sections: [
+      { heading: "Le rendez-vous européen est fixé", paragraphs: ["Le PSG reçoit l'AS Roma mercredi 25 novembre à 21h au Parc des Princes, pour la 5e journée de la phase de ligue de la Ligue des champions. La programmation apparaît sur le calendrier du PSG et sur celui de l'UEFA.", "Cette affiche arrive quatre jours après Nice. Le calendrier impose une gestion précise, mais le match n'est pas une simple transition : il occupe une place centrale dans le parcours européen parisien."] },
+      { heading: "Les repères avant Rome", paragraphs: ["Après quatre journées, le PSG a notamment battu Slovan Bratislava, Manchester City, Barcelone et Villarreal selon le calendrier officiel du club. Les résultats donnent de l'élan, ils ne remplacent pas la nécessité de repartir de zéro contre un nouvel adversaire.", "La Roma possède aussi son propre calendrier et son propre contexte. Les comparaisons rapides avec les matches précédents sont donc fragiles. Les premières indications fiables viendront des groupes, des conférences et de la feuille de match, pas des projections publiées à l'avance."] },
+      { heading: "L'analyse : le Parc comme accélérateur, pas comme garantie", paragraphs: ["Recevoir est un atout, surtout dans une phase de ligue où chaque soirée compte. Mais le Parc ne simplifie rien à lui seul : il réclame une entame capable de donner une direction au match et une maîtrise suffisante pour éviter les séquences de transition.", "Notre lecture : Paris doit utiliser l'énergie du public pour avancer, sans se précipiter. Le travail commencé à Nice peut nourrir ce match, à condition que la récupération et les choix de rotation restent au service du collectif."] }
+    ],
+    faq: [{ question: "Quand se joue PSG-Roma ?", answer: "Le mercredi 25 novembre 2026 à 21h." }, { question: "Où se joue PSG-Roma ?", answer: "Au Parc des Princes, lors de la 5e journée de Ligue des champions." }],
+    sources: [{ name: "PSG.fr - calendrier Ligue des champions", url: "https://www.psg.fr/football-masculin/calendrier/season/2026-2027?competition=UEFA_Champions_League", note: "Date, horaire et lieu de PSG-Roma." }, { name: "UEFA - calendrier phase de ligue", url: "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/", note: "Programmation européenne publiée par l'UEFA." }],
+    internalLinks: [{ label: "Calendrier PSG", url: "/calendrier-psg/" }, { label: "Ligue des champions PSG", url: "/dossiers-psg/" }, { label: "Joueurs PSG", url: "/joueurs-psg/" }]
+  },
+  {
+    id: "psg-philosophie-jeu-coups-pied-arretes-transition-novembre-2026",
+    title: "PSG : ce que le but de Zabarnyi révèle de la philosophie parisienne dans les matches fermés",
+    description: "Le corner décisif contre Troyes rappelle que le PSG ne vit pas seulement de jeu ouvert : les phases arrêtées et la réaction à la perte comptent aussi.",
+    deck: "Quand un bloc bas résiste, le détail devient un plan. PSG-Troyes offre une lecture simple de la patience, de l'occupation et des coups de pied arrêtés.",
+    category: "Tactique PSG", angle: "Analyse tactique", date: "2026-11-16", dateLabel: "16 novembre 2026", time: "07:45", author: "Rédaction Parisien 90", readingTime: "7 min",
+    keywords: ["tactique PSG", "philosophie de jeu PSG", "corner Zabarnyi", "Luis Enrique PSG"],
+    sections: [
+      { heading: "Le fait : le corner a fait basculer le match", paragraphs: ["Face à Troyes, le PSG a trouvé l'ouverture sur un corner de Senny Mayulu repris de la tête par Illia Zabarnyi. Cette action a décidé une victoire 1-0, mais elle n'est pas un accident isolé du récit.", "Les phases arrêtées prennent de la valeur quand un adversaire réduit les espaces dans le jeu. Elles ne remplacent pas la création offensive ; elles prolongent la pression installée dans le dernier tiers et donnent une issue à une séquence qui s'étire."] },
+      { heading: "Patience ne veut pas dire lenteur", paragraphs: ["Contre un bloc compact, Paris doit déplacer l'adversaire, créer un décalage et accepter que toutes les attaques ne produisent pas une frappe immédiate. Le risque est de confondre patience et circulation sans intention.", "La philosophie attendue d'une équipe dominante est donc double : garder le ballon avec suffisamment de sécurité pour éviter les contres, puis accélérer lorsque la ligne de passe et la course apparaissent. Le match contre Troyes a offert du contrôle, mais aussi un rappel sur la nécessité de mieux conclure."] },
+      { heading: "L'opinion : une équipe complète doit savoir gagner autrement", paragraphs: ["Le PSG sera jugé sur ses grandes soirées, mais son quotidien de Ligue 1 compte tout autant. Une équipe ambitieuse doit pouvoir gagner un match ouvert à Villarreal, un match européen de possession, puis un match verrouillé sur corner.", "Notre lecture : la variété des victoires est une force si elle s'accompagne d'exigence. Le PSG peut considérer le but de Zabarnyi comme une solution supplémentaire, tout en cherchant à diminuer les moments où un seul but laisse le résultat à la merci d'un détail adverse."] }
+    ],
+    faq: [{ question: "Comment le PSG a-t-il marqué contre Troyes ?", answer: "Sur un corner de Senny Mayulu repris par Illia Zabarnyi à la 39e minute." }, { question: "Pourquoi les coups de pied arrêtés comptent-ils ?", answer: "Ils peuvent débloquer un match lorsque l'adversaire défend bas et limite les espaces dans le jeu." }],
+    sources: [{ name: "PSG.fr - compte rendu PSG-Troyes", url: "https://www.psg.fr/content/paris-vient-a-bout-de-troyes-et-abordera-la-treve-en-leader-compte-rendu-paris-saint-germain-estac-troyes-ligue-1-2026-2027", note: "Déroulé officiel du but et du match." }, { name: "PSG.fr - réactions", url: "https://www.psg.fr/content/luis-enrique-c-etait-un-jour-important-reactions-paris-saint-germain-troyes-ligue-1-2026-2027", note: "Réaction de Luis Enrique après la victoire." }],
+    internalLinks: [{ label: "Dossiers tactique PSG", url: "/dossiers-psg/" }, { label: "Calendrier PSG", url: "/calendrier-psg/" }, { label: "Actualité PSG", url: "/actualite-psg/" }]
+  }
+];

@@ -1,10 +1,13 @@
+import { brEditorialArticles20261116 } from "./br-editorial-articles-2026-11-16.js";
+
 export const brEditorialArticlesMeta = {
-  updatedAt: "2026-10-06T17:00:00+02:00",
-  displayDate: "6 de outubro de 2026",
+  updatedAt: "2026-11-16T07:30:00+01:00",
+  displayDate: "16 de novembro de 2026",
   rightsNote: "Conteúdo original Parisien 90 Brasil. As fontes factuais são identificadas e vinculadas; nenhum texto de terceiros é reproduzido."
 };
 
 export const brEditorialArticles = [
+  ...brEditorialArticles20261116,
   {
     id: "que-horas-joga-psg-brasil-horario-brasilia",
     title: "Que horas joga o PSG no Brasil? Guia de horário de Brasília",
