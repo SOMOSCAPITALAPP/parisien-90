@@ -1,0 +1,15 @@
+export const brEditorialArticles20261122 = [{
+  id: "psg-roma-horario-brasilia-champions-2026",
+  title: "PSG x Roma: horario em Brasilia, contexto e o que muda depois da vitoria em Nice",
+  description: "O PSG recebe a Roma na quarta-feira, 25 de novembro, pela Champions. Veja o horario no Brasil e o contexto do duelo no Parque dos Principes.",
+  deck: "Depois do 3 a 2 sobre o Nice, o Paris vira a chave para a Roma. Para o torcedor brasileiro, o jogo começa as 17h de Brasilia.",
+  category: "Liga dos Campeoes", angle: "Proximo jogo do PSG", date: "2026-11-22", dateLabel: "22 de novembro de 2026", time: "07:30", readingTime: "5 min", keywords: ["PSG Roma horario Brasil", "PSG hoje Champions", "jogo do PSG quarta-feira"],
+  sections: [
+    { heading: "Que horas joga o PSG no Brasil?", paragraphs: ["PSG e Roma se enfrentam na quarta-feira, 25 de novembro, as 21h de Paris, no Parque dos Principes. Em Brasilia, a bola rola as 17h.", "A partida vale pela quinta rodada da fase de liga da Champions League. O horario informado e o da programacao da UEFA; transmissoes podem variar conforme o pacote contratado no Brasil."] },
+    { heading: "O que vem de Nice", paragraphs: ["O PSG venceu o Nice por 3 a 2 no sabado. Senny Mayulu marcou de penalti, Desire Doue fez o segundo e Ferran Torres anotou o terceiro; o Nice ainda descontou nos acrescimos.", "Luis Enrique afirmou apos o jogo que aguardaria os exames de Doue antes de definir a natureza da lesao. Nao ha razao para antecipar um diagnostico ou uma escalação antes da comunicacao do clube."] },
+    { heading: "A leitura para a Champions", paragraphs: ["O Paris ganhou os quatro primeiros jogos europeus, incluindo 6 a 0 contra o Villarreal. A Roma, porem, chega com um desafio diferente e a rodada exige um jogo novo.", "Nossa leitura: a vitoria em Nice da impulso, mas o PSG precisa transformar reacao em controle. Contra a Roma, administrar os momentos sem a bola sera tao importante quanto atacar."] }
+  ],
+  faq: [{ question: "Que horas comeca PSG x Roma em Brasilia?", answer: "As 17h de Brasilia, na quarta-feira, 25 de novembro de 2026." }, { question: "Onde sera PSG x Roma?", answer: "No Parque dos Principes, em Paris." }],
+  sources: [{ name: "UEFA - calendario da Champions", url: "https://pt.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--liga-dos-campeoes-2026-27-calendario-e-resultados-da-fase-de/", note: "Data do PSG x Roma e resultados da fase de liga." }, { name: "PSG.fr - Nice 2-3 PSG", url: "https://www.psg.fr/matchs/football-masculin/20262027/nice-vs-paris-2026-11-21", note: "Placar e gols da partida em Nice." }, { name: "PSG.fr - reacoes apos Nice", url: "https://www.psg.fr/content/luis-enrique-on-a-bien-fait-le-boulot-reactions-ogc-nice-paris-saint-germain-ligue-1-20262027", note: "Declaracoes oficiais apos o jogo." }],
+  internalLinks: [{ label: "Calendario do PSG", url: "/br/calendario-psg/" }, { label: "Noticias do PSG", url: "/br/noticias-psg/" }, { label: "Jogadores do PSG", url: "/br/jogadores-psg/" }, { label: "Historia do PSG", url: "/br/historia-psg/" }]
+}];
