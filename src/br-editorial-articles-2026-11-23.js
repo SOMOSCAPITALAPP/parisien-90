@@ -1,0 +1,15 @@
+export const brEditorialArticles20261123 = [{
+  id: "desire-doue-lesao-psg-roma-horario-brasilia-2026",
+  title: "PSG confirma lesao de Desire Doue antes de enfrentar a Roma: horario do jogo no Brasil",
+  description: "O PSG confirmou a ruptura do ligamento cruzado anterior de Desire Doue. Veja o que se sabe e o horario de PSG x Roma em Brasilia.",
+  deck: "O clube confirmou o diagnostico e anunciou cirurgia ate o fim do mes. Enquanto isso, o PSG se prepara para receber a Roma na Champions.",
+  category: "Liga dos Campeoes", angle: "Noticia do PSG no Brasil", date: "2026-11-23", dateLabel: "23 de novembro de 2026", time: "14:10", readingTime: "5 min", keywords: ["Desire Doue lesao", "PSG Roma horario Brasil", "PSG Champions hoje"],
+  sections: [
+    { heading: "O comunicado do PSG", paragraphs: ["O PSG confirmou que Desire Doue sofreu ruptura do ligamento cruzado anterior do joelho direito na partida contra o Nice. Segundo o clube, o jogador passara por cirurgia ate o fim de novembro.", "O comunicado nao estabelece uma data para o retorno. Por isso, qualquer previsao detalhada de prazo deve ser tratada com cautela ate que o acompanhamento medico avance."] },
+    { heading: "Quando e PSG x Roma no Brasil?", paragraphs: ["O PSG recebe a Roma na quarta-feira, 25 de novembro, no Parque dos Principes, pela quinta rodada da fase de liga da Champions. O inicio esta marcado para 21h em Paris e 17h em Brasilia.", "A programacao oficial inclui treino e entrevista coletiva do PSG na terca-feira. Essas atividades devem oferecer os proximos sinais sobre os jogadores disponiveis para o duelo."] },
+    { heading: "O desafio coletivo", paragraphs: ["Doue marcou no 3 a 2 sobre o Nice antes de sair lesionado. A ausencia tira uma opcao versatil do ataque, mas nao obriga o PSG a procurar uma copia exata do jogador.", "Nossa leitura: contra a Roma, a resposta precisa ser coletiva. O Paris deve preservar suas conexoes, alternar os caminhos de ataque e manter equilibrio nas transicoes."] }
+  ],
+  faq: [{ question: "Qual e a lesao de Desire Doue?", answer: "O PSG confirmou ruptura do ligamento cruzado anterior do joelho direito." }, { question: "Que horas comeca PSG x Roma em Brasilia?", answer: "As 17h de Brasilia, em 25 de novembro de 2026." }],
+  sources: [{ name: "PSG.fr - boletim medico de Desire Doue", url: "https://www.psg.fr/content/communique-medical-concernant-desire-doue-psg-2026-2027", note: "Diagnostico e informacao sobre a cirurgia." }, { name: "PSG.fr - programacao da semana", url: "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-23-au-29-novembre-2026", note: "Data e horario do PSG x Roma." }, { name: "UEFA - Paris x Roma", url: "https://pt.uefa.com/uefachampionsleague/news/02ab-221ddc90f374-0c3e265f84c9-1000--ucl-2027-paris-roma-fatos-e-estatisticas/", note: "Contexto da partida europeia." }],
+  internalLinks: [{ label: "Calendario do PSG", url: "/br/calendario-psg/" }, { label: "Noticias do PSG", url: "/br/noticias-psg/" }, { label: "Jogadores do PSG", url: "/br/jogadores-psg/" }, { label: "Historia do PSG", url: "/br/historia-psg/" }]
+}];
