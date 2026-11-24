@@ -8,16 +8,18 @@ import { editorialArticles20261116 } from "./editorial-articles-2026-11-16.js";
 import { editorialArticles20261121 } from "./editorial-articles-2026-11-21.js";
 import { editorialArticles20261122 } from "./editorial-articles-2026-11-22.js";
 import { editorialArticles20261123 } from "./editorial-articles-2026-11-23.js";
+import { editorialArticles20261124 } from "./editorial-articles-2026-11-24.js";
 
 export const editorialArticlesMeta = {
-  updatedAt: "2026-11-23T14:00:00+01:00",
-  displayDate: "23 novembre 2026",
-  displayTime: "14h00",
+  updatedAt: "2026-11-24T07:20:00+01:00",
+  displayDate: "24 novembre 2026",
+  displayTime: "07h20",
   cadence: "Nouveaux dossiers originaux Parisien 90 publiés régulièrement.",
   rightsNote: "Articles originaux Parisien 90. Les sources factuelles sont citées et liées ; aucun texte tiers n'est repris."
 };
 
 export const editorialArticles = [
+  ...editorialArticles20261124,
   ...editorialArticles20261123,
   ...editorialArticles20261122,
   ...editorialArticles20261121,
